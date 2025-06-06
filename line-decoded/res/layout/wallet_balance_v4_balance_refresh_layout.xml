@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:id="@id/refresh_icon_container" android:background="@drawable/wallet_item_selector_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center" android:id="@id/balance_refresh_icon_view" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/wallet_balance_v4_refresh" android:contentDescription="@string/wallet_balance_reload_button" />
+        <TextView android:id="@id/balance_refresh_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wallet_balance_reload_button" style="@style/wallet_balance_v4_reload_button_text" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

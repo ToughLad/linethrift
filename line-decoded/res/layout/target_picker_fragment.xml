@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/shape_target_picker_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/target_picker_close_button" android:layout_width="@dimen/target_picker_close_button_size" android:layout_height="@dimen/target_picker_close_button_size" android:layout_marginTop="@dimen/target_picker_close_button_margin_top" android:src="@drawable/ic_target_picker_close_button" android:layout_alignParentTop="true" android:contentDescription="@string/access_liff_newfulltype_header_close" android:layout_marginStart="@dimen/target_picker_close_button_margin_start" android:layout_alignParentStart="true" />
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/target_picker_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/target_picker_title_margin_top" android:layout_alignParentTop="true" android:layout_alignParentStart="true" style="@style/TargetPickerTitle" />
+        <com.linecorp.line.webview.WmbWebView android:id="@id/target_picker_webview" android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/target_picker_header_height" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/registration_title_margin_top" android:text="@string/startupflow_easytransfer_title_deviceauth" android:layout_marginHorizontal="24.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Registration.Title" />
+        <TextView android:id="@id/description" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:text="@string/startupflow_easytransfer_desc_deviceauth" app:layout_constraintEnd_toEndOf="@id/title" app:layout_constraintStart_toStartOf="@id/title" app:layout_constraintTop_toBottomOf="@id/title" style="@style/Registration.Description" />
+        <com.airbnb.lottie.LottieAnimationView android:layout_width="0.0dip" android:layout_height="300.0dip" android:layout_marginTop="38.0dip" android:layout_marginBottom="62.0dip" android:layout_marginHorizontal="85.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/title" app:layout_constraintStart_toStartOf="@id/title" app:layout_constraintTop_toBottomOf="@id/description" app:layout_constraintVertical_bias="0.38" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/easy_migration_auth_wait" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

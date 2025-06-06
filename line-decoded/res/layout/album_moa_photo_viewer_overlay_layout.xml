@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/overlay_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/lineblack_alpha65" android:layout_width="fill_parent" android:layout_height="54.0dip" app:layout_constraintTop_toTopOf="parent">
+        <ImageButton android:id="@id/close_btn" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/album_header_ic_back" android:contentDescription="@string/access_close" android:layout_marginStart="8.0dip" app:tint="@color/linewhite" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/linewhite" android:ellipsize="end" android:id="@id/owner_name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/commonFont" />
+            <TextView android:textSize="10.0sp" android:textColor="@color/linewhite" android:id="@id/album_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/album_viewer_button_seealbum" android:drawableEnd="@drawable/album_see_album_suffix_icon" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/owner_name_text" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <ImageButton android:id="@id/menu_btn" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/album_header_ic_more" android:contentDescription="@string/access_menu_more" android:layout_marginEnd="9.0dip" app:tint="@color/linewhite" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/bottom_view" android:background="@color/lineblack_alpha65" android:layout_width="fill_parent" android:layout_height="52.0dip" app:layout_constraintBottom_toBottomOf="parent">
+        <ImageButton android:id="@id/share_btn" android:background="@color/transparent" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="10.0dip" android:src="@drawable/album_moa_ic_share" android:scaleType="fitCenter" android:contentDescription="@string/access_share" />
+        <ImageButton android:layout_gravity="end" android:id="@id/download_btn" android:background="@color/transparent" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="10.0dip" android:src="@drawable/album_moa_ic_download" android:scaleType="fitCenter" android:contentDescription="@string/access_download" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

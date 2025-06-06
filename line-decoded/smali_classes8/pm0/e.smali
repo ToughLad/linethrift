@@ -1,0 +1,145 @@
+.class public final Lpm0/e;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lf7/q;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lpm0/e$a;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lf7/q<",
+        "Lmn0/a;",
+        "Ljava/io/File;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final a:Lrm0/a;
+
+
+# direct methods
+.method public constructor <init>(Lrm0/a;)V
+    .locals 1
+
+    const-string v0, "fileProvider"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lpm0/e;->a:Lrm0/a;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/Object;IILZ6/i;)Lf7/q$a;
+    .locals 0
+
+    check-cast p1, Lmn0/a;
+
+    const-string p2, "model"
+
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string p2, "options"
+
+    invoke-static {p4, p2}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p0, p0, Lpm0/e;->a:Lrm0/a;
+
+    invoke-virtual {p0, p1}, Lrm0/a;->a(Lmn0/a;)Ljava/io/File;
+
+    move-result-object p0
+
+    if-nez p0, :cond_0
+
+    const/4 p0, 0x0
+
+    return-object p0
+
+    :cond_0
+    new-instance p2, Lf7/q$a;
+
+    new-instance p3, Lu7/d;
+
+    invoke-direct {p3, p1}, Lu7/d;-><init>(Ljava/lang/Object;)V
+
+    new-instance p1, LgI/b;
+
+    invoke-direct {p1, p0}, LgI/b;-><init>(Ljava/io/File;)V
+
+    invoke-direct {p2, p3, p1}, Lf7/q$a;-><init>(LZ6/f;Lcom/bumptech/glide/load/data/d;)V
+
+    return-object p2
+.end method
+
+.method public final b(Ljava/lang/Object;)Z
+    .locals 1
+
+    check-cast p1, Lmn0/a;
+
+    const-string v0, "model"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    instance-of v0, p1, Lsm0/h;
+
+    if-nez v0, :cond_0
+
+    instance-of v0, p1, Lsm0/g;
+
+    if-eqz v0, :cond_2
+
+    :cond_0
+    iget-object p0, p0, Lpm0/e;->a:Lrm0/a;
+
+    invoke-virtual {p0, p1}, Lrm0/a;->a(Lmn0/a;)Ljava/io/File;
+
+    move-result-object p0
+
+    if-eqz p0, :cond_1
+
+    invoke-virtual {p0}, Ljava/io/File;->exists()Z
+
+    move-result p0
+
+    invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p0
+
+    goto :goto_0
+
+    :cond_1
+    const/4 p0, 0x0
+
+    :goto_0
+    sget-object p1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/n;->c(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_2
+
+    const/4 p0, 0x1
+
+    return p0
+
+    :cond_2
+    const/4 p0, 0x0
+
+    return p0
+.end method

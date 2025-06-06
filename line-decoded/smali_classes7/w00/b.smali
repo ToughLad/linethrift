@@ -1,0 +1,63 @@
+.class public final Lw00/b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX91/h;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "LX91/h;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final a:Lw00/b;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lw00/b<",
+            "TT;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lw00/b;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    sput-object v0, Lw00/b;->a:Lw00/b;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final test(Ljava/lang/Object;)Z
+    .locals 0
+
+    check-cast p1, Ljava/lang/Long;
+
+    const-string p0, "it"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    sget-object p0, Lw00/c;->a:Lw00/c;
+
+    invoke-static {}, Lw00/c;->b()Z
+
+    move-result p0
+
+    return p0
+.end method

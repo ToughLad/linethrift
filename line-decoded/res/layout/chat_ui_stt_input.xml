@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/chat_ui_stt_input_listening" layout="@layout/chat_ui_stt_input_listening" />
+    <include android:id="@id/chat_ui_stt_input_waiting_confirm" android:visibility="gone" layout="@layout/chat_ui_stt_input_waiting_confirm" />
+</FrameLayout>

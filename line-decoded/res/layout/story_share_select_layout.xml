@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/story_bottom_layout" android:paddingBottom="22.0dip" android:layout_width="wrap_content" android:layout_height="35.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="@color/linewhite_alpha60" android:id="@id/story_share_checkbox" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/timeline_editprofile_toggle_sharetostory" android:shadowColor="@color/linedim30" android:shadowRadius="1.0" android:drawablePadding="7.0dip" android:lineSpacingExtra="-1.0sp" android:paddingStart="5.0dip" app:drawableLeftCompat="@drawable/story_img_checkbox" />
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/linewhite" android:id="@id/story_share_finish" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="16.0dip" android:text="@string/gallery_confirm_ok" />
+</LinearLayout>

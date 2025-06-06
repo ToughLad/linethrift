@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.linecorp.line.userprofile.impl.view.UserProfileDecoView android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/edit_stub" android:layout="@layout/userprofile_deco_edit" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.linecorp.line.userprofile.impl.view.UserProfileDecoView>

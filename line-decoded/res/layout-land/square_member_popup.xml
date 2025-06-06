@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="454.0dip" android:layout_height="310.0dip" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/square_group_popup_group_root_layout" android:background="@drawable/popup_system_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/square_member_popup_group_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="70.0dip" android:layout_marginTop="22.5dip" android:layout_marginRight="70.0dip" android:layout_weight="1.0">
+                <FrameLayout android:layout_width="@dimen/v2_thumbnail_landscape_size_profile_popup" android:layout_height="@dimen/v2_thumbnail_landscape_size_profile_popup" android:layout_marginTop="20.0dip">
+                    <jp.naver.line.android.customview.thumbnail.ThumbImageView android:id="@id/square_member_popup_profile_thumbnail" android:layout_width="@dimen/v2_thumbnail_landscape_size_profile_popup" android:layout_height="@dimen/v2_thumbnail_landscape_size_profile_popup" android:scaleType="centerCrop" />
+                    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/square_member_popup_profile_thumbnail_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" />
+                </FrameLayout>
+                <TextView android:id="@id/square_member_popup_display_name" android:paddingLeft="22.0dip" android:paddingRight="22.0dip" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:includeFontPadding="false" style="@style/profile_dialog_title" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                    <ImageView android:id="@id/square_member_popup_group_type_icon" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:id="@id/square_member_popup_group_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" style="@style/text_popup_profile_id" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:layout_marginBottom="11.0dip">
+                    <TextView android:textSize="11.0sp" android:textColor="#ff9498a0" android:gravity="center" android:id="@id/square_member_popup_report" android:background="@drawable/selector_button_27" android:paddingLeft="13.0dip" android:paddingTop="7.5dip" android:paddingRight="13.0dip" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="64.0dip" android:text="@string/square_group_settings_reportpage_report_btn" />
+                    <TextView android:textSize="11.0sp" android:textColor="#ffe77365" android:gravity="center" android:id="@id/square_member_popup_ban" android:background="@drawable/selector_button_27" android:paddingLeft="13.0dip" android:paddingTop="7.5dip" android:paddingRight="13.0dip" android:paddingBottom="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:minWidth="64.0dip" android:text="@string/square_userpopup_kickout_btn" />
+                    <ImageButton android:gravity="center" android:id="@id/square_member_popup_co_admin" android:background="@drawable/selector_button_27" android:visibility="gone" android:layout_width="31.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:src="@drawable/selector_square_co_admin" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/square_member_popup_loading_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_gravity="center" android:id="@id/settings_app_progress" android:layout_width="30.0dip" android:layout_height="30.0dip" android:indeterminateDrawable="@drawable/progress_circle_blue" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

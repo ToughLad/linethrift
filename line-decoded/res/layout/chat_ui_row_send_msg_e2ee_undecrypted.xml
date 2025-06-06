@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/chat_ui_row_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:backgroundTint="@color/chat_ui_row_msg_highlight_color_selector" android:backgroundTintMode="src_atop"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/chat_ui_row_e2ee_undecrypted_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/chat_ui_ic_e2ee_send_lock" app:tint="@color/linelime750" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/linelime750" android:id="@id/chat_ui_row_e2ee_undecrypted_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/e2ee_message_title" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textSize="13.0sp" android:textColor="@color/linelime750" android:id="@id/chat_ui_row_e2ee_undecrypted_content" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="2.0dip" android:text="@string/e2ee_message_undecryptable_sent" />
+</LinearLayout>

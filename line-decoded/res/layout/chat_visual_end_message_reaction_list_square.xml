@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.linecorp.line.chat.ui.resources.message.message.list.reaction.SquareChatMessageReactButton android:id="@id/chat_ui_react_button" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/chatroom_ic_viewer_reaction_square" android:contentDescription="@string/access_chat_reaction_display" />
+    <ImageView android:id="@id/chat_ui_reaction_icon_view_0" android:layout_width="29.0dip" android:layout_height="26.0dip" android:layout_marginLeft="8.0dip" android:translationZ="2.0dip" />
+    <ImageView android:id="@id/chat_ui_reaction_icon_view_1" android:layout_width="29.0dip" android:layout_height="26.0dip" android:layout_marginLeft="-11.0dip" android:translationZ="1.0dip" />
+    <ImageView android:id="@id/chat_ui_reaction_icon_view_2" android:layout_width="29.0dip" android:layout_height="26.0dip" android:layout_marginLeft="-11.0dip" android:translationZ="0.0dip" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/linewhite" android:id="@id/chat_ui_reaction_count_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:shadowColor="@color/chat_visual_end_message_reaction_count_shadow_color" android:shadowDy="1.0" android:shadowRadius="4.0" />
+</LinearLayout>

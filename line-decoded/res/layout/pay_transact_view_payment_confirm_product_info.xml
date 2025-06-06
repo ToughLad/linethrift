@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="14.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/linegray200" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/payment_confirm_product_amount" android:paddingTop="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/payment_confirm_product_amount_title_text" android:text="@string/pay_payment_product_amount" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/pay_transact_ConfirmLabelTextViewStyle" />
+        <TextView android:id="@id/payment_confirm_product_amount_text" android:paddingTop="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/payment_confirm_product_amount_title_text" app:layout_constraintTop_toTopOf="parent" style="@style/pay_transact_ConfirmContentTextStyle" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/linegray500" android:gravity="end" android:id="@id/payment_confirm_product_exchange_rate_text" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_weight="1.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/payment_confirm_product_amount_text" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/payment_confirm_shipping_amount" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/pay_checkout_shipping_fee" style="@style/pay_transact_ConfirmLabelTextViewStyle" />
+        <TextView android:id="@id/payment_confirm_product_shipping_text" style="@style/pay_transact_ConfirmContentTextViewStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/payment_confirm_product_discount_amount" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/pay_payment_discount" style="@style/pay_transact_ConfirmLabelTextViewStyle" />
+        <TextView android:id="@id/payment_confirm_product_discount_text" style="@style/pay_transact_ConfirmContentTextViewStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/payment_confirm_coupon_discount_amount" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/payment_confirm_coupon_discount_title" android:text="@string/pay_coupon_discount" style="@style/pay_transact_ConfirmLabelTextViewStyle" />
+        <TextView android:id="@id/payment_confirm_coupon_discount_text" style="@style/pay_transact_ConfirmContentTextViewStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/payment_confirm_used_point" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_payment_used_point" style="@style/pay_transact_ConfirmLabelTextViewStyle" />
+        <TextView android:textSize="11.799988sp" android:textColor="@color/linegray600" android:id="@id/payment_confirm_used_point_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.5dip" android:layout_marginRight="15.0dip" />
+        <TextView android:id="@id/payment_confirm_used_point_text" style="@style/pay_transact_ConfirmContentTextViewStyle" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/payment_confirm_additional_discount" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/pay_payment_additional_discount" style="@style/pay_transact_ConfirmLabelTextViewStyle" />
+        <TextView android:id="@id/payment_confirm_additional_discount_text" style="@style/pay_transact_ConfirmContentTextViewStyle" />
+    </LinearLayout>
+</LinearLayout>

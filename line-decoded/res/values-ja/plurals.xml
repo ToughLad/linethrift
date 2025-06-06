@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="access_call_photobooth_button_burstmode">
+        <item quantity="other">連続撮影できる枚数を変更, %d枚</item>
+    </plurals>
+    <plurals name="access_chat_button_starrating">
+        <item quantity="other">1から5までの星の数のうち通話を%dで評価</item>
+    </plurals>
+    <plurals name="access_chathistory_attach_gallery_send_button">
+        <item quantity="other">%1$s件のアイテムを送信</item>
+    </plurals>
+    <plurals name="access_chats_badge_message">
+        <item quantity="other">%d件の未読メッセージ</item>
+    </plurals>
+    <plurals name="access_duration_hours_plurals">
+        <item quantity="other">%d時間</item>
+    </plurals>
+    <plurals name="access_duration_min_plurals">
+        <item quantity="other">%d分</item>
+    </plurals>
+    <plurals name="access_duration_seconds_plurals">
+        <item quantity="other">%d秒</item>
+    </plurals>
+    <plurals name="access_friend_requests_more">
+        <item quantity="other">%1$s件の友だちリクエストを表示します。</item>
+    </plurals>
+    <plurals name="access_hometab_services_twspot_kilometer">
+        <item quantity="other">%1$sキロメートル</item>
+    </plurals>
+    <plurals name="access_hometab_services_twspot_meter">
+        <item quantity="other">%1$sメートル</item>
+    </plurals>
+    <plurals name="access_indicataor_plural">
+        <item quantity="other">%1$sページ中%2$sページ目</item>
+    </plurals>
+    <plurals name="access_new_item_count_badge_plurals">
+        <item quantity="other">%d個の新規アイテム</item>
+    </plurals>
+    <plurals name="access_recommendation_friends_more">
+        <item quantity="other">知り合いかもしれない友だちを%d人表示する</item>
+    </plurals>
+    <plurals name="access_slideshow_photo_edit_plural">
+        <item quantity="other">%1$d番目の写真を編集</item>
+    </plurals>
+    <plurals name="access_slideshow_photo_plural">
+        <item quantity="other">%1$d件中%2$d番目の写真</item>
+    </plurals>
+    <plurals name="access_slideshow_photo_selected_plural">
+        <item quantity="other">%1$d番目の写真を選択しました</item>
+    </plurals>
+    <plurals name="access_timeline_explore_desc_videonumberoflikes">
+        <item quantity="other">%d人がいいねしたおすすめの動画</item>
+    </plurals>
+    <plurals name="access_timeline_poppost_edit">
+        <item quantity="other">この投稿は%d時間後に自動的に削除されます。タップすると自動削除の設定を変更できます。</item>
+    </plurals>
+    <plurals name="access_timeline_shortsviewer_button_numberoflikes">
+        <item quantity="other">%d人がいいねした動画</item>
+    </plurals>
+    <plurals name="access_timeline_shortsviewer_button_shared">
+        <item quantity="other">シェア %d</item>
+    </plurals>
+    <plurals name="access_timeline_shortsviewer_button_videocommented">
+        <item quantity="other">%d人がいいねしたコメント</item>
+    </plurals>
+    <plurals name="access_timeline_storyviewer_button_likecount_plural">
+        <item quantity="other">いいね%s件</item>
+    </plurals>
+    <plurals name="access_timeline_storyviewer_button_viewercount_plural">
+        <item quantity="other">閲覧者%s人</item>
+    </plurals>
+    <plurals name="access_timeline_voom_desc_timevariablemin">
+        <item quantity="other">%d分</item>
+    </plurals>
+    <plurals name="access_timeline_voom_desc_timevariablesec">
+        <item quantity="other">%d秒</item>
+    </plurals>
+    <plurals name="access_tw_bank_balance_shown">
+        <item quantity="other">%1$d台湾ドル</item>
+    </plurals>
+    <plurals name="access_voip_duration_hours_plurals">
+        <item quantity="other">%d時間</item>
+    </plurals>
+    <plurals name="access_voip_duration_min_plurals">
+        <item quantity="other">%d分</item>
+    </plurals>
+    <plurals name="access_voip_duration_seconds_plurals">
+        <item quantity="other">%d秒</item>
+    </plurals>
+    <plurals name="access_wallet_button_linepoint">
+        <item quantity="other">%1$s ポイント</item>
+    </plurals>
+    <plurals name="access_wallet_header_button_linepoint">
+        <item quantity="other">%1$s ポイント</item>
+    </plurals>
+    <plurals name="album_details_mainsubtitle_numberofphotos_plurals">
+        <item quantity="other">写真 %d</item>
+    </plurals>
+    <plurals name="album_details_mainsubtitle_timestamphours_plurals">
+        <item quantity="other">%d時間前</item>
+    </plurals>
+    <plurals name="album_details_mainsubtitle_timestampminutes_plurals">
+        <item quantity="other">%d分前</item>
+    </plurals>
+    <plurals name="album_details_title_numberofphotosselected_plurals">
+        <item quantity="other">%d件選択中</item>
+    </plurals>
+    <plurals name="album_main_desc_albumvideos">
+        <item quantity="other">動画 %d</item>
+    </plurals>
+    <plurals name="album_message_added_pictures_me_plural">
+        <item quantity="other">アルバムに%d件のコンテンツを追加しました</item>
+    </plurals>
+    <plurals name="album_picker_toast_maximumvideo">
+        <item quantity="other">このアルバムに追加できる動画は残り%d個です</item>
+    </plurals>
+    <plurals name="album_picker_toast_videomax_jp">
+        <item quantity="other">このアルバムに追加できる動画は残り%d個です</item>
+    </plurals>
+    <plurals name="alert_exceed_url_length_p">
+        <item quantity="other">リンクは最大%d字まで入力できます。</item>
+    </plurals>
+    <plurals name="blocked_members_plural">
+        <item quantity="other">%1$s人をブロックします。</item>
+    </plurals>
+    <plurals name="call_adStatus_freemiuntes">
+        <item quantity="other">%s分の無料通話を利用できます</item>
+    </plurals>
+    <plurals name="call_call_used_coin_currency_plural">
+        <item quantity="other">%1$s%2$s (%3$sコイン)使用</item>
+    </plurals>
+    <plurals name="call_call_used_coin_plural">
+        <item quantity="other">%1$sコイン使用</item>
+    </plurals>
+    <plurals name="call_call_used_credit_currency_plural">
+        <item quantity="other">%1$s%2$s (%3$sクレジット)使用</item>
+    </plurals>
+    <plurals name="call_call_used_credit_plural">
+        <item quantity="other">%1$sクレジット使用</item>
+    </plurals>
+    <plurals name="call_call_used_minute_plural">
+        <item quantity="other">%1$s分使用</item>
+    </plurals>
+    <plurals name="call_keypad_charge_coin_currency_plural">
+        <item quantity="other">毎分%1$s%2$s (%3$sコイン)</item>
+    </plurals>
+    <plurals name="call_keypad_charge_coin_plural">
+        <item quantity="other">毎分%1$sコイン</item>
+    </plurals>
+    <plurals name="call_keypad_charge_credit_currency_plural">
+        <item quantity="other">毎分%1$s%2$s (%3$sクレジット)</item>
+    </plurals>
+    <plurals name="call_keypad_charge_credit_plural">
+        <item quantity="other">毎分%1$sクレジット</item>
+    </plurals>
+    <plurals name="call_keypad_charge_per_minute_plural">
+        <item quantity="other">%1$s分</item>
+    </plurals>
+    <plurals name="call_keypad_total_balance_coin_plural">
+        <item quantity="other">残高 %1$sコイン</item>
+    </plurals>
+    <plurals name="call_keypad_total_balance_credit_plural">
+        <item quantity="other">残高 %1$sクレジット</item>
+    </plurals>
+    <plurals name="call_photobooth_toast_burstmodechanged">
+        <item quantity="other">連続撮影できる回数が%sに変更されました</item>
+    </plurals>
+    <plurals name="call_photobooth_toast_usersjoinedPuri">
+        <item quantity="other">%1$s、他%2$d人がLINEプリに参加しました</item>
+    </plurals>
+    <plurals name="call_photobooth_toast_usersjoinedgroupcall">
+        <item quantity="other">%1$s、他%2$d人がグループ通話に参加しました</item>
+    </plurals>
+    <plurals name="call_photobooth_toast_usersleftPuri">
+        <item quantity="other">%1$s、他%2$d人がLINEプリを退出しました</item>
+    </plurals>
+    <plurals name="call_photobooth_toast_usersleftgroupcall">
+        <item quantity="other">%1$s、他%2$d人がグループ通話を退出しました</item>
+    </plurals>
+    <plurals name="call_photobooth_tooltip_freeticketinhour">
+        <item quantity="other">約%d時間後に撮影チケットがもらえます</item>
+    </plurals>
+    <plurals name="call_photobooth_tooltip_freeticketinminute">
+        <item quantity="other">%d分後に撮影チケットがもらえます</item>
+    </plurals>
+    <plurals name="call_photobooth_tooltip_freeticketremaining">
+        <item quantity="other">%d枚の撮影チケットがあります！</item>
+    </plurals>
+    <plurals name="call_setting_credit_charge_menu_credit_plural">
+        <item quantity="other">%1$sクレジット (%2$s)</item>
+    </plurals>
+    <plurals name="call_settings_display_currency_coin_plural">
+        <item quantity="other">コイン</item>
+    </plurals>
+    <plurals name="call_settings_display_currency_credit_plural">
+        <item quantity="other">クレジット</item>
+    </plurals>
+    <plurals name="call_watchtogethermenu_desc_daysago">
+        <item quantity="other">%1$d日前</item>
+    </plurals>
+    <plurals name="call_watchtogethermenu_desc_hoursago">
+        <item quantity="other">%1$d時間前</item>
+    </plurals>
+    <plurals name="call_watchtogethermenu_desc_minutesago">
+        <item quantity="other">%1$d分前</item>
+    </plurals>
+    <plurals name="call_watchtogethermenu_desc_monthsago">
+        <item quantity="other">%1$dカ月前</item>
+    </plurals>
+    <plurals name="call_watchtogethermenu_desc_numberofvideos">
+        <item quantity="other">%1$d本</item>
+    </plurals>
+    <plurals name="call_watchtogethermenu_desc_yearsago">
+        <item quantity="other">%1$d年前</item>
+    </plurals>
+    <plurals name="calls_freecount_value">
+        <item quantity="other">本日 残り&lt;font color=\"#f8ff2f\">%1$d回&lt;/font></item>
+    </plurals>
+    <plurals name="calls_freecount_value_new_design">
+        <item quantity="other">本日 残り&lt;font color=\"#FFFC33\">%1$d回&lt;/font></item>
+    </plurals>
+    <plurals name="chat_keyboard_emojiTab_nearlyExpired_description">
+        <item quantity="other">有効期間はあと%1$s日です。</item>
+    </plurals>
+    <plurals name="chat_keyboard_stickersTab_nearlyExpired_description">
+        <item quantity="other">有効期間はあと%1$s日です。</item>
+    </plurals>
+    <plurals name="chat_more_gallery_alert_saved_camerafailed">
+        <item quantity="other">端末に保存しました。(%d個の写真・動画は保存できませんでした)</item>
+    </plurals>
+    <plurals name="chathistory_layer_groupcall_numofmembers">
+        <item quantity="other">&lt;b>&lt;font color=#4CC764>%1$s人&lt;/font>で通話しています。&lt;/b></item>
+    </plurals>
+    <plurals name="coin_history_no_history_plural">
+        <item quantity="other">最近%1$sカ月の履歴はありません。</item>
+    </plurals>
+    <plurals name="err_cannot_attach_over_20_media_p">
+        <item quantity="other">添付は最大%d個までできます。</item>
+    </plurals>
+    <plurals name="err_exceed_post_text_p">
+        <item quantity="other">%d字以内で入力してください。</item>
+    </plurals>
+    <plurals name="err_photo_attach_too_large_p">
+        <item quantity="other">画像1枚あたりの最大サイズは%dMBです。</item>
+    </plurals>
+    <plurals name="err_video_attach_too_large_p">
+        <item quantity="other">動画1本あたりの最大サイズは%dMBです。</item>
+    </plurals>
+    <plurals name="faceplay_collection_multitrophy_num">
+        <item quantity="other">シーズン合計%d回優勝</item>
+    </plurals>
+    <plurals name="faceplay_singlerank_timeleft_day_plural">
+        <item quantity="other">%d日</item>
+    </plurals>
+    <plurals name="faceplay_singlerank_timeleft_hour_plural">
+        <item quantity="other">%d時間</item>
+    </plurals>
+    <plurals name="faceplay_singlerank_timeleft_min_plural">
+        <item quantity="other">%d分</item>
+    </plurals>
+    <plurals name="faceplay_url_msg_challenge">
+        <item quantity="other">"%1$sが%2$sでなんと%3$d点を記録！
+あなたも挑戦してみる？
+このスコアを超えられるかな？Face Play： %4$s://faceplay"</item>
+    </plurals>
+    <plurals name="gallery_alert_exceed_max_selectable_count_p">
+        <item quantity="other">最大%d個まで選択できます。</item>
+    </plurals>
+    <plurals name="gallery_alert_photos_saved_failed">
+        <item quantity="other">端末に保存しました。(%d個の写真・動画は保存できませんでした)</item>
+    </plurals>
+    <plurals name="gallery_camera_max_video_toast2_plural">
+        <item quantity="other">動画は最大%d分まで撮影できます</item>
+    </plurals>
+    <plurals name="gallery_camera_max_video_toast3_plural">
+        <item quantity="other">動画は最大%d秒まで撮影できます</item>
+    </plurals>
+    <plurals name="gallery_camera_max_video_toast4_plural">
+        <item quantity="other">動画は最大%1$d分%2$d秒まで撮影できます</item>
+    </plurals>
+    <plurals name="gallery_do_you_launch_apps_p">
+        <item quantity="other">他のアプリを起動すると、すでに選択した%d枚の写真の選択が解除されます。よろしいですか?</item>
+    </plurals>
+    <plurals name="gallery_do_you_launch_camera_p">
+        <item quantity="other">カメラを起動すると、すでに選択した%d枚の写真の選択が解除されます。よろしいですか?</item>
+    </plurals>
+    <plurals name="gallery_hours_ago_p">
+        <item quantity="other">%d時間前</item>
+    </plurals>
+    <plurals name="gallery_max_media_guide">
+        <item quantity="other">%1$d件までしか送信できません</item>
+    </plurals>
+    <plurals name="gallery_max_photo_guide_plural">
+        <item quantity="other">最大%d枚まで送信できます。</item>
+    </plurals>
+    <plurals name="gallery_max_video_guide_plural">
+        <item quantity="other">最大%d分まで送信できます。</item>
+    </plurals>
+    <plurals name="gallery_max_video_guide_second">
+        <item quantity="other">最大%d秒まで選択できます。</item>
+    </plurals>
+    <plurals name="gallery_minutes_ago_p">
+        <item quantity="other">%d分前</item>
+    </plurals>
+    <plurals name="gallery_photo_count_p">
+        <item quantity="other">%d枚</item>
+    </plurals>
+    <plurals name="gallery_picker_max_media_alert_plural">
+        <item quantity="other">%1$d件までしか送信できません</item>
+    </plurals>
+    <plurals name="gallery_picker_selected_items">
+        <item quantity="other">%d件選択中</item>
+    </plurals>
+    <plurals name="gallery_video_count_p">
+        <item quantity="other">%d個の動画</item>
+    </plurals>
+    <plurals name="gallery_video_launch_external_app_warning_p">
+        <item quantity="other">他のアプリを起動すると、選択した%d件の動画の選択が解除されます。よろしいですか?</item>
+    </plurals>
+    <plurals name="gallery_video_send_all_original">
+        <item quantity="other">選択した動画の編集は、あなたの端末で処理できません。元の動画を送信しますか？</item>
+    </plurals>
+    <plurals name="gallery_video_send_original">
+        <item quantity="other">あなたの端末で動画の編集を処理できないため、%d個の動画は元の動画が送信されます。送信しますか？</item>
+    </plurals>
+    <plurals name="glp_chat_noti_likesentother">
+        <item quantity="other">%1$s、他%2$d人がハートを送りました！</item>
+    </plurals>
+    <plurals name="glp_livescreen_status_daysago">
+        <item quantity="other">%d日前</item>
+    </plurals>
+    <plurals name="glp_livescreen_status_hoursago">
+        <item quantity="other">%d時間前</item>
+    </plurals>
+    <plurals name="glp_livescreen_status_justnow">
+        <item quantity="other">%d分前</item>
+    </plurals>
+    <plurals name="glp_ssaiad_desc_adstartsin">
+        <item quantity="other">%s秒後に開始</item>
+    </plurals>
+    <plurals name="groupcall_call_speaker_many">
+        <item quantity="other">%1$sさんと他%2$s人</item>
+    </plurals>
+    <plurals name="groupcall_call_toast_usersjoinedgroupcall">
+        <item quantity="other">%1$s、他%2$d人がグループ通話に参加しました。</item>
+    </plurals>
+    <plurals name="groupcall_call_toast_usersleftgroupcall">
+        <item quantity="other">%1$s、他%2$d人がグループ通話を退出しました。</item>
+    </plurals>
+    <plurals name="groupcall_voicecall_desc_participantsinvoicecall">
+        <item quantity="other">%1$s、他%2$d人</item>
+    </plurals>
+    <plurals name="hid_members_plural">
+        <item quantity="other">%1$s人を非表示にします。</item>
+    </plurals>
+    <plurals name="home_profile_postcount">
+        <item quantity="other">投稿 %d</item>
+    </plurals>
+    <plurals name="hometab_sticker_categoryquantity">
+        <item quantity="other">%1$s スタンプ</item>
+    </plurals>
+    <plurals name="hours_ago_p">
+        <item quantity="other">%d時間前</item>
+    </plurals>
+    <plurals name="line_appiconsetting_desc_daysleft">
+        <item quantity="other">残り%s日</item>
+    </plurals>
+    <plurals name="line_home_text_description_recentlyupdatedsection">
+        <item quantity="other">過去%d時間に更新した友だちが表示されます</item>
+    </plurals>
+    <plurals name="line_time_days_ago_plural">
+        <item quantity="other">%1$s日前</item>
+    </plurals>
+    <plurals name="line_time_hours_ago_plural">
+        <item quantity="other">%1$s時間前</item>
+    </plurals>
+    <plurals name="line_time_mins_ago_plural">
+        <item quantity="other">%1$s分前</item>
+    </plurals>
+    <plurals name="linemusic_message_desc_albumsongs">
+        <item quantity="other">%1$s曲</item>
+    </plurals>
+    <plurals name="linemusic_message_desc_artistlikes">
+        <item quantity="other">いいね %1$s</item>
+    </plurals>
+    <plurals name="linemusic_message_desc_playlistsongs">
+        <item quantity="other">%1$s曲</item>
+    </plurals>
+    <plurals name="linemusic_message_desc_topicsongs">
+        <item quantity="other">%1$s曲</item>
+    </plurals>
+    <plurals name="linevoom_camera_toast_maximummusic">
+        <item quantity="other">選択したサウンドは最大%d秒まで撮影できます</item>
+    </plurals>
+    <plurals name="linevoom_camera_toast_minimumvideo">
+        <item quantity="other">%d秒以上撮影してください</item>
+    </plurals>
+    <plurals name="linevoom_template_desc_selectexact">
+        <item quantity="other">%d件のコンテンツを選択してください。</item>
+    </plurals>
+    <plurals name="linevoom_template_desc_selectmin">
+        <item quantity="other">少なくとも%d件のコンテンツを選択してください</item>
+    </plurals>
+    <plurals name="linevoom_template_desc_singleitemcount">
+        <item quantity="other">%1$d件</item>
+    </plurals>
+    <plurals name="linevoom_template_toast_clipmax">
+        <item quantity="other">コンテンツは%d件までしか選択できません</item>
+    </plurals>
+    <plurals name="linevoom_template_toast_selectmin">
+        <item quantity="other">少なくとも%d件のコンテンツを選択してください</item>
+    </plurals>
+    <plurals name="linevoom_templatedetails_desc_numberofclips">
+        <item quantity="other">クリップ %d件</item>
+    </plurals>
+    <plurals name="linevoom_templatedetails_desc_numberofitems">
+        <item quantity="other">%d件</item>
+    </plurals>
+    <plurals name="linevoom_usercontent_button_postviewcount">
+        <item quantity="other">閲覧数 %s</item>
+    </plurals>
+    <plurals name="livetalk_floating_desc_listenercount">
+        <item quantity="other">リスナー %d</item>
+    </plurals>
+    <plurals name="livetalk_floating_desc_speakercount">
+        <item quantity="other">スピーカー %d</item>
+    </plurals>
+    <plurals name="livetalk_mainscreen_desc_attendeecount">
+        <item quantity="other">参加者 %d</item>
+    </plurals>
+    <plurals name="livetalk_speakerrequest_desc_requestcount">
+        <item quantity="other">スピーカーリクエスト %s</item>
+    </plurals>
+    <plurals name="localcontacts_sms_error_too_many_user_selected_plurals">
+        <item quantity="other">%1$s人まで選択できます。</item>
+    </plurals>
+    <plurals name="lypp_invitefriend_popup_invitefriendmax">
+        <item quantity="other">招待できる友だちは最大%d人です。</item>
+    </plurals>
+    <plurals name="lypp_joinlypp_desc_days">
+        <item quantity="other">%d日</item>
+    </plurals>
+    <plurals name="lypp_joinlypp_desc_months">
+        <item quantity="other">%dカ月</item>
+    </plurals>
+    <plurals name="lypp_joinlypp_desc_weeks">
+        <item quantity="other">%d週間</item>
+    </plurals>
+    <plurals name="lypp_joinlypp_desc_years">
+        <item quantity="other">%d年</item>
+    </plurals>
+    <plurals name="minutes_ago_p">
+        <item quantity="other">%d分前</item>
+    </plurals>
+    <plurals name="morecategory_friends_counts_plural">
+        <item quantity="other">&lt;b>&lt;font color=#4c5a72>%1$s人&lt;/font>の友だちが使っています&lt;/b></item>
+    </plurals>
+    <plurals name="morecategory_friends_name_and_counts_plural">
+        <item quantity="other">&lt;b>&lt;font color=#4c5a72>%1$s&lt;/font>と他&lt;font color=#4c5a72>%2$s人&lt;/font>の友だちが利用しています。&lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 件の新しい通知</item>
+        <item quantity="one">%d 件の新しい通知</item>
+    </plurals>
+    <plurals name="myhome_a_minutes_ago_plurals">
+        <item quantity="other">%d分前</item>
+    </plurals>
+    <plurals name="myhome_days_ago">
+        <item quantity="other">%1$d日前 %2$s</item>
+    </plurals>
+    <plurals name="myhome_group_invite_complete">
+        <item quantity="other">%s人に招待メッセージを送信しました。</item>
+    </plurals>
+    <plurals name="myhome_hours_ago_plurals">
+        <item quantity="other">%d時間前</item>
+    </plurals>
+    <plurals name="notification_center_message_number">
+        <item quantity="other">%1$d件の新規通知</item>
+    </plurals>
+    <plurals name="notification_receive_message_content_for_lockscreen_plural">
+        <item quantity="other">%1$s件の新規メッセージ</item>
+    </plurals>
+    <plurals name="pay_choose_member_alert_max_member">
+        <item quantity="other">選択できるユーザーは最大%1$s名までです。</item>
+    </plurals>
+    <plurals name="pay_main_targetingbanner_title">
+        <item quantity="other">お知らせ</item>
+    </plurals>
+    <plurals name="pay_member_unit">
+        <item quantity="other">%1$s人</item>
+    </plurals>
+    <plurals name="pay_not_available_user_for_n_member">
+        <item quantity="other">トークルームにいる友だちのうち、%1$s人には依頼することができません。</item>
+    </plurals>
+    <plurals name="pay_payment_message_waiting">
+        <item quantity="other">最大%1$s分程度かかることがあります。</item>
+    </plurals>
+    <plurals name="pay_request_friend_num">
+        <item quantity="other">合計%1$s人</item>
+    </plurals>
+    <plurals name="pay_setting_cardManage_alert_numberRegisteration">
+        <item quantity="other">カードはあと{0}枚登録できます。</item>
+    </plurals>
+    <plurals name="pay_setting_history_page_request_multi">
+        <item quantity="other">%1$s、ほか%2$s人</item>
+    </plurals>
+    <plurals name="pay_transfer_dutch_message_send_multiple">
+        <item quantity="other">%1$s、ほか%2$s人に%3$sの割り勘を依頼しました。</item>
+    </plurals>
+    <plurals name="pay_transfer_request_message_send_multiple">
+        <item quantity="other">%1$s、ほか%2$s人に%3$sの送金を依頼しました。</item>
+    </plurals>
+    <plurals name="pay_transfer_request_message_send_multiple_jp">
+        <item quantity="other">%1$sさん、ほか%2$s人に%3$s相当の送金・送付を依頼しました。</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_animationcounterexceeded">
+        <item quantity="other">アニメーションカウントは%d個までしか追加できません</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_animationstickerexceeded">
+        <item quantity="other">アニメーションスタンプおよび絵文字は%d個までしか追加できません</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_counterexceeded">
+        <item quantity="other">カウント（アニメーションカウントを含む）は%d個までしか追加できません</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_photoframeexceeded">
+        <item quantity="other">写真フレームは%d個までしか追加できません</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_snsnlinkexceeded">
+        <item quantity="other">SNSリンクは%d件までしか追加できません</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_stickerexceeded">
+        <item quantity="other">スタンプおよび絵文字（アニメーションアイテムを含む）は%d個までしか追加できません</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_textexceeded">
+        <item quantity="other">テキストは%d件までしか追加できません</item>
+    </plurals>
+    <plurals name="profile_desc_timelinepostcount">
+        <item quantity="other">LINE VOOM投稿 %s</item>
+    </plurals>
+    <plurals name="profile_generateaiavatar_desc_hoursleft">
+        <item quantity="other">時間</item>
+    </plurals>
+    <plurals name="profile_generateaiavatar_desc_minutesleft">
+        <item quantity="other">分</item>
+    </plurals>
+    <plurals name="profile_socialprofile_title_friends">
+        <item quantity="other">友だち %s</item>
+    </plurals>
+    <plurals name="promotion_friends_invite_pop_plural">
+        <item quantity="other">あと%1$sポイント！</item>
+    </plurals>
+    <plurals name="repair_chathistory_confirm">
+        <item quantity="other">同期しました（%d件のトークルームのトーク履歴を同期しました）。</item>
+    </plurals>
+    <plurals name="repair_chatstab_confirm">
+        <item quantity="other">同期しました（%d件のトークルームを更新しました）。</item>
+    </plurals>
+    <plurals name="repair_friend_confirm">
+        <item quantity="other">同期しました（%d件の友だちを更新しました）。</item>
+    </plurals>
+    <plurals name="repair_group_confirm">
+        <item quantity="other">同期しました（%d件のグループを更新しました）。</item>
+    </plurals>
+    <plurals name="repair_profile_settings_confirm">
+        <item quantity="other">同期しました（%d件のプロフィール・設定を更新しました）。</item>
+    </plurals>
+    <plurals name="search_category_keyword_message_num">
+        <item quantity="other">"'%1$s' %2$s件のメッセージ"</item>
+    </plurals>
+    <plurals name="search_result_message_num">
+        <item quantity="other">%1$s件のメッセージ</item>
+    </plurals>
+    <plurals name="selected_contents">
+        <item quantity="other">%d個</item>
+    </plurals>
+    <plurals name="settings_stickers_premium_premiumset">
+        <item quantity="other">%1$s</item>
+    </plurals>
+    <plurals name="social_noti_days_ago">
+        <item quantity="other">%d日前</item>
+    </plurals>
+    <plurals name="square_friendstab_request_counts">
+        <item quantity="other">参加リクエスト %1$s件</item>
+    </plurals>
+    <plurals name="square_grouppopup_chat_count">
+        <item quantity="other">トーク %s</item>
+    </plurals>
+    <plurals name="square_grouppopup_member_count">
+        <item quantity="other">メンバー %s</item>
+    </plurals>
+    <plurals name="square_grouppopup_post_count">
+        <item quantity="other">ノート %s</item>
+    </plurals>
+    <plurals name="square_joinopenchatlive_desc_numberofattendees">
+        <item quantity="other">参加者 %s</item>
+    </plurals>
+    <plurals name="square_mythreads_button_seemessages">
+        <item quantity="other">&lt;font color=%1$s>%2$s&lt;/font>件のメッセージを見る</item>
+    </plurals>
+    <plurals name="square_openchat_desc_numberofreactions">
+        <item quantity="other">リアクション %d</item>
+    </plurals>
+    <plurals name="square_openchatlivebar_desc_numberofattendees">
+        <item quantity="other">参加者 %s</item>
+    </plurals>
+    <plurals name="square_openchatmember_desc_days">
+        <item quantity="other">%d日前</item>
+    </plurals>
+    <plurals name="square_openchatmember_desc_hours">
+        <item quantity="other">%d時間前</item>
+    </plurals>
+    <plurals name="square_openchatmember_desc_minutes">
+        <item quantity="other">%d分前</item>
+    </plurals>
+    <plurals name="square_post_announcement_seeall_plural">
+        <item quantity="other">%s件の大事なノート</item>
+    </plurals>
+    <plurals name="square_report_policy_message">
+        <item quantity="other">ポリシーに違反したため、%1$s日間オープンチャットをご利用になれません。</item>
+    </plurals>
+    <plurals name="stickershop_detail_auto_exchange_present_confirm_plural">
+        <item quantity="other">"%1$s（%2$sコイン）をプレゼントしますか？
+
+保有しているLINEポイントの一部がコインに自動変換されて消費されます。"</item>
+    </plurals>
+    <plurals name="stickershop_detail_auto_exchange_purchase_confirm_plural">
+        <item quantity="other">"%1$s（%2$sコイン）を購入しますか？
+
+保有しているLINEポイントの一部がコインに自動変換されて消費されます。"</item>
+    </plurals>
+    <plurals name="stickershop_detail_period_text_plural">
+        <item quantity="other">有効期間 - %1$s日</item>
+    </plurals>
+    <plurals name="stickershop_detail_present_confirm_plural">
+        <item quantity="other">%1$s（%2$sコイン)をプレゼントしますか？</item>
+    </plurals>
+    <plurals name="stickershop_detail_purchase_confirm_plural">
+        <item quantity="other">%1$s（%2$sコイン）を購入しますか？</item>
+    </plurals>
+    <plurals name="subprofile_editfriends_toast_profileupdatedplural">
+        <item quantity="other">%d人に表示するプロフィールを変更しました</item>
+    </plurals>
+    <plurals name="subprofile_groupsettings_subtitle_amountofprofile">
+        <item quantity="other">%d個表示中</item>
+    </plurals>
+    <plurals name="subprofile_yourprofile_desc_amountoffriend">
+        <item quantity="other">%d人の友だちに表示中</item>
+    </plurals>
+    <plurals name="timeline_bd_list_member_number">
+        <item quantity="other">友だち%s人</item>
+    </plurals>
+    <plurals name="timeline_bd_list_member_page">
+        <item quantity="other">%1$sの友だち%2$s人</item>
+    </plurals>
+    <plurals name="timeline_bdboardcard_desc_likes">
+        <item quantity="other">いいね %s</item>
+    </plurals>
+    <plurals name="timeline_eventstoryinfo_desc_numberofuserswholikedstory">
+        <item quantity="other">%s人が「いいね」しました。</item>
+    </plurals>
+    <plurals name="timeline_eventstoryinfo_desc_numberofuserswhoviewedstory">
+        <item quantity="other">%s人が閲覧しました。</item>
+    </plurals>
+    <plurals name="timeline_home_profile_postcount">
+        <item quantity="other">投稿 %s</item>
+    </plurals>
+    <plurals name="timeline_intro_statusdesc_followingfriends">
+        <item quantity="other">フォロー中の友だち %d人</item>
+    </plurals>
+    <plurals name="timeline_intro_statusdesc_followingofficialaccount">
+        <item quantity="other">フォロー中の公式アカウント %d個</item>
+    </plurals>
+    <plurals name="timeline_intro_statusdesc_selectedkeyword">
+        <item quantity="other">選択したキーワード %d個</item>
+    </plurals>
+    <plurals name="timeline_intro_title_followingfriends">
+        <item quantity="other">&lt;font color="#22BA4F">%d&lt;/font>人の友だちを&lt;br>フォローしています&lt;/br></item>
+    </plurals>
+    <plurals name="timeline_intro_title_followingofficialaccount">
+        <item quantity="other">&lt;font color="#22BA4F">%d&lt;/font>個の公式アカウントを&lt;br>フォローしています&lt;/br></item>
+    </plurals>
+    <plurals name="timeline_managefriendsandfollows_desc_friendcount">
+        <item quantity="other">友だち %s</item>
+    </plurals>
+    <plurals name="timeline_netacard_summary_usercount">
+        <item quantity="other">人が参加中</item>
+    </plurals>
+    <plurals name="timeline_netacard_usercount">
+        <item quantity="other">%s 人が参加中</item>
+    </plurals>
+    <plurals name="timeline_privacysettings_desc_customlists">
+        <item quantity="other">%1$s、他%2$d件</item>
+    </plurals>
+    <plurals name="timeline_privacysettings_desc_customusers">
+        <item quantity="other">の他%1$d人</item>
+    </plurals>
+    <plurals name="timeline_reaction_comments">
+        <item quantity="other">コメント %s</item>
+    </plurals>
+    <plurals name="timeline_reaction_likes">
+        <item quantity="other">いいね %s</item>
+    </plurals>
+    <plurals name="timeline_reaction_shares">
+        <item quantity="other">シェア %s</item>
+    </plurals>
+    <plurals name="timeline_sound_desc_numberofvideosforsound">
+        <item quantity="other">%s個の動画</item>
+    </plurals>
+    <plurals name="timeline_story_reaction_likes">
+        <item quantity="other">いいね %s</item>
+    </plurals>
+    <plurals name="timeline_storyviewer_desc_like">
+        <item quantity="other">いいね %s</item>
+    </plurals>
+    <plurals name="timeline_storyviewer_desc_viewer">
+        <item quantity="other">閲覧 %s</item>
+    </plurals>
+    <plurals name="timeline_userfollowinfo_tab_followers">
+        <item quantity="other">フォロワー %s</item>
+    </plurals>
+    <plurals name="timeline_userfollowinfo_tab_followersbold">
+        <item quantity="other">フォロワー &lt;b>%s&lt;/b></item>
+    </plurals>
+    <plurals name="timeline_userprofile_desc_followercount">
+        <item quantity="other">フォロワー &lt;b>%1$s&lt;/b></item>
+    </plurals>
+    <plurals name="timeline_video_viewers">
+        <item quantity="other">視聴者 %d</item>
+    </plurals>
+    <plurals name="timeline_voomcommentsection_button_seemorereplies">
+        <item quantity="other">%d件の返信を見る</item>
+    </plurals>
+    <plurals name="timeline_voomlive_button_endofpreviewcountdown">
+        <item quantity="other">プレビュー終了まで%d秒</item>
+    </plurals>
+    <plurals name="timeline_write_sharescope_desc_closefriends">
+        <item quantity="other">– %s人に表示されます。</item>
+    </plurals>
+    <plurals name="timeline_write_sharescope_desc_closefriendsnoimage">
+        <item quantity="other">%s人に表示されます。</item>
+    </plurals>
+    <plurals name="totalcount_p">
+        <item quantity="other">全体%d件</item>
+    </plurals>
+    <plurals name="view_more_comment_p">
+        <item quantity="other">全%d 件のコメント</item>
+    </plurals>
+    <plurals name="wallet_financial_coin">
+        <item quantity="other">%dコイン</item>
+    </plurals>
+    <plurals name="wallet_financial_point">
+        <item quantity="other">%dポイント</item>
+    </plurals>
+    <plurals name="wallet_hotdeal_until_plurals">
+        <item quantity="other">残り%d日</item>
+    </plurals>
+</resources>

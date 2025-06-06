@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.linecorp.line.timeline.view.post.PostProfileImageView android:layout_gravity="bottom" android:id="@id/profile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="37.5dip" android:layout_centerInParent="true" app:profileHeight="32.0dip" app:profileWidth="32.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

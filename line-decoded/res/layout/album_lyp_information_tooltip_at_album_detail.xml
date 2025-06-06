@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/tooltip_arrow" android:background="@drawable/album_common_img_tooltip_arrow_up" android:layout_width="12.0dip" android:layout_height="7.0dip" android:layout_marginStart="52.0dip" />
+    <TextView android:textSize="13.0sp" android:textStyle="normal" android:textColor="@color/linewhite" android:id="@id/tooltip_content" android:background="@drawable/album_common_img_tooltip_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="226.0dip" android:layout_below="@id/tooltip_arrow" android:layout_marginHorizontal="11.0dip" android:paddingHorizontal="12.0dip" android:paddingVertical="11.0dip" />
+</RelativeLayout>

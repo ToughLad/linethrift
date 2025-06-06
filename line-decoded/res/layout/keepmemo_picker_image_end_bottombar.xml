@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/picker_mode_left_selected_index_container" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="28.0dip" android:layout_marginStart="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <ImageView android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/keepmemo_selector_list_number_box" />
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/linewhite" android:layout_gravity="center" android:id="@id/picker_mode_left_selected_index_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent">
+        <ImageView android:id="@id/picker_mode_send_btn" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:src="@drawable/keepmemo_selector_camera_editor_send_button" android:contentDescription="@string/access_send" android:layout_marginEnd="16.0dip" />
+        <LinearLayout android:gravity="center" android:id="@id/picker_mode_right_total_count_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:layout_alignTop="@id/picker_mode_send_btn">
+            <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/linewhite" android:gravity="center" android:id="@id/picker_mode_right_total_count_text" android:background="@drawable/keepmemo_gallery_bottom_ic_send_num" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/selected_items_count_left_margin" android:minWidth="23.0dip" android:minHeight="23.0dip" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

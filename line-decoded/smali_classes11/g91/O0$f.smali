@@ -1,0 +1,29 @@
+.class public final Lg91/O0$f;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lg91/O0$o;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lg91/O0;->k()V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "f"
+.end annotation
+
+
+# virtual methods
+.method public final a(Lg91/O0$y;)V
+    .locals 0
+
+    iget-object p0, p1, Lg91/O0$y;->a:Lg91/o;
+
+    invoke-interface {p0}, Lg91/o;->k()V
+
+    return-void
+.end method

@@ -1,0 +1,117 @@
+.class public final Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodySetToneFragment;
+.super Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodyFragment;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0008\u0000\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u00a8\u0006\u0004"
+    }
+    d2 = {
+        "Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodySetToneFragment;",
+        "Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodyFragment;",
+        "<init>",
+        "()V",
+        "line-call_productionRelease"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final synthetic g:I
+
+
+# instance fields
+.field public final e:Lq21/c$c;
+
+.field public final f:Landroidx/lifecycle/w0;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 5
+
+    invoke-direct {p0}, Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodyFragment;-><init>()V
+
+    sget-object v0, Ll81/c;->TONE_CHOOSE:Ll81/c;
+
+    invoke-virtual {v0}, Ll81/c;->e()Lq21/c$c;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodySetToneFragment;->e:Lq21/c$c;
+
+    new-instance v0, Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodySetToneFragment$a;
+
+    invoke-direct {v0, p0}, Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodySetToneFragment$a;-><init>(Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodySetToneFragment;)V
+
+    sget-object v1, Lkotlin/LazyThreadSafetyMode;->NONE:Lkotlin/LazyThreadSafetyMode;
+
+    new-instance v2, Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodySetToneFragment$b;
+
+    invoke-direct {v2, v0}, Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodySetToneFragment$b;-><init>(Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodySetToneFragment$a;)V
+
+    invoke-static {v1, v2}, Lkotlin/LazyKt;->lazy(Lkotlin/LazyThreadSafetyMode;Lxk1/a;)Lkotlin/Lazy;
+
+    move-result-object v0
+
+    sget-object v1, Lkotlin/jvm/internal/I;->a:Lkotlin/jvm/internal/J;
+
+    const-class v2, Lu41/k;
+
+    invoke-virtual {v1, v2}, Lkotlin/jvm/internal/J;->b(Ljava/lang/Class;)LEk1/d;
+
+    move-result-object v1
+
+    new-instance v2, Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodySetToneFragment$c;
+
+    invoke-direct {v2, v0}, Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodySetToneFragment$c;-><init>(Lkotlin/Lazy;)V
+
+    new-instance v3, Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodySetToneFragment$d;
+
+    invoke-direct {v3, v0}, Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodySetToneFragment$d;-><init>(Lkotlin/Lazy;)V
+
+    new-instance v4, Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodySetToneFragment$e;
+
+    invoke-direct {v4, p0, v0}, Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodySetToneFragment$e;-><init>(Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodySetToneFragment;Lkotlin/Lazy;)V
+
+    new-instance v0, Landroidx/lifecycle/w0;
+
+    invoke-direct {v0, v1, v2, v4, v3}, Landroidx/lifecycle/w0;-><init>(LEk1/d;Lxk1/a;Lxk1/a;Lxk1/a;)V
+
+    iput-object v0, p0, Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodySetToneFragment;->f:Landroidx/lifecycle/w0;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final u3()Lq21/c$c;
+    .locals 0
+
+    iget-object p0, p0, Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodySetToneFragment;->e:Lq21/c$c;
+
+    return-object p0
+.end method
+
+.method public final w3()Lu41/f;
+    .locals 0
+
+    iget-object p0, p0, Lcom/linecorp/voip2/feature/tone/friend/fragment/VoIPMelodySetToneFragment;->f:Landroidx/lifecycle/w0;
+
+    invoke-virtual {p0}, Landroidx/lifecycle/w0;->getValue()Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Lu41/k;
+
+    return-object p0
+.end method

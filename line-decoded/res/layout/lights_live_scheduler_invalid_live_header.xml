@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="30.0dip" android:paddingVertical="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/linewhite" android:gravity="center" android:id="@id/invalid_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/linevoom_live_desc_livevideoended" android:shadowColor="@color/lineblack_alpha50" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="0.5" app:layout_constraintTop_toTopOf="parent" style="@style/commonFont" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:src="@drawable/lights_live_scheduler_invalid_live_divider" android:contentDescription="@null" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/invalid_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

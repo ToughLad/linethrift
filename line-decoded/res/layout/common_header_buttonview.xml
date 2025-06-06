@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/header_button_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/selector_header_button_text_new_design" android:gravity="center" android:layout_gravity="center" android:id="@id/header_button_text" android:paddingLeft="6.0dip" android:paddingRight="6.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" style="@style/CommonTitleBarText" />
+    <jp.naver.line.android.common.view.TintableDImageView android:layout_gravity="center" android:id="@id/header_button_img" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/close" app:srcTintColor="@color/primaryInverseFill" style="@style/CommonTitleBarImage" />
+    <include layout="@layout/common_header_button_badge_views" />
+</FrameLayout>

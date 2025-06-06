@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:paddingTop="35.0dip" android:paddingBottom="28.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/graphic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/line_user_settings_app_icon_app_update_dialog_graphic" android:contentDescription="@null" />
+        <TextView android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/line_appiconsettings_popuptitle_recommendupdate" android:breakStrategy="balanced" style="@style/line_user_settings_app_icon_app_update_dialog_title" />
+        <TextView android:gravity="center" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/line_appiconsettings_popupdesc_recommendupdate" style="@style/line_user_settings_app_icon_app_update_dialog_description" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

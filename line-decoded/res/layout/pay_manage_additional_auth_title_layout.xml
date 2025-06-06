@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/back_arrow_image_view" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/pay_manage_black_arrow" android:layout_marginStart="10.0dip" app:layout_constraintBottom_toBottomOf="@id/title_text_view" app:layout_constraintEnd_toStartOf="@id/title_text_view" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/title_text_view" />
+    <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/linegray700_pressed" android:id="@id/title_text_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginBottom="13.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/back_arrow_image_view" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

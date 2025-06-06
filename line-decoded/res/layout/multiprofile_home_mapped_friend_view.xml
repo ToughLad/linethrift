@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/mapped_friends_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/mapped_friends_icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/imv_add_friend" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/multiprofile_add_button_icon" />
+    <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/linewhite_alpha80" android:id="@id/mapped_friends_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" />
+</LinearLayout>

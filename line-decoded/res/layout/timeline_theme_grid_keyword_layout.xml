@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/timeline_theme_grid_keyword_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/timeline_theme_grid_keyword_layout_height" android:paddingHorizontal="18.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/timeline_theme_grid_keyword_thumbnail" android:background="@drawable/timeline_theme_grid_thumbnail_mask" android:layout_width="55.0dip" android:layout_height="60.0dip" android:contentDescription="@null" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="14.0dip" android:layout_marginVertical="3.5dip">
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/primaryText" android:id="@id/timeline_theme_grid_keyword_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/tertiaryText" android:ellipsize="end" android:id="@id/timeline_theme_grid_keyword_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="3" />
+    </LinearLayout>
+</LinearLayout>

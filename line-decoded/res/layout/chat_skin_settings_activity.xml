@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <HorizontalScrollView android:id="@id/tab_scroll_view" android:paddingTop="14.0dip" android:paddingBottom="20.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/chat_skin_settings_horizontal_padding" android:paddingEnd="@dimen/chat_skin_settings_horizontal_padding">
+        <LinearLayout android:orientation="horizontal" android:id="@id/tab_scroll_content_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/skin_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

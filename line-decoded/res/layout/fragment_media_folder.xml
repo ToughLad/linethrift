@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/bucket_container" android:background="?pickerBackgroundColor" android:visibility="gone" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:id="@id/media_progress_view_group" android:background="?pickerBackgroundColor" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ProgressBar android:layout_gravity="center" android:id="@id/media_progress_bar" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/media_folder_recyclerview" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+</FrameLayout>

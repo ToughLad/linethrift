@@ -1,0 +1,249 @@
+.class public final Lga1/p$a;
+.super Ljava/util/concurrent/atomic/AtomicInteger;
+.source "SourceFile"
+
+# interfaces
+.implements LV91/c;
+.implements LU91/s;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lga1/p;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "a"
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lga1/p$a$a;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/util/concurrent/atomic/AtomicInteger;",
+        "LV91/c;",
+        "LU91/s<",
+        "TT;>;"
+    }
+.end annotation
+
+
+# static fields
+.field private static final serialVersionUID:J = 0x752c1ce874ed53bfL
+
+
+# instance fields
+.field public final a:LU91/c;
+
+.field public final b:Lma1/c;
+
+.field public final c:LRx0/c;
+
+.field public final d:LV91/b;
+
+.field public e:LV91/c;
+
+.field public volatile f:Z
+
+
+# direct methods
+.method public constructor <init>(LU91/c;LRx0/c;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>()V
+
+    iput-object p1, p0, Lga1/p$a;->a:LU91/c;
+
+    iput-object p2, p0, Lga1/p$a;->c:LRx0/c;
+
+    new-instance p1, Lma1/c;
+
+    invoke-direct {p1}, Ljava/util/concurrent/atomic/AtomicReference;-><init>()V
+
+    iput-object p1, p0, Lga1/p$a;->b:Lma1/c;
+
+    new-instance p1, LV91/b;
+
+    invoke-direct {p1}, LV91/b;-><init>()V
+
+    iput-object p1, p0, Lga1/p$a;->d:LV91/b;
+
+    const/4 p1, 0x1
+
+    invoke-virtual {p0, p1}, Ljava/util/concurrent/atomic/AtomicInteger;->lazySet(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/Object;)V
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;)V"
+        }
+    .end annotation
+
+    :try_start_0
+    iget-object v0, p0, Lga1/p$a;->c:LRx0/c;
+
+    invoke-virtual {v0, p1}, LRx0/c;->apply(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, LU91/e;
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    invoke-virtual {p0}, Ljava/util/concurrent/atomic/AtomicInteger;->getAndIncrement()I
+
+    new-instance v0, Lga1/p$a$a;
+
+    invoke-direct {v0, p0}, Lga1/p$a$a;-><init>(Lga1/p$a;)V
+
+    iget-boolean v1, p0, Lga1/p$a;->f:Z
+
+    if-nez v1, :cond_0
+
+    iget-object p0, p0, Lga1/p$a;->d:LV91/b;
+
+    invoke-virtual {p0, v0}, LV91/b;->c(LV91/c;)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_0
+
+    invoke-interface {p1, v0}, LU91/e;->a(LU91/c;)V
+
+    :cond_0
+    return-void
+
+    :catchall_0
+    move-exception p1
+
+    invoke-static {p1}, LAm/g;->n(Ljava/lang/Throwable;)V
+
+    iget-object v0, p0, Lga1/p$a;->e:LV91/c;
+
+    invoke-interface {v0}, LV91/c;->dispose()V
+
+    invoke-virtual {p0, p1}, Lga1/p$a;->onError(Ljava/lang/Throwable;)V
+
+    return-void
+.end method
+
+.method public final b(LV91/c;)V
+    .locals 1
+
+    iget-object v0, p0, Lga1/p$a;->e:LV91/c;
+
+    invoke-static {v0, p1}, LY91/b;->k(LV91/c;LV91/c;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    iput-object p1, p0, Lga1/p$a;->e:LV91/c;
+
+    iget-object p1, p0, Lga1/p$a;->a:LU91/c;
+
+    invoke-interface {p1, p0}, LU91/c;->b(LV91/c;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final dispose()V
+    .locals 1
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, p0, Lga1/p$a;->f:Z
+
+    iget-object v0, p0, Lga1/p$a;->e:LV91/c;
+
+    invoke-interface {v0}, LV91/c;->dispose()V
+
+    iget-object v0, p0, Lga1/p$a;->d:LV91/b;
+
+    invoke-virtual {v0}, LV91/b;->dispose()V
+
+    iget-object p0, p0, Lga1/p$a;->b:Lma1/c;
+
+    invoke-virtual {p0}, Lma1/c;->d()V
+
+    return-void
+.end method
+
+.method public final f()Z
+    .locals 0
+
+    iget-object p0, p0, Lga1/p$a;->e:LV91/c;
+
+    invoke-interface {p0}, LV91/c;->f()Z
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public final onComplete()V
+    .locals 1
+
+    invoke-virtual {p0}, Ljava/util/concurrent/atomic/AtomicInteger;->decrementAndGet()I
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    iget-object v0, p0, Lga1/p$a;->b:Lma1/c;
+
+    iget-object p0, p0, Lga1/p$a;->a:LU91/c;
+
+    invoke-virtual {v0, p0}, Lma1/c;->e(LU91/c;)V
+
+    :cond_0
+    return-void
+.end method
+
+.method public final onError(Ljava/lang/Throwable;)V
+    .locals 1
+
+    iget-object v0, p0, Lga1/p$a;->b:Lma1/c;
+
+    invoke-virtual {v0, p1}, Lma1/c;->c(Ljava/lang/Throwable;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    const/4 p1, 0x1
+
+    iput-boolean p1, p0, Lga1/p$a;->f:Z
+
+    iget-object p1, p0, Lga1/p$a;->e:LV91/c;
+
+    invoke-interface {p1}, LV91/c;->dispose()V
+
+    iget-object p1, p0, Lga1/p$a;->d:LV91/b;
+
+    invoke-virtual {p1}, LV91/b;->dispose()V
+
+    iget-object p1, p0, Lga1/p$a;->b:Lma1/c;
+
+    iget-object p0, p0, Lga1/p$a;->a:LU91/c;
+
+    invoke-virtual {p1, p0}, Lma1/c;->e(LU91/c;)V
+
+    :cond_0
+    return-void
+.end method

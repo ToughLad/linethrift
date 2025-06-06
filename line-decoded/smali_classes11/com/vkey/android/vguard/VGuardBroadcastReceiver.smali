@@ -1,0 +1,1354 @@
+.class public Lcom/vkey/android/vguard/VGuardBroadcastReceiver;
+.super Landroid/content/BroadcastReceiver;
+.source "SourceFile"
+
+
+# static fields
+.field public static final ACTION_FINISH:Ljava/lang/String; = "vkey.android.vguard.Finish"
+
+.field public static final ACTION_SCAN_COMPLETE:Ljava/lang/String; = "vkey.android.vguard.SCAN_COMPLETE"
+
+.field public static final ACTION_SIGNATURE:Ljava/lang/String; = "vkey.android.vguard.SIGNATURE"
+
+.field public static final ACTION_SIGNATURE_RESULT:Ljava/lang/String; = "vkey.android.vguard.SIGNATURE_RESULT"
+
+.field public static final APP_CHECK_COMPLETE:Ljava/lang/String; = "vkey.android.vguard.APP_CHECK_COMPLETE"
+
+.field public static final IS_ENCRYPT:Ljava/lang/String; = "vkey.android.vguard.IS_ENCRYPT"
+
+.field public static final PROFILE_LOADED:Ljava/lang/String; = "vkey.android.vguard.PROFILE_LOADED"
+
+.field public static final PROFILE_THREAT_RESPONSE:Ljava/lang/String; = "vkey.android.vguard.PROFILE_THREAT_RESPONSE"
+
+.field public static final SCAN_COMPLETE_RESULT:Ljava/lang/String; = "vkey.android.vguard.SCAN_COMPLETE_RESULT"
+
+.field public static final VGUARD_ACCESSIBILITY_ENABLED:Ljava/lang/String; = "ACCESSIBILITY_PERMISSION_ENABLED"
+
+.field public static final VGUARD_ALERT_MESSAGE:Ljava/lang/String; = "alertMessage"
+
+.field public static final VGUARD_ALERT_TITLE:Ljava/lang/String; = "alertTitle"
+
+.field public static final VGUARD_DEVELOPER_OPTIONS_ENABLED:Ljava/lang/String; = "vkey.android.vguard.VGUARD_DEVELOPER_OPTIONS_ENABLED"
+
+.field public static final VGUARD_DISABLED_APP_EXPIRED:Ljava/lang/String; = "disabledAppExpired"
+
+.field public static final VGUARD_HANDLE_THREAT_POLICY:Ljava/lang/String; = "vkey.android.vguard.VGUARD_HANDLE_THREAT_POLICY"
+
+.field public static final VGUARD_HIGHEST_THREAT_POLICY:Ljava/lang/String; = "highest_policy"
+
+.field public static final VGUARD_INIT_STATUS:Ljava/lang/String; = "vkey.android.vguard.init_status"
+
+.field public static final VGUARD_MESSAGE:Ljava/lang/String; = "vkey.android.vguard.message"
+
+.field public static final VGUARD_OVERLAY_DETECTED:Ljava/lang/String; = "vkey.android.vguard.VGUARD_OVERLAY_DETECTED"
+
+.field public static final VGUARD_OVERLAY_DETECTED_DISABLE:Ljava/lang/String; = "vkey.android.vguard.VGUARD_OVERLAY_DETECTED_DISABLE"
+
+.field public static final VGUARD_SCREEN_SHARING_DETECTED:Ljava/lang/String; = "vkey.android.vguard.VGUARD_SCREEN_SHARING_DETECTED"
+
+.field public static final VGUARD_SCREEN_SHARING_DISPLAY_NAMES:Ljava/lang/String; = "vkey.android.vguard.VGUARD_SCREEN_SHARING_DISPLAY_NAMES"
+
+.field public static final VGUARD_SEND_TROUBLESHOOTING_LOGS:Ljava/lang/String; = "vkey.android.vguard.VGUARD_SEND_TROUBLESHOOTING_LOGS"
+
+.field public static final VGUARD_SIDELOADED_APP_WITH_ACCESSIBILITY_PERMISSION_DETECTED:Ljava/lang/String; = "vkey.android.vguard.VGUARD_SIDELOADED_APP_WITH_ACCESSIBILITY_PERMISSION_DETECTED"
+
+.field public static final VGUARD_SIDELOADED_PACKAGE_ID:Ljava/lang/String; = "PACKAGE_ID"
+
+.field public static final VGUARD_SIDELOADED_RESULT:Ljava/lang/String; = "vkey.android.vguard.VGUARD_SIDELOADED_RESULT"
+
+.field public static final VGUARD_SIDELOADED_SOURCE:Ljava/lang/String; = "SOURCE_INSTALLED"
+
+.field public static final VGUARD_SSL_ERROR_DETECTED:Ljava/lang/String; = "vkey.android.vguard.VGUARD_SSL_ERROR_DETECTED"
+
+.field public static final VGUARD_STATUS:Ljava/lang/String; = "vkey.android.vguard.status"
+
+.field public static final VGUARD_STOP_OVERLAY_SERVICE:Ljava/lang/String; = "vkey.android.vguard.VGUARD_STOP_OVERLAY_SERVICE"
+
+.field public static final VGUARD_VIRTUAL_SPACE_DETECTED:Ljava/lang/String; = "vkey.android.vguard.VGUARD_VIRTUAL_SPACE_DETECTED"
+
+.field public static final VOS_FIRMWARE_RETURN_CODE_KEY:Ljava/lang/String; = "vkey.android.vguard.FIRMWARE_RETURN_CODE"
+
+.field public static final VOS_READY:Ljava/lang/String; = "vkey.android.vguard.VOS_READY"
+
+.field private static final b:[B
+
+
+# instance fields
+.field private final a:Landroid/app/Activity;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    const/16 v0, 0x488
+
+    new-array v0, v0, [B
+
+    fill-array-data v0, :array_0
+
+    sput-object v0, Lcom/vkey/android/vguard/VGuardBroadcastReceiver;->b:[B
+
+    return-void
+
+    :array_0
+    .array-data 1
+        0x66t
+        -0xbt
+        -0x1ft
+        0x26t
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x29t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        0x1ct
+        -0xft
+        0x8t
+        -0x10t
+        0xet
+        -0x5t
+        -0xat
+        0x19t
+        0x7t
+        -0x1at
+        0x2t
+        0x10t
+        -0xet
+        -0x1t
+        0x12t
+        -0xet
+        0x0t
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x29t
+        -0x6t
+        0x5t
+        0xdt
+        -0xct
+        -0xct
+        -0x3t
+        0x4t
+        0x16t
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x29t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        0x1ct
+        -0xbt
+        -0xft
+        0x10t
+        -0xct
+        0x1t
+        0xat
+        0x12t
+        -0xbt
+        -0xat
+        -0x6t
+        0x12t
+        -0x8t
+        0x6t
+        -0x6t
+        0x19t
+        -0x1at
+        0x2t
+        0x10t
+        -0xet
+        -0x1t
+        0x12t
+        -0xet
+        0x0t
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x1ct
+        0xbt
+        0xdt
+        -0x19t
+        0xat
+        -0xat
+        0x10t
+        0x8t
+        -0x8t
+        0x5t
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x29t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        0x1ct
+        -0x1at
+        0x2t
+        0x12t
+        -0x10t
+        0x8t
+        0x4t
+        0x2t
+        -0xat
+        0xet
+        0xet
+        -0xft
+        0x2t
+        0x5t
+        -0xat
+        0x7t
+        0x0t
+        0x6t
+        0xdt
+        -0x19t
+        0xat
+        -0xct
+        0x2t
+        0xbt
+        -0x6t
+        0x0t
+        0x6t
+        0xbt
+        -0x11t
+        0x2t
+        0xbt
+        -0x6t
+        0x0t
+        -0x22t
+        0x30t
+        0x1t
+        -0x2at
+        0x34t
+        -0x7t
+        -0x6t
+        0xat
+        -0xct
+        0x0t
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x29t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        0x1ct
+        -0xft
+        0x8t
+        -0x10t
+        0xet
+        -0x5t
+        -0xat
+        0x19t
+        0x7t
+        -0x1at
+        0x2t
+        0x10t
+        -0xet
+        -0x1t
+        0x12t
+        -0xet
+        0x0t
+        0x1ct
+        -0x1at
+        0x6t
+        0xbt
+        -0x11t
+        0x2t
+        0xbt
+        -0x6t
+        0xct
+        -0x6t
+        0xet
+        0x3t
+        -0x26t
+        0x19t
+        0xft
+        0x1t
+        -0x11t
+        0x7t
+        -0x1t
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x26t
+        -0x9t
+        -0x1t
+        0x8t
+        -0xct
+        0x14t
+        0x2t
+        -0x2t
+        -0xct
+        0x1bt
+        -0xct
+        -0xct
+        0xft
+        0x3t
+        -0x8t
+        0x9t
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x29t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        0x1ct
+        -0xbt
+        -0x9t
+        -0x4t
+        0x2t
+        0x8t
+        0x4t
+        -0xdt
+        0x4t
+        0x2t
+        0x0t
+        0x1ct
+        -0xct
+        -0xct
+        0xft
+        0x3t
+        -0x8t
+        0x9t
+        -0xet
+        0x3t
+        0x9t
+        -0x9t
+        0x7t
+        -0x1t
+        0x1bt
+        -0x15t
+        -0x4t
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x23t
+        0x3t
+        -0x2t
+        -0x8t
+        0x4t
+        0x4t
+        -0x6t
+        0x1bt
+        -0x12t
+        0x4t
+        -0xdt
+        0x4t
+        0x2t
+        0x0t
+        0x3t
+        0x1t
+        0x3t
+        0xft
+        0x1t
+        -0x9t
+        -0x6t
+        0x8t
+        0x4t
+        -0x2t
+        0xct
+        0x6t
+        0x7t
+        -0xet
+        -0xat
+        0xet
+        -0x4t
+        -0x3t
+        0xbt
+        0x1t
+        -0x9t
+        0x7t
+        0x0t
+        0x12t
+        -0x19t
+        0xat
+        -0xct
+        0x2t
+        0xbt
+        -0x6t
+        0x0t
+        0xct
+        -0x6t
+        0xet
+        0x3t
+        -0x1ft
+        0x16t
+        0xct
+        -0x7t
+        -0x6t
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x40t
+        -0x7t
+        0xft
+        0x1t
+        -0x11t
+        0x7t
+        -0x1t
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x29t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        0x1ct
+        -0xbt
+        -0x9t
+        -0x4t
+        0x2t
+        0x8t
+        0x4t
+        -0xdt
+        0x4t
+        0x2t
+        0x0t
+        0x1ct
+        -0x1dt
+        0x10t
+        0x1t
+        0x10t
+        -0x7t
+        -0xdt
+        0xct
+        -0xbt
+        0x18t
+        -0x1dt
+        0x3t
+        0x1t
+        0x3t
+        0xft
+        0x1t
+        -0x9t
+        -0x6t
+        0x8t
+        0x4t
+        -0x2t
+        0xct
+        0x6t
+        0x7t
+        -0xet
+        -0xat
+        0xet
+        -0x4t
+        -0x3t
+        0xbt
+        0x1t
+        -0x9t
+        0x7t
+        0x0t
+        0x12t
+        -0x1at
+        0x2t
+        0x10t
+        -0xet
+        -0x1t
+        0x12t
+        -0xet
+        0x0t
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x29t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        0x1ct
+        -0xbt
+        0x2t
+        -0x4t
+        0x2t
+        0x10t
+        -0xft
+        0x8t
+        -0x10t
+        0xet
+        -0x5t
+        -0xat
+        0x19t
+        0x7t
+        -0xbt
+        -0xdt
+        0xet
+        0x5t
+        -0xct
+        -0x5t
+        0x3t
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x29t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        0x1ct
+        -0xbt
+        0x1t
+        -0x6t
+        0x14t
+        -0x19t
+        0xet
+        0x1t
+        -0x2t
+        0x4t
+        0xet
+        -0x1at
+        0x2t
+        0x10t
+        -0xet
+        -0x1t
+        0x12t
+        -0xet
+        0x0t
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x14t
+        0x10t
+        0x1t
+        0x10t
+        -0x1bt
+        0x6t
+        -0x2t
+        -0x1t
+        0x9t
+        0x15t
+        -0x1bt
+        0xdt
+        -0x1t
+        0x4t
+        -0x3t
+        -0x6t
+        0x10t
+        -0xet
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x19t
+        0x24t
+        0x6t
+        -0x4t
+        0xbt
+        -0xat
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x26t
+        -0x9t
+        -0x1t
+        0x8t
+        -0xct
+        0x14t
+        0x2t
+        -0x2t
+        -0xct
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x29t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        0x1ct
+        -0xbt
+        -0xft
+        0x10t
+        -0xct
+        0x1t
+        0xat
+        0x12t
+        -0xbt
+        -0xat
+        -0x6t
+        0x12t
+        -0x8t
+        0x6t
+        -0x6t
+        0x19t
+        -0x1at
+        0x6t
+        0xbt
+        -0x2t
+        -0x3t
+        -0xat
+        0x19t
+        0x7t
+        -0x10t
+        -0xct
+        0xdt
+        -0x7t
+        0xft
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x29t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        0x1ct
+        -0x16t
+        -0x6t
+        0xet
+        -0x9t
+        0x9t
+        -0x6t
+        0x1bt
+        -0xat
+        -0xbt
+        0xbt
+        -0xct
+        -0x3t
+        0x14t
+        0xct
+        -0xet
+        0x0t
+        -0x2t
+        -0x2t
+        -0x5t
+        0x17t
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x26t
+        -0xft
+        -0x1t
+        0xet
+        0x12t
+        -0x1bt
+        0xdt
+        -0x1t
+        0x4t
+        -0x3t
+        -0x6t
+        0x10t
+        -0xet
+        0x1bt
+        -0xct
+        -0xct
+        0xft
+        0x3t
+        -0x8t
+        0x9t
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x26t
+        -0xft
+        -0x1t
+        0xet
+        0x12t
+        -0x1bt
+        0xdt
+        -0x1t
+        0x4t
+        -0x3t
+        -0x6t
+        0x10t
+        -0xet
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x46t
+        0x2t
+        -0x12t
+        0x14t
+        0x2t
+        -0x1t
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x29t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        0x1ct
+        -0x8t
+        -0xct
+        0xat
+        0x3t
+        0x2t
+        -0x13t
+        0xct
+        0x14t
+        -0xbt
+        -0x2t
+        -0xet
+        0x3t
+        0x3t
+        0x1bt
+        -0x1at
+        0x2t
+        0x10t
+        -0xet
+        -0x1t
+        0x12t
+        -0xet
+        0x0t
+        -0x3t
+        0x7t
+        -0x2t
+        -0xet
+        0x3t
+        0x1bt
+        -0x15t
+        0x6t
+        0x6t
+        0x2t
+        -0x12t
+        0xct
+        0x1t
+        -0x6t
+        0x0t
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x23t
+        0x3t
+        -0x2t
+        -0x8t
+        0x4t
+        0x4t
+        -0x6t
+        0x1bt
+        -0xat
+        -0xbt
+        0xbt
+        -0xct
+        -0x3t
+        0x14t
+        0xct
+        -0xct
+        -0xct
+        0xft
+        -0x2t
+        0x0t
+        0x0t
+        0x6t
+        -0xdt
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x3ct
+        0x6t
+        -0x4t
+        0xct
+        -0x14t
+        0x15t
+        0x2t
+        -0x12t
+        0x14t
+        0x2t
+        -0x1t
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x29t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        0x1ct
+        -0xbt
+        -0xdt
+        0xat
+        -0x9t
+        0x1ct
+        -0xat
+        -0x1t
+        -0x2t
+        0x7t
+        -0x12t
+        0xbt
+        -0x6t
+        0xft
+        -0xat
+        0x8t
+        0x1t
+        0x6t
+        -0xat
+        0x6t
+        -0x6t
+        0x19t
+        -0x12t
+        0x4t
+        -0x7t
+        0xdt
+        -0xat
+        -0x5t
+        0x15t
+        -0x4at
+        0x34t
+        0xet
+        -0x9t
+        0xft
+        -0x2t
+        -0x5t
+        -0x4t
+        -0x35t
+        0x49t
+        -0xet
+        0xft
+        -0x13t
+        0x12t
+        -0xdt
+        -0x35t
+        0x19t
+        0x4t
+        0xat
+        -0x4t
+        0xbt
+        -0x15t
+        0x12t
+        -0xct
+        0x1bt
+        -0xct
+        -0xct
+        0x10t
+        0x2t
+        -0x2t
+        -0x3t
+        0x12t
+        -0x1bt
+        0xdt
+        -0xat
+        0x2t
+        0x2t
+        -0x1t
+        0x2t
+        -0x2t
+        0xft
+        0x2t
+        -0x14t
+        0x12t
+        0x0t
+        -0x2t
+        -0x2t
+        -0x5t
+        0x17t
+    .end array-data
+.end method
+
+.method public constructor <init>(Landroid/app/Activity;)V
+    .locals 0
+
+    invoke-direct {p0}, Landroid/content/BroadcastReceiver;-><init>()V
+
+    iput-object p1, p0, Lcom/vkey/android/vguard/VGuardBroadcastReceiver;->a:Landroid/app/Activity;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onReceive(Landroid/content/Context;Landroid/content/Intent;)V
+    .locals 8
+
+    sget-object p1, Lcom/vkey/android/vguard/VGuardBroadcastReceiver;->b:[B
+
+    const/16 v0, 0xf
+
+    aget-byte v0, p1, v0
+
+    neg-int v0, v0
+
+    const/16 v1, 0x28
+
+    aget-byte v1, p1, v1
+
+    add-int/lit8 v0, v0, 0x41
+
+    add-int/lit8 v2, v1, 0xa
+
+    new-instance v3, Ljava/lang/String;
+
+    new-array v2, v2, [B
+
+    add-int/lit8 v1, v1, 0x9
+
+    const/16 v4, 0x2a1
+
+    const/4 v5, 0x0
+
+    move v6, v5
+
+    :goto_0
+    int-to-byte v7, v0
+
+    aput-byte v7, v2, v6
+
+    add-int/lit8 v7, v6, 0x1
+
+    if-ne v6, v1, :cond_1
+
+    invoke-direct {v3, v2, v5}, Ljava/lang/String;-><init>([BI)V
+
+    invoke-virtual {v3}, Ljava/lang/String;->intern()Ljava/lang/String;
+
+    move-result-object p1
+
+    invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
+
+    move-result-object p2
+
+    invoke-virtual {p1, p2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    iget-object p1, p0, Lcom/vkey/android/vguard/VGuardBroadcastReceiver;->a:Landroid/app/Activity;
+
+    if-eqz p1, :cond_0
+
+    const/4 p2, 0x1
+
+    invoke-virtual {p1, p2}, Landroid/app/Activity;->moveTaskToBack(Z)Z
+
+    iget-object p0, p0, Lcom/vkey/android/vguard/VGuardBroadcastReceiver;->a:Landroid/app/Activity;
+
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
+
+    :cond_0
+    return-void
+
+    :cond_1
+    aget-byte v6, p1, v4
+
+    add-int/2addr v0, v6
+
+    add-int/lit8 v0, v0, -0x1
+
+    add-int/lit8 v4, v4, 0x1
+
+    move v6, v7
+
+    goto :goto_0
+.end method

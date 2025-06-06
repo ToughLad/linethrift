@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center_horizontal" android:id="@id/video_view_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.linecorp.line.liveplatform.impl.ui.view.ZoomableLayout android:id="@id/zoomable_video_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:isZoomable="false" app:maxZoomScale="8.0" app:minZoomScale="1.0">
+            <com.linecorp.line.liveplatform.impl.ui.view.VideoView android:layout_gravity="center_horizontal" android:id="@id/video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.linecorp.line.liveplatform.impl.ui.view.ZoomableLayout>
+        <TextView android:textSize="22.0sp" android:textColor="@color/linewhite" android:gravity="center" android:layout_gravity="center" android:id="@id/video_zoom_percentage" android:background="@color/grey04" android:padding="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.linecorp.line.liveplatform.impl.ui.view.InactiveImageView android:id="@id/inactive_image" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="@null" />
+        <ImageView android:id="@id/error_view" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="@null" />
+    </FrameLayout>
+    <View android:id="@id/dimmed_view" android:background="@color/lineblack_alpha40" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/video_view_container" android:layout_alignBottom="@id/video_view_container" android:layout_alignStart="@id/video_view_container" android:layout_alignEnd="@id/video_view_container" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/shop_row_user" android:layout_width="fill_parent" android:layout_height="@dimen/shop_my_product_list_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/my_sticker_list_package_row_thumbnail_with_subscription_icon" />
+    <include layout="@layout/shop_my_sticker_list_package_row_name_status" />
+    <include layout="@layout/shop_my_sticker_list_package_row_icons" />
+</LinearLayout>

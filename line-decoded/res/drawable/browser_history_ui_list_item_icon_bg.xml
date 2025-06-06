@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="0.5dip" android:color="@color/quinarySub2Fill" />
+    <solid android:color="@color/transparent" />
+    <size android:height="42.0dip" android:width="42.0dip" />
+    <corners android:radius="5.0dip" />
+</shape>

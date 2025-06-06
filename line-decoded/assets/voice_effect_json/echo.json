@@ -1,0 +1,47 @@
+{
+  "result": [
+    {
+      "effect": "reverb",
+      "property": {
+        "predelay_ms":150.0,
+        "predelayfeedback":0.4,
+        "roomsize":0.6,
+        "damping":0.0,
+        "spread":0.0,
+        "dry":0.5,
+        "wet":0.2,
+        "hpf":0.0
+      }
+    },
+    {
+      "effect": "delay",
+      "property": {
+        "dry":1.0,
+        "tab1active":true,
+        "tab1delay_ms":200.0,
+        "tab1level_db":-9.0,
+        "tab1pan": 0.0,
+        "tab2active":true,
+        "tab2delay_ms":400.0,
+        "tab2level_db":-15.0,
+        "tab2pan": 0.0,
+        "feedbackactive":false,
+        "feedbackdelay_ms":340.0,
+        "feedbacklevel_db":-6.0,
+        "feedbacklowpass": 16000.0
+      }
+    },
+    {
+      "effect": "equalizer",
+      "property": {
+        "preset":"6bands",
+        "band1gain_db":-60.0,
+        "band2gain_db":-42.2,
+        "band3gain_db":0.0,
+        "band4gain_db":0.0,
+        "band5gain_db":0.0,
+        "band6gain_db":0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/group_chat_invite_row" android:visibility="gone" layout="@layout/group_chat_invite_row" />
+    <include android:visibility="gone" layout="@layout/common_list_header" />
+    <include android:id="@id/group_chat_member_row" layout="@layout/group_chat_member_row" />
+</LinearLayout>

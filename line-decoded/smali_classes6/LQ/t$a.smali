@@ -1,0 +1,69 @@
+.class public final LLQ/t$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/util/Comparator;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = LLQ/t;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Ljava/util/Comparator;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public final compare(Ljava/lang/Object;Ljava/lang/Object;)I
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;TT;)I"
+        }
+    .end annotation
+
+    check-cast p1, LbR/h;
+
+    iget-object p0, p1, LbR/h;->b:Ljava/lang/String;
+
+    const-string p1, ""
+
+    if-nez p0, :cond_0
+
+    move-object p0, p1
+
+    :cond_0
+    check-cast p2, LbR/h;
+
+    iget-object p2, p2, LbR/h;->b:Ljava/lang/String;
+
+    if-nez p2, :cond_1
+
+    goto :goto_0
+
+    :cond_1
+    move-object p1, p2
+
+    :goto_0
+    sget-object p2, Ljava/lang/String;->CASE_INSENSITIVE_ORDER:Ljava/util/Comparator;
+
+    invoke-interface {p2, p0, p1}, Ljava/util/Comparator;->compare(Ljava/lang/Object;Ljava/lang/Object;)I
+
+    move-result p0
+
+    return p0
+.end method

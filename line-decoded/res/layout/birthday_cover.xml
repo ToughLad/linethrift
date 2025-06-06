@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.linecorp.line.birthday.impl.ui.cover.BirthdayCoverVideoView android:id="@id/cover_video" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <View android:layout_gravity="bottom" android:id="@id/cover_gradient" android:layout_width="fill_parent" android:layout_height="29.0dip" />
+    <ImageView android:id="@id/cover_profile_image" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <TextView android:textStyle="bold" android:id="@id/cover_profile_name" android:layout_width="0.0dip" android:layout_height="0.0dip" android:singleLine="true" />
+    <TextView android:textStyle="bold" android:id="@id/cover_title" android:layout_width="0.0dip" android:layout_height="0.0dip" android:singleLine="true" />
+    <include android:id="@id/cover_subtitle" layout="@layout/birthday_cover_subtitle" />
+</FrameLayout>

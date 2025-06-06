@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="android_wear_capabilities">
+        <item>line_chat_phone_app</item>
+        <item>seamless_login</item>
+    </string-array>
+    <string-array name="app_specific_language_codes">
+        <item>ja</item>
+        <item>en</item>
+        <item>es-ES</item>
+        <item>es</item>
+        <item>ko</item>
+        <item>zh-CN</item>
+        <item>zh-TW</item>
+        <item>vi</item>
+        <item>tr</item>
+        <item>ru</item>
+        <item>de</item>
+        <item>th</item>
+        <item>fr</item>
+        <item>ms</item>
+        <item>in</item>
+        <item>ar</item>
+        <item>pt-PT</item>
+        <item>pt-BR</item>
+        <item>it</item>
+    </string-array>
+    <string-array name="app_specific_language_ga_codes">
+        <item>ja</item>
+        <item>en</item>
+        <item>es-419</item>
+        <item>es</item>
+        <item>ko</item>
+        <item>zh-Hans</item>
+        <item>zh-Hant</item>
+        <item>vi</item>
+        <item>tr</item>
+        <item>ru</item>
+        <item>de</item>
+        <item>th</item>
+        <item>fr</item>
+        <item>ms</item>
+        <item>in</item>
+        <item>ar</item>
+        <item>pt-PT</item>
+        <item>pt-BR</item>
+        <item>it</item>
+    </string-array>
+    <string-array name="assume_strong_biometrics_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <array name="autosize_text_sizes">
+        <item>17.0sp</item>
+        <item>23.0sp</item>
+    </array>
+    <array name="com_google_android_gms_fonts_certs">
+        <item>@array/com_google_android_gms_fonts_certs_dev</item>
+        <item>@array/com_google_android_gms_fonts_certs_prod</item>
+    </array>
+    <string-array name="com_google_android_gms_fonts_certs_dev">
+        <item>MIIEqDCCA5CgAwIBAgIJANWFuGx90071MA0GCSqGSIb3DQEBBAUAMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTAeFw0wODA0MTUyMzM2NTZaFw0zNTA5MDEyMzM2NTZaMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbTCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBANbOLggKv+IxTdGNs8/TGFy0PTP6DHThvbbR24kT9ixcOd9W+EaBPWW+wPPKQmsHxajtWjmQwWfna8mZuSeJS48LIgAZlKkpFeVyxW0qMBujb8X8ETrWy550NaFtI6t9+u7hZeTfHwqNvacKhp1RbE6dBRGWynwMVX8XW8N1+UjFaq6GCJukT4qmpN2afb8sCjUigq0GuMwYXrFVee74bQgLHWGJwPmvmLHC69EH6kWr22ijx4OKXlSIx2xT1AsSHee70w5iDBiK4aph27yH3TxkXy9V89TDdexAcKk/cVHYNnDBapcavl7y0RiQ4biu8ymM8Ga/nmzhRKya6G0cGw8CAQOjgfwwgfkwHQYDVR0OBBYEFI0cxb6VTEM8YYY6FbBMvAPyT+CyMIHJBgNVHSMEgcEwgb6AFI0cxb6VTEM8YYY6FbBMvAPyT+CyoYGapIGXMIGUMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEQMA4GA1UEChMHQW5kcm9pZDEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDEiMCAGCSqGSIb3DQEJARYTYW5kcm9pZEBhbmRyb2lkLmNvbYIJANWFuGx90071MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEEBQADggEBABnTDPEF+3iSP0wNfdIjIz1AlnrPzgAIHVvXxunW7SBrDhEglQZBbKJEk5kT0mtKoOD1JMrSu1xuTKEBahWRbqHsXclaXjoBADb0kkjVEJu/Lh5hgYZnOjvlba8Ld7HCKePCVePoTJBdI4fvugnL8TsgK05aIskyY0hKI9L8KfqfGTl1lzOv2KoWD0KWwtAWPoGChZxmQ+nBli+gwYMzM1vAkP+aayLe0a1EQimlOalO762r0GXO0ks+UeXde2Z4e+8S/pf7pITEI/tP+MxJTALw9QUWEv9lKTk+jkbqxbsh8nfBUapfKqYn0eidpwq2AzVp3juYl7//fKnaPhJD9gs=</item>
+    </string-array>
+    <string-array name="com_google_android_gms_fonts_certs_prod">
+        <item>MIIEQzCCAyugAwIBAgIJAMLgh0ZkSjCNMA0GCSqGSIb3DQEBBAUAMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDAeFw0wODA4MjEyMzEzMzRaFw0zNjAxMDcyMzEzMzRaMHQxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtHb29nbGUgSW5jLjEQMA4GA1UECxMHQW5kcm9pZDEQMA4GA1UEAxMHQW5kcm9pZDCCASAwDQYJKoZIhvcNAQEBBQADggENADCCAQgCggEBAKtWLgDYO6IIrgqWbxJOKdoR8qtW0I9Y4sypEwPpt1TTcvZApxsdyxMJZ2JORland2qSGT2y5b+3JKkedxiLDmpHpDsz2WCbdxgxRczfey5YZnTJ4VZbH0xqWVW/8lGmPav5xVwnIiJS6HXk+BVKZF+JcWjAsb/GEuq/eFdpuzSqeYTcfi6idkyugwfYwXFU1+5fZKUaRKYCwkkFQVfcAs1fXA5V+++FGfvjJ/CxURaSxaBvGdGDhfXE28LWuT9ozCl5xw4Yq5OGazvV24mZVSoOO0yZ31j7kYvtwYK6NeADwbSxDdJEqO4k//0zOHKrUiGYXtqw/A0LFFtqoZKFjnkCAQOjgdkwgdYwHQYDVR0OBBYEFMd9jMIhF1Ylmn/Tgt9r45jk14alMIGmBgNVHSMEgZ4wgZuAFMd9jMIhF1Ylmn/Tgt9r45jk14aloXikdjB0MQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZvcm5pYTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLR29vZ2xlIEluYy4xEDAOBgNVBAsTB0FuZHJvaWQxEDAOBgNVBAMTB0FuZHJvaWSCCQDC4IdGZEowjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBBAUAA4IBAQBt0lLO74UwLDYKqs6Tm8/yzKkEu116FmH4rkaymUIE0P9KaMftGlMexFlaYjzmB2OxZyl6euNXEsQH8gjwyxCUKRJNexBiGcCEyj6z+a1fuHHvkiaai+KL8W1EyNmgjmyy8AW7P+LLlkR+ho5zEHatRbM/YAnqGcFh5iZBqpknHf1SKMXFh4dd239FJ1jWYfbMDMy3NS5CTMQ2XFI1MvcyUTdZPErjQfTbQe3aDQsQcafEQPD+nqActifKZ0Np0IS9L9kR/wbNvyz6ENwPiTrjV2KRkEjH78ZMcUQXg0L3BYHJ3lc69Vs5Ddf9uUGGMYldX3WfMBEmh/9iFBDAaTCK</item>
+    </string-array>
+    <array name="crypto_fingerprint_fallback_prefixes" />
+    <string-array name="crypto_fingerprint_fallback_vendors">
+        <item>samsung</item>
+    </string-array>
+    <string-array name="default_quick_replies">
+        <item>@string/settings_smartwatch_quickreply_ok</item>
+        <item>@string/settings_smartwatch_quickreply_yes</item>
+        <item>@string/settings_smartwatch_quickreply_no</item>
+        <item>@string/settings_smartwatch_quickreply_gotit</item>
+        <item>@string/settings_smartwatch_quickreply_thanks</item>
+        <item>@string/settings_smartwatch_quickreply_noproblem</item>
+        <item>@string/settings_smartwatch_quickreply_whereareyou</item>
+        <item>@string/settings_smartwatch_willcallyoulater</item>
+        <item>@string/settings_smartwatch_quickreply_onmyway</item>
+        <item>@string/settings_smartwatch_quickreply_drivingnow</item>
+    </string-array>
+    <string-array name="delay_showing_prompt_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="fonts_cert_debug">
+        <item>MIIB5TCCAU6gAwIBAgIETvGYjjANBgkqhkiG9w0BAQUFADA3MQswCQYDVQQGEwJVUzEQMA4GA1UEChMHQW5kcm9pZDEWMBQGA1UEAxMNQW5kcm9pZCBEZWJ1ZzAeFw0xMTEyMjEwODI3NThaFw00MTEyMTMwODI3NThaMDcxCzAJBgNVBAYTAlVTMRAwDgYDVQQKEwdBbmRyb2lkMRYwFAYDVQQDEw1BbmRyb2lkIERlYnVnMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCfNEwL/3RyXyGtGCg3zRLHb/C38N2+bijvPXUuo5ZJ4OIvgtvKCmBCtSynk8fDi+OqVhFQS0tuU+84sClss4Y04WyjxFtnJqSbOVrNweOz5uI71/7u7xIwJiYHncFHtzIMFxTLqJh1sRAq09IUNF1nrJs4ak3nlAuCl9Oy8McCAwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBABkTJKw5+9zA8hF+OSHIas0wkbKXAZ1u8O1aqeahhK6CBJm0PmvLulzN0IT63fjLExBwWYeKh6acIuvGzkQSDgwHp9zIddYAXCl12SVYuh9Brr9VqC7+RcHOenXhtwhpQFhLhPmhYLUjN2eFIn59tEjUzeyomfrWhfpYSh3vkbcE</item>
+    </string-array>
+    <string-array name="fonts_cert_release_2011">
+        <item>MIICqzCCAhSgAwIBAgIETWsBKjANBgkqhkiG9w0BAQUFADCBmDELMAkGA1UEBhMCSlAxDjAMBgNVBAgTBVRva3lvMRswGQYDVQQHExJPb3Nha2kgU2luYWdhd2Eta3UxEzARBgNVBAoTCk5hdmVySmFwYW4xKTAnBgNVBAsTIFNlYXJjaCBTZXJ2aWNlIERldmVsb3BtZW50IDNUZWFtMRwwGgYDVQQDExN0c3V0b211IGhvcml5YXNoaWtpMCAXDTExMDIyODAxNTgwMloYDzIxMTEwMjA0MDE1ODAyWjCBmDELMAkGA1UEBhMCSlAxDjAMBgNVBAgTBVRva3lvMRswGQYDVQQHExJPb3Nha2kgU2luYWdhd2Eta3UxEzARBgNVBAoTCk5hdmVySmFwYW4xKTAnBgNVBAsTIFNlYXJjaCBTZXJ2aWNlIERldmVsb3BtZW50IDNUZWFtMRwwGgYDVQQDExN0c3V0b211IGhvcml5YXNoaWtpMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCNqGsbHHbOnk6ET0AvxQoo5K/FbNhJLZ7kLmfQAupjlChh+gCB4E41Pj9yiPaJd3kpavpBkrSLI42AYu3Gj+68n3gfjI0OoBhGvNlwwxWL1KZUypJwUhfR7Bxam4dtjVkmzGqRM0xejYuXysqVAW2hMDMHkr76s49CxPeESd7wZwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAC2HdP71+BV8sQm1HDuUSGDaDf51Mmbw8fpfbif+cS94Qj7Xl//zg9byq4VWWl+3rkCPrOcvq4wVdMuN5HghudgQmHiPzFt/Bsrt6863wTskAhlNBDPchtZfhq5wnnAyUSLn6zpzmAE1yNjmUJlLnDSdg4V6w7kbZfBSAA/aYffa</item>
+    </string-array>
+    <string-array name="fonts_cert_release_2022">
+        <item>MIIFqjCCA5KgAwIBAgIJANf5MKiKzxwMMA0GCSqGSIb3DQEBDAUAMIGCMQswCQYDVQQGEwJKUDEOMAwGA1UECBMFVG9reW8xHDAaBgNVBAcTE1lvdHN1eWEgU2hpbmp1a3Uta3UxEjAQBgNVBAoTCUxJTkUgQ29ycDEaMBgGA1UECxMRTElORSBBbmRyb2lkIHRlYW0xFTATBgNVBAMTDExJTkUgQW5kcm9pZDAeFw0yMjEyMTkwMTA3MjVaFw00NzEyMTMwMTA3MjVaMIGCMQswCQYDVQQGEwJKUDEOMAwGA1UECBMFVG9reW8xHDAaBgNVBAcTE1lvdHN1eWEgU2hpbmp1a3Uta3UxEjAQBgNVBAoTCUxJTkUgQ29ycDEaMBgGA1UECxMRTElORSBBbmRyb2lkIHRlYW0xFTATBgNVBAMTDExJTkUgQW5kcm9pZDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAJ2WMCMZiyHqX4hnNTULYwHC2eyLAfIJrHJGQ5LbnS60zzORVHHDjDd9UNgNpHCm8+ki1qVR+zFP+VBDcdsg6YrgZsqpfzhSNGW1K1kUSSLeIuRUC43K4vvmu5O8EnWwnlEZoaOdAHoCZ2zeOzZ2wmKcm6UEUwnF7OS3u88RhZoSUHO/0F1gyyDvtog+dqQ15K60SCABgm48gUk6gm8Vnvo0yzCS/vPfempQQcakYcAI7yHJ6YDKmg+/lqGqaG2MfFDS1KFJQBb/HTvxFmiIBfwcvqhh2wGchDFs9rKj1LbVJ4gh8kN7qzZsxIv5qRgcfVAUiSJhaHzdohqwfIbfI6myFmkZNIy/E1fBVve56vXdZKuhQVlGT4utilInuSqLocJCSQgnfPMzOhInGCbefcwwt8JG7htpWTxa+G3415jDvg4Tl3e6NXYAcc9uJ2Cg9OoxiutTXA7/Ml0SPk5ZsXA4WhbrWspD37/NaGWpERMyyglOgUvNvw1M4D8lgy6Nl+eyMi2nF4f+lfSky5Oa0SqBcJVYvmwjaOOC0M1wsXY5Moe19NCGB2Hd0/GT5D4hV6RZDU0oV81++SwUNPQ/0danuEI++Kg85ZAO/fP/vho9cDjbwgY16uKmiMvNiv7ArtGfdtSH04qQWAX2QxeA0jcH4Iq4qZ0qPAqLMltoG3bbAgMBAAGjITAfMB0GA1UdDgQWBBSXya0UU+BdnLQPF+zTiyQnttvLJzANBgkqhkiG9w0BAQwFAAOCAgEAi5VbBHKZFUaz8PKBGC3LIuioz91lTbuI4LV8W8K1t5PlP62seiQrlDoxQbWVFj+5H89P4/Gm47yfvxA/BPeSbZ7CwRffvgupE3Q6/QNAo7A3yvU87Si9hCAAlEE7A5BiwLciO+QuMelJNrZ1G6H7WN80H5P9IYKaKvdHk0WusCn1oJJRBZyCpFJ7eCTgFuYcs6AIjjd/D4YAxyrD+IeUrwLvrz7J/xZzTNBkEO+SmV9O3RDN2zaqgPssDsQAxrbE/UQu4Xu4qI3cUZUUwvYWVT3YlG+kf1++VBvBs4egLH+wDMMkjb6QaztYtiEedkrZJsD5uk5w1jJduohbRBwclGvh+lp7zlP16ogIhWAGeeuACDC7QUZqyv2/avK0NWWXKEdZKqBgIXxCTo7tTa/wdeOY+4JRUsBzbFsZlog+UewpUgU/ybw4/sdE3xzhgsNPgDn75denqWaYdhAEPu3PcfOdNTXUsT3e7rKteiPv4XAh6ebBRwVpENe+vlupTJIKvoxSSJwZWBH46MpUfCmiorKZbpL6PbSi+XLV2OwbHPhcYalBJEuf0Cdiog/BH9AczOm/fR22jOngwbR5NeniWffnZQyY6VNOSZLaN1/H+W4hKsrQN12/3/nf1Qy7rwdRFIU/o0Fh90PhQPqLnf2o5GTIAFLZa4wpyjlJi4t7L7c=</item>
+    </string-array>
+    <array name="fonts_certs">
+        <item>@array/fonts_cert_debug</item>
+        <item>@array/fonts_cert_release_2011</item>
+        <item>@array/fonts_cert_release_2022</item>
+    </array>
+    <string-array name="hide_fingerprint_instantly_prefixes">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </string-array>
+    <array name="install_time_dfm_array" />
+    <array name="lights_viewer_reaction_count_autosize_text_sizes">
+        <item>8.0dip</item>
+        <item>9.0dip</item>
+        <item>10.0dip</item>
+        <item>11.0dip</item>
+        <item>12.0dip</item>
+    </array>
+    <array name="media_picker_edit_colors">
+        <item>@color/picker_media_edit_color_01</item>
+        <item>@color/picker_media_edit_color_02</item>
+        <item>@color/picker_media_edit_color_03</item>
+        <item>@color/picker_media_edit_color_04</item>
+        <item>@color/picker_media_edit_color_05</item>
+        <item>@color/picker_media_edit_color_06</item>
+        <item>@color/picker_media_edit_color_07</item>
+        <item>@color/picker_media_edit_color_08</item>
+        <item>@color/picker_media_edit_color_09</item>
+        <item>@color/picker_media_edit_color_10</item>
+        <item>@color/picker_media_edit_color_11</item>
+        <item>@color/picker_media_edit_color_12</item>
+        <item>@color/picker_media_edit_color_13</item>
+        <item>@color/picker_media_edit_color_14</item>
+        <item>@color/picker_media_edit_color_15</item>
+        <item>@color/picker_media_edit_color_16</item>
+        <item>@color/picker_media_edit_color_17</item>
+        <item>@color/picker_media_edit_color_18</item>
+        <item>@color/picker_media_edit_color_19</item>
+    </array>
+    <array name="picker_media_picker_edit_colors">
+        <item>@color/picker_media_edit_color_01</item>
+        <item>@color/picker_media_edit_color_02</item>
+        <item>@color/picker_media_edit_color_03</item>
+        <item>@color/picker_media_edit_color_04</item>
+        <item>@color/picker_media_edit_color_05</item>
+        <item>@color/picker_media_edit_color_06</item>
+        <item>@color/picker_media_edit_color_07</item>
+        <item>@color/picker_media_edit_color_08</item>
+        <item>@color/picker_media_edit_color_09</item>
+        <item>@color/picker_media_edit_color_10</item>
+        <item>@color/picker_media_edit_color_11</item>
+        <item>@color/picker_media_edit_color_12</item>
+        <item>@color/picker_media_edit_color_13</item>
+        <item>@color/picker_media_edit_color_14</item>
+        <item>@color/picker_media_edit_color_15</item>
+        <item>@color/picker_media_edit_color_16</item>
+        <item>@color/picker_media_edit_color_17</item>
+        <item>@color/picker_media_edit_color_18</item>
+        <item>@color/picker_media_edit_color_19</item>
+    </array>
+    <array name="picker_media_picker_edit_type_strong_text_colors">
+        <item>@color/picker_media_edit_type_strong_text_color_01</item>
+        <item>@color/picker_media_edit_type_strong_text_color_02</item>
+        <item>@color/picker_media_edit_type_strong_text_color_03</item>
+        <item>@color/picker_media_edit_type_strong_text_color_04</item>
+        <item>@color/picker_media_edit_type_strong_text_color_05</item>
+        <item>@color/picker_media_edit_type_strong_text_color_06</item>
+        <item>@color/picker_media_edit_type_strong_text_color_07</item>
+        <item>@color/picker_media_edit_type_strong_text_color_08</item>
+        <item>@color/picker_media_edit_type_strong_text_color_09</item>
+        <item>@color/picker_media_edit_type_strong_text_color_10</item>
+        <item>@color/picker_media_edit_type_strong_text_color_11</item>
+        <item>@color/picker_media_edit_type_strong_text_color_12</item>
+        <item>@color/picker_media_edit_type_strong_text_color_13</item>
+        <item>@color/picker_media_edit_type_strong_text_color_14</item>
+        <item>@color/picker_media_edit_type_strong_text_color_15</item>
+        <item>@color/picker_media_edit_type_strong_text_color_16</item>
+        <item>@color/picker_media_edit_type_strong_text_color_17</item>
+        <item>@color/picker_media_edit_type_strong_text_color_18</item>
+        <item>@color/picker_media_edit_type_strong_text_color_19</item>
+    </array>
+    <array name="picker_media_picker_edit_type_underline_effect_colors">
+        <item>@color/picker_media_edit_type_underline_effect_color_01</item>
+        <item>@color/picker_media_edit_color_02</item>
+        <item>@color/picker_media_edit_color_03</item>
+        <item>@color/picker_media_edit_color_04</item>
+        <item>@color/picker_media_edit_color_05</item>
+        <item>@color/picker_media_edit_color_06</item>
+        <item>@color/picker_media_edit_color_07</item>
+        <item>@color/picker_media_edit_color_08</item>
+        <item>@color/picker_media_edit_color_09</item>
+        <item>@color/picker_media_edit_color_10</item>
+        <item>@color/picker_media_edit_color_11</item>
+        <item>@color/picker_media_edit_color_12</item>
+        <item>@color/picker_media_edit_color_13</item>
+        <item>@color/picker_media_edit_color_14</item>
+        <item>@color/picker_media_edit_color_15</item>
+        <item>@color/picker_media_edit_color_16</item>
+        <item>@color/picker_media_edit_color_17</item>
+        <item>@color/picker_media_edit_color_18</item>
+        <item>@color/picker_media_edit_color_19</item>
+    </array>
+    <array name="picker_media_picker_edit_type_underline_text_colors">
+        <item>@color/picker_media_edit_type_underline_text_color_01</item>
+        <item>@color/picker_media_edit_type_underline_text_color_02</item>
+        <item>@color/picker_media_edit_type_underline_text_color_03</item>
+        <item>@color/picker_media_edit_type_underline_text_color_04</item>
+        <item>@color/picker_media_edit_type_underline_text_color_05</item>
+        <item>@color/picker_media_edit_type_underline_text_color_06</item>
+        <item>@color/picker_media_edit_type_underline_text_color_07</item>
+        <item>@color/picker_media_edit_type_underline_text_color_08</item>
+        <item>@color/picker_media_edit_type_underline_text_color_09</item>
+        <item>@color/picker_media_edit_type_underline_text_color_10</item>
+        <item>@color/picker_media_edit_type_underline_text_color_11</item>
+        <item>@color/picker_media_edit_type_underline_text_color_12</item>
+        <item>@color/picker_media_edit_type_underline_text_color_13</item>
+        <item>@color/picker_media_edit_type_underline_text_color_14</item>
+        <item>@color/picker_media_edit_type_underline_text_color_15</item>
+        <item>@color/picker_media_edit_type_underline_text_color_16</item>
+        <item>@color/picker_media_edit_type_underline_text_color_17</item>
+        <item>@color/picker_media_edit_type_underline_text_color_18</item>
+        <item>@color/picker_media_edit_type_underline_text_color_19</item>
+    </array>
+    <array name="picker_text_mode_alignment_button_resources">
+        <item>@drawable/picker_selector_text_align_center_button</item>
+        <item>@drawable/picker_selector_text_align_left_button</item>
+        <item>@drawable/picker_selector_text_align_right_button</item>
+    </array>
+    <array name="preloaded_fonts">
+        <item>@font/picker_noto_color_emoji_compat</item>
+    </array>
+    <string-array name="sideload_check_translation_ar">
+        <item>يجب إعادة تثبيت التطبيق</item>
+        <item>احذف الإصدار الأصلي لتطبيق LINE وأعد تثبيته.</item>
+        <item>التحديث مطلوب</item>
+        <item>بعض المكونات غير مثبتة. يرجى تحديث LINE عبر متجر Google Play.</item>
+    </string-array>
+    <string-array name="sideload_check_translation_de">
+        <item>App muss neu installiert werden</item>
+        <item>Lösche die off. LINE-Vers. und inst. sie neu.</item>
+        <item>Update erforderlich</item>
+        <item>Einige Komponenten sind nicht installiert. Bitte aktualisiere LINE über den Google Play Store.</item>
+    </string-array>
+    <string-array name="sideload_check_translation_en">
+        <item>App reinstallation required</item>
+        <item>Delete and reinstall the official version of LINE.</item>
+        <item>Update required</item>
+        <item>Some components are not installed. Please update LINE via the Google Play Store.</item>
+    </string-array>
+    <string-array name="sideload_check_translation_es">
+        <item>Versión oficial necesaria</item>
+        <item>Elimina tu LINE e instala la versión oficial.</item>
+        <item>Actualízate</item>
+        <item>Faltan algunos componentes. Actualiza tu LINE desde Google Play Store.</item>
+    </string-array>
+    <string-array name="sideload_check_translation_es_rES">
+        <item>Versión oficial necesaria</item>
+        <item>Elimina tu LINE e instala la versión oficial.</item>
+        <item>Actualízate</item>
+        <item>Faltan algunos componentes. Actualiza tu LINE desde Google Play Store.</item>
+    </string-array>
+    <string-array name="sideload_check_translation_fr">
+        <item>"Réinstallation de l'app requise"</item>
+        <item>Suppr. et réinstaller vers. officielle de LINE</item>
+        <item>Mise à jour requise</item>
+        <item>Certains composants ne sont pas installés. Veuillez mettre à jour LINE via le Google Play Store.</item>
+    </string-array>
+    <string-array name="sideload_check_translation_in">
+        <item>Aplikasi perlu diinstal ulang</item>
+        <item>Hapus dan instal ulang versi resmi LINE.</item>
+        <item>Harap Update</item>
+        <item>Beberapa komponen belum terinstal. Harap update LINE melalui Google Play Store.</item>
+    </string-array>
+    <string-array name="sideload_check_translation_it">
+        <item>"Reinstallazione dell'app richiesta"</item>
+        <item>Elimina e reinstalla versione ufficiale di LINE</item>
+        <item>Aggiornamento necessario</item>
+        <item>Alcuni componenti non sono installati. Aggiorna LINE tramite Google Play Store.</item>
+    </string-array>
+    <string-array name="sideload_check_translation_ja">
+        <item>再インストールのご案内</item>
+        <item>LINEを削除して公式バージョンを再インストールしてください。</item>
+        <item>アップデートが必要です</item>
+        <item>インストールされていないコンポーネントがあります。Google Play ストアでLINEをアップデートしてください。</item>
+    </string-array>
+    <string-array name="sideload_check_translation_ko">
+        <item>앱 삭제 후 재설치 필요</item>
+        <item>현재 LINE을 삭제하고 공식 버전으로 재설치해 주세요.</item>
+        <item>앱 업데이트 필요</item>
+        <item>일부 구성 요소가 설치되지 않았습니다. Google Play 스토어에서 앱을 업데이트해 주세요.</item>
+    </string-array>
+    <string-array name="sideload_check_translation_ms">
+        <item>Aplikasi perlu dipasangkan semula</item>
+        <item>Padamkan dan pasangkan semula LINE versi rasmi.</item>
+        <item>Kemas kini diperlukan</item>
+        <item>Beberapa komponen tidak dipasangkan. Sila kemas kini LINE melalui Google Play Store.</item>
+    </string-array>
+    <string-array name="sideload_check_translation_pt_rBR">
+        <item>Reinstalação de aplicativo necessária</item>
+        <item>Exclua e reinstale a versão oficial do LINE.</item>
+        <item>Atualização necessária</item>
+        <item>Alguns componentes não foram instalados. Atualize o LINE acessando a Google Play Store.</item>
+    </string-array>
+    <string-array name="sideload_check_translation_pt_rPT">
+        <item>Necessária reinstalação da aplicação</item>
+        <item>Elimine e reinstale a versão oficial do LINE.</item>
+        <item>Atualização necessária</item>
+        <item>Alguns componentes não estão instalados. Atualize o LINE através da Play Store do Google.</item>
+    </string-array>
+    <string-array name="sideload_check_translation_ru">
+        <item>Необходимо переустановить приложение</item>
+        <item>Переустановите официальную версию LINE.</item>
+        <item>Требуется обновление</item>
+        <item>Некоторые компоненты не установлены. Обновите приложение LINE через Google Play Store.</item>
+    </string-array>
+    <string-array name="sideload_check_translation_th">
+        <item>ต้องติดตั้งแอพใหม่อีกครั้ง</item>
+        <item>โปรดลบแล้วติดตั้ง LINE เวอร์ชันทางการใหม่อีกครั้ง</item>
+        <item>โปรดอัพเดตแอป</item>
+        <item>การติดตั้งแอปบางส่วนไม่สมบูรณ์ โปรดอัพเดต LINE ผ่าน Google Play Store</item>
+    </string-array>
+    <string-array name="sideload_check_translation_tr">
+        <item>Uygulamanın yeniden yüklenmesi gerekiyor</item>
+        <item>"LINE'ın resmi sürümünü silip yeniden yükleyin."</item>
+        <item>Güncelleme gerekli</item>
+        <item>"Bazı bileşenler yüklü değil. Lütfen Google Play Store'dan LINE'ı güncelleyin."</item>
+    </string-array>
+    <string-array name="sideload_check_translation_vi">
+        <item>Yêu cầu cài đặt lại ứng dụng</item>
+        <item>Xóa và cài đặt lại phiên bản LINE chính thức.</item>
+        <item>Yêu cầu cập nhật</item>
+        <item>Một số cấu phần chưa được cập nhật. Vui lòng cập nhật LINE qua Cửa hàng Google Play.</item>
+    </string-array>
+    <string-array name="sideload_check_translation_zh_rCN">
+        <item>需要重新安装应用</item>
+        <item>删除并重新安装官方版本的LINE。</item>
+        <item>请更新应用</item>
+        <item>部分组件未安装，请通过Google Play商店更新LINE。</item>
+    </string-array>
+    <string-array name="sideload_check_translation_zh_rTW">
+        <item>應用程式須重新安裝！</item>
+        <item>請刪除LINE並透過官方平台重新安裝。</item>
+        <item>需要更新</item>
+        <item>由於部分元件未妥善安裝，請前往Google Play商店更新LINE應用程式。</item>
+    </string-array>
+    <integer-array name="square_chat_max_member_counts">
+        <item>5</item>
+        <item>7</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>900</item>
+        <item>1000</item>
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+    </integer-array>
+    <array name="text_mode_type_cartoon_background_colors">
+        <item>@color/text_mode_type_cartoon_background_color_1</item>
+        <item>@color/text_mode_type_cartoon_background_color_2</item>
+        <item>@color/text_mode_type_cartoon_background_color_3</item>
+    </array>
+    <array name="text_mode_type_download_background_colors">
+        <item>@color/text_mode_type_download_background_color_1</item>
+        <item>@color/text_mode_type_download_background_color_2</item>
+        <item>@color/text_mode_type_download_background_color_3</item>
+        <item>@color/text_mode_type_download_background_color_4</item>
+        <item>@color/text_mode_type_download_background_color_5</item>
+        <item>@color/text_mode_type_download_background_color_6</item>
+    </array>
+    <array name="text_mode_type_gradient_background_button_colors">
+        <item>@color/text_mode_type_gradient_background_button_color_1</item>
+        <item>@color/text_mode_type_gradient_background_button_color_2</item>
+        <item>@color/text_mode_type_gradient_background_button_color_3</item>
+    </array>
+    <array name="text_mode_type_gradient_background_colors">
+        <item>@drawable/text_mode_type_gradient_background_1</item>
+        <item>@drawable/text_mode_type_gradient_background_2</item>
+        <item>@drawable/text_mode_type_gradient_background_3</item>
+    </array>
+    <array name="text_mode_type_normal_background_colors">
+        <item>@color/text_mode_type_normal_background_color_1</item>
+        <item>@color/text_mode_type_normal_background_color_2</item>
+        <item>@color/text_mode_type_normal_background_color_3</item>
+        <item>@color/text_mode_type_normal_background_color_4</item>
+        <item>@color/text_mode_type_normal_background_color_5</item>
+        <item>@color/text_mode_type_normal_background_color_6</item>
+    </array>
+    <array name="text_mode_type_strong_background_colors">
+        <item>@color/text_mode_type_strong_background_color_1</item>
+        <item>@color/text_mode_type_strong_background_color_2</item>
+        <item>@color/text_mode_type_strong_background_color_3</item>
+    </array>
+    <array name="text_mode_type_strong_effect_colors">
+        <item>@color/text_mode_type_strong_effect_color_1</item>
+        <item>@color/text_mode_type_strong_effect_color_2</item>
+        <item>@color/text_mode_type_strong_effect_color_3</item>
+    </array>
+    <array name="text_mode_type_strong_key_colors">
+        <item>@color/picker_media_edit_color_01</item>
+        <item>@color/picker_media_edit_color_05</item>
+        <item>@color/picker_media_edit_color_02</item>
+    </array>
+    <array name="text_mode_type_strong_text_colors">
+        <item>@color/text_mode_type_strong_text_color_1</item>
+        <item>@color/text_mode_type_strong_text_color_2</item>
+        <item>@color/text_mode_type_strong_text_color_3</item>
+    </array>
+    <array name="text_mode_type_underline_background_colors">
+        <item>@color/text_mode_type_underline_background_color_1</item>
+        <item>@color/text_mode_type_underline_background_color_2</item>
+    </array>
+    <array name="text_mode_type_underline_effect_colors">
+        <item>@color/text_mode_type_underline_effect_color_1</item>
+        <item>@color/text_mode_type_underline_effect_color_2</item>
+    </array>
+    <array name="text_mode_type_underline_key_colors">
+        <item>@color/text_mode_type_underline_effect_color_1</item>
+        <item>@color/text_mode_type_underline_effect_color_2</item>
+    </array>
+    <array name="text_mode_type_underline_text_colors">
+        <item>@color/text_mode_type_underline_text_color_1</item>
+        <item>@color/text_mode_type_underline_text_color_2</item>
+    </array>
+    <array name="userprofile_deco_text_mode_alignment_button_resources">
+        <item>@drawable/selector_text_align_left_button</item>
+        <item>@drawable/selector_text_align_center_button</item>
+        <item>@drawable/selector_text_align_right_button</item>
+    </array>
+    <array name="voom_camera_editor_impl_colors">
+        <item>@color/voom_camera_model_color_01</item>
+        <item>@color/voom_camera_model_color_02</item>
+        <item>@color/voom_camera_model_color_03</item>
+        <item>@color/voom_camera_model_color_04</item>
+        <item>@color/voom_camera_model_color_05</item>
+        <item>@color/voom_camera_model_color_06</item>
+        <item>@color/voom_camera_model_color_07</item>
+        <item>@color/voom_camera_model_color_08</item>
+        <item>@color/voom_camera_model_color_09</item>
+        <item>@color/voom_camera_model_color_10</item>
+        <item>@color/voom_camera_model_color_11</item>
+        <item>@color/voom_camera_model_color_12</item>
+        <item>@color/voom_camera_model_color_13</item>
+        <item>@color/voom_camera_model_color_14</item>
+        <item>@color/voom_camera_model_color_15</item>
+        <item>@color/voom_camera_model_color_16</item>
+        <item>@color/voom_camera_model_color_17</item>
+        <item>@color/voom_camera_model_color_18</item>
+        <item>@color/voom_camera_model_color_19</item>
+        <item>@color/voom_camera_model_color_20</item>
+        <item>@color/voom_camera_model_color_21</item>
+        <item>@color/voom_camera_model_color_22</item>
+        <item>@color/voom_camera_model_color_23</item>
+        <item>@color/voom_camera_model_color_24</item>
+    </array>
+    <array name="voom_camera_editor_impl_type_strong_text_colors">
+        <item>@color/voom_camera_model_type_strong_text_color_01</item>
+        <item>@color/voom_camera_model_type_strong_text_color_02</item>
+        <item>@color/voom_camera_model_type_strong_text_color_03</item>
+        <item>@color/voom_camera_model_type_strong_text_color_04</item>
+        <item>@color/voom_camera_model_type_strong_text_color_05</item>
+        <item>@color/voom_camera_model_type_strong_text_color_06</item>
+        <item>@color/voom_camera_model_type_strong_text_color_07</item>
+        <item>@color/voom_camera_model_type_strong_text_color_08</item>
+        <item>@color/voom_camera_model_type_strong_text_color_09</item>
+        <item>@color/voom_camera_model_type_strong_text_color_10</item>
+        <item>@color/voom_camera_model_type_strong_text_color_11</item>
+        <item>@color/voom_camera_model_type_strong_text_color_12</item>
+        <item>@color/voom_camera_model_type_strong_text_color_13</item>
+        <item>@color/voom_camera_model_type_strong_text_color_14</item>
+        <item>@color/voom_camera_model_type_strong_text_color_15</item>
+        <item>@color/voom_camera_model_type_strong_text_color_16</item>
+        <item>@color/voom_camera_model_type_strong_text_color_17</item>
+        <item>@color/voom_camera_model_type_strong_text_color_18</item>
+        <item>@color/voom_camera_model_type_strong_text_color_19</item>
+        <item>@color/voom_camera_model_type_strong_text_color_20</item>
+        <item>@color/voom_camera_model_type_strong_text_color_21</item>
+        <item>@color/voom_camera_model_type_strong_text_color_22</item>
+        <item>@color/voom_camera_model_type_strong_text_color_23</item>
+        <item>@color/voom_camera_model_type_strong_text_color_24</item>
+    </array>
+    <array name="voom_camera_editor_impl_type_underline_effect_colors">
+        <item>@color/voom_camera_model_type_underline_effect_color_01</item>
+        <item>@color/voom_camera_model_color_02</item>
+        <item>@color/voom_camera_model_color_03</item>
+        <item>@color/voom_camera_model_color_04</item>
+        <item>@color/voom_camera_model_color_05</item>
+        <item>@color/voom_camera_model_color_06</item>
+        <item>@color/voom_camera_model_color_07</item>
+        <item>@color/voom_camera_model_color_08</item>
+        <item>@color/voom_camera_model_color_09</item>
+        <item>@color/voom_camera_model_color_10</item>
+        <item>@color/voom_camera_model_color_11</item>
+        <item>@color/voom_camera_model_color_12</item>
+        <item>@color/voom_camera_model_color_13</item>
+        <item>@color/voom_camera_model_color_14</item>
+        <item>@color/voom_camera_model_color_15</item>
+        <item>@color/voom_camera_model_color_16</item>
+        <item>@color/voom_camera_model_color_17</item>
+        <item>@color/voom_camera_model_color_18</item>
+        <item>@color/voom_camera_model_color_19</item>
+        <item>@color/voom_camera_model_color_20</item>
+        <item>@color/voom_camera_model_color_21</item>
+        <item>@color/voom_camera_model_color_22</item>
+        <item>@color/voom_camera_model_color_23</item>
+        <item>@color/voom_camera_model_color_24</item>
+    </array>
+    <array name="voom_camera_editor_impl_type_underline_text_colors">
+        <item>@color/voom_camera_model_type_underline_text_color_01</item>
+        <item>@color/voom_camera_model_type_underline_text_color_02</item>
+        <item>@color/voom_camera_model_type_underline_text_color_03</item>
+        <item>@color/voom_camera_model_type_underline_text_color_04</item>
+        <item>@color/voom_camera_model_type_underline_text_color_05</item>
+        <item>@color/voom_camera_model_type_underline_text_color_06</item>
+        <item>@color/voom_camera_model_type_underline_text_color_07</item>
+        <item>@color/voom_camera_model_type_underline_text_color_08</item>
+        <item>@color/voom_camera_model_type_underline_text_color_09</item>
+        <item>@color/voom_camera_model_type_underline_text_color_10</item>
+        <item>@color/voom_camera_model_type_underline_text_color_11</item>
+        <item>@color/voom_camera_model_type_underline_text_color_12</item>
+        <item>@color/voom_camera_model_type_underline_text_color_13</item>
+        <item>@color/voom_camera_model_type_underline_text_color_14</item>
+        <item>@color/voom_camera_model_type_underline_text_color_15</item>
+        <item>@color/voom_camera_model_type_underline_text_color_16</item>
+        <item>@color/voom_camera_model_type_underline_text_color_17</item>
+        <item>@color/voom_camera_model_type_underline_text_color_18</item>
+        <item>@color/voom_camera_model_type_underline_text_color_19</item>
+        <item>@color/voom_camera_model_type_underline_text_color_20</item>
+        <item>@color/voom_camera_model_type_underline_text_color_21</item>
+        <item>@color/voom_camera_model_type_underline_text_color_22</item>
+        <item>@color/voom_camera_model_type_underline_text_color_23</item>
+        <item>@color/voom_camera_model_type_underline_text_color_24</item>
+    </array>
+</resources>

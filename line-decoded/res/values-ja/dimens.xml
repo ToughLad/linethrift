@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="chatlist_title_text">14.0sp</dimen>
+    <dimen name="story_viewer_share_story_button_bottom_padding">1.0dip</dimen>
+    <dimen name="timeline_write_entry_menu_following_tab_x_margin">0.0dip</dimen>
+    <dimen name="wallet_campaign_header_tooltip_animation_anchor_offset_x">48.0dip</dimen>
+</resources>

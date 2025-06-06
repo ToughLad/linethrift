@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <scale android:interpolator="@android:interpolator/fast_out_slow_in" android:duration="@integer/timeline_write_entry_menu_animation_time" android:pivotX="100.0%" android:pivotY="@fraction/timeline_write_entry_menu_scale_pivotY" android:fromXScale="@fraction/timeline_write_entry_menu_scale_min" android:toXScale="@fraction/timeline_write_entry_menu_scale_max" android:fromYScale="@fraction/timeline_write_entry_menu_scale_min" android:toYScale="@fraction/timeline_write_entry_menu_scale_max" />
+    <alpha android:interpolator="@android:interpolator/fast_out_slow_in" android:duration="@integer/timeline_write_entry_menu_animation_time" android:fromAlpha="@fraction/timeline_write_entry_menu_alpha_min" android:toAlpha="@fraction/timeline_write_entry_menu_alpha_max" />
+</set>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/ocr_user_agreement_layout" android:background="@drawable/ocr_user_agreement_rounded_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="18.0dip" android:layout_marginTop="34.0dip" android:layout_marginRight="18.0dip" android:layout_marginBottom="58.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ocr_user_agreement_content_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="12.0dip" android:layout_weight="1.0">
+            <WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/agree_bottom_layer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip">
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff777777" android:gravity="center" android:id="@id/cancel_button" android:background="@drawable/selector_ocr_user_agreement_cancel_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="4.0dip" android:text="@string/line_galleryocr_button_dontagree" android:layout_weight="1.0" android:letterSpacing="-0.03" />
+                <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/agree_button" android:background="@drawable/selector_ocr_user_agreement_agree_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:text="@string/line_galleryocr_button_doagree" android:layout_weight="1.0" android:letterSpacing="-0.03" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ViewStub android:id="@id/ocr_user_agreement_error_view_stub" android:layout="@layout/ocr_user_agreement_error_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/picker_gallery_progress_circle_blue" />
+</LinearLayout>

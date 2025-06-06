@@ -1,0 +1,473 @@
+.class public final LvL/U;
+.super Landroid/widget/FrameLayout;
+.source "SourceFile"
+
+# interfaces
+.implements LrL/a;
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0008\u0007\u0018\u00002\u00020\u00012\u00020\u0002B!\u0012\u0006\u0010\u0004\u001a\u00020\u0003\u0012\u0010\u0008\u0002\u0010\u0007\u001a\n\u0012\u0004\u0012\u00020\u0006\u0018\u00010\u0005\u00a2\u0006\u0004\u0008\u0008\u0010\t\u00a8\u0006\n"
+    }
+    d2 = {
+        "LvL/U;",
+        "Landroid/widget/FrameLayout;",
+        "LrL/a;",
+        "Landroid/content/Context;",
+        "context",
+        "Lk/d;",
+        "Landroid/content/Intent;",
+        "ladVideoActivityLauncher",
+        "<init>",
+        "(Landroid/content/Context;Lk/d;)V",
+        "ladsdk-ui_release"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field public final a:LjL/U;
+
+.field public b:Z
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;Lk/d;)V
+    .locals 9
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroid/content/Context;",
+            "Lk/d<",
+            "Landroid/content/Intent;",
+            ">;)V"
+        }
+    .end annotation
+
+    const-string v0, "context"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 2
+    invoke-direct {p0, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
+
+    .line 3
+    invoke-static {p1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
+
+    move-result-object p1
+
+    const v0, 0x7f0e04b5
+
+    const/4 v1, 0x0
+
+    .line 4
+    invoke-virtual {p1, v0, p0, v1}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
+
+    move-result-object p1
+
+    .line 5
+    invoke-virtual {p0, p1}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
+
+    .line 6
+    move-object v1, p1
+
+    check-cast v1, Landroid/widget/FrameLayout;
+
+    const v0, 0x7f0b26b0
+
+    .line 7
+    invoke-static {p1, v0}, Lb30/U;->c(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object v3, v2
+
+    check-cast v3, Landroid/widget/ImageView;
+
+    if-eqz v3, :cond_0
+
+    const v0, 0x7f0b26b1
+
+    .line 8
+    invoke-static {p1, v0}, Lb30/U;->c(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object v8, v2
+
+    check-cast v8, Lcom/linecorp/line/ladsdk/ui/common/view/LadCombinedAdLabelView;
+
+    if-eqz v8, :cond_0
+
+    const v0, 0x7f0b26bf
+
+    .line 9
+    invoke-static {p1, v0}, Lb30/U;->c(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object v6, v2
+
+    check-cast v6, Lcom/linecorp/line/ladsdk/ui/common/monitoring/LadImpressionMonitoringView;
+
+    if-eqz v6, :cond_0
+
+    const v0, 0x7f0b26c0
+
+    .line 10
+    invoke-static {p1, v0}, Lb30/U;->c(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object v7, v2
+
+    check-cast v7, Lcom/linecorp/line/ladsdk/ui/common/mute/LadMuteView;
+
+    if-eqz v7, :cond_0
+
+    const v0, 0x7f0b26c8
+
+    .line 11
+    invoke-static {p1, v0}, Lb30/U;->c(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object v5, v2
+
+    check-cast v5, Lcom/linecorp/line/ladsdk/ui/asset/text/LadBadgeAssetView;
+
+    if-eqz v5, :cond_0
+
+    const v0, 0x7f0b26c9
+
+    .line 12
+    invoke-static {p1, v0}, Lb30/U;->c(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    check-cast v2, Landroidx/cardview/widget/CardView;
+
+    if-eqz v2, :cond_0
+
+    const v0, 0x7f0b26ca
+
+    .line 13
+    invoke-static {p1, v0}, Lb30/U;->c(Landroid/view/View;I)Landroid/view/View;
+
+    move-result-object v2
+
+    move-object v4, v2
+
+    check-cast v4, Lcom/linecorp/line/ladsdk/ui/asset/image/LadImageAssetView;
+
+    if-eqz v4, :cond_0
+
+    .line 14
+    new-instance v0, LjL/U;
+
+    move-object v2, v1
+
+    invoke-direct/range {v0 .. v8}, LjL/U;-><init>(Landroid/widget/FrameLayout;Landroid/widget/FrameLayout;Landroid/widget/ImageView;Lcom/linecorp/line/ladsdk/ui/asset/image/LadImageAssetView;Lcom/linecorp/line/ladsdk/ui/asset/text/LadBadgeAssetView;Lcom/linecorp/line/ladsdk/ui/common/monitoring/LadImpressionMonitoringView;Lcom/linecorp/line/ladsdk/ui/common/mute/LadMuteView;Lcom/linecorp/line/ladsdk/ui/common/view/LadCombinedAdLabelView;)V
+
+    .line 15
+    iput-object v0, p0, LvL/U;->a:LjL/U;
+
+    .line 16
+    const-string p1, "LadSmartChStaticBannerView"
+
+    invoke-virtual {p0, p1}, Landroid/view/View;->setTag(Ljava/lang/Object;)V
+
+    .line 17
+    invoke-static {p2}, Ljava/util/Objects;->toString(Ljava/lang/Object;)Ljava/lang/String;
+
+    return-void
+
+    .line 18
+    :cond_0
+    invoke-virtual {p1}, Landroid/view/View;->getResources()Landroid/content/res/Resources;
+
+    move-result-object p0
+
+    invoke-virtual {p0, v0}, Landroid/content/res/Resources;->getResourceName(I)Ljava/lang/String;
+
+    move-result-object p0
+
+    .line 19
+    new-instance p1, Ljava/lang/NullPointerException;
+
+    const-string p2, "Missing required view with ID: "
+
+    invoke-virtual {p2, p0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-direct {p1, p0}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+
+    throw p1
+.end method
+
+.method public synthetic constructor <init>(Landroid/content/Context;Lk/d;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+    .locals 0
+
+    and-int/lit8 p3, p3, 0x2
+
+    if-eqz p3, :cond_0
+
+    const/4 p2, 0x0
+
+    .line 1
+    :cond_0
+    invoke-direct {p0, p1, p2}, LvL/U;-><init>(Landroid/content/Context;Lk/d;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(LcK/c;)V
+    .locals 12
+
+    const-string v0, "advertise"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object v0, p0, LvL/U;->a:LjL/U;
+
+    iget-object v1, v0, LjL/U;->f:Lcom/linecorp/line/ladsdk/ui/common/mute/LadMuteView;
+
+    iget-boolean v2, p1, LcK/c;->V:Z
+
+    const/16 v3, 0x8
+
+    const/4 v4, 0x0
+
+    if-nez v2, :cond_0
+
+    move v5, v4
+
+    goto :goto_0
+
+    :cond_0
+    move v5, v3
+
+    :goto_0
+    invoke-virtual {v1, v5}, Landroid/view/View;->setVisibility(I)V
+
+    iget-object v1, v0, LjL/U;->g:Lcom/linecorp/line/ladsdk/ui/asset/text/LadBadgeAssetView;
+
+    if-nez v2, :cond_1
+
+    move v5, v4
+
+    goto :goto_1
+
+    :cond_1
+    move v5, v3
+
+    :goto_1
+    invoke-virtual {v1, v5}, Landroid/view/View;->setVisibility(I)V
+
+    iget-object v1, v0, LjL/U;->d:Lcom/linecorp/line/ladsdk/ui/common/view/LadCombinedAdLabelView;
+
+    if-eqz v2, :cond_2
+
+    move v3, v4
+
+    :cond_2
+    invoke-virtual {v1, v3}, Landroid/view/View;->setVisibility(I)V
+
+    if-eqz v2, :cond_3
+
+    sget-object v2, Lcom/linecorp/line/ladsdk/ui/common/view/LadCombinedAdLabelView$a;->OVERLAY:Lcom/linecorp/line/ladsdk/ui/common/view/LadCombinedAdLabelView$a;
+
+    invoke-virtual {v1, p1, v2}, Lcom/linecorp/line/ladsdk/ui/common/view/LadCombinedAdLabelView;->a(LcK/c;Lcom/linecorp/line/ladsdk/ui/common/view/LadCombinedAdLabelView$a;)V
+
+    goto :goto_2
+
+    :cond_3
+    iget-object v1, v0, LjL/U;->c:Landroid/widget/ImageView;
+
+    const v2, 0x7f080bdb
+
+    invoke-virtual {v1, v2}, Landroid/widget/ImageView;->setImageResource(I)V
+
+    iget-object v1, v0, LjL/U;->f:Lcom/linecorp/line/ladsdk/ui/common/mute/LadMuteView;
+
+    const v2, 0x7f080bda
+
+    invoke-virtual {v1, v2}, Landroidx/appcompat/widget/AppCompatImageView;->setImageResource(I)V
+
+    :goto_2
+    iget-boolean v1, p0, LvL/U;->b:Z
+
+    if-nez v1, :cond_4
+
+    const/4 v1, 0x1
+
+    iput-boolean v1, p0, LvL/U;->b:Z
+
+    iget-object v2, v0, LjL/U;->h:Lcom/linecorp/line/ladsdk/ui/asset/image/LadImageAssetView;
+
+    const/4 v9, 0x0
+
+    const/16 v11, 0x1fe
+
+    const/4 v4, 0x0
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x0
+
+    const/4 v7, 0x0
+
+    const/4 v8, 0x0
+
+    const/4 v10, 0x0
+
+    move-object v3, p1
+
+    invoke-static/range {v2 .. v11}, Lcom/linecorp/line/ladsdk/ui/asset/image/a;->j(Lcom/linecorp/line/ladsdk/ui/asset/image/a;LcK/c;Lcom/linecorp/line/ladsdk/ui/asset/image/a$a;Lxk1/a;LNK/c;Lr7/i;Lxk1/a;LSK/c;Landroid/graphics/drawable/Drawable;I)V
+
+    goto :goto_3
+
+    :cond_4
+    move-object v3, p1
+
+    :goto_3
+    iget-object p1, v0, LjL/U;->e:Lcom/linecorp/line/ladsdk/ui/common/monitoring/LadImpressionMonitoringView;
+
+    invoke-virtual {p1, v3}, Lcom/linecorp/line/ladsdk/ui/common/monitoring/LadImpressionMonitoringView;->a(LcK/c;)V
+
+    const-string v1, "smartChAdContainer"
+
+    iget-object v0, v0, LjL/U;->b:Landroid/widget/FrameLayout;
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/n;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {p1, v0}, Lcom/linecorp/line/ladsdk/ui/common/monitoring/LadImpressionMonitoringView;->setContainerView(Landroid/view/View;)V
+
+    iget-object v0, v3, LcK/c;->H:LcK/E;
+
+    if-eqz v0, :cond_5
+
+    new-instance v1, LWL/e;
+
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v2
+
+    const-string v4, "getContext(...)"
+
+    invoke-static {v2, v4}, Lkotlin/jvm/internal/n;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {v3}, LcK/c;->a()Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-static {v0}, LAm/g;->c(LcK/E;)LlM/p;
+
+    move-result-object v4
+
+    const/4 v6, 0x0
+
+    move-object v5, p0
+
+    invoke-direct/range {v1 .. v6}, LWL/e;-><init>(Landroid/content/Context;Ljava/lang/String;LlM/p;Landroid/view/View;Z)V
+
+    goto :goto_4
+
+    :cond_5
+    const/4 v1, 0x0
+
+    :goto_4
+    invoke-virtual {p1, v1}, Lcom/linecorp/line/ladsdk/ui/common/monitoring/LadImpressionMonitoringView;->setOmSdkManager(LWL/e;)V
+
+    new-instance p0, Lcom/linecorp/line/ladsdk/ui/common/monitoring/b$a;
+
+    sget-object v0, Lcom/linecorp/line/ladsdk/ui/common/monitoring/b$a$a;->IMAGE_AD:Lcom/linecorp/line/ladsdk/ui/common/monitoring/b$a$a;
+
+    sget-object v1, Lcom/linecorp/line/ladsdk/ui/common/monitoring/b$a$b;->IMP_ON_IMPCT_ON:Lcom/linecorp/line/ladsdk/ui/common/monitoring/b$a$b;
+
+    invoke-direct {p0, v0, v1}, Lcom/linecorp/line/ladsdk/ui/common/monitoring/b$a;-><init>(Lcom/linecorp/line/ladsdk/ui/common/monitoring/b$a$a;Lcom/linecorp/line/ladsdk/ui/common/monitoring/b$a$b;)V
+
+    invoke-virtual {p1, p0}, Lcom/linecorp/line/ladsdk/ui/common/monitoring/LadImpressionMonitoringView;->c(Lcom/linecorp/line/ladsdk/ui/common/monitoring/b$a;)V
+
+    return-void
+.end method
+
+.method public final b(LF90/g;)V
+    .locals 0
+
+    const-string p0, "videoActivityResult"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public final c()V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, LvL/U;->b:Z
+
+    iget-object p0, p0, LvL/U;->a:LjL/U;
+
+    iget-object v0, p0, LjL/U;->e:Lcom/linecorp/line/ladsdk/ui/common/monitoring/LadImpressionMonitoringView;
+
+    invoke-virtual {v0}, Lcom/linecorp/line/ladsdk/ui/common/monitoring/LadImpressionMonitoringView;->d()V
+
+    iget-object p0, p0, LjL/U;->d:Lcom/linecorp/line/ladsdk/ui/common/view/LadCombinedAdLabelView;
+
+    iget-object p0, p0, Lcom/linecorp/line/ladsdk/ui/common/view/LadCombinedAdLabelView;->a:LQ01/U;
+
+    iget-object p0, p0, LQ01/U;->g:Landroid/widget/ImageView;
+
+    check-cast p0, Lcom/linecorp/line/ladsdk/ui/asset/image/LadPrivacyAssetView;
+
+    invoke-virtual {p0}, Lcom/linecorp/line/ladsdk/ui/asset/image/LadPrivacyAssetView;->q()V
+
+    return-void
+.end method
+
+.method public final onDestroy()V
+    .locals 0
+
+    return-void
+.end method
+
+.method public final onPause()V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    iput-boolean v0, p0, LvL/U;->b:Z
+
+    iget-object p0, p0, LvL/U;->a:LjL/U;
+
+    iget-object v0, p0, LjL/U;->e:Lcom/linecorp/line/ladsdk/ui/common/monitoring/LadImpressionMonitoringView;
+
+    invoke-virtual {v0}, Lcom/linecorp/line/ladsdk/ui/common/monitoring/LadImpressionMonitoringView;->d()V
+
+    iget-object p0, p0, LjL/U;->d:Lcom/linecorp/line/ladsdk/ui/common/view/LadCombinedAdLabelView;
+
+    iget-object p0, p0, Lcom/linecorp/line/ladsdk/ui/common/view/LadCombinedAdLabelView;->a:LQ01/U;
+
+    iget-object p0, p0, LQ01/U;->g:Landroid/widget/ImageView;
+
+    check-cast p0, Lcom/linecorp/line/ladsdk/ui/asset/image/LadPrivacyAssetView;
+
+    invoke-virtual {p0}, Lcom/linecorp/line/ladsdk/ui/asset/image/LadPrivacyAssetView;->q()V
+
+    return-void
+.end method

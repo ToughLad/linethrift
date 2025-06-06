@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/chat_ui_header_spammer_fraud_warning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textColor="@color/primaryText" android:gravity="center" android:id="@id/chat_ui_header_spammer_fraud_warning_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/line_chat_warning_investmentfraud" android:includeFontPadding="false" android:lineHeight="14.059998sp" />
+</FrameLayout>

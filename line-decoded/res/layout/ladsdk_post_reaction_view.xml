@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/reaction_container" android:layout_width="fill_parent" android:layout_height="39.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/post_reaction_close_icon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="30.0dip" android:src="@drawable/ladsdk_voom_feed_close" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:tint="@color/primaryAltText" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="30.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <FrameLayout android:id="@id/post_reaction_like_icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/post_reaction_like_icon_on" android:background="@drawable/ladsdk_voom_feed_like_bg" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ladsdk_voom_feed_like_face" android:scaleType="center" />
+            <ImageView android:id="@id/post_reaction_like_icon_off" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ladsdk_voom_feed_like_off" app:tint="@color/primaryText" />
+        </FrameLayout>
+        <com.linecorp.line.ladsdk.ui.asset.text.LadTextView android:textSize="13.0sp" android:textColor="@color/primaryText" android:gravity="center_vertical" android:id="@id/post_like_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="@id/post_reaction_close_icon" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/post_reaction_close_icon" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

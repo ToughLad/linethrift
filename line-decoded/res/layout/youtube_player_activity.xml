@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/youtube_base_layout" android:background="@color/lineblack" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <WebView android:id="@id/youtube_view" android:layout_width="fill_parent" android:layout_height="0.0px" app:layout_constraintBottom_toTopOf="@id/youtube_bottom_buttons_area" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/youtube_bottom_buttons_area" android:background="@color/bottom_color_photo_end" android:layout_width="fill_parent" android:layout_height="52.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" app:layout_constraintBottom_toBottomOf="parent">
+        <ImageButton android:layout_gravity="start" android:id="@id/youtube_share_btn" android:background="@null" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/selector_gallery_share_btn" android:contentDescription="@null" />
+        <ImageButton android:layout_gravity="end" android:id="@id/watch_together_btn" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/selector_gallery_watchtogether" android:contentDescription="@string/access_watchtogether_button_player" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/loading_view" android:background="@color/lineblack" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

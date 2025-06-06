@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/album_img_num_bg" android:paddingLeft="10.5dip" android:paddingTop="6.0dip" android:paddingRight="10.5dip" android:paddingBottom="6.0dip" android:layout_width="wrap_content" android:layout_height="29.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatCheckedTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/album_selector_album_detail_user_count_text" android:gravity="center" android:id="@id/user_count_text" android:paddingRight="2.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="2.0dip" style="@style/commonFont" />
+    <ImageView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/album_selector_album_ic_arrow" />
+</LinearLayout>

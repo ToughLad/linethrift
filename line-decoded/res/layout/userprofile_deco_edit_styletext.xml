@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/deco" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/bottom_action" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.facebook.yoga.android.YogaLayout android:id="@id/userprofile_deco_content" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/bottom_action" android:clickable="true" android:layout_width="0.0dip" android:layout_height="68.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <include android:id="@id/edit_color_binding" android:layout_width="40.0dip" android:layout_height="40.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/edit_text_alignment_change_button" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/userprofile_deco_edit_styletext_color" />
+        <View android:id="@id/edit_text_alignment_change_button" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginStart="21.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/edit_color_binding" app:layout_constraintTop_toTopOf="parent" />
+        <ImageButton android:id="@id/color_select_view_close_button" android:background="@drawable/gallery_doodle_img_palette_x" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:contentDescription="@null" android:layout_marginStart="15.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <HorizontalScrollView android:id="@id/color_select_scroll_view" android:visibility="gone" android:scrollbars="none" android:layout_width="0.0dip" android:layout_height="@dimen/camera_image_text_footer_height" android:fillViewport="true" android:overScrollMode="never" android:paddingStart="8.0dip" android:paddingEnd="14.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/color_select_view_close_button">
+            <LinearLayout android:orientation="horizontal" android:id="@id/color_select_view_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </HorizontalScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

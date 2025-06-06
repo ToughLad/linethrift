@@ -1,0 +1,98 @@
+.class public abstract LfY/f$b;
+.super LfY/f;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LfY/f;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "b"
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        LfY/f$b$a;,
+        LfY/f$b$b;,
+        LfY/f$b$c;,
+        LfY/f$b$d;
+    }
+.end annotation
+
+
+# instance fields
+.field public final c:LcY/b$g;
+
+
+# direct methods
+.method public constructor <init>(LjX/A;LmX/a;)V
+    .locals 0
+
+    invoke-direct {p0}, LfY/f;-><init>()V
+
+    sget-object p1, LcY/b$g;->b:LcY/b$g;
+
+    iput-object p1, p0, LfY/f$b;->c:LcY/b$g;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract b()LmX/a;
+.end method
+
+.method public abstract c()LjX/A;
+.end method
+
+.method public final d()Ljava/util/Map;
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "Lif1/f;",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+
+    invoke-virtual {p0}, LfY/f$b;->c()LjX/A;
+
+    move-result-object v0
+
+    const/4 v1, 0x6
+
+    iget-object v2, p0, LfY/f;->b:LjY/a;
+
+    invoke-static {v2, v0, v1}, LjY/a;->e(LjY/a;LjX/A;I)Ljava/util/LinkedHashMap;
+
+    move-result-object v0
+
+    invoke-virtual {p0}, LfY/f$b;->b()LmX/a;
+
+    move-result-object p0
+
+    invoke-virtual {v2}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {p0}, LjY/a;->c(LmX/a;)Ljava/util/Map;
+
+    move-result-object p0
+
+    invoke-static {v0, p0}, Lik1/N;->u(Ljava/util/Map;Ljava/util/Map;)Ljava/util/LinkedHashMap;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final f()LcY/b;
+    .locals 0
+
+    iget-object p0, p0, LfY/f$b;->c:LcY/b$g;
+
+    return-object p0
+.end method

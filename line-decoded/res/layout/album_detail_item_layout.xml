@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/photo_image" android:background="@color/tertiaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:id="@id/checked_bg" android:background="@drawable/album_selector_album_photo_checked_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <CheckedTextView android:textSize="15.0sp" android:textColor="@color/linewhite" android:gravity="center" android:id="@id/checked_number_text" android:background="@drawable/media_picker_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="7.0dip" android:layout_alignParentEnd="true" />
+    <ImageView android:id="@id/play_icon_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="34.0dip" android:src="@drawable/album_play_icon_background" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/play_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:src="@drawable/album_card_badge_video_small" android:layout_alignParentBottom="true" android:layout_marginStart="3.0dip" android:layout_alignParentStart="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/linewhite" android:id="@id/play_time_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:shadowColor="@color/lineblack" android:layout_alignParentBottom="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/hashtag_grid_item_content_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/hashtag_grid_content_text_card_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="@drawable/hashtag_grid_item_dim" />
+    <com.linecorp.line.timeline.ui.base.view.PostSticonTextView android:gravity="center" android:id="@id/text_view" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/text_hashtag_grid_item_text_card" />
+</RelativeLayout>

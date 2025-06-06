@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="#fff5f6f7" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="121.0dip" android:layout_height="208.0dip">
+        <ImageView android:id="@id/themeshop_preview_fragement_imageview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_centerInParent="true" />
+        <ImageView android:background="@drawable/selector_shop_theme_thumb_stroke" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/themeshop_preview_fragement_retry" android:visibility="gone" android:layout_width="@dimen/recommendation_theme_retry_size" android:layout_height="@dimen/recommendation_theme_retry_size" android:src="@drawable/selector_themeshop_retry" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

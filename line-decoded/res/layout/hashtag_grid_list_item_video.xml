@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/hashtag_grid_item_content_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/video_container" android:background="@color/linegray200" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0">
+        <ImageView android:id="@id/video_bg_image" android:background="@color/linegray200" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+        <com.linecorp.line.timeline.hashtag.grid.view.HashtagGridVideoView android:id="@id/video" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/hashtag_grid_item_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:contentDescription="@null" android:layout_marginEnd="6.0dip" android:layout_alignParentEnd="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/text_content_parent_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:background="@drawable/discover_grid_view_dimmed_gradient" android:paddingLeft="12.0dip" android:paddingRight="28.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="12.0sp" android:textColor="@color/linewhite_alpha90" android:ellipsize="end" android:id="@id/info_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            </LinearLayout>
+        </LinearLayout>
+        <ViewStub android:id="@id/hashtag_geo_block_mask" android:visibility="gone" android:layout="@layout/timeline_video_geo_block_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <Space android:background="@color/white" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <FrameLayout android:id="@id/sub_first" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <Space android:background="@color/white" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <FrameLayout android:id="@id/sub_second" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

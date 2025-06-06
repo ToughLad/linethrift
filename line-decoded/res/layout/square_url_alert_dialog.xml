@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/LdsPopupDescriptionTextAppearance" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/square_chatroom_alert_open_url" />
+    <CheckBox android:textSize="14.0sp" android:textColor="@color/lds_checkbox_text" android:layout_gravity="center_horizontal" android:id="@id/dont_show_for_a_month_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="14.0dip" android:button="@drawable/lds_checkbox_icon" android:text="@string/openchat_linkpopup_desc_donotshowformonth" />
+</LinearLayout>

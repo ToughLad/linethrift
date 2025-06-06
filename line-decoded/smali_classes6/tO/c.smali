@@ -1,0 +1,45 @@
+.class public final synthetic LtO/c;
+.super Lkotlin/jvm/internal/a;
+.source "SourceFile"
+
+# interfaces
+.implements Lxk1/l;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/a;",
+        "Lxk1/l<",
+        "Lxk1/a<",
+        "+",
+        "Lkotlin/Unit;",
+        ">;",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    check-cast p1, Lxk1/a;
+
+    const-string v0, "p0"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p0, p0, Lkotlin/jvm/internal/a;->a:Ljava/lang/Object;
+
+    check-cast p0, Lcom/linecorp/line/lights/viewer/impl/view/a;
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p0, v0, p1}, Lcom/linecorp/line/lights/viewer/impl/view/a;->g0(ZLxk1/a;)V
+
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method

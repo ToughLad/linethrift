@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layout_member" android:layout_width="100.0dip" android:layout_height="100.0dip" app:layout_constraintDimensionRatio="1:1" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/grid_user_speak" android:background="@drawable/group_voice_user_speaking_ring" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/grid_user_profile" android:background="@drawable/shape_oval" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="4.0dip" android:scaleType="centerCrop" />
+        <FrameLayout android:id="@id/grid_user_mute" android:background="@drawable/group_voice_user_dim" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="4.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/grid_user_mute_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_grid_call_mic_off_small_gac" android:alpha="0.8" />
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/grid_user_state_layout" android:paddingTop="9.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="@id/layout_member" app:layout_constraintRight_toRightOf="@id/layout_member" app:layout_constraintTop_toBottomOf="@id/layout_member">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/grid_user_video" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_grid_call_video_small_gac" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/grid_user_watch_together" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_grid_call_sender_small_gac" />
+            </FrameLayout>
+            <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="@color/linewhite" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/grid_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_weight="1.0" android:alpha="0.9" android:fontFamily="sans-serif" />
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

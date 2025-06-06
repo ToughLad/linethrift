@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/user_profile" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/user_profile_container_binding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/userprofile_container" />
+    <LinearLayout android:orientation="vertical" android:id="@id/user_profile_overlay_view_bottom_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/user_profile_overlay_view_bottom_separator" android:background="@color/linewhite_alpha20" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <View android:id="@id/user_profile_overlay_view_bottom_blank_space" android:layout_width="fill_parent" android:layout_height="@dimen/userprofile_tab_height" />
+    </LinearLayout>
+</LinearLayout>

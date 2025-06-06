@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/scrollview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:requiresFadingEdge="vertical">
+        <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="24.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <TextView android:id="@id/enter_pincode_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/registration_title_margin_top" android:text="@string/startupflow_restorechats_enterpin_title" style="@style/Registration.Title" />
+            <TextView android:id="@id/enter_pincode_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/registration_description_margin_top" android:text="@string/startupflow_restorechats_enterpin_desc" style="@style/Registration.Description" />
+            <com.linecorp.registration.ui.view.CodeVerificationView android:id="@id/verification_code" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" app:length="6" style="@style/Registration.CodeVerificationView" />
+            <TextView android:id="@id/enter_pincode_wrong_pin_error" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" style="@style/Registration.PincodeError" />
+            <TextView android:id="@id/enter_pincode_wrong_pin_cloud_data_available" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" style="@style/Registration.PincodeError" />
+        </LinearLayout>
+        <TextView android:id="@id/enter_pincode_skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_marginBottom="34.0dip" android:text="@string/startupflow_restorechats_enterpin_button_skip" android:layout_marginStart="24.0dip" android:paddingVertical="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/content" app:layout_constraintVertical_bias="1.0" style="@style/Registration.Description" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

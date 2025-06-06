@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="20.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/pay_ui_payment_mycode_section_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/howToImage" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/pay_ui_payment_icon_how_to_use" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/pay_linegray700" android:id="@id/howToText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" />
+</LinearLayout>

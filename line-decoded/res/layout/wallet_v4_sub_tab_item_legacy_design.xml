@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/wallet_selector_v4_sub_tab_label_legacy_design" android:id="@id/tab_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginHorizontal="14.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/badge" android:visibility="gone" android:layout_width="5.0dip" android:layout_height="5.0dip" android:src="@drawable/wallet_ic_common_img_greendot_5" android:contentDescription="@null" android:layout_marginStart="2.0dip" app:layout_constraintStart_toEndOf="@id/tab_text" app:layout_constraintTop_toTopOf="@id/tab_text" />
+    <View android:id="@id/indicator" android:layout_width="0.0dip" android:layout_height="2.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/tab_text" app:layout_constraintStart_toStartOf="@id/tab_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/card_writing_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/card_writing_private_view" android:background="@drawable/birthday_bottom_area_rect" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <CheckedTextView android:textSize="13.0sp" android:textColor="@color/linegray500" android:id="@id/private_checkbox_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:checked="false" android:text="@string/timeline_bdcardwrite_checkboxdesc_writeinsecret" android:drawableLeft="@drawable/birthday_checkbox_private" android:drawablePadding="7.0dip" />
+        <View android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/card_send_button" android:background="@drawable/birthday_ic_send_selector" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/card_template_container" android:background="@android:color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:id="@id/card_holder" android:paddingBottom="56.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.linecorp.line.birthday.impl.ui.card.BirthdayCardTemplateView android:id="@id/card_template_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <include layout="@layout/birthday_simple_message_edit_layout" />
+</LinearLayout>

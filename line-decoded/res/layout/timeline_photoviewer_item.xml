@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/photoviewer_item_background_view" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.linecorp.line.timeline.ui.base.view.TimelineZoomImageView android:id="@id/imageviewer_item_real_imageview" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" />
+    <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/imageviewer_item_refresh_image_btn" android:background="@drawable/selector_btn_02" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="164.0dip" android:minHeight="44.0dip" android:text="@string/common_try_again" android:layout_centerInParent="true" />
+    <ProgressBar android:id="@id/image_loading_progress" android:visibility="gone" android:layout_width="24.669983dip" android:layout_height="24.669983dip" android:layout_centerInParent="true" android:indeterminateTint="@color/linegray350" style="?android:progressBarStyleSmall" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/gif_image_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_common_ic_gif_01" />
+        <TextView android:id="@id/gif_file_size_text" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/loading_progress_type_01" />
+    </LinearLayout>
+    <jp.naver.gallery.android.fragment.ChatPhotoDetailProgressView android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/progress_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

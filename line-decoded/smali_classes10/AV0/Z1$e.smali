@@ -1,0 +1,29 @@
+.class public final LAV0/Z1$e;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LQm1/b;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LAV0/Z1;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "e"
+.end annotation
+
+
+# virtual methods
+.method public final b()LQm1/a;
+    .locals 0
+
+    new-instance p0, LAV0/Z1$d;
+
+    invoke-direct {p0}, LQm1/d;-><init>()V
+
+    return-object p0
+.end method

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/account_restore_nav_graph" app:startDestination="@id/accountRestoreVerificationFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.linecorp.registration.restore.ui.AccountRestoreVerificationFragment" android:id="@id/accountRestoreVerificationFragment">
+        <action android:id="@id/action_accountRestoreVerificationFragment_to_accountRestoreUserDataLoadFragment" app:destination="@id/accountRestoreInitialFragment" />
+        <action android:id="@id/action_accountRestoreVerificationFragment_to_accountRestoreEnterPhoneNumberFragment" app:destination="@id/accountRestoreEnterPhoneNumberFragment" />
+        <action android:id="@id/action_accountRestoreVerificationFragment_to_accountRestoreEapLoginFragment" app:destination="@id/accountRestoreEapLoginFragment" />
+    </fragment>
+    <fragment android:name="com.linecorp.registration.restore.ui.AccountRestoreUserDataLoadFragment" android:id="@id/accountRestoreInitialFragment" />
+    <fragment android:name="com.linecorp.registration.restore.ui.AccountRestoreEnterPhoneNumberFragment" android:id="@id/accountRestoreEnterPhoneNumberFragment">
+        <action android:id="@id/action_accountRestoreEnterPhoneNumberFragment_to_accountRestoreEnterSmsCodeFragment" app:destination="@id/accountRestoreEnterSmsCodeFragment" />
+        <action android:id="@id/action_accountRestoreEnterPhoneNumberFragment_to_accountRestoreSelectCountryFragment" app:destination="@id/accountRestoreSelectCountryFragment" />
+    </fragment>
+    <fragment android:name="com.linecorp.registration.restore.ui.AccountRestoreEapLoginFragment" android:id="@id/accountRestoreEapLoginFragment">
+        <action android:id="@id/action_accountRestoreEapLoginFragment_to_accountRestoreDataRestoreFragment" app:destination="@id/accountRestoreDataRestoreFragment" />
+    </fragment>
+    <fragment android:name="com.linecorp.registration.restore.ui.AccountRestoreEnterSmsCodeFragment" android:id="@id/accountRestoreEnterSmsCodeFragment">
+        <action android:id="@id/action_accountRestoreEnterSmsCodeFragment_to_accountRestoreEnterPasswordFragment" app:destination="@id/accountRestoreEnterPasswordFragment" />
+        <action android:id="@id/action_accountRestoreEnterSmsCodeFragment_to_accountRestoreDataRestoreFragment" app:destination="@id/accountRestoreDataRestoreFragment" />
+        <action android:id="@id/action_accountRestoreEnterSmsCodeFragment_to_accountRestoreAskToCreatePasswordFragment" app:destination="@id/accountRestoreAskToCreatePasswordFragment" />
+    </fragment>
+    <fragment android:name="com.linecorp.registration.restore.ui.AccountRestoreEnterPasswordFragment" android:id="@id/accountRestoreEnterPasswordFragment">
+        <action android:id="@id/action_accountRestoreEnterPasswordFragment_to_accountRestoreDataRestoreFragment" app:destination="@id/accountRestoreDataRestoreFragment" />
+        <action android:id="@id/action_accountRestoreEnterPasswordFragment_to_accountRestoreRequestPasswordResetFragment" app:destination="@id/accountRestoreRequestPasswordResetFragment" />
+    </fragment>
+    <fragment android:name="com.linecorp.registration.restore.ui.AccountRestoreProcessAgreementsFragment" android:id="@id/accountRestoreProcessAgreementsFragment">
+        <action android:id="@id/action_accountRestoreProcessAgreementsFragment_to_accountRestoreDataSyncFragment" app:destination="@id/accountRestoreDataSyncFragment" />
+    </fragment>
+    <fragment android:name="com.linecorp.registration.restore.ui.AccountRestoreCheckEmailForPasswordResetFragment" android:id="@id/accountRestoreCheckEmailForPasswordResetFragment">
+        <action android:id="@id/action_accountRestoreCheckEmailForPasswordResetFragment_to_accountRestoreCreatePasswordFragment" app:destination="@id/accountRestoreCreatePasswordFragment" />
+    </fragment>
+    <fragment android:name="com.linecorp.registration.restore.ui.AccountRestoreCreatePasswordFragment" android:id="@id/accountRestoreCreatePasswordFragment">
+        <action android:id="@id/action_accountRestoreCreatePasswordFragment_to_accountRestoreDataRestoreFragment" app:destination="@id/accountRestoreDataRestoreFragment" />
+    </fragment>
+    <fragment android:name="com.linecorp.registration.ui.fragment.AccountRestoreDataSyncFragment" android:id="@id/accountRestoreDataSyncFragment" />
+    <fragment android:name="com.linecorp.registration.restore.ui.AccountRestoreDataRestoreFragment" android:id="@id/accountRestoreDataRestoreFragment">
+        <action android:id="@id/action_accountRestoreDataRestoreFragment_to_accountRestoreAskToAddFriendsFragment" app:destination="@id/accountRestoreAskToAddFriendsFragment" />
+        <action android:id="@id/action_accountRestoreDataRestoreFragment_to_accountRestoreProcessAgreementsFragment" app:destination="@id/accountRestoreProcessAgreementsFragment" />
+    </fragment>
+    <fragment android:name="com.linecorp.registration.restore.ui.AccountRestoreSelectCountryFragment" android:id="@id/accountRestoreSelectCountryFragment" />
+    <fragment android:name="com.linecorp.registration.restore.ui.AccountRestoreAskToAddFriendsFragment" android:id="@id/accountRestoreAskToAddFriendsFragment">
+        <action android:id="@id/action_accountRestoreAskToAddFriendsFragment_to_accountRestoreAskToAddFriendsDetailFragment" app:destination="@id/accountRestoreAskToAddFriendsDetailFragment" />
+        <action android:id="@id/action_accountRestoreAskToAddFriendsFragment_to_accountRestoreProcessAgreementsFragment" app:destination="@id/accountRestoreProcessAgreementsFragment" />
+    </fragment>
+    <fragment android:name="com.linecorp.registration.restore.ui.AccountRestoreAskToAddFriendsDetailFragment" android:id="@id/accountRestoreAskToAddFriendsDetailFragment" />
+    <fragment android:name="com.linecorp.registration.restore.ui.AccountRestoreSessionRestorationFragment" android:id="@id/accountRestoreSessionRestorationFragment">
+        <action android:id="@id/action_accountRestoreSessionRestorationFragment_to_accountRestoreAskToAddFriendsFragment" app:destination="@id/accountRestoreAskToAddFriendsFragment" />
+        <action android:id="@id/action_accountRestoreSessionRestorationFragment_to_accountRestoreProcessAgreementsFragment" app:destination="@id/accountRestoreProcessAgreementsFragment" />
+    </fragment>
+    <fragment android:name="com.linecorp.registration.restore.ui.AccountRestoreAskToCreatePasswordFragment" android:id="@id/accountRestoreAskToCreatePasswordFragment">
+        <action android:id="@id/action_accountRestoreAskToCreatePasswordFragment_to_accountRestoreRequestPasswordResetFragment" app:destination="@id/accountRestoreRequestPasswordResetFragment" />
+    </fragment>
+    <fragment android:name="com.linecorp.registration.restore.ui.AccountRestoreRequestPasswordResetFragment" android:id="@id/accountRestoreRequestPasswordResetFragment">
+        <action android:id="@id/action_accountRestoreRequestPasswordResetFragment_to_accountRestoreCheckEmailForPasswordResetFragment" app:destination="@id/accountRestoreCheckEmailForPasswordResetFragment" />
+    </fragment>
+</navigation>

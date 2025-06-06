@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="bottom" android:id="@id/more_functions_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/more_functions_buttons_layout" android:layout_width="fill_parent" android:layout_height="48.0dip" app:layout_constraintTop_toTopOf="parent">
+        <RelativeLayout android:gravity="center|top" android:id="@id/more_functions_shortcut_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:paddingStart="3.0dip" android:paddingEnd="3.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/linewhite" android:id="@id/more_functions_shortcut_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_setting_create_shortcut2" android:includeFontPadding="false" android:drawablePadding="10.0dip" android:layout_centerVertical="true" android:drawableStart="@drawable/pay_transact_mycode_shortcut_barcode_ic_01" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center|top" android:id="@id/more_functions_traffic_qr_layout" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.8" android:paddingStart="3.0dip" android:paddingEnd="3.0dip">
+            <TextView android:textSize="12.0dip" android:textColor="@color/linewhite" android:id="@id/more_functions_traffic_qr_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_ipass_traffic_qr" android:includeFontPadding="false" android:drawablePadding="10.0dip" android:layout_centerVertical="true" android:drawableStart="@drawable/pay_transact_ic_traffic" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

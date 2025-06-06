@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/lightNeutralFill" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="@color/quaternarySubText" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/album_commonkey_desc_nophotosadded" />
+    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/defaultText" android:gravity="center_horizontal" android:id="@id/add_photo_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/album_commonkey_button_addphotos" />
+</LinearLayout>

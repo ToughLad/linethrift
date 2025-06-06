@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/shop_keyboard_welcome_banner_bg" android:layout_width="fill_parent" android:layout_height="41.0dip" android:layout_marginTop="0.0dip" android:layout_marginBottom="16.0dip" android:layout_marginHorizontal="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="58.0dip" android:layout_height="41.0dip" android:src="@drawable/keyboard_sticker_banner_welcome" />
+    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/linewhite" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/chat_keyboard_stickershistorytab_welcome_subtitle" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="3.0dip" />
+    <ImageView android:id="@id/welcome_banner_close" android:layout_width="9.0dip" android:layout_height="9.0dip" android:src="@drawable/banner_promotion_x" android:layout_marginStart="10.0dip" android:layout_marginEnd="14.5dip" />
+</LinearLayout>

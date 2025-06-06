@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transition
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/default_color" android:drawable="@drawable/ladsdk_lights_button_default" />
+    <item android:id="@id/affordance_color" android:drawable="@drawable/ladsdk_lights_button_normal" />
+</transition>

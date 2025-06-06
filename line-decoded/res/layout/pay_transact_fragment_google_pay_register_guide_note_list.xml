@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="@color/linegray600" android:id="@id/guide1TextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pay_googlepayguide_note1_pagecommon" app:layout_constraintBottom_toTopOf="@id/guide3TextView" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/linegray600" android:id="@id/guide3TextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/pay_googlepayguide_note3_pagecommon" app:layout_constraintBottom_toTopOf="@id/guide4TextView" app:layout_constraintTop_toBottomOf="@id/guide1TextView" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/linegray600" android:id="@id/guide4TextView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/pay_googlepayguide_note4_pagecommon" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/guide3TextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,656 @@
+{
+  "firstShownAction": {
+    "id": "preview-id-1",
+    "type": "LIFF",
+    "destination": "https://liff.line-beta.me/1651889101-OkaAdAkJ?closeModals=false"
+  },
+  "headers": [
+    {
+      "type": "TEXT",
+      "text": "TOP 2 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "iconUrl": "https://line-objects-dev.com/flexible-ui/Hub_text_icon_announcement.png",
+      "clickAction": {
+        "type": "LIFF",
+        "destination": "https://liff.line-beta.me/1651889101-nP9zmzJB?closeModals=false"
+      }
+    }
+  ],
+  "categoryList": [
+    {
+      "type": "CARD",
+      "title": "Pet Booth",
+      "description": "Ho ho ho your way to Christmas with a seasonal AI style.",
+      "badge": {
+        "text": "Promo"
+      },
+      "media": {
+        "type": "LOTTIE",
+        "url": "https://git.linecorp.com/raw/felix-khang1115/git-learning/main/motion_banner.json?token=GHSAT0AAAAAAAAAZTE5EI5RJPFGFTGHEOAOZWO7RNQ"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "ai_avatar_minime",
+      "button": {
+        "text": "Create images",
+        "actionType": "LIFF",
+        "actionDestination": "https://liff.line-beta.me/1651889101-VDGl3lEw?closeModals=false"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "AI Christmas",
+      "description": "Ho ho ho your way to Christmas with a seasonal AI style.",
+      "badge": {
+        "text": "Promo"
+      },
+      "media": {
+        "type": "LOTTIE",
+        "url": "https://git.linecorp.com/raw/felix-khang1115/git-learning/main/motion_banner.json?token=GHSAT0AAAAAAAAAZTE5EI5RJPFGFTGHEOAOZWO7RNQ"
+      },
+      "style": "WHITE",
+      "size": "NORMAL",
+      "category": "ai_avatar_christmas",
+      "button": {
+        "text": "Create images",
+        "actionType": "LIFF",
+        "actionDestination": "https://liff.line-beta.me/1651889101-JkE6X682?closeModals=false"
+      }
+    },
+    {
+      "type": "LIST",
+      "title": "MINI STUDIO",
+      "description": "Create adorable characters and set them as your profile icon and cover.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub_ministudio4.png"
+      },
+      "size": "SMALL",
+      "category": "linefriends",
+      "button": {
+        "text": "Create images",
+        "actionType": "LIFF",
+        "actionDestination": "https://liff.line-beta.me/2000000159-KPmgoW0R?closeModals=false"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "AI Teen",
+      "description": "Reimagine yourself as one of the cool kids.",
+      "badge": {
+        "text": "New"
+      },
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub_resized_high_teen.png"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "ai_avatar_highteen",
+      "button": {
+        "text": "Create images",
+        "actionType": "LIFF",
+        "actionDestination": "https://liff.line-beta.me/1651889101-RXJobone?closeModals=false"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "AI Baby",
+      "description": "How much cuter can you get? Let's find out.",
+      "badge": {
+        "text": "New"
+      },
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub_resized_baby.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "ai_avatar_baby",
+      "button": {
+        "text": "Create images",
+        "actionType": "LIFF",
+        "actionDestination": "https://liff.line-beta.me/1651889101-nP9zmzJB?closeModals=false"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "AI Portrait",
+      "description": "Professional-quality shots that capture your best self.",
+      "badge": {
+        "text": "Update"
+      },
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub_resized_portrait.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "ai_avatar_portrait",
+      "button": {
+        "text": "Create images",
+        "actionType": "LIFF",
+        "actionDestination": "https://liff.line-beta.me/1651889101-8MrMmMgo?closeModals=false"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "AI Selfie",
+      "description": "Breathtaking digital images generated from your favorite photos.",
+      "badge": {
+        "text": "Promo"
+      },
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub_resized_selfie.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "ai_avatar_selfie",
+      "button": {
+        "text": "Create images",
+        "actionType": "LIFF",
+        "actionDestination": "https://liff.line-beta.me/1651889101-ymDovo36?closeModals=false"
+      }
+    },
+    {
+      "type": "LIST",
+      "title": "AlphaCrewz",
+      "description": "Design avatars that match your unique style with AlphaCrewz.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub_alphacrewz_small.jpeg"
+      },
+      "size": "SMALL",
+      "category": "alphacrewz",
+      "button": {
+        "text": "Create images",
+        "actionType": "APP2APP",
+        "actionDestination": "https://www.alphacrewz.com/R/photostudio/getResultForL?requestId="
+      }
+    },
+    {
+      "type": "LIST",
+      "title": "Category 01",
+      "description": "Design avatars that match your unique style with AlphaCrewz.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub_List%202_Image%402x.png"
+      },
+      "size": "SMALL",
+      "category": "CATE_1",
+      "button": {
+        "text": "Create images",
+        "actionType": "APP2APP",
+        "actionDestination": "https://www.alphacrewz.com/R/photostudio/getResultForL?requestId="
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 02",
+      "description": "Professional-quality shots that capture your best self.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub1.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_2",
+      "button": {
+        "text": "Create images",
+        "actionType": "POPUP",
+        "popup": {
+          "title": "Temporarily unavailable",
+          "description": "This feature is unavailable due to a sudden spike in usage. Please try again later.",
+          "secondaryButton": {
+            "text": "OK"
+          }
+        }
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 03",
+      "description": "Professional-quality shots that capture your best self.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub1.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_3",
+      "button": {
+        "text": "Create images",
+        "actionType": "POPUP",
+        "popup": {
+          "title": "Update required",
+          "description": "Update LINE to the latest version to use this feature.",
+          "secondaryButton": {
+            "text": "Later"
+          },
+          "primaryButton": {
+            "text": "Update",
+            "actionType": "WEB",
+            "actionDestination": "https://line.me/update"
+          }
+        }
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 05",
+      "description": "Professional-quality shots that capture your best self.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub1.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_5",
+      "button": {
+        "text": "Create images",
+        "actionType": "PAGE",
+        "actionDestination": "intro_1",
+        "pageName": "INTRO"
+      }
+    },
+    {
+      "type": "LIST",
+      "title": "Category 06",
+      "description": "Design avatars that match your unique style with AlphaCrewz.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub_List%202_Image%402x.png"
+      },
+      "size": "SMALL",
+      "category": "CATE_6",
+      "button": {
+        "text": "Create images",
+        "actionType": "IAB",
+        "actionDestination": "https://profile.frenz.world"
+      }
+    },
+    {
+      "type": "LIST",
+      "title": "Category 07",
+      "description": "Design avatars that match your unique style with AlphaCrewz.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub_List%202_Image%402x.png"
+      },
+      "size": "SMALL",
+      "category": "CATE_7",
+      "button": {
+        "text": "Create images",
+        "actionType": "WEB",
+        "actionDestination": "https://profile.frenz.world"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 08",
+      "description": "Professional-quality shots that capture your best self.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub1.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_8",
+      "button": {
+        "text": "Create images",
+        "actionType": "PAGE",
+        "actionDestination": "intro_1",
+        "pageName": "INTRO"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 09",
+      "description": "Professional-quality shots that capture your best self.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub1.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_9",
+      "button": {
+        "text": "Create images",
+        "actionType": "PAGE",
+        "actionDestination": "intro_1",
+        "pageName": "INTRO"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 10",
+      "description": "Professional-quality shots that capture your best self.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub1.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_10",
+      "button": {
+        "text": "Create images",
+        "actionType": "PAGE",
+        "actionDestination": "intro_1",
+        "pageName": "INTRO"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 12",
+      "description": "Professional-quality shots that capture your best self.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub1.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_12",
+      "button": {
+        "text": "Create images",
+        "actionType": "PAGE",
+        "actionDestination": "intro_1",
+        "pageName": "INTRO"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 14",
+      "description": "Professional-quality shots that capture your best self.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub1.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_14",
+      "button": {
+        "text": "Create images",
+        "actionType": "PAGE",
+        "actionDestination": "intro_1",
+        "pageName": "INTRO"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 15",
+      "description": "If you select a third-party service, you'll be redirected to their site to finish creating an avatar.\nTo create an avatar using a third-party service, you must first download their app and agree to their terms of use and privacy policy, hereafter \"other service's terms.\"\nCopyrights and other intellectual property rights pertaining to any avatars created using a third-party service shall be governed by the other service's terms.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub1.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_15",
+      "button": {
+        "text": "If you select a third-party service, you'll be redirected to their site to finish creating an avatar.\nTo create an avatar using a third-party service, you must first download their app and agree to their terms of use and privacy policy, hereafter \"other service's terms.\"\nCopyrights and other intellectual property rights pertaining to any avatars created using a third-party service shall be governed by the other service's terms.",
+        "actionType": "PAGE",
+        "actionDestination": "intro_1",
+        "pageName": "INTRO"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 16",
+      "description": "Basic",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub1.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_16",
+      "button": {
+        "text": "Basic",
+        "actionType": "PAGE",
+        "actionDestination": "intro_1",
+        "pageName": "INTRO"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 17",
+      "description": "Breathtaking digital images generated from your favorite photos.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub_Card%202_Image%402x.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_17",
+      "button": {
+        "text": "Create images",
+        "actionType": "PAGE",
+        "actionDestination": "intro_1",
+        "pageName": "INTRO"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 18",
+      "description": "Breathtaking digital images generated from your favorite photos.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub_Card%202_Image%402x.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_18",
+      "button": {
+        "text": "Create images",
+        "actionType": "PAGE",
+        "actionDestination": "intro_1",
+        "pageName": "INTRO"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 19",
+      "description": "Breathtaking digital images generated from your favorite photos.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub_Card%202_Image%402x.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_19",
+      "button": {
+        "text": "Create images",
+        "actionType": "PAGE",
+        "actionDestination": "intro_1",
+        "pageName": "INTRO"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 20",
+      "description": "Breathtaking digital images generated from your favorite photos.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub_Card%202_Image%402x.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_20",
+      "button": {
+        "text": "Create images",
+        "actionType": "PAGE",
+        "actionDestination": "intro_1",
+        "pageName": "INTRO"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 21",
+      "description": "Breathtaking digital images generated from your favorite photos.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub_Card%202_Image%402x.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_21",
+      "button": {
+        "text": "Create images",
+        "actionType": "LIFF",
+        "actionDestination": "https://liff.line-beta.me/1651889101-Jl27573b?closeModals=false"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 22",
+      "description": "Breathtaking digital images generated from your favorite photos.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub_Card%202_Image%402x.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_22",
+      "button": {
+        "text": "Create images",
+        "actionType": "LIFF",
+        "actionDestination": "https://liff.line-beta.me/1651889101-ymDovo36?closeModals=false"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 23",
+      "description": "Professional-quality shots that capture your best self.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub1.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_23",
+      "button": {
+        "text": "Create images",
+        "actionType": "PAGE",
+        "actionDestination": "intro_1",
+        "pageName": "INTRO"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 24",
+      "description": "Breathtaking digital images generated from your favorite photos.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub_Card%202_Image%402x.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_24",
+      "button": {
+        "text": "Create images",
+        "actionType": "PAGE",
+        "actionDestination": "intro_1",
+        "pageName": "INTRO"
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 25 requires update",
+      "description": "Professional-quality shots that capture your best self.",
+      "badge": {
+        "text": "Create images"
+      },
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub1.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_25",
+      "button": {
+        "text": "Create images",
+        "actionType": "POPUP",
+        "popup": {
+          "title": "Update required",
+          "description": "Update LINE to the latest version to use this feature.",
+          "secondaryButton": {
+            "text": "Later"
+          },
+          "primaryButton": {
+            "text": "Update",
+            "actionType": "WEB",
+            "actionDestination": "https://line.me/update"
+          }
+        }
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 26 not available",
+      "description": "Professional-quality shots that capture your best self.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub1.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_26",
+      "button": {
+        "text": "Create images",
+        "actionType": "POPUP",
+        "popup": {
+          "title": "Temporarily unavailable",
+          "description": "This feature is unavailable due to a sudden spike in usage. Please try again later.",
+          "secondaryButton": {
+            "text": "OK"
+          }
+        }
+      }
+    },
+    {
+      "type": "CARD",
+      "title": "Category 27 Guide not available",
+      "description": "Professional-quality shots that capture your best self.",
+      "media": {
+        "type": "IMAGE",
+        "url": "https://line-objects-dev.com/flexible-ui/Hub1.jpg"
+      },
+      "style": "FULL",
+      "size": "NORMAL",
+      "category": "CATE_27",
+      "button": {
+        "text": "Create images",
+        "actionType": "PAGE",
+        "actionDestination": "picture_guide_1",
+        "pageName": "PICTURE_GUIDE"
+      }
+    }
+  ],
+  "footers": [
+    {
+      "type": "TEXT",
+      "text": "BOTTOM 2 WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+      "iconUrl": "https://line-objects-dev.com/flexible-ui/Hub_text_icon_announcement.png",
+      "clickAction": {
+        "type": "LIFF",
+        "destination": "https://liff.line-beta.me/1651889101-nP9zmzJB?closeModals=false"
+      }
+    }
+  ],
+  "popup": {
+    "title": "Test title",
+    "description": "Test description",
+    "secondaryButton": {
+      "text": "Secondary button",
+      "actionType": "CLOSE_PAGE"
+    },
+    "primaryButton": {
+      "text": "主ボタン",
+      "actionType": "LIFF",
+      "actionDestination": "https://liff.line-beta.me/1651889101-VDGl3lEw?closeModals=false"
+    },
+    "exposureConditions": {
+      "firstShownId": "first-shown:popup:test"
+    }
+  }
+}

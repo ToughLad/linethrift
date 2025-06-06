@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/section_layout" android:layout_width="fill_parent" android:layout_height="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/section_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/line_home_header_friendsection" android:layout_marginHorizontal="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/see_more_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/ServiceSectionTextStyle" />
+    <TextView android:id="@id/see_more_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/line_home_button_seemore_friendsection" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="@id/section_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/section_title" style="@style/ServiceHomeTabSeeMoreTextStyle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

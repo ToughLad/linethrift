@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/group_invitation_item_layout" android:background="@drawable/selector_primary_surface" android:layout_width="fill_parent" android:layout_height="@dimen/group_invitation_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/group_invitation_avatar" android:layout_width="@dimen/group_invitation_item_avatar_size" android:layout_height="@dimen/group_invitation_item_avatar_size" android:layout_marginLeft="@dimen/group_invitation_section_horizontal_margin" android:layout_marginRight="@dimen/group_invitation_item_avatar_right_margin" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@null" />
+    <TextView android:textSize="@dimen/group_invitation_item_name_text_size" android:textColor="@color/primaryText" android:ellipsize="end" android:id="@id/group_invitation_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/group_invitation_section_horizontal_margin" android:maxLines="1" android:layout_toRightOf="@id/group_invitation_avatar" android:layout_centerVertical="true" />
+</RelativeLayout>

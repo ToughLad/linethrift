@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/primarySurface" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@android:id/list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:gravity="center" android:id="@id/friend_search_no_result" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/chat_search_members_nomessages" android:layout_weight="1.0" style="@style/NoContentsViewTextNew" />
+</LinearLayout>

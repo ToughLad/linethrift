@@ -1,0 +1,145 @@
+.class public final LYd0/c$c;
+.super LQm1/d;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LYd0/c;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "c"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LQm1/d<",
+        "LYd0/c;",
+        ">;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public final a(LPm1/g;Lorg/apache/thrift/d;)V
+    .locals 3
+
+    check-cast p2, LYd0/c;
+
+    check-cast p1, LPm1/l;
+
+    const/4 p0, 0x1
+
+    invoke-virtual {p1, p0}, LPm1/l;->R(I)Ljava/util/BitSet;
+
+    move-result-object p0
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p0, v0}, Ljava/util/BitSet;->get(I)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_0
+
+    invoke-virtual {p1}, LPm1/b;->j()I
+
+    move-result p0
+
+    new-instance v1, Ljava/util/HashSet;
+
+    mul-int/lit8 v2, p0, 0x2
+
+    invoke-direct {v1, v2}, Ljava/util/HashSet;-><init>(I)V
+
+    iput-object v1, p2, LYd0/c;->a:Ljava/util/HashSet;
+
+    :goto_0
+    if-ge v0, p0, :cond_0
+
+    new-instance v1, LYd0/j;
+
+    invoke-direct {v1}, LYd0/j;-><init>()V
+
+    invoke-virtual {v1, p1}, LYd0/j;->read(LPm1/g;)V
+
+    iget-object v2, p2, LYd0/c;->a:Ljava/util/HashSet;
+
+    invoke-virtual {v2, v1}, Ljava/util/HashSet;->add(Ljava/lang/Object;)Z
+
+    add-int/lit8 v0, v0, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+.method public final b(LPm1/g;Lorg/apache/thrift/d;)V
+    .locals 1
+
+    check-cast p2, LYd0/c;
+
+    check-cast p1, LPm1/l;
+
+    new-instance p0, Ljava/util/BitSet;
+
+    invoke-direct {p0}, Ljava/util/BitSet;-><init>()V
+
+    invoke-virtual {p2}, LYd0/c;->e()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p0, v0}, Ljava/util/BitSet;->set(I)V
+
+    :cond_0
+    const/4 v0, 0x1
+
+    invoke-virtual {p1, p0, v0}, LPm1/l;->T(Ljava/util/BitSet;I)V
+
+    invoke-virtual {p2}, LYd0/c;->e()Z
+
+    move-result p0
+
+    if-eqz p0, :cond_1
+
+    iget-object p0, p2, LYd0/c;->a:Ljava/util/HashSet;
+
+    invoke-virtual {p0}, Ljava/util/HashSet;->size()I
+
+    move-result p0
+
+    invoke-virtual {p1, p0}, LPm1/b;->A(I)V
+
+    iget-object p0, p2, LYd0/c;->a:Ljava/util/HashSet;
+
+    invoke-virtual {p0}, Ljava/util/HashSet;->iterator()Ljava/util/Iterator;
+
+    move-result-object p0
+
+    :goto_0
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result p2
+
+    if-eqz p2, :cond_1
+
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object p2
+
+    check-cast p2, LYd0/j;
+
+    invoke-virtual {p2, p1}, LYd0/j;->write(LPm1/g;)V
+
+    goto :goto_0
+
+    :cond_1
+    return-void
+.end method

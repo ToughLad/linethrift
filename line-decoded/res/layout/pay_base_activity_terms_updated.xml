@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/linegray650" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="16.0dip" android:includeFontPadding="false" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/linegray500" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="16.0dip" android:includeFontPadding="false" android:lineSpacingExtra="2.0dip" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/lineblue600" android:id="@id/help" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="16.0dip" android:includeFontPadding="false" />
+    <View android:layout_width="wrap_content" android:layout_height="17.0dip" />
+    <com.linecorp.line.pay.base.legacy.customview.UpdatedAgreementCheckbox android:id="@id/agree_to_all_terms_checkbox" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginHorizontal="16.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/rules_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:layout_marginHorizontal="16.0dip" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <Button android:enabled="false" android:textColor="@color/linewhite" android:id="@id/done_button" android:background="@drawable/pay_base_selector_light_green_button" android:layout_width="fill_parent" android:layout_height="@dimen/pay_base_common_full_button_height" android:layout_marginTop="7.0dip" android:text="@string/pay_signup_agreement_terms" android:includeFontPadding="false" style="@style/pay_base_common_full_button" />
+</LinearLayout>

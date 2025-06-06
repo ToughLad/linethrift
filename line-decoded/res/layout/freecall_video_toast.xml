@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/notification_guideline" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintGuide_end="0.0dip" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/revive_call_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/freecall_video_revive_call_guideline_default" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/tooltip_guideline" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintGuide_end="81.0dip" />
+    <FrameLayout android:id="@id/notification_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginHorizontal="13.0dip" app:layout_constraintBottom_toTopOf="@id/notification_guideline" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintWidth_max="400.0dip" />
+    <com.linecorp.voip2.service.freecall.view.FreeCallReviveStatusView android:id="@id/revive_call" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/revive_call_guideline" />
+    <FrameLayout android:id="@id/tooltip_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/tooltip_guideline" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

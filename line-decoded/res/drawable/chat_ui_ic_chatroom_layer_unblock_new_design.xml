@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="30.0dip" android:width="30.0dip" android:viewportWidth="30.0" android:viewportHeight="30.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#00000000" android:pathData="M11.75,15L18.25,15L18.25,16L11.75,16z" android:strokeColor="@color/chat_ui_selector_chathistory_header_button_icon" android:strokeWidth="2.5" android:fillType="nonZero" />
+    <path android:fillColor="#00000000" android:pathData="M15,5.75c2.553,0.003 4.864,1.04 6.538,2.713C23.21,10.137 24.247,12.448 24.25,15c0,1.87 -0.563,3.65 -1.559,5.139 -0.995,1.49 -2.423,2.69 -4.151,3.407 -1.729,0.716 -3.587,0.876 -5.345,0.526 -1.757,-0.35 -3.413,-1.21 -4.736,-2.532 -1.323,-1.323 -2.182,-2.979 -2.531,-4.736 -0.35,-1.758 -0.19,-3.616 0.527,-5.345 0.716,-1.728 1.917,-3.155 3.407,-4.15 1.49,-0.996 3.269,-1.56 5.138,-1.559z" android:strokeColor="@color/chat_ui_selector_chathistory_header_button_icon" android:strokeWidth="2.5" android:fillType="nonZero" />
+</vector>

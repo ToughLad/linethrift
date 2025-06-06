@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/linewhite_pressed" android:id="@id/translation_button_bullet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:text="·" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/lineblack" android:id="@id/translation_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/timeline_main_button_seetranslation" />
+</merge>

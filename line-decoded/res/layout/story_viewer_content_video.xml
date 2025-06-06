@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/bg_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <View android:background="@color/story_dim_color" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.linecorp.line.player.ui.view.LineVideoView android:id="@id/video" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <include layout="@layout/story_viewer_content_bg_gradient" />
+    <include android:id="@id/message_binding" layout="@layout/story_viewer_content_message" />
+    <include android:id="@id/reaction_binding" layout="@layout/story_viewer_content_reaction" />
+</androidx.constraintlayout.widget.ConstraintLayout>

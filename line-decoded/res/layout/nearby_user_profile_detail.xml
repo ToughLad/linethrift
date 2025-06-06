@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/nearby_request_thumbnail_img" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitXY" android:layout_weight="1.0" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="255.0dip">
+        <RelativeLayout android:orientation="vertical" android:layout_width="264.0dip" android:layout_height="wrap_content" android:layout_marginTop="25.5dip" android:layout_centerHorizontal="true">
+            <TextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="#ff000000" android:ellipsize="end" android:gravity="center" android:id="@id/nearby_request_name_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" />
+            <LinearLayout android:id="@id/nearby_request_status_containor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_below="@id/nearby_request_name_text">
+                <TextView android:textSize="13.0sp" android:textColor="#ff989898" android:gravity="center" android:id="@id/nearby_request_status_single_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" />
+                <ScrollView android:id="@id/nearby_request_status_multi_containor_scrollview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="13.0sp" android:textColor="#ff989898" android:ellipsize="end" android:gravity="center" android:id="@id/nearby_request_status_multi_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:id="@id/nearby_request_status_arrow_containor" android:paddingTop="5.0dip" android:paddingBottom="2.5dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/nearby_request_status_containor" android:layout_alignParentBottom="false">
+                <ImageView android:layout_gravity="bottom" android:id="@id/nearby_request_status_arrow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/nearby_ic_arrow_down" android:scaleType="center" />
+            </LinearLayout>
+            <TextView android:textSize="15.0sp" android:textColor="#ff474747" android:id="@id/nearby_request_location_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.5dip" android:includeFontPadding="false" android:drawableLeft="@drawable/nearby_ic_location02" android:drawablePadding="5.0dip" android:layout_below="@id/nearby_request_status_arrow_containor" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/nearby_btn_containor" android:layout_width="300.0dip" android:layout_height="50.5dip" android:layout_marginTop="13.0dip" android:layout_marginBottom="28.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <Button android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/nearby_request_friend_btn" android:background="@drawable/nearby_selector_button_r22_noround" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/nearby_request_friend" android:includeFontPadding="false" />
+            <Button android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff00be68" android:gravity="center" android:id="@id/nearby_request_pending_btn" android:background="@drawable/nearby_request_pending_button_stroke" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/nearby_request_friend_pending" android:includeFontPadding="false" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

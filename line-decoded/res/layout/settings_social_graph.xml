@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/common_settings_root" android:background="@color/settings_bg_semantic" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <ScrollView android:id="@id/settings_social_graph_root" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/common_setting_container" android:paddingTop="@dimen/line_user_settings_item_list_padding_top" android:paddingBottom="7.3299866dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.linecorp.line.settings.base.itemview.LineUserSettingCheckMarkItemView android:id="@id/settings_social_graph_always" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_graph_filter_always" />
+            <com.linecorp.line.settings.base.itemview.LineUserSettingCheckMarkItemView android:id="@id/settings_social_graph_mutual" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_graph_filter_mutual" />
+            <com.linecorp.line.settings.base.itemview.LineUserSettingCheckMarkItemView android:id="@id/settings_social_graph_refuse" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_graph_filter_refuse" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/tertiaryText" android:id="@id/social_graph_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/settings_graph_filter_desc" android:layout_marginStart="@dimen/line_user_setting_page_margin_horizontal" android:layout_marginEnd="@dimen/line_user_setting_page_margin_horizontal" />
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@id/progress_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/line_user_settings_loading_view" />
+</RelativeLayout>

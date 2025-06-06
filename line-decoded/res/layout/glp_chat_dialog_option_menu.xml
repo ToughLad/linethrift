@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/container_option_menu" android:background="@drawable/glp_dialog_common_bg" android:paddingTop="30.0dip" android:paddingBottom="7.0dip" android:focusable="true" android:clickable="true" android:layout_width="260.0dip" android:layout_height="wrap_content" android:paddingHorizontal="26.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/defaultText" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:maxLines="2" android:includeFontPadding="false" android:layout_marginStart="23.0dip" android:layout_marginEnd="23.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

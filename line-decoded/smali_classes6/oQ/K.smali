@@ -1,0 +1,260 @@
+.class public final LoQ/K;
+.super Lok1/j;
+.source "SourceFile"
+
+# interfaces
+.implements Lxk1/p;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lok1/j;",
+        "Lxk1/p<",
+        "LSl1/F;",
+        "Lkotlin/coroutines/Continuation<",
+        "-",
+        "Lkotlin/Unit;",
+        ">;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lok1/f;
+    c = "com.linecorp.line.lyppremium.impl.ui.subscription.LypPremiumUnsubscribeViewController$closeOngoingUnsubscribeOnTimeout$1"
+    f = "LypPremiumUnsubscribeViewController.kt"
+    l = {
+        0xca,
+        0xd2
+    }
+    m = "invokeSuspend"
+.end annotation
+
+
+# instance fields
+.field public a:I
+
+.field public final synthetic b:Lcom/linecorp/line/lyppremium/impl/ui/subscription/z;
+
+
+# direct methods
+.method public constructor <init>(Lcom/linecorp/line/lyppremium/impl/ui/subscription/z;Lkotlin/coroutines/Continuation;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/linecorp/line/lyppremium/impl/ui/subscription/z;",
+            "Lkotlin/coroutines/Continuation<",
+            "-",
+            "LoQ/K;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, LoQ/K;->b:Lcom/linecorp/line/lyppremium/impl/ui/subscription/z;
+
+    const/4 p1, 0x2
+
+    invoke-direct {p0, p1, p2}, Lok1/j;-><init>(ILkotlin/coroutines/Continuation;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            "Lkotlin/coroutines/Continuation<",
+            "*>;)",
+            "Lkotlin/coroutines/Continuation<",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+
+    new-instance p1, LoQ/K;
+
+    iget-object p0, p0, LoQ/K;->b:Lcom/linecorp/line/lyppremium/impl/ui/subscription/z;
+
+    invoke-direct {p1, p0, p2}, LoQ/K;-><init>(Lcom/linecorp/line/lyppremium/impl/ui/subscription/z;Lkotlin/coroutines/Continuation;)V
+
+    return-object p1
+.end method
+
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, LSl1/F;
+
+    check-cast p2, Lkotlin/coroutines/Continuation;
+
+    invoke-virtual {p0, p1, p2}, LoQ/K;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+
+    move-result-object p0
+
+    check-cast p0, LoQ/K;
+
+    sget-object p1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    invoke-virtual {p0, p1}, LoQ/K;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 7
+
+    sget-object v0, Lnk1/a;->COROUTINE_SUSPENDED:Lnk1/a;
+
+    iget v1, p0, LoQ/K;->a:I
+
+    const/4 v2, 0x2
+
+    const/4 v3, 0x1
+
+    iget-object v4, p0, LoQ/K;->b:Lcom/linecorp/line/lyppremium/impl/ui/subscription/z;
+
+    if-eqz v1, :cond_2
+
+    if-eq v1, v3, :cond_1
+
+    if-ne v1, v2, :cond_0
+
+    invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
+
+    goto :goto_2
+
+    :cond_0
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    const-string p1, "call to \'resume\' before \'invoke\' with coroutine"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :cond_1
+    invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
+
+    goto :goto_0
+
+    :cond_2
+    invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
+
+    sget-wide v5, Lcom/linecorp/line/lyppremium/impl/ui/subscription/z;->g:J
+
+    iput v3, p0, LoQ/K;->a:I
+
+    invoke-static {v5, v6, p0}, LSl1/Q;->c(JLkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    if-ne p1, v0, :cond_3
+
+    goto :goto_1
+
+    :cond_3
+    :goto_0
+    iget-object p1, v4, Lcom/linecorp/line/lyppremium/impl/ui/subscription/z;->b:Lcom/linecorp/line/lyppremium/impl/ui/subscription/A;
+
+    invoke-virtual {p1}, Lcom/linecorp/line/lyppremium/impl/ui/subscription/A;->D()Z
+
+    move-result p1
+
+    if-nez p1, :cond_4
+
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+
+    :cond_4
+    iget-object p1, v4, Lcom/linecorp/line/lyppremium/impl/ui/subscription/z;->c:LkQ/c;
+
+    invoke-virtual {p1}, LkQ/c;->C()LsQ/e;
+
+    move-result-object v1
+
+    invoke-static {v1}, Lcom/linecorp/line/lyppremium/impl/ui/subscription/z;->b(LsQ/e;)Z
+
+    move-result v1
+
+    if-eqz v1, :cond_5
+
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+
+    :cond_5
+    iput v2, p0, LoQ/K;->a:I
+
+    const-string v1, "WithoutCondition"
+
+    iget-object p1, p1, LkQ/c;->b:LjQ/h;
+
+    invoke-virtual {p1, v1, p0}, LjQ/h;->i(Ljava/lang/String;Lok1/d;)Ljava/lang/Enum;
+
+    move-result-object p0
+
+    if-ne p0, v0, :cond_6
+
+    :goto_1
+    return-object v0
+
+    :cond_6
+    :goto_2
+    iget-object p0, v4, Lcom/linecorp/line/lyppremium/impl/ui/subscription/z;->c:LkQ/c;
+
+    invoke-virtual {p0}, LkQ/c;->C()LsQ/e;
+
+    move-result-object p0
+
+    invoke-static {p0}, Lcom/linecorp/line/lyppremium/impl/ui/subscription/z;->b(LsQ/e;)Z
+
+    move-result p0
+
+    if-nez p0, :cond_7
+
+    iget-object p0, v4, Lcom/linecorp/line/lyppremium/impl/ui/subscription/z;->a:Lcom/linecorp/line/lyppremium/impl/ui/subscription/LypPremiumUnsubscribeFragment;
+
+    invoke-virtual {p0}, Landroidx/fragment/app/k;->getActivity()Landroidx/fragment/app/n;
+
+    move-result-object p0
+
+    if-eqz p0, :cond_8
+
+    invoke-virtual {p0}, Landroid/app/Activity;->finish()V
+
+    goto :goto_3
+
+    :cond_7
+    iget-object p0, v4, Lcom/linecorp/line/lyppremium/impl/ui/subscription/z;->b:Lcom/linecorp/line/lyppremium/impl/ui/subscription/A;
+
+    invoke-virtual {p0}, Lcom/linecorp/line/lyppremium/impl/ui/subscription/A;->D()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_8
+
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    new-instance p1, LhQ/b$c;
+
+    sget-object v0, LhQ/b$c$a$a;->CANCELED:LhQ/b$c$a$a;
+
+    invoke-direct {p1, v0}, LhQ/b$c;-><init>(LhQ/b$c$a;)V
+
+    invoke-virtual {p0, p1}, Lcom/linecorp/line/lyppremium/impl/ui/subscription/A;->E(LhQ/b;)V
+
+    :cond_8
+    :goto_3
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method

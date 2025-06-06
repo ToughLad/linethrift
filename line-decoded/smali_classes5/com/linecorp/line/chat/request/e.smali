@@ -1,0 +1,23 @@
+.class public final Lcom/linecorp/line/chat/request/e;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final a:Lcom/linecorp/line/chat/request/d;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    new-instance v0, Lcom/linecorp/line/chat/request/d;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Lcom/linecorp/line/chat/request/d;-><init>(I)V
+
+    sput-object v0, Lcom/linecorp/line/chat/request/e;->a:Lcom/linecorp/line/chat/request/d;
+
+    return-void
+.end method

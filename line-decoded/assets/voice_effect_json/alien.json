@@ -1,0 +1,33 @@
+{
+  "result": [
+    {
+      "effect": "equalizer",
+      "property": {
+        "preset":"6bands",
+        "band1gain_db":-60.0,
+        "band2gain_db":0.0,
+        "band3gain_db":0.0,
+        "band4gain_db":-60.0,
+        "band5gain_db":-60.0,
+        "band6gain_db":-60.0
+      }
+    },
+    {
+      "effect": "pitchshift",
+      "property": {
+        "pitch_scale":5.03,
+        "fft":"size_512",
+        "oversampling":4
+      }
+    },
+    {
+      "effect": "limiter",
+      "property": {
+        "threshold_db":-15.00,
+        "ceiling_db":-4.00,
+        "attack_ms":0.0,
+        "release_ms":50.0
+      }
+    }
+  ]
+}

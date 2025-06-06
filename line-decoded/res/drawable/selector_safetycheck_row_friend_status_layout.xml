@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@color/primarySurfacePressed" />
+    <item android:drawable="@color/safetycheck_row_friend_status_layout_highlight" android:state_activated="true" />
+    <item android:drawable="@color/primaryBackground" />
+</selector>

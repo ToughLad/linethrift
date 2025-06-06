@@ -1,0 +1,42 @@
+{
+  "result": [
+    {
+      "effect": "equalizer",
+      "property": {
+        "preset":"6bands",
+        "band1gain_db":-60.0,
+        "band2gain_db":-60.0,
+        "band3gain_db":-60.0,
+        "band4gain_db":0.0,
+        "band5gain_db":0.0,
+        "band6gain_db":12.0
+      }
+    },
+    {
+      "effect": "pitchshift",
+      "property": {
+        "pitch_scale": 0.7,
+        "fft": "size_2048",
+        "oversampling": 4
+      }
+    },
+    {
+      "effect": "delay",
+      "property": {
+        "dry":1.0,
+        "tab1active":false,
+        "tab1delay_ms":250.0,
+        "tab1level_db":-6.0,
+        "tab1pan": 0.2,
+        "tab2active":false,
+        "tab2delay_ms":500.0,
+        "tab2level_db":-12.0,
+        "tab2pan": -0.4,
+        "feedbackactive":true,
+        "feedbackdelay_ms":500.0,
+        "feedbacklevel_db":-15.0,
+        "feedbacklowpass": 16000.0
+      }
+    }
+  ]
+}

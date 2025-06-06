@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:id="@id/horizontal_alignment_line" android:background="@color/linewhite" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <View android:layout_gravity="center" android:id="@id/vertical_alignment_line" android:background="@color/linewhite" android:visibility="gone" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <View android:layout_gravity="center|left|top" android:id="@id/rotation_alignment_line" android:background="@drawable/picker_decoration_align_dash_line" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layerType="software" />
+</FrameLayout>

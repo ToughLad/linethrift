@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/profile_bridge_background" android:layout_width="58.0dip" android:layout_height="77.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/add_icon" android:background="@drawable/timeline_add_account_stroke_circle" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/list_image_add" android:scaleType="center" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/tertiaryNeutralFill" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/senarySubText" android:gravity="center" android:id="@id/add_icon_text" android:layout_width="fill_parent" android:layout_height="15.0dip" android:text="@string/timeline_center_button_create" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/timeline_text_profile_bridge_layer_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>

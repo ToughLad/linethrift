@@ -1,0 +1,36 @@
+{
+  "result": [
+    {
+      "effect": "ringmodulator",
+      "property": {
+        "depth":1.0,
+        "carrier_hz":1000.0
+      }
+    },
+    {
+      "effect": "reverb",
+      "property": {
+        "predelay_ms":85.0,
+        "predelayfeedback":0.17,
+        "roomsize":0.16,
+        "damping":0.5,
+        "spread":0.16,
+        "dry":1.0,
+        "wet":0.5,
+        "hpf":0.0
+      }
+    },
+    {
+      "effect": "equalizer",
+      "property": {
+          "preset":"6bands",
+          "band1gain_db":0.0,
+          "band2gain_db":0.0,
+          "band3gain_db":0.0,
+          "band4gain_db":-8.0,
+          "band5gain_db":-8.0,
+          "band6gain_db":-2.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingLeft="1.0dip" android:paddingRight="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.line.android.common.view.media.ZoomImageView android:id="@id/zoomImageView" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" />
+    <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/linewhite" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/imageviewer_item_refresh_image_btn" android:background="@drawable/selector_btn_02" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="164.0dip" android:minHeight="44.0dip" android:text="@string/album_commonkey_button_tryagain" android:layout_centerInParent="true" />
+    <ProgressBar android:id="@id/image_loading_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:progressBarStyle" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/gif_image_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/viewer_img_gif" />
+        <TextView android:id="@id/gif_file_size_text" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="@style/text_gallery_loading" />
+    </LinearLayout>
+    <jp.naver.gallery.android.fragment.ChatPhotoDetailProgressView android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/progress_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

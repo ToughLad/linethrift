@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.line.chat.ui.resources.message.message.list.skin.ChatHistorySkinImageView android:id="@id/chathistroy_skin_view" android:background="@color/onSeptenarySubNeutralFill" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/header_height" android:scaleType="matrix" />
+    <include layout="@layout/chat_ui_background_effect" />
+    <RelativeLayout android:id="@id/chathistory_edge_to_edge_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/chathistory_content_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header">
+            <include android:id="@id/root_message_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" layout="@layout/square_thread_space_root_message" />
+            <FrameLayout android:id="@id/chat_ui_main_content_area" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="1.0dip" app:layout_constraintBottom_toTopOf="@id/footer_container" app:layout_constraintTop_toBottomOf="@id/root_message_layout">
+                <ViewStub android:id="@id/chathistory_background_popup_sticker_view_stub" android:layout="@layout/chat_ui_popup_sticker_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:orientation="vertical" android:id="@id/chathistory_message_list_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.linecorp.line.chat.ui.resources.message.message.list.ChatHistoryMessageRecyclerView android:id="@id/chathistory_message_list" android:background="@color/transparent" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+                </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+                <View android:layout_gravity="bottom" android:id="@id/chat_ui_outside_messages_overlay_bottom" android:background="@color/chat_ui_outside_overlay_color" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+                <ViewStub android:id="@id/chathistory_foreground_popup_sticker_view_stub" android:layout="@layout/chat_ui_popup_sticker_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <RelativeLayout android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ViewStub android:id="@id/chathistory_date_overlay_viewstub" android:layout="@layout/chat_ui_date_indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/chathistory_previous_chat_loading_viewstub" />
+                    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/chat_ui_top_floating_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ViewStub android:id="@id/chathistory_square_header_ad_viewstub" android:layout="@layout/chat_ui_square_header_ad_top_floating_view" android:inflatedId="@id/chat_ui_square_header_ad_view" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                    <ViewStub android:id="@id/chathistory_previous_chat_loading_viewstub" android:layout="@layout/chat_ui_previous_chat_loading_view" android:inflatedId="@id/chathistory_previous_chat_loading_viewstub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/chat_ui_top_floating_view_container" />
+                </RelativeLayout>
+            </FrameLayout>
+            <FrameLayout android:id="@id/content_area_overlay_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/footer_container" app:layout_constraintTop_toTopOf="parent">
+                <ViewStub android:layout_gravity="bottom|center" android:id="@id/chathistory_quick_reply_stub" android:layout="@layout/chat_ui_quick_reply_footer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                <ViewStub android:layout_gravity="bottom" android:id="@id/chathistory_bottom_floating_buttons" android:layout="@layout/chat_ui_bottom_floating_buttons" android:layout_width="fill_parent" android:layout_height="@dimen/chat_ui_bottom_floating_buttons_height" />
+                <FrameLayout android:id="@id/chathistory_preview_and_auto_suggestion_area" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <ViewStub android:layout_gravity="bottom" android:id="@id/chathistory_sticker_keyboard_preview_viewstub" android:layout="@layout/sticker_keyboard_preview_layout" android:inflatedId="@id/chathistory_sticker_keyboard_preview_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom" android:id="@id/chathistory_combination_sticker_keyboard_preview" android:visibility="gone" style="@style/shop_combination_sticker_preview" />
+                    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom" android:id="@id/recommended_sticker_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                    <FrameLayout android:id="@id/chathistory_auto_suggestion_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </FrameLayout>
+                <ViewStub android:layout_gravity="bottom" android:id="@id/chat_ui_mention_suggest_viewstub" android:layout="@layout/chat_ui_mention_suggest" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <FrameLayout android:layout_gravity="bottom" android:id="@id/collection_snackbar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-10.0dip" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/footer_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
+                <ViewStub android:id="@id/chathistory_message_selection_instruction_stub" android:layout="@layout/chat_ui_message_selection_instruction" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <include android:id="@id/chat_ui_message" layout="@layout/chat_ui_input_area" />
+                <androidx.compose.ui.platform.ComposeView android:id="@id/chat_ui_status_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/chathistory_attach_gallery_send_button_viewstub" android:layout="@layout/chat_ui_input_attach_gallery_send_layout" android:layout_width="fill_parent" android:layout_height="@dimen/chathistory_input_area_height" />
+                <ViewStub android:id="@id/chathistory_sticker_sticon_input_viewstub" android:layout="@layout/sticker_sticon_input" android:layout_width="fill_parent" android:layout_height="@dimen/chat_ui_message_input_menu_height_portrait" />
+                <ViewStub android:id="@id/chathistory_gallery_menu_viewstub" android:layout="@layout/chat_ui_gallery_menu" android:layout_width="fill_parent" android:layout_height="@dimen/chat_ui_message_input_menu_height_portrait" />
+                <ViewStub android:id="@id/chat_ui_edit_mode_bottom_button_stub" android:layout="@layout/chat_ui_edit_mode_bottom_button" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/chathistory_voice_input_viewstub" android:layout="@layout/chat_ui_voice_input_obsolete" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <ViewStub android:id="@id/chat_ui_voice_input_card_alert_viewstub" android:layout="@layout/chat_ui_voice_input_alert_obsolete" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/pseudo_status_bar" />
+        <FrameLayout android:id="@id/pseudo_status_bar" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+        <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="@dimen/header_height" android:layout_below="@id/pseudo_status_bar" />
+        <ViewStub android:id="@id/tag_sub_cluster_bottom_sheet_viewstub" android:layout="@layout/tag_sub_cluster_bottom_sheet_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/pseudo_status_bar" />
+        <androidx.compose.ui.platform.ComposeView android:id="@id/reaction_keyboard" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/pseudo_status_bar" />
+        <FrameLayout android:id="@id/chat_ui_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/pseudo_status_bar" />
+    </RelativeLayout>
+</RelativeLayout>

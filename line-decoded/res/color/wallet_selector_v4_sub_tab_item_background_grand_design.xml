@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:color="@color/wallet_v4_sub_tab_item_background_grand_design_selected" />
+    <item android:color="@color/wallet_v4_sub_tab_item_background_grand_design_default" />
+</selector>

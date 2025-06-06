@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.linecorp.line.voomcamera.editor.impl.fragment.preview.view.VideoDurationItemFrame android:layout_width="@dimen/picker_gallery_video_duration_item_width" android:layout_height="@dimen/picker_gallery_video_duration_item_height" android:layout_marginStart="@dimen/picker_gallery_video_duration_item_margin_start" android:layout_marginEnd="@dimen/picker_gallery_video_duration_item_margin_end"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="@dimen/voom_camera_editor_impl_voom_preview_thumbnail_rect_radius" app:cardElevation="0.0dip">
+        <ImageView android:id="@id/video_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <ImageView android:id="@id/video_selected_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/picker_metadata_preview_selected_frame" />
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/linewhite" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/video_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:shadowColor="@color/lineblack_alpha50" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="1.0" />
+    </androidx.cardview.widget.CardView>
+</com.linecorp.line.voomcamera.editor.impl.fragment.preview.view.VideoDurationItemFrame>

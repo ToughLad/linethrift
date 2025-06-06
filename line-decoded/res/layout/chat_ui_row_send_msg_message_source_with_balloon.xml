@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/chat_ui_message_source_balloon" android:background="@color/chat_ui_message_balloon_send_bg_normal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/chat_ui_message_source_divider" android:background="@color/chat_ui_message_send_divider_bg" android:layout_width="fill_parent" android:layout_height="@dimen/chat_ui_row_divider_height" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/chat_ui_message_source_left_margin" android:layout_marginRight="@dimen/chat_ui_message_source_right_margin" android:layout_marginStart="@dimen/chat_ui_message_source_left_margin" android:layout_marginEnd="@dimen/chat_ui_message_source_right_margin" layout="@layout/chat_ui_row_send_msg_message_source_content" />
+</FrameLayout>

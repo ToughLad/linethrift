@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/post_header_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:minHeight="62.0dip">
+        <ImageView android:id="@id/profile_image" android:layout_width="31.0dip" android:layout_height="31.0dip" android:layout_marginTop="10.669983dip" android:layout_marginRight="15.0dip" android:scaleType="fitXY" />
+        <RelativeLayout android:id="@id/profile_name_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_toRightOf="@id/profile_image" android:layout_alignTop="@id/profile_image">
+            <com.linecorp.line.timeline.ui.base.view.PostSticonTextView android:textSize="13.0sp" android:textColor="#ff222222" android:id="@id/system_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:includeFontPadding="false" android:lineSpacingExtra="2.0dip" />
+            <com.linecorp.line.timeline.ui.base.view.PostSticonTextView android:textSize="14.0sp" android:textColor="#ff222222" android:id="@id/listitem_post_header_with_body_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:includeFontPadding="false" android:layout_below="@id/system_text" android:lineSpacingExtra="2.0dip" />
+            <TextView android:textSize="10.0sp" android:textColor="#ffb3b8c1" android:id="@id/update_date" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_below="@id/listitem_post_header_with_body_text" />
+            <ImageView android:id="@id/privacygroup_icon" android:paddingLeft="8.0dip" android:paddingTop="4.669983dip" android:paddingRight="8.0dip" android:paddingBottom="4.669983dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_allow_02" android:layout_toRightOf="@id/update_date" android:layout_below="@id/system_text" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

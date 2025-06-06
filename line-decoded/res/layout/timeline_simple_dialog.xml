@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/common_dialog_background" android:background="@drawable/lds_popup_background" android:paddingTop="28.0dip" android:paddingBottom="21.0dip" android:layout_width="260.0dip" android:layout_height="wrap_content" android:paddingStart="29.0dip" android:paddingEnd="29.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/common_dialog_contents_bg" android:paddingBottom="27.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/defaultText" android:gravity="center_horizontal" android:id="@id/common_dialog_title_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" style="@style/commonFont" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/tertiaryText" android:gravity="center_horizontal" android:id="@id/common_dialog_content_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/commonFont" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/common_dialog_horizontal_buttons" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="15.0sp" android:textColor="@color/lds_popup_text_button_text" android:gravity="center" android:id="@id/common_dialog_cancel_btn" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="20.0dip" android:layout_weight="1.0" />
+        <View android:id="@id/common_dialog_button_padding" android:layout_width="2.0dip" android:layout_height="20.0dip" />
+        <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/selector_timeline_branding_text" android:gravity="center" android:id="@id/common_dialog_ok_btn" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="20.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

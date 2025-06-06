@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/background_layout" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/color_picker_background_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:contentDescription="@null" />
+    <ImageView android:id="@id/color_picker_expand_spot_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/picker_gallery_doodle_img_picker_balloon_border" />
+    <ImageView android:id="@id/color_picker_expand_spot_bg_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/picker_gallery_doodle_img_picker_balloon_bg" />
+    <ImageView android:id="@id/color_picker_spot_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/picker_gallery_doodle_img_picker_point_border" />
+    <ImageView android:id="@id/color_picker_spot_bg_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/picker_gallery_doodle_img_picker_point_bg" />
+</RelativeLayout>

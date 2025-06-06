@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="7.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/tooltip_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/chat_ui_tooltip_arrow_up" android:contentDescription="@null" android:layout_marginStart="@dimen/chat_ui_paidreaction_tooltip_arrow_margin" />
+    <include layout="@layout/chat_ui_reaction_modal_tooltip_content" />
+</LinearLayout>

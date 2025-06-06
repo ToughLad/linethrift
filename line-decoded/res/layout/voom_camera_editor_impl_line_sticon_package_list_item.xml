@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="7.0dip" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:id="@id/sticker_tab_background_view" android:background="@drawable/picker_sticker_ic_tab_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/sticon_image_view" android:layout_width="40.0dip" android:layout_height="40.0dip" android:scaleType="fitCenter" />
+    <ImageView android:layout_gravity="end|center|top" android:id="@id/subscription_image_view" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_margin="5.0dip" android:src="@drawable/sticker_ic_premium_12" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/animated_sticon_image_view" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_margin="2.0dip" android:src="@drawable/sticker_ic_ani_14" android:contentDescription="@null" />
+</FrameLayout>

@@ -1,0 +1,18 @@
+.class interface abstract Lio/card/payment/Validator;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/text/TextWatcher;
+.implements Landroid/text/InputFilter;
+
+
+# virtual methods
+.method public abstract getValue()Ljava/lang/String;
+.end method
+
+.method public abstract hasFullLength()Z
+.end method
+
+.method public abstract isValid()Z
+.end method

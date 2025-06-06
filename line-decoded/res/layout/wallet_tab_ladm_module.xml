@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="@dimen/wallet_ladm_bottom_margin_default" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/root_container" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/wallet_notice_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="15.0dip" android:src="@drawable/wallet_ic_information" android:contentDescription="@null" android:layout_marginStart="18.0dip" android:layout_marginEnd="2.0dip" app:layout_constraintEnd_toStartOf="@id/wallet_notice_text" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/root_container" />
+    <TextView android:id="@id/wallet_notice_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/wallet_v3_common_horizontal_padding" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/wallet_notice_icon" app:layout_constraintTop_toTopOf="@id/wallet_notice_icon" style="@style/wallet_ladm_notice_text" />
+    <androidx.constraintlayout.widget.Group android:id="@id/wallet_notice_group" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:constraint_referenced_ids="wallet_notice_icon,wallet_notice_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

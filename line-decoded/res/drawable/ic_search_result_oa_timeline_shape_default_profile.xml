@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/linegray150" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/search_list_oa_timeline_image_empty" android:top="73.0dip" android:bottom="73.0dip" android:start="53.0dip" android:end="53.0dip" />
+</layer-list>

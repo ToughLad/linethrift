@@ -1,0 +1,133 @@
+{
+  "available": true,
+  "category": "CATE_15",
+  "oa": {
+    "friendshipStatus": "FRIEND"
+  },
+  "pages": [
+    {
+      "title": "If you select a third-party service, you'll be redirected to their site to finish creating an avatar.\nTo create an avatar using a third-party service, you must first download their app and agree to their terms of use and privacy policy, hereafter \"other service's terms.\"\nCopyrights and other intellectual property rights pertaining to any avatars created using a third-party service shall be governed by the other service's terms.",
+      "description": "If you select a third-party service, you'll be redirected to their site to finish creating an avatar.\nTo create an avatar using a third-party service, you must first download their app and agree to their terms of use and privacy policy, hereafter \"other service's terms.\"\nCopyrights and other intellectual property rights pertaining to any avatars created using a third-party service shall be governed by the other service's terms.",
+      "pageName": "INTRO",
+      "pageId": "intro_1",
+      "footerButton": {
+        "text": "If you select a third-party service, you'll be redirected to their site to finish creating an avatar.\nTo create an avatar using a third-party service, you must first download their app and agree to their terms of use and privacy policy, hereafter \"other service's terms.\"\nCopyrights and other intellectual property rights pertaining to any avatars created using a third-party service shall be governed by the other service's terms.",
+        "actionType": "PAGE",
+        "pageName": "PICTURE_GUIDE",
+        "actionDestination": "picture_guide_1"
+      },
+      "images": [
+        {
+          "width": 670,
+          "height": 896,
+          "url": "https://line-objects-dev.com/flexible-ui/Intro_AI%20Portrair_Image%201.jpg"
+        },
+        {
+          "width": 670,
+          "height": 904,
+          "url": "https://line-objects-dev.com/flexible-ui/Intro_AI%20Portrair_Image%202.jpg"
+        },
+        {
+          "width": 670,
+          "height": 904,
+          "url": "https://line-objects-dev.com/flexible-ui/Intro_AI%20Portrair_Image%203.jpg"
+        },
+        {
+          "width": 670,
+          "height": 442,
+          "url": "https://line-objects-dev.com/flexible-ui/Intro_AI%20Portrair_Image%204.jpg"
+        }
+      ]
+    },
+    {
+      "title": "If you select a third-party service, you'll be redirected to their site to finish creating an avatar.\nTo create an avatar using a third-party service, you must first download their app and agree to their terms of use and privacy policy, hereafter \"other service's terms.\"\nCopyrights and other intellectual property rights pertaining to any avatars created using a third-party service shall be governed by the other service's terms.",
+      "pageName": "PICTURE_GUIDE",
+      "pageId": "picture_guide_1",
+      "footerButton": {
+        "text": "Select 10-20 photos",
+        "actionType": "PAGE",
+        "pageName": "PICTURE_SELECTION",
+        "actionDestination": "picture_selection_1"
+      },
+      "goodExamples": {
+        "images": [
+          "https://line-objects-dev.com/flexible-ui/avatar_studio_thumb_good_01.jpg",
+          "https://line-objects-dev.com/flexible-ui/avatar_studio_thumb_good_02.jpg",
+          "https://line-objects-dev.com/flexible-ui/avatar_studio_thumb_good_03.jpg",
+          "https://line-objects-dev.com/flexible-ui/avatar_studio_thumb_good_04.jpg",
+          "https://line-objects-dev.com/flexible-ui/avatar_studio_thumb_good_05.jpg"
+        ],
+        "description": "If you select a third-party service, you'll be redirected to their site to finish creating an avatar.\nTo create an avatar using a third-party service, you must first download their app and agree to their terms of use and privacy policy, hereafter \"other service's terms.\"\nCopyrights and other intellectual property rights pertaining to any avatars created using a third-party service shall be governed by the other service's terms."
+      },
+      "badExamples": {
+        "images": [
+          "https://line-objects-dev.com/flexible-ui/avatar_studio_thumb_bad_01.jpg",
+          "https://line-objects-dev.com/flexible-ui/avatar_studio_thumb_bad_02.jpg",
+          "https://line-objects-dev.com/flexible-ui/avatar_studio_thumb_bad_03.jpg",
+          "https://line-objects-dev.com/flexible-ui/avatar_studio_thumb_bad_04.jpg",
+          "https://line-objects-dev.com/flexible-ui/avatar_studio_thumb_bad_05.jpg"
+        ],
+        "description": "If you select a third-party service, you'll be redirected to their site to finish creating an avatar.\nTo create an avatar using a third-party service, you must first download their app and agree to their terms of use and privacy policy, hereafter \"other service's terms.\"\nCopyrights and other intellectual property rights pertaining to any avatars created using a third-party service shall be governed by the other service's terms."
+      }
+    },
+    {
+      "pageName": "PICTURE_SELECTION",
+      "pageId": "picture_selection_1",
+      "footerButton": {
+        "actionType": "PAGE",
+        "pageName": "RESULT_INFO_SELECTION",
+        "actionDestination": "result_info_selection_1"
+      },
+      "config": {
+        "unsuitableImageCheck": true,
+        "maxCheck": 20,
+        "minCheck": 1
+      }
+    },
+    {
+      "pageName": "RESULT_INFO_SELECTION",
+      "pageId": "result_info_selection_1",
+      "footerButton": {
+        "text": "If you select a third-party service, you'll be redirected to their site to finish creating an avatar.\nTo create an avatar using a third-party service, you must first download their app and agree to their terms of use and privacy policy, hereafter \"other service's terms.\"\nCopyrights and other intellectual property rights pertaining to any avatars created using a third-party service shall be governed by the other service's terms.",
+        "actionType": "PAGE",
+        "pageName": "PACKAGE_SELECTION",
+        "actionDestination": "package_selection_1"
+      },
+      "blocks": [
+        {
+          "title": "If you select a third-party service, you'll be redirected to their site to finish creating an avatar.\nTo create an avatar using a third-party service, you must first download their app and agree to their terms of use and privacy policy, hereafter \"other service's terms.\"\nCopyrights and other intellectual property rights pertaining to any avatars created using a third-party service shall be governed by the other service's terms.",
+          "category": "GENDER",
+          "description": "If you select a third-party service, you'll be redirected to their site to finish creating an avatar.\nTo create an avatar using a third-party service, you must first download their app and agree to their terms of use and privacy policy, hereafter \"other service's terms.\"\nCopyrights and other intellectual property rights pertaining to any avatars created using a third-party service shall be governed by the other service's terms.",
+          "minSelectable": 1,
+          "maxSelectable": 1,
+          "selectableItems": [
+            {
+              "id": "FEMALE",
+              "text": "If you select a third-party service, you'll be redirected to their site to finish creating an avatar.\nTo create an avatar using a third-party service, you must first download their app and agree to their terms of use and privacy policy, hereafter \"other service's terms.\"\nCopyrights and other intellectual property rights pertaining to any avatars created using a third-party service shall be governed by the other service's terms.",
+              "enable": true,
+              "selected": false,
+              "icon": "https://line-objects-dev.com/flexible-ui/femaleicon.png"
+            },
+            {
+              "id": "MALE",
+              "text": "If you select a third-party service, you'll be redirected to their site to finish creating an avatar.\nTo create an avatar using a third-party service, you must first download their app and agree to their terms of use and privacy policy, hereafter \"other service's terms.\"\nCopyrights and other intellectual property rights pertaining to any avatars created using a third-party service shall be governed by the other service's terms.",
+              "enable": false,
+              "selected": false,
+              "icon": "https://line-objects-dev.com/flexible-ui/maleicon.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "PACKAGE_SELECTION",
+      "pageId": "package_selection_1",
+      "footerButton": {
+        "text": "Next",
+        "actionType": "PAGE",
+        "pageName": "CONFIRM_PURCHASE",
+        "actionDestination": "confirm_purchase_1"
+      }
+    }
+  ]
+}

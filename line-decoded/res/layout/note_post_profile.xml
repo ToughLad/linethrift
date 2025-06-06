@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.linecorp.line.note.view.post.NotePostProfileCircleView android:id="@id/screen_myhome_postdetail_item_like_status_portrait" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <ImageView android:id="@id/screen_myhome_postdetail_item_like_status_type" android:layout_width="0.0dip" android:layout_height="0.0dip" />
+    <ImageView android:id="@id/post_profile_badge" android:layout_width="14.0dip" android:layout_height="14.0dip" />
+</merge>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#77000000" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="11.0sp" android:id="@id/debug_popup_network_info" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="11.0sp" android:id="@id/debug_popup_heap_info" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/debug_popup_network_info" />
+    <TextView android:textSize="11.0sp" android:id="@id/debug_popup_vm_heap_info" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/debug_popup_heap_info" />
+    <TextView android:textSize="11.0sp" android:id="@id/debug_popup_memory_info" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/debug_popup_vm_heap_info" />
+    <TextView android:textSize="11.0sp" android:id="@id/debug_popup_system_memory_info" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/debug_popup_memory_info" />
+    <TextView android:textSize="11.0sp" android:id="@id/debug_popup_class_info" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/debug_popup_system_memory_info" />
+    <TextView android:textSize="11.0sp" android:id="@id/debug_popup_gc_info" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/debug_popup_class_info" />
+    <TextView android:textSize="11.0sp" android:id="@id/debug_popup_cpu_info" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/debug_popup_gc_info" />
+</RelativeLayout>

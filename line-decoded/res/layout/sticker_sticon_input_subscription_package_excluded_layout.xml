@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/sticker_sticon_input_empty_layout_vertical_margin" android:paddingBottom="@dimen/sticker_sticon_input_empty_layout_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sticker_sticon_input_empty_layout_horizontal_margin" android:paddingEnd="@dimen/sticker_sticon_input_empty_layout_horizontal_margin">
+            <TextView android:id="@id/subscription_expired_title" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/subscription_expired_description" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" style="@style/sticker_sticon_input_new_message_title" />
+            <TextView android:id="@id/subscription_expired_description" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" app:layout_constraintBottom_toTopOf="@id/buttons_container" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/subscription_expired_title" style="@style/shop_sticker_sticon_input_new_message_content" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/buttons_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/subscription_expired_description">
+                <TextView android:id="@id/shop_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/chat_keyboard_stickersTab_premium_stickershop_button" style="@style/sticker_keyboard_sticker_shop_button" />
+                <TextView android:id="@id/delete_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/chat_keyboard_stickersTab_premium_delete_button" style="@style/sticker_sticon_outlined_button" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</FrameLayout>

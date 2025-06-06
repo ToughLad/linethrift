@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="49.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/primaryInverseFill" android:id="@id/chatmedia_tab_text" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:singleLine="true" android:layout_centerVertical="true" />
+    <View android:id="@id/chatmedia_tab_select_line" android:background="@color/primaryInverseFill" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="2.0dip" android:layout_alignParentBottom="true" android:layout_alignStart="@id/chatmedia_tab_text" android:layout_alignEnd="@id/chatmedia_tab_text" />
+</RelativeLayout>

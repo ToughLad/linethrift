@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/group_video_user_item_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.linecorp.voip2.common.view.VoIPTextureView android:id="@id/render" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/bg_profile" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:id="@id/profile_dim" android:background="@color/lineblack" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.1" />
+    <ImageView android:layout_gravity="center" android:id="@id/circle_profile" android:background="@drawable/shape_oval" android:layout_width="@dimen/group_video_user_circle_profile_size_large" android:layout_height="@dimen/group_video_user_circle_profile_size_large" android:scaleType="centerCrop" />
+    <View android:id="@id/blocked_dim" android:background="@color/lineblack" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.55" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/blocked_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/blocked_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/call_grid_videooff_large_gvc" />
+        <TextView android:textSize="11.0sp" android:textStyle="normal" android:textColor="@color/linewhite" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/blocked_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxWidth="106.0dip" android:text="@string/groupcall_video_guide_steaming_on" android:maxLines="2" android:includeFontPadding="false" android:shadowColor="#33000000" android:shadowDy="1.0" android:alpha="0.6" android:fontFamily="sans-serif" />
+    </LinearLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/bottom_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="bottom" android:id="@id/name_bg" android:layout_width="fill_parent" android:layout_height="68.0dip" />
+        <ImageView android:layout_gravity="bottom|center|left" android:id="@id/watch_together_sender" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="18.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/gvc_icon_grid_user_wt_sender_large" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/linewhite" android:ellipsize="end" android:gravity="center|left" android:layout_gravity="bottom" android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="42.0dip" android:layout_marginRight="44.0dip" android:layout_marginBottom="14.0dip" android:maxLines="1" android:includeFontPadding="false" android:shadowColor="#33000000" android:shadowRadius="1.0" android:alpha="0.9" android:fontFamily="sans-serif" />
+        <ImageView android:layout_gravity="bottom|center|right" android:id="@id/mute_icon" android:visibility="gone" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginRight="14.0dip" android:layout_marginBottom="13.0dip" android:src="@drawable/gvc_icon_user_mic_off_small" />
+    </FrameLayout>
+    <com.linecorp.voip2.feature.stamp.StampRenderView android:layout_gravity="center" android:id="@id/stamp_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/border" android:background="@drawable/group_video_user_item_talker_border" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="bottom|center|left" android:id="@id/stamp_reaction" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/access_groupcall_button_react" />
+</FrameLayout>

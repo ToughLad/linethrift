@@ -1,0 +1,219 @@
+.class public final LE11/g;
+.super Lok1/j;
+.source "SourceFile"
+
+# interfaces
+.implements Lxk1/q;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lok1/j;",
+        "Lxk1/q<",
+        "LVl1/j<",
+        "Ljava/lang/Object;",
+        ">;",
+        "Ljava/lang/Boolean;",
+        "Lkotlin/coroutines/Continuation<",
+        "-",
+        "Lkotlin/Unit;",
+        ">;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lok1/f;
+    c = "com.linecorp.voip2.common.base.session.BaseSessionExtensions$AndromedaAccessExtension$ModelImpl$createFlow$1"
+    f = "BaseSessionExtensions.kt"
+    l = {
+        0x6c,
+        0x6e
+    }
+    m = "invokeSuspend"
+.end annotation
+
+
+# instance fields
+.field public a:I
+
+.field public synthetic b:LVl1/j;
+
+.field public synthetic c:Z
+
+.field public final synthetic d:J
+
+.field public final synthetic e:Lok1/j;
+
+
+# direct methods
+.method public constructor <init>(JLxk1/p;Lkotlin/coroutines/Continuation;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(J",
+            "Lxk1/p<",
+            "-",
+            "LVl1/j<",
+            "Ljava/lang/Object;",
+            ">;-",
+            "Lkotlin/coroutines/Continuation<",
+            "-",
+            "Lkotlin/Unit;",
+            ">;+",
+            "Ljava/lang/Object;",
+            ">;",
+            "Lkotlin/coroutines/Continuation<",
+            "-",
+            "LE11/g;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-wide p1, p0, LE11/g;->d:J
+
+    check-cast p3, Lok1/j;
+
+    iput-object p3, p0, LE11/g;->e:Lok1/j;
+
+    const/4 p1, 0x3
+
+    invoke-direct {p0, p1, p4}, Lok1/j;-><init>(ILkotlin/coroutines/Continuation;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 12
+
+    sget-object v0, Lnk1/a;->COROUTINE_SUSPENDED:Lnk1/a;
+
+    iget v1, p0, LE11/g;->a:I
+
+    const/4 v2, 0x2
+
+    const/4 v3, 0x1
+
+    if-eqz v1, :cond_2
+
+    if-eq v1, v3, :cond_1
+
+    if-ne v1, v2, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    const-string p1, "call to \'resume\' before \'invoke\' with coroutine"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :cond_1
+    :goto_0
+    invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
+
+    goto :goto_3
+
+    :cond_2
+    invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
+
+    iget-object p1, p0, LE11/g;->b:LVl1/j;
+
+    iget-boolean v1, p0, LE11/g;->c:Z
+
+    const/4 v4, 0x0
+
+    if-eqz v1, :cond_4
+
+    new-instance v10, LE11/g$a;
+
+    iget-object v1, p0, LE11/g;->e:Lok1/j;
+
+    invoke-direct {v10, p1, v4, v1}, LE11/g$a;-><init>(LVl1/j;Lkotlin/coroutines/Continuation;Lxk1/p;)V
+
+    iput v3, p0, LE11/g;->a:I
+
+    const-wide/16 v5, 0x0
+
+    const v9, 0x7fffffff
+
+    iget-wide v7, p0, LE11/g;->d:J
+
+    move-object v11, p0
+
+    invoke-static/range {v5 .. v11}, LB6/l;->j(JJILxk1/p;Lok1/d;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    if-ne p0, v0, :cond_3
+
+    goto :goto_1
+
+    :cond_3
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    :goto_1
+    if-ne p0, v0, :cond_5
+
+    goto :goto_2
+
+    :cond_4
+    move-object v11, p0
+
+    iput v2, v11, LE11/g;->a:I
+
+    invoke-interface {p1, v4, v11}, LVl1/j;->a(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    if-ne p0, v0, :cond_5
+
+    :goto_2
+    return-object v0
+
+    :cond_5
+    :goto_3
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method
+
+.method public final l(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 4
+
+    check-cast p1, LVl1/j;
+
+    check-cast p2, Ljava/lang/Boolean;
+
+    invoke-virtual {p2}, Ljava/lang/Boolean;->booleanValue()Z
+
+    move-result p2
+
+    check-cast p3, Lkotlin/coroutines/Continuation;
+
+    new-instance v0, LE11/g;
+
+    iget-object v1, p0, LE11/g;->e:Lok1/j;
+
+    iget-wide v2, p0, LE11/g;->d:J
+
+    invoke-direct {v0, v2, v3, v1, p3}, LE11/g;-><init>(JLxk1/p;Lkotlin/coroutines/Continuation;)V
+
+    iput-object p1, v0, LE11/g;->b:LVl1/j;
+
+    iput-boolean p2, v0, LE11/g;->c:Z
+
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    invoke-virtual {v0, p0}, LE11/g;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method

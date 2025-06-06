@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="46.0dip" android:width="46.0dip" android:viewportWidth="46.0" android:viewportHeight="46.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#00000000" android:pathData="M23,23m-22.5,0a22.5,22.5 0,1 1,45 0a22.5,22.5 0,1 1,-45 0" android:strokeColor="@color/quinaryAltFill" android:strokeWidth="1.0" />
+    <path android:fillColor="@color/chat_ui_voice_recorder_delete_selector" android:pathData="M27.527,15.111V16.085H32.208V17.494H30.466L30.029,30.947C29.997,31.917 29.212,32.677 28.242,32.677H17.758C16.788,32.677 16.004,31.917 15.972,30.947L15.534,17.494H13.792V16.085H18.476V15.111C18.476,14.125 19.278,13.323 20.265,13.323H25.739C26.725,13.323 27.527,14.125 27.527,15.111ZM20.265,14.732C20.054,14.732 19.885,14.902 19.885,15.111V16.085H26.118V15.111C26.118,14.902 25.949,14.732 25.739,14.732H20.265ZM21.604,27.84H20.52V20.473H21.604V27.84ZM24.397,27.84H25.481V20.473H24.397V27.84Z" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/linegray150" android:paddingTop="19.0dip" android:paddingBottom="19.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="36.0dip" android:paddingEnd="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/pay_tw_ipass_account_more_remove_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pay_remove_account" style="@style/pay_ipass_account_more_item_text" />
+    <TextView android:id="@id/pay_tw_ipass_account_more_cancel_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cancel" style="@style/pay_ipass_account_more_item_text" />
+</LinearLayout>

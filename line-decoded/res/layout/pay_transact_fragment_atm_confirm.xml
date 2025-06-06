@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/pay_base_shape_white_rectangle_r2" android:paddingLeft="19.5dip" android:paddingRight="19.5dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.5dip" android:layout_marginTop="7.5dip" android:layout_marginRight="7.5dip">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/linegray750" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/pay_convenience_of_payment_description" />
+        <View android:background="@drawable/pay_transact_shape_charge_stroke_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="24.0dip" android:layerType="software" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="23.5dip">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15.0sp" android:textColor="@color/linegray750" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_charge_store_number_title" android:drawableLeft="@drawable/pay_transact_img_dot_grey" android:drawablePadding="8.5dip" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/linegray750" android:id="@id/atm_confirm_store_number_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="@color/linegray750" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_charge_trade_number_title" android:drawableLeft="@drawable/pay_transact_img_dot_grey" android:drawablePadding="8.5dip" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/linegray750" android:id="@id/atm_trade_number_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="@color/linegray750" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_charge_confirm_number_title" android:drawableLeft="@drawable/pay_transact_img_dot_grey" android:drawablePadding="8.5dip" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/linegray750" android:id="@id/atm_confirm_number_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="@color/linegray750" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_charge_expire_date_title" android:drawableLeft="@drawable/pay_transact_img_dot_grey" android:drawablePadding="8.5dip" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/lineblue600" android:id="@id/atm_expire_date_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+            <View android:background="@drawable/pay_transact_shape_charge_stroke_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="27.0dip" android:layerType="software" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.5dip" android:layout_marginTop="10.0dip" android:layout_marginRight="0.5dip" android:layout_marginBottom="10.0dip" android:minHeight="65.0dip">
+                <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/linegray750" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pay_amount" />
+                <com.linecorp.line.pay.ui.share.moneyText.ui.MoneyText android:gravity="right" android:id="@id/atm_charge_amount_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/linegray500" android:id="@id/atm_charge_usage_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginTop="19.0dip" android:text="@string/pay_charge_methods_description_with_underline" android:drawableLeft="@drawable/pay_transact_icon_info2" android:drawablePadding="5.0dip" />
+</LinearLayout>

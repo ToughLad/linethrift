@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="@dimen/userprofile_main_task_button_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/user_profile_button_icon" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/userprofile_selector_ic_sub_profile" android:scaleType="centerCrop" android:contentDescription="@null" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/user_profile_button_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/profile_desc_subprofile" android:maxLines="2" app:layout_constraintTop_toBottomOf="@id/user_profile_button_icon" style="@style/userprofile_task_button_text" />
+    <ImageView android:id="@id/imv_premium_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" android:translationY="-4.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/user_profile_button_icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

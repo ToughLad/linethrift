@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="#00000000" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingTop="5.0dip" android:paddingBottom="7.3299866dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="46.5dip" android:src="@drawable/pay_img_linepay_bi_2" />
+            <TextView android:textColor="@color/linegray600" android:gravity="center" android:id="@id/input_mandatory_line_info_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="51.0dip" android:maxWidth="224.0dip" android:text="@string/pay_join_migration_description" />
+            <LinearLayout android:orientation="vertical" android:id="@id/buttons_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/mobile_number_notice_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="17.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="34.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pay_base_icon_info" />
+                <TextView android:textSize="13.0sp" android:textColor="@color/linegray500" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.5dip" android:layout_marginTop="1.0dip" android:text="@string/pay_migration_info_notice_for_mobile_number" android:includeFontPadding="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button android:layout_width="fill_parent" android:layout_height="@dimen/pay_base_common_full_button_height" android:text="@string/pay_next" style="@style/pay_base_common_full_button_green" />
+</LinearLayout>

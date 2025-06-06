@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/channel_browser_normal_screen_wrapper" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/channel_header_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/channel_urlinput" layout="@layout/channel_urlinput" />
+            <com.linecorp.channel.activity.navigationbar.ChannelHeader android:id="@id/channel_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/channel_webview_parent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/channel_header_wrapper" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/channel_header_wrapper">
+            <include android:id="@id/channel_loading" layout="@layout/channel_browser_loading" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <FrameLayout android:id="@id/channel_browser_fullscreen_wrapper" android:background="@android:color/black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

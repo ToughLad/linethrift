@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.line.voomcamera.core.picker.bottom.view.VoomCameraPickerSelectedItemsBoxFrameLayout android:id="@id/media_picker_selected_items_box" android:background="@color/linegray900" android:visibility="invisible" android:clickable="false" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="@dimen/voom_camera_core_picker_selected_items_box_layout_height" app:layout_constraintBottom_toBottomOf="parent">
+        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/media_picker_main_selected_item_box_recyclerview" android:clickable="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="3.5dip" android:layout_marginRight="3.5dip" android:layout_marginBottom="1.5dip" android:overScrollMode="never" />
+    </com.linecorp.line.voomcamera.core.picker.bottom.view.VoomCameraPickerSelectedItemsBoxFrameLayout>
+    <FrameLayout android:id="@id/voom_picker_selected_items_box_tooltip_view" android:paddingLeft="6.0dip" android:paddingRight="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="45.5dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <com.linecorp.line.voomcamera.core.picker.bottom.view.VoomPickerTooltipView android:id="@id/voom_picker_selected_items_box_tooltip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

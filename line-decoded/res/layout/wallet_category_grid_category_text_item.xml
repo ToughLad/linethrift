@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_marginBottom="@dimen/wallet_category_grid_category_text_item_vertical_margin_default"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/category_button" android:layout_width="wrap_content" android:layout_height="35.0dip" android:foreground="@drawable/wallet_category_grid_text_button_foreground" android:paddingHorizontal="11.0dip" style="@style/wallet_category_grid_category_text_item_label_text" />
+</FrameLayout>

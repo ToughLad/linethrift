@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/settings_bg_semantic" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:id="@id/settings_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/settings_bg_semantic" android:layout_below="@id/header">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/settings_noticenter_list" android:paddingTop="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+    <include android:id="@id/progress_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/line_user_settings_loading_view" />
+    <TextView android:gravity="center" android:id="@id/empty_notification" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:text="@string/settings_app2app_no_notification_approved_app" android:layout_below="@id/header" style="@style/text_zeropage_subtitle" />
+    <ViewStub android:id="@id/noticenter_error" android:layout="@layout/settings_unknown_error_retry_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header" />
+</RelativeLayout>

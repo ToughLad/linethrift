@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/chat_ui_onboarding_content" android:layout_width="223.0dip" android:layout_height="115.0dip" android:layout_marginBottom="133.0dip" android:contentDescription="@null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="21.0sp" android:textColor="@color/lineblack" android:gravity="center" android:id="@id/chat_ui_onboarding_content_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginHorizontal="40.0dip" android:textFontWeight="900" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/chat_ui_onboarding_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>

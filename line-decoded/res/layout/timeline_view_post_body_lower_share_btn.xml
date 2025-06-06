@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/post_body_lower_share_btn_container" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="27.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="11.0dip" android:layout_height="14.0dip" android:layout_marginRight="3.0dip" android:src="@drawable/timeline_ic_share02" app:tint="@color/tertiaryAccentFill" />
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/secondaryAccentText" android:id="@id/share_btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/timeline_reaction_share" />
+</LinearLayout>

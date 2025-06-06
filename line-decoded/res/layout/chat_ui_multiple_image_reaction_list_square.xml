@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.linecorp.line.chat.ui.resources.message.message.list.reaction.SquareChatMessageReactButton android:id="@id/chat_ui_react_button" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/chat_ui_chatroom_ic_reaction_square" android:contentDescription="@string/access_chat_reaction_display" />
+    <TextView android:textSize="10.0sp" android:textColor="@color/linewhite" android:gravity="end" android:id="@id/chat_ui_reaction_count_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" />
+</LinearLayout>

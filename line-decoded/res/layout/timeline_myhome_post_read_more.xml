@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/list_footer" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/footer_loading" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="20.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/footer_retry" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/retry_button_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/timeline_tm_retry_btn_icon02" android:contentDescription="@null" />
+        <TextView android:id="@id/retry_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_try_again" style="@style/timeline_retry_font" />
+    </LinearLayout>
+</FrameLayout>

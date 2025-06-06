@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/primarySurface" android:layout_width="fill_parent" android:layout_height="@dimen/private_note_ad_view_height_without_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/image_view" android:background="@drawable/note_ad_image_loading_background" android:layout_width="86.0dip" android:layout_height="82.0dip" android:layout_marginTop="12.0dip" android:layout_marginStart="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="178.0dip" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/image_view" app:layout_constraintTop_toTopOf="parent">
+        <View android:background="@color/linegray200" android:layout_width="fill_parent" android:layout_height="8.0dip" />
+        <View android:background="@color/linegray200" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginTop="11.0dip" />
+        <View android:background="@color/linegray200" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginTop="11.0dip" />
+        <View android:background="@color/linegray200" android:layout_width="90.0dip" android:layout_height="8.0dip" android:layout_marginTop="11.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

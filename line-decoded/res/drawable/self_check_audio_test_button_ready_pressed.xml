@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="70.0dip" android:width="70.0dip">
+        <shape android:shape="oval">
+            <solid android:color="@color/linegreen_pressed" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="30.0dip" android:width="30.0dip">
+        <bitmap android:src="@drawable/call_selfcheck_audio_record" />
+    </item>
+</layer-list>

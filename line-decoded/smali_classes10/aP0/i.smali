@@ -1,0 +1,108 @@
+.class public final LaP0/i;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# instance fields
+.field public final a:LFB0/y0;
+
+.field public final b:Landroidx/lifecycle/T;
+
+
+# direct methods
+.method public constructor <init>(LFB0/y0;Landroidx/lifecycle/J;Landroidx/lifecycle/T;)V
+    .locals 1
+
+    const-string v0, "lifecycleOwner"
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "isFragmentVisible"
+
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LaP0/i;->a:LFB0/y0;
+
+    iput-object p3, p0, LaP0/i;->b:Landroidx/lifecycle/T;
+
+    new-instance p1, LAT0/h;
+
+    const/16 v0, 0xd
+
+    invoke-direct {p1, p0, v0}, LAT0/h;-><init>(Ljava/lang/Object;I)V
+
+    new-instance p0, LaP0/i$a;
+
+    invoke-direct {p0, p1}, LaP0/i$a;-><init>(LAT0/h;)V
+
+    invoke-virtual {p3, p2, p0}, Landroidx/lifecycle/O;->g(Landroidx/lifecycle/J;Landroidx/lifecycle/U;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()V
+    .locals 2
+
+    iget-object p0, p0, LaP0/i;->a:LFB0/y0;
+
+    iget-object v0, p0, LFB0/y0;->c:Landroid/view/View;
+
+    check-cast v0, Landroid/widget/ImageView;
+
+    invoke-virtual {v0}, Landroid/view/View;->getAnimation()Landroid/view/animation/Animation;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Landroid/view/animation/Animation;->hasStarted()Z
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    sget-object v1, Ljava/lang/Boolean;->TRUE:Ljava/lang/Boolean;
+
+    invoke-static {v0, v1}, Lkotlin/jvm/internal/n;->c(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    return-void
+
+    :cond_1
+    iget-object v0, p0, LFB0/y0;->c:Landroid/view/View;
+
+    check-cast v0, Landroid/widget/ImageView;
+
+    iget-object p0, p0, LFB0/y0;->b:Landroid/view/ViewGroup;
+
+    check-cast p0, Landroidx/constraintlayout/widget/ConstraintLayout;
+
+    invoke-virtual {p0}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object p0
+
+    const v1, 0x7f0100ce
+
+    invoke-static {p0, v1}, Landroid/view/animation/AnimationUtils;->loadAnimation(Landroid/content/Context;I)Landroid/view/animation/Animation;
+
+    move-result-object p0
+
+    invoke-virtual {v0, p0}, Landroid/view/View;->startAnimation(Landroid/view/animation/Animation;)V
+
+    return-void
+.end method

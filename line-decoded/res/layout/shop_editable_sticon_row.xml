@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/shop_row_user" android:layout_width="fill_parent" android:layout_height="@dimen/shop_my_product_list_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/delete_button" android:background="@drawable/selector_btn_linered" android:visibility="gone" android:layout_width="@dimen/shop_setting_delete_button_width" android:layout_height="@dimen/shop_setting_delete_button_height" android:layout_marginStart="@dimen/shop_my_product_list_row_content_area_margin_left" app:shapeAppearance="@style/shop_setting_delete_button" app:srcCompat="@drawable/ic_control_delete_default" />
+    <include layout="@layout/shop_my_sticker_list_package_row_thumbnail" />
+    <include layout="@layout/shop_my_sticker_list_package_row_name_status" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/move_handle" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="14.0dip">
+        <ImageView android:layout_width="@dimen/shop_setting_reorder_button_width" android:layout_height="@dimen/shop_setting_reorder_button_height" android:src="@drawable/ic_list_button_reorder" />
+    </LinearLayout>
+</LinearLayout>

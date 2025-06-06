@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/home_tab_layout_change_detector" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/home_tab_app_bar_background_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/home_tab_app_bar_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitStart" android:contentDescription="@null" />
+    </FrameLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/home_tab_list_container" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/edge_to_edge_top">
+        <include android:id="@id/app_bar_for_search_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/home_tab_v3_header_height" layout="@layout/home_tab_appbar_content_v3" />
+        <FrameLayout android:paddingBottom="@dimen/home_tab_v3_header_height" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/home_tab_recycler_view" android:clipToPadding="false" android:animationCache="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" android:splitMotionEvents="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        </FrameLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <FrameLayout android:id="@id/edge_to_edge_top" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/home_tab_header_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/edge_to_edge_top" />
+    <jp.naver.line.android.common.view.TintableProgressBar android:id="@id/loading_progress_bar" android:visibility="gone" android:layout_width="@dimen/progress_bar_size" android:layout_height="@dimen/progress_bar_size" android:indeterminate="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tintColor="@color/tertiarySub2Fill" />
+    <com.linecorp.view.RoundedFrameLayout android:id="@id/home_tab_float_action" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" app:cornerRadius="100.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent">
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/linewhite" android:id="@id/home_tab_float_action_button" android:background="@drawable/home_spotlight_float_action_bg_selector" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hometab_content_updatedprofile" android:paddingHorizontal="16.0dip" android:paddingVertical="11.0dip" />
+    </com.linecorp.view.RoundedFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

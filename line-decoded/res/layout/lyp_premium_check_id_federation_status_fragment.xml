@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/lyp_premium_header" layout="@layout/lyp_premium_header_layout" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/lyp_premium_caution_image_view" android:layout_width="218.0dip" android:layout_height="165.0dip" android:layout_marginTop="63.0dip" android:contentDescription="@null" />
+    <TextView android:textAppearance="@style/lyp_premium_content_title" android:gravity="center_horizontal" android:id="@id/lyp_premium_id_federation_status_title" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="36.0dip" android:text="@string/lypp_joinedlypp_title_unlinkedlyppmember" android:layout_weight="1.0" android:layout_marginStart="40.0dip" android:layout_marginEnd="43.0dip" />
+    <com.linecorp.com.lds.ui.boxbutton.ObsoleteLdsBoxButton android:id="@id/lyp_premium_id_federation_status_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" app:ldsBoxButtonSize="x_large" app:ldsBoxButtonText="@string/lypp_joinedlypp_button_linkaccount" app:ldsBoxButtonType="solid_blue" />
+</LinearLayout>

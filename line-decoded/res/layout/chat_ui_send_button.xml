@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="bottom" android:id="@id/chat_ui_send_button_image" android:layout_width="@dimen/chathistory_input_media_button_size" android:layout_height="@dimen/chathistory_input_media_button_size" android:layout_marginBottom="@dimen/chathistory_input_media_button_buttom_margin" android:src="@drawable/chatroom_ic_send_selector" android:scaleType="center" android:contentDescription="@string/access_chathistory_voice_record" android:layout_marginStart="@dimen/chat_ui_send_button_start_margin" android:layout_marginEnd="@dimen/chat_ui_send_button_end_margin" />
+</FrameLayout>

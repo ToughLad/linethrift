@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jp.naver.line.android.activity.iab.IabInterceptTouchFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="false" android:translationZ="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewSwitcher android:id="@id/iab_search_extension" android:layout_width="fill_parent" android:layout_height="fill_parent" android:measureAllChildren="false" android:animateLayoutChanges="false">
+        <include android:id="@id/iab_search_history_page" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/iab_search_bar_history" />
+        <include android:id="@id/iab_search_suggestion_page" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/iab_search_bar_suggestion" />
+    </ViewSwitcher>
+</jp.naver.line.android.activity.iab.IabInterceptTouchFrameLayout>

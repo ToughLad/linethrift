@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jp.naver.line.android.common.view.menu.OptionMenuLayout android:background="@color/lineblack" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/image_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/post_simple_overlay_layer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@drawable/album_timeline_viewer_dim_bg_top" android:layout_width="fill_parent" android:layout_height="95.0dip" />
+        <View android:background="@drawable/album_timeline_viewer_dim_bg_bottom" android:layout_width="fill_parent" android:layout_height="95.0dip" android:layout_alignParentBottom="true" />
+        <ImageButton android:id="@id/post_simple_viewer_more_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/album_selector_header_end_more" android:layout_alignParentRight="true" />
+        <ImageButton android:id="@id/post_simple_viewer_save_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/album_selector_header_ic_save" android:layout_toLeftOf="@id/post_simple_viewer_more_button" android:layout_alignWithParentIfMissing="true" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:layout_alignParentBottom="true">
+            <ImageView android:id="@id/post_simple_viewer_user_profile_view" android:layout_width="@dimen/album_v2_thumbnail_size_post_end" android:layout_height="@dimen/album_v2_thumbnail_size_post_end" />
+            <TextView android:id="@id/post_simple_viewer_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" style="@style/album_text_timeline_viewer_user" />
+        </LinearLayout>
+    </RelativeLayout>
+</jp.naver.line.android.common.view.menu.OptionMenuLayout>

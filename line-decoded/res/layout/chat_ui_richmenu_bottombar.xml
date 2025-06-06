@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/chat_ui_oa_bottombar_holder" android:background="@color/primaryAltSurface" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/chathistory_input_area_height">
+        <androidx.appcompat.widget.AppCompatImageButton android:id="@id/chat_ui_oa_bottombar_keyboard_button" android:background="@color/primaryAltSurface" android:paddingBottom="1.0dip" android:layout_width="@dimen/chathistory_input_area_height" android:layout_height="fill_parent" android:src="@drawable/chatroom_ic_official_account_keyboard_selector" android:contentDescription="@string/access_chat_input_keyboard" android:layout_marginEnd="13.0dip" app:tint="@color/octonarySubNeutralFill" />
+        <include android:id="@id/chat_ui_oa_bottombar_promotion_menu_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/chat_ui_richmenu_bottombar_button" />
+        <View android:id="@id/chat_ui_oa_bottombar_button_divider" android:background="@color/secondarySeparator" android:layout_width="@dimen/chat_ui_oa_divider_width" android:layout_height="16.0dip" android:layout_marginBottom="2.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" />
+        <include android:id="@id/chat_ui_oa_bottombar_weblink_menu_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/chat_ui_richmenu_bottombar_button" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/my_timeline_container" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/header">
+        <androidx.core.widget.NestedScrollView android:id="@id/mytimeline_nestedscrollview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <RelativeLayout android:id="@id/profile_layout" android:paddingLeft="12.5dip" android:paddingRight="9.0dip" android:layout_width="fill_parent" android:layout_height="77.0dip" android:layout_marginBottom="9.0dip">
+                    <RelativeLayout android:id="@id/profile_thumbnail_layout" android:layout_width="55.0dip" android:layout_height="55.0dip" android:layout_marginRight="13.5dip" android:layout_centerVertical="true">
+                        <com.linecorp.view.RoundedFrameLayout android:id="@id/profile_thumbnail_round" android:layout_width="49.0dip" android:layout_height="49.0dip" android:layout_margin="3.0dip" app:cornerRadius="49.0dip">
+                            <ImageView android:id="@id/profile_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                        </com.linecorp.view.RoundedFrameLayout>
+                    </RelativeLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="15.0dip" android:layout_toLeftOf="@id/settings" android:layout_toRightOf="@id/profile_thumbnail_layout" android:layout_centerVertical="true">
+                        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/primaryText" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/profile_nickname" android:layout_width="wrap_content" android:layout_height="24.0dip" android:maxLines="1" />
+                        <LinearLayout android:orientation="horizontal" android:id="@id/follow_info_layer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+                            <TextView android:id="@id/following_count" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/timeline_text_profile_bridge_layer_content_sub" />
+                            <ImageView android:layout_gravity="center_vertical" android:id="@id/profile_bridge_dot" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/list_text_dot" app:tint="@color/subPlaceholderText" />
+                            <TextView android:id="@id/follower_count" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/timeline_text_profile_bridge_layer_content_sub" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <ImageView android:id="@id/settings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/navi_top_setting" android:layout_alignParentRight="true" android:layout_centerInParent="true" app:tint="@color/primaryInverseFill" />
+                </RelativeLayout>
+                <ViewStub android:id="@id/oa_list_layout" android:layout="@layout/timeline_notification_oa_list_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/defaultText" android:gravity="center_vertical" android:id="@id/notification_title" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="@string/notification_center_title" />
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.linecorp.line.timeline.ui.base.view.LoadMoreRecyclerView android:id="@id/recycler_view" android:paddingBottom="30.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                    <ViewStub android:id="@id/empty_view_stub" android:layout="@layout/timeline_notification_center_empty_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.5" />
+                    <ProgressBar android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateTint="@color/tertiarySub2Fill" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

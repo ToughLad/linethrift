@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/privacygroup_select_member_root" android:background="@color/view_common_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/tab_area_root" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginBottom="10.0dip" android:baselineAligned="false" android:layout_below="@id/header">
+        <RelativeLayout android:id="@id/tab_following_area" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textColor="@color/selector_privacy_group_setting_tab_text" android:id="@id/tab_following_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/timeline_managefriendsandfollows_tab_following" android:singleLine="true" android:layout_centerInParent="true" style="@style/text_privacy_group_tab_text" />
+            <View android:id="@id/tab_following_bottomline" android:background="@color/lineblack" android:layout_width="wrap_content" android:layout_height="2.0dip" android:layout_alignLeft="@id/tab_following_text" android:layout_alignRight="@id/tab_following_text" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/tab_follower_area" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:textColor="@color/selector_privacy_group_setting_tab_text" android:id="@id/tab_follower_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/timeline_managefriendsandfollows_tab_followers" android:singleLine="true" android:layout_centerInParent="true" style="@style/text_privacy_group_tab_text" />
+            <View android:id="@id/tab_follower_bottomline" android:background="@color/lineblack" android:layout_width="wrap_content" android:layout_height="1.0dip" android:layout_alignLeft="@id/tab_follower_text" android:layout_alignRight="@id/tab_follower_text" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/tab_area_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tab_area_root">
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <androidx.viewpager.widget.ViewPager android:id="@id/follow_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <View android:layout_gravity="bottom" android:id="@id/thumbnaillist_divider" android:background="#ffe7e9ef" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </FrameLayout>
+        <com.linecorp.line.timeline.write.privacygroup.HorizontalThumbListView android:id="@id/thumbnaillist_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

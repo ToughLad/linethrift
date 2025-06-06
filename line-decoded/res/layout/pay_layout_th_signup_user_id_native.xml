@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/linegray700" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pay_th_dopa_info" />
+    <com.linecorp.line.pay.base.common.PayTextInputLayout android:id="@id/pay_thai_citizen_id_text_input_layout" android:paddingTop="26.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:textInputLayoutPlaceholder="@string/pay_my_info_thai_citizen_id" app:textInputLayoutShowClearButton="true" />
+    <com.linecorp.line.pay.base.common.PayTextInputLayout android:id="@id/pay_title_text_input_layout" android:paddingTop="26.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:textInputLayoutIsEditable="false" app:textInputLayoutPlaceholder="@string/pay_th_enterinfo_title" />
+    <com.linecorp.line.pay.base.common.PayTextInputLayout android:id="@id/pay_first_name_thai_text_input_layout" android:paddingTop="26.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:textInputLayoutPlaceholder="@string/pay_register_first_name" app:textInputLayoutShowClearButton="true" />
+    <com.linecorp.line.pay.base.common.PayTextInputLayout android:id="@id/pay_last_name_thai_text_input_layout" android:paddingTop="26.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:textInputLayoutPlaceholder="@string/pay_register_last_name" app:textInputLayoutShowClearButton="true" />
+    <com.linecorp.line.pay.base.common.PayTextInputLayout android:id="@id/pay_date_of_birth_text_input_layout" android:paddingTop="26.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:textInputLayoutIsEditable="false" app:textInputLayoutPlaceholder="@string/pay_identification_th_birth_date_buddhist" />
+</LinearLayout>

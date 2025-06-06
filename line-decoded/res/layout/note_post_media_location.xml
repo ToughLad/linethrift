@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/post_location" android:background="@color/tertiaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:map="http://schemas.android.com/apk/res-auto">
+    <com.google.android.gms.maps.MapView android:id="@id/post_location_map" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" map:cameraZoom="17.0" map:liteMode="true" map:mapType="normal" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="19.0dip" android:paddingRight="26.0dip" android:paddingBottom="19.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/primaryText" android:ellipsize="end" android:id="@id/post_location_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/tertiaryAltText" android:ellipsize="end" android:id="@id/post_address_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="2" android:includeFontPadding="false" />
+    </LinearLayout>
+</LinearLayout>

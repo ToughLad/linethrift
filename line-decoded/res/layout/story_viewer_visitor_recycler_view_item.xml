@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="0.0dip" android:layout_height="49.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <ImageView android:id="@id/user_image_profile" android:layout_width="33.0dip" android:layout_height="33.0dip" android:scaleType="centerCrop" android:contentDescription="@null" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/menu_view" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/story_ic_more" android:contentDescription="@string/access_timeline_common_button_more" android:layout_marginEnd="12.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="14.0sp" android:id="@id/user_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" android:layout_marginEnd="16.0dip" android:letterSpacing="0.01" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/menu_view" app:layout_constraintStart_toEndOf="@id/user_image_profile" app:layout_constraintTop_toTopOf="parent" style="@style/story_viewer_list_text" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center" android:id="@id/footer_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/go_to_shop_footer_text_margin_left" android:layout_marginTop="@dimen/go_to_shop_footer_text_margin_top" android:layout_marginRight="@dimen/go_to_shop_footer_text_margin_right" android:text="@string/shop_sticker_suggest_desc" android:layout_marginStart="@dimen/go_to_shop_footer_text_margin_left" android:layout_marginEnd="@dimen/go_to_shop_footer_text_margin_right" style="@style/my_sticker_list_footer_text" />
+    <TextView android:layout_gravity="center" android:id="@id/shop_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/go_to_shop_footer_button_margin_top" android:layout_marginBottom="@dimen/go_to_shop_footer_button_margin_bottom" android:text="@string/stickershop_main_title" style="@style/my_sticker_list_footer_shop_button" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/title" android:layout_width="312.0dip" android:layout_height="wrap_content" android:layout_marginTop="80.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="33.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:shadowColor="#4c000000" android:shadowRadius="2.0" android:lineSpacingExtra="8.0sp" style="@style/commonFont" />
+        <TextView android:textSize="33.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/title_text2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:shadowColor="#4c000000" android:shadowRadius="2.0" android:lineSpacingExtra="8.0sp" android:alpha="0.0" style="@style/commonFont" />
+    </FrameLayout>
+    <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@id/title_more" android:padding="9.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:shadowColor="#4c000000" android:shadowRadius="2.0" android:drawablePadding="6.0dip" style="@style/commonFont" />
+</LinearLayout>

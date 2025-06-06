@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root_constraint_layout" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.HeaderV2 android:id="@id/header" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="1.0dip" app:layout_constraintBottom_toTopOf="@id/coordinator_layout" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:numHeaderButtons="5" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar_layout" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip" app:liftOnScroll="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|enterAlways">
+                <include android:id="@id/search_bar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/main_tab_search_bar" />
+                <ViewStub android:id="@id/lan_banner_layout" android:layout="@layout/chatlist_lan_banner_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/smart_ch_view_stub" android:layout="@layout/smartch_view_v2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <ViewStub android:id="@id/google_ad_view_stub" android:layout="@layout/chat_tab_google_ad" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <RelativeLayout android:id="@id/banner_relative_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ViewStub android:id="@id/beacon_layout_view_stub" android:layout="@layout/view_beacon_layer" android:layout_width="fill_parent" android:layout_height="@dimen/beacon_layer_height" />
+                <ViewStub android:id="@id/instant_news_view_stub" android:layout="@layout/view_instant_news" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/tab_relative_layout" android:background="@color/primaryBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:id="@id/tab_layout_divider" android:background="@color/primarySeparator" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+                <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabGravity="start" app:tabIndicatorColor="@color/defaultText" app:tabIndicatorFullWidth="false" app:tabIndicatorHeight="2.0dip" app:tabMinWidth="0.0dip" app:tabMode="scrollable" app:tabPaddingEnd="7.5dip" app:tabPaddingStart="7.5dip" app:tabRippleColor="@null" />
+            </RelativeLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.viewpager2.widget.ViewPager2 android:orientation="horizontal" android:id="@id/chat_list_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layoutDirection="rtl" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <ProgressBar android:id="@id/progress_bar" android:layout_width="24.669983dip" android:layout_height="24.669983dip" android:layout_marginTop="@dimen/main_tab_search_bar_height" android:indeterminate="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/coordinator_layout" />
+    <FrameLayout android:id="@id/chat_list_popup_list_view_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <jp.naver.line.android.common.view.listview.PopupListView android:id="@id/popup_list_view" android:visibility="gone" android:layout_width="@dimen/option_menu_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/option_menu_top_margin_top" android:layout_marginEnd="@dimen/header_more_popup_right_margin" applyTheme="true" shouldAddFocusToFirstItemAtFirst="true" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

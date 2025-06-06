@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/post_promote_cta" android:layout_width="fill_parent" android:layout_height="38.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/primaryAltText" android:id="@id/post_ad_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="17.0dip" />
+    <ImageView android:id="@id/post_promote_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/timeline_ic_promote_arrow" android:layout_centerVertical="true" android:layout_toEndOf="@id/post_ad_text" app:tint="@color/primaryAltText" />
+    <View android:id="@id/post_promote_divider" android:background="@color/secondarySeparator" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

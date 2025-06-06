@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingBottom="@dimen/wallet_module_bottom_margin_default" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/common_module_header" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/wallet_v3_common_module_header" />
+    <include android:id="@id/highest_item_placeholder" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/common_module_header" layout="@layout/wallet_tab_carousel_type_b_module_item" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="0.0dip" android:paddingStart="@dimen/wallet_carousel_type_b_module_recycler_view_padding" android:paddingEnd="@dimen/wallet_carousel_type_b_module_recycler_view_padding" app:layout_constraintBottom_toBottomOf="@id/highest_item_placeholder" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/highest_item_placeholder" />
+    <FrameLayout android:id="@id/notice_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.5dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/recycler_view">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/notice_tap_area" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/notice_icon" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginTop="0.5dip" android:layout_marginEnd="4.0dip" />
+            <TextView android:id="@id/notice_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/wallet_carousel_type_b_notice_text" />
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

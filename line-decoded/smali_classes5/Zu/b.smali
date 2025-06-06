@@ -1,0 +1,255 @@
+.class public final LZu/b;
+.super LVU/b;
+.source "SourceFile"
+
+
+# instance fields
+.field public final a:Lti1/c;
+
+.field public final b:Ljava/util/LinkedHashSet;
+
+
+# direct methods
+.method public constructor <init>(Lti1/c;)V
+    .locals 0
+
+    invoke-direct {p0}, LVU/b;-><init>()V
+
+    iput-object p1, p0, LZu/b;->a:Lti1/c;
+
+    new-instance p1, Ljava/util/LinkedHashSet;
+
+    invoke-direct {p1}, Ljava/util/LinkedHashSet;-><init>()V
+
+    iput-object p1, p0, LZu/b;->b:Ljava/util/LinkedHashSet;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final k(Ljava/lang/String;LUU/b;ILjava/lang/String;)V
+    .locals 0
+
+    const-string p1, "reqId"
+
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p0, p0, LZu/b;->b:Ljava/util/LinkedHashSet;
+
+    invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object p0
+
+    :goto_0
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcv/a;
+
+    invoke-virtual {p2}, LUU/b;->a()Ljava/lang/String;
+
+    move-result-object p4
+
+    invoke-interface {p1, p3, p4}, Lcv/a;->a(ILjava/lang/String;)V
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+.method public final m(Ljava/lang/String;LUU/b;II)V
+    .locals 0
+
+    const-string p1, "reqId"
+
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p0, p0, LZu/b;->b:Ljava/util/LinkedHashSet;
+
+    invoke-interface {p0}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object p0
+
+    :goto_0
+    invoke-interface {p0}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_0
+
+    invoke-interface {p0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lcv/a;
+
+    invoke-virtual {p2}, LUU/b;->a()Ljava/lang/String;
+
+    move-result-object p4
+
+    invoke-interface {p1, p3, p4}, Lcv/a;->b(ILjava/lang/String;)V
+
+    goto :goto_0
+
+    :cond_0
+    return-void
+.end method
+
+.method public final n(Ljava/lang/String;Ljava/lang/String;Lok1/d;)Ljava/lang/Object;
+    .locals 4
+
+    instance-of v0, p3, LZu/a;
+
+    if-eqz v0, :cond_0
+
+    move-object v0, p3
+
+    check-cast v0, LZu/a;
+
+    iget v1, v0, LZu/a;->c:I
+
+    const/high16 v2, -0x80000000
+
+    and-int v3, v1, v2
+
+    if-eqz v3, :cond_0
+
+    sub-int/2addr v1, v2
+
+    iput v1, v0, LZu/a;->c:I
+
+    goto :goto_0
+
+    :cond_0
+    new-instance v0, LZu/a;
+
+    invoke-direct {v0, p0, p3}, LZu/a;-><init>(LZu/b;Lok1/d;)V
+
+    :goto_0
+    iget-object p3, v0, LZu/a;->a:Ljava/lang/Object;
+
+    sget-object v1, Lnk1/a;->COROUTINE_SUSPENDED:Lnk1/a;
+
+    iget v2, v0, LZu/a;->c:I
+
+    const/4 v3, 0x1
+
+    if-eqz v2, :cond_2
+
+    if-ne v2, v3, :cond_1
+
+    invoke-static {p3}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
+
+    goto :goto_1
+
+    :cond_1
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    const-string p1, "call to \'resume\' before \'invoke\' with coroutine"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :cond_2
+    invoke-static {p3}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
+
+    iput v3, v0, LZu/a;->c:I
+
+    iget-object p0, p0, LZu/b;->a:Lti1/c;
+
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    new-instance p3, Lti1/d;
+
+    const/4 v2, 0x0
+
+    invoke-direct {p3, p0, p1, p2, v2}, Lti1/d;-><init>(Lti1/c;Ljava/lang/String;Ljava/lang/String;Lkotlin/coroutines/Continuation;)V
+
+    iget-object p0, p0, Lti1/c;->m:LSl1/B;
+
+    invoke-static {p0, p3, v0}, LGL/b;->q(Lmk1/g;Lxk1/p;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+    move-result-object p3
+
+    if-ne p3, v1, :cond_3
+
+    return-object v1
+
+    :cond_3
+    :goto_1
+    check-cast p3, Lsi1/g;
+
+    const-string p0, "musicPlaySuggestionResponse"
+
+    invoke-static {p3, p0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    instance-of p0, p3, Lsi1/g$b;
+
+    if-eqz p0, :cond_4
+
+    new-instance p0, Ldv/b$b;
+
+    check-cast p3, Lsi1/g$b;
+
+    iget-object p1, p3, Lsi1/g$b;->a:Lsi1/f;
+
+    invoke-direct {p0, p1}, Ldv/b$b;-><init>(Lsi1/f;)V
+
+    return-object p0
+
+    :cond_4
+    sget-object p0, Lsi1/g$a;->a:Lsi1/g$a;
+
+    invoke-virtual {p3, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_5
+
+    sget-object p0, Ldv/b$a;->a:Ldv/b$a;
+
+    return-object p0
+
+    :cond_5
+    sget-object p0, Lsi1/g$c;->a:Lsi1/g$c;
+
+    invoke-virtual {p3, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_6
+
+    sget-object p0, Ldv/b$c;->a:Ldv/b$c;
+
+    return-object p0
+
+    :cond_6
+    sget-object p0, Lsi1/g$d;->a:Lsi1/g$d;
+
+    invoke-virtual {p3, p0}, Ljava/lang/Object;->equals(Ljava/lang/Object;)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_7
+
+    sget-object p0, Ldv/b$d;->a:Ldv/b$d;
+
+    return-object p0
+
+    :cond_7
+    new-instance p0, Lkotlin/NoWhenBranchMatchedException;
+
+    invoke-direct {p0}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
+
+    throw p0
+.end method

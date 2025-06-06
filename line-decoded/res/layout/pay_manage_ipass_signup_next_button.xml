@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:enabled="false" android:id="@id/next_button" android:layout_width="0.0dip" android:layout_height="@dimen/pay_manage_ipass_bottom_button_height" android:layout_marginTop="@dimen/pay_manage_ipass_signup_field_top_bottom_margin" android:text="@string/pay_next" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/pay_base_full_square_button_green" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

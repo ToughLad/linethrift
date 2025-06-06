@@ -1,0 +1,213 @@
+[
+  {
+    "id": null,
+    "type": "AFTER_24H",
+    "deliveryTimeInHours": 24,
+    "billingId": "100_ai_avatars",
+    "price": 130,
+    "title": "Should not show ~Large Pack (100 Avatars)",
+    "description": null,
+    "secondDescription": null,
+    "locale": "ko_KR",
+    "styleCount": 5,
+    "imageCount": 100,
+    "badgeImage": {
+      "originalUrl": "https://vos.line-scdn.net/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1681205320819.png?updatedAt=1681205320000",
+      "thumbnailUrls": {
+        "large": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-large.png?updatedAt=1680145483000",
+        "middle": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-middle.png?updatedAt=1680145483000",
+        "small": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-small.png?updatedAt=1680145483000",
+        "thumbnail": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-thumbnail.png?updatedAt=1680145483000"
+      }
+    },
+    "enabled": true,
+    "selected": false
+  },
+  {
+    "id": 19,
+    "type": "DEFAULT",
+    "deliveryTimeInHours": 0,
+    "billingId": "test1",
+    "price": null,
+    "title": "(Preview) Should not show ~Test (only title)",
+    "description": null,
+    "secondDescription": null,
+    "locale": "ko_KR",
+    "styleCount": 1,
+    "imageCount": 1,
+    "badgeImage": {
+      "originalUrl": "https://vos.line-scdn.net/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1681205320819.png?updatedAt=1681205320000",
+      "thumbnailUrls": {
+        "large": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-large.png?updatedAt=1680145483000",
+        "middle": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-middle.png?updatedAt=1680145483000",
+        "small": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-small.png?updatedAt=1680145483000",
+        "thumbnail": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-thumbnail.png?updatedAt=1680145483000"
+      }
+    },
+    "enabled": true,
+    "selected": true,
+    "promotion": "PREVIEW"
+  },
+  {
+    "id": 10,
+    "type": "DEFAULT",
+    "deliveryTimeInHours": 0,
+    "billingId": "test2",
+    "price": 0,
+    "title": "(Preview) Mock-data ~Test (title + desc 1)",
+    "description": "Test (title + desc 1)Test (title + desc 1)Test (title + desc 1)Test (title + desc 1)Test (title + desc 1)Test (title + desc 1)Test (title + desc 1)",
+    "secondDescription": null,
+    "locale": "ko_KR",
+    "styleCount": 2,
+    "imageCount": 2,
+    "badgeImage": {
+      "originalUrl": "https://vos.line-scdn.net/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1681205320819.png?updatedAt=1681205320000",
+      "thumbnailUrls": {
+        "large": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-large.png?updatedAt=1680145483000",
+        "middle": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-middle.png?updatedAt=1680145483000",
+        "small": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-small.png?updatedAt=1680145483000",
+        "thumbnail": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-thumbnail.png?updatedAt=1680145483000"
+      }
+    },
+    "enabled": true,
+    "selected": true,
+    "promotion": "PREVIEW"
+  },
+  {
+    "id": 25,
+    "type": "DEFAULT",
+    "deliveryTimeInHours": 0,
+    "billingId": "test3",
+    "price": 130,
+    "title": null,
+    "description": null,
+    "secondDescription": null,
+    "locale": "ko_KR",
+    "styleCount": 2,
+    "imageCount": 2,
+    "badgeImage": null,
+    "enabled": true,
+    "selected": false,
+    "promotion": null
+  },
+  {
+    "id": 100,
+    "type": "DEFAULT",
+    "deliveryTimeInHours": 0,
+    "billingId": "50_ai_avatars",
+    "price": 130,
+    "title": "Mock-data Speed Pack (50 Avatars)",
+    "description": null,
+    "secondDescription": null,
+    "locale": "en_US",
+    "styleCount": 5,
+    "imageCount": 50,
+    "badgeImage": {
+      "originalUrl": "https://vos.line-scdn.net/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1681205320819.png?updatedAt=1681205320000",
+      "thumbnailUrls": {
+        "large": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-large.png?updatedAt=1680145483000",
+        "middle": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-middle.png?updatedAt=1680145483000",
+        "small": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-small.png?updatedAt=1680145483000",
+        "thumbnail": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-thumbnail.png?updatedAt=1680145483000"
+      }
+    },
+    "enabled": true,
+    "selected": true,
+    "promotion": "DFM"
+  },
+  {
+    "id": 14,
+    "type": "AFTER_24H",
+    "deliveryTimeInHours": 24,
+    "billingId": "100_ai_avatars",
+    "price": 130,
+    "title": "Mock-data Large Pack (100 Avatars)",
+    "description": null,
+    "secondDescription": null,
+    "locale": "en_US",
+    "styleCount": 5,
+    "imageCount": 100,
+    "badgeImage": {
+      "originalUrl": "https://vos.line-scdn.net/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1681205320819.png?updatedAt=1681205320000",
+      "thumbnailUrls": {
+        "large": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-large.png?updatedAt=1680145483000",
+        "middle": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-middle.png?updatedAt=1680145483000",
+        "small": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-small.png?updatedAt=1680145483000",
+        "thumbnail": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-thumbnail.png?updatedAt=1680145483000"
+      }
+    },
+    "enabled": true,
+    "selected": false
+  },
+  {
+    "id": 18,
+    "type": "DEFAULT",
+    "deliveryTimeInHours": 0,
+    "billingId": "test1",
+    "price": 345,
+    "title": "Mock-data Test (only title)",
+    "description": null,
+    "secondDescription": null,
+    "locale": "en_US",
+    "styleCount": 1,
+    "imageCount": 1,
+    "badgeImage": {
+      "originalUrl": "https://vos.line-scdn.net/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1681205320819.png?updatedAt=1681205320000",
+      "thumbnailUrls": {
+        "large": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-large.png?updatedAt=1680145483000",
+        "middle": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-middle.png?updatedAt=1680145483000",
+        "small": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-small.png?updatedAt=1680145483000",
+        "thumbnail": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-thumbnail.png?updatedAt=1680145483000"
+      }
+    },
+    "enabled": false,
+    "selected": false
+  },
+  {
+    "type": "DEFAULT",
+    "deliveryTimeInHours": 0,
+    "billingId": "test2",
+    "price": 131,
+    "title": "Should not show ~Mock-data Test (title + desc 1)",
+    "description": "Test (title + desc 1)Test (title + desc 1)Test (title + desc 1)Test (title + desc 1)Test (title + desc 1)Test (title + desc 1)",
+    "secondDescription": null,
+    "locale": "en_US",
+    "styleCount": 2,
+    "imageCount": 1,
+    "badgeImage": {
+      "originalUrl": "https://vos.line-scdn.net/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1681205320819.png?updatedAt=1681205320000",
+      "thumbnailUrls": {
+        "large": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-large.png?updatedAt=1680145483000",
+        "middle": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-middle.png?updatedAt=1680145483000",
+        "small": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-small.png?updatedAt=1680145483000",
+        "thumbnail": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-thumbnail.png?updatedAt=1680145483000"
+      }
+    },
+    "enabled": true,
+    "selected": false
+  },
+  {
+    "id": 27,
+    "type": "DEFAULT",
+    "deliveryTimeInHours": 0,
+    "billingId": "test3",
+    "price": 130,
+    "title": "Mock-data Test (title + desc 2)",
+    "description": "Test (title + desc 2)Test (title + desc 2)Test (title + desc 2)Test (title + desc 2)",
+    "secondDescription": "Test (title + desc 2)Test (title + desc 2)Test (title + desc 2)Test (title + desc 2)",
+    "locale": "en_US",
+    "styleCount": 3,
+    "imageCount": 1,
+    "badgeImage": {
+      "originalUrl": "https://vos.line-scdn.net/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1681205320819.png?updatedAt=1681205320000",
+      "thumbnailUrls": {
+        "large": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-large.png?updatedAt=1680145483000",
+        "middle": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-middle.png?updatedAt=1680145483000",
+        "small": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-small.png?updatedAt=1680145483000",
+        "thumbnail": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-thumbnail.png?updatedAt=1680145483000"
+      }
+    },
+    "enabled": false,
+    "selected": false
+  }
+]

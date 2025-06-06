@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.linecorp.andromeda.video.view.AndromedaTextureView android:id="@id/render" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/profile_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/profile_bg_dim" android:background="#33000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/profile_circle" android:background="@drawable/shape_oval" android:layout_width="25.0dip" android:layout_height="25.0dip" android:scaleType="centerCrop" />
+    <com.linecorp.voip2.feature.stamp.StampRenderView android:layout_gravity="center" android:id="@id/stamp_image" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

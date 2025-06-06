@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/noticesLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginHorizontal="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.linecorp.line.pay.ui.main.section.targetingbanner.TargetingBannerView android:id="@id/targeting_banners" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

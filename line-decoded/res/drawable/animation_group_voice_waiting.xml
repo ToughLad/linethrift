@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0000" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0001" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0002" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0003" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0004" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0005" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0006" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0007" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0008" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0009" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0010" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0011" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0012" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0013" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0014" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0015" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0016" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0017" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0018" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0019" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0020" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0021" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0022" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0023" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0024" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0025" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0026" />
+    <item android:duration="60" android:drawable="@drawable/eq_effect_waiting_0027" />
+</animation-list>

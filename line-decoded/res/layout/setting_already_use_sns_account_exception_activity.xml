@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/registration_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/registration_two_selection_image" android:layout_width="95.0dip" android:layout_height="115.0dip" android:src="@drawable/zeropage_img_none08" />
+            <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14.0sp" android:textColor="@color/registration_link_text" android:gravity="center" android:id="@id/registration_two_selection_title_view" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/registration_info_text" android:gravity="center" android:id="@id/registration_two_selection_desc_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:lineSpacingExtra="@dimen/reg_text_line_space_extra" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/registration_check_age_btn_area" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/registration_two_selection_positive_btn" android:layout_width="fill_parent" android:layout_height="@dimen/registration_button_height" style="@style/registration_green_button" />
+        <Button android:id="@id/registration_two_selection_negative_btn" android:layout_width="fill_parent" android:layout_height="@dimen/registration_button_height" android:layout_marginTop="10.0dip" style="@style/registration_gray_button" />
+    </LinearLayout>
+</LinearLayout>

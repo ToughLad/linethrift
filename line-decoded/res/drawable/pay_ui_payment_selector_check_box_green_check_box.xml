@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:drawable="@drawable/pay_ui_payment_btn_check_sel" />
+    <item android:state_enabled="false" android:drawable="@drawable/pay_ui_payment_103_check_box_1_common_disable" />
+    <item android:drawable="@drawable/pay_ui_payment_btn_check_nor02" />
+</selector>

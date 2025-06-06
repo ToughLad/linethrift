@@ -1,0 +1,65 @@
+.class public final Li0/X$c;
+.super Lkotlin/jvm/internal/p;
+.source "SourceFile"
+
+# interfaces
+.implements Lxk1/l;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Li0/X;->a(Lm1/a;Ljava/lang/String;Landroidx/compose/ui/e;Lb1/b;Lx1/j;FLi1/w;LO0/l;II)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/p;",
+        "Lxk1/l<",
+        "LG1/D;",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    iput-object p1, p0, Li0/X$c;->a:Ljava/lang/String;
+
+    const/4 p1, 0x1
+
+    invoke-direct {p0, p1}, Lkotlin/jvm/internal/p;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, LG1/D;
+
+    iget-object p0, p0, Li0/X$c;->a:Ljava/lang/String;
+
+    invoke-static {p1, p0}, LG1/A;->f(LG1/D;Ljava/lang/String;)V
+
+    const/4 p0, 0x5
+
+    invoke-static {p1, p0}, LG1/A;->k(LG1/D;I)V
+
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method

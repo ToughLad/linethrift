@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@drawable/picker_selector_lights_line_green_button_text" android:gravity="center" android:id="@id/next_button_text_view" android:background="@drawable/voom_camera_core_selector_lights_next_button_text_view" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="37.0dip" android:layout_marginBottom="12.0dip" android:text="@string/next" android:layout_centerInParent="true" android:layout_marginEnd="11.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

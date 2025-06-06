@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/line_user_setting_search_result_see_more_icon_margin_top"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:id="@id/button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:id="@id/tv_seemore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_main_button_seemorearticles" style="@style/SettingsSearchResultSeeMoreButton" />
+        <ImageView android:id="@id/iv_seemore_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_search_seemore_arrow" android:importantForAccessibility="no" android:layout_marginStart="@dimen/line_user_settings_search_result_see_more_icon_margin_left" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

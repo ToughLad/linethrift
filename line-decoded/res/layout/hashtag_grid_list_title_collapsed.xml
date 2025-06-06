@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/hashtag_header_title_collapsed" android:layout_width="fill_parent" android:layout_height="@dimen/header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/defaultText" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/header_title_collapsed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:includeFontPadding="false" android:layout_marginStart="47.0dip" android:layout_marginEnd="54.0dip" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="47.0dip" android:paddingEnd="44.0dip">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/defaultText" android:id="@id/header_small_title_collapsed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/secondarySubText" android:id="@id/header_sub_title_collapsed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-2.0dip" android:singleLine="true" />
+    </LinearLayout>
+</FrameLayout>

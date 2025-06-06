@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/tooltip_arrow" android:background="@drawable/common_img_tooltip_arrow_up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" android:layout_marginStart="13.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/tooltip_content" android:background="@drawable/iab_search_bar_tooltip_arrow_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_weight="1.0" android:paddingHorizontal="12.0dip" android:paddingVertical="11.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tooltip_arrow" style="@style/text_write_tooltip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

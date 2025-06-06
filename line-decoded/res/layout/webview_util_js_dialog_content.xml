@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="30.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:scrollbars="none" android:fadingEdgeLength="42.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:requiresFadingEdge="vertical" android:paddingHorizontal="24.0dip" app:layout_constraintHeight_max="320.0dip" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="320.0dip">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/defaultText" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:textAlignment="center" />
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="13.0sp" android:textColor="@color/tertiaryText" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:textAlignment="center" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/prompt_container" android:background="@drawable/webview_util_js_prompt_input_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="4.0dip" android:minHeight="46.0dip" android:paddingHorizontal="11.0dip" android:paddingVertical="14.0dip">
+                <androidx.appcompat.widget.AppCompatEditText android:textSize="13.0sp" android:textColor="@color/defaultText" android:textColorHint="@color/septenaryAltText" android:gravity="start|center" android:id="@id/prompt_input_text" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:textCursorDrawable="@drawable/webview_util_js_prompt_cursor" />
+                <androidx.appcompat.widget.AppCompatImageButton android:layout_gravity="center" android:id="@id/prompt_delete_button" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/webview_util_input_delete" android:layout_marginStart="7.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.linecorp.line.timeline.view.post.PostPanelView android:id="@id/panel_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.linecorp.line.timeline.view.post.PostHeaderView android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.linecorp.line.timeline.view.post.PostLightsContentView android:id="@id/lights_content_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

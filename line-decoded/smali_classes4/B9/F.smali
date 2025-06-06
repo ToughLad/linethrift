@@ -1,0 +1,61 @@
+.class public final LB9/F;
+.super LQ9/a$e;
+.source "SourceFile"
+
+
+# instance fields
+.field public final synthetic q:Landroid/app/Activity;
+
+.field public final synthetic r:I
+
+.field public final synthetic s:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/android/gms/common/api/e;Landroid/app/Activity;ILjava/lang/String;)V
+    .locals 0
+
+    iput-object p2, p0, LB9/F;->q:Landroid/app/Activity;
+
+    iput p3, p0, LB9/F;->r:I
+
+    iput-object p4, p0, LB9/F;->s:Ljava/lang/String;
+
+    invoke-direct {p0, p1}, LQ9/a$d;-><init>(Lcom/google/android/gms/common/api/e;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final synthetic m(Lcom/google/android/gms/common/api/a$b;)V
+    .locals 3
+
+    check-cast p1, LB9/x;
+
+    new-instance v0, LB9/z;
+
+    iget-object v1, p0, LB9/F;->q:Landroid/app/Activity;
+
+    const/4 v2, 0x2
+
+    invoke-direct {v0, v1, v2}, LB9/z;-><init>(Landroid/app/Activity;I)V
+
+    invoke-virtual {p1}, Lcom/google/android/gms/common/internal/b;->getService()Landroid/os/IInterface;
+
+    move-result-object p1
+
+    check-cast p1, LB9/u;
+
+    iget-object v1, p0, LB9/F;->s:Ljava/lang/String;
+
+    iget v2, p0, LB9/F;->r:I
+
+    invoke-interface {p1, v2, v1, v0}, LB9/u;->E5(ILjava/lang/String;LB9/z;)V
+
+    sget-object p1, Lcom/google/android/gms/common/api/Status;->e:Lcom/google/android/gms/common/api/Status;
+
+    invoke-virtual {p0, p1}, Lcom/google/android/gms/common/api/internal/BasePendingResult;->g(Lcom/google/android/gms/common/api/j;)V
+
+    return-void
+.end method

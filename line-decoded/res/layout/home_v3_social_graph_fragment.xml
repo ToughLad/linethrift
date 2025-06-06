@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/socialgraph_header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/socialgraph_content_container" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/socialgraph_appbar" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <include android:id="@id/socialgraph_search_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/socialgraph_header" app:layout_scrollFlags="scroll|enterAlways" layout="@layout/v2_common_searchbar" />
+            <RelativeLayout android:id="@id/socialgraph_tab_layout_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="snap">
+                <View android:id="@id/socialgraph_tab_divider" android:background="@color/primarySeparator" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignBottom="@id/socialgraph_tab_layout" />
+                <HorizontalScrollView android:id="@id/socialgraph_tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/socialgraph_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/primaryText" android:gravity="center_horizontal" android:id="@id/socialgraph_empty_search_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/search_common_noresult" android:layout_marginHorizontal="50.0dip" app:layout_constraintBottom_toTopOf="@id/socialgraph_empty_search_description" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/quaternarySubText" android:gravity="center_horizontal" android:id="@id/socialgraph_empty_search_description" android:paddingBottom="@dimen/new_design_search_bar_height" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="@string/search_common_noresult_guide1" android:lineSpacingExtra="3.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="@id/socialgraph_empty_search_title" app:layout_constraintStart_toStartOf="@id/socialgraph_empty_search_title" app:layout_constraintTop_toBottomOf="@id/socialgraph_empty_search_title" />
+            <androidx.constraintlayout.widget.Group android:id="@id/socialgraph_empty_search_group" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:constraint_referenced_ids="socialgraph_empty_search_title,socialgraph_empty_search_description" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

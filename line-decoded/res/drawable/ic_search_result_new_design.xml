@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/icon_outline">
+        <shape android:shape="oval">
+            <solid android:color="@color/quinarySubFill" />
+            <size android:height="@dimen/line_user_settings_search_result_item_icon_size" android:width="@dimen/line_user_settings_search_result_item_icon_size" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/setting_ic_search_recent_item_lookup" android:left="@dimen/line_user_settings_search_result_item_icon_padding" android:top="@dimen/line_user_settings_search_result_item_icon_padding" android:right="@dimen/line_user_settings_search_result_item_icon_padding" android:bottom="@dimen/line_user_settings_search_result_item_icon_padding" />
+</layer-list>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/video_detail_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/video_background_view" android:background="@color/lineblack" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+        <com.linecorp.line.player.ui.view.LineVideoView android:id="@id/line_video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/access_picker_video" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/thumb_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_centerInParent="true" />
+        <TextView android:gravity="center" android:id="@id/error_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/gallery_video_corruptedfile" android:drawablePadding="15.0dip" android:layout_centerInParent="true" app:drawableTopCompat="@drawable/picker_com_img_error03" style="@style/text_zeropage_subtitle04" />
+        <include layout="@layout/decoration_edit_layout" />
+        <ImageView android:id="@id/trash_view" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginBottom="20.0dip" android:src="@drawable/picker_gallery_edit_trash_2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

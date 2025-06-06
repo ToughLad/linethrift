@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="ring" android:useLevel="false" android:innerRadius="0.0dip" android:thickness="@dimen/pay_transact_pager_indicator_size">
+            <solid android:color="@color/linegray800" />
+        </shape>
+    </item>
+</layer-list>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/chat_ui_header_contact_instruction_btn" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/chat_ui_header_contact_instruction_btn_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" app:tint="@color/senarySub2NeutralFill" />
+    <TextView android:theme="@style/chat_ui_text_chatroom_layer_button_new_design" android:id="@id/chat_ui_header_contact_instruction_btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" />
+</LinearLayout>

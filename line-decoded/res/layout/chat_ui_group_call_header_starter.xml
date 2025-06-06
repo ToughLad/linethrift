@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/chat_ui_group_call_header_background" android:background="@color/primarySurface" android:layout_width="fill_parent" android:layout_height="@dimen/chat_ui_groupcall_ready_total_height">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/chat_ui_groupcall_ready_upper_height" android:layout_marginLeft="44.0dip" android:layout_marginRight="44.0dip">
+            <com.linecorp.line.chat.ui.resources.message.call.groupcall.GroupCallThumbnailContainer android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/chat_ui_group_call_header_thumbnail_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chat_ui_groupcall_thumbnail_top_margin" app:chat_ui_maxSizeToShowThumbnail="9" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/chat_ui_groupcall_ready_lower_height" android:layout_marginTop="4.0dip" android:baselineAligned="false">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/chat_ui_group_call_header_starter_voice_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/chat_ui_group_call_header_starter_voice_button_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chat_ui_group_call_header_icon_margin_top" android:src="@drawable/chatroom_option_ic_call" android:contentDescription="@string/chathistory_layer_groupcall_start_btn_voice" />
+                <TextView android:layout_gravity="center" android:id="@id/chat_ui_group_call_header_starter_voice_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/chathistory_layer_groupcall_start_btn_voice" style="@style/chat_ui_groupcall_layer_button_new_design" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/chat_ui_group_call_header_starter_video_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/chat_ui_group_call_header_starter_video_button_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chat_ui_group_call_header_icon_margin_top" android:src="@drawable/chatroom_option_ic_video" android:contentDescription="@string/chathistory_layer_groupcall_start_btn_video" />
+                <TextView android:layout_gravity="center" android:id="@id/chat_ui_group_call_header_starter_video_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:text="@string/chathistory_layer_groupcall_start_btn_video" style="@style/chat_ui_groupcall_layer_button_new_design" />
+            </LinearLayout>
+            <include android:id="@id/chat_ui_call_header_starter_photobooth_button" layout="@layout/chat_ui_call_layer_photobooth_button" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/chat_ui_group_call_header_bottom_divider_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.6700001dip" />
+</LinearLayout>

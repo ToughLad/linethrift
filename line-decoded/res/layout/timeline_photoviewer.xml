@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/photo_viewer_container" android:background="@color/lineblack" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.line.android.customview.StoppableViewPager android:id="@id/viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/photoviewer_overlay" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/timeline_photoviewer_overlay" />
+    <RelativeLayout android:id="@id/imageview_progress_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-42.669983dip" android:layout_below="@id/header">
+        <ProgressBar android:layout_width="24.669983dip" android:layout_height="24.669983dip" android:layout_centerInParent="true" android:indeterminateTint="@color/linegray350" style="?android:progressBarStyleSmall" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/load_more_progress_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="-42.669983dip" android:layout_below="@id/header">
+        <ProgressBar android:layout_width="24.669983dip" android:layout_height="24.669983dip" android:layout_centerInParent="true" style="?android:progressBarStyleSmall" />
+    </RelativeLayout>
+</RelativeLayout>

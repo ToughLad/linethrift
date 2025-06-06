@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/settings_container" android:background="@color/settings_bg_semantic" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header">
+        <ListView android:id="@id/settings_app_list" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/settings_app_error" android:layout="@layout/settings_unknown_error_retry_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <TextView android:gravity="center" android:id="@id/empty_notification" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:text="@string/settings_app2app_no_approved_app" style="@style/setting_text_zeropage_subtitle" />
+        <ProgressBar android:id="@id/settings_app_progress" android:layout_centerInParent="true" style="@style/setting_spinner.large" />
+    </RelativeLayout>
+</RelativeLayout>

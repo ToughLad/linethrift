@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="vertical" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="@color/linewhite" android:id="@id/tooltip_text" android:background="@drawable/userprofile_nft_tooltip_bg" android:paddingTop="11.0dip" android:paddingBottom="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/userprofile_nft_tooltip_width" android:text="@string/profile_profilemedia_tooltip_nftbadge" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
+    <ImageView android:layout_gravity="center" android:id="@id/tooltip_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:src="@drawable/userprofile_tooltip_arrow_down" android:contentDescription="@null" />
+</LinearLayout>

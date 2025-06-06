@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textColor="@color/linewhite" android:id="@id/tooltip_content" android:background="@drawable/chat_ui_square_thread_space_tooltip_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="244.0dip" android:paddingHorizontal="12.0dip" android:paddingVertical="11.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/tooltip_arrow" android:layout_width="12.0dip" android:layout_height="7.0dip" android:src="@drawable/common_img_tooltip_arrow_down" android:layout_marginStart="12.0dip" app:layout_constraintEnd_toEndOf="@id/tooltip_content" app:layout_constraintStart_toStartOf="@id/tooltip_content" app:layout_constraintTop_toBottomOf="@id/tooltip_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>

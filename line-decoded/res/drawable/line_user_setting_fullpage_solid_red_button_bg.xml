@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/line_user_setting_fullpage_solid_red_button_selector" />
+    <corners android:radius="@dimen/line_user_setting_fullpage_button_corner_radius" />
+</shape>

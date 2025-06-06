@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/tertiaryBackground" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="87.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/music_thumb" android:background="@drawable/timeline_shape_r4" android:layout_width="53.0dip" android:layout_height="53.0dip" android:scaleType="centerCrop" android:adjustViewBounds="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" custom:shapeAppearanceOverlay="@style/timeline_rounded_image_shape" />
+    <LinearLayout android:orientation="vertical" android:id="@id/content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginRight="10.0dip" android:layout_toLeftOf="@id/play_button" android:layout_toRightOf="@id/music_thumb" android:layout_centerVertical="true">
+        <TextView android:ellipsize="end" android:gravity="left" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/text_timeline_channel_linkcard_title" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="13.0dip" android:layout_height="12.0dip" android:layout_marginRight="3.0dip" android:scaleType="centerInside" />
+            <TextView android:ellipsize="end" android:id="@id/artist" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" style="@style/text_timeline_channel_linkcard_text1" />
+        </LinearLayout>
+        <TextView android:ellipsize="end" android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/linemusic" style="@style/text_timeline_channel_linkcard_text2" />
+    </LinearLayout>
+    <com.linecorp.line.note.view.post.linkcard.NotePostMediaMusicPlayButton android:id="@id/play_button" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" custom:loadingBgSrc="@drawable/music_img_loading_bg02" custom:loadingSrc="@drawable/com_img_loading02" custom:playSrc="@drawable/music_ic_play" custom:playingSrc="@drawable/music_img_ani02" custom:stopSrc="@drawable/music_ic_stop02" />
+</RelativeLayout>

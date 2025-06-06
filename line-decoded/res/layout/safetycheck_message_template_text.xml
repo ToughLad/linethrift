@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@drawable/safetycheck_message_template_text_color" android:gravity="center_vertical" android:background="@drawable/safetycheck_message_template_text_border" android:layout_width="wrap_content" android:layout_height="35.0dip" android:maxHeight="35.0dip" android:minHeight="35.0dip" android:maxLines="1" android:singleLine="true" android:paddingHorizontal="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

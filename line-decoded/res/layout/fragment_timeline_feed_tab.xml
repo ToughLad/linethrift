@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/timeline_feed_root" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/dummy_header" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/header_height" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/timeline_swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/dummy_header">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/timeline_list" android:focusable="true" android:scrollbars="none" android:fadingEdge="none" android:clickable="true" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0dip" android:smoothScrollbar="false" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <com.linecorp.line.timeline.tab.TimelineExtraInfoView android:id="@id/timeline_extra_infoview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/dummy_header" />
+    <ViewStub android:id="@id/popup_sticker_view_stub" android:visibility="gone" android:layout="@layout/timeline_popup_sticker_view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:gravity="center_horizontal" android:id="@id/timeline_newpost_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/dummy_header" />
+</RelativeLayout>

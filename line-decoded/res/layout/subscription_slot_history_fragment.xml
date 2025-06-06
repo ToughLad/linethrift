@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/shop_settings_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/shop_edit_my_product_list_header_description_text_size" android:textColor="@color/linegray750" android:gravity="center_horizontal" android:id="@id/description_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/settings_stickers_premium_desc_history" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header" />
+    <FrameLayout android:id="@id/slot_history_root" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/description_text">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/item_list_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/no_results_screen_view_stub" android:layout="@layout/shop_no_slot_history_item_screen" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

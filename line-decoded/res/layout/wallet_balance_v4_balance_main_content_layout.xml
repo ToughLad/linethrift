@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:id="@id/header_container" android:layout_width="fill_parent" android:layout_height="@dimen/wallet_balance_v4_module_collapsed_height">
+        <ViewStub android:id="@id/balance_amount_view_stub" android:visibility="gone" android:layout="@layout/wallet_balance_v4_balance_amount_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/promotion_view_stub" android:visibility="gone" android:layout="@layout/wallet_balance_v4_balance_promotion_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@id/footer_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/shortcut_divider" android:background="@color/lineblack_alpha07" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginHorizontal="20.0dip" />
+        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/shortcut_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginBottom="16.0dip" android:layout_marginHorizontal="11.0dip" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/blur_thumb" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="#26000000" android:scaleType="centerCrop" />
+    <RelativeLayout android:id="@id/content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/dimmed_top" android:background="@drawable/timeline_img_gra_top" android:layout_width="fill_parent" android:layout_height="55.0dip" android:scaleType="fitXY" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/music_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginTop="17.0dip" android:src="@drawable/timeline_img_music" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="17.0dip" android:text="@string/linemusic" android:layout_toRightOf="@id/music_icon" style="@style/text_timeline_music_header_title" />
+        <ImageView android:id="@id/music_thumb" android:background="#ffebebeb" android:layout_width="168.0dip" android:layout_height="168.0dip" android:layout_marginTop="86.0dip" android:scaleType="fitCenter" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/dimmed_bottom" android:background="@drawable/timeline_img_gra_bottom" android:layout_width="fill_parent" android:layout_height="219.0dip" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/music_info_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="26.0dip" android:layout_marginBottom="28.0dip" android:layout_alignParentBottom="true">
+            <com.linecorp.line.timeline.view.post.linkcard.PostMediaMusicPlayButton android:layout_gravity="center_vertical" android:id="@id/play_button" android:visibility="gone" android:layout_width="34.0dip" android:layout_height="34.0dip" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip">
+                <TextView android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/text_timeline_music_title" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                    <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="13.0dip" android:layout_height="12.0dip" android:layout_marginRight="3.0dip" android:scaleType="centerInside" />
+                    <TextView android:ellipsize="end" android:id="@id/artist" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" style="@style/text_timeline_music_artist" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</merge>

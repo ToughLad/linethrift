@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/currentSizeTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:textAlignment="center" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <Button android:id="@id/decrease1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-1" app:layout_constraintEnd_toStartOf="@id/decrease10" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/currentSizeTextView" />
+    <Button android:id="@id/decrease10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-10" app:layout_constraintBottom_toBottomOf="@id/decrease1" app:layout_constraintEnd_toStartOf="@id/increase1" app:layout_constraintStart_toEndOf="@id/decrease1" app:layout_constraintTop_toTopOf="@id/decrease1" />
+    <Button android:id="@id/increase1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+1" app:layout_constraintBottom_toBottomOf="@id/decrease1" app:layout_constraintEnd_toStartOf="@id/increase10" app:layout_constraintStart_toEndOf="@id/decrease10" app:layout_constraintTop_toTopOf="@id/decrease1" />
+    <Button android:id="@id/increase10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+10" app:layout_constraintBottom_toBottomOf="@id/decrease1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/increase1" app:layout_constraintTop_toTopOf="@id/decrease1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/scrollable_camera_mode_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <HorizontalScrollView android:id="@id/camera_mode_container_scroll_view" android:paddingTop="@dimen/camera_mode_container_top_padding" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="@dimen/camera_mode_container_height" android:fillViewport="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/camera_mode_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/camera_mode_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/camera_mode_buttons_distance" android:layout_marginEnd="@dimen/camera_mode_buttons_distance">
+                <TextView android:textStyle="bold" android:id="@id/camera_mode_button_text_text" android:text="@string/common_text" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/CameraModeButton" />
+                <ImageView android:id="@id/camera_mode_text_new_badge" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/CameraModeIndicator" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/camera_mode_button_ocr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/camera_mode_buttons_distance" android:layout_marginEnd="@dimen/camera_mode_buttons_distance">
+                <TextView android:textStyle="bold" android:id="@id/camera_mode_button_ocr_text" android:text="@string/line_gallerymain_button_ocr" android:contentDescription="@string/access_line_gallerymain_button_ocr" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/CameraModeButton" />
+                <ImageView android:id="@id/camera_mode_ocr_new_badge" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/CameraModeIndicator" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/camera_mode_button_photo" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textStyle="bold" android:id="@id/camera_mode_button_photo_text" android:text="@string/common_photo" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/CameraModeButton" />
+                <ImageView android:id="@id/camera_mode_photo_new_badge" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/CameraModeIndicator" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/camera_mode_button_video" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/camera_mode_buttons_distance" android:layout_marginStart="@dimen/camera_mode_buttons_distance">
+                <TextView android:textStyle="bold" android:id="@id/camera_mode_button_video_text" android:text="@string/common_video" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/CameraModeButton" />
+                <ImageView android:id="@id/camera_mode_video_new_badge" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/CameraModeIndicator" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/camera_mode_button_custom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/camera_mode_buttons_distance" android:layout_marginStart="@dimen/camera_mode_buttons_distance">
+                <TextView android:textStyle="bold" android:id="@id/camera_mode_button_custom_text" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/CameraModeButton" />
+                <ImageView android:id="@id/camera_mode_custom_new_badge" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/CameraModeIndicator" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

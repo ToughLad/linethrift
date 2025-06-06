@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?pickerBackgroundColor" android:focusable="true" android:clickable="true" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/voom_content_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/picker_header">
+        <com.linecorp.line.voomcamera.picker.impl.fragment.view.VoomPickerRecyclerView android:id="@id/voom_content_recyclerview" android:paddingLeft="-1.25dip" android:paddingRight="-1.25dip" android:visibility="gone" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="0.0dip" android:overScrollMode="never" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <RelativeLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent">
+            <include android:id="@id/media_picker_selected_items" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/media_bottom_layer" layout="@layout/voom_camera_core_picker_selected_items" />
+            <include android:id="@id/replace_bottom_layer" android:visibility="gone" layout="@layout/voom_camera_picker_impl_replace_picker_bottom" />
+            <include android:id="@id/media_bottom_layer" android:visibility="gone" layout="@layout/voom_camera_core_picker_bottom" />
+            <include android:id="@id/template_bottom_layer" android:visibility="gone" layout="@layout/voom_camera_picker_impl_template_picker_bottom" />
+        </RelativeLayout>
+        <com.linecorp.line.voomcamera.picker.impl.fastscroller.FastScroller android:orientation="vertical" android:id="@id/fastscroll" android:visibility="gone" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="2.5dip" app:layout_constraintEnd_toEndOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.compose.ui.platform.ComposeView android:id="@id/picker_album_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/picker_header" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/picker_header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/media_empty_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/picker_header" />
+    <ProgressBar android:id="@id/voom_media_progress_bar" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerInParent="true" />
+    <RelativeLayout android:gravity="bottom|center" android:id="@id/viewer_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.fragment.app.FragmentContainerView android:id="@id/draft_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

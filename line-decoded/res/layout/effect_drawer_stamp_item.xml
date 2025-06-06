@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView android:id="@id/drawer_stamp_item" android:layout_width="@dimen/effect_drawer_stamp_length" android:layout_height="@dimen/effect_drawer_stamp_length" android:src="@drawable/effect_drawer_stamp_default_item" android:scaleType="fitCenter"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

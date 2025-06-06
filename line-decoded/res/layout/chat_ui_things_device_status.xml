@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/chat_ui_announcement_content_padding" app:cardCornerRadius="@dimen/chat_ui_card_corner_radius" app:cardElevation="@dimen/chat_ui_card_elevation">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/chat_ui_things_device_connection_status_layout" android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="37.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="@color/linegray900" android:id="@id/chat_ui_things_device_connection_status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/chat_ui_things_device_connection_status_close_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:id="@id/chat_ui_things_device_connection_status_close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/chat_ui_ic_alert_x" android:layout_marginEnd="7.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

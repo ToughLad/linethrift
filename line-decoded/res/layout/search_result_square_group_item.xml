@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/item_container" android:background="@drawable/search_result_row_common" android:layout_width="fill_parent" android:layout_height="70.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/profile_layout" android:layout_width="50.0dip" android:layout_height="50.0dip">
+        <ImageView android:id="@id/profile_image_view" android:layout_width="50.0dip" android:layout_height="50.0dip" />
+        <ImageView android:id="@id/badge_image_view" android:layout_width="19.0dip" android:layout_height="19.0dip" android:src="@drawable/search_list_img_badge_square" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="15.0dip">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/search_lock" android:visibility="gone" android:layout_width="11.0dip" android:layout_height="16.0dip" android:src="@drawable/search_list_lock" android:layout_marginEnd="4.0dip" />
+            <TextView android:textSize="15.0sp" android:textColor="@color/defaultText" android:ellipsize="end" android:id="@id/title_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_marginEnd="9.0dip" android:letterSpacing="0.01" />
+        </LinearLayout>
+        <TextView android:textSize="13.0sp" android:textColor="@color/linegray600" android:ellipsize="end" android:id="@id/description_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="1" android:singleLine="true" android:letterSpacing="0.01" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="13.0sp" android:textColor="@color/linegray600" android:ellipsize="end" android:id="@id/member_count_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:letterSpacing="0.01" />
+            <ImageView android:id="@id/separator_dot_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/search_list_img_dot" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/lineblue600" android:ellipsize="end" android:id="@id/last_chat_time_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_marginEnd="9.0dip" android:letterSpacing="0.01" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

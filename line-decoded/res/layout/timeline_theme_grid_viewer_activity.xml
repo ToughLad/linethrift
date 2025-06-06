@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/timeline_theme_grid_header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/timeline_theme_grid_swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/timeline_theme_grid_header">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/timeline_theme_grid_coordinator_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.linecorp.line.timeline.ui.base.view.LoadMoreRecyclerView android:id="@id/timeline_theme_grid_recycler_view" android:paddingBottom="22.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" app:loadmore_loading_view_color="@color/tertiarySub2Fill" />
+            <ViewStub android:id="@id/timeline_theme_grid_empty_view_stub" android:layout="@layout/timeline_error_view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.google.android.material.appbar.AppBarLayout android:id="@id/timeline_theme_grid_app_bar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+                <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/timeline_theme_grid_collapsing_toolbar_layout" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|enterAlwaysCollapsed|snap">
+                    <include android:id="@id/timeline_theme_grid_keyword_layout_binding" layout="@layout/timeline_theme_grid_keyword_layout" />
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <ViewStub android:id="@id/timeline_theme_grid_error_view_stub" android:layout="@layout/timeline_error_view_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/timeline_theme_grid_header" />
+    <ProgressBar android:id="@id/timeline_theme_grid_progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateTint="@color/tertiarySub2Fill" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/timeline_theme_grid_header" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--This html page is used for displaying a security warning message at the in app browser.-->
+<!--The warning message is currently retrieved from the android string resources through-->
+<!--jp.naver.line.android.activity.iab.warning.CertificateWarningController class.-->
+<html>
+<head>
+    <title>Your connection is not private</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0"/>
+    <style type="text/css">
+        body {
+            --font-color: #434343;
+            --horizontal-padding: 32px;
+        }
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        html, body {
+            height: 100%;
+            width: 100%;
+        }
+        body {
+            font-size: 13px;
+            cursor: default;
+            user-select: none;
+        }
+        .alert {
+            min-width: 320px;
+            max-width: 672px;
+            position: relative;
+            margin: 0 auto;
+            padding-top: 28px;
+        }
+        .alert-body {
+            margin: 21px 0 0 0;
+            padding-left: var(--horizontal-padding);
+            padding-right: var(--horizontal-padding);
+            padding-bottom: 24px;
+            color: var(--font-color);
+        }
+        .alert-body p:first-of-type {
+            margin-bottom: 15px;
+            margin-top: 20px;
+        }
+        .alert-body p:last-of-type {
+            margin-bottom: 0;
+        }
+        p {
+            font-size: 14px;
+            line-height: 19px;
+            margin-bottom: 1em;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body>
+    <div id="alert" class="alert">
+        <div class="alert-body">
+            <p id="warningText"></p>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var CertificateWarning =
+        {
+            _message: undefined,
+
+            get message()
+            {
+                return this._message;
+            },
+
+            set message(value)
+            {
+                if (this._message === value)
+                    return;
+
+                this._message = value;
+            },
+
+            pageLoaded: function()
+            {
+                CertificateWarningController.pageLoaded();
+            },
+
+            updateUI: function(message) {
+                this.message = message;
+                this.updateDetailsString();
+            },
+
+            updateDetailsString: function()
+            {
+                var warningText = document.getElementById("warningText");
+                warningText.innerHTML = this.message;
+            }
+        };
+        window.addEventListener("load", function() { CertificateWarning.pageLoaded(); }, false);
+    </script>
+</body>
+</html>

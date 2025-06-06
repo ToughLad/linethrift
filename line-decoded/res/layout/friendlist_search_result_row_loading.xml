@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="52.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:indeterminateDrawable="@drawable/progress_circle_small" style="?android:progressBarStyleSmall" />
+    <TextView android:textColor="#ffbebebe" android:id="@id/loading_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stickershop_list_more" />
+</LinearLayout>

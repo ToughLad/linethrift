@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/menu_card_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/timeline_write_entry_menu_shadow_height" android:layout_marginBottom="@dimen/timeline_write_entry_menu_shadow_height" android:layout_marginStart="@dimen/timeline_write_entry_menu_shadow_width" android:layout_marginEnd="@dimen/timeline_write_entry_menu_shadow_width" app:cardBackgroundColor="@color/defaultAltNeutralFill" app:cardCornerRadius="15.0dip" app:cardElevation="20.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/menu_item_container" android:layout_width="wrap_content" android:layout_height="82.0dip" />
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

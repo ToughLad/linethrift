@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/tools_palette" android:background="@drawable/doodle_tools_background" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="44.0dip" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/tools_palette_color_black" android:layout_width="23.0dip" android:layout_height="23.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/tools_palette_color_black_img" android:background="@drawable/shape_oval" android:layout_width="17.0dip" android:layout_height="17.0dip" android:src="#ff000000" />
+            <ImageView android:layout_gravity="center" android:id="@id/tools_palette_color_black_selected" android:background="@drawable/shape_oval" android:visibility="gone" android:layout_width="7.0dip" android:layout_height="7.0dip" android:src="@color/linewhite_alpha30" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/tools_palette_color_green" android:layout_width="23.0dip" android:layout_height="23.0dip" android:layout_marginTop="6.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/tools_palette_color_green_img" android:background="@drawable/shape_oval" android:layout_width="17.0dip" android:layout_height="17.0dip" android:src="#ff15bd66" />
+            <ImageView android:layout_gravity="center" android:id="@id/tools_palette_color_green_selected" android:background="@drawable/shape_oval" android:visibility="gone" android:layout_width="7.0dip" android:layout_height="7.0dip" android:src="@color/lineblack_alpha30" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/tools_palette_color_yellow" android:layout_width="23.0dip" android:layout_height="23.0dip" android:layout_marginTop="6.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/tools_palette_color_yellow_img" android:background="@drawable/shape_oval" android:duplicateParentState="true" android:layout_width="17.0dip" android:layout_height="17.0dip" android:src="#fffdc405" />
+            <ImageView android:layout_gravity="center" android:id="@id/tools_palette_color_yellow_selected" android:background="@drawable/shape_oval" android:visibility="gone" android:layout_width="7.0dip" android:layout_height="7.0dip" android:src="@color/lineblack_alpha30" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/tools_palette_color_red" android:layout_width="23.0dip" android:layout_height="23.0dip" android:layout_marginTop="6.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/tools_palette_color_red_img" android:background="@drawable/shape_oval" android:duplicateParentState="true" android:layout_width="17.0dip" android:layout_height="17.0dip" android:src="#fff73d4a" />
+            <ImageView android:layout_gravity="center" android:id="@id/tools_palette_color_red_selected" android:background="@drawable/shape_oval" android:layout_width="7.0dip" android:layout_height="7.0dip" android:src="@color/lineblack_alpha30" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/tools_palette_color_blue" android:layout_width="23.0dip" android:layout_height="23.0dip" android:layout_marginTop="6.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/tools_palette_color_blue_img" android:background="@drawable/shape_oval" android:duplicateParentState="true" android:layout_width="17.0dip" android:layout_height="17.0dip" android:src="#ff4545d1" />
+            <ImageView android:layout_gravity="center" android:id="@id/tools_palette_color_blue_selected" android:background="@drawable/shape_oval" android:visibility="gone" android:layout_width="7.0dip" android:layout_height="7.0dip" android:src="@color/lineblack_alpha30" />
+        </FrameLayout>
+    </LinearLayout>
+</merge>

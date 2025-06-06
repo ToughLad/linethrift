@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/choose_device_contact_root" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <jp.naver.line.android.customview.SearchBoxView android:id="@id/search_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:hintText="@string/friend_search_hint" />
+    <FrameLayout android:id="@id/choose_device_contact_list_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/choose_device_contact_list" android:paddingTop="10.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ScrollView android:id="@id/choose_device_contact_noresults_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/friend_search_no_result" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/friend_search_no_result" style="@style/NoContentsViewTextNew" />
+    </ScrollView>
+    <RelativeLayout android:id="@id/choose_device_contact_loading_progress_view" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ProgressBar android:layout_gravity="center_horizontal" android:layout_width="30.0dip" android:layout_height="30.0dip" android:indeterminateDrawable="@drawable/progress_circle_blue" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

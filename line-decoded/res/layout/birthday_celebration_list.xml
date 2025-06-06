@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/top_area" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="77.0dip" android:alpha="0.5" />
+    <View android:id="@id/background_space" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_below="@id/top_area" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/contents_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_below="@id/top_area" android:layout_alignParentBottom="true">
+        <TextView android:textSize="14.0sp" android:textColor="@color/linegray500" android:gravity="center_horizontal" android:id="@id/desc" android:paddingLeft="35.0dip" android:paddingRight="35.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:text="@string/timeline_bdboardlist_guidedesc_canseelist" android:lineSpacingExtra="5.0sp" />
+        <RelativeLayout android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="47.0dip" android:layout_below="@id/desc">
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/linegray900" android:gravity="center" android:id="@id/total_count" android:paddingLeft="19.0dip" android:paddingRight="19.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:letterSpacing="-0.02" />
+            <View android:background="@color/linegray900" android:layout_width="0.0dip" android:layout_height="2.0dip" android:layout_alignLeft="@id/total_count" android:layout_alignRight="@id/total_count" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <View android:id="@id/separator" android:background="@color/linegray200" android:layout_width="fill_parent" android:layout_height="0.6700001dip" android:layout_below="@id/title_layout" />
+        <com.linecorp.line.timeline.ui.base.view.LoadMoreRecyclerView android:id="@id/recyclerview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_below="@id/separator" android:layout_alignParentBottom="true" app:loadmore_loading_view_color="@color/linegray350" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/screen_myhome_listend_error_layer" android:background="@color/timeline_home_default_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/top_area" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/screen_myhome_listend_loading_layer" android:background="@color/timeline_home_default_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/top_area">
+        <ProgressBar android:layout_width="24.669983dip" android:layout_height="24.669983dip" android:layout_marginRight="6.669983dip" android:indeterminateTint="@color/linegray350" />
+    </LinearLayout>
+    <TextView android:textSize="18.0sp" android:textColor="#ff808080" android:gravity="center" android:id="@id/screen_myhome_listend_no_data_layer" android:background="@color/timeline_home_default_bg" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/top_area" />
+</RelativeLayout>

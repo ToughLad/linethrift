@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.linecorp.voip2.service.freecall.video.view.custom.AttachmentCompatFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/render_peer" android:background="@drawable/shape_7dp_round_corner_rectangle" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/render_me" android:background="@drawable/shape_7dp_round_corner_rectangle" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.linecorp.voip2.service.freecall.video.view.custom.AttachmentCompatFrameLayout>

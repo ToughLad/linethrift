@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/album_selector_album_note_tab_text_color" android:id="@id/tab_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_centerHorizontal="true" />
+    <jp.naver.line.android.common.view.TintableDImageView android:layout_gravity="center" android:id="@id/tab_new_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="14.0dip" android:src="@drawable/album_gr_tab_new_badge" android:layout_toEndOf="@id/tab_text" />
+    <View android:id="@id/tab_select_line" android:background="@color/primaryText" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

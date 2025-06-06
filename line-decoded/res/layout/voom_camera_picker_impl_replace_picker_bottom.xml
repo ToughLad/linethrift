@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="bottom|center" android:id="@id/voom_template_replace_picker_bottom_layout" android:background="?pickerBackgroundColor" android:layout_width="fill_parent" android:layout_height="@dimen/picker_grid_bottom_height">
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/linewhite" android:gravity="center" android:id="@id/voom_template_replace_picker_next_button" android:background="@drawable/voom_camera_core_selector_lights_next_button_text_view" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="37.0dip" android:layout_marginBottom="7.0dip" android:text="@string/linevoom_camera_button_pickernext" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_marginHorizontal="10.0dip" />
+    </RelativeLayout>
+</FrameLayout>

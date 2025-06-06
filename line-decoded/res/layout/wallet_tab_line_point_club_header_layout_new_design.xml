@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/line_point_club_header" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="@dimen/header_height">
+        <jp.naver.line.android.common.view.header.SingleLineDoubleTextVIew android:textSize="@dimen/header_main_tab_title_size" android:id="@id/header_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tab_name_wallet" android:singleLine="true" android:layout_marginStart="@dimen/header_main_tab_left_padding_new_design" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/wallet_v2_header_title" />
+        <LinearLayout android:gravity="end|center" android:id="@id/line_point_club_layout" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginHorizontal="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <include android:id="@id/point_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/wallet_tab_line_point_club_point_amount_layout_new_design" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

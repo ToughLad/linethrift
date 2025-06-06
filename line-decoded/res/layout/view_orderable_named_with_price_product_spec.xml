@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/selector_orderable_product_spec_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="8.0dip" android:paddingVertical="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/spec_price" style="@style/glc_product_spec_price" />
+    <View android:background="@color/linewhite_alpha10" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginHorizontal="5.0dip" android:layout_marginVertical="1.5dip" />
+    <TextView android:id="@id/spec_name" style="@style/glc_product_spec_name" />
+    <TextView android:id="@id/order_label_text" style="@style/glc_product_spec_order_label_text" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/picker_bg_corner_4dp_gray" />
+    <item android:drawable="@drawable/voom_camera_editor_impl_bg_corner_4dp_white" />
+</selector>

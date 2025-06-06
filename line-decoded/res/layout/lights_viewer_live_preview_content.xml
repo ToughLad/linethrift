@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.line.liveplatform.view.LivePlatformPlayerView android:id="@id/live_player_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/lights_viewer_content_bg_gradient" />
+    <View android:id="@id/lights_viewer_live_preview_dim_layer" android:background="@color/lineblack_alpha70" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.linecorp.com.lds.ui.spinner.LdsSpinner android:layout_gravity="center" android:id="@id/lights_viewer_live_preview_loading_spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:spinnerSize="large" />
+    <include android:id="@id/lights_viewer_live_inactive_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/lights_viewer_live_inactive_overlay" />
+    <include android:id="@id/lights_viewer_live_preview_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/lights_viewer_live_preview_overlay" />
+    <include android:id="@id/lights_viewer_detail_view_guide_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/lights_viewer_detail_view_guide_overlay" />
+    <include android:id="@id/lights_viewer_live_end_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/lights_viewer_live_end_overlay" />
+</FrameLayout>

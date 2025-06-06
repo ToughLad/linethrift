@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/tools" android:background="@drawable/doodle_tools_background" android:paddingTop="8.0dip" android:paddingBottom="10.0dip" android:layout_width="44.0dip" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/tools_color" android:background="@drawable/call_doodle_palette_ring" android:layout_width="30.0dip" android:layout_height="30.0dip">
+            <ImageView android:id="@id/tools_color_selected" android:background="@drawable/shape_oval" android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="#fff73d4a" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/tools_pen" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/call_doodle_pen_selected" />
+        <ImageView android:id="@id/tools_stamp" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/call_doodle_stamp_active" />
+        <ImageView android:id="@id/tools_eraser" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/call_doodle_eraser_inactive" />
+        <ImageView android:id="@id/tools_undo" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/call_doodle_undo_inactive" />
+        <ImageView android:id="@id/tools_redo" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/call_doodle_redo_inactive" />
+        <ImageView android:id="@id/tools_delete" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/call_doodle_delete_inactive" />
+        <ImageView android:id="@id/tools_hide" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/call_doodle_x" />
+    </LinearLayout>
+</merge>

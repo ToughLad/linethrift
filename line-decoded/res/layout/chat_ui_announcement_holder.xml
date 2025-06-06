@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/chat_ui_announcement_main_viewstub" android:visibility="gone" android:layout="@layout/chat_ui_announcement_fold_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/chat_ui_annoucement_unhold_content_viewstub" android:visibility="gone" android:layout="@layout/chat_ui_announcement_unfold_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_gravity="right" android:id="@id/chat_ui_annoucement_megaphone_holder" android:visibility="gone" android:layout_width="@dimen/chat_ui_announcement_megaphone_size" android:layout_height="@dimen/chat_ui_announcement_megaphone_size" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip">
+        <ImageView android:id="@id/chat_ui_annoucement_megaphone_background" android:background="@drawable/chat_ui_announcement_chatroom_ic_notice_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:backgroundTint="@color/defaultAltNeutralFill" />
+        <jp.naver.line.android.common.view.TintableDImageView android:layout_gravity="center" android:id="@id/chat_ui_annoucement_megaphone_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/chat_ui_announcement_chatroom_ic_notice" android:contentDescription="@string/acccess_announcement_unfold" />
+    </FrameLayout>
+</FrameLayout>

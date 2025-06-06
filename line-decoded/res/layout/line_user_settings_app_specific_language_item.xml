@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatCheckedTextView android:gravity="center_vertical" android:paddingTop="@dimen/line_user_settings_item_container_padding_top" android:paddingBottom="@dimen/line_user_settings_item_container_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkMark="@drawable/line_user_settings_list_checkmark_selector" android:paddingHorizontal="@dimen/line_user_settings_item_container_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

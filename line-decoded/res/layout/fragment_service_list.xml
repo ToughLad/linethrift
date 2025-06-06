@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/service_list_content_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/service_list_top_services_container" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="0.0dip">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="25.0dip" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                <Space android:layout_width="0.0dip" android:layout_height="16.0dip" />
+                <androidx.viewpager2.widget.ViewPager2 android:id="@id/service_list_top_services_view_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/service_list_top_services_indicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:divider="@drawable/service_list_top_services_indicator_divider" android:showDividers="middle" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/service_list_services_tab_layout_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <View android:layout_gravity="bottom" android:id="@id/service_list_services_tab_divider" android:background="@color/primarySeparator" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+                <HorizontalScrollView android:id="@id/service_list_services_tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </FrameLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/service_list_services_recycler_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <TextView android:gravity="center" android:id="@id/empty_services_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/hometab_serviceslist_zero" />
+</FrameLayout>

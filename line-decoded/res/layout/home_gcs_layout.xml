@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root" android:background="@color/primaryBackground" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/background_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/background_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitStart" android:contentDescription="@null" />
+    </FrameLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar_layout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <FrameLayout android:id="@id/profile_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll" />
+            <FrameLayout android:id="@id/search_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" app:layout_scrollFlags="scroll|enterAlways" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:id="@id/gcs_page_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <FrameLayout android:id="@id/edge_to_edge_top" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_collapseMode="pin" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/edge_to_edge_top" layout="@layout/home_header" />
+    <include android:id="@id/float_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" layout="@layout/home_float_action" />
+</androidx.constraintlayout.widget.ConstraintLayout>

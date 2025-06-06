@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/sticker_sticon_input_empty_layout_vertical_margin" android:paddingBottom="@dimen/sticker_sticon_input_empty_layout_vertical_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/sticker_sticon_input_empty_layout_horizontal_margin" android:paddingEnd="@dimen/sticker_sticon_input_empty_layout_horizontal_margin">
+            <ImageView android:id="@id/sticker_view" android:layout_width="57.0dip" android:layout_height="57.0dip" app:layout_constraintBottom_toTopOf="@id/description_view" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+            <TextView android:id="@id/description_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/chatroom_customsticker_invalidwordupdate_desc" app:layout_constraintBottom_toTopOf="@id/edit_name_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/sticker_view" style="@style/shop_sticker_sticon_input_new_message_content" />
+            <TextView android:id="@id/edit_name_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/chatroom_customsticker_invalidwordupdate_desc_btn_edit" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/description_view" style="@style/sticker_sticon_outlined_button" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</FrameLayout>

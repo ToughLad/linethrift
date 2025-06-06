@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#77000000" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="11.0sp" android:id="@id/debug_popup_legy_blacklist" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textSize="11.0sp" android:id="@id/debug_popup_legy_connection" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/debug_popup_legy_blacklist" />
+    <TextView android:textSize="11.0sp" android:id="@id/debug_popup_operations" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/debug_popup_legy_connection" />
+    <TextView android:textSize="11.0sp" android:id="@id/debug_popup_connection_warmup" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/debug_popup_operations" />
+    <TextView android:textSize="13.0sp" android:id="@id/debug_popup_close_btn" android:background="#55ffffff" android:paddingLeft="20.0dip" android:paddingTop="5.0dip" android:paddingRight="20.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/debug_popup_connection_warmup" />
+</RelativeLayout>

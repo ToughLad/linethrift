@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/common_dialog_background" android:layout_width="@dimen/common_dialog_width" android:layout_height="wrap_content" style="@style/v3CommonDialogRootContainer"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/common_dialog_contents_bg" android:paddingTop="@dimen/v3_popup_content_padding_top" android:paddingBottom="@dimen/v3_popup_content_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/common_dialog_image_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:scaleType="center" />
+        <TextView android:id="@id/common_dialog_title_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/common_dialog_title_bottom_margin" android:layout_marginStart="@dimen/common_dialog_horizontal_padding" android:layout_marginEnd="@dimen/common_dialog_horizontal_padding" style="@style/v3CommonDialogTitleText" />
+        <LinearLayout android:id="@id/common_dialog_content_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/common_dialog_horizontal_padding" android:layout_marginEnd="@dimen/common_dialog_horizontal_padding">
+            <TextView android:id="@id/common_dialog_content_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/dialogMessageText" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/common_dialog_checkbox_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dialog_horizontal_padding" android:layout_marginTop="18.0dip" android:layout_marginRight="@dimen/common_dialog_horizontal_padding">
+            <CheckBox android:id="@id/common_dialog_checkbox" android:layout_width="18.0dip" android:layout_height="18.0dip" android:button="@drawable/selector_dialog_checkbox" />
+            <TextView android:textSize="14.0sp" android:textColor="#ff888888" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/common_dialog_checkbox_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:includeFontPadding="false" android:lineSpacingExtra="1.0dip" />
+        </LinearLayout>
+        <EditText android:layout_gravity="left" android:id="@id/common_dialog_edit_text" android:background="@color/transparent" android:padding="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_dialog_horizontal_padding" android:layout_marginTop="19.0dip" android:layout_marginRight="@dimen/common_dialog_horizontal_padding" android:inputType="text" style="@style/v3CommonDialogEditText" />
+    </LinearLayout>
+    <ListView android:id="@id/common_dialog_vertical_buttons_listview" android:visibility="gone" android:fadingEdge="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0dip" android:fadeScrollbars="false" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/common_dialog_horizontal_buttons" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+        <Button android:id="@id/common_dialog_cancel_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/v3CommonDialogCancelButton" />
+        <View android:id="@id/common_dialog_button_padding" android:layout_width="@dimen/v3_popup_buttons_group_gutter" android:layout_height="36.0dip" />
+        <Button android:id="@id/common_dialog_ok_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/v3CommonDialogOkButton" />
+    </LinearLayout>
+</LinearLayout>

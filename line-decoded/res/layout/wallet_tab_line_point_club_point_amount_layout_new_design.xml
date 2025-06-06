@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/point_icon_view" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/wallet_ic_line_point" />
+    <TextView android:id="@id/point_amount_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="2.0dip" style="@style/wallet_line_point_club_text_new_design" />
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/chat_ui_row_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="218.66998dip" android:backgroundTint="@color/chat_ui_row_msg_highlight_color_selector" android:backgroundTintMode="src_atop"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/link_body_bg" android:paddingLeft="9.339996dip" android:paddingTop="10.669983dip" android:paddingRight="13.329987dip" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/chat_ui_link_thumbnail" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginBottom="1.3299866dip" android:scaleType="fitXY" />
+        <LinearLayout android:id="@id/link_message_bg" android:paddingTop="1.3699951dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.669983dip" android:layout_toRightOf="@id/chat_ui_link_thumbnail">
+            <TextView android:textSize="14.0sp" android:textColor="@color/chathistory_message_text" android:id="@id/chat_ui_link_message" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="#ff326b0d" android:id="@id/chat_ui_link_subtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.3299866dip" android:layout_marginTop="5.0dip" android:layout_toRightOf="@id/chat_ui_link_thumbnail" android:layout_below="@id/link_message_bg" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/chat_ui_bottom_divider" android:background="@color/chat_ui_message_send_divider_bg_obsoleted" android:layout_width="fill_parent" android:layout_height="@dimen/chat_ui_row_divider_height_obsoleted" android:layout_marginTop="10.0dip" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="35.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="#ff326b0d" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/chat_ui_link_linktext" android:paddingRight="12.669983dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.659973dip" android:singleLine="true" />
+        <LinearLayout android:gravity="right" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/chat_ui_row_arrow_small" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="35.0dip" android:scaleType="center" app:srcCompat="@drawable/chat_ui_bubble_arrow_green" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

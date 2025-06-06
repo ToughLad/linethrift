@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="40.0dip" android:width="40.0dip" android:viewportWidth="40.0" android:viewportHeight="40.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/chat_ui_voice_recorder_off_selector" android:pathData="M7.5,20C7.5,13.096 13.096,7.5 20,7.5C26.904,7.5 32.5,13.096 32.5,20C32.5,26.904 26.904,32.5 20,32.5C13.096,32.5 7.5,26.904 7.5,20Z" />
+</vector>

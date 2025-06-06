@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/settings_chat_backup_automatic_backup" android:background="@color/settings_bg_semantic" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:id="@id/settings_chat_backup_automatic_backup_scroll_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/common_setting_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.linecorp.line.settings.base.itemview.LineUserSettingSwitchItemView android:id="@id/settings_automatic_backup_update" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:settingDescriptionText="@string/line_chatbackupsettings_desc_autobackup" app:settingTitleText="@string/line_chatbackupsettings_toggle_enableautobackup" />
+            <LinearLayout android:orientation="vertical" android:id="@id/settings_automatic_backup_settings_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.linecorp.line.settings.base.itemview.LineUserSettingGroupHeaderItemView android:id="@id/settings_automatic_backup_network_connection" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/line_chatbackupsettings_subtitle_network" />
+                <com.linecorp.line.settings.base.itemview.LineUserSettingSwitchItemView android:id="@id/settings_automatic_backup_prefer_wifi" android:layout_width="fill_parent" android:layout_height="wrap_content" app:settingIsDividerVisible="false" app:settingIsSwitchChecked="true" app:settingIsSwitchEnabled="false" app:settingTitleText="@string/line_chatbackupsettings_button_wifi" />
+                <com.linecorp.line.settings.base.itemview.LineUserSettingSwitchItemView android:id="@id/settings_automatic_backup_carrier_access" android:layout_width="fill_parent" android:layout_height="wrap_content" app:settingTitleText="@string/line_chatbackupsettings_button_mobile" />
+                <com.linecorp.line.settings.base.itemview.LineUserSettingGroupHeaderItemView android:id="@id/settings_automatic_backup_update_intervals" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/line_chatbackupsettings_subtitle_frequency" />
+                <com.linecorp.line.settings.base.itemview.LineUserSettingTextItemView android:id="@id/settings_automatic_backup_interval" android:layout_width="fill_parent" android:layout_height="wrap_content" app:settingTitleText="@string/line_chatbackupsettings_button_frequency" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

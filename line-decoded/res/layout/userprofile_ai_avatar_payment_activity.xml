@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/ai_avatar_payment_header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ViewFlipper android:id="@id/ai_avatar_payment_view_flipper" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="10.0dip" android:measureAllChildren="false" app:layout_constraintBottom_toTopOf="@id/ai_avatar_payment_button_next" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ai_avatar_payment_header">
+        <include android:id="@id/ai_avatar_payment_included_gender_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/userprofile_ai_avatar_payment_gender" />
+        <include android:id="@id/ai_avatar_payment_included_pack_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/userprofile_ai_avatar_payment_pack" />
+        <include android:id="@id/ai_avatar_payment_included_confirm_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/userprofile_ai_avatar_payment_confirm" />
+    </ViewFlipper>
+    <com.linecorp.com.lds.ui.boxbutton.ObsoleteLdsBoxButton android:id="@id/ai_avatar_payment_button_next" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" android:layout_marginHorizontal="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:ldsBoxButtonSize="x_large" app:ldsBoxButtonText="@string/profile_aiavatarpackage_button_createavatars" app:ldsBoxButtonType="solid_green" />
+</androidx.constraintlayout.widget.ConstraintLayout>

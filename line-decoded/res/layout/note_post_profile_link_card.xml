@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/blur_image" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="#26000000" android:scaleType="centerCrop" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="122.0dip" android:layout_height="122.0dip" android:layout_marginTop="10.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/profile_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+            <com.linecorp.line.note.view.post.NotePostVideoProfileView android:layout_gravity="center" android:id="@id/profile_video" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <com.linecorp.line.note.view.NotePostSticonTextView android:ellipsize="end" android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:maxLines="1" style="@style/note_text_timeline_profile_changed_title" />
+        <com.linecorp.line.note.view.NotePostSticonTextView android:ellipsize="end" android:gravity="center" android:id="@id/desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="1" style="@style/note_text_timeline_profile_changed_desc" />
+    </LinearLayout>
+</merge>

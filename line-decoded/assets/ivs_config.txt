@@ -1,0 +1,13 @@
+{
+  "faceprint": {
+    "verify_begin": 0,
+    "verify_liveness": 0,
+    "doc_prepare_time": 3000,
+    "liveness_interval": 1000,
+    "verify_end_retryable": true,
+    "verify_begin_max_time": 15,
+    "verify_end_max_time": 175,
+    "skip_acceptable": 5,
+    "see_center_at_last": false
+  }
+}

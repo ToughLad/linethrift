@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:fadingEdgeLength="@dimen/registration_content_bottom_padding_for_fab" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="50.0dip" android:requiresFadingEdge="vertical" app:layout_constraintBottom_toTopOf="@id/next" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="24.0dip">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/registration_title_margin_top" android:text="@string/startUpFlow_loginEmail_lbl_title" style="@style/Registration.Title" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/registration_description_margin_top" android:text="@string/startUpFlow_loginEmail_lbl_desc" style="@style/Registration.Description" />
+            <include android:id="@id/email_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" app:layout_constraintEnd_toEndOf="@id/description" app:layout_constraintStart_toStartOf="@id/description" app:layout_constraintTop_toBottomOf="@id/description" layout="@layout/registration_edittext_layout" />
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:srcCompat="@drawable/floating_ic_next" style="@style/Registration.FloatingActionButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

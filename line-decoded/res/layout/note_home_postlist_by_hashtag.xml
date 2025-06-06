@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/myhome_postlist_root" android:background="@color/primaryBackground" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:defaultFocusHighlightEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/empty" android:layout="@layout/note_error_view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header_container" />
+    <jp.naver.line.android.customview.SwipeRefreshLayoutForListView android:id="@id/swiperefresh" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header_container">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/list" android:paddingBottom="6.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@android:color/transparent" />
+    </jp.naver.line.android.customview.SwipeRefreshLayoutForListView>
+    <ViewStub android:id="@id/error" android:layout="@layout/note_error_view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header_container" />
+    <RelativeLayout android:id="@id/progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header_container">
+        <ProgressBar android:layout_width="24.669983dip" android:layout_height="24.669983dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/popup_sticker_view_stub" android:visibility="gone" android:layout="@layout/timeline_popup_sticker_view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header_container" />
+    <FrameLayout android:id="@id/header_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="@dimen/header_height" />
+    </FrameLayout>
+</RelativeLayout>

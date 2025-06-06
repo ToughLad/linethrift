@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/linewhite" />
+            <stroke android:width="@dimen/pay_transact_balance_module_refresh_icon_outline_size" android:color="@color/linegray250" />
+            <size android:height="24.0dip" android:width="24.0dip" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:src="@drawable/pay_transact_ic_balance_charge_plus" android:tint="@color/linegray500" />
+    </item>
+</layer-list>

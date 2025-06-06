@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="7.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/tooltip_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/tooltip_arrow_up" app:layout_constraintBottom_toTopOf="@id/tooltip_background" app:layout_constraintEnd_toEndOf="@id/tooltip_background" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/tooltip_background" android:background="@drawable/settings_premium_font_tooltip_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tooltip_arrow">
+        <TextView android:textSize="13.0sp" android:textColor="@color/linewhite" android:id="@id/tooltip_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="190.0dip" android:text="@string/line_fontsettings_tooltip_checkordlfonts" android:paddingStart="12.0dip" android:paddingVertical="11.0dip" app:layout_constraintEnd_toStartOf="@id/close_button" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/common_ic_tooltip_x" android:contentDescription="@string/access_close" android:paddingHorizontal="12.0dip" android:paddingVertical="13.0dip" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="@id/tooltip_content" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

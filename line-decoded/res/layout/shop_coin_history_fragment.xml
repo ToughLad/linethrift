@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/coin_history_root" android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/container_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/coin_header" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/coin_header_my_coin" />
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="30.0dip" layout="@layout/shop_coin_history_list_layout" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/coin_shop_maintenance_and_error_view" />
+</LinearLayout>

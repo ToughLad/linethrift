@@ -1,0 +1,79 @@
+.class final Lcom/google/ads/interactivemedia/v3/internal/zzqx;
+.super Lcom/google/ads/interactivemedia/v3/internal/zzqr;
+.source "SourceFile"
+
+
+# instance fields
+.field final synthetic zza:Lcom/google/ads/interactivemedia/v3/internal/zzqy;
+
+
+# direct methods
+.method public constructor <init>(Lcom/google/ads/interactivemedia/v3/internal/zzqy;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/google/ads/interactivemedia/v3/internal/zzqx;->zza:Lcom/google/ads/interactivemedia/v3/internal/zzqy;
+
+    invoke-direct {p0}, Lcom/google/ads/interactivemedia/v3/internal/zzqr;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final bridge synthetic get(I)Ljava/lang/Object;
+    .locals 2
+
+    new-instance v0, Ljava/util/AbstractMap$SimpleImmutableEntry;
+
+    iget-object v1, p0, Lcom/google/ads/interactivemedia/v3/internal/zzqx;->zza:Lcom/google/ads/interactivemedia/v3/internal/zzqy;
+
+    iget-object v1, v1, Lcom/google/ads/interactivemedia/v3/internal/zzqy;->zza:Lcom/google/ads/interactivemedia/v3/internal/zzqz;
+
+    invoke-static {v1}, Lcom/google/ads/interactivemedia/v3/internal/zzqz;->zzr(Lcom/google/ads/interactivemedia/v3/internal/zzqz;)Lcom/google/ads/interactivemedia/v3/internal/zzrq;
+
+    move-result-object v1
+
+    iget-object v1, v1, Lcom/google/ads/interactivemedia/v3/internal/zzrq;->zzd:Lcom/google/ads/interactivemedia/v3/internal/zzqr;
+
+    invoke-interface {v1, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object v1
+
+    iget-object p0, p0, Lcom/google/ads/interactivemedia/v3/internal/zzqx;->zza:Lcom/google/ads/interactivemedia/v3/internal/zzqy;
+
+    iget-object p0, p0, Lcom/google/ads/interactivemedia/v3/internal/zzqy;->zza:Lcom/google/ads/interactivemedia/v3/internal/zzqz;
+
+    invoke-static {p0}, Lcom/google/ads/interactivemedia/v3/internal/zzqz;->zzl(Lcom/google/ads/interactivemedia/v3/internal/zzqz;)Lcom/google/ads/interactivemedia/v3/internal/zzqr;
+
+    move-result-object p0
+
+    invoke-interface {p0, p1}, Ljava/util/List;->get(I)Ljava/lang/Object;
+
+    move-result-object p0
+
+    invoke-direct {v0, v1, p0}, Ljava/util/AbstractMap$SimpleImmutableEntry;-><init>(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    return-object v0
+.end method
+
+.method public final size()I
+    .locals 0
+
+    iget-object p0, p0, Lcom/google/ads/interactivemedia/v3/internal/zzqx;->zza:Lcom/google/ads/interactivemedia/v3/internal/zzqy;
+
+    iget-object p0, p0, Lcom/google/ads/interactivemedia/v3/internal/zzqy;->zza:Lcom/google/ads/interactivemedia/v3/internal/zzqz;
+
+    invoke-virtual {p0}, Lcom/google/ads/interactivemedia/v3/internal/zzqz;->size()I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public final zzf()Z
+    .locals 0
+
+    const/4 p0, 0x1
+
+    return p0
+.end method

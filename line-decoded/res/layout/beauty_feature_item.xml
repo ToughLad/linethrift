@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingLeft="1.0dip" android:paddingRight="1.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/beauty_item_background" android:background="@drawable/camera_option_beauty_feature_background" android:layout_width="50.0dip" android:layout_height="50.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:layout_gravity="center" android:id="@id/beauty_feature_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <TextView android:textSize="9.0sp" android:textColor="@color/linewhite" android:gravity="center" android:id="@id/beauty_feature_name" android:layout_width="62.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:maxLines="2" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/beauty_item_background" />
+    <FrameLayout android:id="@id/padding" android:background="@android:color/transparent" android:layout_width="3.0dip" android:layout_height="3.0dip" android:layout_marginTop="6.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/beauty_feature_name" />
+    <FrameLayout android:id="@id/beauty_item_adopted_badge" android:background="@drawable/camera_option_beauty_feature_adopted" android:visibility="gone" android:layout_width="3.0dip" android:layout_height="3.0dip" android:layout_marginTop="6.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/beauty_feature_name" />
+</androidx.constraintlayout.widget.ConstraintLayout>

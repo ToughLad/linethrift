@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:paddingLeft="15.0dip" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <CheckBox android:id="@id/pay_transfer_member_list_checkbox" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginRight="15.0dip" android:button="@drawable/pay_transact_selector_transfer_member_checkbox" android:layout_centerVertical="true" android:layout_marginEnd="15.0dip" />
+        <ImageView android:id="@id/pay_transfer_member_list_thumbnail" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_toRightOf="@id/pay_transfer_member_list_checkbox" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/pay_transfer_member_list_status_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="15.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/linered600" android:id="@id/pay_transfer_member_list_cancel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/pay_request_transfer_requester_status_cancel" android:layout_toLeftOf="@id/pay_transfer_member_list_status_icon" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/linegray750" android:id="@id/pay_transfer_member_list_name" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_toLeftOf="@id/pay_transfer_member_list_cancel" android:layout_toRightOf="@id/pay_transfer_member_list_thumbnail" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true" android:layout_marginStart="15.0sp" />
+        <View android:background="@color/linegray200" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignLeft="@id/pay_transfer_member_list_name" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jp.naver.line.android.common.view.menu.OptionMenuLayout android:id="@id/home_post_end_root" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/home_post_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/screen_myhome_postdetail_title">
+        <jp.naver.line.android.customview.SwipeRefreshLayoutForListView android:id="@id/swiperefresh" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/postend_messagge_input_container">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/screen_myhome_postdetail_listview" android:scrollbars="none" android:fadingEdge="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:scrollingCache="true" android:cacheColorHint="@android:color/transparent" android:divider="@null" android:dividerHeight="0.0px" />
+        </jp.naver.line.android.customview.SwipeRefreshLayoutForListView>
+    </RelativeLayout>
+    <com.linecorp.line.note.activity.postend.NotePostEndExtraInfoView android:id="@id/postend_extra_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header_append_view_container" />
+    <ViewStub android:id="@id/popup_sticker_view_stub" android:visibility="gone" android:layout="@layout/timeline_popup_sticker_view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/header_append_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/screen_myhome_postdetail_title">
+        <FrameLayout android:id="@id/ad_container" android:background="@color/primaryBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+    </FrameLayout>
+    <include android:id="@id/private_note_advertise_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/private_note_ad_view_height" android:layout_below="@id/screen_myhome_postdetail_title" layout="@layout/note_ad_layout" />
+    <jp.naver.line.android.common.view.header.Header android:id="@id/screen_myhome_postdetail_title" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</jp.naver.line.android.common.view.menu.OptionMenuLayout>

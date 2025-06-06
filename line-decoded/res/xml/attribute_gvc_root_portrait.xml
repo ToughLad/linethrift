@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout.attributes
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <attribute android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" app:layout_constraintBottom_toTopOf="@id/render_pager_guideline_bottom" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/render_guideline_top" target="@id/render_pager" />
+    <attribute android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/render_list_guideline_bottom" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" target="@id/render_list" />
+</layout.attributes>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_user_bg" android:background="@drawable/timeline_friend_unwanted_row_background" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="57.0dip">
+        <ImageView android:id="@id/friend_row_unwanted_thumbnail" android:paddingRight="3.0dip" android:layout_width="@dimen/friendlist_thumbnail_size" android:layout_height="@dimen/friendlist_thumbnail_size" />
+        <TextView android:textColor="@color/primaryText" android:ellipsize="end" android:id="@id/friend_row_unwanted_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_weight="1.0" style="@style/TimelineFriendListNameText" />
+        <TextView android:textSize="12.5sp" android:textColor="@color/onPrimaryFill" android:gravity="center" android:id="@id/friend_row_unwanted_button" android:background="@drawable/timeline_lds_box_button_solid_green_background" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:minWidth="61.0dip" android:minHeight="28.0dip" android:text="@string/myhome_setting_show" android:includeFontPadding="false" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@id/pay_transfer_member_listview" android:background="@color/linewhite" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="7.5dip" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0px" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/cancel_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/patial_cancel" android:layout_width="fill_parent" android:layout_height="@dimen/pay_base_common_full_button_height" style="@style/pay_transact_common_full_button_red" />
+    </LinearLayout>
+</LinearLayout>

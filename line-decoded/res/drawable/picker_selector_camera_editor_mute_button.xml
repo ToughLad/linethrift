@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <layer-list>
+            <item android:drawable="@drawable/picker_media_editor_button_bg" />
+            <item android:gravity="center" android:drawable="@drawable/picker_selector_camera_editor_mute_button_checked" />
+        </layer-list>
+    </item>
+    <item android:state_checked="false">
+        <layer-list>
+            <item android:drawable="@drawable/picker_media_editor_button_bg" />
+            <item android:gravity="center" android:drawable="@drawable/picker_selector_camera_editor_mute_button_unchecked" />
+        </layer-list>
+    </item>
+</selector>

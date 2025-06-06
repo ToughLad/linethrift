@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/account_change_email_nav_graph" app:startDestination="@id/changeOrRemoveEmailFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="account_change_or_remove_email_fragment" android:name="com.linecorp.account.email.EmailChangeOrRemovalFragment" android:id="@id/changeOrRemoveEmailFragment">
+        <action android:id="@id/action_to_change_email_fragment" app:destination="@id/changeEmailFragment" />
+        <action android:id="@id/action_to_register_email_fragment" app:destination="@id/emailRegistrationFragment" app:popUpTo="@id/changeOrRemoveEmailFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/action_to_register_password_fragment" app:destination="@id/passwordRegistrationFragment" app:popUpTo="@id/changeOrRemoveEmailFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="account_register_email_fragment" android:name="com.linecorp.account.email.EmailRegistrationFragment" android:id="@id/emailRegistrationFragment">
+        <action android:id="@id/action_to_verify_email_fragment" app:destination="@id/emailVerificationFragment" />
+    </fragment>
+    <fragment android:label="account_register_email_fragment" android:name="com.linecorp.account.password.PasswordSettingFragment" android:id="@id/passwordRegistrationFragment">
+        <action android:id="@id/action_to_register_email_fragment" app:destination="@id/emailRegistrationFragment" app:popUpTo="@id/passwordRegistrationFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="account_email_verification_fragment" android:name="com.linecorp.account.email.EmailVerificationFragment" android:id="@id/emailVerificationFragment" />
+    <fragment android:label="account_change_email_fragment" android:name="com.linecorp.account.email.EmailChangeFragment" android:id="@id/changeEmailFragment">
+        <action android:id="@id/action_to_verify_email_fragment" app:destination="@id/emailVerificationFragment" />
+    </fragment>
+</navigation>

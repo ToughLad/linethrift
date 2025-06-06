@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/pay_ui_payment_mycode_section_padding" android:paddingEnd="15.0dip" android:paddingVertical="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/logoImageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pay_ui_payment_mycode_linepay_logo" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageButton android:id="@id/closeButton" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pay_ui_payment_icon_mycode_close" android:contentDescription="@string/pay_ui_payment_content_description_close" android:paddingStart="18.0dip" android:paddingEnd="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="?actionButtonStyle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

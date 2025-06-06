@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/wallet_global_asset_collapsed_section_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/wallet_global_asset_bank_logo_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/wallet_global_asset_common_margin_start" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/wallet_global_asset_bank_logo_layout" />
+    <FrameLayout android:id="@id/bank_refresh_icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/bank_refresh_icon_bg_view" android:layout_width="@dimen/wallet_global_asset_refresh_icon_size" android:layout_height="@dimen/wallet_global_asset_refresh_icon_size" android:src="@drawable/wallet_global_asset_retry_bg_white" android:contentDescription="@null" />
+        <ImageView android:layout_gravity="center" android:id="@id/bank_refresh_icon_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wallet_global_asset_retry_white" android:contentDescription="@null" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

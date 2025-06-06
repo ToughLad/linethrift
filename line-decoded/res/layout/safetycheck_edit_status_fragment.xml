@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/primaryBackground" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/safetycheck_edit_status_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.core.widget.NestedScrollView android:id="@id/safetycheck_edit_status_scrollview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/safetycheck_disaster_info" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/safetycheck_row_disaster_info" />
+            <Space android:layout_width="1.0dip" android:layout_height="6.0dip" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/primaryText" android:id="@id/status_button_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/line_safetycheck_header_yourstatus" android:layout_marginStart="16.0dip" />
+            <Space android:layout_width="1.0dip" android:layout_height="2.0dip" />
+            <include android:id="@id/safetycheck_status_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="9.0dip" layout="@layout/safetycheck_row_status_buttons" />
+            <include android:id="@id/safetycheck_display_message_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_marginBottom="33.0dip" layout="@layout/safetycheck_row_edit_message_area" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <include android:layout_gravity="bottom" android:id="@id/safetycheck_edit_status_bottom_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="16.0dip" layout="@layout/safetycheck_edit_status_bottom_bar" />
+    <include android:id="@id/safetycheck_edit_message_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="33.0dip" layout="@layout/safetycheck_row_edit_message_area" />
+</LinearLayout>

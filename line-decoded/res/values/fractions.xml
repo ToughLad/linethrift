@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="fraction" name="timeline_write_entry_menu_alpha_max">1.0</item>
+    <item type="fraction" name="timeline_write_entry_menu_alpha_min">0.0</item>
+    <item type="fraction" name="timeline_write_entry_menu_scale_max">1.0</item>
+    <item type="fraction" name="timeline_write_entry_menu_scale_min">0.2</item>
+    <fraction name="timeline_write_entry_menu_scale_pivotY">17.999994%</fraction>
+</resources>

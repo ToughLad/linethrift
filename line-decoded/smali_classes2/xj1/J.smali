@@ -1,0 +1,79 @@
+.class public final Lxj1/J;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final a:[LLv0/g;
+
+.field public static final b:Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Set<",
+            "LLv0/g;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public static final c:[LLv0/g;
+
+.field public static final d:Ljava/util/Set;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Set<",
+            "LLv0/g;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    new-instance v0, LLv0/g;
+
+    const-string v1, "share.common"
+
+    const-string v2, "background"
+
+    invoke-direct {v0, v1, v2}, LLv0/g;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    filled-new-array {v0}, [LLv0/g;
+
+    move-result-object v0
+
+    sput-object v0, Lxj1/J;->a:[LLv0/g;
+
+    const-string v0, "text"
+
+    invoke-static {v1, v0}, LBB/b;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/util/Set;
+
+    move-result-object v0
+
+    sput-object v0, Lxj1/J;->b:Ljava/util/Set;
+
+    new-instance v0, LLv0/g;
+
+    const-string v2, "name.text"
+
+    invoke-direct {v0, v1, v2}, LLv0/g;-><init>(Ljava/lang/String;Ljava/lang/String;)V
+
+    filled-new-array {v0}, [LLv0/g;
+
+    move-result-object v0
+
+    sput-object v0, Lxj1/J;->c:[LLv0/g;
+
+    const-string v0, "hint.text"
+
+    invoke-static {v1, v0}, LBB/b;->b(Ljava/lang/String;Ljava/lang/String;)Ljava/util/Set;
+
+    move-result-object v0
+
+    sput-object v0, Lxj1/J;->d:Ljava/util/Set;
+
+    return-void
+.end method

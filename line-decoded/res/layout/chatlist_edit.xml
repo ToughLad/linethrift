@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/chatlist_edit_root" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/chatlist_edit_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/chatlist_edit_listview_area" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/chatlist_edit_listview" android:paddingBottom="@dimen/list_padding_bottom" android:clipToPadding="false" android:animationCache="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scrollingCache="false" android:cacheColorHint="@android:color/transparent" android:overScrollMode="never" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/chatlist_edit_bottom_button_area" android:background="@color/primarySurface" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <LinearLayout android:gravity="center" android:id="@id/chatlist_edit_hide_button_layout" android:background="@drawable/chatlist_edit_hide_btn" android:layout_width="0.0dip" android:layout_height="46.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="13.0dip" android:layout_weight="1.0" android:onClick="onClickHideButton" android:layout_marginStart="16.0dip" android:layout_marginEnd="6.0dip">
+            <TextView android:textColor="@color/chatlist_edit_hide_text" android:id="@id/chatlist_edit_hide_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chatlist_label_hide" style="@style/chatlist_edit_btn" />
+            <TextView android:textColor="@color/chatlist_edit_hide_text" android:id="@id/chatlist_edit_hide_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" style="@style/chatlist_edit_btn" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/chatlist_edit_delete_button_layout" android:background="@drawable/chatlist_edit_delete_btn" android:layout_width="0.0dip" android:layout_height="46.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="13.0dip" android:layout_weight="1.0" android:onClick="onClickBlockButton" android:layout_marginEnd="16.0dip">
+            <TextView android:textColor="@color/chatlist_edit_delete_text" android:id="@id/chatlist_edit_delete_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chatlist_label_delete" style="@style/chatlist_edit_btn" />
+            <TextView android:textColor="@color/chatlist_edit_delete_text" android:id="@id/chatlist_edit_delete_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" style="@style/chatlist_edit_btn" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

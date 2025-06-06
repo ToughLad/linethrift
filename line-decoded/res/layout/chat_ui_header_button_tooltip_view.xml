@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="7.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/chat_ui_header_tooltip_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/chat_ui_tooltip_arrow_up" android:contentDescription="@null" />
+    <TextView android:ellipsize="end" android:id="@id/tooltip_content" android:background="@drawable/chat_ui_tooltip_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:paddingHorizontal="12.0dip" android:paddingVertical="11.0dip" style="@style/chat_ui_tooltip_text" />
+</LinearLayout>

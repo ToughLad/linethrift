@@ -1,0 +1,35 @@
+.class public abstract LBB0/L$b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LBB0/L;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "b"
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        LBB0/L$b$a;,
+        LBB0/L$b$b;,
+        LBB0/L$b$c;,
+        LBB0/L$b$d;,
+        LBB0/L$b$e;,
+        LBB0/L$b$f;
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="left" android:orientation="vertical" android:id="@id/chat_ui_row_receive_rich_container" android:paddingLeft="1.3299866dip" android:paddingTop="0.6700001dip" android:paddingRight="1.3299866dip" android:paddingBottom="3.3299866dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/chat_ui_row_progress" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/progress_circle_blue" />
+</FrameLayout>

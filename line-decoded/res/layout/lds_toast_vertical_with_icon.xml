@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/lds_toast_center_with_icon_outer_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:background="@drawable/lds_toast_vertical_background" android:padding="@dimen/lds_toast_center_inner_padding_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/ldsToastIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:importantForAccessibility="no" />
+        <com.linecorp.com.lds.ui.spinner.LdsSpinner android:layout_gravity="center" android:id="@id/ldsToastSpinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateTint="@color/linewhite" app:spinnerSize="large" />
+    </FrameLayout>
+</FrameLayout>

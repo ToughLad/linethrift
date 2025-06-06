@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="36.0dip" android:layout_height="36.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="9.0dip" android:textStyle="bold" android:textColor="@color/linewhite" android:gravity="center" android:layout_gravity="center|right|top" android:id="@id/count" android:background="@drawable/shape_circle_red600" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="1.5dip" android:letterSpacing="-0.08" />
+</FrameLayout>

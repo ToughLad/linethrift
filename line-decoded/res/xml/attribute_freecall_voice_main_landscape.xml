@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout.attributes
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <attribute android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintGuide_percent="0.11" target="@id/guideline_profile" />
+    <attribute android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="1:1" app:layout_constraintHeight_max="180.0dip" app:layout_constraintHeight_percent="0.3" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/guideline_profile" target="@id/peer_profile" />
+</layout.attributes>

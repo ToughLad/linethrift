@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end|center" android:layout_width="wrap_content" android:layout_height="@dimen/header_height" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/point_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/wallet_tab_line_point_club_point_amount_layout_new_design" />
+</LinearLayout>

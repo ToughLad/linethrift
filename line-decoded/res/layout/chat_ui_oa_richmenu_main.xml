@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/oa_richmenu_talkback_cover_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="1.0dip" android:outlineProvider="none" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/oa_richmenu_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="12.0sp" android:textColor="#ffafb4bc" android:id="@id/oa_richmenu_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:text="@string/progress" android:includeFontPadding="false" />
+        <TextView android:textSize="16.0sp" android:textColor="#ff404040" android:gravity="center_horizontal" android:id="@id/oa_richmenu_info" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:text="@string/richmenu_error_loadfail" android:includeFontPadding="false" />
+        <Button android:textSize="14.0sp" android:textColor="@color/selector_bottom_button_text_color" android:gravity="center" android:id="@id/oa_richmenu_retry" android:background="@drawable/chat_ui_btn_oa_richmenu_retry" android:visibility="gone" android:layout_width="150.0dip" android:layout_height="37.0dip" android:layout_marginTop="25.0dip" android:text="@string/retry" android:includeFontPadding="false" />
+    </LinearLayout>
+    <ImageView android:id="@id/oa_richmenu_imageview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

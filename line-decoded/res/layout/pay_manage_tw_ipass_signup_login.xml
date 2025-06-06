@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include app:layout_constraintTop_toTopOf="parent" layout="@layout/pay_manage_ipass_input_field_container_layout" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/lineblue600" android:id="@id/forgot_id_password_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/pay_ipass_signup_login_forgot_id_passcode" android:layout_marginStart="@dimen/pay_manage_ipass_signup_side_margin" android:layout_marginEnd="@dimen/pay_manage_ipass_signup_side_margin" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/input_field_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

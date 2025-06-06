@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="44.0dip" android:paddingRight="44.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/defaultText" android:gravity="center_horizontal" android:id="@id/empty_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/myhome_no_post" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/tertiaryText" android:gravity="center_horizontal" android:id="@id/empty_description_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/line_albumuploaddownload_desc_notespromo" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/defaultText" android:gravity="center" android:id="@id/action_button" android:background="@drawable/note_empty_view_button_border" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="19.0dip" android:text="@string/myhome_writing_new_note" />
+    </LinearLayout>
+</FrameLayout>

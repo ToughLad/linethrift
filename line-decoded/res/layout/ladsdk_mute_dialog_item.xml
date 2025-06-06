@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.linecorp.line.ladsdk.ui.asset.text.LadTextView android:textSize="16.0sp" android:textColor="@color/ladsdk_selector_404040_color" android:gravity="center|left" android:id="@android:id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="48.0dip" android:paddingHorizontal="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

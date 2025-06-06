@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingBottom="43.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/pay_customview_error_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" android:src="@drawable/pay_base_icon_error" />
+    <TextView android:textSize="14.5sp" android:textColor="@color/linegray500" android:gravity="center" android:id="@id/pay_customview_error_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:lineSpacingExtra="3.0dip" />
+    <Button android:textSize="14.0sp" android:textStyle="bold" android:textColor="@drawable/v2_selector_button_text_color" android:gravity="center" android:id="@id/pay_customview_error_button" android:background="@drawable/pay_base_selector_button_big_grey" android:paddingLeft="21.169983dip" android:paddingRight="21.169983dip" android:layout_width="wrap_content" android:layout_height="34.169983dip" android:layout_marginTop="14.0dip" android:minWidth="150.0dip" android:text="@string/pay_retry" />
+    <TextView android:textSize="14.5sp" android:textColor="@color/lineblue600" android:gravity="center" android:id="@id/pay_customview_additional_link_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" />
+</LinearLayout>

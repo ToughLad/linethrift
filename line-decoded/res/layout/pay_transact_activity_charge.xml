@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:orientation="vertical" android:id="@id/buttons_container" android:paddingBottom="7.3299866dip" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.linecorp.line.pay.base.legacy.customview.InputButton android:id="@id/charge_name_button" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <com.linecorp.line.pay.transact.shared.ui.MoneyInputView android:id="@id/bank_charge_withdrawal_money_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="23.5dip" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/amount_min_unit_text_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginTop="19.0dip" android:layout_marginRight="11.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pay_transact_icon_info2" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/linegray500" android:id="@id/amount_min_unit" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.5dip" android:includeFontPadding="false" android:lineSpacingExtra="5.0dip" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/amount_max_text_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="17.5dip" android:layout_marginRight="16.0dip">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pay_base_icon_info" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/linegray500" android:id="@id/AMOUNT_MAX_TEXT" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:includeFontPadding="false" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/share_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/pay_base_common_big_grey_button_height" android:layout_marginLeft="7.5dip" android:layout_marginTop="7.5dip" android:layout_marginRight="0.0dip" android:layout_marginBottom="7.5dip" android:text="@string/pay_share" android:layout_weight="1.0" android:onClick="onShare" style="@style/pay_base_common_button_big_grey" />
+        <Button android:enabled="false" android:layout_width="fill_parent" android:layout_height="@dimen/pay_base_common_full_button_height" android:text="@string/pay_do_charge" android:layout_weight="1.0" style="@style/pay_transact_full_button_green_with_disable" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,82 @@
+.class public final Lkotlin/jvm/internal/b;
+.super Lik1/p;
+.source "SourceFile"
+
+
+# instance fields
+.field public final a:[C
+
+.field public b:I
+
+
+# direct methods
+.method public constructor <init>([C)V
+    .locals 0
+
+    invoke-direct {p0}, Lik1/p;-><init>()V
+
+    iput-object p1, p0, Lkotlin/jvm/internal/b;->a:[C
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()C
+    .locals 3
+
+    :try_start_0
+    iget-object v0, p0, Lkotlin/jvm/internal/b;->a:[C
+
+    iget v1, p0, Lkotlin/jvm/internal/b;->b:I
+
+    add-int/lit8 v2, v1, 0x1
+
+    iput v2, p0, Lkotlin/jvm/internal/b;->b:I
+
+    aget-char p0, v0, v1
+    :try_end_0
+    .catch Ljava/lang/ArrayIndexOutOfBoundsException; {:try_start_0 .. :try_end_0} :catch_0
+
+    return p0
+
+    :catch_0
+    move-exception v0
+
+    iget v1, p0, Lkotlin/jvm/internal/b;->b:I
+
+    add-int/lit8 v1, v1, -0x1
+
+    iput v1, p0, Lkotlin/jvm/internal/b;->b:I
+
+    new-instance p0, Ljava/util/NoSuchElementException;
+
+    invoke-virtual {v0}, Ljava/lang/Throwable;->getMessage()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-direct {p0, v0}, Ljava/util/NoSuchElementException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public final hasNext()Z
+    .locals 1
+
+    iget v0, p0, Lkotlin/jvm/internal/b;->b:I
+
+    iget-object p0, p0, Lkotlin/jvm/internal/b;->a:[C
+
+    array-length p0, p0
+
+    if-ge v0, p0, :cond_0
+
+    const/4 p0, 0x1
+
+    return p0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    return p0
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/group_profile_button_icon" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginBottom="10.0dip" android:scaleType="centerCrop" android:contentDescription="@null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/imv_premium_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lyp_premium_label" android:contentDescription="@null" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/group_profile_button_icon" />
+    <TextView android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/group_profile_button_text" android:paddingTop="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" app:layout_constraintTop_toBottomOf="@id/group_profile_button_icon" style="@style/group_profile_button_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

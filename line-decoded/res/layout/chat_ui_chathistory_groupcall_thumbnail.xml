@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="@dimen/chat_ui_chathistory_groupcall_layer_thumbnail_size" android:layout_height="@dimen/chat_ui_chathistory_groupcall_layer_thumbnail_size"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/chathistory_groupcall_thumbnail" android:layout_width="@dimen/chat_ui_chathistory_groupcall_layer_thumbnail_size" android:layout_height="@dimen/chat_ui_chathistory_groupcall_layer_thumbnail_size" android:contentDescription="@null" />
+    <com.linecorp.view.RoundedFrameLayout android:layout_gravity="center" android:id="@id/chathistory_groupcall_thumbnail_more_bg_holder" android:visibility="gone" android:layout_width="@dimen/chat_ui_chathistory_groupcall_layer_thumbnail_border_size" android:layout_height="@dimen/chat_ui_chathistory_groupcall_layer_thumbnail_border_size" app:cornerRadius="@dimen/chat_ui_chathistory_groupcall_layer_thumbnail_border_radius">
+        <com.linecorp.view.RoundedFrameLayout android:layout_gravity="center" android:id="@id/chathistory_groupcall_thumbnail_more_bg" android:background="@color/quinaryAltFill" android:layout_width="@dimen/chat_ui_chathistory_groupcall_layer_thumbnail_more_size" android:layout_height="@dimen/chat_ui_chathistory_groupcall_layer_thumbnail_more_size" app:cornerRadius="@dimen/chat_ui_chathistory_groupcall_layer_thumbnail_more_radius" />
+    </com.linecorp.view.RoundedFrameLayout>
+    <ImageView android:id="@id/chathistory_groupcall_thumbnail_more" android:layout_width="@dimen/chat_ui_chathistory_groupcall_layer_thumbnail_size" android:layout_height="@dimen/chat_ui_chathistory_groupcall_layer_thumbnail_size" android:src="@drawable/chat_ui_chatroom_call_img_more" android:scaleType="center" android:contentDescription="@null" />
+</FrameLayout>

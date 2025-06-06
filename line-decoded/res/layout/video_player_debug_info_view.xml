@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/debugInfoToggleButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video_player_open_debug_info" />
+    <LinearLayout android:orientation="vertical" android:id="@id/debugInfoLayout" android:background="@color/video_player_debug_info_background_color" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/video_player_debug_info_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video_player_debug_info" />
+        <TextView android:textColor="@color/video_player_debug_info_text_color" android:id="@id/debugInfoTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

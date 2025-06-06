@@ -1,0 +1,206 @@
+.class public final LDh0/w;
+.super Lok1/j;
+.source "SourceFile"
+
+# interfaces
+.implements Lxk1/p;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lok1/j;",
+        "Lxk1/p<",
+        "LSl1/F;",
+        "Lkotlin/coroutines/Continuation<",
+        "-",
+        "Ljava/util/List<",
+        "+",
+        "LEh0/g;",
+        ">;>;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lok1/f;
+    c = "com.linecorp.line.settings.chatstorage.data.ChatStorageRepository$getMessageFiles$2"
+    f = "ChatStorageRepository.kt"
+    l = {}
+    m = "invokeSuspend"
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:LCh0/b;
+
+.field public final synthetic b:LDh0/a;
+
+
+# direct methods
+.method public constructor <init>(LCh0/b;LDh0/a;Lkotlin/coroutines/Continuation;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "LCh0/b;",
+            "LDh0/a;",
+            "Lkotlin/coroutines/Continuation<",
+            "-",
+            "LDh0/w;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, LDh0/w;->a:LCh0/b;
+
+    iput-object p2, p0, LDh0/w;->b:LDh0/a;
+
+    const/4 p1, 0x2
+
+    invoke-direct {p0, p1, p3}, Lok1/j;-><init>(ILkotlin/coroutines/Continuation;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            "Lkotlin/coroutines/Continuation<",
+            "*>;)",
+            "Lkotlin/coroutines/Continuation<",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+
+    new-instance p1, LDh0/w;
+
+    iget-object v0, p0, LDh0/w;->a:LCh0/b;
+
+    iget-object p0, p0, LDh0/w;->b:LDh0/a;
+
+    invoke-direct {p1, v0, p0, p2}, LDh0/w;-><init>(LCh0/b;LDh0/a;Lkotlin/coroutines/Continuation;)V
+
+    return-object p1
+.end method
+
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, LSl1/F;
+
+    check-cast p2, Lkotlin/coroutines/Continuation;
+
+    invoke-virtual {p0, p1, p2}, LDh0/w;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+
+    move-result-object p0
+
+    check-cast p0, LDh0/w;
+
+    sget-object p1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    invoke-virtual {p0, p1}, LDh0/w;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 3
+
+    sget-object v0, Lnk1/a;->COROUTINE_SUSPENDED:Lnk1/a;
+
+    invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
+
+    iget-object p1, p0, LDh0/w;->a:LCh0/b;
+
+    invoke-virtual {p1}, LCh0/b;->a()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lcom/linecorp/square/chat/SquareChatUtils;->d(Ljava/lang/String;)Lcom/linecorp/square/chat/SquareChatCategory;
+
+    move-result-object v1
+
+    sget-object v2, Lcom/linecorp/square/chat/SquareChatCategory;->BASE:Lcom/linecorp/square/chat/SquareChatCategory;
+
+    if-ne v1, v2, :cond_0
+
+    const/4 v1, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    const/4 v1, 0x0
+
+    :goto_0
+    iget-object p0, p0, LDh0/w;->b:LDh0/a;
+
+    invoke-static {p0, v0}, LDh0/a;->x(LDh0/a;Ljava/lang/String;)Ljava/util/List;
+
+    move-result-object v0
+
+    if-eqz v1, :cond_1
+
+    instance-of v1, p1, LCh0/b$e;
+
+    if-eqz v1, :cond_1
+
+    check-cast p1, LCh0/b$e;
+
+    iget-object p1, p1, LCh0/b$e;->g:Ljava/util/List;
+
+    check-cast p1, Ljava/lang/Iterable;
+
+    new-instance v1, Ljava/util/ArrayList;
+
+    invoke-direct {v1}, Ljava/util/ArrayList;-><init>()V
+
+    invoke-interface {p1}, Ljava/lang/Iterable;->iterator()Ljava/util/Iterator;
+
+    move-result-object p1
+
+    :goto_1
+    invoke-interface {p1}, Ljava/util/Iterator;->hasNext()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_2
+
+    invoke-interface {p1}, Ljava/util/Iterator;->next()Ljava/lang/Object;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/String;
+
+    invoke-static {p0, v2}, LDh0/a;->x(LDh0/a;Ljava/lang/String;)Ljava/util/List;
+
+    move-result-object v2
+
+    check-cast v2, Ljava/lang/Iterable;
+
+    invoke-static {v2, v1}, Lik1/w;->u(Ljava/lang/Iterable;Ljava/util/Collection;)V
+
+    goto :goto_1
+
+    :cond_1
+    sget-object v1, Lik1/B;->a:Lik1/B;
+
+    :cond_2
+    check-cast v0, Ljava/util/Collection;
+
+    check-cast v1, Ljava/lang/Iterable;
+
+    invoke-static {v1, v0}, Lik1/z;->v0(Ljava/lang/Iterable;Ljava/util/Collection;)Ljava/util/ArrayList;
+
+    move-result-object p0
+
+    return-object p0
+.end method

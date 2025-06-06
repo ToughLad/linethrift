@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="58.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/grouphome_member_profile_container" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="4.0dip" android:layout_centerHorizontal="true" android:layout_marginHorizontal="4.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/grouphome_member_profile_add_bg" android:layout_width="50.0dip" android:layout_height="50.0dip" app:srcCompat="@drawable/profile_border_medium" app:tint="@color/primaryNeutralFill" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/grouphome_member_profile_add_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:srcCompat="@drawable/profile_plus_medium" app:tint="@color/primaryInverseFill" />
+        <ImageView android:id="@id/grouphome_member_profile_image" android:layout_width="50.0dip" android:layout_height="50.0dip" android:contentDescription="@null" />
+    </RelativeLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/primaryText" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/grouphome_member_profile_name" android:layout_width="50.0dip" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:lines="1" android:layout_below="@id/grouphome_member_profile_container" android:layout_centerHorizontal="true" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/grouphome_member_profile_del_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" app:srcCompat="@drawable/profile_option_x" />
+</RelativeLayout>

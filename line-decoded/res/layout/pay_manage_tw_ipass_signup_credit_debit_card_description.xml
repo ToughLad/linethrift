@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/credit_debit_card_description_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/debit_first_note_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/pay_manage_ipass_signup_side_margin" android:paddingEnd="@dimen/pay_manage_ipass_signup_side_margin" android:layout_marginStart="2.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:src="@drawable/pay_manage_img_dot_black" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/linegray800" android:id="@id/supported_debit_card_first_note" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="3.0sp" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/debit_second_note_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:paddingStart="@dimen/pay_manage_ipass_signup_side_margin" android:paddingEnd="@dimen/pay_manage_ipass_signup_side_margin" android:layout_marginStart="2.0dip">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:src="@drawable/pay_manage_img_dot_black" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/linegray800" android:id="@id/supported_debit_card_second_note" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:lineSpacingExtra="3.0sp" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/linegray500" android:id="@id/supported_debit_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" android:text="@string/pay_ipass_signup_select_credit_card_debit_desc" android:lineSpacingExtra="3.0sp" android:paddingStart="@dimen/pay_manage_ipass_signup_side_margin" android:paddingEnd="@dimen/pay_manage_ipass_signup_side_margin" android:layout_marginStart="10.0dip" />
+</LinearLayout>

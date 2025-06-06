@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/chat_ui_search_result_tabs_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/chat_ui_search_result_tabs_edge_to_edge_container" android:layout_alignBottom="@id/chat_ui_search_result_tabs_edge_to_edge_container" />
+    <View android:id="@id/chat_ui_search_result_tabs_divider" android:background="@color/quinaryAltFill" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignBottom="@id/chat_ui_search_result_tabs_edge_to_edge_container" />
+    <FrameLayout android:id="@id/chat_ui_search_result_tabs_edge_to_edge_container" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <com.google.android.material.tabs.TabLayout android:layout_gravity="start" android:id="@id/chat_ui_search_result_tabs" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="6.0dip" android:paddingEnd="6.0dip" app:tabBackground="@android:color/transparent" app:tabGravity="start" app:tabIndicatorColor="@color/primaryInverseFill" app:tabIndicatorFullWidth="false" app:tabIndicatorHeight="2.0dip" app:tabMinWidth="0.0dip" app:tabMode="scrollable" app:tabPaddingBottom="4.0dip" app:tabPaddingEnd="15.0dip" app:tabPaddingStart="14.0dip" app:tabTextAppearance="@style/chat_ui_text_search_tab" />
+    </FrameLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@id/chat_ui_search_result_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/chat_ui_search_result_tabs_edge_to_edge_container" android:layout_alignParentBottom="true" />
+</RelativeLayout>

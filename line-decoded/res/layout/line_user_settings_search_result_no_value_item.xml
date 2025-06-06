@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/item_container" android:background="@drawable/line_user_settings_search_item_bg_selector" android:focusable="true" android:addStatesFromChildren="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/line_user_settings_search_result_item_padding_left" android:paddingEnd="@dimen/line_user_settings_item_container_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/line_user_settings_search_result_item_common_views" />
+</androidx.constraintlayout.widget.ConstraintLayout>

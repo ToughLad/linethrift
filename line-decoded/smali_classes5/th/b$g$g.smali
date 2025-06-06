@@ -1,0 +1,38 @@
+.class public final Lth/b$g$g;
+.super Lth/b$g;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lth/b$g;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "g"
+.end annotation
+
+
+# static fields
+.field public static final c:Lth/b$g$g;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 3
+
+    new-instance v0, Lth/b$g$g;
+
+    const/4 v1, 0x0
+
+    new-array v1, v1, [Lkotlin/Pair;
+
+    const-string v2, "hometab_lite/notification"
+
+    invoke-direct {v0, v2, v1}, Lth/b$g;-><init>(Ljava/lang/String;[Lkotlin/Pair;)V
+
+    sput-object v0, Lth/b$g$g;->c:Lth/b$g$g;
+
+    return-void
+.end method

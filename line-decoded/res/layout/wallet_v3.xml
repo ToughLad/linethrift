@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/wallet_v3_header_area" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.linecorp.line.wallet.impl.v3.view.WalletV3LegacyDesignHeader android:id="@id/wallet_v3_header_legacy_design" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="1.0dip" />
+        <com.linecorp.line.wallet.impl.v3.view.WalletV3GrandDesignHeaderView android:id="@id/wallet_v3_header_grand_design" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/wallet_view_pager2" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

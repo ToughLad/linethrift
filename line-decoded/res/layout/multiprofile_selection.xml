@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/header" android:layout_width="fill_parent" android:layout_height="64.0dip">
+        <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/defaultText" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/subprofile_editfriends_title_selectprofile" android:layout_marginStart="18.0dip" android:lineHeight="20.0sp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/multiprofile_done_button" android:id="@id/done_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/subprofile_editfriends_button_done" android:layout_marginEnd="12.0dip" android:lineHeight="19.0sp" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/close_button" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/close_button" android:background="@drawable/multiprofile_ic_navi_top_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" android:layout_marginEnd="9.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/profile_recyclerview" android:paddingBottom="53.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

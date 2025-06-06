@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:checked="false" android:title="@string/show_header" android:checkable="true" />
+    <item android:checked="true" android:title="@string/enable_whitelist_check" android:checkable="true" />
+    <item android:title="@string/refresh" />
+    <item android:title="@string/load_asset_html" />
+    <item android:checked="false" android:title="@string/support_target_blank" android:checkable="true" />
+    <item android:title="@string/remove_all_cookies" />
+</menu>

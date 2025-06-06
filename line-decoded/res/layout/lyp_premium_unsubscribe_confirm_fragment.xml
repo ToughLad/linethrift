@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/lyp_premium_header" layout="@layout/lyp_premium_header_layout" />
+    <ScrollView android:id="@id/lyp_premium_dialog_content_scroll" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip">
+            <include android:id="@id/lyp_premium_benefit_backup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" layout="@layout/lyp_premium_unsubscribe_backup" />
+            <include android:id="@id/lyp_premium_benefit_sub_profile" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" layout="@layout/lyp_premium_unsubscribe_subprofile" />
+            <include android:id="@id/lyp_premium_benefit_video" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" layout="@layout/lyp_premium_unsubscribe_benefit_item_layout" />
+            <include android:id="@id/lyp_premium_benefit_picture" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" layout="@layout/lyp_premium_unsubscribe_benefit_item_layout" />
+            <CheckBox android:id="@id/lyp_premium_unsubscribe_check_all" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/lypp_confirmcancel_desc_iagree" android:paddingStart="10.0dip" />
+            <CheckBox android:id="@id/lyp_premium_unsubscribe_data_will_change_check" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/lypp_confirmcancel_desc_itemslost" android:paddingStart="10.0dip" />
+            <CheckBox android:id="@id/lyp_premium_unsubscribe_data_cannot_be_restored_check" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:text="@string/lypp_confirmcancel_desc_datalost" android:paddingStart="10.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/lyp_premium_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.linecorp.com.lds.ui.boxbutton.ObsoleteLdsBoxButton android:id="@id/lyp_premium_cancel_unsubscribe" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="16.0dip" android:layout_marginEnd="4.0dip" android:paddingVertical="13.0dip" app:ldsBoxButtonSize="x_large" app:ldsBoxButtonText="@string/lypp_confirmcancel_button_dontcancel" app:ldsBoxButtonType="outline_gray" />
+        <com.linecorp.com.lds.ui.boxbutton.ObsoleteLdsBoxButton android:id="@id/lyp_premium_unsubscribe" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingEnd="16.0dip" android:layout_marginStart="4.0dip" android:paddingVertical="13.0dip" app:ldsBoxButtonSize="x_large" app:ldsBoxButtonText="@string/lypp_confirmcancel_button_cancel" app:ldsBoxButtonType="solid_red" />
+    </LinearLayout>
+</LinearLayout>

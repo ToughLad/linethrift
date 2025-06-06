@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/picker_folder_list_item_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/media_folder_item_top_divider_view" android:background="@color/linewhite_alpha05" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="56.5dip" />
+    <TextView android:gravity="center" android:id="@id/media_folder_item_selected_count_textview" android:background="@drawable/picker_header_checkbox_num_selected_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/picker_folder_list_item_padding_right" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/picker_text_gallery_check_num01" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/picker_folder_list_item_padding_left" android:layout_marginRight="25.0dip" android:layout_toLeftOf="@id/media_folder_item_selected_count_textview" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:id="@id/media_folder_last_taken_item_layout" android:layout_width="43.0dip" android:layout_height="43.0dip" android:layout_marginRight="15.0dip">
+                <com.linecorp.line.voomcamera.core.view.RoundCornerImageView android:id="@id/media_folder_last_taken_item_imageview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" app:cornerRadius="5.0dip" app:showBorder="false" />
+                <View android:id="@id/media_folder_last_taken_item_check_dimmed_imageview" android:background="@drawable/picker_folder_selected_item_check_dimmed_view_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <ImageView android:layout_gravity="center" android:id="@id/media_folder_last_taken_item_check_imageview" android:layout_width="25.0dip" android:layout_height="25.0dip" android:src="@drawable/gallery_ic_check_03" />
+            </FrameLayout>
+            <ImageView android:id="@id/media_folder_item_imageview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="10.0dip" />
+            <TextView android:textSize="15.0sp" android:textColor="?pickerTextColor" android:id="@id/media_folder_item_title_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:importantForAccessibility="no" />
+            <TextView android:textSize="15.0sp" android:textColor="#ffb7bfc7" android:id="@id/media_folder_item_count_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:singleLine="true" android:importantForAccessibility="no" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

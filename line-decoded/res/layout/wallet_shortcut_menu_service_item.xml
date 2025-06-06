@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/item_root" android:background="@drawable/wallet_selector_shortcut_menu_item_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/menu_item" layout="@layout/wallet_shortcut_menu_item_base" />
+    <TextView android:id="@id/custom_badge_text_view" android:background="@drawable/wallet_shortcut_menu_text_badge_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" android:paddingHorizontal="5.0dip" android:paddingVertical="2.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/wallet_shortcut_menu_text_badge" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,34 @@
+.class public final Lth/b$a$o$d$f;
+.super Lth/b$a$o$d;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lth/b$a$o$d;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "f"
+.end annotation
+
+
+# static fields
+.field public static final d:Lth/b$a$o$d$f;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    new-instance v0, Lth/b$a$o$d$f;
+
+    const-string v1, "search_friends"
+
+    invoke-direct {v0, v1}, Lth/b$a$o$d;-><init>(Ljava/lang/String;)V
+
+    sput-object v0, Lth/b$a$o$d$f;->d:Lth/b$a$o$d$f;
+
+    return-void
+.end method

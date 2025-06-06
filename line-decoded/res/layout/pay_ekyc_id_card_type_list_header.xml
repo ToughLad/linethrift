@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/linewhite" android:paddingTop="9.0dip" android:paddingBottom="60.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/desc_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pay_base_img_ekyc_id_card_thumb" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/lineblack" android:gravity="center" android:id="@id/desc_text_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/pay_jp_ekyc_idtype_desc" android:includeFontPadding="false" android:lineSpacingExtra="6.0sp" android:textAlignment="gravity" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/desc_image_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

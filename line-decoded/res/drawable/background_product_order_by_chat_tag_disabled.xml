@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/product_spec_item_order_by_chat_tag_radius" />
+    <stroke android:width="1.0dip" android:color="@color/glc_order_by_chat_tag_disabled_color" />
+</shape>

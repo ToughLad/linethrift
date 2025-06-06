@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root_view" android:layout_width="58.0dip" android:layout_height="69.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.view.RoundedFrameLayout android:id="@id/thumbnail_container" android:layout_width="@dimen/friendlist_thumbnail_size_new_design" android:layout_height="@dimen/friendlist_thumbnail_size_new_design" android:layout_marginTop="6.0dip" app:cornerRadius="62.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.linecorp.view.QuadrantImageLayout android:id="@id/quadrant_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.linecorp.view.RoundedFrameLayout>
+    <ImageView android:id="@id/cancel_sign" android:layout_width="23.0dip" android:layout_height="23.0dip" android:src="@drawable/profile_option_x" android:contentDescription="@string/access_shareinternal_deselect" android:layout_marginEnd="2.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/primaryText" android:ellipsize="end" android:gravity="center" android:id="@id/name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="3.0dip" android:maxLines="1" android:paddingStart="3.0dip" android:paddingEnd="3.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

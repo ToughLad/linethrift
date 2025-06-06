@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/home_tab_v3_row_service_item_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/home_tab_service_icon" android:layout_width="@dimen/home_tab_v3_service_icon_size" android:layout_height="@dimen/home_tab_v3_service_icon_size" android:layout_marginTop="@dimen/home_tab_v3_service_icon_top_margin" android:layout_centerHorizontal="true" android:contentDescription="@null" />
+    <Space android:id="@id/home_tab_icon_name_vertical_space" android:layout_width="0.0dip" android:layout_height="@dimen/home_tab_v3_pinned_service_name_top_margin" android:layout_below="@id/home_tab_service_icon" />
+    <TextView android:id="@id/home_tab_service_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/home_tab_icon_name_vertical_space" android:layout_centerHorizontal="true" style="@style/ServiceCenterHorizontalTextStyleNewDesign" />
+    <ImageView android:id="@id/home_badge_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_common_img_line_greendot_5" android:layout_alignTop="@id/home_tab_service_icon" android:layout_alignRight="@id/home_tab_service_icon" android:contentDescription="@null" />
+</RelativeLayout>

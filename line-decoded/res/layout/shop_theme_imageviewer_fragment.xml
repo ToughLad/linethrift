@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/themeshop_imageviewer_thumbnail_imageview" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <jp.naver.line.android.common.view.media.ZoomImageView android:id="@id/themeshop_imageviewer_original_imageview" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" smallImageFit="true" />
+    <ProgressBar android:id="@id/themeshop_imageviewer_image_loading_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <jp.naver.gallery.android.fragment.PhotoDetailProgressView android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/themeshop_imageviewer_image_download_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <jp.naver.gallery.android.fragment.PhotoDetailFailView android:gravity="center" android:orientation="vertical" android:id="@id/themeshop_imageviewer_load_fail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

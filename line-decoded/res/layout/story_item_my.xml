@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/story_timeline_item_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/story_item" />
+    <ImageView android:id="@id/story_retry_view" android:background="@drawable/story_list_retry_bg" android:visibility="gone" android:layout_width="@dimen/story_timeline_item_thumbnail_size" android:layout_height="@dimen/story_timeline_item_thumbnail_size" android:layout_marginTop="7.0dip" android:src="@drawable/story_profile_option_retry" android:scaleType="center" android:layout_centerHorizontal="true" android:contentDescription="@null" android:importantForAccessibility="no" />
+    <ImageView android:id="@id/story_write" android:layout_width="36.0dip" android:layout_height="36.0dip" android:layout_marginTop="36.0dip" android:src="@drawable/story_list_add" android:scaleType="center" android:layout_alignParentTop="true" android:contentDescription="@string/access_timeline_storyviewer_button_addstory" android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.todddavies.components.progressbar.ProgressWheel android:id="@id/chat_ui_row_upload_progress_bar" android:background="@drawable/chat_ui_row_upload_cancel_button_bg" android:focusable="false" android:layout_width="@dimen/chat_ui_row_thumbnail_loading_button_progressbar_size" android:layout_height="@dimen/chat_ui_row_thumbnail_loading_button_progressbar_size" app:pwBarColor="@color/linewhite" app:pwBarWidth="2.0dip" app:pwRimColor="@color/linewhite_alpha20" app:pwRimWidth="2.0dip" app:pwText="" />
+    <ImageView android:layout_gravity="center" android:id="@id/progress_cancel" android:layout_width="@dimen/chat_ui_row_thumbnail_loading_button_progressbar_size" android:layout_height="@dimen/chat_ui_row_thumbnail_loading_button_progressbar_size" android:src="@drawable/chat_ui_bubble_grid_pause" android:contentDescription="@string/access_chat_button_uploadingmedia" />
+</FrameLayout>

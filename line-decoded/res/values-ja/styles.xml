@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="line_user_settings_app_icon_promotion_badge" parent="@style/line_user_settings_common_font">
+        <item name="android:textSize">7.0sp</item>
+        <item name="android:textColor">@color/onPrimaryFill</item>
+        <item name="android:background">@drawable/line_user_settings_app_icon_promotion_badge_background</item>
+        <item name="android:lineHeight">9.379974sp</item>
+        <item name="android:textFontWeight">700</item>
+    </style>
+</resources>

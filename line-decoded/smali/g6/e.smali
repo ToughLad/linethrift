@@ -1,0 +1,13 @@
+.class public final Lg6/e;
+.super Lg6/a;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lg6/a<",
+        "Lh6/h;",
+        ">;"
+    }
+.end annotation

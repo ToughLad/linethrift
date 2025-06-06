@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/group" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="76.0dip" android:layout_alignParentTop="true" android:paddingStart="15.0dip">
+        <ImageView android:id="@id/sharelist_setttings_delete" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/control_delete_default" android:layout_marginEnd="15.0dip" />
+        <com.linecorp.view.RoundedFrameLayout android:id="@id/rounded_frameLayout" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginEnd="15.0dip" app:cornerRadius="56.0dip">
+            <com.linecorp.view.QuadrantImageLayout android:id="@id/quadrant_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.linecorp.view.RoundedFrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="15.0sp" android:textColor="@color/lineblack" android:gravity="center_vertical" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/commonFont" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/linegray600" android:ellipsize="end" android:id="@id/privacy_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="1" style="@style/commonFont" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/reorder_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="16.0dip" android:paddingEnd="17.0dip" android:layout_marginStart="2.0dip">
+            <ImageView android:layout_gravity="center" android:id="@id/reorder_btn_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_button_reorder" android:contentDescription="@string/timeline_privacysettings_button_edit" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

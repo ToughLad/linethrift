@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="28.0dip" android:width="28.0dip" android:viewportWidth="28.0" android:viewportHeight="28.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/quinaryNeutralFill" android:pathData="M7.659,4.5H20.341C22.362,4.5 24,6.136 24,8.154V19.846C24,21.864 22.362,23.5 20.341,23.5H7.659C5.638,23.5 4,21.864 4,19.846V8.154C4,6.136 5.638,4.5 7.659,4.5ZM20.341,5.962H7.659C6.446,5.962 5.463,6.943 5.463,8.154V19.846C5.463,21.057 6.446,22.038 7.659,22.038H20.341C21.554,22.038 22.537,21.057 22.537,19.846V8.154C22.537,6.943 21.554,5.962 20.341,5.962Z" android:fillType="evenOdd" />
+    <path android:fillColor="#00000000" android:pathData="M8.58,10.188H10.78" android:strokeColor="@color/quinaryNeutralFill" android:strokeWidth="1.5" />
+    <path android:fillColor="#00000000" android:pathData="M12.9,10.188H15.1" android:strokeColor="@color/quinaryNeutralFill" android:strokeWidth="1.5" />
+    <path android:fillColor="#00000000" android:pathData="M17.219,10.188H19.419" android:strokeColor="@color/quinaryNeutralFill" android:strokeWidth="1.5" />
+    <path android:fillColor="#00000000" android:pathData="M8.58,14H10.78" android:strokeColor="@color/quinaryNeutralFill" android:strokeWidth="1.5" />
+    <path android:fillColor="#00000000" android:pathData="M12.9,14H15.1" android:strokeColor="@color/quinaryNeutralFill" android:strokeWidth="1.5" />
+    <path android:fillColor="#00000000" android:pathData="M17.219,14H19.419" android:strokeColor="@color/quinaryNeutralFill" android:strokeWidth="1.5" />
+    <path android:fillColor="#00000000" android:pathData="M9.5,17.812H18.5" android:strokeColor="@color/quinaryNeutralFill" android:strokeWidth="1.5" />
+</vector>

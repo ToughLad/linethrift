@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/chat_ui_row_image_balloon_root" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/chat_ui_row_image_error_view" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:backgroundTint="@color/chat_ui_row_msg_highlight_color_selector" android:backgroundTintMode="src_atop">
+        <ImageView android:id="@id/chat_ui_row_image_error_icon" android:layout_width="27.0dip" android:layout_height="27.0dip" android:layout_margin="@dimen/chat_ui_row_bubble_expire_margin" android:src="@drawable/chat_ui_bubble_empty_green" android:scaleType="center" android:contentDescription="@string/access_attached_image" />
+    </FrameLayout>
+    <com.linecorp.view.RoundedFrameLayout android:id="@id/chat_ui_row_image_container" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="@drawable/chat_ui_row_msg_highlight_color_drawable_selector">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/chat_ui_row_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:contentDescription="@string/access_attached_image" />
+                <ImageView android:id="@id/chat_ui_row_animation_gif" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/access_chat_button_gif" />
+                <ImageView android:layout_gravity="center" android:id="@id/chat_ui_row_image_play_button" android:visibility="gone" android:duplicateParentState="true" android:layout_width="37.0dip" android:layout_height="37.0dip" android:src="@drawable/chat_ui_bubble_grid_play" android:contentDescription="@string/access_play" />
+                <ViewStub android:layout_gravity="start|bottom|center" android:id="@id/chat_ui_row_image_gif_mark" android:layout="@layout/gif_image_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip" />
+                <ViewStub android:layout_gravity="center" android:id="@id/chat_ui_row_upload_cancel_button_stub" android:layout="@layout/chat_ui_row_send_upload_cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <ViewStub android:id="@id/chat_ui_message_source" android:layout="@layout/chat_ui_row_send_msg_message_source_with_balloon" android:layout_width="fill_parent" android:layout_height="@dimen/chat_ui_message_source_height" />
+        </LinearLayout>
+    </com.linecorp.view.RoundedFrameLayout>
+</FrameLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <stroke android:width="@dimen/home_tab_no_services_reload_outline_stroke" android:color="@color/primarySurfaceSubPressed" />
+            <corners android:radius="@dimen/home_tab_no_services_reload_outline_corner_radius" />
+            <solid android:color="@color/primarySurfacePressed" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <stroke android:width="@dimen/home_tab_no_services_reload_outline_stroke" android:color="@color/quinaryAltFill" />
+            <corners android:radius="@dimen/home_tab_no_services_reload_outline_corner_radius" />
+        </shape>
+    </item>
+</selector>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/notices_background" android:background="@android:color/transparent" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="14.0dip" android:textColor="#ffffffff" android:gravity="center" android:id="@id/effectfilter_downloading_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gallery_filter_downloading_msg" android:shadowColor="#5c000000" android:shadowDx="6.123234E-17" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_centerInParent="true" android:lineSpacingExtra="-0.5sp" />
+            <TextView android:textSize="12.0dip" android:textColor="#99ffffff" android:gravity="center" android:id="@id/filter_notice_by" android:paddingBottom="144.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:shadowColor="#19000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_centerInParent="true" />
+            <TextView android:textSize="29.0dip" android:textColor="@android:color/white" android:gravity="center_horizontal" android:id="@id/filter_notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:includeFontPadding="false" android:shadowColor="#19000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_above="@id/filter_notice_by" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/recording_time" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="145.0dip" android:shadowColor="#33000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <FrameLayout android:id="@id/progress_entire" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</RelativeLayout>

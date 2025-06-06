@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/privacy_group_layout" android:background="@drawable/sharescope_select_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <RelativeLayout android:id="@id/header_layout" android:layout_width="fill_parent" android:layout_height="64.0dip" android:layout_marginTop="1.0dip" android:layout_alignParentTop="true">
+            <TextView android:id="@id/privacy_settings_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/myhome_writing_privacy_setting" android:layout_centerVertical="true" android:layout_marginStart="18.0dip" android:layout_alignParentStart="true" style="@style/text_write_content02" />
+            <ImageView android:id="@id/close_button" android:padding="5.0dip" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/popup_ic_x_black_normal" android:layout_centerVertical="true" android:contentDescription="@string/close" android:layout_marginEnd="16.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginBottom="14.0dip" android:layout_below="@id/header_layout" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/privacy_group_layout">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

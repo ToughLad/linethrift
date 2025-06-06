@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="11.0sp" android:textColor="@color/tertiaryText" android:gravity="center" android:id="@id/chathistory_edit_type_instruction" android:background="@color/primarySurface" android:paddingLeft="@dimen/chat_ui_status_bar_instruction_vertical_padding" android:paddingTop="@dimen/chat_ui_status_bar_instruction_top_padding" android:paddingRight="@dimen/chat_ui_status_bar_instruction_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

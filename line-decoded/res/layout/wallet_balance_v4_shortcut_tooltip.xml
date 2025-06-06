@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/wallet_tooltip_arrow_height" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/wallet_balance_shortcut_tooltip_padding_end2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tooltip_content" android:background="@drawable/wallet_balance_v4_tooltip_bg" android:padding="@dimen/wallet_balance_v4_shortcut_tooltip_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/wallet_balance_v4_shortcut_tooltip_horizontal_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/wallet_balance_v4_tooltip_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/timer_option_menu_container" android:background="@drawable/camera_speed_option_list_background" android:visibility="gone" android:layout_width="135.0dip" android:layout_height="34.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/camera_selected_timer_option_background" android:background="@drawable/camera_speed_option_selected_background" android:layout_width="@dimen/camera_option_menu_button_width" android:layout_height="34.0dip" android:elevation="1.0dip" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:translationZ="2.0dip">
+        <FrameLayout android:id="@id/camera_timer_off_button" android:focusable="true" android:layout_width="@dimen/camera_option_menu_button_width" android:layout_height="34.0dip" android:contentDescription="@string/linevoom_cameratimer_button_off">
+            <com.linecorp.line.common.view.ClipRectTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/linewhite_alpha70" android:gravity="center" android:id="@id/timer_off_white" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/linevoom_cameratimer_button_off" android:textAllCaps="false" />
+            <com.linecorp.line.common.view.ClipRectTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/lineblack" android:gravity="center" android:id="@id/timer_off_black" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/linevoom_cameratimer_button_off" android:textAllCaps="false" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/camera_timer_3s_button" android:focusable="true" android:layout_width="@dimen/camera_option_menu_button_width" android:layout_height="34.0dip">
+            <com.linecorp.line.common.view.ClipRectTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/linewhite_alpha70" android:gravity="center" android:id="@id/timer_3s_white" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/linevoom_cameratimer_button_3s" />
+            <com.linecorp.line.common.view.ClipRectTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/lineblack" android:gravity="center" android:id="@id/timer_3s_black" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/linevoom_cameratimer_button_3s" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/camera_timer_10s_button" android:focusable="true" android:layout_width="@dimen/camera_option_menu_button_width" android:layout_height="34.0dip">
+            <com.linecorp.line.common.view.ClipRectTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/linewhite_alpha70" android:gravity="center" android:id="@id/timer_10s_white" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/linevoom_cameratimer_button_10s" />
+            <com.linecorp.line.common.view.ClipRectTextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/lineblack" android:gravity="center" android:id="@id/timer_10s_black" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/linevoom_cameratimer_button_10s" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

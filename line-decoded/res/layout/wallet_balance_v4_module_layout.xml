@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:paddingBottom="@dimen/wallet_balance_common_padding_bottom_default" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/wallet_v3_common_horizontal_padding" android:paddingEnd="@dimen/wallet_v3_common_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/balance_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" layout="@layout/wallet_balance_v4_balance_layout" />
+    <include android:id="@id/point_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wallet_balance_common_point_layout_margin_top" app:layout_constraintTop_toBottomOf="@id/balance_layout" layout="@layout/wallet_balance_v4_point_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:id="@id/content_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_centerHorizontal="true" app:layout_constraintBottom_toBottomOf="parent" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/image_content_button_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/background" app:layout_constraintDimensionRatio="7:1">
+            <View android:id="@id/image_content_button_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <View android:id="@id/image_content_button_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <com.linecorp.line.timeline.view.post.PostVideoView android:id="@id/post_video" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/video_content_button_layout" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/video_content_button_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/background" app:layout_constraintTop_toTopOf="@id/background">
+            <View android:id="@id/video_content_button_1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <View android:id="@id/video_content_button_2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.Group android:id="@id/video_content_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="post_video, video_content_button_layout" />
+        <ImageView android:id="@id/close_button" android:visibility="gone" android:layout_width="23.0dip" android:layout_height="23.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/timeline_ic_banner_close" android:layout_marginEnd="10.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/sound_button" android:visibility="gone" android:layout_width="23.0dip" android:layout_height="23.0dip" android:layout_marginTop="10.0dip" android:scaleType="fitCenter" android:layout_marginEnd="13.0dip" app:layout_constraintEnd_toStartOf="@id/close_button" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

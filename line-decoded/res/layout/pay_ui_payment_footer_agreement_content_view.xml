@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/pay_linewhite" android:paddingTop="18.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBox android:id="@id/agreementCheckBox" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/pay_module_ui_payment_agreement_check_box" />
+    <ImageView android:id="@id/agreementImageView" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginStart="10.0dip" app:layout_constraintBottom_toBottomOf="@id/agreementCheckBox" app:layout_constraintStart_toEndOf="@id/agreementCheckBox" app:layout_constraintTop_toTopOf="@id/agreementCheckBox" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/pay_linegray800" android:id="@id/agreementTitleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" app:layout_constraintBottom_toBottomOf="@id/agreementImageView" app:layout_constraintStart_toEndOf="@id/agreementImageView" app:layout_constraintTop_toTopOf="@id/agreementImageView" app:layout_goneMarginStart="10.0dip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

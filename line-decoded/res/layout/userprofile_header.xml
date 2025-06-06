@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/user_profile_header_container" android:layout_width="fill_parent" android:layout_height="@dimen/userprofile_music_container_height" android:layout_marginTop="@dimen/userprofile_header_top_padding" android:importantForAccessibility="yes" android:accessibilityTraversalBefore="@id/user_profile_container_binding"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/user_profile_back" android:layout_width="38.0dip" android:layout_height="38.0dip" android:src="@drawable/userprofile_header_ic_close" android:scaleType="center" android:contentDescription="@string/access_close" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/user_profile_music_binding" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintEnd_toStartOf="@id/user_profile_header_button_binding" app:layout_constraintStart_toEndOf="@id/user_profile_back" layout="@layout/userprofile_music" />
+    <include android:id="@id/user_profile_header_button_binding" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="parent" layout="@layout/userprofile_header_button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

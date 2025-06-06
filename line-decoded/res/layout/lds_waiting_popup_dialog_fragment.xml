@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/ldsWaitingLayout" android:background="@drawable/lds_toast_vertical_background" android:padding="@dimen/lds_toast_center_inner_padding_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="122.0dip" android:minHeight="122.0dip">
+        <com.linecorp.com.lds.ui.spinner.LdsSpinner android:layout_gravity="center" android:id="@id/ldsWaitingSpinner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginBottom="8.0dip" android:indeterminateTint="@color/linewhite" app:spinnerSize="large" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/linewhite" android:gravity="center" android:layout_gravity="center" android:id="@id/ldsWaitingMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

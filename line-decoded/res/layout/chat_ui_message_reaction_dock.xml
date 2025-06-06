@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.linecorp.line.animation.reaction.view.ReactionLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/chat_ui_content_root" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/chat_ui_reaction_icon_view_0" style="@style/chat_ui_message_reaction_dock_icon" />
+    <ImageView android:id="@id/chat_ui_reaction_icon_view_1" android:layout_marginLeft="@dimen/chat_ui_reaction_dock_icon_default_margin" style="@style/chat_ui_message_reaction_dock_icon" />
+    <ImageView android:id="@id/chat_ui_reaction_icon_view_2" android:layout_marginLeft="@dimen/chat_ui_reaction_dock_icon_default_margin" style="@style/chat_ui_message_reaction_dock_icon" />
+    <ImageView android:id="@id/chat_ui_reaction_icon_view_3" android:layout_marginLeft="@dimen/chat_ui_reaction_dock_icon_default_margin" style="@style/chat_ui_message_reaction_dock_icon" />
+    <ImageView android:id="@id/chat_ui_reaction_icon_view_4" android:layout_marginLeft="@dimen/chat_ui_reaction_dock_icon_default_margin" style="@style/chat_ui_message_reaction_dock_icon" />
+    <ImageView android:id="@id/chat_ui_reaction_icon_view_5" android:layout_marginLeft="@dimen/chat_ui_reaction_dock_icon_default_margin" style="@style/chat_ui_message_reaction_dock_icon" />
+</com.linecorp.line.animation.reaction.view.ReactionLinearLayout>

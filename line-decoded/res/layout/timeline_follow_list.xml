@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/follows_container" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_below="@id/header">
+        <View android:background="@color/primarySeparator" android:layout_width="fill_parent" android:layout_height="0.8000001dip" android:layout_alignParentBottom="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+            <RelativeLayout android:id="@id/following_tab" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/timeline_selector_follow_list_tab" android:gravity="center_vertical" android:id="@id/following_tab_count" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/timeline_managefriendsandfollows_tab_following" android:singleLine="true" android:layout_centerInParent="true" android:lineSpacingExtra="4.0sp" />
+                <View android:id="@id/following_tab_line" android:background="@drawable/timeline_selector_follow_list_tab_bottom_line" android:layout_width="wrap_content" android:layout_height="2.0dip" android:layout_alignLeft="@id/following_tab_count" android:layout_alignRight="@id/following_tab_count" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/follower_tab" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/timeline_selector_follow_list_tab" android:gravity="center_vertical" android:id="@id/follower_tab_count" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/timeline_managefriendsandfollows_tab_followers" android:singleLine="true" android:layout_centerInParent="true" android:lineSpacingExtra="4.0sp" />
+                <View android:id="@id/follower_tab_line" android:background="@drawable/timeline_selector_follow_list_tab_bottom_line" android:layout_width="wrap_content" android:layout_height="2.0dip" android:layout_alignLeft="@id/follower_tab_count" android:layout_alignRight="@id/follower_tab_count" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/recommend_tab" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/timeline_selector_follow_list_tab" android:gravity="center_vertical" android:id="@id/recommend_tab_count" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/linevoom_follows_tab_recommended" android:singleLine="true" android:layout_centerInParent="true" android:lineSpacingExtra="4.0sp" />
+                <View android:id="@id/recommend_tab_line" android:background="@drawable/timeline_selector_follow_list_tab_bottom_line" android:layout_width="wrap_content" android:layout_height="2.0dip" android:layout_alignLeft="@id/recommend_tab_count" android:layout_alignRight="@id/recommend_tab_count" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/content_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/tab_layout">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</RelativeLayout>

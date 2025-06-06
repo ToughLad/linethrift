@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.customview.SwipeRefreshLayoutForListView android:id="@id/swiperefresh" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.linecorp.line.timeline.ui.base.view.LoadMoreRecyclerView android:id="@id/recyclerview" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:loadmore_loading_view_color="@color/linegray350" />
+    </jp.naver.line.android.customview.SwipeRefreshLayoutForListView>
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/home_list_no_friends_horizontal_margin" android:paddingVertical="@dimen/home_list_no_friends_vertical_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/primaryText" android:gravity="center_horizontal" android:id="@id/home_tab_no_friend_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/welcome_add_friend_title" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/quaternarySubText" android:gravity="center_horizontal" android:id="@id/home_tab_no_friend_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/welcome_add_friend_content" android:lineSpacingExtra="3.0sp" />
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/primaryText" android:gravity="center" android:id="@id/home_tab_no_friend_add_friend" android:background="@drawable/addfriend_row_action_button_gray_stroke_selector" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginTop="16.0dip" android:text="@string/tab_name_addfriend" android:contentDescription="@string/access_add_friends" android:paddingStart="15.0dip" android:paddingEnd="15.0dip" />
+</LinearLayout>

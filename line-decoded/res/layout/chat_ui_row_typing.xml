@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/chat_ui_row_message" android:layout_width="60.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/chat_ui_dot_animation_view" android:layout_width="24.0dip" android:layout_height="6.0dip" android:scaleType="fitCenter" android:importantForAccessibility="no" />
+</LinearLayout>

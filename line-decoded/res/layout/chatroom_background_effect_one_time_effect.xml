@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/chat_room_background_effect_one_time_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/chat_room_background_effect_one_time_foreground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+</androidx.constraintlayout.widget.ConstraintLayout>

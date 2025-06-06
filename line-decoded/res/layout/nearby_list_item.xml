@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="180.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/nearby_thumbnail_containor" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/nearby_thumbnail_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/nearby_thumbnail_gr" android:scaleType="fitXY" />
+    </RelativeLayout>
+    <TextView android:textSize="10.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/nearby_request_badge" android:background="@drawable/nearby_bg_badge" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginTop="11.0dip" android:text="@string/nearby_request_pending" android:includeFontPadding="false" android:shadowColor="#26000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="0.1" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13.0dip" android:layout_marginRight="13.0dip" android:layout_marginBottom="9.5dip" android:layout_alignBottom="@id/nearby_thumbnail_containor">
+        <TextView android:textSize="13.0sp" android:textColor="#ffffffff" android:id="@id/nearby_location_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:shadowColor="#26000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:drawableLeft="@drawable/nearby_ic_location01" android:drawablePadding="2.5dip" />
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:id="@id/nearby_name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.5dip" android:maxLines="2" android:includeFontPadding="false" android:shadowColor="#26000000" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="1.0" android:layout_below="@id/nearby_location_text" />
+    </LinearLayout>
+</RelativeLayout>

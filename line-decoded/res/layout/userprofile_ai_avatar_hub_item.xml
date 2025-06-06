@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/layout_hub_image_and_title" android:layout_width="290.0dip" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/hub_item_img" android:layout_width="fill_parent" android:layout_height="266.0dip" android:scaleType="fitCenter" android:contentDescription="@null" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/hub_item_spinner" android:layout_width="40.0dip" android:layout_height="40.0dip" android:indeterminateTint="@color/linegray300" />
+        <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/black" android:gravity="center" android:layout_gravity="bottom" android:id="@id/hub_item_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="-3.0dip" android:textAllCaps="false" />
+    </FrameLayout>
+    <TextView android:textSize="12.0sp" android:textStyle="normal" android:textColor="@color/linegray750" android:gravity="center" android:id="@id/hub_item_description" android:layout_width="290.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="14.0dip" android:maxLines="2" android:lineSpacingExtra="1.0dip" android:textAllCaps="false" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/layout_button_create" android:background="@drawable/userprofile_ai_avatar_hub_create_button_bg" android:layout_width="wrap_content" android:layout_height="27.0dip" android:paddingHorizontal="10.0dip">
+            <TextView android:textSize="13.0sp" android:textStyle="bold" android:gravity="center" android:id="@id/hub_item_create_button_text" android:layout_width="wrap_content" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/hub_item_create_button_img" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:id="@id/hub_item_create_button_img" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginTop="7.0dip" android:src="@drawable/userprofile_ai_avatar_hub_more" android:contentDescription="@null" app:layout_constraintLeft_toRightOf="@id/hub_item_create_button_text" app:layout_constraintTop_toTopOf="@id/hub_item_create_button_text" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout android:id="@id/layout_pressed_illust" android:background="@drawable/userprofile_ai_avatar_bg_hub_pressed_illust" android:visibility="visible" android:clickable="true" android:layout_width="0.0dip" android:layout_height="0.0dip" android:alpha="0.05" />
+    </FrameLayout>
+</LinearLayout>

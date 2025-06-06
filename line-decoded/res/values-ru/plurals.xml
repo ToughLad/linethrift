@@ -1,0 +1,1527 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="access_call_photobooth_button_burstmode">
+        <item quantity="other">Сделать %d фото последовательно</item>
+        <item quantity="one">Сделать %d фото</item>
+        <item quantity="few">Сделать %d фото последовательно</item>
+        <item quantity="many">Сделать %d фото последовательно</item>
+    </plurals>
+    <plurals name="access_chat_button_starrating">
+        <item quantity="other">Оцените звонок от 1 до 5 звезд: %d</item>
+        <item quantity="one">Оцените звонок от 1 до 5 звезд: %d</item>
+        <item quantity="few">Оцените звонок от 1 до 5 звезд: %d</item>
+        <item quantity="many">Оцените звонок от 1 до 5 звезд: %d</item>
+    </plurals>
+    <plurals name="access_chathistory_attach_gallery_send_button">
+        <item quantity="other">Отправить %1$s элемента</item>
+        <item quantity="one">Отправить элемент</item>
+        <item quantity="few">Отправить %1$s элемента</item>
+        <item quantity="many">Отправить %1$s элементов</item>
+    </plurals>
+    <plurals name="access_chats_badge_message">
+        <item quantity="other">Новые сообщения: %d</item>
+        <item quantity="one">Новые сообщения: %d</item>
+        <item quantity="few">Новые сообщения: %d</item>
+        <item quantity="many">Новые сообщения: %d</item>
+    </plurals>
+    <plurals name="access_duration_hours_plurals">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+    <plurals name="access_duration_min_plurals">
+        <item quantity="other">%d минуты</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+    <plurals name="access_duration_seconds_plurals">
+        <item quantity="other">%d секунды</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+    </plurals>
+    <plurals name="access_friend_requests_more">
+        <item quantity="other">Просмотреть запросы на добавление в друзья: %1$s.</item>
+        <item quantity="one">Просмотреть %1$s запрос на добавление в друзья.</item>
+        <item quantity="few">Просмотреть запросы на добавление в друзья: %1$s.</item>
+        <item quantity="many">Просмотреть запросы на добавление в друзья: %1$s.</item>
+    </plurals>
+    <plurals name="access_hometab_services_twspot_kilometer">
+        <item quantity="other">%1$s км</item>
+        <item quantity="one">%1$s км</item>
+        <item quantity="few">%1$s км</item>
+        <item quantity="many">%1$s км</item>
+    </plurals>
+    <plurals name="access_hometab_services_twspot_meter">
+        <item quantity="other">%1$s м</item>
+        <item quantity="one">%1$s м</item>
+        <item quantity="few">%1$s м</item>
+        <item quantity="many">%1$s м</item>
+    </plurals>
+    <plurals name="access_indicataor_plural">
+        <item quantity="other">Страница %2$sб, всего %1$s</item>
+        <item quantity="one">Страница %2$sб, всего %1$s</item>
+        <item quantity="few">Страница %2$sб, всего %1$s</item>
+        <item quantity="many">Страница %2$sб, всего %1$s</item>
+    </plurals>
+    <plurals name="access_new_item_count_badge_plurals">
+        <item quantity="other">%d новый элемент</item>
+        <item quantity="one">%d новый элемент</item>
+        <item quantity="few">%d новый элемент</item>
+        <item quantity="many">%d новый элемент</item>
+    </plurals>
+    <plurals name="access_recommendation_friends_more">
+        <item quantity="other">Показать %d рекомендованных друзей</item>
+        <item quantity="one">Показать %d рекомендованного друга</item>
+        <item quantity="few">Показать %d рекомендованных друга</item>
+        <item quantity="many">Показать %d рекомендованных друзей </item>
+    </plurals>
+    <plurals name="access_slideshow_photo_edit_plural">
+        <item quantity="other">Изменить фото %1$d</item>
+        <item quantity="one">Изменить фото %1$d</item>
+        <item quantity="few">Изменить фото %1$d</item>
+        <item quantity="many">Изменить фото %1$d</item>
+    </plurals>
+    <plurals name="access_slideshow_photo_plural">
+        <item quantity="other">Фото %2$d из %1$d</item>
+        <item quantity="one">Фото %2$d из %1$d</item>
+        <item quantity="few">Фото %2$d из %1$d</item>
+        <item quantity="many">Фото %2$d из %1$d</item>
+    </plurals>
+    <plurals name="access_slideshow_photo_selected_plural">
+        <item quantity="other">Выбрано фото %1$d</item>
+        <item quantity="one">Выбрано фото %1$d</item>
+        <item quantity="few">Выбрано фото %1$d</item>
+        <item quantity="many">Выбрано фото %1$d</item>
+    </plurals>
+    <plurals name="access_timeline_explore_desc_videonumberoflikes">
+        <item quantity="other">Рекомендуемое вам видео с %d отметками «понравилось»</item>
+        <item quantity="one">Рекомендуемое вам видео с %d отметкой «понравилось»</item>
+        <item quantity="few">Рекомендуемое вам видео с %d отметки «понравилось»</item>
+        <item quantity="many">Рекомендуемое вам видео с %d отметками «понравилось»</item>
+    </plurals>
+    <plurals name="access_timeline_poppost_edit">
+        <item quantity="other">Публикация будет автоматически удалена через %d часов. Коснитесь, чтобы изменить этот параметр.</item>
+        <item quantity="one">Публикация будет автоматически удалена через %d час. Коснитесь, чтобы изменить этот параметр.</item>
+        <item quantity="few">Публикация будет автоматически удалена через %d часов. Коснитесь, чтобы изменить этот параметр.</item>
+        <item quantity="many">Публикация будет автоматически удалена через %d часов. Коснитесь, чтобы изменить этот параметр.</item>
+    </plurals>
+    <plurals name="access_timeline_shortsviewer_button_numberoflikes">
+        <item quantity="other">Видео понравилось %d пользователям</item>
+        <item quantity="one">Видео понравилось %d пользователю</item>
+        <item quantity="few">Видео понравилось %d пользователя</item>
+        <item quantity="many">Видео понравилось %d пользователям</item>
+    </plurals>
+    <plurals name="access_timeline_shortsviewer_button_shared">
+        <item quantity="other">%d поделились</item>
+        <item quantity="one">%d поделился</item>
+        <item quantity="few">%d поделились</item>
+        <item quantity="many">%d поделились</item>
+    </plurals>
+    <plurals name="access_timeline_shortsviewer_button_videocommented">
+        <item quantity="other">Видео прокомментировали %d пользователей</item>
+        <item quantity="one">Видео прокомментировал %d пользователь</item>
+        <item quantity="few">Видео прокомментировали %d пользователя</item>
+        <item quantity="many">Видео прокомментировали %d пользователя</item>
+    </plurals>
+    <plurals name="access_timeline_storyviewer_button_likecount_plural">
+        <item quantity="other">%s отметок \"Нравится\"</item>
+        <item quantity="one">%s отметок \"Нравится\"</item>
+        <item quantity="few">%s отметок \"Нравится\"</item>
+        <item quantity="many">%s отметка \"Нравится\"</item>
+    </plurals>
+    <plurals name="access_timeline_storyviewer_button_viewercount_plural">
+        <item quantity="other">%s зрителей</item>
+        <item quantity="one">%s зрителей</item>
+        <item quantity="few">%s зрителей</item>
+        <item quantity="many">%s зритель</item>
+    </plurals>
+    <plurals name="access_timeline_voom_desc_timevariablemin">
+        <item quantity="other">%d мин</item>
+        <item quantity="one">%d мин</item>
+        <item quantity="few">%d мин</item>
+        <item quantity="many">%d мин</item>
+    </plurals>
+    <plurals name="access_timeline_voom_desc_timevariablesec">
+        <item quantity="other">%d с</item>
+        <item quantity="one">%d с</item>
+        <item quantity="few">%d с</item>
+        <item quantity="many">%d с</item>
+    </plurals>
+    <plurals name="access_tw_bank_balance_shown">
+        <item quantity="other">Сумма в новых тайваньских долларах: %1$d</item>
+        <item quantity="one">Сумма в новых тайваньских долларах: %1$d</item>
+        <item quantity="few">Сумма в новых тайваньских долларах: %1$d</item>
+        <item quantity="many">Сумма в новых тайваньских долларах: %1$d</item>
+    </plurals>
+    <plurals name="access_voip_duration_hours_plurals">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+    <plurals name="access_voip_duration_min_plurals">
+        <item quantity="other">%d минуты</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+    <plurals name="access_voip_duration_seconds_plurals">
+        <item quantity="other">%d секунды</item>
+        <item quantity="one">%d секунда</item>
+        <item quantity="few">%d секунды</item>
+        <item quantity="many">%d секунд</item>
+    </plurals>
+    <plurals name="access_wallet_button_linepoint">
+        <item quantity="other">%1$s Баллы</item>
+        <item quantity="one">%1$s Баллы</item>
+        <item quantity="few">%1$s Баллы</item>
+        <item quantity="many">%1$s Балл</item>
+    </plurals>
+    <plurals name="access_wallet_header_button_linepoint">
+        <item quantity="other">%1$s Баллы</item>
+        <item quantity="one">%1$s Балл</item>
+        <item quantity="few">%1$s Баллы</item>
+        <item quantity="many">%1$s Баллы</item>
+    </plurals>
+    <plurals name="album_details_mainsubtitle_numberofphotos_plurals">
+        <item quantity="other">%d фото</item>
+        <item quantity="one">1 фото</item>
+        <item quantity="few">%d фото</item>
+        <item quantity="many">%d фото</item>
+    </plurals>
+    <plurals name="album_details_mainsubtitle_timestamphours_plurals">
+        <item quantity="other">%d часа назад</item>
+        <item quantity="one">1 час назад</item>
+        <item quantity="few">%d часа назад</item>
+        <item quantity="many">%d часов назад</item>
+    </plurals>
+    <plurals name="album_details_mainsubtitle_timestampminutes_plurals">
+        <item quantity="other">%d минуты назад</item>
+        <item quantity="one">1 минуту назад</item>
+        <item quantity="few">%d минуты назад</item>
+        <item quantity="many">%d минут назад</item>
+    </plurals>
+    <plurals name="album_details_title_numberofphotosselected_plurals">
+        <item quantity="other">Выбрано элементов: %d</item>
+        <item quantity="one">Выбран 1 элемент</item>
+        <item quantity="few">Выбрано %d фото</item>
+        <item quantity="many">Выбрано %d фото</item>
+    </plurals>
+    <plurals name="album_main_desc_albumvideos">
+        <item quantity="other">%d видео</item>
+        <item quantity="one">%d видео</item>
+        <item quantity="few">%d видео</item>
+        <item quantity="many">%d видео</item>
+    </plurals>
+    <plurals name="album_message_added_pictures_me_plural">
+        <item quantity="other">Добавлено элементов в альбом: %d</item>
+        <item quantity="one">Добавлено элементов в альбом: %d</item>
+        <item quantity="few">Добавлено элементов в альбом: %d</item>
+        <item quantity="many">Добавлено элементов в альбом: %d</item>
+    </plurals>
+    <plurals name="album_picker_toast_maximumvideo">
+        <item quantity="other">В этот альбом можно добавить только %d видео.</item>
+        <item quantity="one">В этот альбом можно добавить только %d видео.</item>
+        <item quantity="few">В этот альбом можно добавить только %d видео.</item>
+        <item quantity="many">В этот альбом можно добавить только %d видео.</item>
+    </plurals>
+    <plurals name="album_picker_toast_videomax_jp">
+        <item quantity="other">В этот альбом можно добавить только %d видео.</item>
+        <item quantity="one">В этот альбом можно добавить только %d видео.</item>
+        <item quantity="few">В этот альбом можно добавить только %d видео.</item>
+        <item quantity="many">В этот альбом можно добавить только %d видео.</item>
+    </plurals>
+    <plurals name="alert_exceed_url_length_p">
+        <item quantity="other">Длина адреса ссылки не должна превышать %d символа.</item>
+        <item quantity="one">Длина адреса ссылки не должна превышать %d символ.</item>
+        <item quantity="few">Длина адреса ссылки не должна превышать %d символа.</item>
+        <item quantity="many">Длина адреса ссылки не должна превышать %d символов.</item>
+    </plurals>
+    <plurals name="blocked_members_plural">
+        <item quantity="other">Заблокировать этих %1$s пользователей?</item>
+        <item quantity="one">Заблокировать этого %1$s пользователя?</item>
+        <item quantity="few">Заблокировать этих %1$s пользователей?</item>
+        <item quantity="many">Заблокировать этих %1$s пользователей?</item>
+    </plurals>
+    <plurals name="call_adStatus_freemiuntes">
+        <item quantity="other">Доступно бесплатных минут: %s</item>
+        <item quantity="one">Доступна %s бесплатная минута</item>
+        <item quantity="few">Доступно бесплатных минут: %s</item>
+        <item quantity="many">Доступно бесплатных минут: %s</item>
+    </plurals>
+    <plurals name="call_call_used_coin_currency_plural">
+        <item quantity="other">%1$s%2$s (%3$s монеты) исп.</item>
+        <item quantity="one">%1$s%2$s (%3$s монета) исп.</item>
+        <item quantity="few">%1$s%2$s (%3$s монеты) исп.</item>
+        <item quantity="many">%1$s%2$s (%3$s монет) исп.</item>
+    </plurals>
+    <plurals name="call_call_used_coin_plural">
+        <item quantity="other">%1$s монеты исп.</item>
+        <item quantity="one">%1$s монета исп.</item>
+        <item quantity="few">%1$s монеты исп.</item>
+        <item quantity="many">%1$s монет исп.</item>
+    </plurals>
+    <plurals name="call_call_used_credit_currency_plural">
+        <item quantity="other">%1$s%2$s (%3$s кредита) исп.</item>
+        <item quantity="one">%1$s%2$s (%3$s кредит) исп.</item>
+        <item quantity="few">%1$s%2$s (%3$s кредита) исп.</item>
+        <item quantity="many">%1$s%2$s (%3$s кредитов) исп.</item>
+    </plurals>
+    <plurals name="call_call_used_credit_plural">
+        <item quantity="other">%1$s кредита исп.</item>
+        <item quantity="one">%1$s кредит исп.</item>
+        <item quantity="few">%1$s кредита исп.</item>
+        <item quantity="many">%1$s кредитов исп.</item>
+    </plurals>
+    <plurals name="call_call_used_minute_plural">
+        <item quantity="other">%1$s минуты исп.</item>
+        <item quantity="one">%1$s минута исп.</item>
+        <item quantity="few">%1$s минуты исп.</item>
+        <item quantity="many">%1$s минут исп.</item>
+    </plurals>
+    <plurals name="call_keypad_charge_coin_currency_plural">
+        <item quantity="other">%1$s%2$s (%3$s монеты) в минуту</item>
+        <item quantity="one">%1$s%2$s (%3$s монета) в минуту</item>
+        <item quantity="few">%1$s%2$s (%3$s монеты) в минуту</item>
+        <item quantity="many">%1$s%2$s (%3$s монет) в минуту</item>
+    </plurals>
+    <plurals name="call_keypad_charge_coin_plural">
+        <item quantity="other">%1$s монеты в минуту</item>
+        <item quantity="one">%1$s монета в минуту</item>
+        <item quantity="few">%1$s монеты в минуту</item>
+        <item quantity="many">%1$s монет в минуту</item>
+    </plurals>
+    <plurals name="call_keypad_charge_credit_currency_plural">
+        <item quantity="other">%1$s%2$s (%3$s кредита) в минуту</item>
+        <item quantity="one">%1$s%2$s (%3$s кредит) в минуту</item>
+        <item quantity="few">%1$s%2$s (%3$s кредита) в минуту</item>
+        <item quantity="many">%1$s%2$s (%3$s кредитов) в минуту</item>
+    </plurals>
+    <plurals name="call_keypad_charge_credit_plural">
+        <item quantity="other">%1$s кредита в минуту</item>
+        <item quantity="one">%1$s кредит в минуту</item>
+        <item quantity="few">%1$s кредита в минуту</item>
+        <item quantity="many">%1$s кредитов в минуту</item>
+    </plurals>
+    <plurals name="call_keypad_charge_per_minute_plural">
+        <item quantity="other">%1$s минуты</item>
+        <item quantity="one">%1$s минута</item>
+        <item quantity="few">%1$s минуты</item>
+        <item quantity="many">%1$s минут</item>
+    </plurals>
+    <plurals name="call_keypad_total_balance_coin_plural">
+        <item quantity="other">баланс %1$s Монеты</item>
+        <item quantity="one">баланс %1$s Монета</item>
+        <item quantity="few">баланс %1$s Монеты</item>
+        <item quantity="many">баланс %1$s Монет</item>
+    </plurals>
+    <plurals name="call_keypad_total_balance_credit_plural">
+        <item quantity="other">баланс %1$s Кредита</item>
+        <item quantity="one">баланс %1$s Кредит</item>
+        <item quantity="few">баланс %1$s Кредита</item>
+        <item quantity="many">баланс %1$s Кредитов</item>
+    </plurals>
+    <plurals name="call_photobooth_toast_burstmodechanged">
+        <item quantity="other">%s снимка будут сделаны последовательно.</item>
+        <item quantity="one">Снимки (%s) будут сделаны последовательно.</item>
+        <item quantity="few">Снимки (%s) будут сделаны последовательно.</item>
+        <item quantity="many">Снимки (%s) будут сделаны последовательно.</item>
+    </plurals>
+    <plurals name="call_photobooth_toast_usersjoinedPuri">
+        <item quantity="other">%1$s и еще %2$d чел. присоединились к сессии LINE Puri.</item>
+        <item quantity="one">%1$s и еще %2$d чел. присоединились к сессии LINE Puri.</item>
+        <item quantity="few">%1$s и еще %2$d чел. присоединились к сессии LINE Puri.</item>
+        <item quantity="many">%1$s и еще %2$d чел. присоединились к сессии LINE Puri.</item>
+    </plurals>
+    <plurals name="call_photobooth_toast_usersjoinedgroupcall">
+        <item quantity="other">%1$s и еще %2$d присоединились к групповому звонку.</item>
+        <item quantity="one">%1$s и еще %2$d присоединились к групповому звонку.</item>
+        <item quantity="few">%1$s и еще %2$d присоединились к звонку.</item>
+        <item quantity="many">%1$s и еще %2$d присоединились к звонку.</item>
+    </plurals>
+    <plurals name="call_photobooth_toast_usersleftPuri">
+        <item quantity="other">%1$s и еще %2$d чел. покинули сессию LINE Puri.</item>
+        <item quantity="one">%1$s и еще %2$d чел. покинули сессию LINE Puri.</item>
+        <item quantity="few">%1$s и еще %2$d чел. покинули сессию LINE Puri.</item>
+        <item quantity="many">%1$s и еще %2$d чел. покинули сессию LINE Puri.</item>
+    </plurals>
+    <plurals name="call_photobooth_toast_usersleftgroupcall">
+        <item quantity="other">%1$s и еще %2$d покинули групповой звонок.</item>
+        <item quantity="one">%1$s и еще %2$d покинули групповой звонок.</item>
+        <item quantity="few">%1$s и еще %2$d покинули звонок.</item>
+        <item quantity="many">%1$s и еще %2$d покинули звонок.</item>
+    </plurals>
+    <plurals name="call_photobooth_tooltip_freeticketinhour">
+        <item quantity="other">Новый фотокупон кажд. %d час.</item>
+        <item quantity="one">Новый фотокупон кажд. %d час.</item>
+        <item quantity="few">Новый фотокупон кажд. %d час.</item>
+        <item quantity="many">Новый фотокупон кажд. %d час.</item>
+    </plurals>
+    <plurals name="call_photobooth_tooltip_freeticketinminute">
+        <item quantity="other">Новый купон за %d мин.</item>
+        <item quantity="one">Новый купон за %d мин.</item>
+        <item quantity="few">Новый купон за %d мин.</item>
+        <item quantity="many">Новый купон за %d мин.</item>
+    </plurals>
+    <plurals name="call_photobooth_tooltip_freeticketremaining">
+        <item quantity="other">У вас %d фотокупон.</item>
+        <item quantity="one">У вас %d фотокупон.</item>
+        <item quantity="few">У вас %d фотокупон.</item>
+        <item quantity="many">У вас %d фотокупон.</item>
+    </plurals>
+    <plurals name="call_setting_credit_charge_menu_credit_plural">
+        <item quantity="other">%1$s кредита (%2$s)</item>
+        <item quantity="one">%1$s кредит (%2$s)</item>
+        <item quantity="few">%1$s кредита (%2$s)</item>
+        <item quantity="many">%1$s кредитов (%2$s)</item>
+    </plurals>
+    <plurals name="call_settings_display_currency_coin_plural">
+        <item quantity="other">Монеты</item>
+        <item quantity="one">Монета</item>
+        <item quantity="few">Монеты</item>
+        <item quantity="many">Монет</item>
+    </plurals>
+    <plurals name="call_settings_display_currency_credit_plural">
+        <item quantity="other">Кредита</item>
+        <item quantity="one">Кредит</item>
+        <item quantity="few">Кредита</item>
+        <item quantity="many">Кредитов</item>
+    </plurals>
+    <plurals name="call_watchtogethermenu_desc_daysago">
+        <item quantity="other">%1$d дн. назад</item>
+        <item quantity="one">%1$d дн. назад</item>
+        <item quantity="few">%1$d дн. назад</item>
+        <item quantity="many">%1$d дн. назад</item>
+    </plurals>
+    <plurals name="call_watchtogethermenu_desc_hoursago">
+        <item quantity="other">%1$d ч. назад</item>
+        <item quantity="one">%1$d ч. назад</item>
+        <item quantity="few">%1$d ч. назад</item>
+        <item quantity="many">%1$d ч. назад</item>
+    </plurals>
+    <plurals name="call_watchtogethermenu_desc_minutesago">
+        <item quantity="other">%1$d мин. назад</item>
+        <item quantity="one">%1$d мин. назад</item>
+        <item quantity="few">%1$d мин. назад</item>
+        <item quantity="many">%1$d мин. назад</item>
+    </plurals>
+    <plurals name="call_watchtogethermenu_desc_monthsago">
+        <item quantity="other">%1$d мес. назад</item>
+        <item quantity="one">%1$d мес. назад</item>
+        <item quantity="few">%1$d мес. назад</item>
+        <item quantity="many">%1$d мес. назад</item>
+    </plurals>
+    <plurals name="call_watchtogethermenu_desc_numberofvideos">
+        <item quantity="other">%1$d видео</item>
+        <item quantity="one">%1$d видео</item>
+        <item quantity="few">%1$d видео</item>
+        <item quantity="many">%1$d видео</item>
+    </plurals>
+    <plurals name="call_watchtogethermenu_desc_userswatchingvideoen">
+        <item quantity="other">%1$s просмотров</item>
+        <item quantity="one">%1$s просмотр</item>
+        <item quantity="few">%1$s просмотров</item>
+        <item quantity="many">%1$s просмотров</item>
+    </plurals>
+    <plurals name="call_watchtogethermenu_desc_yearsago">
+        <item quantity="other">%1$d лет назад</item>
+        <item quantity="one">%1$d год назад</item>
+        <item quantity="few">%1$d лет назад</item>
+        <item quantity="many">%1$d лет назад</item>
+    </plurals>
+    <plurals name="calls_freecount_value">
+        <item quantity="other">Осталось &lt;font color=\"#f8ff2f\">%1$d&lt;/font> звонка на сегодня</item>
+        <item quantity="one">Остался &lt;font color=\"#f8ff2f\">%1$d&lt;/font> звонок на сегодня</item>
+        <item quantity="few">Остались &lt;font color=\"#f8ff2f\">%1$d&lt;/font> звонка на сегодня</item>
+        <item quantity="many">Остались &lt;font color=\"#f8ff2f\">%1$d&lt;/font> звонков на сегодня</item>
+    </plurals>
+    <plurals name="calls_freecount_value_new_design">
+        <item quantity="other">Осталось &lt;font color=\"#FFFC33\">%1$d&lt;/font> звонка на сегодня</item>
+        <item quantity="one">Остались &lt;font color=\"#FFFC33\">%1$d&lt;/font> звонка на сегодня</item>
+        <item quantity="few">Остались &lt;font color=\"#FFFC33\">%1$d&lt;/font> звонков на сегодня</item>
+        <item quantity="many">Остался &lt;font color=\"#FFFC33\">%1$d&lt;/font> звонок на сегодня</item>
+    </plurals>
+    <plurals name="chat_keyboard_emojiTab_nearlyExpired_description">
+        <item quantity="other">Этот смайлик истечет через %1$s д.</item>
+        <item quantity="one">Этот смайлик истечет через %1$s д.</item>
+        <item quantity="few">Этот смайлик истечет через %1$s д.</item>
+        <item quantity="many">Этот смайлик истечет через %1$s д.</item>
+    </plurals>
+    <plurals name="chat_keyboard_stickersTab_nearlyExpired_description">
+        <item quantity="other">Стикеры пропадут через %1$s д.</item>
+        <item quantity="one">Стикеры пропадут через %1$s д.</item>
+        <item quantity="few">Стикеры пропадут через %1$s д.</item>
+        <item quantity="many">Стикеры пропадут через %1$s д.</item>
+    </plurals>
+    <plurals name="chat_more_gallery_alert_saved_camerafailed">
+        <item quantity="other">Сохранение на устройство выполнено (%d фото и/или видео не удалось сохранить).</item>
+        <item quantity="one">Сохранение на устройство выполнено (%d фото и/или видео не удалось сохранить).</item>
+        <item quantity="few">Сохранение на устройство выполнено (%d фото и/или видео не удалось сохранить).</item>
+        <item quantity="many">Сохранение на устройство выполнено (%d фото и/или видео не удалось сохранить).</item>
+    </plurals>
+    <plurals name="chathistory_layer_groupcall_numofmembers">
+        <item quantity="other">&lt;b>Участников: &lt;font color=#4CC764>%1$s&lt;/font>.&lt;/b></item>
+        <item quantity="one">&lt;b>Участников: &lt;font color=#4CC764>%1$s&lt;/font>.&lt;/b></item>
+        <item quantity="few">&lt;b>Участников: &lt;font color=#4CC764>%1$s&lt;/font>.&lt;/b></item>
+        <item quantity="many">&lt;b>Участников: &lt;font color=#4CC764>%1$s&lt;/font>.&lt;/b></item>
+    </plurals>
+    <plurals name="coin_history_no_history_plural">
+        <item quantity="other">У вас нет истории использования монетза последние %1$s мес.</item>
+        <item quantity="one">У вас нет истории использования монетза последние %1$s мес.</item>
+        <item quantity="few">У вас нет истории использования монетза последние %1$s мес.</item>
+        <item quantity="many">У вас нет истории использования монетза последний %1$s мес.</item>
+    </plurals>
+    <plurals name="err_cannot_attach_over_20_media_p">
+        <item quantity="other">Вы можете прикрепить только %d приложения.</item>
+        <item quantity="one">Вы можете прикрепить только %d приложение.</item>
+        <item quantity="few">Вы можете прикрепить только %d приложения.</item>
+        <item quantity="many">Вы можете прикрепить только %d приложений.</item>
+    </plurals>
+    <plurals name="err_exceed_post_text_p">
+        <item quantity="other">Максимальное количество символов - %d</item>
+        <item quantity="one">Максимальное количество символов - %d</item>
+        <item quantity="few">Максимальное количество символов - %d</item>
+        <item quantity="many">Максимальное количество символов - %d</item>
+    </plurals>
+    <plurals name="err_photo_attach_too_large_p">
+        <item quantity="other">Размер файла не должен превышать %dМБ</item>
+        <item quantity="one">Размер файла не должен превышать %dМБ</item>
+        <item quantity="few">Размер файла не должен превышать %dМБ</item>
+        <item quantity="many">Размер файла не должен превышать %dМБ</item>
+    </plurals>
+    <plurals name="err_video_attach_too_large_p">
+        <item quantity="other">Размер видео не должен превышать %dМБ</item>
+        <item quantity="one">Размер видео не должен превышать %dМБ</item>
+        <item quantity="few">Размер видео не должен превышать %dМБ</item>
+        <item quantity="many">Размер видео не должен превышать %dМБ</item>
+    </plurals>
+    <plurals name="faceplay_collection_multitrophy_num">
+        <item quantity="other">Всего %d победы в сезоне</item>
+        <item quantity="one">%d победа в сезоне</item>
+        <item quantity="few">Всего %d победы в сезоне</item>
+        <item quantity="many">Всего %d побед в сезоне</item>
+    </plurals>
+    <plurals name="faceplay_singlerank_timeleft_day_plural">
+        <item quantity="other">%d дня</item>
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+    </plurals>
+    <plurals name="faceplay_singlerank_timeleft_hour_plural">
+        <item quantity="other">%d часа</item>
+        <item quantity="one">%d час</item>
+        <item quantity="few">%d часа</item>
+        <item quantity="many">%d часов</item>
+    </plurals>
+    <plurals name="faceplay_singlerank_timeleft_min_plural">
+        <item quantity="other">%d минуты</item>
+        <item quantity="one">%d минута</item>
+        <item quantity="few">%d минуты</item>
+        <item quantity="many">%d минут</item>
+    </plurals>
+    <plurals name="faceplay_url_msg_challenge">
+        <item quantity="other">"История еще не знала таких побед: пользователь %1$s набрал %3$d балла в %2$s!
+Вы спросите, что же требуется от вас? Побить мой рекорд.
+Если вам это, конечно, под силу. Face Play: %4$s://faceplay"</item>
+        <item quantity="one">"История еще не знала таких побед: пользователь %1$s набрал %3$d балл в %2$s.
+Вы спросите, что же требуется от вас? Побить мой рекорд.
+Если вам это, конечно, под силу. Face Play: %4$s://faceplay"</item>
+        <item quantity="few">"История еще не знала таких побед: пользователь %1$s набрал %3$d балла в %2$s!
+Вы спросите, что же требуется от вас? Побить мой рекорд.
+Если вам это, конечно, под силу. Face Play: %4$s://faceplay"</item>
+        <item quantity="many">"История еще не знала таких побед: пользователь %1$s набрал %3$d баллов в %2$s!
+Вы спросите, что же требуется от вас? Побить мой рекорд.
+Если вам это, конечно, под силу. Face Play: %4$s://faceplay"</item>
+    </plurals>
+    <plurals name="gallery_alert_exceed_max_selectable_count_p">
+        <item quantity="other">Вы можете выбрать до %d.</item>
+        <item quantity="one">Вы можете выбрать до %d.</item>
+        <item quantity="few">Вы можете выбрать до %d.</item>
+        <item quantity="many">Вы можете выбрать до %d.</item>
+    </plurals>
+    <plurals name="gallery_alert_photos_saved_failed">
+        <item quantity="other">Сохранение на устройство выполнено (%d фото и/или видео не удалось сохранить).</item>
+        <item quantity="one">Сохранение на устройство выполнено (%d фото и/или видео не удалось сохранить).</item>
+        <item quantity="few">Сохранение на устройство выполнено (%d фото и/или видео не удалось сохранить).</item>
+        <item quantity="many">Сохранение на устройство выполнено (%d фото и/или видео не удалось сохранить).</item>
+    </plurals>
+    <plurals name="gallery_camera_max_video_toast2_plural">
+        <item quantity="other">Можно снять видео продолжительностью не более %d минуты.</item>
+        <item quantity="one">Можно снять видео продолжительностью не более %d минуты.</item>
+        <item quantity="few">Можно снять видео продолжительностью не более %d минут.</item>
+        <item quantity="many">Можно снять видео продолжительностью не более %d минут.</item>
+    </plurals>
+    <plurals name="gallery_camera_max_video_toast3_plural">
+        <item quantity="other">Можно снять видео продолжительностью не более %d секунды.</item>
+        <item quantity="one">Можно снять видео продолжительностью не более %d секунды.</item>
+        <item quantity="few">Можно снять видео продолжительностью не более %d секунд.</item>
+        <item quantity="many">Можно снять видео продолжительностью не более %d секунд.</item>
+    </plurals>
+    <plurals name="gallery_camera_max_video_toast4_plural">
+        <item quantity="other">Можно снять видео продолжительностью не более %1$d минуты %2$d секунды.</item>
+        <item quantity="one">Можно снять видео продолжительностью не более %1$d минуты %2$d секунды.</item>
+        <item quantity="few">Можно снять видео продолжительностью не более %1$d минут %2$d секунд.</item>
+        <item quantity="many">Можно снять видео продолжительностью не более %1$d минут %2$d секунд.</item>
+    </plurals>
+    <plurals name="gallery_do_you_launch_apps_p">
+        <item quantity="other">Если запустить другое приложение, выбор снимков (%d) будет отменен. Продолжить?</item>
+        <item quantity="one">Если запустить другое приложение, выбор снимка (%d) будет отменен. Продолжить?</item>
+        <item quantity="few">Если запустить другое приложение, выбор снимков (%d) будет отменен. Продолжить?</item>
+        <item quantity="many">Если запустить другое приложение, выбор снимков (%d) будет отменен. Продолжить?</item>
+    </plurals>
+    <plurals name="gallery_do_you_launch_camera_p">
+        <item quantity="other">Если перейти к камере, выбор снимков (%d) будет отменен. Продолжить?</item>
+        <item quantity="one">Если перейти к камере, выбор снимка (%d) будет отменен. Продолжить?</item>
+        <item quantity="few">Если перейти к камере, выбор снимков (%d) будет отменен. Продолжить?</item>
+        <item quantity="many">Если перейти к камере, выбор снимков (%d) будет отменен. Продолжить?</item>
+    </plurals>
+    <plurals name="gallery_hours_ago_p">
+        <item quantity="other">%d ч. назад</item>
+        <item quantity="one">%d ч. назад</item>
+        <item quantity="few">%d ч. назад</item>
+        <item quantity="many">%d ч. назад</item>
+    </plurals>
+    <plurals name="gallery_max_media_guide">
+        <item quantity="other">Можно отправить не более %1$d элемента.</item>
+        <item quantity="one">Можно отправить не более %1$d элемента.</item>
+        <item quantity="few">Можно отправить не более %1$d элементов.</item>
+        <item quantity="many">Можно отправить не более %1$d элементов.</item>
+    </plurals>
+    <plurals name="gallery_max_photo_guide_plural">
+        <item quantity="other">Зараз можно отправить не более %d фото.</item>
+        <item quantity="one">Зараз можно отправить не более %d фото.</item>
+        <item quantity="few">Зараз можно отправить не более %d фото.</item>
+        <item quantity="many">Зараз можно отправить не более %d фото.</item>
+    </plurals>
+    <plurals name="gallery_max_video_guide_plural">
+        <item quantity="other">Можно отправить видео общей продолжительностью не более %d минуты.</item>
+        <item quantity="one">Можно отправить видео общей продолжительностью не более %d минуты.</item>
+        <item quantity="few">Можно отправить видео общей продолжительностью не более %d минут.</item>
+        <item quantity="many">Можно отправить видео общей продолжительностью не более %d минут.</item>
+    </plurals>
+    <plurals name="gallery_max_video_guide_second">
+        <item quantity="other">Вы можете выбрать до %d секунд.</item>
+        <item quantity="one">Вы можете выбрать до %d секунды.</item>
+        <item quantity="few">Вы можете выбрать до %d секунд.</item>
+        <item quantity="many">Вы можете выбрать до %d секунд.</item>
+    </plurals>
+    <plurals name="gallery_minutes_ago_p">
+        <item quantity="other">%d мин. назад</item>
+        <item quantity="one">%d мин. назад</item>
+        <item quantity="few">%d мин. назад</item>
+        <item quantity="many">%d мин. назад</item>
+    </plurals>
+    <plurals name="gallery_photo_count_p">
+        <item quantity="other">%d фото</item>
+        <item quantity="one">%d фото</item>
+        <item quantity="few">%d фото</item>
+        <item quantity="many">%d фото</item>
+    </plurals>
+    <plurals name="gallery_picker_max_media_alert_plural">
+        <item quantity="other">Нельзя отправить более %1$d элементов.</item>
+        <item quantity="one">Нельзя отправить более %1$d элемента.</item>
+        <item quantity="few">Нельзя отправить более %1$d элементов.</item>
+        <item quantity="many">Нельзя отправить более %1$d элементов.</item>
+    </plurals>
+    <plurals name="gallery_picker_selected_items">
+        <item quantity="other">Выбрано: %d</item>
+        <item quantity="one">Выбрано: %d</item>
+        <item quantity="few">Выбрано: %d</item>
+        <item quantity="many">Выбрано: %d</item>
+    </plurals>
+    <plurals name="gallery_video_count_p">
+        <item quantity="other">%d видео</item>
+        <item quantity="one">%d видео</item>
+        <item quantity="few">%d видео</item>
+        <item quantity="many">%d видео</item>
+    </plurals>
+    <plurals name="gallery_video_launch_external_app_warning_p">
+        <item quantity="other">Если запустить другое приложение, выбор видео (%d) будет отменен. Продолжить?</item>
+        <item quantity="one">Если запустить другое приложение, выбор видео (%d) будет отменен. Продолжить?</item>
+        <item quantity="few">Если запустить другое приложение, выбор видео (%d) будет отменен. Продолжить?</item>
+        <item quantity="many">Если запустить другое приложение, выбор видео (%d) будет отменен. Продолжить?</item>
+    </plurals>
+    <plurals name="gallery_video_send_all_original">
+        <item quantity="other">Ваше устройство не может обработать ваши правки для выбранных видеороликов. Отправить оригинальные видео?</item>
+        <item quantity="one">Ваше устройство не может обработать ваши правки для выбранного видеоролика. Отправить оригинальное видео?</item>
+        <item quantity="few">Ваше устройство не может обработать ваши правки для выбранных видеороликов. Отправить оригинальные видео?</item>
+        <item quantity="many">Ваше устройство не может обработать ваши правки для выбранных видеороликов. Отправить оригинальные видео?</item>
+    </plurals>
+    <plurals name="gallery_video_send_original">
+        <item quantity="other">%d видео будут отправлены без редактирования, потому что ваше устройство не может его обработать. Отправить?</item>
+        <item quantity="one">%d видео будут отправлены без редактирования, потому что ваше устройство не может его обработать. Отправить?</item>
+        <item quantity="few">%d видео будут отправлены без редактирования, потому что ваше устройство не может его обработать. Отправить?</item>
+        <item quantity="many">%d видео будут отправлены без редактирования, потому что ваше устройство не может его обработать. Отправить?</item>
+    </plurals>
+    <plurals name="glp_chat_noti_likesentother">
+        <item quantity="other">Пользователь %1$s и еще %2$d отправили сердца!</item>
+        <item quantity="one">Пользователь %1$s и еще %2$d отправили сердца!</item>
+        <item quantity="few">Пользователь %1$s и еще %2$d отправили сердца!</item>
+        <item quantity="many">Пользователь %1$s и еще %2$d отправили сердца!</item>
+    </plurals>
+    <plurals name="glp_livescreen_status_daysago">
+        <item quantity="other">%d дн. назад</item>
+        <item quantity="one">%d день назад</item>
+        <item quantity="few">%d дн. назад</item>
+        <item quantity="many">%d дн. назад</item>
+    </plurals>
+    <plurals name="glp_livescreen_status_hoursago">
+        <item quantity="other">%d ч. назад</item>
+        <item quantity="one">%d час назад</item>
+        <item quantity="few">%d ч. назад</item>
+        <item quantity="many">%d ч. назад</item>
+    </plurals>
+    <plurals name="glp_livescreen_status_justnow">
+        <item quantity="other">%d мин. назад</item>
+        <item quantity="one">%d минуту назад</item>
+        <item quantity="few">%d мин. назад</item>
+        <item quantity="many">%d мин. назад</item>
+    </plurals>
+    <plurals name="glp_ssaiad_desc_adstartsin">
+        <item quantity="other">Начнётся через %s секунд</item>
+        <item quantity="one">Начнётся через %s секунду</item>
+        <item quantity="few">Начнётся через %s секунд</item>
+        <item quantity="many">Начнётся через %s секунд</item>
+    </plurals>
+    <plurals name="groupcall_call_speaker_many">
+        <item quantity="other">%1$s и еще %2$s.</item>
+        <item quantity="one">%1$s и еще %2$s.</item>
+        <item quantity="few">%1$s и еще %2$s.</item>
+        <item quantity="many">%1$s и еще %2$s.</item>
+    </plurals>
+    <plurals name="groupcall_call_toast_usersjoinedgroupcall">
+        <item quantity="other">%1$s и еще %2$d присоединились к звонку.</item>
+        <item quantity="one">%1$s и еще %2$d присоединились к звонку.</item>
+        <item quantity="few">%1$s и еще %2$d присоединились к звонку.</item>
+        <item quantity="many">%1$s и еще %2$d присоединились к звонку.</item>
+    </plurals>
+    <plurals name="groupcall_call_toast_usersleftgroupcall">
+        <item quantity="other">%1$s и еще %2$d покинули звонок.</item>
+        <item quantity="one">%1$s и еще %2$d покинули звонок.</item>
+        <item quantity="few">%1$s и еще %2$d покинули звонок.</item>
+        <item quantity="many">%1$s и еще %2$d покинули звонок.</item>
+    </plurals>
+    <plurals name="groupcall_voicecall_desc_participantsinvoicecall">
+        <item quantity="other">%1$s и еще %2$d участников</item>
+        <item quantity="one">%1$s и еще %2$d участник</item>
+        <item quantity="few">%1$s и еще %2$d участников</item>
+        <item quantity="many">%1$s и еще %2$d участников</item>
+    </plurals>
+    <plurals name="hid_members_plural">
+        <item quantity="other">Скрыть этих %1$s пользователей?</item>
+        <item quantity="one">Скрыть этого%1$s пользователя?</item>
+        <item quantity="few">Скрыть этих %1$s пользователей?</item>
+        <item quantity="many">Скрыть этих %1$s пользователей?</item>
+    </plurals>
+    <plurals name="home_profile_postcount">
+        <item quantity="other">%d публикаций</item>
+        <item quantity="one">%d публикация</item>
+        <item quantity="few">%d публикации</item>
+        <item quantity="many">%d публикаций</item>
+    </plurals>
+    <plurals name="hometab_sticker_categoryquantity">
+        <item quantity="other">%1$s набора стикеров</item>
+        <item quantity="one">%1$s набор стикеров</item>
+        <item quantity="few">%1$s набора стикеров</item>
+        <item quantity="many">%1$s наборов стикеров</item>
+    </plurals>
+    <plurals name="hours_ago_p">
+        <item quantity="other">%d ч. назад</item>
+        <item quantity="one">%d ч. назад</item>
+        <item quantity="few">%d ч. назад</item>
+        <item quantity="many">%d ч. назад</item>
+    </plurals>
+    <plurals name="line_appiconsetting_desc_daysleft">
+        <item quantity="other">%s дней осталось</item>
+        <item quantity="one">%s день остался</item>
+        <item quantity="few">%s дней осталось</item>
+        <item quantity="many">%s дней осталось</item>
+    </plurals>
+    <plurals name="line_home_text_description_recentlyupdatedsection">
+        <item quantity="other">Друзья, обновившие профиль за посл. %d час.</item>
+        <item quantity="one">Друзья, обновившие профиль за последний час</item>
+        <item quantity="few">Друзья, обновившие профиль за посл. %d час.</item>
+        <item quantity="many">Друзья, обновившие профиль за посл. %d час.</item>
+    </plurals>
+    <plurals name="line_time_days_ago_plural">
+        <item quantity="other">%1$s дня назад</item>
+        <item quantity="one">%1$s день назад</item>
+        <item quantity="few">%1$s дня назад</item>
+        <item quantity="many">%1$s дней назад</item>
+    </plurals>
+    <plurals name="line_time_hours_ago_plural">
+        <item quantity="other">%1$s ч. назад</item>
+        <item quantity="one">%1$s ч. назад</item>
+        <item quantity="few">%1$s ч. назад</item>
+        <item quantity="many">%1$s ч. назад</item>
+    </plurals>
+    <plurals name="line_time_mins_ago_plural">
+        <item quantity="other">%1$s мин. назад</item>
+        <item quantity="one">%1$s мин. назад</item>
+        <item quantity="few">%1$s мин. назад</item>
+        <item quantity="many">%1$s мин. назад</item>
+    </plurals>
+    <plurals name="linemusic_message_desc_albumsongs">
+        <item quantity="other">%1$s песни</item>
+        <item quantity="one">%1$s песня</item>
+        <item quantity="few">%1$s песни</item>
+        <item quantity="many">%1$s песен</item>
+    </plurals>
+    <plurals name="linemusic_message_desc_artistlikes">
+        <item quantity="other">%1$s отметки «Нравится»</item>
+        <item quantity="one">%1$s отметка «Нравится»</item>
+        <item quantity="few">%1$s отметки «Нравится»</item>
+        <item quantity="many">%1$s отметок «Нравится»</item>
+    </plurals>
+    <plurals name="linemusic_message_desc_playlistsongs">
+        <item quantity="other">%1$s песни</item>
+        <item quantity="one">%1$s песня</item>
+        <item quantity="few">%1$s песни</item>
+        <item quantity="many">%1$s песен</item>
+    </plurals>
+    <plurals name="linemusic_message_desc_topicsongs">
+        <item quantity="other">%1$s песни</item>
+        <item quantity="one">%1$s песня</item>
+        <item quantity="few">%1$s песни</item>
+        <item quantity="many">%1$s песен</item>
+    </plurals>
+    <plurals name="linevoom_camera_toast_maximummusic">
+        <item quantity="other">Максимальная длительность видео для этого звука: %d секунды</item>
+        <item quantity="one">Максимальная длительность видео для этого звука: %d секунда</item>
+        <item quantity="few">Максимальная длительность видео для этого звука: %d секунды</item>
+        <item quantity="many">Максимальная длительность видео для этого звука: %d секунд</item>
+    </plurals>
+    <plurals name="linevoom_camera_toast_minimumvideo">
+        <item quantity="other">Минимальная длительность видео: %d секунды</item>
+        <item quantity="one">Минимальная длительность видео: %d секунда</item>
+        <item quantity="few">Минимальная длительность видео: %d секунды</item>
+        <item quantity="many">Минимальная длительность видео: %d секунд</item>
+    </plurals>
+    <plurals name="linevoom_template_desc_selectexact">
+        <item quantity="other">Выберите %d элем.</item>
+        <item quantity="one">Выберите %d элем.</item>
+        <item quantity="few">Выберите %d элем.</item>
+        <item quantity="many">Выберите %d элем.</item>
+    </plurals>
+    <plurals name="linevoom_template_desc_selectmin">
+        <item quantity="other">Выберите не менее %d элем.</item>
+        <item quantity="one">Выберите не менее %d элем.</item>
+        <item quantity="few">Выберите не менее %d элем.</item>
+        <item quantity="many">Выберите не менее %d элем.</item>
+    </plurals>
+    <plurals name="linevoom_template_desc_singleitemcount">
+        <item quantity="other">%1$d элемента</item>
+        <item quantity="one">%1$d элемент</item>
+        <item quantity="few">%1$d элемента</item>
+        <item quantity="many">%1$d элементов</item>
+    </plurals>
+    <plurals name="linevoom_template_toast_clipmax">
+        <item quantity="other">Вы можете выбрать до %d элем.</item>
+        <item quantity="one">Вы можете выбрать до %d элем.</item>
+        <item quantity="few">Вы можете выбрать до %d элем.</item>
+        <item quantity="many">Вы можете выбрать до %d элем.</item>
+    </plurals>
+    <plurals name="linevoom_template_toast_selectmin">
+        <item quantity="other">Выберите не менее %d элем.</item>
+        <item quantity="one">Выберите не менее %d элем.</item>
+        <item quantity="few">Выберите не менее %d элем.</item>
+        <item quantity="many">Выберите не менее %d элем.</item>
+    </plurals>
+    <plurals name="linevoom_templatedetails_desc_numberofclips">
+        <item quantity="other">%d клипы</item>
+        <item quantity="one">%d клип</item>
+        <item quantity="few">%d клипов</item>
+        <item quantity="many">%d клипов</item>
+    </plurals>
+    <plurals name="linevoom_templatedetails_desc_numberofitems">
+        <item quantity="other">%d элем.</item>
+        <item quantity="one">%d элем.</item>
+        <item quantity="few">%d элем.</item>
+        <item quantity="many">%d элем.</item>
+    </plurals>
+    <plurals name="linevoom_usercontent_button_postviewcount">
+        <item quantity="other">%s просмотр.</item>
+        <item quantity="one">%s просмотр</item>
+        <item quantity="few">%s просмотр.</item>
+        <item quantity="many">%s просмотр.</item>
+    </plurals>
+    <plurals name="livetalk_floating_desc_listenercount">
+        <item quantity="other">Слушатели: %d</item>
+        <item quantity="one">Слушатели: %d</item>
+        <item quantity="few">Слушатели: %d</item>
+        <item quantity="many">Слушатели: %d</item>
+    </plurals>
+    <plurals name="livetalk_floating_desc_speakercount">
+        <item quantity="other">Выступающие: %d</item>
+        <item quantity="one">Выступающие: %d</item>
+        <item quantity="few">Выступающие: %d</item>
+        <item quantity="many">Выступающие: %d</item>
+    </plurals>
+    <plurals name="livetalk_mainscreen_desc_attendeecount">
+        <item quantity="other">Посетители: %d</item>
+        <item quantity="one">Посетители: %d</item>
+        <item quantity="few">Посетители: %d</item>
+        <item quantity="many">Посетители: %d</item>
+    </plurals>
+    <plurals name="livetalk_speakerrequest_desc_requestcount">
+        <item quantity="other">Запросы выступ.: %s</item>
+        <item quantity="one">Запросы выступ.: %s</item>
+        <item quantity="few">Запросы выступ.: %s</item>
+        <item quantity="many">Запросы выступ.: %s</item>
+    </plurals>
+    <plurals name="localcontacts_sms_error_too_many_user_selected_plurals">
+        <item quantity="other">Выбрать можно не более %1$s человека.</item>
+        <item quantity="one">Выбрать можно не более %1$s человека.</item>
+        <item quantity="few">Выбрать можно не более %1$s человек.</item>
+        <item quantity="many">Выбрать можно не более %1$s человек.</item>
+    </plurals>
+    <plurals name="lypp_invitefriend_popup_invitefriendmax">
+        <item quantity="other">Вы можете пригласить до %d чел.</item>
+        <item quantity="one">Выбрать можно не более %d человека.</item>
+        <item quantity="few">Вы можете пригласить до %d чел.</item>
+        <item quantity="many">Вы можете пригласить до %d чел.</item>
+    </plurals>
+    <plurals name="lypp_joinlypp_desc_days">
+        <item quantity="other">%d дня</item>
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+    </plurals>
+    <plurals name="lypp_joinlypp_desc_months">
+        <item quantity="other">%d мес.</item>
+        <item quantity="one">%d мес.</item>
+        <item quantity="few">%d мес.</item>
+        <item quantity="many">%d мес.</item>
+    </plurals>
+    <plurals name="lypp_joinlypp_desc_weeks">
+        <item quantity="other">%d нед.</item>
+        <item quantity="one">%d нед.</item>
+        <item quantity="few">%d нед.</item>
+        <item quantity="many">%d нед.</item>
+    </plurals>
+    <plurals name="lypp_joinlypp_desc_years">
+        <item quantity="other">%d года</item>
+        <item quantity="one">%d год</item>
+        <item quantity="few">%d года</item>
+        <item quantity="many">%d лет</item>
+    </plurals>
+    <plurals name="minutes_ago_p">
+        <item quantity="other">%d мин. назад</item>
+        <item quantity="one">%d мин. назад</item>
+        <item quantity="few">%d мин. назад</item>
+        <item quantity="many">%d мин. назад</item>
+    </plurals>
+    <plurals name="morecategory_friends_counts_plural">
+        <item quantity="other">&lt;b>&lt;font color=#4c5a72>%1$s&lt;/font> из ваших друзей пользуются этим приложением.&lt;/b></item>
+        <item quantity="one">&lt;b>&lt;font color=#4c5a72>%1$s&lt;/font> ваш друг пользуется этим приложением.&lt;/b></item>
+        <item quantity="few">&lt;b>&lt;font color=#4c5a72>%1$s&lt;/font> из ваших друзей пользуются этим приложением.&lt;/b></item>
+        <item quantity="many">&lt;b>&lt;font color=#4c5a72>%1$s&lt;/font> из ваших друзей пользуются этим приложением.&lt;/b></item>
+    </plurals>
+    <plurals name="morecategory_friends_name_and_counts_plural">
+        <item quantity="other">&lt;b>&lt;font color=#4c5a72>%1$s&lt;/font> и &lt;font color=#4c5a72>%2$s&lt;/font> других ваших друга пользуются этим.&lt;/b></item>
+        <item quantity="one">&lt;b>&lt;font color=#4c5a72>%1$s&lt;/font> и еще &lt;font color=#4c5a72>%2$s&lt;/font>ваш друг пользуются этим.&lt;/b></item>
+        <item quantity="few">&lt;b>&lt;font color=#4c5a72>%1$s&lt;/font> и еще &lt;font color=#4c5a72>%2$s&lt;/font> других ваших друзей пользуются этим.&lt;/b></item>
+        <item quantity="many">&lt;b>&lt;font color=#4c5a72>%1$s&lt;/font> и еще &lt;font color=#4c5a72>%2$s&lt;/font> других ваших друзей пользуются этим.&lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нового уведомления</item>
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+    </plurals>
+    <plurals name="myhome_a_minutes_ago_plurals">
+        <item quantity="other">%d мин. назад</item>
+        <item quantity="one">%d мин. назад</item>
+        <item quantity="few">%d мин. назад</item>
+        <item quantity="many">1 мин. назад</item>
+    </plurals>
+    <plurals name="myhome_days_ago">
+        <item quantity="other">%1$d дней назад %2$s</item>
+        <item quantity="one">%1$d дней назад %2$s</item>
+        <item quantity="few">%1$d дней назад %2$s</item>
+        <item quantity="many">%1$d день назад %2$s</item>
+    </plurals>
+    <plurals name="myhome_group_invite_complete">
+        <item quantity="other">Вы отправили приглашения %s пользователя.</item>
+        <item quantity="one">Вы отправили приглашения %s пользователям.</item>
+        <item quantity="few">Вы отправили приглашения %s пользователям.</item>
+        <item quantity="many">Вы отправили приглашения %s пользователю.</item>
+    </plurals>
+    <plurals name="myhome_hours_ago_plurals">
+        <item quantity="other">%d ч. назад</item>
+        <item quantity="one">%d ч. назад</item>
+        <item quantity="few">%d ч. назад</item>
+        <item quantity="many">%d ч. назад</item>
+    </plurals>
+    <plurals name="notification_center_message_number">
+        <item quantity="other">%1$d нового уведомления</item>
+        <item quantity="one">%1$d новое уведомление</item>
+        <item quantity="few">%1$d новых уведомления</item>
+        <item quantity="many">%1$d новых уведомлений</item>
+    </plurals>
+    <plurals name="notification_receive_message_content_for_lockscreen_plural">
+        <item quantity="other">%1$sновых сообщений</item>
+        <item quantity="one">%1$sновое сообщение</item>
+        <item quantity="few">%1$sновых сообщения</item>
+        <item quantity="many">%1$sновых сообщений</item>
+    </plurals>
+    <plurals name="pay_choose_member_alert_max_member">
+        <item quantity="other">Выбрать можно не более %1$s человека.</item>
+        <item quantity="one">Выбрать можно не более %1$s человека.</item>
+        <item quantity="few">Выбрать можно не более %1$s человек.</item>
+        <item quantity="many">Выбрать можно не более %1$s человек.</item>
+    </plurals>
+    <plurals name="pay_main_targetingbanner_title">
+        <item quantity="other">Оповещения</item>
+        <item quantity="one">Оповещение</item>
+        <item quantity="few">Оповещения</item>
+        <item quantity="many">Оповещения</item>
+    </plurals>
+    <plurals name="pay_member_unit">
+        <item quantity="other">всего %1$s друга</item>
+        <item quantity="one">всего %1$s другу</item>
+        <item quantity="few">%1$s участника</item>
+        <item quantity="many">%1$s участников</item>
+    </plurals>
+    <plurals name="pay_not_available_user_for_n_member">
+        <item quantity="other">Невозможно отправить запросы %1$s пользователя из числа ваших друзей в этом чате.</item>
+        <item quantity="one">Невозможно отправить запросы %1$s пользователю из числа ваших друзей в этом чате.</item>
+        <item quantity="few">Невозможно отправить запросы %1$s пользователям из числа ваших друзей в этом чате.</item>
+        <item quantity="many">Невозможно отправить запросы %1$s пользователям из числа ваших друзей в этом чате.</item>
+    </plurals>
+    <plurals name="pay_payment_message_waiting">
+        <item quantity="other">На это может потребоваться до %1$s минут.</item>
+        <item quantity="one">На это может потребоваться до %1$s минут.</item>
+        <item quantity="few">На это может потребоваться до %1$s минут.</item>
+        <item quantity="many">На это может потребоваться до %1$s минут.</item>
+    </plurals>
+    <plurals name="pay_request_friend_num">
+        <item quantity="other">всего %1$s друга</item>
+        <item quantity="one">всего %1$s другу</item>
+        <item quantity="few">всего %1$s друзьям</item>
+        <item quantity="many">всего %1$s друзьям</item>
+    </plurals>
+    <plurals name="pay_setting_cardManage_alert_numberRegisteration">
+        <item quantity="other">Вы можете добавить еще {0} карты.</item>
+        <item quantity="one">Вы можете добавить еще {0} карту.</item>
+        <item quantity="few">Вы можете добавить еще {0} карты.</item>
+        <item quantity="many">Вы можете добавить еще {0} карт.</item>
+    </plurals>
+    <plurals name="pay_setting_history_page_request_multi">
+        <item quantity="other">%1$s и ещё %2$s друга</item>
+        <item quantity="one">%1$s и ещё %2$s друг</item>
+        <item quantity="few">%1$s и %2$s других друзей</item>
+        <item quantity="many">%1$s и %2$s других друзей</item>
+    </plurals>
+    <plurals name="pay_transfer_dutch_message_send_multiple">
+        <item quantity="other">Вы попросили пользователя %1$s и ещё %2$s друга оплатить %3$s в складчину.</item>
+        <item quantity="one">Вы запросили %3$s у %1$s и ещё %2$s друга.</item>
+        <item quantity="few">Вы запросили %3$s у %1$s и ещё %2$s друзей.</item>
+        <item quantity="many">Вы запросили %3$s у %1$s и ещё %2$s друзей.</item>
+    </plurals>
+    <plurals name="pay_transfer_request_message_send_multiple">
+        <item quantity="other">Вы запросили %3$s у %1$s и ещё %2$s друга.</item>
+        <item quantity="one">Вы запросили %3$s у %1$s и ещё %2$s друга.</item>
+        <item quantity="few">Вы запросили %3$s у %1$s и ещё %2$s друзей.</item>
+        <item quantity="many">Вы запросили %3$s у %1$s и ещё %2$s друзей.</item>
+    </plurals>
+    <plurals name="pay_transfer_request_message_send_multiple_jp">
+        <item quantity="other">Вы запросили деньги в размере, эквивалентном %3$s, у пользователя %1$s и других друзей (%2$s).</item>
+        <item quantity="one">Вы запросили деньги в размере, эквивалентном %3$s, у пользователя %1$s и друга (%2$s).</item>
+        <item quantity="few">Вы запросили деньги в размере, эквивалентном %3$s, у пользователя %1$s и других друзей (%2$s).</item>
+        <item quantity="many">Вы запросили деньги в размере, эквивалентном %3$s, у пользователя %1$s и других друзей (%2$s).</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_animationcounterexceeded">
+        <item quantity="other">В профиль можно добавить не больше %d анимированных счетчиков.</item>
+        <item quantity="one">В профиль можно добавить не больше %d анимированных счетчиков.</item>
+        <item quantity="few">В профиль можно добавить не больше %d анимированных счетчиков.</item>
+        <item quantity="many">В профиль можно добавить только %d анимированный счетчик.</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_animationstickerexceeded">
+        <item quantity="other">В профиль можно добавить не больше %d анимированных стикеров и смайликов.</item>
+        <item quantity="one">В профиль можно добавить не больше %d анимированных стикеров и смайликов.</item>
+        <item quantity="few">В профиль можно добавить не больше %d анимированных стикеров и смайликов.</item>
+        <item quantity="many">В профиль можно добавить только %d анимированный стикер или смайлик.</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_counterexceeded">
+        <item quantity="other">В профиль можно добавить не больше %d счетчиков (в том числе анимированных).</item>
+        <item quantity="one">В профиль можно добавить не больше %d счетчиков (в том числе анимированных).</item>
+        <item quantity="few">В профиль можно добавить не больше %d счетчиков (в том числе анимированных).</item>
+        <item quantity="many">В профиль можно добавить только %d счетчик (в том числе анимированный).</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_photoframeexceeded">
+        <item quantity="other">В профиль можно добавить не больше %d фоторамок.</item>
+        <item quantity="one">В профиль можно добавить не больше %d фоторамок.</item>
+        <item quantity="few">В профиль можно добавить не больше %d фоторамок.</item>
+        <item quantity="many">В профиль можно добавить только %d фоторамку.</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_snsnlinkexceeded">
+        <item quantity="other">В профиль можно добавить не больше %d ссылок на соцсети.</item>
+        <item quantity="one">В профиль можно добавить не больше %d ссылок на соцсети.</item>
+        <item quantity="few">В профиль можно добавить не больше %d ссылок на соцсети.</item>
+        <item quantity="many">В профиль можно добавить только %d ссылку на соцсеть.</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_stickerexceeded">
+        <item quantity="other">В профиль можно добавить не больше %d стикеров и смайликов (в том числе анимированных).</item>
+        <item quantity="one">В профиль можно добавить не больше %d стикеров и смайликов (в том числе анимированных).</item>
+        <item quantity="few">В профиль можно добавить не больше %d стикеров и смайликов (в том числе анимированных).</item>
+        <item quantity="many">В профиль можно добавить только %d стикер или смайлик (в том числе анимированный).</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_textexceeded">
+        <item quantity="other">В профиль можно добавить не больше %d текстовых штампов.</item>
+        <item quantity="one">В профиль можно добавить не больше %d текстовых штампов.</item>
+        <item quantity="few">В профиль можно добавить не больше %d текстовых штампов.</item>
+        <item quantity="many">В профиль можно добавить только %d текстовый штамп.</item>
+    </plurals>
+    <plurals name="profile_desc_timelinepostcount">
+        <item quantity="other">%s публикаций в LINE VOOM</item>
+        <item quantity="one">%s публикации в LINE VOOM</item>
+        <item quantity="few">%s публикация в LINE VOOM</item>
+        <item quantity="many">%s публикации в LINE VOOM</item>
+    </plurals>
+    <plurals name="profile_generateaiavatar_desc_hoursleft">
+        <item quantity="other">час.</item>
+        <item quantity="one">час.</item>
+        <item quantity="few">час.</item>
+        <item quantity="many">час.</item>
+    </plurals>
+    <plurals name="profile_generateaiavatar_desc_minutesleft">
+        <item quantity="other">мин.</item>
+        <item quantity="one">мин.</item>
+        <item quantity="few">мин.</item>
+        <item quantity="many">мин.</item>
+    </plurals>
+    <plurals name="profile_socialprofile_title_friends">
+        <item quantity="other">%s друзей</item>
+        <item quantity="one">%s друзей</item>
+        <item quantity="few">%s друзей</item>
+        <item quantity="many">%s друг</item>
+    </plurals>
+    <plurals name="promotion_friends_invite_pop_plural">
+        <item quantity="other">Еще %1$s балла и вы у цели!</item>
+        <item quantity="one">Еще %1$s балл и вы у цели!</item>
+        <item quantity="few">Еще %1$s балла и вы у цели!</item>
+        <item quantity="many">Еще %1$s баллов и вы у цели!</item>
+    </plurals>
+    <plurals name="repair_chathistory_confirm">
+        <item quantity="other">Синхронизация завершена. Восстановлена история чатов: %d.</item>
+        <item quantity="one">Синхронизация завершена. Восстановлена история чатов: %d.</item>
+        <item quantity="few">Синхронизация завершена. Восстановлена история чатов: %d.</item>
+        <item quantity="many">Синхронизация завершена. Восстановлена история чатов: %d.</item>
+    </plurals>
+    <plurals name="repair_chatstab_confirm">
+        <item quantity="other">Синхронизация завершена. Восстановлены данные чатов: %d.</item>
+        <item quantity="one">Синхронизация завершена. Восстановлены данные чатов: %d.</item>
+        <item quantity="few">Синхронизация завершена. Восстановлены данные чатов: %d.</item>
+        <item quantity="many">Синхронизация завершена. Восстановлены данные чатов: %d.</item>
+    </plurals>
+    <plurals name="repair_friend_confirm">
+        <item quantity="other">Синхронизация завершена. Восстановлены данные друзей: %d.</item>
+        <item quantity="one">Синхронизация завершена. Восстановлены данные друзей: %d.</item>
+        <item quantity="few">Синхронизация завершена. Восстановлены данные друзей: %d.</item>
+        <item quantity="many">Синхронизация завершена. Восстановлены данные друзей: %d.</item>
+    </plurals>
+    <plurals name="repair_group_confirm">
+        <item quantity="other">Синхронизация завершена. Восстановлены данные групп: %d.</item>
+        <item quantity="one">Синхронизация завершена. Восстановлены данные групп: %d.</item>
+        <item quantity="few">Синхронизация завершена. Восстановлены данные групп: %d.</item>
+        <item quantity="many">Синхронизация завершена. Восстановлены данные групп: %d.</item>
+    </plurals>
+    <plurals name="repair_profile_settings_confirm">
+        <item quantity="other">Синхронизация завершена. Восстановлены данные профиля и настройки: %d.</item>
+        <item quantity="one">Синхронизация завершена. Восстановлены данные профиля и настройки: %d.</item>
+        <item quantity="few">Синхронизация завершена. Восстановлены данные профиля и настройки: %d.</item>
+        <item quantity="many">Синхронизация завершена. Восстановлены данные профиля и настройки: %d.</item>
+    </plurals>
+    <plurals name="search_category_keyword_message_num">
+        <item quantity="other">«%1$s»: %2$s сообщения</item>
+        <item quantity="one">«%1$s»: %2$s сообщение</item>
+        <item quantity="few">«%1$s»: %2$s сообщения</item>
+        <item quantity="many">«%1$s»: %2$s сообщений</item>
+    </plurals>
+    <plurals name="search_result_message_num">
+        <item quantity="other">Найдено %1$s сообщения</item>
+        <item quantity="one">Найдено 1 сообщение</item>
+        <item quantity="few">Найдено %1$s1 сообщения</item>
+        <item quantity="many">Найдено %1$s1 сообщений</item>
+    </plurals>
+    <plurals name="selected_contents">
+        <item quantity="other">%d элемента</item>
+        <item quantity="one">%d элемент</item>
+        <item quantity="few">%d элемента</item>
+        <item quantity="many">%d элементов</item>
+    </plurals>
+    <plurals name="settings_stickers_premium_premiumset">
+        <item quantity="other">%1$s набора</item>
+        <item quantity="one">%1$s набор</item>
+        <item quantity="few">%1$s набора</item>
+        <item quantity="many">%1$s наборов</item>
+    </plurals>
+    <plurals name="social_noti_days_ago">
+        <item quantity="other">%d дня назад</item>
+        <item quantity="one">%d день. назад</item>
+        <item quantity="few">%d день назад</item>
+        <item quantity="many">%d дня назад</item>
+    </plurals>
+    <plurals name="square_friendstab_request_counts">
+        <item quantity="other">Запросы на присоединение: %1$s</item>
+        <item quantity="one">Запросы на присоединение: %1$s</item>
+        <item quantity="few">Запросы на присоединение: %1$s</item>
+        <item quantity="many">Запросы на присоединение: %1$s</item>
+    </plurals>
+    <plurals name="square_grouppopup_chat_count">
+        <item quantity="other">%s чата</item>
+        <item quantity="one">%s чата</item>
+        <item quantity="few">%s чатов</item>
+        <item quantity="many">%s чат</item>
+    </plurals>
+    <plurals name="square_grouppopup_member_count">
+        <item quantity="other">%s участников</item>
+        <item quantity="one">%s участника</item>
+        <item quantity="few">%s участников</item>
+        <item quantity="many">%s участник</item>
+    </plurals>
+    <plurals name="square_grouppopup_post_count">
+        <item quantity="other">%s заметки</item>
+        <item quantity="one">%s заметки</item>
+        <item quantity="few">%s заметок</item>
+        <item quantity="many">%s заметка</item>
+    </plurals>
+    <plurals name="square_joinopenchatlive_desc_numberofattendees">
+        <item quantity="other">Участники: %s</item>
+        <item quantity="one">Участники: %s</item>
+        <item quantity="few">Участники: %s</item>
+        <item quantity="many">Участники: %s</item>
+    </plurals>
+    <plurals name="square_mythreads_button_seemessages">
+        <item quantity="other">Посмотреть &lt;font color=%1$s>%2$s&lt;/font> сообщ.</item>
+        <item quantity="one">Посмотреть &lt;font color=%1$s>%2$s&lt;/font> сообщ.</item>
+        <item quantity="few">Посмотреть &lt;font color=%1$s>%2$s&lt;/font> сообщ.</item>
+        <item quantity="many">Посмотреть &lt;font color=%1$s>%2$s&lt;/font> сообщ.</item>
+    </plurals>
+    <plurals name="square_openchat_desc_numberofreactions">
+        <item quantity="other">%d реакции</item>
+        <item quantity="one">%d реакции</item>
+        <item quantity="few">%d реакций</item>
+        <item quantity="many">%d реакция</item>
+    </plurals>
+    <plurals name="square_openchatlivebar_desc_numberofattendees">
+        <item quantity="other">Участники: %s</item>
+        <item quantity="one">Участники: %s</item>
+        <item quantity="few">Участники: %s</item>
+        <item quantity="many">Участники: %s</item>
+    </plurals>
+    <plurals name="square_openchatmember_desc_days">
+        <item quantity="other">%d дня назад</item>
+        <item quantity="one">%d день назад</item>
+        <item quantity="few">%d дня назад</item>
+        <item quantity="many">%d дней назад</item>
+    </plurals>
+    <plurals name="square_openchatmember_desc_hours">
+        <item quantity="other">%d часа назад</item>
+        <item quantity="one">%d час назад</item>
+        <item quantity="few">%d часа назад</item>
+        <item quantity="many">%d часов назад</item>
+    </plurals>
+    <plurals name="square_openchatmember_desc_minutes">
+        <item quantity="other">%d минуты назад</item>
+        <item quantity="one">%d минуту назад</item>
+        <item quantity="few">%d минуты назад</item>
+        <item quantity="many">%d минут назад</item>
+    </plurals>
+    <plurals name="square_post_announcement_seeall_plural">
+        <item quantity="other">%s важной заметки</item>
+        <item quantity="one">%s важная заметка</item>
+        <item quantity="few">%s важные заметки</item>
+        <item quantity="many">%s важных заметок</item>
+    </plurals>
+    <plurals name="square_report_policy_message">
+        <item quantity="other">Действие вашего аккаунта приостановлено на %1$s дн., т. к. на него поступила жалоба из-за нарушения условий использования OpenChat.</item>
+        <item quantity="one">Действие вашего аккаунта приостановлено на 24 часа, т. к. на него поступила жалоба из-за нарушения условий использования OpenChat.</item>
+        <item quantity="few">Действие вашего аккаунта приостановлено на %1$s дн., т. к. на него поступила жалоба из-за нарушения условий использования OpenChat.</item>
+        <item quantity="many">Действие вашего аккаунта приостановлено на %1$s дн., т. к. на него поступила жалоба из-за нарушения условий использования OpenChat.</item>
+    </plurals>
+    <plurals name="stickershop_detail_auto_exchange_present_confirm_plural">
+        <item quantity="other">"Отправить подарок: %1$s (монет: %2$s)?
+
+Часть ваших баллов LINE будет автоматически обменена на монеты для покупки."</item>
+        <item quantity="one">"Отправить подарок: %1$s (монет: %2$s)?
+
+Часть ваших баллов LINE будет автоматически обменена на монеты для покупки."</item>
+        <item quantity="few">"Отправить подарок: %1$s (монет: %2$s)?
+
+Часть ваших баллов LINE будет автоматически обменена на монеты для покупки."</item>
+        <item quantity="many">"Отправить подарок: %1$s (монет: %2$s)?
+
+Часть ваших баллов LINE будет автоматически обменена на монеты для покупки."</item>
+    </plurals>
+    <plurals name="stickershop_detail_auto_exchange_purchase_confirm_plural">
+        <item quantity="other">"Купить %1$s (монет: %2$s)?
+
+Часть ваших баллов LINE будет автоматически обменена на монеты для покупки."</item>
+        <item quantity="one">"Купить %1$s (монет: %2$s)?
+
+Часть ваших баллов LINE будет автоматически обменена на монеты для покупки."</item>
+        <item quantity="few">"Купить %1$s (монет: %2$s)?
+
+Часть ваших баллов LINE будет автоматически обменена на монеты для покупки."</item>
+        <item quantity="many">"Купить %1$s (монет: %2$s)?
+
+Часть ваших баллов LINE будет автоматически обменена на монеты для покупки."</item>
+    </plurals>
+    <plurals name="stickershop_detail_period_text_plural">
+        <item quantity="other">Срок: %1$s дня</item>
+        <item quantity="one">Срок: %1$s день</item>
+        <item quantity="few">Срок: %1$s дня</item>
+        <item quantity="many">Срок: %1$s дней</item>
+    </plurals>
+    <plurals name="stickershop_detail_present_confirm_plural">
+        <item quantity="other">Подарить %1$s（%2$s монеты)?</item>
+        <item quantity="one">Подарить %1$s（%2$s монета)?</item>
+        <item quantity="few">Подарить %1$s（%2$s монеты)?</item>
+        <item quantity="many">Подарить %1$s（%2$s монет)?</item>
+    </plurals>
+    <plurals name="stickershop_detail_purchase_confirm_plural">
+        <item quantity="other">Купить %1$s (%2$s монеты)?</item>
+        <item quantity="one">Купить %1$s (%2$s монета)?</item>
+        <item quantity="few">Купить %1$s (%2$s монеты)?</item>
+        <item quantity="many">Купить %1$s (%2$s монет)?</item>
+    </plurals>
+    <plurals name="subprofile_editfriends_toast_profileupdatedplural">
+        <item quantity="other">Профиль изменен для %d др.</item>
+        <item quantity="one">Профиль изменен для %d друга</item>
+        <item quantity="few">Профиль изменен для %d др.</item>
+        <item quantity="many">Профиль изменен для %d др.</item>
+    </plurals>
+    <plurals name="subprofile_groupsettings_subtitle_amountofprofile">
+        <item quantity="other">%d профил.</item>
+        <item quantity="one">%d профиль</item>
+        <item quantity="few">%d профил.</item>
+        <item quantity="many">%d профил.</item>
+    </plurals>
+    <plurals name="subprofile_yourprofile_desc_amountoffriend">
+        <item quantity="other">%d др. вид. этот профиль</item>
+        <item quantity="one">%d друг видит этот профиль</item>
+        <item quantity="few">%d др. вид. этот профиль</item>
+        <item quantity="many">%d др. вид. этот профиль</item>
+    </plurals>
+    <plurals name="timeline_bd_list_member_number">
+        <item quantity="other">%s друга</item>
+        <item quantity="one">%s друг</item>
+        <item quantity="few">%s друга</item>
+        <item quantity="many">%s друзей</item>
+    </plurals>
+    <plurals name="timeline_bd_list_member_page">
+        <item quantity="other">%2$s друга пользователя %1$s</item>
+        <item quantity="one">%2$s друг пользователя %1$s</item>
+        <item quantity="few">%2$s друга пользователя %1$s</item>
+        <item quantity="many">%2$s друзей пользователя %1$s</item>
+    </plurals>
+    <plurals name="timeline_bdboardcard_desc_likes">
+        <item quantity="other">Нравится: %s</item>
+        <item quantity="one">Нравится: %s</item>
+        <item quantity="few">Нравится: %s</item>
+        <item quantity="many">Нравится: %s</item>
+    </plurals>
+    <plurals name="timeline_eventstoryinfo_desc_numberofuserswholikedstory">
+        <item quantity="other">%s людям понравилась ваша история.</item>
+        <item quantity="one">%s человеку понравилась ваша история.</item>
+        <item quantity="few">%s людям понравилась ваша история.</item>
+        <item quantity="many">%s людям понравилась ваша история.</item>
+    </plurals>
+    <plurals name="timeline_eventstoryinfo_desc_numberofuserswhoviewedstory">
+        <item quantity="other">%s человек просмотрели вашу историю.</item>
+        <item quantity="one">%s человек просмотрел вашу историю.</item>
+        <item quantity="few">%s человек просмотрели вашу историю.</item>
+        <item quantity="many">%s человек просмотрели вашу историю.</item>
+    </plurals>
+    <plurals name="timeline_home_profile_postcount">
+        <item quantity="other">%s публикаций</item>
+        <item quantity="one">%s публикация</item>
+        <item quantity="few">%s публикации</item>
+        <item quantity="many">%s публикаций</item>
+    </plurals>
+    <plurals name="timeline_intro_statusdesc_followingfriends">
+        <item quantity="other">В подписках %d друзей</item>
+        <item quantity="one">В подписках %d друг</item>
+        <item quantity="few">В подписках %d друга</item>
+        <item quantity="many">В подписках %d друзей</item>
+    </plurals>
+    <plurals name="timeline_intro_statusdesc_followingofficialaccount">
+        <item quantity="other">В подписках %d оф. аккаунтов</item>
+        <item quantity="one">В подписках %d оф. аккаунт</item>
+        <item quantity="few">В подписках %d оф. аккаунта</item>
+        <item quantity="many">В подписках %d оф. аккаунта</item>
+    </plurals>
+    <plurals name="timeline_intro_statusdesc_selectedkeyword">
+        <item quantity="other">Выбрано %d ключевых слов</item>
+        <item quantity="one">Выбрано %d ключевое слово</item>
+        <item quantity="few">Выбрано %d ключевого слова</item>
+        <item quantity="many">Выбрано %d ключевых слова</item>
+    </plurals>
+    <plurals name="timeline_intro_title_followingfriends">
+        <item quantity="other">Подписаться на &lt;font color="#22BA4F">%d&lt;/font> друзей</item>
+        <item quantity="one">Подписаться на &lt;font color="#22BA4F">%d&lt;/font> друга</item>
+        <item quantity="few">Подписаться на &lt;font color="#22BA4F">%d&lt;/font> друзей</item>
+        <item quantity="many">Подписаться на &lt;font color="#22BA4F">%d&lt;/font> друзей</item>
+    </plurals>
+    <plurals name="timeline_intro_title_followingofficialaccount">
+        <item quantity="other">Подписаться на &lt;font color="#22BA4F">%d&lt;/font> официального аккаунта</item>
+        <item quantity="one">Подписаться на &lt;font color="#22BA4F">%d&lt;/font> официальный аккаунт</item>
+        <item quantity="few">Подписаться на &lt;font color="#22BA4F">%d&lt;/font> официальных аккаунта</item>
+        <item quantity="many">Подписаться на &lt;font color="#22BA4F">%d&lt;/font> официальных аккаунтов</item>
+    </plurals>
+    <plurals name="timeline_managefriendsandfollows_desc_friendcount">
+        <item quantity="other">%s друзей</item>
+        <item quantity="one">%s друг</item>
+        <item quantity="few">%s друзей</item>
+        <item quantity="many">%s друзей</item>
+    </plurals>
+    <plurals name="timeline_netacard_summary_usercount">
+        <item quantity="other">чел. присоед.</item>
+        <item quantity="one">чел. присоед.</item>
+        <item quantity="few">чел. присоед.</item>
+        <item quantity="many">чел. присоед.</item>
+    </plurals>
+    <plurals name="timeline_netacard_usercount">
+        <item quantity="other">%s чел. присоед.</item>
+        <item quantity="one">%s чел. присоед.</item>
+        <item quantity="few">%s чел. присоед.</item>
+        <item quantity="many">%s чел. присоед.</item>
+    </plurals>
+    <plurals name="timeline_privacysettings_desc_customlists">
+        <item quantity="other">%1$s и %2$d других</item>
+        <item quantity="one">%1$s и %2$d другой</item>
+        <item quantity="few">%1$s и %2$d другого</item>
+        <item quantity="many">%1$s и %2$d других</item>
+    </plurals>
+    <plurals name="timeline_privacysettings_desc_customusers">
+        <item quantity="other">и еще: %1$d</item>
+        <item quantity="one">и еще: %1$d</item>
+        <item quantity="few">и еще: %1$d</item>
+        <item quantity="many">и еще: %1$d</item>
+    </plurals>
+    <plurals name="timeline_reaction_comments">
+        <item quantity="other">Коммент.: %s</item>
+        <item quantity="one">Коммент.: %s</item>
+        <item quantity="few">Коммент.: %s</item>
+        <item quantity="many">Коммент.: %s</item>
+    </plurals>
+    <plurals name="timeline_reaction_likes">
+        <item quantity="other">Нравится: %s</item>
+        <item quantity="one">Нравится: %s</item>
+        <item quantity="few">Нравится: %s</item>
+        <item quantity="many">Нравится: %s</item>
+    </plurals>
+    <plurals name="timeline_reaction_shares">
+        <item quantity="other">Поделились: %s</item>
+        <item quantity="one">Поделились: %s</item>
+        <item quantity="few">Поделились: %s</item>
+        <item quantity="many">Поделились: %s</item>
+    </plurals>
+    <plurals name="timeline_sound_desc_numberofvideosforsound">
+        <item quantity="other">Видео: %s</item>
+        <item quantity="one">Видео: %s</item>
+        <item quantity="few">Видео: %s</item>
+        <item quantity="many">Видео: %s</item>
+    </plurals>
+    <plurals name="timeline_story_reaction_likes">
+        <item quantity="other">Нравится: %s</item>
+        <item quantity="one">Нравится: %s</item>
+        <item quantity="few">Нравится: %s</item>
+        <item quantity="many">Нравится: %s</item>
+    </plurals>
+    <plurals name="timeline_storyviewer_desc_like">
+        <item quantity="other">%s отметок «Нравится»</item>
+        <item quantity="one">%s отметок «Нравится»</item>
+        <item quantity="few">%s отметок «Нравится»</item>
+        <item quantity="many">%s отметка «Нравится»</item>
+    </plurals>
+    <plurals name="timeline_storyviewer_desc_viewer">
+        <item quantity="other">%s просмотров</item>
+        <item quantity="one">%s просмотр</item>
+        <item quantity="few">%s просмотров</item>
+        <item quantity="many">%s просмотров</item>
+    </plurals>
+    <plurals name="timeline_userfollowinfo_tab_followers">
+        <item quantity="other">Подписчиков: %s</item>
+        <item quantity="one">Подписчиков: %s</item>
+        <item quantity="few">Подписчиков: %s</item>
+        <item quantity="many">Подписчиков: %s</item>
+    </plurals>
+    <plurals name="timeline_userfollowinfo_tab_followersbold">
+        <item quantity="other">Подписчиков: &lt;b>%s&lt;/b></item>
+        <item quantity="one">Подписчиков: &lt;b>%s&lt;/b></item>
+        <item quantity="few">Подписчиков: &lt;b>%s&lt;/b></item>
+        <item quantity="many">Подписчиков: &lt;b>%s&lt;/b></item>
+    </plurals>
+    <plurals name="timeline_userprofile_desc_followercount">
+        <item quantity="other">Подписчики: &lt;b>%1$s&lt;/b></item>
+        <item quantity="one">Подписчик: &lt;b>%1$s&lt;/b></item>
+        <item quantity="few">Подписчики: &lt;b>%1$s&lt;/b></item>
+        <item quantity="many">Подписчики: &lt;b>%1$s&lt;/b></item>
+    </plurals>
+    <plurals name="timeline_video_viewers">
+        <item quantity="other">%d просмотра</item>
+        <item quantity="one">%d просмотр</item>
+        <item quantity="few">%d просмотра</item>
+        <item quantity="many">%d просмотров</item>
+    </plurals>
+    <plurals name="timeline_voomcommentsection_button_seemorereplies">
+        <item quantity="other">Показать еще %d ответа</item>
+        <item quantity="one">Показать еще %d ответ</item>
+        <item quantity="few">Показать еще %d ответа</item>
+        <item quantity="many">Показать еще %d ответов</item>
+    </plurals>
+    <plurals name="timeline_voomlive_button_endofpreviewcountdown">
+        <item quantity="other">Предпросм. законч. через %d с.</item>
+        <item quantity="one">Предпросм. законч. через %d с.</item>
+        <item quantity="few">Предпросм. законч. через %d с.</item>
+        <item quantity="many">Предпросм. законч. через %d с.</item>
+    </plurals>
+    <plurals name="timeline_write_sharescope_desc_closefriends">
+        <item quantity="other">— Публикация видна %s друга.</item>
+        <item quantity="one">— Публикация видна %s другу.</item>
+        <item quantity="few">— Публикация видна %s друзьям.</item>
+        <item quantity="many">— Публикация видна %s друзьям.</item>
+    </plurals>
+    <plurals name="timeline_write_sharescope_desc_closefriendsnoimage">
+        <item quantity="other">Публикация видна %s друга.</item>
+        <item quantity="one">Публикация видна %s другу.</item>
+        <item quantity="few">Публикация видна %s друзьям.</item>
+        <item quantity="many">Публикация видна %s друзьям.</item>
+    </plurals>
+    <plurals name="totalcount_p">
+        <item quantity="other">Всего %d</item>
+        <item quantity="one">Всего %d</item>
+        <item quantity="few">Всего %d</item>
+        <item quantity="many">Всего %d</item>
+    </plurals>
+    <plurals name="view_more_comment_p">
+        <item quantity="other">Комментарии %d</item>
+        <item quantity="one">Комментарии %d</item>
+        <item quantity="few">Комментарии %d</item>
+        <item quantity="many">Комментарии %d</item>
+    </plurals>
+    <plurals name="wallet_financial_coin">
+        <item quantity="other">%d монеты</item>
+        <item quantity="one">%d монета</item>
+        <item quantity="few">%d монеты</item>
+        <item quantity="many">%d монет</item>
+    </plurals>
+    <plurals name="wallet_financial_point">
+        <item quantity="other">%d балла</item>
+        <item quantity="one">%d балл</item>
+        <item quantity="few">%d балла</item>
+        <item quantity="many">%d баллов</item>
+    </plurals>
+    <plurals name="wallet_hotdeal_until_plurals">
+        <item quantity="other">Осталось дней: %d</item>
+        <item quantity="one">Осталось дней: %d</item>
+        <item quantity="few">Осталось дней: %d</item>
+        <item quantity="many">Осталось дней: %d</item>
+    </plurals>
+</resources>

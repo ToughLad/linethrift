@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:duration="200" android:startOffset="4000" android:valueFrom="0.0dip" android:valueTo="-6.0dip" android:propertyName="translationY" />
+    <objectAnimator android:duration="200" android:startOffset="4200" android:valueFrom="-6.0dip" android:valueTo="-2.0dip" android:propertyName="translationY" />
+    <objectAnimator android:duration="200" android:startOffset="4400" android:valueFrom="-2.0dip" android:valueTo="-6.0dip" android:valueType="floatType" android:propertyName="translationY" />
+    <objectAnimator android:duration="300" android:startOffset="4600" android:valueFrom="-6.0dip" android:valueTo="0.0dip" android:propertyName="translationY" />
+    <objectAnimator android:duration="200" android:startOffset="9000" android:valueFrom="0.0dip" android:valueTo="-6.0dip" android:propertyName="translationY" />
+    <objectAnimator android:duration="200" android:startOffset="9200" android:valueFrom="-6.0dip" android:valueTo="-2.0dip" android:propertyName="translationY" />
+    <objectAnimator android:duration="200" android:startOffset="9400" android:valueFrom="-2.0dip" android:valueTo="-6.0dip" android:propertyName="translationY" />
+    <objectAnimator android:duration="300" android:startOffset="9600" android:valueFrom="-6.0dip" android:valueTo="0.0dip" android:propertyName="translationY" />
+</set>

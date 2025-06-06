@@ -1,0 +1,57 @@
+.class public final Li71/a$y;
+.super Li71/a;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Li71/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "y"
+.end annotation
+
+
+# virtual methods
+.method public final e()Ljava/util/Map;
+    .locals 4
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Map<",
+            "Lq21/j;",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+
+    sget-object v0, Li71/a;->Companion:Li71/a$a;
+
+    invoke-super {p0}, Li71/a;->e()Ljava/util/Map;
+
+    move-result-object p0
+
+    const/4 v1, 0x2
+
+    new-array v1, v1, [Lq21/j;
+
+    sget-object v2, Lh71/e;->SPEAKER_AMOUNT:Lh71/e;
+
+    const/4 v3, 0x0
+
+    aput-object v2, v1, v3
+
+    sget-object v2, Lh71/e;->LISTENER_AMOUNT:Lh71/e;
+
+    const/4 v3, 0x1
+
+    aput-object v2, v1, v3
+
+    invoke-static {v0, p0, v1}, Li71/a$a;->b(Li71/a$a;Ljava/util/Map;[Lq21/j;)Ljava/util/LinkedHashMap;
+
+    move-result-object p0
+
+    return-object p0
+.end method

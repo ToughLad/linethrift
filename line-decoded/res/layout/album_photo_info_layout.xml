@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/album_photo_info_background_color" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/photo_info_container" android:background="@color/primaryBackground" android:paddingLeft="15.0dip" android:paddingTop="22.0dip" android:paddingRight="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/photo_owner_row" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/photo_info_item_row">
+            <TextView android:textColor="@color/primarySubText" android:id="@id/photo_owner_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/album_photoviewer_desc_uploadedby" style="@style/photo_info_item_title_font" />
+            <TextView android:textColor="@color/primarySub2Text" android:gravity="right" android:id="@id/photo_owner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_toRightOf="@id/photo_owner_title" style="@style/photo_info_item_data_font" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/photo_updated_time_row" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/photo_info_item_row">
+            <TextView android:textColor="@color/primarySubText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/album_photoviewer_desc_timeupdated" style="@style/photo_info_item_title_font" />
+            <TextView android:textColor="@color/primarySub2Text" android:id="@id/photo_added_time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/photo_info_item_data_font" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/photo_created_time_row" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/photo_info_item_row">
+            <TextView android:textColor="@color/primarySubText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/album_photoviewer_desc_timecreated" style="@style/photo_info_item_title_font" />
+            <TextView android:textColor="@color/primarySub2Text" android:id="@id/photo_created_time" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/photo_info_item_data_font" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/photo_resolution_row" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/photo_info_item_row">
+            <TextView android:textColor="@color/primarySubText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/album_photoviewer_desc_resolution" style="@style/photo_info_item_title_font" />
+            <TextView android:textColor="@color/primarySub2Text" android:id="@id/photo_resolution" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/photo_info_item_data_font" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

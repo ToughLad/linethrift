@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="10.0dip" android:requiresFadingEdge="vertical" app:layout_constraintBottom_toTopOf="@id/back" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="24.0dip" android:paddingEnd="24.0dip">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/registration_title_margin_top" android:text="@string/startUpFlow_fbLoginFailed_lbl_title" style="@style/Registration.Title" />
+            <TextView android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/registration_description_margin_top" style="@style/Registration.Description" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:id="@id/back" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" android:text="@string/startUpFlow_fbLoginFailed_btn_back" android:layout_marginHorizontal="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/Registration.GreenButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

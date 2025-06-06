@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/chat_ui_editmode_bottom_button_radius" />
+            <solid android:color="@color/primarySurfacePressed" />
+            <stroke android:width="@dimen/chat_ui_simple_button_stroke_width" android:color="@color/primaryNeutralFill_pressed" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/chat_ui_editmode_bottom_button_radius" />
+            <solid android:color="@color/primarySurface" />
+            <stroke android:width="@dimen/chat_ui_simple_button_stroke_width" android:color="@color/primaryNeutralFill" />
+        </shape>
+    </item>
+</selector>

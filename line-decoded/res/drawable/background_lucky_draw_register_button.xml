@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/lucky_draw_register_button_radius" />
+    <gradient android:startColor="@color/glc_lucky_draw_banner_color_gradient_start" android:endColor="@color/glc_lucky_draw_banner_color_gradient_end" android:angle="0.0" />
+</shape>

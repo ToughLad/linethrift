@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="4.0dip" android:paddingTop="33.329987dip" android:paddingRight="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/noticenter_touch_ignore" android:background="#00000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="7.0dip" android:layout_marginTop="50.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/noticenter_result_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/notification_center_empty_image" android:paddingBottom="11.329987dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff55607f" android:gravity="center" android:id="@id/notification_center_empty_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.329987dip" android:text="@string/notification_center_result_empty" />
+        </LinearLayout>
+        <ListView android:id="@id/noticenter_listview" android:visibility="visible" android:fadingEdge="none" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0.0dip" android:selectable="false" />
+        <RelativeLayout android:id="@id/noticenter_progress" android:background="@drawable/notification_center_rounded_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:layout_gravity="center" android:layout_width="30.0dip" android:layout_height="30.0dip" android:indeterminateDrawable="@drawable/progress_circle_blue" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:id="@id/notification_center_bg" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="13.329987sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_horizontal" android:id="@id/notification_center_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="26.669983dip" android:layout_marginBottom="7.3299866dip" android:text="@string/notification_center_title" android:includeFontPadding="false" />
+</RelativeLayout>

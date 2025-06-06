@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="noHideDescendants"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guide_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintGuide_begin="0.0dip" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/guide_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintGuide_end="0.0dip" />
+    <View android:id="@id/gradient_bg_top" android:background="@drawable/group_video_clean_gradient_top" android:layout_width="0.0dip" android:layout_height="116.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="@id/guide_vertical" app:layout_constraintTop_toBottomOf="@id/guide_horizontal" />
+    <ImageView android:id="@id/water_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/common_icon_watermark" app:layout_constraintRight_toRightOf="@id/guide_vertical" app:layout_constraintTop_toBottomOf="@id/guide_horizontal" />
+    <com.linecorp.voip2.service.groupcall.video.view.custom.TouchIgnoreRecyclerView android:id="@id/indicator" android:layout_width="wrap_content" android:layout_height="@dimen/group_video_page_indicator_size" android:layout_marginTop="22.0dip" app:layout_constrainedWidth="true" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/guide_horizontal" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/docuemnt_fragment_blankview" android:background="@drawable/pay_shape_ientification_file_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/docuemnt_fragment_blankview_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/linegray400" android:id="@id/docuemnt_fragment_blankview_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+    </LinearLayout>
+    <ImageView android:id="@id/docuemnt_fragment_imageview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/docuemnt_fragment_frameview" android:background="@drawable/pay_img_bg_outline" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

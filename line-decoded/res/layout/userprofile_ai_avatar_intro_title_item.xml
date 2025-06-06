@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="26.0sp" android:textStyle="bold" android:textColor="@color/defaultText" android:ellipsize="end" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="4.0dip" android:text="@string/profile_aiavatar_title_exploreaiavatarstyles" android:maxLines="3" android:fontFamily="sans-serif" android:layout_marginEnd="55.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

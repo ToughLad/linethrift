@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/error_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gallary_ic_error" />
+    <ImageView android:id="@id/retry_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gallary_ic_re" />
+    <TextView android:gravity="center_horizontal" android:id="@id/error_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" style="@style/text_gallery_content03" />
+    <Button android:id="@id/error_button" android:text="@string/gallery_retry" style="@style/photoFailViewButton" />
+    <Button android:id="@id/safe_filter_button" android:visibility="gone" android:text="@string/gallery_safe_filter_check" style="@style/photoFailViewButton" />
+</LinearLayout>

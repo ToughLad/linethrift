@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="@dimen/voom_camera_core_video_seekbar_default_handle_height" android:width="@dimen/voom_camera_core_video_seekbar_default_handle_width">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="32.0dip" android:width="4.0dip">
+        <shape android:shape="rectangle">
+            <corners android:radius="8.0dip" />
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+</layer-list>

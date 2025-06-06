@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/header_area" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <jp.naver.line.android.common.view.header.Header android:id="@id/common_header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="1.0dip" />
+        <ViewStub android:id="@id/wallet_tab_line_point_club_header_view_stub" android:layout="@layout/wallet_tab_line_point_club_header_layout_new_design" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/wallet_scrolling_content_background" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/wallet_scrolling_content_view" android:paddingTop="@dimen/wallet_module_list_top_padding" android:paddingBottom="22.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

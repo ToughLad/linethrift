@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/catalog_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/catalog_grid" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+            <com.linecorp.com.lds.ui.spinner.LdsSpinner android:layout_gravity="center" android:id="@id/catalog_loading_spinner" android:layout_width="40.0dip" android:layout_height="40.0dip" app:spinnerSize="auto" />
+            <ViewStub android:id="@id/lights_catalog_empty_view_stub" android:layout="@layout/lights_catalog_empty_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/lights_catalog_header_toolbar_height" />
+            <ViewStub android:id="@id/lights_catalog_error_view_stub" android:visibility="gone" android:layout="@layout/lights_catalog_error_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include android:layout_gravity="bottom|center" android:id="@id/catalog_use_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="29.0dip" layout="@layout/lights_catalog_use_button" />
+            <include android:id="@id/catalog_header" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/lights_catalog_header" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

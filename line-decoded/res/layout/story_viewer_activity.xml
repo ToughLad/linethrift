@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.linecorp.line.story.impl.viewer.view.StoryViewerLayout android:id="@id/story_viewer" android:background="@android:color/background_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/story_list" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/loading_binding" layout="@layout/story_viewer_loading" />
+    <ViewStub android:id="@id/guide_friend_stub" android:layout="@layout/story_viewer_guide_friend" android:inflatedId="@id/guide_friend" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/guide_unknown_user_stub" android:layout="@layout/story_viewer_guide_unknown_user" android:inflatedId="@id/guide_unknown_user" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.linecorp.line.story.impl.viewer.view.StoryViewerLayout>

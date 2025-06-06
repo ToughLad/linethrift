@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="50.0dip" android:layout_height="50.0dip" android:contentDescription="@string/access_call_photobooth_button_beauty"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/icon_container" android:background="@drawable/photo_booth_beauty_setting_icon_background" android:focusable="false" android:visibility="gone" android:duplicateParentState="true" android:layout_width="40.0dip" android:layout_height="40.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/icon" android:focusable="false" android:duplicateParentState="true" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/photo_booth_beauty_setting_icon" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@id/thumbnail_container" android:background="@drawable/photo_booth_beauty_setting_thumbnail_border" android:focusable="false" android:duplicateParentState="true" android:layout_width="44.0dip" android:layout_height="44.0dip">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/thumbnail" android:background="@drawable/photo_booth_beauty_setting_thumbnail_background" android:focusable="false" android:duplicateParentState="true" android:layout_width="38.0dip" android:layout_height="38.0dip" />
+    </FrameLayout>
+    <View android:layout_gravity="center|right|top" android:id="@id/new_dot" android:background="@drawable/shape_5dp_round_corner_green_rectangle" android:focusable="false" android:layout_width="5.0dip" android:layout_height="5.0dip" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.line.album.ui.moa.photoviewer.NestedZoomImageViewHost android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <jp.naver.line.android.common.view.media.ZoomImageView android:id="@id/zoom_image_view" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.linecorp.line.album.ui.moa.photoviewer.NestedZoomImageViewHost>
+    <ProgressBar android:id="@id/photo_viewer_progress_bar" android:layout_width="39.0dip" android:layout_height="30.0dip" android:indeterminate="true" android:indeterminateTint="@color/linegray100" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include layout="@layout/album_photo_viewer_retry_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.linecorp.line.ladsdk.ui.v2.common.lifecycle.LyadAdView android:id="@id/lad_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.line.ladsdk.ui.v2.asset.carousel.LyadSlotAssetRecyclerView android:id="@id/slot_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" app:isViewPager="true" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.linecorp.line.ladsdk.ui.v2.common.lifecycle.LyadAdView>

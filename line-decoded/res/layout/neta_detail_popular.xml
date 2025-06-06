@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom" android:id="@id/popular" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="114.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/popular_profile_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="12.0sp" android:textColor="#ffffffff" android:layout_gravity="bottom|center" android:id="@id/popular_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="19.0dip" android:layout_marginRight="19.0dip" android:layout_marginBottom="14.5dip" android:lines="1" android:shadowColor="#4c000000" android:shadowRadius="1.0" style="@style/commonFont" />
+</FrameLayout>

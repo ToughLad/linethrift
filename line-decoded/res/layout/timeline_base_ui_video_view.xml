@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:id="@id/dummy_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.linecorp.line.player.ui.view.LineVideoView android:id="@id/line_video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/thumbnail_view" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ViewStub android:id="@id/replay_and_action_button_stub" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/resume_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_lds_player_module_play" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/sound_icon_view" android:visibility="gone" android:layout_width="23.0dip" android:layout_height="23.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    <ViewStub android:id="@id/video_error_view" android:visibility="gone" android:layout="@layout/timeline_video_error_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_centerInParent="true" android:indeterminateTint="@color/linegray350" />
+    <ViewStub android:id="@id/video_geo_block_mask" android:visibility="gone" android:layout="@layout/timeline_video_geo_block_mask" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</merge>

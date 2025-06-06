@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.line.media.editor.DecorationView android:id="@id/media_detail_decoration_view" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/access_picker_photo" />
+    <com.linecorp.line.media.picker.fragment.sticker.view.CustomToastView android:id="@id/toast" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="410.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <com.linecorp.line.media.picker.fragment.detail.CircleGuideView android:id="@id/media_detail_circle_guide_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" custom:circleBackgroundColor="@color/black" custom:rectangleBackgroundColor="@color/black60" />
+</merge>

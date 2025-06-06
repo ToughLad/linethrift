@@ -1,0 +1,71 @@
+.class public final synthetic Lqh0/j0$a;
+.super Lkotlin/jvm/internal/m;
+.source "SourceFile"
+
+# interfaces
+.implements Lxk1/l;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lqh0/j0;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1001
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/m;",
+        "Lxk1/l<",
+        "Landroid/text/Spanned;",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    check-cast p1, Landroid/text/Spanned;
+
+    const-string v0, "p0"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p0, p0, Lkotlin/jvm/internal/d;->receiver:Ljava/lang/Object;
+
+    check-cast p0, Lqh0/k0;
+
+    iget-object v0, p0, Lqh0/k0;->E:Landroid/widget/TextView;
+
+    invoke-virtual {v0, p1}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
+
+    iget-object p1, p0, Lqh0/k0;->L:Lkotlin/Lazy;
+
+    invoke-interface {p1}, Lkotlin/Lazy;->getValue()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, LKh0/d0;
+
+    iget-object p0, p0, Lqh0/k0;->M:Lkotlin/Lazy;
+
+    invoke-interface {p0}, Lkotlin/Lazy;->getValue()Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, LiZ0/b;
+
+    const/4 v1, 0x1
+
+    invoke-interface {p1, v0, p0, v1}, LKh0/d0;->a(Landroid/widget/TextView;LiZ0/b;Z)V
+
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method

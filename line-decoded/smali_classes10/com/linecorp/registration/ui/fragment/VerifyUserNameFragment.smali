@@ -1,0 +1,248 @@
+.class public final Lcom/linecorp/registration/ui/fragment/VerifyUserNameFragment;
+.super Lcom/linecorp/registration/ui/fragment/RegistrationBaseFragment;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0008\u0001\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u00a8\u0006\u0004"
+    }
+    d2 = {
+        "Lcom/linecorp/registration/ui/fragment/VerifyUserNameFragment;",
+        "Lcom/linecorp/registration/ui/fragment/RegistrationBaseFragment;",
+        "<init>",
+        "()V",
+        "registration-impl_release"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field public final h:LeE0/a;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LeE0/a<",
+            "Lie0/O;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final i:LNi/d;
+
+.field public final j:LpV0/c;
+
+.field public final k:Ljava/lang/String;
+
+.field public final l:LoU0/a;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    invoke-direct {p0}, Lcom/linecorp/registration/ui/fragment/RegistrationBaseFragment;-><init>()V
+
+    new-instance v0, LeE0/a;
+
+    sget-object v1, Lcom/linecorp/registration/ui/fragment/VerifyUserNameFragment$b;->a:Lcom/linecorp/registration/ui/fragment/VerifyUserNameFragment$b;
+
+    invoke-direct {v0, v1}, LeE0/a;-><init>(Lxk1/l;)V
+
+    iput-object v0, p0, Lcom/linecorp/registration/ui/fragment/VerifyUserNameFragment;->h:LeE0/a;
+
+    sget-object v0, Lge0/c;->r6:Lge0/c$a;
+
+    invoke-static {v0, p0}, LDd/t;->e(LNi/a;Landroidx/fragment/app/k;)LNi/d;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lcom/linecorp/registration/ui/fragment/VerifyUserNameFragment;->i:LNi/d;
+
+    sget-object v0, LpV0/c;->CONFIRM_START_OVER_FROM_ENTER_PIN:LpV0/c;
+
+    iput-object v0, p0, Lcom/linecorp/registration/ui/fragment/VerifyUserNameFragment;->j:LpV0/c;
+
+    const-string v0, "registration_accountfound"
+
+    iput-object v0, p0, Lcom/linecorp/registration/ui/fragment/VerifyUserNameFragment;->k:Ljava/lang/String;
+
+    sget-object v0, LoU0/a;->DEFAULT:LoU0/a;
+
+    iput-object v0, p0, Lcom/linecorp/registration/ui/fragment/VerifyUserNameFragment;->l:LoU0/a;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onCreateView(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;
+    .locals 0
+
+    const-string p2, "inflater"
+
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p2, p0, Lcom/linecorp/registration/ui/fragment/VerifyUserNameFragment;->h:LeE0/a;
+
+    invoke-virtual {p2, p0, p1}, LeE0/a;->a(Landroidx/fragment/app/k;Landroid/view/LayoutInflater;)Landroid/view/View;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+    .locals 4
+
+    const-string v0, "view"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-super {p0, p1, p2}, Lcom/linecorp/registration/ui/fragment/RegistrationBaseFragment;->onViewCreated(Landroid/view/View;Landroid/os/Bundle;)V
+
+    iget-object p1, p0, Lcom/linecorp/registration/ui/fragment/VerifyUserNameFragment;->h:LeE0/a;
+
+    iget-object p1, p1, LeE0/a;->b:Ly5/a;
+
+    if-eqz p1, :cond_0
+
+    check-cast p1, Lie0/O;
+
+    iget-object p2, p1, Lie0/O;->d:Landroid/widget/ImageView;
+
+    invoke-virtual {p0}, Lcom/linecorp/registration/ui/fragment/RegistrationBaseFragment;->w3()LyV0/k;
+
+    move-result-object v0
+
+    invoke-virtual {p0}, Landroidx/fragment/app/k;->getViewLifecycleOwner()Landroidx/lifecycle/J;
+
+    move-result-object v1
+
+    new-instance v2, LQT0/a;
+
+    const/4 v3, 0x2
+
+    invoke-direct {v2, v3, p0, p2}, LQT0/a;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
+
+    new-instance p2, Lcom/linecorp/registration/ui/fragment/VerifyUserNameFragment$a;
+
+    invoke-direct {p2, v2}, Lcom/linecorp/registration/ui/fragment/VerifyUserNameFragment$a;-><init>(Lxk1/l;)V
+
+    iget-object v0, v0, LyV0/k;->L:Landroidx/lifecycle/S;
+
+    invoke-virtual {v0, v1, p2}, Landroidx/lifecycle/O;->g(Landroidx/lifecycle/J;Landroidx/lifecycle/U;)V
+
+    iget-object p2, p1, Lie0/O;->e:Landroid/widget/TextView;
+
+    invoke-virtual {p0}, Lcom/linecorp/registration/ui/fragment/RegistrationBaseFragment;->w3()LyV0/k;
+
+    move-result-object v0
+
+    new-instance v1, LAx/y;
+
+    const/4 v2, 0x3
+
+    invoke-direct {v1, v2, p2, p0}, LAx/y;-><init>(ILjava/lang/Object;Ljava/lang/Object;)V
+
+    iget-object p2, v0, LyV0/k;->D:Landroidx/lifecycle/S;
+
+    invoke-static {p0, p2, v1}, Lrg/e;->f(Landroidx/lifecycle/J;Landroidx/lifecycle/O;Lxk1/l;)V
+
+    iget-object p2, p1, Lie0/O;->b:Landroid/widget/TextView;
+
+    invoke-virtual {p2}, Landroid/view/View;->getContext()Landroid/content/Context;
+
+    move-result-object v0
+
+    const v1, 0x7f0603a4
+
+    invoke-virtual {v0, v1}, Landroid/content/Context;->getColor(I)I
+
+    move-result v0
+
+    invoke-virtual {p0}, Lcom/linecorp/registration/ui/fragment/RegistrationBaseFragment;->w3()LyV0/k;
+
+    move-result-object v1
+
+    new-instance v2, LrV0/S;
+
+    invoke-direct {v2, p0, p2, v0}, LrV0/S;-><init>(Lcom/linecorp/registration/ui/fragment/VerifyUserNameFragment;Landroid/widget/TextView;I)V
+
+    iget-object p2, v1, LyV0/k;->X:Landroidx/lifecycle/S;
+
+    invoke-static {p0, p2, v2}, Lrg/e;->f(Landroidx/lifecycle/J;Landroidx/lifecycle/O;Lxk1/l;)V
+
+    new-instance p2, LGf/o;
+
+    const/4 v0, 0x2
+
+    invoke-direct {p2, p0, v0}, LGf/o;-><init>(Ljava/lang/Object;I)V
+
+    const-string v0, "another_account_creation_warning_dialog_fragment_request"
+
+    invoke-static {p0, v0, p2}, LDl1/k0;->h(Landroidx/fragment/app/k;Ljava/lang/String;Lxk1/p;)V
+
+    new-instance p2, LD30/c;
+
+    const/16 v0, 0x11
+
+    invoke-direct {p2, p0, v0}, LD30/c;-><init>(Ljava/lang/Object;I)V
+
+    iget-object v0, p1, Lie0/O;->f:Lcom/linecorp/com/lds/ui/boxbutton/ObsoleteLdsBoxButton;
+
+    invoke-virtual {v0, p2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    new-instance p2, LD30/d;
+
+    const/16 v0, 0x12
+
+    invoke-direct {p2, p0, v0}, LD30/d;-><init>(Ljava/lang/Object;I)V
+
+    iget-object p0, p1, Lie0/O;->c:Lcom/linecorp/com/lds/ui/boxbutton/ObsoleteLdsBoxButton;
+
+    invoke-virtual {p0, p2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
+
+    return-void
+
+    :cond_0
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    const-string p1, "Required value was null."
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public final u3()LoU0/a;
+    .locals 0
+
+    iget-object p0, p0, Lcom/linecorp/registration/ui/fragment/VerifyUserNameFragment;->l:LoU0/a;
+
+    return-object p0
+.end method
+
+.method public final x3()Ljava/lang/String;
+    .locals 0
+
+    iget-object p0, p0, Lcom/linecorp/registration/ui/fragment/VerifyUserNameFragment;->k:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public final y3()LpV0/c;
+    .locals 0
+
+    iget-object p0, p0, Lcom/linecorp/registration/ui/fragment/VerifyUserNameFragment;->j:LpV0/c;
+
+    return-object p0
+.end method

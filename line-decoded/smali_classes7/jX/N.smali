@@ -1,0 +1,36 @@
+.class public final LjX/N;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/io/Serializable;
+
+
+# static fields
+.field private static final serialVersionUID:J
+
+
+# instance fields
+.field public final a:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    sget-wide v0, LjX/v;->a:J
+
+    sput-wide v0, LjX/N;->serialVersionUID:J
+
+    return-void
+.end method
+
+.method public constructor <init>(I)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput p1, p0, LjX/N;->a:I
+
+    return-void
+.end method

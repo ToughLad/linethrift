@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/main_container" android:background="@drawable/selector_tag_search_category_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/sticker_view" android:layout_width="40.0dip" android:layout_height="34.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/tag_cluster_main_image_view_style" />
+    <TextView android:id="@id/title_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" android:layout_marginEnd="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/sticker_view" app:layout_constraintTop_toTopOf="parent" style="@style/tag_cluster_main_text_view_style" />
+</androidx.constraintlayout.widget.ConstraintLayout>

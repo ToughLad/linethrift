@@ -1,0 +1,36 @@
+.class public abstract LKr/a$b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LKr/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x409
+    name = "b"
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        LKr/a$b$a;,
+        LKr/a$b$b;,
+        LKr/a$b$c;,
+        LKr/a$b$d;,
+        LKr/a$b$e;,
+        LKr/a$b$f;,
+        LKr/a$b$g;
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method

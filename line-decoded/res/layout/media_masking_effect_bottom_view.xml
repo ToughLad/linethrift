@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/media_effect_mosaic_button" android:background="@drawable/selector_effect_mosaic_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/access_select_brush_pixelate" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/media_effect_blur_button" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" />
+    <ImageView android:id="@id/media_effect_blur_button" android:background="@drawable/selector_effect_blur_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/access_select_brush_blur" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/media_effect_mosaic_button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

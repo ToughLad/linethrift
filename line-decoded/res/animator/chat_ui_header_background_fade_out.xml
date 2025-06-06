@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:duration="@integer/chat_ui_header_fade_out_animation_duration" android:valueFrom="@color/primaryBackground" android:valueTo="@color/transparent" android:valueType="colorType" android:propertyName="backgroundColor"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

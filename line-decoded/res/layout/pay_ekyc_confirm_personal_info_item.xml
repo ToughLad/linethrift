@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/ekyc_confirm_item_title" android:layout_width="117.0dip" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" app:layout_constraintEnd_toStartOf="@id/ekyc_confirm_item_content" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_percent="0.3" style="@style/pay_ekyc_confirm_personal_info_desc_text_style" />
+        <TextView android:id="@id/ekyc_confirm_item_content" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" app:layout_constraintBaseline_toBaselineOf="@id/ekyc_confirm_item_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/ekyc_confirm_item_title" style="@style/pay_ekyc_personal_info_confirm_text_style" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

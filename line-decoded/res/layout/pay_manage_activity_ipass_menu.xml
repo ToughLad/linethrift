@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/linewhite" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.linecorp.line.pay.manage.tw.biz.main.deck.PayIPassMainBalanceDeckView android:id="@id/balanceDeckView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" app:layout_constraintBottom_toTopOf="@id/webView" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.0" app:layout_constraintVertical_chainStyle="packed" />
+        <WebView android:id="@id/webView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="41.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/balanceDeckView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

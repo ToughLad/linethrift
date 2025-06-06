@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="mtrl_calendar_header_orientation">0</integer>
+    <integer name="mtrl_calendar_selection_text_lines">6</integer>
+    <integer name="picker_gallery_emoji_sticker_item_list_grid_recycler_view_span_count">12</integer>
+    <integer name="picker_gallery_normal_sticker_item_list_grid_recycler_view_span_count">7</integer>
+    <integer name="picker_gallery_recent_sticker_item_list_grid_recycler_view_span_count">7</integer>
+    <integer name="picker_line_sticker_item_list_grid_recycler_view_span_count">7</integer>
+    <integer name="picker_line_sticon_item_list_grid_recycler_view_span_count">9</integer>
+</resources>

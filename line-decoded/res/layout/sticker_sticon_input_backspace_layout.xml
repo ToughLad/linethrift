@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="@dimen/sticker_sticon_input_tab_layout_width" android:layout_height="@dimen/sticker_sticon_input_tab_layout_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/backspace_button_bg_view" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/selector_keyboard_ic_delete_bg" />
+    <ImageView android:id="@id/backspace_button_icon_view" android:layout_width="@dimen/sticker_sticon_input_tab_icon_size" android:layout_height="@dimen/sticker_sticon_input_tab_icon_size" android:src="@drawable/keyboard_ic_delete_x" android:contentDescription="@string/access_delete" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

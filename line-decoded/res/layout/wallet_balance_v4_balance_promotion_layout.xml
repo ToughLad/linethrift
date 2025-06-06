@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="20.0dip" android:paddingEnd="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:id="@id/promotion_text_container" android:background="@drawable/wallet_item_selector_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/pay_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/wallet_balance_v4_line_pay_logo" android:scaleType="center" android:contentDescription="@null" />
+        <TextView android:id="@id/promotion_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="9.0dip" android:paddingEnd="30.0dip" style="@style/wallet_balance_v4_balance_promotion_text" />
+        <ImageView android:id="@id/arrow_icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/wallet_ic_arrow_white" android:contentDescription="@null" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.appcompat.widget.LinearLayoutCompat>

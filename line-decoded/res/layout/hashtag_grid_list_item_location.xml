@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/hashtag_grid_item_content_layout" android:background="@color/secondaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/hashtag_grid_item_location_info" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:layout_gravity="center" android:id="@id/location_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawablePadding="2.0dip" app:drawableStartCompat="@drawable/discover_ic_location" app:drawableTint="@color/quinaryNeutralFill" style="@style/text_hashtag_grid_item_location_title" />
+        <TextView android:id="@id/location_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" style="@style/text_hashtag_grid_item_link_card_description" />
+    </LinearLayout>
+</RelativeLayout>
