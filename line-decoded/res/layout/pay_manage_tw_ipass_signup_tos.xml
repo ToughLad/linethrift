@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="25.5dip" android:layout_marginBottom="18.5dip" android:layout_marginStart="@dimen/pay_manage_ipass_signup_side_margin" android:layout_marginEnd="@dimen/pay_manage_ipass_signup_side_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textColor="@color/linegray600" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pay_ipass_tos_i_agree_to_the_following" />
+    <include android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="30.0dip" android:layout_weight="1.0" android:layout_marginStart="0.0dip" android:layout_marginEnd="0.0dip" layout="@layout/pay_manage_ipass_input_field_container_layout" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+        <ImageView android:id="@id/warning_icon" android:background="@drawable/pay_manage_warning" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginTop="2.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/linegray400" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.5dip" android:text="@string/pay_ipass_tos_warning" android:layout_marginStart="5.5dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/warning_icon" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

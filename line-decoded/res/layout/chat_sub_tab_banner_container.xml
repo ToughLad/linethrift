@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/banners_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/instant_news_view_stub" android:layout="@layout/view_instant_news" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/beacon_layout_view_stub" android:layout="@layout/view_beacon_layer" android:layout_width="fill_parent" android:layout_height="@dimen/beacon_layer_height" />
+    <ViewStub android:id="@id/lan_banner_layout" android:layout="@layout/chatlist_lan_banner_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/smart_ch_view_stub" android:layout="@layout/smartch_view_v2" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

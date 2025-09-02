@@ -1,0 +1,1038 @@
+.class public final Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;
+.super LJ81/r;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "LJ81/r<",
+        "Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0008\u0007\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u0001B\u000f\u0012\u0006\u0010\u0004\u001a\u00020\u0003\u00a2\u0006\u0004\u0008\u0005\u0010\u0006\u00a8\u0006\u0007"
+    }
+    d2 = {
+        "Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;",
+        "LJ81/r;",
+        "Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;",
+        "LJ81/G;",
+        "moshi",
+        "<init>",
+        "(LJ81/G;)V",
+        "pay-transact_release"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field public final a:LJ81/w$b;
+
+.field public final b:LJ81/r;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LJ81/r<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final c:LJ81/r;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LJ81/r<",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final d:LJ81/r;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LJ81/r<",
+            "Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info$MerchantDetail;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final e:LJ81/r;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LJ81/r<",
+            "Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info$AmountInfo;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final f:LJ81/r;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LJ81/r<",
+            "Ljava/util/List<",
+            "Lcom/linecorp/line/pay/transact/payment/http/dto/PaymentAdditionalAgreement;",
+            ">;>;"
+        }
+    .end annotation
+.end field
+
+.field public final g:LJ81/r;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LJ81/r<",
+            "Ljava/util/List<",
+            "Lcom/linecorp/line/pay/transact/payment/http/dto/Accumulation;",
+            ">;>;"
+        }
+    .end annotation
+.end field
+
+.field public final h:LJ81/r;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LJ81/r<",
+            "LM50/e;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final i:LJ81/r;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LJ81/r<",
+            "Ljava/util/List<",
+            "Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info$ExtraPhrase;",
+            ">;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(LJ81/G;)V
+    .locals 20
+
+    move-object/from16 v0, p0
+
+    move-object/from16 v1, p1
+
+    const-string v2, "moshi"
+
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-direct {v0}, LJ81/r;-><init>()V
+
+    const-string v16, "eInvoiceDeliveredYn"
+
+    const-string v17, "paymentType"
+
+    const-string v3, "imageUrl"
+
+    const-string v4, "transactionReserveId"
+
+    const-string v5, "transactionDate"
+
+    const-string v6, "paymentMethod"
+
+    const-string v7, "merchantDetail"
+
+    const-string v8, "amountInfo"
+
+    const-string v9, "paymentInfoPhrase"
+
+    const-string v10, "additionalAgreements"
+
+    const-string v11, "accumulations"
+
+    const-string v12, "confirmNo"
+
+    const-string v13, "paymentMethodAdditionalInfo"
+
+    const-string v14, "productName"
+
+    const-string v15, "orderId"
+
+    const-string v18, "extraPhrases"
+
+    const-string v19, "benefitPhrase"
+
+    filled-new-array/range {v3 .. v19}, [Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v2}, LJ81/w$b;->a([Ljava/lang/String;)LJ81/w$b;
+
+    move-result-object v2
+
+    iput-object v2, v0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->a:LJ81/w$b;
+
+    sget-object v2, Lik1/D;->a:Lik1/D;
+
+    const-class v3, Ljava/lang/String;
+
+    const-string v4, "imageUrl"
+
+    invoke-virtual {v1, v3, v2, v4}, LJ81/G;->c(Ljava/lang/reflect/Type;Ljava/util/Set;Ljava/lang/String;)LJ81/r;
+
+    move-result-object v4
+
+    iput-object v4, v0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->b:LJ81/r;
+
+    const-string v4, "transactionReserveId"
+
+    invoke-virtual {v1, v3, v2, v4}, LJ81/G;->c(Ljava/lang/reflect/Type;Ljava/util/Set;Ljava/lang/String;)LJ81/r;
+
+    move-result-object v3
+
+    iput-object v3, v0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->c:LJ81/r;
+
+    const-string v3, "merchantDetail"
+
+    const-class v4, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info$MerchantDetail;
+
+    invoke-virtual {v1, v4, v2, v3}, LJ81/G;->c(Ljava/lang/reflect/Type;Ljava/util/Set;Ljava/lang/String;)LJ81/r;
+
+    move-result-object v3
+
+    iput-object v3, v0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->d:LJ81/r;
+
+    const-string v3, "amountInfo"
+
+    const-class v4, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info$AmountInfo;
+
+    invoke-virtual {v1, v4, v2, v3}, LJ81/G;->c(Ljava/lang/reflect/Type;Ljava/util/Set;Ljava/lang/String;)LJ81/r;
+
+    move-result-object v3
+
+    iput-object v3, v0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->e:LJ81/r;
+
+    const/4 v3, 0x1
+
+    new-array v4, v3, [Ljava/lang/reflect/Type;
+
+    const-class v5, Lcom/linecorp/line/pay/transact/payment/http/dto/PaymentAdditionalAgreement;
+
+    const/4 v6, 0x0
+
+    aput-object v5, v4, v6
+
+    const-class v5, Ljava/util/List;
+
+    invoke-static {v5, v4}, LJ81/K;->d(Ljava/lang/Class;[Ljava/lang/reflect/Type;)LL81/c$b;
+
+    move-result-object v4
+
+    const-string v7, "additionalAgreements"
+
+    invoke-virtual {v1, v4, v2, v7}, LJ81/G;->c(Ljava/lang/reflect/Type;Ljava/util/Set;Ljava/lang/String;)LJ81/r;
+
+    move-result-object v4
+
+    iput-object v4, v0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->f:LJ81/r;
+
+    new-array v4, v3, [Ljava/lang/reflect/Type;
+
+    const-class v7, Lcom/linecorp/line/pay/transact/payment/http/dto/Accumulation;
+
+    aput-object v7, v4, v6
+
+    invoke-static {v5, v4}, LJ81/K;->d(Ljava/lang/Class;[Ljava/lang/reflect/Type;)LL81/c$b;
+
+    move-result-object v4
+
+    const-string v7, "accumulations"
+
+    invoke-virtual {v1, v4, v2, v7}, LJ81/G;->c(Ljava/lang/reflect/Type;Ljava/util/Set;Ljava/lang/String;)LJ81/r;
+
+    move-result-object v4
+
+    iput-object v4, v0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->g:LJ81/r;
+
+    const-string v4, "paymentType"
+
+    const-class v7, LM50/e;
+
+    invoke-virtual {v1, v7, v2, v4}, LJ81/G;->c(Ljava/lang/reflect/Type;Ljava/util/Set;Ljava/lang/String;)LJ81/r;
+
+    move-result-object v4
+
+    iput-object v4, v0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->h:LJ81/r;
+
+    new-array v3, v3, [Ljava/lang/reflect/Type;
+
+    const-class v4, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info$ExtraPhrase;
+
+    aput-object v4, v3, v6
+
+    invoke-static {v5, v3}, LJ81/K;->d(Ljava/lang/Class;[Ljava/lang/reflect/Type;)LL81/c$b;
+
+    move-result-object v3
+
+    const-string v4, "extraPhrases"
+
+    invoke-virtual {v1, v3, v2, v4}, LJ81/G;->c(Ljava/lang/reflect/Type;Ljava/util/Set;Ljava/lang/String;)LJ81/r;
+
+    move-result-object v1
+
+    iput-object v1, v0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->i:LJ81/r;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final fromJson(LJ81/w;)Ljava/lang/Object;
+    .locals 28
+
+    move-object/from16 v0, p0
+
+    move-object/from16 v1, p1
+
+    const-string v2, "reader"
+
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-virtual {v1}, LJ81/w;->G1()V
+
+    const/4 v2, 0x0
+
+    move-object v4, v2
+
+    move-object v5, v4
+
+    move-object v6, v5
+
+    move-object v7, v6
+
+    move-object v8, v7
+
+    move-object v9, v8
+
+    move-object v10, v9
+
+    move-object v11, v10
+
+    move-object v12, v11
+
+    move-object v13, v12
+
+    move-object v14, v13
+
+    move-object v15, v14
+
+    move-object/from16 v16, v15
+
+    move-object/from16 v17, v16
+
+    move-object/from16 v18, v17
+
+    move-object/from16 v19, v18
+
+    move-object/from16 v20, v19
+
+    :goto_0
+    invoke-virtual {v1}, LJ81/w;->d()Z
+
+    move-result v2
+
+    const-string v3, "transactionReserveId"
+
+    move/from16 v21, v2
+
+    const-string v2, "transactionDate"
+
+    move-object/from16 v22, v4
+
+    const-string v4, "paymentMethod"
+
+    move-object/from16 v23, v5
+
+    const-string v5, "merchantDetail"
+
+    move-object/from16 v24, v6
+
+    const-string v6, "amountInfo"
+
+    move-object/from16 v25, v7
+
+    const-string v7, "paymentInfoPhrase"
+
+    if-eqz v21, :cond_6
+
+    move-object/from16 v21, v8
+
+    iget-object v8, v0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->a:LJ81/w$b;
+
+    invoke-virtual {v1, v8}, LJ81/w;->q(LJ81/w$b;)I
+
+    move-result v8
+
+    move/from16 v26, v8
+
+    iget-object v8, v0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->c:LJ81/r;
+
+    move-object/from16 v27, v9
+
+    iget-object v9, v0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->b:LJ81/r;
+
+    packed-switch v26, :pswitch_data_0
+
+    goto :goto_1
+
+    :pswitch_0
+    invoke-virtual {v9, v1}, LJ81/r;->fromJson(LJ81/w;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    move-object/from16 v20, v2
+
+    check-cast v20, Ljava/lang/String;
+
+    :goto_1
+    move-object/from16 v8, v21
+
+    :goto_2
+    move-object/from16 v4, v22
+
+    :goto_3
+    move-object/from16 v5, v23
+
+    :goto_4
+    move-object/from16 v6, v24
+
+    :goto_5
+    move-object/from16 v7, v25
+
+    :goto_6
+    move-object/from16 v9, v27
+
+    goto :goto_0
+
+    :pswitch_1
+    iget-object v2, v0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->i:LJ81/r;
+
+    invoke-virtual {v2, v1}, LJ81/r;->fromJson(LJ81/w;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    move-object/from16 v19, v2
+
+    check-cast v19, Ljava/util/List;
+
+    goto :goto_1
+
+    :pswitch_2
+    iget-object v2, v0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->h:LJ81/r;
+
+    invoke-virtual {v2, v1}, LJ81/r;->fromJson(LJ81/w;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    move-object/from16 v18, v2
+
+    check-cast v18, LM50/e;
+
+    goto :goto_1
+
+    :pswitch_3
+    invoke-virtual {v9, v1}, LJ81/r;->fromJson(LJ81/w;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    move-object/from16 v17, v2
+
+    check-cast v17, Ljava/lang/String;
+
+    goto :goto_1
+
+    :pswitch_4
+    invoke-virtual {v9, v1}, LJ81/r;->fromJson(LJ81/w;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    move-object/from16 v16, v2
+
+    check-cast v16, Ljava/lang/String;
+
+    goto :goto_1
+
+    :pswitch_5
+    invoke-virtual {v9, v1}, LJ81/r;->fromJson(LJ81/w;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    move-object v15, v2
+
+    check-cast v15, Ljava/lang/String;
+
+    goto :goto_1
+
+    :pswitch_6
+    invoke-virtual {v9, v1}, LJ81/r;->fromJson(LJ81/w;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    move-object v14, v2
+
+    check-cast v14, Ljava/lang/String;
+
+    goto :goto_1
+
+    :pswitch_7
+    invoke-virtual {v9, v1}, LJ81/r;->fromJson(LJ81/w;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    move-object v13, v2
+
+    check-cast v13, Ljava/lang/String;
+
+    goto :goto_1
+
+    :pswitch_8
+    iget-object v2, v0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->g:LJ81/r;
+
+    invoke-virtual {v2, v1}, LJ81/r;->fromJson(LJ81/w;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    move-object v12, v2
+
+    check-cast v12, Ljava/util/List;
+
+    goto :goto_1
+
+    :pswitch_9
+    iget-object v2, v0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->f:LJ81/r;
+
+    invoke-virtual {v2, v1}, LJ81/r;->fromJson(LJ81/w;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    move-object v11, v2
+
+    check-cast v11, Ljava/util/List;
+
+    goto :goto_1
+
+    :pswitch_a
+    invoke-virtual {v8, v1}, LJ81/r;->fromJson(LJ81/w;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    move-object v10, v2
+
+    check-cast v10, Ljava/lang/String;
+
+    if-eqz v10, :cond_0
+
+    goto :goto_1
+
+    :cond_0
+    invoke-static {v7, v7, v1}, LL81/c;->m(Ljava/lang/String;Ljava/lang/String;LJ81/w;)LJ81/t;
+
+    move-result-object v0
+
+    throw v0
+
+    :pswitch_b
+    iget-object v2, v0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->e:LJ81/r;
+
+    invoke-virtual {v2, v1}, LJ81/r;->fromJson(LJ81/w;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    move-object v9, v2
+
+    check-cast v9, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info$AmountInfo;
+
+    if-eqz v9, :cond_1
+
+    move-object/from16 v8, v21
+
+    move-object/from16 v4, v22
+
+    move-object/from16 v5, v23
+
+    move-object/from16 v6, v24
+
+    move-object/from16 v7, v25
+
+    goto/16 :goto_0
+
+    :cond_1
+    invoke-static {v6, v6, v1}, LL81/c;->m(Ljava/lang/String;Ljava/lang/String;LJ81/w;)LJ81/t;
+
+    move-result-object v0
+
+    throw v0
+
+    :pswitch_c
+    iget-object v2, v0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->d:LJ81/r;
+
+    invoke-virtual {v2, v1}, LJ81/r;->fromJson(LJ81/w;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    move-object v8, v2
+
+    check-cast v8, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info$MerchantDetail;
+
+    if-eqz v8, :cond_2
+
+    goto/16 :goto_2
+
+    :cond_2
+    invoke-static {v5, v5, v1}, LL81/c;->m(Ljava/lang/String;Ljava/lang/String;LJ81/w;)LJ81/t;
+
+    move-result-object v0
+
+    throw v0
+
+    :pswitch_d
+    invoke-virtual {v8, v1}, LJ81/r;->fromJson(LJ81/w;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    move-object v7, v2
+
+    check-cast v7, Ljava/lang/String;
+
+    if-eqz v7, :cond_3
+
+    move-object/from16 v8, v21
+
+    move-object/from16 v4, v22
+
+    move-object/from16 v5, v23
+
+    move-object/from16 v6, v24
+
+    goto/16 :goto_6
+
+    :cond_3
+    invoke-static {v4, v4, v1}, LL81/c;->m(Ljava/lang/String;Ljava/lang/String;LJ81/w;)LJ81/t;
+
+    move-result-object v0
+
+    throw v0
+
+    :pswitch_e
+    invoke-virtual {v8, v1}, LJ81/r;->fromJson(LJ81/w;)Ljava/lang/Object;
+
+    move-result-object v3
+
+    move-object v6, v3
+
+    check-cast v6, Ljava/lang/String;
+
+    if-eqz v6, :cond_4
+
+    move-object/from16 v8, v21
+
+    move-object/from16 v4, v22
+
+    move-object/from16 v5, v23
+
+    goto/16 :goto_5
+
+    :cond_4
+    invoke-static {v2, v2, v1}, LL81/c;->m(Ljava/lang/String;Ljava/lang/String;LJ81/w;)LJ81/t;
+
+    move-result-object v0
+
+    throw v0
+
+    :pswitch_f
+    invoke-virtual {v8, v1}, LJ81/r;->fromJson(LJ81/w;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    move-object v5, v2
+
+    check-cast v5, Ljava/lang/String;
+
+    if-eqz v5, :cond_5
+
+    move-object/from16 v8, v21
+
+    move-object/from16 v4, v22
+
+    goto/16 :goto_4
+
+    :cond_5
+    invoke-static {v3, v3, v1}, LL81/c;->m(Ljava/lang/String;Ljava/lang/String;LJ81/w;)LJ81/t;
+
+    move-result-object v0
+
+    throw v0
+
+    :pswitch_10
+    invoke-virtual {v9, v1}, LJ81/r;->fromJson(LJ81/w;)Ljava/lang/Object;
+
+    move-result-object v2
+
+    move-object v4, v2
+
+    check-cast v4, Ljava/lang/String;
+
+    move-object/from16 v8, v21
+
+    goto/16 :goto_3
+
+    :pswitch_11
+    invoke-virtual {v1}, LJ81/w;->w()V
+
+    invoke-virtual {v1}, LJ81/w;->g1()V
+
+    goto/16 :goto_1
+
+    :cond_6
+    move-object/from16 v21, v8
+
+    move-object/from16 v27, v9
+
+    invoke-virtual {v1}, LJ81/w;->l2()V
+
+    move-object v0, v3
+
+    new-instance v3, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;
+
+    if-eqz v23, :cond_c
+
+    if-eqz v24, :cond_b
+
+    if-eqz v25, :cond_a
+
+    if-eqz v21, :cond_9
+
+    if-eqz v27, :cond_8
+
+    if-eqz v10, :cond_7
+
+    move-object/from16 v8, v21
+
+    move-object/from16 v4, v22
+
+    move-object/from16 v5, v23
+
+    move-object/from16 v6, v24
+
+    move-object/from16 v7, v25
+
+    move-object/from16 v9, v27
+
+    invoke-direct/range {v3 .. v20}, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info$MerchantDetail;Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info$AmountInfo;Ljava/lang/String;Ljava/util/List;Ljava/util/List;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;LM50/e;Ljava/util/List;Ljava/lang/String;)V
+
+    return-object v3
+
+    :cond_7
+    move-object v0, v7
+
+    invoke-static {v0, v0, v1}, LL81/c;->g(Ljava/lang/String;Ljava/lang/String;LJ81/w;)LJ81/t;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_8
+    invoke-static {v6, v6, v1}, LL81/c;->g(Ljava/lang/String;Ljava/lang/String;LJ81/w;)LJ81/t;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_9
+    invoke-static {v5, v5, v1}, LL81/c;->g(Ljava/lang/String;Ljava/lang/String;LJ81/w;)LJ81/t;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_a
+    invoke-static {v4, v4, v1}, LL81/c;->g(Ljava/lang/String;Ljava/lang/String;LJ81/w;)LJ81/t;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_b
+    invoke-static {v2, v2, v1}, LL81/c;->g(Ljava/lang/String;Ljava/lang/String;LJ81/w;)LJ81/t;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_c
+    invoke-static {v0, v0, v1}, LL81/c;->g(Ljava/lang/String;Ljava/lang/String;LJ81/w;)LJ81/t;
+
+    move-result-object v0
+
+    throw v0
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch -0x1
+        :pswitch_11
+        :pswitch_10
+        :pswitch_f
+        :pswitch_e
+        :pswitch_d
+        :pswitch_c
+        :pswitch_b
+        :pswitch_a
+        :pswitch_9
+        :pswitch_8
+        :pswitch_7
+        :pswitch_6
+        :pswitch_5
+        :pswitch_4
+        :pswitch_3
+        :pswitch_2
+        :pswitch_1
+        :pswitch_0
+    .end packed-switch
+.end method
+
+.method public final toJson(LJ81/C;Ljava/lang/Object;)V
+    .locals 4
+
+    check-cast p2, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;
+
+    const-string v0, "writer"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    if-eqz p2, :cond_0
+
+    invoke-virtual {p1}, LJ81/C;->b()LJ81/C;
+
+    const-string v0, "imageUrl"
+
+    invoke-virtual {p1, v0}, LJ81/C;->h(Ljava/lang/String;)LJ81/C;
+
+    invoke-virtual {p2}, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;->i()Ljava/lang/String;
+
+    move-result-object v0
+
+    iget-object v1, p0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->b:LJ81/r;
+
+    invoke-virtual {v1, p1, v0}, LJ81/r;->toJson(LJ81/C;Ljava/lang/Object;)V
+
+    const-string v0, "transactionReserveId"
+
+    invoke-virtual {p1, v0}, LJ81/C;->h(Ljava/lang/String;)LJ81/C;
+
+    invoke-virtual {p2}, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;->r()Ljava/lang/String;
+
+    move-result-object v0
+
+    iget-object v2, p0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->c:LJ81/r;
+
+    invoke-virtual {v2, p1, v0}, LJ81/r;->toJson(LJ81/C;Ljava/lang/Object;)V
+
+    const-string v0, "transactionDate"
+
+    invoke-virtual {p1, v0}, LJ81/C;->h(Ljava/lang/String;)LJ81/C;
+
+    invoke-virtual {p2}, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;->q()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v2, p1, v0}, LJ81/r;->toJson(LJ81/C;Ljava/lang/Object;)V
+
+    const-string v0, "paymentMethod"
+
+    invoke-virtual {p1, v0}, LJ81/C;->h(Ljava/lang/String;)LJ81/C;
+
+    invoke-virtual {p2}, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;->m()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v2, p1, v0}, LJ81/r;->toJson(LJ81/C;Ljava/lang/Object;)V
+
+    const-string v0, "merchantDetail"
+
+    invoke-virtual {p1, v0}, LJ81/C;->h(Ljava/lang/String;)LJ81/C;
+
+    iget-object v0, p0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->d:LJ81/r;
+
+    invoke-virtual {p2}, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;->j()Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info$MerchantDetail;
+
+    move-result-object v3
+
+    invoke-virtual {v0, p1, v3}, LJ81/r;->toJson(LJ81/C;Ljava/lang/Object;)V
+
+    const-string v0, "amountInfo"
+
+    invoke-virtual {p1, v0}, LJ81/C;->h(Ljava/lang/String;)LJ81/C;
+
+    iget-object v0, p0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->e:LJ81/r;
+
+    invoke-virtual {p2}, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;->d()Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info$AmountInfo;
+
+    move-result-object v3
+
+    invoke-virtual {v0, p1, v3}, LJ81/r;->toJson(LJ81/C;Ljava/lang/Object;)V
+
+    const-string v0, "paymentInfoPhrase"
+
+    invoke-virtual {p1, v0}, LJ81/C;->h(Ljava/lang/String;)LJ81/C;
+
+    invoke-virtual {p2}, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;->l()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v2, p1, v0}, LJ81/r;->toJson(LJ81/C;Ljava/lang/Object;)V
+
+    const-string v0, "additionalAgreements"
+
+    invoke-virtual {p1, v0}, LJ81/C;->h(Ljava/lang/String;)LJ81/C;
+
+    iget-object v0, p0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->f:LJ81/r;
+
+    invoke-virtual {p2}, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;->c()Ljava/util/List;
+
+    move-result-object v2
+
+    invoke-virtual {v0, p1, v2}, LJ81/r;->toJson(LJ81/C;Ljava/lang/Object;)V
+
+    const-string v0, "accumulations"
+
+    invoke-virtual {p1, v0}, LJ81/C;->h(Ljava/lang/String;)LJ81/C;
+
+    iget-object v0, p0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->g:LJ81/r;
+
+    invoke-virtual {p2}, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;->b()Ljava/util/List;
+
+    move-result-object v2
+
+    invoke-virtual {v0, p1, v2}, LJ81/r;->toJson(LJ81/C;Ljava/lang/Object;)V
+
+    const-string v0, "confirmNo"
+
+    invoke-virtual {p1, v0}, LJ81/C;->h(Ljava/lang/String;)LJ81/C;
+
+    invoke-virtual {p2}, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;->f()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, p1, v0}, LJ81/r;->toJson(LJ81/C;Ljava/lang/Object;)V
+
+    const-string v0, "paymentMethodAdditionalInfo"
+
+    invoke-virtual {p1, v0}, LJ81/C;->h(Ljava/lang/String;)LJ81/C;
+
+    invoke-virtual {p2}, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;->n()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, p1, v0}, LJ81/r;->toJson(LJ81/C;Ljava/lang/Object;)V
+
+    const-string v0, "productName"
+
+    invoke-virtual {p1, v0}, LJ81/C;->h(Ljava/lang/String;)LJ81/C;
+
+    invoke-virtual {p2}, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;->p()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, p1, v0}, LJ81/r;->toJson(LJ81/C;Ljava/lang/Object;)V
+
+    const-string v0, "orderId"
+
+    invoke-virtual {p1, v0}, LJ81/C;->h(Ljava/lang/String;)LJ81/C;
+
+    invoke-virtual {p2}, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;->k()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, p1, v0}, LJ81/r;->toJson(LJ81/C;Ljava/lang/Object;)V
+
+    const-string v0, "eInvoiceDeliveredYn"
+
+    invoke-virtual {p1, v0}, LJ81/C;->h(Ljava/lang/String;)LJ81/C;
+
+    invoke-virtual {p2}, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;->g()Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v1, p1, v0}, LJ81/r;->toJson(LJ81/C;Ljava/lang/Object;)V
+
+    const-string v0, "paymentType"
+
+    invoke-virtual {p1, v0}, LJ81/C;->h(Ljava/lang/String;)LJ81/C;
+
+    iget-object v0, p0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->h:LJ81/r;
+
+    invoke-virtual {p2}, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;->o()LM50/e;
+
+    move-result-object v2
+
+    invoke-virtual {v0, p1, v2}, LJ81/r;->toJson(LJ81/C;Ljava/lang/Object;)V
+
+    const-string v0, "extraPhrases"
+
+    invoke-virtual {p1, v0}, LJ81/C;->h(Ljava/lang/String;)LJ81/C;
+
+    iget-object p0, p0, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto_InfoJsonAdapter;->i:LJ81/r;
+
+    invoke-virtual {p2}, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;->h()Ljava/util/List;
+
+    move-result-object v0
+
+    invoke-virtual {p0, p1, v0}, LJ81/r;->toJson(LJ81/C;Ljava/lang/Object;)V
+
+    const-string p0, "benefitPhrase"
+
+    invoke-virtual {p1, p0}, LJ81/C;->h(Ljava/lang/String;)LJ81/C;
+
+    invoke-virtual {p2}, Lcom/linecorp/line/pay/transact/shared/http/dto/PayPaymentGetCompletionResDto$Info;->e()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-virtual {v1, p1, p0}, LJ81/r;->toJson(LJ81/C;Ljava/lang/Object;)V
+
+    invoke-virtual {p1}, LJ81/C;->f()LJ81/C;
+
+    return-void
+
+    :cond_0
+    new-instance p0, Ljava/lang/NullPointerException;
+
+    const-string p1, "value_ was null! Wrap in .nullSafe() to write nullable values."
+
+    invoke-direct {p0, p1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 1
+
+    const/16 p0, 0x38
+
+    const-string v0, "GeneratedJsonAdapter(PayPaymentGetCompletionResDto.Info)"
+
+    invoke-static {p0, v0}, Lc9/h;->a(ILjava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method

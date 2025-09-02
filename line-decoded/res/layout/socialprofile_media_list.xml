@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.line.socialprofile.impl.view.SocialProfileMediaPostNestedScrollView android:orientation="vertical" android:id="@id/nested_scroll" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" app:layout_behavior="com.linecorp.line.socialprofile.impl.view.SocialProfileMediaPostCustomBehavior">
+        <RelativeLayout android:id="@id/inner_relative" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/defaultText" android:id="@id/media_title_area" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginBottom="9.0dip" android:text="@string/profile_tab_photosandvideos" android:layout_alignWithParentIfMissing="true" android:lineSpacingExtra="6.0sp" android:layout_marginStart="16.0dip" style="@style/commonFont" />
+            <com.linecorp.line.socialprofile.impl.util.SocialProfileNestedScrollableHost android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/media_title_area" android:layout_alignWithParentIfMissing="true">
+                <com.linecorp.line.socialprofile.impl.view.SocialProfileLoadMoreRecyclerView android:id="@id/social_profile_media_list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" app:loadmore_layout="@layout/socialprofile_post_read_more" app:loadmore_loading_view_color="@color/tertiarySub2Fill" />
+            </com.linecorp.line.socialprofile.impl.util.SocialProfileNestedScrollableHost>
+            <ViewStub android:id="@id/social_profile_media_list_empty" android:layout="@layout/socialprofile_post_empty_viewstub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/media_title_area" android:layout_alignParentBottom="true" android:layout_alignWithParentIfMissing="true" />
+            <ViewStub android:id="@id/error" android:layout="@layout/socialprofile_retry_error_viewstub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewStub android:id="@id/media_info_view_stub" android:layout="@layout/socialprofile_extra_info_view_stub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </RelativeLayout>
+    </com.linecorp.line.socialprofile.impl.view.SocialProfileMediaPostNestedScrollView>
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress" android:visibility="gone" android:layout_width="24.669983dip" android:layout_height="24.669983dip" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

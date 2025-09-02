@@ -1,0 +1,24 @@
+{
+  "available": true,
+  "category": "local_preview_upgrade",
+  "pages": [
+    {
+      "pageName": "LOCAL_CONFIGURATION",
+      "pageId": "local_preview_upgrade",
+      "footerButton": {
+        "actionType": "PAGE",
+        "pageName": "PACKAGE_SELECTION",
+        "actionDestination": "package_selection_1"
+      }
+    },
+    {
+      "pageName": "PACKAGE_SELECTION",
+      "pageId": "package_selection_1",
+      "footerButton": {
+        "actionType": "PAGE",
+        "pageName": "CONFIRM_PURCHASE",
+        "actionDestination": "confirm_purchase_1"
+      }
+    }
+  ]
+}

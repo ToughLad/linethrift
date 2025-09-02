@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/tabs_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/group_invite_qr_item" style="@style/groupinvite_tabitem_layout">
+        <ImageView android:id="@id/group_invite_qr_icon" android:src="@drawable/service_stroke_qr" app:tint="@color/selector_septenary_sub_neutral_fill" style="@style/groupinvite_tabitem_image" />
+        <TextView android:id="@id/group_invite_qr_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:text="@string/tab_name_qrcode" style="@style/v2_add_friend_top_button_text_new_design" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/group_invite_link_item" style="@style/groupinvite_tabitem_layout">
+        <ImageView android:id="@id/group_invite_link_icon" android:src="@drawable/service_stroke_link" app:tint="@color/selector_septenary_sub_neutral_fill" style="@style/groupinvite_tabitem_image" />
+        <TextView android:id="@id/group_invite_link_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:text="@string/myhome_invite_link" style="@style/v2_add_friend_top_button_text_new_design" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/group_invite_mail_item" style="@style/groupinvite_tabitem_layout">
+        <ImageView android:id="@id/group_invite_mail_icon" android:src="@drawable/service_stroke_mail" app:tint="@color/selector_septenary_sub_neutral_fill" style="@style/groupinvite_tabitem_image" />
+        <TextView android:id="@id/group_invite_mail_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:text="@string/myhome_invite_mail" style="@style/v2_add_friend_top_button_text_new_design" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/group_invite_sms_item" style="@style/groupinvite_tabitem_layout">
+        <ImageView android:id="@id/group_invite_sms_icon" android:src="@drawable/service_stroke_sms" app:tint="@color/selector_septenary_sub_neutral_fill" style="@style/groupinvite_tabitem_image" />
+        <TextView android:id="@id/group_invite_sms_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:text="@string/myhome_invite_sms" style="@style/v2_add_friend_top_button_text_new_design" />
+    </LinearLayout>
+</LinearLayout>

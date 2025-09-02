@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:id="@id/balance_amount_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="9.0dip" android:layout_marginEnd="10.0dip">
+        <FrameLayout android:id="@id/pay_logo_image_layout" android:background="@drawable/wallet_balance_v4_header_item_selector_bg" android:layout_width="44.0dip" android:layout_height="fill_parent" android:contentDescription="@null" android:layout_marginEnd="3.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/pay_logo_image_view" android:layout_width="32.0dip" android:layout_height="20.0dip" android:src="@drawable/wallet_balance_v4_line_pay_logo" android:scaleType="center" android:contentDescription="@null" android:layout_marginStart="11.0dip" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/balance_amount_text_layout" android:background="@drawable/wallet_balance_v4_header_item_selector_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.linecorp.line.wallet.impl.myasset.view.WalletMoneyTextView android:layout_gravity="center_vertical" android:id="@id/balance_amount_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:amountTextSize="18.0sp" app:isAmountTextBold="true" app:isSymbolTextBold="true" app:symbolTextSize="@dimen/wallet_balance_v4_balance_symbol_text_size" app:textColor="@color/linewhite" />
+            <TextView android:layout_gravity="center_vertical" android:id="@id/balance_amount_alternative_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/wallet_balance_v4_balance_alternative_text" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/balance_suspended_notice_text_layout" android:background="@drawable/wallet_balance_v4_header_item_selector_bg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:layout_gravity="center_vertical" android:id="@id/balance_suspended_notice_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/wallet_balance_v4_balance_suspend_text" />
+        </FrameLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <FrameLayout android:id="@id/compact_shortcut_container" android:background="@drawable/wallet_balance_v4_header_item_selector_bg" android:layout_width="44.0dip" android:layout_height="fill_parent" android:layout_marginStart="2.0dip" android:layout_marginEnd="3.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/compact_shortcut_image_view" android:layout_width="30.0dip" android:layout_height="30.0dip" android:contentDescription="@null" />
+    </FrameLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/expand_button_container" android:background="@drawable/wallet_balance_v4_header_item_selector_bg" android:layout_width="44.0dip" android:layout_height="fill_parent" android:layout_marginEnd="10.0dip">
+        <ImageView android:id="@id/expand_button_image_view" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/wallet_balance_v4_ic_expand" android:contentDescription="@null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/new_badge_image_view" android:visibility="gone" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginRight="-3.0dip" android:src="@drawable/wallet_balance_v4_new_badge" android:contentDescription="@null" app:layout_constraintEnd_toEndOf="@id/expand_button_image_view" app:layout_constraintTop_toTopOf="@id/expand_button_image_view" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

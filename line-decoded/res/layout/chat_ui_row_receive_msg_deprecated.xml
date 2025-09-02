@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start" android:orientation="vertical" android:id="@id/chat_ui_row_text_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:transitionName="message_text_transition"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/chat_ui_text_message_balloon_root" android:addStatesFromChildren="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:backgroundTint="@color/chat_ui_row_msg_highlight_color_selector" android:backgroundTintMode="src_atop">
+        <Space android:id="@id/chat_ui_text_top_space" android:layout_width="1.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/chat_ui_message_text" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="@dimen/chat_ui_medium_text" android:textColor="@color/primaryText" android:gravity="center_vertical" android:id="@id/chat_ui_message_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_message_unsupportedmessage" app:layout_constraintBottom_toTopOf="@id/chat_ui_text_bottom_space" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/chat_ui_text_top_space" app:layout_constraintWidth_max="@dimen/chat_ui_row_message_max_width" />
+        <Space android:id="@id/chat_ui_text_bottom_space" android:layout_width="1.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/chat_ui_message_text" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/lineblack" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.line.android.common.view.media.ZoomImageView android:id="@id/imageview" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" smallImageFit="true" />
+    <ImageView android:paddingLeft="13.0dip" android:paddingTop="13.0dip" android:paddingRight="14.5dip" android:paddingBottom="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pay_base_btn_close" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:onClick="onCloseClick" />
+</RelativeLayout>

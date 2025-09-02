@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/profile_bridge_background" android:layout_width="58.0dip" android:layout_height="77.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/oa_account_profile" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginLeft="4.0dip" android:layout_marginTop="4.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/senarySubText" android:gravity="center" android:id="@id/oa_account_name" android:layout_width="fill_parent" android:layout_height="15.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/timeline_text_profile_bridge_layer_content" />
+    <ImageView android:id="@id/oa_account_badge" android:visibility="gone" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_margin="2.0dip" android:src="@drawable/badge_dot_green" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

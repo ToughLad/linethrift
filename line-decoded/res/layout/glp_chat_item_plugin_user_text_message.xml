@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/itemRoot" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.line.liveplatform.chat.impl.ui.MessageTextView android:textSize="@dimen/glp_chat_message_text_size" android:textColor="@color/linewhite" android:gravity="center_vertical" android:layout_gravity="start" android:id="@id/messageText" android:paddingTop="2.0dip" android:paddingBottom="3.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:shadowColor="@color/linedim20" android:shadowDy="3.0" android:shadowRadius="1.0" android:breakStrategy="high_quality" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

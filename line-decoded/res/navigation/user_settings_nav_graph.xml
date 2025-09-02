@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/user_settings_nav_graph" app:startDestination="@id/lineUserEmptyFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.linecorp.line.settings.empty.LineUserSettingEmptyFragment" android:id="@id/lineUserEmptyFragment" />
+    <fragment android:name="com.linecorp.line.settings.profile.LineUserProfileSettingsFragment" android:id="@id/lineUserProfileSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.account.LineUserAccountSettingsFragment" android:id="@id/lineUserAccountSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.privacy.LineUserPrivacySettingsFragment" android:id="@id/lineUserPrivacySettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.impl.ageverification.LineUserAgeVerificationSettingsFragment" android:id="@id/lineUserAgeVerificationSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.watch.LineWatchSettingsFragment" android:id="@id/lineWatchSettingsFragment" />
+    <fragment android:name="com.linecorp.linethings.devicemanagement.ThingsPolicyAgreementStarterFragment" android:id="@id/lineDeviceManagementListFragment" />
+    <fragment android:name="com.linecorp.line.settings.backuprestore.LineUserChatBackupSettingsFragment" android:id="@id/lineUserChatBackupSettingsFragment" />
+    <fragment android:name="com.linecorp.line.premium.backup.ui.storagestatus.StorageStatusFragment" android:id="@id/lineUserPremiumChatBackupSettingsFragment" />
+    <fragment android:name="jp.naver.line.android.activity.setting.account.AccountTransferSettingsFragment" android:id="@id/lineAccountTransferSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.impl.stickers.LineUserStickersSettingsFragment" android:id="@id/lineUserStickersSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.impl.themes.LineUserThemesSettingsFragment" android:id="@id/lineUserThemesSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.melody.LineUserMelodySettingsFragment" android:id="@id/lineUserMelodySettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.impl.notifications.LineUserNotificationsSettingsFragment" android:id="@id/lineUserNotificationsSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.photovideo.LineUserPhotoAndVideoSettingsFragment" android:id="@id/lineUserPhotoAndVideoSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.chats.LineUserChatsSettingsFragment" android:id="@id/lineUserChatsSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.impl.voip.LineUserVoIPSettingFragment" android:id="@id/lineUserVoIPSettingFragment" />
+    <fragment android:name="com.linecorp.line.settings.impl.friends.LineUserFriendsSettingsFragment" android:id="@id/lineUserFriendsSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.timeline.LineUserTimelineSettingsFragment" android:id="@id/lineUserTimelineSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.impl.home.LineUserHomeSettingsFragment" android:id="@id/lineUserHomeSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.avatar.LineUserAvatarSettingsFragment" android:id="@id/lineUserAvatarSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.officialaccount.membership.LineUserOaMembershipSettingsFragment" android:id="@id/lineUserOaMembershipSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.impl.appspecificlanguage.LineUserAppSpecificLanguageSettingsFragment" android:id="@id/lineUserLanguageSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.impl.googleassistant.LineUserGoogleAssistantSettingsFragment" android:id="@id/lineUserGoogleAssistantSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.lab.LineUserLabSettingsFragment" android:id="@id/lineUserLabSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.aiassistant.LineUserAiAssistantSettingsFragment" android:id="@id/lineUserAiAssistantSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.impl.about.LineUserAboutSettingsFragment" android:id="@id/lineUserAboutSettingsFragment" />
+    <fragment android:name="jp.naver.line.android.activity.setting.fragment.SettingsWebViewFragment" android:id="@id/lineUserPrivacyPolicyFragment" />
+    <fragment android:name="jp.naver.line.android.dexinterface.lan.impl.LineNoticeBoardFragment" android:id="@id/lineUserNoticeSettingsFragment" />
+    <fragment android:name="jp.naver.line.android.activity.setting.fragment.SettingsWebViewFragment" android:id="@id/lineUserHelpCenterSettingsFragment" />
+    <fragment android:name="jp.naver.line.android.activity.setting.fragment.SettingsWebViewFragment" android:id="@id/lineUserGermanLegalNoticeSettingsFragment" />
+    <fragment android:name="jp.naver.line.android.activity.test.settings.SettingDebugThemeFragment" android:id="@id/lineUserDebugThemeSettingsFragment" />
+    <fragment android:name="jp.naver.line.android.labs.LineLabsSettingsFragment" android:id="@id/lineUserDebugLabsSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.impl.lyppremium.PremiumMembershipSettingsFragment" android:id="@id/lineLypPremiumMembershipSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.premiumfont.SettingPremiumFontFragment" android:id="@id/lineUserPremiumFontSettingsFragment" />
+    <fragment android:name="com.linecorp.shop.impl.coin.ui.CoinHistoryFragment" android:id="@id/lineCoinHistorySettingsFragment" />
+    <fragment android:name="com.linecorp.line.iapplatform.impl.IapPlatformHistoryFragment" android:id="@id/lineIapPurchaseHistorySettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.albums.LineUserAlbumsSettingsFragment" android:id="@id/lineUserAlbumsSettingsFragment" />
+    <fragment android:name="com.linecorp.line.settings.impl.chatandfriend.LineUserChatsAndFriendsSettingsFragment" android:id="@id/lineUserChatsAndFiendsSettingsFragment" />
+</navigation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/chat_ui_rich_video_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <com.linecorp.line.chat.ui.resources.message.rich.RichVideoView android:id="@id/chat_ui_rich_video_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/chat_ui_rich_video_preview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <ImageView android:id="@id/chat_ui_rich_video_play" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/common_ic_play03" android:layout_centerInParent="true" />
+    <include android:id="@id/chat_ui_rich_video_message_completed_layout" layout="@layout/chat_ui_richvideo_videoplay_completed" />
+    <RelativeLayout android:id="@id/chat_ui_rich_video_progess" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="30.0dip" android:layout_height="30.0dip" android:indeterminate="true" android:indeterminateDrawable="@drawable/progress_circle_blue" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ImageView android:id="@id/chat_ui_rich_video_playing_indicator" android:visibility="gone" android:layout_width="@dimen/chat_ui_video_message_playing_indicator_size" android:layout_height="@dimen/chat_ui_video_message_playing_indicator_size" android:layout_marginLeft="@dimen/chat_ui_video_message_playing_indicator_mergin_horizontal" android:layout_marginTop="@dimen/chat_ui_video_message_playing_indicator_mergin_vertical" android:layout_marginRight="@dimen/chat_ui_video_message_playing_indicator_mergin_horizontal" android:layout_marginBottom="@dimen/chat_ui_video_message_playing_indicator_mergin_vertical" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" />
+</RelativeLayout>

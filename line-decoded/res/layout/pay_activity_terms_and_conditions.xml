@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/buttons_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/linegray500" android:id="@id/terms_and_conditions_must_scroll" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="4.0dip" android:text="@string/pay_need_must_scroll_money_rules" android:drawableLeft="@drawable/pay_base_icon_info4" android:drawablePadding="4.0dip" />
+    <Button android:enabled="false" android:id="@id/done_button" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_margin="10.0dip" android:text="@string/confirm" android:onClick="onDone" android:stateListAnimator="@null" style="@style/pay_base_rectangle_button_green_r06_with_disable" />
+</LinearLayout>

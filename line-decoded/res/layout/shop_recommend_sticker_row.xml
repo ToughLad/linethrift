@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="@dimen/shop_recommendation_sticker_item_size" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/recommend_img" android:layout_width="fill_parent" android:layout_height="@dimen/shop_recommendation_sticker_item_size" android:scaleType="center" />
+    <ImageView android:id="@id/subscription_icon_view" android:visibility="gone" android:layout_width="@dimen/shop_recommended_product_subscription_icon_size" android:layout_height="@dimen/shop_recommended_product_subscription_icon_size" android:src="@drawable/sticker_ic_premium" android:layout_alignTop="@id/recommend_img" android:layout_alignEnd="@id/recommend_img" />
+    <ImageView android:id="@id/new_icon_view" android:visibility="gone" android:layout_width="@dimen/shop_recommended_and_authors_product_new_badge_icon_size" android:layout_height="@dimen/shop_recommended_and_authors_product_new_badge_icon_size" android:src="@drawable/common_img_new_15" android:layout_alignTop="@id/recommend_img" android:layout_alignEnd="@id/recommend_img" />
+    <ImageView android:id="@id/recommend_sticker_sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2.5dip" android:layout_alignBottom="@id/recommend_img" android:layout_alignParentRight="true" />
+    <TextView android:textSize="13.5sp" android:textColor="#ff858585" android:ellipsize="end" android:gravity="center" android:id="@id/recommend_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:maxLines="2" android:includeFontPadding="false" android:layout_below="@id/recommend_img" />
+</RelativeLayout>

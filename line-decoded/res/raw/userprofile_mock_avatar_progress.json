@@ -1,0 +1,22 @@
+{
+  "category": "ai_avatar_portrait",
+  "status": "STARTED",
+  "product": {
+    "id": 1,
+    "deliveryTimeInHours": 24,
+    "billingId": "ai_portrait_standard",
+    "price": 100,
+    "title": null,
+    "description": null,
+    "secondDescription": null,
+    "locale": "en_US",
+    "styleCount": 1,
+    "imageCount": 50,
+    "badgeImage": null,
+    "enabled": true,
+    "selected": false
+  },
+  "startTime": 1685964184355,
+  "estimatedTime": 1686050584355,
+  "completionRate": 7.0E-4
+}

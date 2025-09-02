@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/profile_bg" android:height="95.0dip" android:width="95.0dip">
+        <shape android:shape="oval">
+            <solid android:color="@color/ladsdk_color_d5e3fd" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:height="50.0dip" android:width="50.0dip" android:drawable="@drawable/ladsdk_social_profile_shape" android:bottom="3.0dip" />
+</layer-list>

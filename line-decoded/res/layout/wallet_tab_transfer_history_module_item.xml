@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/wallet_transfer_history_item_view_width" android:layout_height="fill_parent" android:layout_marginHorizontal="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/main_image_view" android:layout_width="57.0dip" android:layout_height="57.0dip" android:tintMode="src_atop" app:tint="@color/wallet_selector_item_image_bg" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/main_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" style="@style/wallet_transfer_history_module_item_main_text" />
+</LinearLayout>

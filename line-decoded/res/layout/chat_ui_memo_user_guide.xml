@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/chat_ui_memo_chat_user_guide_background" android:layout_width="296.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="164.0dip" android:src="@drawable/popup_img_keepchat" android:contentDescription="@null" />
+    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/linegray900" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="226.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/line_keepmemoguide_popuptitle_page1" android:fontFamily="sans-serif" />
+    <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="@color/linegray500" android:gravity="center_horizontal" android:id="@id/information" android:layout_width="226.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/line_keepmemoguide_popupdesc_page1" android:fontFamily="sans-serif" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/lineblack" android:gravity="center_horizontal" android:id="@id/confirm_button" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginTop="43.0dip" android:layout_marginBottom="27.0dip" android:text="@string/line_keepmemoguide_popupbutton_ok" android:fontFamily="sans-serif" />
+</LinearLayout>

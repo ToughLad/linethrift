@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/recommend_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:layout_marginBottom="@dimen/shop_theme_detail_item_title_bottom_margin" android:layout_marginHorizontal="@dimen/shop_recommendation_horizontal_margin" style="@style/shop_theme_detail_list_item_title" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/recommend_container" android:layout_width="fill_parent" android:layout_height="@dimen/shop_recommendation_sticker_layout_height">
+        <ProgressBar android:id="@id/recommend_progress" android:visibility="gone" android:layout_width="@dimen/shop_progressbar_size" android:layout_height="@dimen/shop_progressbar_size" />
+        <Button android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/recommend_retry_btn" android:background="@drawable/selector_button_r05" android:paddingLeft="@dimen/shop_recommendation_retry_btn_padding" android:paddingRight="@dimen/shop_recommendation_retry_btn_padding" android:visibility="gone" android:layout_width="@dimen/shop_recommendation_retry_btn_width" android:layout_height="@dimen/shop_recommendation_retry_btn_height" android:text="@string/retry" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recommend_recycler" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/shop_recommendation_horizontal_margin" />
+    </LinearLayout>
+</merge>

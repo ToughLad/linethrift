@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.line.android.customview.LayerEventView android:id="@id/lan_banner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Space android:id="@id/lan_banner_vertical_space" android:layout_width="fill_parent" android:layout_height="7.0dip" />
+    <Space android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <include android:id="@id/safetycheck_banner" layout="@layout/home_tab_safetycheck_banner" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/ad_banner_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

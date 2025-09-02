@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/chatlist_unread_message_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/square_chat_list_badge_side_padding" android:paddingEnd="@dimen/square_chat_list_badge_side_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/square_chat_thread_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_badge_thread" android:layout_marginEnd="1.5dip" />
+    <ImageView android:id="@id/square_chat_new_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/list_button_chat_new" android:contentDescription="@string/access_newchatroom" />
+    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/onPrimaryAccentFill" android:id="@id/square_chat_unread_message_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+</LinearLayout>

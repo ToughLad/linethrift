@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/chat_media_recycler_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/chat_media_content_action_bar_container" android:layout_below="@id/premium_backup_overlay_banner">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/chat_media_recycler_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:visibility="gone" layout="@layout/gallery_recyclerview_item_section_in_chat" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/chat_media_empty_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/v_menu_content_list_empty_view_horizontal_padding" android:paddingEnd="@dimen/v_menu_content_list_empty_view_horizontal_padding">
+        <TextView android:textSize="@dimen/v_menu_content_list_empty_title_text_size" android:textStyle="bold" android:textColor="@color/linegray900" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/line_chatmenu_title_photovideoempty" />
+        <TextView android:textColor="@color/linegray500" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/v_menu_content_list_empty_subtitle_top_margin" android:text="@string/line_chatmenu_desc_photovideoempty" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/chat_media_content_action_bar_container" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include android:id="@id/chat_media_content_action_bar" android:layout_width="fill_parent" android:layout_height="@dimen/v_menu_content_selection_bar_height" layout="@layout/chat_media_content_selection_actions_bar_light_bg" />
+    </FrameLayout>
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/lyp_backup_promotion_overlay_banner" />
+</RelativeLayout>

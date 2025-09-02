@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/lineblack_alpha30" android:layout_width="@dimen/story_archive_item_date_width" android:layout_height="@dimen/story_archive_item_date_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="9.0sp" android:textColor="@color/linewhite" android:gravity="center_horizontal" android:id="@id/story_item_month" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_marginTop="5.0dip" app:layout_constraintTop_toTopOf="parent" style="@style/commonFont" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/linewhite" android:gravity="center_horizontal" android:id="@id/story_item_date" android:layout_width="fill_parent" android:layout_height="20.0dip" app:layout_constraintTop_toBottomOf="@id/story_item_month" style="@style/commonFont" />
+</androidx.constraintlayout.widget.ConstraintLayout>

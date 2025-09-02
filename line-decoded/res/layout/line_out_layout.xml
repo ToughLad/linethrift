@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.customview.FitAndCenterCropImageView android:id="@id/line_out_profile_image" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/line_out_call_area" app:layout_constraintHeight_max="280.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/line_out_call_info" android:background="#cc28c66f" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="30.0dip" app:layout_constraintBottom_toTopOf="@id/line_out_call_area" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent">
+        <ImageView android:layout_width="56.0dip" android:layout_height="12.5dip" android:src="@drawable/call_img_line" />
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:id="@id/line_out_call_area" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHeight_min="360.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/line_out_profile_image">
+        <Space android:id="@id/line_out_top_space" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/line_out_center_area" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="spread_inside" />
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/line_out_center_area" android:paddingTop="28.5dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" app:layout_constraintBottom_toTopOf="@id/line_out_middle_space" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/line_out_top_space">
+            <com.linecorp.voip.ui.paidcall.view.AutoResizeEditText android:textSize="26.0sp" android:textColor="#ff404040" android:ellipsize="end" android:gravity="center" android:id="@id/line_out_name_text" android:background="@null" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:singleLine="true" android:includeFontPadding="false" android:editable="false" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15.0sp" android:textColor="#ff2e3038" android:gravity="center" android:id="@id/line_out_status_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" />
+                <ImageView android:layout_gravity="center" android:id="@id/line_out_calling_animation" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </FrameLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/line_out_unknown_status_layout" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.5dip">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="13.0dip" android:layout_height="13.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/freecall_img_noti" />
+                <TextView android:textSize="12.0sp" android:textColor="#ff888888" android:id="@id/line_out_unknown_status_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            </LinearLayout>
+        </LinearLayout>
+        <Space android:id="@id/line_out_middle_space" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/line_out_bottom_area" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/line_out_center_area" />
+        <FrameLayout android:id="@id/line_out_bottom_area" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/line_out_middle_space">
+            <LinearLayout android:orientation="vertical" android:id="@id/line_out_keypad_layout" android:background="#ffffffff" android:paddingBottom="18.0dip" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.linecorp.voip.ui.paidcall.view.LineOutKeypadButtonView android:id="@id/line_out_keypad_button_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*" />
+                <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:stretchColumns="*">
+                    <TableRow>
+                        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                        <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                            <ImageView android:id="@id/line_out_keypad_end_btn" android:clickable="true" android:layout_width="@dimen/call_button_size" android:layout_height="@dimen/call_button_size" android:src="@drawable/btn_freecall_reject_selector" android:contentDescription="@string/access_call_off" />
+                        </RelativeLayout>
+                        <RelativeLayout android:gravity="center" android:id="@id/line_out_keypad_hide_text" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:contentDescription="@string/access_call_hideKeypad">
+                            <TextView android:textSize="17.0sp" android:textColor="@drawable/btn_call_hide_selector" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/call_hide" android:maxLines="2" />
+                        </RelativeLayout>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+            <include android:id="@id/line_out_outgoing_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" layout="@layout/voip_lineout_voice_outgoing" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@id/line_out_blind" android:background="#ff000000" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

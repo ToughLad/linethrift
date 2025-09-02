@@ -1,0 +1,78 @@
+.class public final LGj1/J$c$x;
+.super LGj1/J$c;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LGj1/J$c;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "x"
+.end annotation
+
+
+# virtual methods
+.method public final d(Landroid/content/Context;Ljava/lang/String;LFj1/l;Ljava/util/LinkedHashMap;)LFj1/j;
+    .locals 0
+    .annotation runtime Lkotlin/Deprecated;
+        message = "Logic under this should be refactored to [NavigationSchemeHandler]"
+    .end annotation
+
+    const-string p0, "context"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string p0, "referrer"
+
+    invoke-static {p3, p0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string p0, "id"
+
+    invoke-virtual {p4, p0}, Ljava/util/LinkedHashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Ljava/lang/String;
+
+    if-eqz p0, :cond_1
+
+    invoke-virtual {p0}, Ljava/lang/String;->length()I
+
+    move-result p2
+
+    if-nez p2, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    sget-object p2, LSl1/Y;->a:Lcm1/c;
+
+    sget-object p2, LXl1/o;->a:LSl1/B0;
+
+    invoke-static {p2}, LSl1/G;->a(Lmk1/g;)LXl1/c;
+
+    move-result-object p2
+
+    new-instance p3, LGj1/L;
+
+    const/4 p4, 0x0
+
+    invoke-direct {p3, p1, p0, p4}, LGj1/L;-><init>(Landroid/content/Context;Ljava/lang/String;Lkotlin/coroutines/Continuation;)V
+
+    const/4 p0, 0x3
+
+    invoke-static {p2, p4, p4, p3, p0}, LGL/b;->k(LSl1/F;Lmk1/g;LSl1/H;Lxk1/p;I)LSl1/L0;
+
+    sget-object p0, LFj1/j;->a:LFj1/j$b;
+
+    return-object p0
+
+    :cond_1
+    :goto_0
+    sget-object p0, LFj1/j;->b:LFj1/j$a;
+
+    return-object p0
+.end method

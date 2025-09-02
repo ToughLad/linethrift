@@ -1,0 +1,70 @@
+{
+  "id": "10008837833144",
+  "productId": 286,
+  "deliveryTimeInHours": 0,
+  "price": 230.0,
+  "product": {
+    "id": 286,
+    "deliveryTimeInHours": 0,
+    "billingId": "ai_highteen_express",
+    "price": 230,
+    "locale": "en_US",
+    "styleCount": 1,
+    "imageCount": 30,
+    "enabled": false,
+    "selected": false,
+    "promotion": "PREVIEW"
+  },
+  "status": "COMPLETED",
+  "output": {
+    "results": [
+      {
+        "originalStyle": "ai_highteen",
+        "englishStyle": "",
+        "style": "",
+        "images": [
+          {
+            "oid": "cj0xN3A1Z2k2MDBwNzZzJnM9anA2JnQ9ZCZ1PTFiZDk3NXVkc2RmMDAmaT0w",
+            "hash": ""
+          },
+          {
+            "oid": "cj02NzBmaGU4cXF0ZnI1JnM9anA2JnQ9ZCZ1PTFiZDk3NW1lMDFhZzAmaT0w",
+            "hash": ""
+          },
+          {
+            "oid": "cj0tMzM3dXNpY3VtNXFqbCZzPWpwNiZ0PWQmdT0xYmQ5NzNxOGc1cmcwJmk9MA",
+            "hash": ""
+          },
+          {
+            "oid": "cj0zOTRhcjhtaWVycWwyJnM9anA2JnQ9ZCZ1PTFiZDk3NWU5YzFhZzAmaT0w",
+            "hash": ""
+          },
+          {
+            "oid": "cj0tMTEzYW85N3B0NXRubSZzPWpwNiZ0PWQmdT0xYmQ5NzU2ZW9kZjAwJmk9MA",
+            "hash": ""
+          },
+          {
+            "oid": "cj0tN3I5dG1hZjU3MzIzZCZzPWpwNiZ0PWQmdT0xYmQ5NzI2MmtkZjAwJmk9MA",
+            "hash": ""
+          },
+          {
+            "oid": "cj0zZzB0amM5Mmk5NW5tJnM9anA2JnQ9ZCZ1PTFiZDk3Mm90YzFhZzAmaT0w",
+            "hash": ""
+          },
+          {
+            "oid": "cj01dG1zZzdhdm92MTZoJnM9anA2JnQ9ZCZ1PTFiZDk3NWpuazFhZzAmaT0w",
+            "hash": ""
+          }
+        ]
+      }
+    ],
+    "expiryTime": 1729846232268
+  },
+  "purchasedAt": 1698307606559,
+  "purchasedOrdinal": 3,
+  "retryable": false,
+  "categoryDetail": {
+    "category": "ai_avatar_highteen",
+    "markText": "AI Teen"
+  }
+}

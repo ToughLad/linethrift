@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:minHeight="53.0dip">
+        <RelativeLayout android:id="@id/profile_image_bg" android:layout_width="37.0dip" android:layout_height="37.0dip" android:layout_centerVertical="true">
+            <com.linecorp.line.timeline.view.post.PostProfileImageView android:id="@id/profile_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:profileHeight="31.0dip" app:profileWidth="31.0dip" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center_vertical" android:id="@id/profile_name_bg" android:paddingLeft="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/menu_view_area" android:layout_toRightOf="@id/profile_image_bg" android:layout_centerVertical="true">
+            <RelativeLayout android:id="@id/profile_text_area" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:ellipsize="end" android:id="@id/profile_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" style="@style/post_profile_name_font" />
+                <com.linecorp.line.timeline.ui.base.view.PostSticonTextView android:id="@id/system_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/post_system_text" />
+            </RelativeLayout>
+            <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/post_description_text" android:paddingTop="2.0dip" android:paddingRight="7.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:layout_below="@id/profile_text_area" style="@style/post_description" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/menu_view_area" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_alignParentRight="true">
+            <RelativeLayout android:id="@id/add_button_layout" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ViewStub android:id="@id/follow_button_view_stub" android:paddingLeft="10.0dip" android:layout="@layout/timeline_post_follow_light_theme_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="-2.0dip" />
+            </RelativeLayout>
+            <ImageView android:id="@id/menu_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/selector_timeline_ic_more" android:layout_toRightOf="@id/add_button_layout" android:contentDescription="@string/access_timeline_icon_seemore" android:paddingStart="@dimen/timeline_more_button_padding" android:paddingEnd="@dimen/timeline_more_button_padding" app:tint="@color/selector_timeline_octonary_alt_neutral_fill" />
+            <Space android:id="@id/padding_right_space" android:visibility="gone" android:layout_width="@dimen/post_padding_horizontal" android:layout_height="fill_parent" android:layout_toRightOf="@id/menu_view" />
+        </RelativeLayout>
+    </RelativeLayout>
+</merge>

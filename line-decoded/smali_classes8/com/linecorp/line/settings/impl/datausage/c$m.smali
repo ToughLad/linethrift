@@ -1,0 +1,83 @@
+.class public final synthetic Lcom/linecorp/line/settings/impl/datausage/c$m;
+.super Lkotlin/jvm/internal/m;
+.source "SourceFile"
+
+# interfaces
+.implements Lxk1/l;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/linecorp/line/settings/impl/datausage/c;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1001
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/m;",
+        "Lxk1/l<",
+        "Lcom/linecorp/line/settings/impl/datausage/LineUserProvideDataUsageSettingsFragment;",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 3
+
+    check-cast p1, Lcom/linecorp/line/settings/impl/datausage/LineUserProvideDataUsageSettingsFragment;
+
+    const-string v0, "p0"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p0, p0, Lkotlin/jvm/internal/d;->receiver:Ljava/lang/Object;
+
+    check-cast p0, Lcom/linecorp/line/settings/impl/datausage/c;
+
+    invoke-virtual {p0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-virtual {p1}, Landroidx/fragment/app/k;->getContext()Landroid/content/Context;
+
+    move-result-object p0
+
+    if-nez p0, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    new-instance v0, LQi/a;
+
+    invoke-virtual {p1}, Landroidx/fragment/app/k;->getViewLifecycleOwner()Landroidx/lifecycle/J;
+
+    move-result-object v1
+
+    const-string v2, "getViewLifecycleOwner(...)"
+
+    invoke-static {v1, v2}, Lkotlin/jvm/internal/n;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    sget-object v2, LQi/a$b;->NONE:LQi/a$b;
+
+    invoke-direct {v0, v1, v2}, LQi/a;-><init>(Landroidx/lifecycle/J;LQi/a$b;)V
+
+    new-instance v1, Lsi0/s;
+
+    const/4 v2, 0x0
+
+    invoke-direct {v1, p0, p1, v2}, Lsi0/s;-><init>(Landroid/content/Context;Lcom/linecorp/line/settings/impl/datausage/LineUserProvideDataUsageSettingsFragment;Lkotlin/coroutines/Continuation;)V
+
+    const/4 p0, 0x3
+
+    invoke-static {v0, v2, v2, v1, p0}, LGL/b;->k(LSl1/F;Lmk1/g;LSl1/H;Lxk1/p;I)LSl1/L0;
+
+    :goto_0
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method

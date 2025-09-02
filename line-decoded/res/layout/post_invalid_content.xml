@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/invalid_content_icon" android:background="@drawable/timeline_empty_activity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" app:layout_constraintBottom_toTopOf="@id/invalid_content_text" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" app:tint="@color/quaternarySubNeutralFill" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/quaternaryText" android:id="@id/invalid_content_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/timeline_activitycard_desc_contentunavailable" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/invalid_content_icon" />
+</merge>

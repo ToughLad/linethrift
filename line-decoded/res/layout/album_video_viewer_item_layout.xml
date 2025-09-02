@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/video_frame" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.line.player.ui.view.LineVideoView android:id="@id/video" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <ImageView android:id="@id/preview_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/video_preview" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="52.0dip" android:layout_alignParentBottom="true" layout="@layout/media_controller_black_bg" />
+    <ProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <ImageButton android:id="@id/play_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/album_common_ic_video_play" android:layout_centerInParent="true" android:contentDescription="@string/access_play" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/lnp_video_after_view" android:background="@color/black60" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageButton android:id="@id/lnp_play_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/album_common_ic_video_play" android:contentDescription="@string/access_play" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/linewhite_alpha65" android:gravity="center" android:id="@id/lnp_description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" android:layout_marginHorizontal="50.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/lnp_learn_more_button" android:background="@drawable/album_after_video_leran_more_button_border" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:paddingHorizontal="13.0dip" android:paddingVertical="9.0dip">
+            <ImageView android:id="@id/lnp_learn_more_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="5.0dip" />
+            <TextView android:textStyle="bold" android:textColor="@color/linewhite" android:id="@id/lnp_learn_more_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/album_aftervideo_button_learnmore" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

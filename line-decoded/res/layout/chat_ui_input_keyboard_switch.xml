@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/chathistory_input_sticker_icon_margin" android:layout_marginEnd="@dimen/chathistory_input_sticker_icon_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/chat_ui_esk_button" android:layout_width="@dimen/chathistory_input_sticker_icon_size" android:layout_height="@dimen/chathistory_input_sticker_icon_size" android:src="@drawable/chat_ui_ic_stickers_selector_new_design" android:scaleType="centerInside" android:contentDescription="@string/access_chat_room_stickers" />
+    <ImageView android:id="@id/chat_ui_text_keyboard_button" android:visibility="gone" android:layout_width="@dimen/chathistory_input_sticker_icon_size" android:layout_height="@dimen/chathistory_input_sticker_icon_size" android:src="@drawable/chat_ui_ic_keyboard_selector" android:scaleType="centerInside" android:contentDescription="@string/access_chat_room_stickers" />
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/oa_membership_plan_graph" app:startDestination="@id/oa_membership_plan_select_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="oa_membership_plan_select_fragment" android:name="com.linecorp.line.officialaccount.membership.ui.fragment.PublishedMembershipListFragment" android:id="@id/oa_membership_plan_select_fragment">
+        <action android:id="@id/action_to_membership_plan_purchase" app:destination="@id/oa_membership_plan_purchase_fragment" app:enterAnim="@anim/slide_up_long" app:exitAnim="@anim/fade_out" app:popExitAnim="@anim/slide_down_long" />
+        <action android:id="@id/action_to_membership_list_recoverable_error" app:destination="@id/oa_membership_plan_error_fragment" />
+        <action android:id="@id/action_to_membership_list_unrecoverable_error" app:destination="@id/oa_membership_plan_error_fragment" app:popUpTo="@id/oa_membership_plan_select_fragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="oa_membership_plan_purchase_fragment" android:name="com.linecorp.line.officialaccount.membership.ui.fragment.MembershipPlanPurchaseFragment" android:id="@id/oa_membership_plan_purchase_fragment">
+        <action android:id="@id/action_to_membership_purchase_recoverable_error" app:destination="@id/oa_membership_plan_error_fragment" />
+        <action android:id="@id/action_to_membership_purchase_unrecoverable_error" app:destination="@id/oa_membership_plan_error_fragment" app:popUpTo="@id/oa_membership_plan_purchase_fragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="oa_membership_plan_select_error_fragment" android:name="com.linecorp.line.officialaccount.membership.ui.fragment.PublishedMembershipErrorFragment" android:id="@id/oa_membership_plan_error_fragment" />
+</navigation>

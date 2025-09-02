@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.linecorp.line.ladsdk.ui.common.view.lifecycle.LadAdView android:id="@id/lad_ad_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <androidx.cardview.widget.CardView android:id="@id/content_area" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="7.0dip" app:cardElevation="0.0dip">
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:foreground="#0c000000">
+                    <com.linecorp.line.ladsdk.ui.asset.image.LadImageAssetView android:id="@id/wallet_ad_image" android:tag="@string/ladsdk_monitoring_area" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+                    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guide_overlay_dim" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/wallet_ad_image" app:layout_constraintGuide_percent="0.61" app:layout_constraintTop_toTopOf="@id/wallet_ad_image" />
+                    <ImageView android:layout_width="0.0dip" android:layout_height="0.0dip" android:src="@drawable/ladsdk_wallet_img_bg_dim" android:scaleType="fitXY" app:layout_constraintBottom_toTopOf="@id/guide_overlay_dim" app:layout_constraintEnd_toEndOf="@id/wallet_ad_image" app:layout_constraintStart_toStartOf="@id/wallet_ad_image" app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+            <com.linecorp.line.ladsdk.ui.asset.text.LadBadgeAssetView android:textSize="11.0sp" android:textColor="@color/linewhite" android:id="@id/wallet_yj_image_ad_badge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:text="@string/ladsdk_yj_ad" android:includeFontPadding="false" android:shadowColor="@color/lineblack_alpha20" android:shadowRadius="2.0" android:layout_marginStart="10.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </FrameLayout>
+        <include android:layout_gravity="center" android:id="@id/wallet_ad_contents" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="17.0dip" layout="@layout/ladsdk_wallet_yj_ad_contents" />
+        <Space android:id="@id/wallet_yd_ad_margin" android:layout_width="16.0dip" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.linecorp.line.ladsdk.ui.asset.image.LadPrivacyAssetView android:id="@id/wallet_ad_privacy" android:layout_width="wrap_content" android:layout_height="15.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    <View android:id="@id/wallet_ad_privacy_click_area" android:layout_width="38.0dip" android:layout_height="15.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</com.linecorp.line.ladsdk.ui.common.view.lifecycle.LadAdView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/choosefriend_selected_item_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.line.android.customview.thumbnail.ThumbImageView android:id="@id/selectchat_thumbnail" android:layout_width="@dimen/choosefriend_list_item_image_size" android:layout_height="@dimen/choosefriend_list_item_image_size" android:layout_marginTop="@dimen/choosefriend_selected_item_edge_space" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginStart="@dimen/choosefriend_selected_item_edge_space" android:layout_marginEnd="@dimen/choosefriend_selected_item_edge_space" />
+    <ImageView android:id="@id/cancel_contact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/selector_selectchat_cancel_btn" android:layout_alignParentRight="true" android:contentDescription="@string/access_cancel" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/primaryText" android:ellipsize="end" android:gravity="center" android:id="@id/selectchat_thumbnail_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxWidth="@dimen/choosefriend_list_item_image_size" android:singleLine="true" android:layout_below="@id/selectchat_thumbnail" android:layout_centerHorizontal="true" android:layout_marginHorizontal="@dimen/choosefriend_selected_item_edge_space" />
+</RelativeLayout>

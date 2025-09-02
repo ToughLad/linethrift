@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.line.android.customview.StoppableViewPager android:id="@id/themeshop_imageviewer_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="top" android:id="@id/index_display" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginTop="6.669983dip" android:layout_weight="1.0">
+        <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/themeshop_imageviewer_current_index" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#ff000000" android:shadowDy="1.0" android:shadowRadius="1.0" />
+        <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/" android:shadowColor="#ff000000" android:shadowDy="1.0" android:shadowRadius="1.0" />
+        <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/themeshop_imageviewer_total_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:shadowColor="#ff000000" android:shadowDy="1.0" android:shadowRadius="1.0" />
+    </LinearLayout>
+</RelativeLayout>

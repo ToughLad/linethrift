@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/lds_popup_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingVertical="10.0dip">
+        <View android:id="@id/popup_background" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/buttons_layout" app:layout_constraintEnd_toEndOf="@id/buttons_layout" app:layout_constraintStart_toStartOf="@id/buttons_layout" app:layout_constraintTop_toTopOf="@id/content_view" />
+        <ViewStub android:id="@id/content_view" android:inflatedId="@id/content_view" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constrainedHeight="true" app:layout_constraintBottom_toTopOf="@id/buttons_layout" app:layout_constraintEnd_toEndOf="@id/buttons_layout" app:layout_constraintStart_toStartOf="@id/buttons_layout" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/buttons_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/lds_popup_button_area_horizontal_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/content_view" app:layout_constraintWidth_max="@dimen/lds_popup_max_width">
+            <androidx.appcompat.widget.AppCompatButton android:id="@id/primary_button" android:layout_width="0.0dip" android:layout_height="0.0dip" style="@style/LdsPopupButton" />
+            <androidx.appcompat.widget.AppCompatButton android:id="@id/secondary_button" android:layout_width="0.0dip" android:layout_height="0.0dip" style="@style/LdsPopupButton" />
+            <androidx.appcompat.widget.AppCompatButton android:id="@id/tertiary_button" android:layout_width="0.0dip" android:layout_height="0.0dip" style="@style/LdsPopupButton" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,69 @@
+.class public final LCj/F;
+.super Lok1/d;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lok1/f;
+    c = "com.linecorp.liff.impl.launch.LiffCacheDataRepository"
+    f = "LiffCacheDataRepository.kt"
+    l = {
+        0xb7,
+        0x5f
+    }
+    m = "retrieveValidLiffAppParamsById"
+.end annotation
+
+
+# instance fields
+.field public a:Ljava/lang/Object;
+
+.field public b:Ljava/lang/String;
+
+.field public c:Landroid/net/Uri;
+
+.field public d:Lem1/c;
+
+.field public synthetic e:Ljava/lang/Object;
+
+.field public final synthetic f:LCj/J;
+
+.field public g:I
+
+
+# direct methods
+.method public constructor <init>(LCj/J;Lok1/d;)V
+    .locals 0
+
+    iput-object p1, p0, LCj/F;->f:LCj/J;
+
+    invoke-direct {p0, p2}, Lok1/d;-><init>(Lkotlin/coroutines/Continuation;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    iput-object p1, p0, LCj/F;->e:Ljava/lang/Object;
+
+    iget p1, p0, LCj/F;->g:I
+
+    const/high16 v0, -0x80000000
+
+    or-int/2addr p1, v0
+
+    iput p1, p0, LCj/F;->g:I
+
+    iget-object p1, p0, LCj/F;->f:LCj/J;
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p1, v0, v0, p0}, LCj/J;->d(Landroid/net/Uri;Ljava/lang/String;Lok1/d;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method

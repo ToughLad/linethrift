@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/lds_popup_background" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/logo_image_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/album_lyp_promotion_portrait_logo_top_margin" android:src="@drawable/album_lyp_logo_h17" />
+    <ImageView android:id="@id/main_image_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/album_popup_illust_lyp" />
+    <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/primaryText" android:gravity="center_horizontal" android:id="@id/main_title_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/album_mainbanner_title_joinpremium" android:layout_marginHorizontal="@dimen/album_lyp_promotion_title_horizontal_margin" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/linegray600" android:gravity="center_horizontal" android:id="@id/sub_title_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/album_lyp_promotion_sub_title_top_margin" android:layout_marginBottom="@dimen/album_lyp_promotion_portrait_sub_title_bottom_margin" android:text="@string/album_mainbanner_desc_joinlyp_jp" android:layout_marginHorizontal="@dimen/album_lyp_promotion_title_horizontal_margin" />
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/location_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18.0sp" android:textStyle="normal" android:textColor="#ff222222" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/gallery_location_title" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:fontFamily="sans-serif" />
+        <Button android:id="@id/btn_location_search_by_current_location" android:background="@drawable/selector_location_btn_search_nearby" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <com.linecorp.line.media.picker.fragment.location.ClearableEditText android:textSize="16.0sp" android:textColor="#ff222222" android:textColorHint="#ffc5c8d5" android:gravity="center_vertical" android:id="@id/edit_search" android:background="#ffffffff" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip" android:hint="@string/gallery_location_searchbar" android:maxLines="1" android:drawableLeft="@drawable/location_ic_search" android:drawablePadding="5.0dip" android:layout_alignParentTop="true" android:inputType="text" android:imeOptions="actionSearch" />
+    <View android:background="#ffe3e5eb" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="10.5dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/search_result_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <RelativeLayout android:id="@id/progress_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ProgressBar android:layout_width="24.669983dip" android:layout_height="24.669983dip" android:layout_centerInParent="true" style="?android:progressBarStyleSmall" />
+        </RelativeLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/search_result_recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:overScrollMode="never" />
+        <RelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/bottom_logo_area" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="27.0dip">
+            <View android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <ImageView android:layout_width="130.0dip" android:layout_height="16.0dip" android:src="@drawable/location_ic_logo" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/enable_location_service_layout" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.5dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/img_location_disabled" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/zeropage_img_none_14" />
+        <TextView android:textSize="13.0sp" android:textColor="#ffb8babf" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:layout_marginRight="60.0dip" android:layout_marginBottom="13.5dip" android:text="@string/gallery_location_deny_screen" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/btn_enable_location_service" android:background="@drawable/selector_btn_02" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="38.0dip">
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:text="@string/gallery_location_deny_screen_btn" android:includeFontPadding="false" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

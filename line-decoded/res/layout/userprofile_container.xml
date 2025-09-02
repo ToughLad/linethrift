@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/user_profile" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" android:importantForAccessibility="yes" android:accessibilityTraversalBefore="@id/tab_container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/user_profile_info_binding" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/userprofile_info" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/user_profile_button_area" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/userprofile_main_task_button_area_height" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

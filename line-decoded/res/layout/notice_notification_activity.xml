@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.common.android.notice.notification.view.EventPageFullView android:id="@id/event_page_full_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <jp.naver.common.android.notice.notification.view.EventPagePartialView android:id="@id/event_page_partial_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <jp.naver.common.android.notice.notification.view.EventPageBottomSheetView android:id="@id/event_page_bottom_sheet_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

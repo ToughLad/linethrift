@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/headerMenuLeftButtonImage" android:layout_width="@dimen/pay_ui_main_title_bar_menu_size" android:layout_height="@dimen/pay_ui_main_title_bar_menu_size" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/headerMenuLeftButtonNewIconView" android:background="@drawable/pay_ui_main_new_icon" android:visibility="gone" android:layout_width="7.0dip" android:layout_height="7.0dip" app:layout_constraintEnd_toEndOf="@id/headerMenuLeftButtonImage" app:layout_constraintTop_toTopOf="@id/headerMenuLeftButtonImage" />
+    <ImageView android:id="@id/headerMenuRightButtonImage" android:layout_width="@dimen/pay_ui_main_title_bar_menu_size" android:layout_height="@dimen/pay_ui_main_title_bar_menu_size" android:layout_marginStart="10.0dip" app:layout_constraintStart_toEndOf="@id/headerMenuLeftButtonImage" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/headerMenuRightButtonNewIconView" android:background="@drawable/pay_ui_main_new_icon" android:visibility="gone" android:layout_width="7.0dip" android:layout_height="7.0dip" app:layout_constraintEnd_toEndOf="@id/headerMenuRightButtonImage" app:layout_constraintTop_toTopOf="@id/headerMenuRightButtonImage" />
+</androidx.constraintlayout.widget.ConstraintLayout>

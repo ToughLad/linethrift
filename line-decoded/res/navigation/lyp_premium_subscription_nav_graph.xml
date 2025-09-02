@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/lyppremium_subscribe_navigation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="lyppremium_subscribe_fragment" android:name="com.linecorp.line.lyppremium.impl.ui.subscription.LypPremiumSubscribeFragment" android:id="@id/lyppremium_subscribe_fragment">
+        <action android:id="@id/action_to_subscribe_done" app:destination="@id/lyppremium_subscribe_done_fragment" />
+    </fragment>
+    <fragment android:label="lyppremium_unsubscribe_fragment" android:name="com.linecorp.line.lyppremium.impl.ui.subscription.LypPremiumUnsubscribeFragment" android:id="@id/lyppremium_unsubscribe_fragment">
+        <action android:id="@id/action_to_unsubscribe_done" app:destination="@id/lyppremium_unsubscribe_done_fragment" />
+    </fragment>
+    <fragment android:label="lyppremium_subscribe_done_fragment" android:name="com.linecorp.line.lyppremium.impl.ui.subscription.LypPremiumSubscribeDoneFragment" android:id="@id/lyppremium_subscribe_done_fragment" />
+    <fragment android:label="lyppremium_subscribe_done_fragment" android:name="com.linecorp.line.lyppremium.impl.ui.subscription.LypPremiumUnsubscribeDoneFragment" android:id="@id/lyppremium_unsubscribe_done_fragment" />
+    <fragment android:label="lyppremium_check_id_federation_status_fragment" android:name="com.linecorp.line.lyppremium.impl.ui.subscription.LypPremiumCheckIdFederationStatusFragment" android:id="@id/lyppremium_check_id_federation_status_fragment" />
+    <fragment android:label="line_premium_subscribe_fragment" android:name="com.linecorp.line.lyppremium.impl.ui.subscription.LinePremiumSubscribeFragment" android:id="@id/line_premium_subscribe_fragment">
+        <action android:id="@id/action_to_subscribe_done" app:destination="@id/line_premium_subscribe_done_fragment" />
+    </fragment>
+    <fragment android:label="line_premium_subscribe_done_fragment" android:name="com.linecorp.line.lyppremium.impl.ui.subscription.LinePremiumSubscribeDoneFragment" android:id="@id/line_premium_subscribe_done_fragment" />
+</navigation>

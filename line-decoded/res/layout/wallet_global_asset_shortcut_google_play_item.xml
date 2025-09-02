@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="@dimen/wallet_global_asset_shortcut_section_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guideline_top" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="0.0dip" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/guideline_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="2.0dip" />
+    <FrameLayout android:id="@id/shortcut_layout" android:background="@drawable/wallet_selector_global_asset_pay_item_pressed_bg" android:layout_width="wrap_content" android:layout_height="29.0dip" android:paddingStart="@dimen/wallet_global_asset_shortcut_pressed_area_horizontal_padding" android:paddingEnd="@dimen/wallet_global_asset_shortcut_pressed_area_horizontal_padding" app:layout_constraintBottom_toTopOf="@id/guideline_bottom" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/guideline_top">
+        <ImageView android:layout_gravity="center" android:id="@id/shortcut_icon_image_view" android:background="@drawable/wallet_selector_module_item_bg" android:layout_width="40.0dip" android:layout_height="@dimen/wallet_global_asset_shortcut_icon_size" android:src="@drawable/wallet_ic_google_pay" android:contentDescription="@null" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

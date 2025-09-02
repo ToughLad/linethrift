@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:background="@color/bottom_sheet_page_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/container" android:background="@drawable/shape_page_bottom_sheet_background" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="1.136:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+            <WebView android:scrollbarStyle="insideOverlay" android:id="@id/web_view" android:paddingTop="@dimen/bottom_sheet_page_corner_round" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <jp.naver.common.android.notice.notification.view.WebViewErrorView android:id="@id/error_view" android:background="@drawable/shape_page_bottom_sheet_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ImageButton android:id="@id/close_button" android:background="@android:color/transparent" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="21.0dip" android:src="@drawable/ic_notice_close" android:layout_marginEnd="21.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <ProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/content_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/story_content_loading_layout" android:background="@color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/story_content_loading_progress" android:layout_width="44.0dip" android:layout_height="44.0dip" android:indeterminate="true" android:indeterminateTint="@color/linegray100" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.49" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/header_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <com.linecorp.line.story.impl.viewer.view.autoplay.StoryViewerAutoPlayProgressView android:orientation="horizontal" android:id="@id/autoplay" android:layout_width="fill_parent" android:layout_height="3.0dip" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/header_binding" android:layout_width="fill_parent" android:layout_height="62.0dip" android:layout_marginTop="3.0dip" app:layout_constraintTop_toTopOf="parent">
+            <com.linecorp.view.RoundedFrameLayout android:id="@id/profile_rounded_layout" android:layout_width="36.0dip" android:layout_height="36.0dip" android:contentDescription="@string/access_profile_image" android:layout_marginStart="13.0dip" app:cornerRadius="18.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <ImageView android:id="@id/profile_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+            </com.linecorp.view.RoundedFrameLayout>
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/linewhite" android:ellipsize="end" android:id="@id/name" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/linevoom_story_header_recommendedvideo" android:maxLines="1" android:singleLine="true" android:shadowColor="@color/lineblack_alpha70" android:shadowDy="0.1" android:shadowRadius="0.5" android:layout_marginStart="8.0dip" app:layout_constraintBottom_toBottomOf="@id/profile_rounded_layout" app:layout_constraintStart_toEndOf="@id/profile_rounded_layout" app:layout_constraintTop_toTopOf="@id/profile_rounded_layout" style="@style/commonFont" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:id="@id/loading_binding" layout="@layout/story_recommend_lights_loading" />
+    <ImageView android:id="@id/close" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginBottom="12.0dip" android:src="@drawable/navi_top_overlay_x" android:contentDescription="@string/access_close" android:layout_marginEnd="9.0dip" app:layout_constraintBottom_toBottomOf="@id/header_container" app:layout_constraintEnd_toEndOf="@id/header_container" />
+</androidx.constraintlayout.widget.ConstraintLayout>

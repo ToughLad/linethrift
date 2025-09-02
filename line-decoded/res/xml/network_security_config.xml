@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="user" />
+        </trust-anchors>
+    </debug-overrides>
+    <base-config cleartextTrafficPermitted="true" />
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">web.linebk.com</domain>
+        <pin-set>
+            <pin digest="SHA-256">980Ionqp3wkYtN9SZVgMzuWQzJta1nfxNPwTem1X0uc=</pin>
+            <pin digest="SHA-256">r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=</pin>
+            <pin digest="SHA-256">i7WTqTvh0OioIruIfFR4kMPnBqrS2rdiVPl/s2uC/CY=</pin>
+            <pin digest="SHA-256">KJpedoXG+Rd6IJnYeOJjxUjlaDEDI8K1vCBBgzeJkC4=</pin>
+            <pin digest="SHA-256">RkhWTcfJAQN/YxOR12VkPo+PhmIoSfWd/JVkg44einY=</pin>
+            <pin digest="SHA-256">WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=</pin>
+        </pin-set>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">api-channel.linebk.com</domain>
+        <pin-set>
+            <pin digest="SHA-256">980Ionqp3wkYtN9SZVgMzuWQzJta1nfxNPwTem1X0uc=</pin>
+            <pin digest="SHA-256">r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=</pin>
+            <pin digest="SHA-256">i7WTqTvh0OioIruIfFR4kMPnBqrS2rdiVPl/s2uC/CY=</pin>
+            <pin digest="SHA-256">KJpedoXG+Rd6IJnYeOJjxUjlaDEDI8K1vCBBgzeJkC4=</pin>
+            <pin digest="SHA-256">RkhWTcfJAQN/YxOR12VkPo+PhmIoSfWd/JVkg44einY=</pin>
+            <pin digest="SHA-256">WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=</pin>
+        </pin-set>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">webview.klinegw.kasikornbank.com</domain>
+        <pin-set>
+            <pin digest="SHA-256">du6FkDdMcVQ3u8prumAo6t3i3G27uMP2EOhR8R0at/U=</pin>
+            <pin digest="SHA-256">Vjs8r4z+80wjNcr1YKepWQboSIRi63WsWXhIMN+eWys=</pin>
+            <pin digest="SHA-256">C5+lpZ7tcVwmwQIMcRtPbsQtWLABXhQzejna0wHFr8M=</pin>
+            <pin digest="SHA-256">r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=</pin>
+            <pin digest="SHA-256">i7WTqTvh0OioIruIfFR4kMPnBqrS2rdiVPl/s2uC/CY=</pin>
+            <pin digest="SHA-256">KJpedoXG+Rd6IJnYeOJjxUjlaDEDI8K1vCBBgzeJkC4=</pin>
+            <pin digest="SHA-256">RkhWTcfJAQN/YxOR12VkPo+PhmIoSfWd/JVkg44einY=</pin>
+            <pin digest="SHA-256">WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=</pin>
+        </pin-set>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">api.klinegw.kasikornbank.com</domain>
+        <pin-set>
+            <pin digest="SHA-256">du6FkDdMcVQ3u8prumAo6t3i3G27uMP2EOhR8R0at/U=</pin>
+            <pin digest="SHA-256">r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=</pin>
+            <pin digest="SHA-256">i7WTqTvh0OioIruIfFR4kMPnBqrS2rdiVPl/s2uC/CY=</pin>
+            <pin digest="SHA-256">KJpedoXG+Rd6IJnYeOJjxUjlaDEDI8K1vCBBgzeJkC4=</pin>
+            <pin digest="SHA-256">RkhWTcfJAQN/YxOR12VkPo+PhmIoSfWd/JVkg44einY=</pin>
+            <pin digest="SHA-256">WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=</pin>
+        </pin-set>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">rt03.kasikornbank.com</domain>
+        <pin-set>
+            <pin digest="SHA-256">du6FkDdMcVQ3u8prumAo6t3i3G27uMP2EOhR8R0at/U=</pin>
+            <pin digest="SHA-256">r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=</pin>
+            <pin digest="SHA-256">i7WTqTvh0OioIruIfFR4kMPnBqrS2rdiVPl/s2uC/CY=</pin>
+            <pin digest="SHA-256">KJpedoXG+Rd6IJnYeOJjxUjlaDEDI8K1vCBBgzeJkC4=</pin>
+            <pin digest="SHA-256">RkhWTcfJAQN/YxOR12VkPo+PhmIoSfWd/JVkg44einY=</pin>
+            <pin digest="SHA-256">WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=</pin>
+        </pin-set>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">cwa.linebank.com.tw</domain>
+        <pin-set>
+            <pin digest="SHA-256">8hqbhsMMFPaPA8t81pxqFer9+neHBcQvO7+TAKjWkb0=</pin>
+            <pin digest="SHA-256">kGMGv6wUkEhZw5aobGPQXQWLfSeS6QYenzwHudPMga4=</pin>
+            <pin digest="SHA-256">9VZ7Yd685RTXsE6rL/puuMbnejYaXwaZasGL7c+Uolc=</pin>
+            <pin digest="SHA-256">r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=</pin>
+            <pin digest="SHA-256">i7WTqTvh0OioIruIfFR4kMPnBqrS2rdiVPl/s2uC/CY=</pin>
+            <pin digest="SHA-256">KJpedoXG+Rd6IJnYeOJjxUjlaDEDI8K1vCBBgzeJkC4=</pin>
+            <pin digest="SHA-256">RkhWTcfJAQN/YxOR12VkPo+PhmIoSfWd/JVkg44einY=</pin>
+            <pin digest="SHA-256">WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=</pin>
+        </pin-set>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">ci.line-apps.com</domain>
+        <domain includeSubdomains="false">cix.line-apps.com</domain>
+        <domain includeSubdomains="false">home.line-apps.com</domain>
+        <domain includeSubdomains="false">obs.line-apps.com</domain>
+        <domain includeSubdomains="false">square-note.line-apps.com</domain>
+        <domain includeSubdomains="false">poker.line.naver.jp</domain>
+        <domain includeSubdomains="false">dl.shop.line.naver.jp</domain>
+        <domain includeSubdomains="false">tauth.line.naver.jp</domain>
+        <domain includeSubdomains="false">api-album.line.me</domain>
+        <domain includeSubdomains="false">contact-cc.line.me</domain>
+        <domain includeSubdomains="true">line-cdn.net</domain>
+    </domain-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="false">jp-col-tcp.nelo.linecorp.com</domain>
+        <domain includeSubdomains="false">legy-beta.line-apps-beta.com</domain>
+        <domain includeSubdomains="false">legy-beta-osk.line-apps-beta.com</domain>
+        <domain includeSubdomains="false">legy-rc.line-apps-rc.com</domain>
+        <domain includeSubdomains="false">legy-rc2.line-apps-rc.com</domain>
+        <domain includeSubdomains="false">legy.line-apps.com</domain>
+        <domain includeSubdomains="false">legy-backup.line-apps.com</domain>
+        <domain includeSubdomains="true">line-scdn.net</domain>
+        <domain includeSubdomains="true">line-scdn-dev.net</domain>
+        <domain includeSubdomains="false">uts-front.line-apps-alpha.com</domain>
+        <domain includeSubdomains="false">uts-front.line-apps-beta.com</domain>
+        <domain includeSubdomains="false">uts-front.line-apps-rc.com</domain>
+        <domain includeSubdomains="false">uts-front.line-apps.com</domain>
+        <domain includeSubdomains="false">liff.line.me</domain>
+        <domain includeSubdomains="false">miniapp.line.me</domain>
+    </domain-config>
+</network-security-config>

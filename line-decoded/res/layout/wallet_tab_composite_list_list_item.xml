@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root_container" android:background="@drawable/wallet_v3_selector_module_item_bg" android:paddingTop="@dimen/wallet_composite_list_list_item_vertical_padding" android:paddingBottom="@dimen/wallet_composite_list_list_item_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/wallet_v3_common_horizontal_padding" android:paddingEnd="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/image_view" android:layout_width="74.0dip" android:layout_height="74.0dip" android:contentDescription="@null" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/main_text_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/image_view" app:layout_constraintTop_toTopOf="parent" style="@style/wallet_composite_list_item_main_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

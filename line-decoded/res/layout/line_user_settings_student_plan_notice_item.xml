@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/setting_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_stickers_premium_studentverification_desc" android:includeFontPadding="false" android:lineSpacingExtra="4.0sp" android:paddingHorizontal="16.0dip" android:paddingVertical="14.0dip" style="@style/line_user_settings_text_list_category_subtitle02" />
+    <View android:id="@id/setting_separator" style="@style/line_user_settings_item_divider_new_design_semantic" />
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@id/header_text" android:paddingLeft="@dimen/line_user_settings_search_result_category_header_padding_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/line_user_settings_search_result_category_header_padding_vertical" style="@style/SettingsSearchResultCategoryHeader"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

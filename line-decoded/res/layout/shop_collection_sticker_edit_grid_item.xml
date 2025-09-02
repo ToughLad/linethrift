@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/sticker_image_view" android:layout_width="@dimen/shop_edit_collection_sticker_width" android:layout_height="@dimen/shop_edit_collection_sticker_height" android:scaleType="centerCrop" android:contentDescription="@null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/remove_image_view" android:background="@drawable/shop_ic_collection_remove_sticker_bg" android:clipToPadding="false" android:layout_width="19.0dip" android:layout_height="19.0dip" android:layout_margin="2.0dip" android:scaleType="center" android:elevation="2.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/shop_ic_collection_remove_sticker" />
+</androidx.constraintlayout.widget.ConstraintLayout>

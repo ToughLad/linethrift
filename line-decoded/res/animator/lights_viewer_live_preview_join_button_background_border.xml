@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="@android:anim/decelerate_interpolator" android:duration="1700" android:valueFrom="1" android:valueTo="0" android:valueType="floatType" android:propertyName="strokeWidth" />
+    <objectAnimator android:interpolator="@android:anim/decelerate_interpolator" android:duration="700" android:startOffset="1000" android:valueFrom="@color/linewhite" android:valueTo="@color/linegreen" android:valueType="colorType" android:propertyName="strokeColor" />
+</set>

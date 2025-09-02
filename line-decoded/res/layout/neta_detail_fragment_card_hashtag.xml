@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.line.timeline.neta.detail.NetaDetailNestedScrollableHost android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|enterAlways|enterAlwaysCollapsed|snap">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <FrameLayout android:id="@id/background_container" android:layout_width="fill_parent" android:layout_height="506.0dip">
+                            <include layout="@layout/neta_detail_bg" />
+                            <View android:background="@drawable/neta_detail_dim" android:layout_width="fill_parent" android:layout_height="@dimen/timeline_neta_detail_dim_top_height" />
+                            <View android:layout_gravity="bottom" android:background="@drawable/neta_detail_dim_bottom" android:layout_width="fill_parent" android:layout_height="70.0dip" />
+                            <include layout="@layout/neta_detail_title" />
+                            <include layout="@layout/neta_detail_popular" />
+                            <include layout="@layout/neta_detail_loading" />
+                        </FrameLayout>
+                        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/timeline_hashtag_grid_category_height" app:tabGravity="fill" app:tabIndicatorHeight="0.0dip" app:tabMode="fixed" app:tabRippleColor="@null" />
+                    </LinearLayout>
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+            <com.linecorp.line.timeline.hashtag.grid.view.NonSwipableViewPager android:id="@id/hashtag_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+            <androidx.core.widget.NestedScrollView android:id="@id/hastag_info_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+                <FrameLayout android:id="@id/info_view" android:paddingTop="150.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </androidx.core.widget.NestedScrollView>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </com.linecorp.line.timeline.neta.detail.NetaDetailNestedScrollableHost>
+    <include layout="@layout/neta_detail_action" />
+    <include layout="@layout/neta_detail_toolbar" />
+    <ViewStub android:id="@id/retry_viewstub" android:layout="@layout/neta_detail_retry" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

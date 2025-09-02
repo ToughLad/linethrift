@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:background="@color/linewhite" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TableRow android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="25.0sp" android:textColor="@color/pay_manage_selector_passcode_number_color" android:gravity="center" android:id="@id/pay_passcode_number_1" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="1" android:layout_weight="1.0" />
+        <TextView android:textSize="25.0sp" android:textColor="@color/pay_manage_selector_passcode_number_color" android:gravity="center" android:id="@id/pay_passcode_number_2" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="2" android:layout_weight="1.0" />
+        <TextView android:textSize="25.0sp" android:textColor="@color/pay_manage_selector_passcode_number_color" android:gravity="center" android:id="@id/pay_passcode_number_3" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="3" android:layout_weight="1.0" />
+    </TableRow>
+    <TableRow android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="25.0sp" android:textColor="@color/pay_manage_selector_passcode_number_color" android:gravity="center" android:id="@id/pay_passcode_number_4" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="4" android:layout_weight="1.0" />
+        <TextView android:textSize="25.0sp" android:textColor="@color/pay_manage_selector_passcode_number_color" android:gravity="center" android:id="@id/pay_passcode_number_5" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="5" android:layout_weight="1.0" />
+        <TextView android:textSize="25.0sp" android:textColor="@color/pay_manage_selector_passcode_number_color" android:gravity="center" android:id="@id/pay_passcode_number_6" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="6" android:layout_weight="1.0" />
+    </TableRow>
+    <TableRow android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <TextView android:textSize="25.0sp" android:textColor="@color/pay_manage_selector_passcode_number_color" android:gravity="center" android:id="@id/pay_passcode_number_7" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="7" android:layout_weight="1.0" />
+        <TextView android:textSize="25.0sp" android:textColor="@color/pay_manage_selector_passcode_number_color" android:gravity="center" android:id="@id/pay_passcode_number_8" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="8" android:layout_weight="1.0" />
+        <TextView android:textSize="25.0sp" android:textColor="@color/pay_manage_selector_passcode_number_color" android:gravity="center" android:id="@id/pay_passcode_number_9" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="9" android:layout_weight="1.0" />
+    </TableRow>
+    <TableRow android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:id="@id/pay_passcode_number_empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textSize="25.0sp" android:textColor="@color/pay_manage_selector_passcode_number_color" android:gravity="center" android:id="@id/pay_passcode_number_0" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="0" android:layout_weight="1.0" />
+        <ImageView android:id="@id/pay_passcode_number_back" android:layout_width="wrap_content" android:layout_height="50.0dip" android:src="@drawable/pay_manage_selector_number_keyboard_delete" android:scaleType="center" android:layout_weight="1.0" android:contentDescription="@string/pay_delete" />
+    </TableRow>
+</TableLayout>

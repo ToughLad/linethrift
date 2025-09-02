@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/oa_membership_error_header" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.linecorp.line.officialaccount.membership.ui.view.MembershipPurchaseErrorView android:id="@id/oa_membership_error_view" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="0.0dip" app:actionButtonText="@string/oa_membership_button_reload" app:errorDescription="@string/oa_membership_desc_retry" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/oa_membership_error_header" />
+</androidx.constraintlayout.widget.ConstraintLayout>

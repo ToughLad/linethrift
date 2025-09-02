@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="#ff949699" android:gravity="center" android:layout_gravity="center" android:id="@id/shop_detail_limited_present_desc" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.5dip" android:text="@string/stickershop_present_confirm_desc" android:lineSpacingExtra="4.0sp" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:enabled="false" android:textColor="@drawable/selector_text_themeshop_detail_button" android:id="@id/shop_detail_present_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="5.3299866dip" android:minHeight="@dimen/shop_purchase_button_height" android:text="@string/stickershop_present_button" android:layout_weight="1.0" style="@style/shop_present_button" />
+        <RelativeLayout android:id="@id/shop_detail_purchase_button" android:background="@drawable/selector_shop_linegreen_button_bg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/shop_purchase_button_height" android:layout_weight="1.0" style="@style/shop_common_button">
+            <ProgressBar android:layout_gravity="center" android:id="@id/shop_detail_purchase_progress" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:indeterminateDrawable="@drawable/progress_circle_white" android:layout_centerInParent="true" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/shop_purchase_button_height" android:layout_centerInParent="true">
+                <ImageView android:id="@id/shop_theme_detail_purchase_apply_icon" android:background="@drawable/ic_theme_check_03" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.3299866dip" />
+                <TextView android:textSize="14.669983sp" android:textStyle="bold" android:textColor="@drawable/selector_text_themeshop_detail_button" android:gravity="center" android:layout_gravity="center" android:id="@id/shop_detail_purchase_button_text" android:paddingBottom="2.3299866dip" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="-1.0sp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

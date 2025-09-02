@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/home_writing_suggestion_divider" android:background="@color/primarySeparator" android:layout_width="fill_parent" android:layout_height="0.6700001dip" />
+    <RelativeLayout android:id="@id/home_writing_suggestion_listview_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/home_writing_suggestion_listview" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" android:dividerHeight="0.0dip" />
+    </RelativeLayout>
+</LinearLayout>

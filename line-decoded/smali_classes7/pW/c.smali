@@ -1,0 +1,251 @@
+.class public final LpW/c;
+.super Lok1/j;
+.source "SourceFile"
+
+# interfaces
+.implements Lxk1/p;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lok1/j;",
+        "Lxk1/p<",
+        "LSl1/F;",
+        "Lkotlin/coroutines/Continuation<",
+        "-",
+        "Lkotlin/Unit;",
+        ">;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lok1/f;
+    c = "com.linecorp.line.note.albumnote.fragment.GroupNoteListFragment$updateNoteUTSBaseData$1"
+    f = "GroupNoteListFragment.kt"
+    l = {
+        0x4c
+    }
+    m = "invokeSuspend"
+.end annotation
+
+
+# instance fields
+.field public a:I
+
+.field public final synthetic b:Lcom/linecorp/line/note/albumnote/fragment/GroupNoteListFragment;
+
+
+# direct methods
+.method public constructor <init>(Lcom/linecorp/line/note/albumnote/fragment/GroupNoteListFragment;Lkotlin/coroutines/Continuation;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/linecorp/line/note/albumnote/fragment/GroupNoteListFragment;",
+            "Lkotlin/coroutines/Continuation<",
+            "-",
+            "LpW/c;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, LpW/c;->b:Lcom/linecorp/line/note/albumnote/fragment/GroupNoteListFragment;
+
+    const/4 p1, 0x2
+
+    invoke-direct {p0, p1, p2}, Lok1/j;-><init>(ILkotlin/coroutines/Continuation;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Object;",
+            "Lkotlin/coroutines/Continuation<",
+            "*>;)",
+            "Lkotlin/coroutines/Continuation<",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+
+    new-instance p1, LpW/c;
+
+    iget-object p0, p0, LpW/c;->b:Lcom/linecorp/line/note/albumnote/fragment/GroupNoteListFragment;
+
+    invoke-direct {p1, p0, p2}, LpW/c;-><init>(Lcom/linecorp/line/note/albumnote/fragment/GroupNoteListFragment;Lkotlin/coroutines/Continuation;)V
+
+    return-object p1
+.end method
+
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, LSl1/F;
+
+    check-cast p2, Lkotlin/coroutines/Continuation;
+
+    invoke-virtual {p0, p1, p2}, LpW/c;->create(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+
+    move-result-object p0
+
+    check-cast p0, LpW/c;
+
+    sget-object p1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    invoke-virtual {p0, p1}, LpW/c;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 7
+
+    sget-object v0, Lnk1/a;->COROUTINE_SUSPENDED:Lnk1/a;
+
+    iget v1, p0, LpW/c;->a:I
+
+    iget-object v2, p0, LpW/c;->b:Lcom/linecorp/line/note/albumnote/fragment/GroupNoteListFragment;
+
+    const/4 v3, 0x1
+
+    const-string v4, "requireActivity(...)"
+
+    iget-object v5, v2, Lcom/linecorp/line/note/albumnote/fragment/GroupNoteListFragment;->d:Lkotlin/Lazy;
+
+    if-eqz v1, :cond_1
+
+    if-ne v1, v3, :cond_0
+
+    invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
+
+    goto :goto_0
+
+    :cond_0
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    const-string p1, "call to \'resume\' before \'invoke\' with coroutine"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :cond_1
+    invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
+
+    invoke-virtual {v2}, Landroidx/fragment/app/k;->requireActivity()Landroidx/fragment/app/n;
+
+    move-result-object p1
+
+    invoke-static {p1, v4}, Lkotlin/jvm/internal/n;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    sget-object v1, LzV/r;->U7:LzV/r$a;
+
+    invoke-static {v1, p1}, LAC/a;->j(LNi/a;Landroid/content/Context;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, LzV/r;
+
+    sget-object v1, LcY/d$e;->b:LcY/d$e;
+
+    invoke-interface {p1, v1}, LzV/r;->g(LcY/d;)V
+
+    invoke-interface {v5}, Lkotlin/Lazy;->getValue()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, LUX/b;
+
+    invoke-virtual {v2}, Landroidx/fragment/app/k;->requireActivity()Landroidx/fragment/app/n;
+
+    move-result-object v1
+
+    invoke-static {v1, v4}, Lkotlin/jvm/internal/n;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object v6, v2, Lcom/linecorp/line/note/albumnote/fragment/NoteAbstractNoteListFragment;->a:Lkotlin/Lazy;
+
+    invoke-interface {v6}, Lkotlin/Lazy;->getValue()Ljava/lang/Object;
+
+    move-result-object v6
+
+    check-cast v6, LqW/i;
+
+    iput v3, p0, LpW/c;->a:I
+
+    invoke-interface {p1, v1, v6, p0}, LUX/b;->c(Landroidx/fragment/app/n;LqW/i;LpW/c;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    if-ne p1, v0, :cond_2
+
+    return-object v0
+
+    :cond_2
+    :goto_0
+    check-cast p1, LdY/b;
+
+    invoke-interface {v5}, Lkotlin/Lazy;->getValue()Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, LUX/b;
+
+    invoke-virtual {v2}, Landroidx/fragment/app/k;->requireActivity()Landroidx/fragment/app/n;
+
+    move-result-object v0
+
+    invoke-static {v0, v4}, Lkotlin/jvm/internal/n;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-interface {p0, v0, p1}, LUX/b;->a(Landroid/content/Context;LdY/b;)V
+
+    invoke-interface {v5}, Lkotlin/Lazy;->getValue()Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, LUX/b;
+
+    invoke-virtual {v2}, Landroidx/fragment/app/k;->requireActivity()Landroidx/fragment/app/n;
+
+    move-result-object p1
+
+    invoke-static {p1, v4}, Lkotlin/jvm/internal/n;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-interface {p0, p1}, LUX/b;->d(Landroidx/fragment/app/n;)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_3
+
+    invoke-virtual {v2}, Landroidx/fragment/app/k;->requireActivity()Landroidx/fragment/app/n;
+
+    move-result-object p0
+
+    invoke-static {p0, v4}, Lkotlin/jvm/internal/n;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    sget-object p1, LzV/s;->V7:LzV/s$a;
+
+    invoke-static {p1, p0}, LAC/a;->j(LNi/a;Landroid/content/Context;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, LzV/s;
+
+    sget-object p1, LiY/a$f;->a:LiY/a$f;
+
+    invoke-interface {p0, p1}, LzV/s;->e(LiY/a;)V
+
+    :cond_3
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method

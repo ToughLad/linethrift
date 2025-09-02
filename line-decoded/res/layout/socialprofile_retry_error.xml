@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/content_area" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.24">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/error_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/socialprofile_error_retry" android:contentDescription="@null" />
+        <TextView android:gravity="center_horizontal" android:id="@id/error_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" android:text="@string/common_err_temporary_error" android:layout_marginStart="60.0dip" android:layout_marginEnd="60.0dip" style="@style/socialprofile_post_error_font" />
+        <TextView android:gravity="center_horizontal" android:id="@id/date_msg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginStart="60.0dip" android:layout_marginEnd="60.0dip" style="@style/socialprofile_error_date_font" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/footer_retry" android:background="@drawable/socialprofile_retry_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="270.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/content_area">
+        <ImageView android:id="@id/retry_button_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.599976dip" android:layout_marginBottom="16.0dip" android:src="@drawable/socialprofile_retry" android:contentDescription="@null" android:layout_marginStart="39.0dip" android:layout_marginEnd="6.0dip" />
+        <TextView android:id="@id/retry_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_try_again" android:layout_marginEnd="45.5dip" style="@style/socialprofile_error_retry_font" />
+    </LinearLayout>
+</merge>

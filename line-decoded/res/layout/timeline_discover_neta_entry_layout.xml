@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/neta_entry_root" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/neta_event_recycler_view" android:layout_width="fill_parent" android:layout_height="@dimen/timeline_discover_neta_event_entry_height_in_portrait" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/neta_event_indicator" android:background="@drawable/discover_neta_card_event_page_indicator_background" android:paddingTop="2.0dip" android:paddingRight="7.0dip" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="6.0dip" android:layout_alignParentRight="true" android:paddingStart="7.0dip">
+        <TextView android:textSize="11.0sp" android:textColor="@color/linewhite" android:id="@id/neta_event_current_page" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="center_vertical" android:background="@drawable/discover_neta_card_event_indicator_divider" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3.0dip" android:layout_marginEnd="3.0dip" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/linewhite_alpha40" android:id="@id/neta_event_total_page" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

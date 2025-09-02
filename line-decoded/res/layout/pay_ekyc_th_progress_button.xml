@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="56.0dip" app:cardBackgroundColor="@color/pay_green" app:cardCornerRadius="5.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="10.0dip">
+        <com.google.android.material.progressindicator.CircularProgressIndicator android:id="@id/buttonProgress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:indeterminateDuration="1" android:layout_marginEnd="3.0dip" app:indicatorColor="@color/linewhite" app:indicatorSize="16.0dip" app:trackCornerRadius="4.0dip" app:trackThickness="3.0dip" />
+        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/linewhite" android:id="@id/buttonText" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

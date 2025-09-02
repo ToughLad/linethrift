@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/smart_ch_content_view" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="@dimen/smart_ch_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.line.ladsdk.ui.asset.text.LadTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/primaryText" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/smart_ch_error_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="3" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</FrameLayout>

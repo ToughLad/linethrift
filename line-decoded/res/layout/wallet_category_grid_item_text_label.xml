@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/wallet_category_grid_item_image_label_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="10.0dip" android:textStyle="bold" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/text_label_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+</FrameLayout>

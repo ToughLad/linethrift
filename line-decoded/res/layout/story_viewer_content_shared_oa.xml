@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.linecorp.line.story.impl.viewer.view.adapter.content.StoryShareContentView android:id="@id/story_share_content_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/reaction_binding" layout="@layout/story_viewer_content_reaction" />
+</androidx.constraintlayout.widget.ConstraintLayout>

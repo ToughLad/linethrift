@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/content_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/chat_media_content_view_pager_container" android:paddingTop="@dimen/header_height" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <jp.naver.line.android.customview.SlidingTabLayout android:id="@id/chat_media_content_tabs" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="1.0dip" />
+            <View android:background="@color/primarySeparator" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="-0.5dip" android:elevation="0.0dip" />
+            <jp.naver.gallery.list.NonSwipableViewPager android:id="@id/chat_media_content_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </FrameLayout>
+    <jp.naver.line.android.common.view.header.Header android:id="@id/chat_media_content_header" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:upButtonVisibility="true" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/primarySurface" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/primaryText" android:gravity="center_horizontal" android:id="@id/title_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" style="@style/commonFont" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/quaternaryAltText" android:gravity="center_horizontal" android:id="@id/message_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="23.0dip" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" style="@style/commonFont" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/button_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="13.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/defaultText" android:gravity="center" android:id="@id/negative_button" android:background="@drawable/socialprofile_button_gray_bg" android:layout_width="0.0dip" android:layout_height="44.0dip" android:layout_weight="1.0" android:layout_marginEnd="3.0dip" style="@style/commonFont" />
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/onPrimaryFill" android:gravity="center" android:id="@id/positive_button" android:background="@drawable/socialprofile_button_green_bg" android:layout_width="0.0dip" android:layout_height="44.0dip" android:layout_weight="1.0" android:layout_marginStart="3.0dip" style="@style/commonFont" />
+    </LinearLayout>
+</LinearLayout>

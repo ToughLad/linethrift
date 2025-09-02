@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/recycler_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/wallet_category_grid_horizontal_padding" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" app:spanCount="3" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/caution_view_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/caution_icon" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_marginTop="54.0dip" android:src="@drawable/wallet_ic_information" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/senaryAltText" android:gravity="center" android:id="@id/caution_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/wallet_hotdeal_empty" android:layout_marginStart="50.0dip" android:layout_marginEnd="50.0dip" app:layout_constrainedWidth="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/caution_icon" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

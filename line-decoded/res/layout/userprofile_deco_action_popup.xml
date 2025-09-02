@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/user_profile_deco_action_popup" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/user_profile_deco_action_popup_up_arrow" android:background="@drawable/userprofile_ic_link_tooltip_arrow" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="8.0dip" android:contentDescription="@null" android:rotation="180.0" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/linewhite" android:orientation="vertical" android:id="@id/user_profile_deco_action_popup_text" android:background="@drawable/userprofile_deco_action_popup_bg" android:padding="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_bubbledesc_openlink" android:drawablePadding="4.0dip" android:drawableEnd="@drawable/userprofile_ic_link_arrow" style="@style/commonFont" />
+        <ImageView android:id="@id/user_profile_deco_action_popup_down_arrow" android:background="@drawable/userprofile_ic_link_tooltip_arrow" android:layout_width="16.0dip" android:layout_height="8.0dip" android:contentDescription="@null" />
+    </LinearLayout>
+</FrameLayout>

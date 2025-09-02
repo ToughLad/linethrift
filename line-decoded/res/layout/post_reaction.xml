@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/post_reaction_like" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout android:id="@id/post_reaction_like_icon_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/post_reaction_like_icon_on" android:background="@drawable/voom_feed_like_on" android:visibility="gone" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/voom_feed_like_face" android:scaleType="center" />
+            <ImageView android:id="@id/post_reaction_like_icon_off" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/voom_feed_like_off" app:tint="@color/primaryText" />
+        </FrameLayout>
+        <TextView android:id="@id/post_reaction_like_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" style="@style/post_reaction_count_font" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/post_reaction_comment" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" app:layout_constraintStart_toEndOf="@id/post_reaction_like" app:layout_constraintTop_toTopOf="@id/post_reaction_like">
+        <ImageView android:id="@id/post_reaction_comment_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/voom_feed_reply" android:contentDescription="@string/access_timeline_comments" app:tint="@color/primaryText" />
+        <TextView android:id="@id/post_reaction_comment_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" style="@style/post_reaction_count_font" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/post_reaction_share" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginHorizontal="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toEndOf="@id/post_reaction_comment" app:layout_constraintTop_toTopOf="@id/post_reaction_comment">
+        <ImageView android:id="@id/post_reaction_share_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/voom_feed_share" android:contentDescription="@string/access_timeline_share" app:tint="@color/primaryText" />
+        <TextView android:id="@id/post_reaction_share_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip" style="@style/post_reaction_count_font" />
+    </LinearLayout>
+    <ImageView android:id="@id/post_reaction_close_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/voom_feed_close" app:layout_constraintStart_toStartOf="@id/post_reaction_like" app:layout_constraintTop_toTopOf="@id/post_reaction_like" app:tint="@color/primaryAltText" />
+</merge>

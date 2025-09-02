@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.percentlayout.widget.PercentRelativeLayout android:orientation="vertical" android:id="@id/root" android:background="#ffffffff" android:focusable="true" android:focusableInTouchMode="true" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.linecorp.line.timeline.write.WriteHeaderView android:id="@id/write_header_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.linecorp.line.timeline.write.attachment.WriteContentCoordinatorLayout android:id="@id/input_layout" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/attach_panel_layout" android:layout_below="@id/write_header_view" />
+    <FrameLayout android:id="@id/attach_panel_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/attach_component_layout" />
+    <com.linecorp.line.timeline.ui.base.view.TimelineDraggableFrameLayout android:id="@id/attach_component_layout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:splitMotionEvents="true" />
+    <ViewStub android:id="@id/popup_sticker_view_stub" android:visibility="gone" android:layout="@layout/timeline_popup_sticker_view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/attach_panel_layout" android:layout_below="@id/write_header_view" />
+    <ViewStub android:id="@id/sticker_keyboard_preview_viewstub" android:inflatedId="@id/sticker_keyboard_preview_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/attach_panel_layout" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/recommended_sticker_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/attach_panel_layout" />
+    <ViewStub android:id="@id/tag_sub_cluster_bottom_sheet_viewstub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/home_write_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.percentlayout.widget.PercentRelativeLayout>

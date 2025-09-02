@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="15.0dip" android:width="14.0dip" android:viewportWidth="14.0" android:viewportHeight="15.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$oa_membership_plan_profile_frame_sub_item_3__0" android:pathData="M2.937,14.892C1.976,14.99 1.119,14.289 1.021,13.328C0.353,6.734 5.149,0.846 11.734,0.177C12.694,0.079 13.552,0.779 13.649,1.741C13.747,2.703 13.047,3.561 12.087,3.659C7.423,4.133 4.025,8.304 4.499,12.974C4.596,13.936 3.897,14.794 2.937,14.892Z" android:fillType="evenOdd" />
+</vector>

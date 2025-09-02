@@ -1,0 +1,46 @@
+{
+  "common": {
+    "enable_secure_enclave": true
+  },
+  "faceprint": {
+    "faceprint_max_count": 1,
+    "feature_max_count": 1,
+    "reverb_disp_time": 0,
+    "verify_level": 1,
+    "sunglasses_level": 20,
+    "mask_level": 20
+  },
+  "liveness": {
+    "enable": true,
+    "no_preview": false,
+    "auto_close_time": 180,
+    "action_count": 2,
+    "action_time_out": 30,
+    "must_keep_face": false,
+    "actions": [
+      {
+        "name": "pan",
+        "param1": "15"
+      },
+      {
+        "name": "roll",
+        "param1": "15"
+      },
+      {
+        "name": "tilt",
+        "param1": "11"
+      },
+      {
+        "name": "close_eye",
+        "param1": "6"
+      },
+      {
+        "name": "smile",
+        "param1": "10"
+      }
+    ]
+  },
+  "statistics": {
+    "collect_score": true
+  }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="1000" android:drawable="@drawable/video_profile_new_icon01" />
+    <item android:duration="20" android:drawable="@drawable/video_profile_new_icon02" />
+    <item android:duration="20" android:drawable="@drawable/video_profile_new_icon03" />
+    <item android:duration="1000" android:drawable="@drawable/video_profile_new_icon04" />
+    <item android:duration="20" android:drawable="@drawable/video_profile_new_icon03" />
+    <item android:duration="20" android:drawable="@drawable/video_profile_new_icon02" />
+</animation-list>

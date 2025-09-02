@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_layout" android:paddingBottom="37.0dip" android:clipChildren="false" android:clipToPadding="false" android:layout_width="@dimen/glp_reaction_width" android:layout_height="@dimen/glp_reaction_height_for_portrait" android:layout_marginBottom="34.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/area_heart" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/area_my_heart" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="bottom" android:id="@id/special_image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" android:contentDescription="@null" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:layout_width="46.0dip" android:layout_height="41.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/image" android:layout_width="37.0dip" android:layout_height="37.0dip" android:scaleType="fitCenter" />
+    <View android:layout_gravity="center" android:id="@id/loading_view" android:background="@drawable/birthday_card_thumb_loading" android:layout_width="37.0dip" android:layout_height="37.0dip" />
+    <View android:layout_gravity="center" android:id="@id/selection_frame" android:background="@drawable/birthday_card_thumb_select_frame" android:layout_width="41.0dip" android:layout_height="41.0dip" />
+</FrameLayout>

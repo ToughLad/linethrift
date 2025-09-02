@@ -1,0 +1,44 @@
+.class public abstract Lh9/p;
+.super Lh9/m;
+.source "SourceFile"
+
+
+# virtual methods
+.method public final i(ILandroid/os/Parcel;)Z
+    .locals 2
+
+    const/4 v0, 0x1
+
+    if-ne p1, v0, :cond_0
+
+    sget-object p1, Lcom/google/android/gms/common/api/Status;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    invoke-static {p2, p1}, Lh9/n;->a(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/google/android/gms/common/api/Status;
+
+    sget-object v1, LD8/b;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    invoke-static {p2, v1}, Lh9/n;->a(Landroid/os/Parcel;Landroid/os/Parcelable$Creator;)Landroid/os/Parcelable;
+
+    move-result-object v1
+
+    check-cast v1, LD8/b;
+
+    invoke-static {p2}, Lh9/n;->b(Landroid/os/Parcel;)V
+
+    check-cast p0, Lh9/f;
+
+    iget-object p0, p0, Lh9/f;->a:LU9/l;
+
+    invoke-static {p1, v1, p0}, LK8/t;->a(Lcom/google/android/gms/common/api/Status;Ljava/lang/Object;LU9/l;)V
+
+    return v0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    return p0
+.end method

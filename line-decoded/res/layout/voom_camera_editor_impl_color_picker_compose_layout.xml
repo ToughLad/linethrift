@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/background_layout" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/color_picker_background_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:contentDescription="@null" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/color_picker_expand_spot" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/color_picker_spot" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</RelativeLayout>

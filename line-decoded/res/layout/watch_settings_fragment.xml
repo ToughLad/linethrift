@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/settings_root" android:background="@color/settings_bg_semantic" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_quick_reply" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintBottom_toTopOf="@id/reset_button_container" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/header" />
+    <FrameLayout android:id="@id/reset_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent">
+        <TextView android:id="@id/tv_reset" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="19.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="13.0dip" android:text="@string/settings_smartwatch_button_resetreplies" style="@style/setting_fullpage_button.outline_semantic" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

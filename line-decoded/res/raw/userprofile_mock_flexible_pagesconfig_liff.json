@@ -1,0 +1,182 @@
+{
+  "available": true,
+  "category": "CATE_21",
+  "oa": {
+    "friendshipStatus": "unknown"
+  },
+  "pages": [
+    {
+      "title": "[This INTRO must be ignored. If you see this title, it must be an error.]",
+      "description": "We are constantly fine-tuning our AI technology, but results may vary.",
+      "pageName": "INTRO",
+      "pageId": "intro_1",
+      "footerButton": {
+        "text": "Start now",
+        "actionType": "PAGE",
+        "pageName": "PICTURE_GUIDE",
+        "actionDestination": "picture_guide_1"
+      },
+      "images": [
+        {
+          "width": 670,
+          "height": 1024,
+          "url": "https://line-objects-dev.com/flexible-ui/Intro_AI%20Selfie_Image%201%402x.jpg"
+        },
+        {
+          "width": 670,
+          "height": 1032,
+          "url": "https://line-objects-dev.com/flexible-ui/Intro_AI%20Selfie_Image%202%402x.jpg"
+        },
+        {
+          "width": 670,
+          "height": 1032,
+          "url": "https://line-objects-dev.com/flexible-ui/Intro_AI%20Selfie_Image%203%402x.jpg"
+        },
+        {
+          "width": 670,
+          "height": 1022,
+          "url": "https://line-objects-dev.com/flexible-ui/Intro_AI%20Selfie_Image%204%402x.jpg"
+        }
+      ]
+    },
+    {
+      "title": "Photo guide",
+      "pageName": "PICTURE_GUIDE",
+      "pageId": "picture_guide_1",
+      "footerButton": {
+        "text": "Select 1-50 photos",
+        "actionType": "PAGE",
+        "pageName": "PICTURE_SELECTION",
+        "actionDestination": "picture_selection_1"
+      },
+      "goodExamples": {
+        "images": [
+          "https://line-objects-dev.com/flexible-ui/avatar_studio_thumb_good_01.jpg",
+          "https://line-objects-dev.com/flexible-ui/avatar_studio_thumb_good_02.jpg",
+          "https://line-objects-dev.com/flexible-ui/avatar_studio_thumb_good_03.jpg",
+          "https://line-objects-dev.com/flexible-ui/avatar_studio_thumb_good_04.jpg",
+          "https://line-objects-dev.com/flexible-ui/avatar_studio_thumb_good_05.jpg"
+        ],
+        "description": "Color photos capturing a variety of angles with expressions clearly showing facial features. All photos should be of the same person."
+      },
+      "badExamples": {
+        "images": [
+          "https://line-objects-dev.com/flexible-ui/avatar_studio_thumb_bad_01.jpg",
+          "https://line-objects-dev.com/flexible-ui/avatar_studio_thumb_bad_02.jpg",
+          "https://line-objects-dev.com/flexible-ui/avatar_studio_thumb_bad_03.jpg",
+          "https://line-objects-dev.com/flexible-ui/avatar_studio_thumb_bad_04.jpg",
+          "https://line-objects-dev.com/flexible-ui/avatar_studio_thumb_bad_05.jpg"
+        ],
+        "description": "Group photos, black-and-white, overexposed or revealing shots, full-body photos or photos of minors. Photos with masks, sunglasses, or accessories."
+      }
+    },
+    {
+      "pageName": "PICTURE_SELECTION",
+      "pageId": "picture_selection_1",
+      "footerButton": {
+        "actionType": "PAGE",
+        "pageName": "RESULT_INFO_SELECTION",
+        "actionDestination": "result_info_selection_1"
+      },
+      "config": {
+        "unsuitableImageCheck": false,
+        "maxCheck": 50,
+        "minCheck": 1
+      }
+    },
+    {
+      "pageName": "RESULT_INFO_SELECTION",
+      "pageId": "result_info_selection_1",
+      "footerButton": {
+        "text": "Next",
+        "actionType": "PAGE",
+        "pageName": "RESULT_INFO_SELECTION",
+        "actionDestination": "result_info_selection_2"
+      },
+      "blocks": [
+        {
+          "title": "Select a gender for your images",
+          "category": "GENDER",
+          "description": "The AI model will generate images based on the gender you choose.",
+          "minSelectable": 1,
+          "maxSelectable": 1,
+          "selectableItems": [
+            {
+              "id": "FEMALE",
+              "text": "Female",
+              "enable": true,
+              "selected": false,
+              "icon": "https://line-objects-dev.com/flexible-ui/femaleicon.png"
+            },
+            {
+              "id": "MALE",
+              "text": "Male",
+              "enable": false,
+              "selected": false,
+              "icon": "https://line-objects-dev.com/flexible-ui/maleicon.png"
+            },
+            {
+              "id": "OTHERS",
+              "text": "Other",
+              "enable": true,
+              "selected": true,
+              "icon": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "RESULT_INFO_SELECTION",
+      "pageId": "result_info_selection_2",
+      "footerButton": {
+        "text": "Next",
+        "actionType": "PAGE",
+        "pageName": "PACKAGE_SELECTION",
+        "actionDestination": "package_selection_1"
+      },
+      "blocks": [
+        {
+          "title": "Select a gender for your images",
+          "category": "GENDER",
+          "description": "The AI model will generate images based on the gender you choose.",
+          "minSelectable": 1,
+          "maxSelectable": 3,
+          "selectableItems": [
+            {
+              "id": "FEMALE",
+              "text": "Female",
+              "enable": true,
+              "selected": true,
+              "icon": "https://line-objects-dev.com/flexible-ui/femaleicon.png"
+            },
+            {
+              "id": "MALE",
+              "text": "Male",
+              "enable": true,
+              "selected": true,
+              "icon": "https://line-objects-dev.com/flexible-ui/maleicon.png"
+            },
+            {
+              "id": "OTHERS",
+              "text": "Other",
+              "enable": true,
+              "selected": false,
+              "icon": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "PACKAGE_SELECTION",
+      "pageId": "package_selection_1",
+      "footerButton": {
+        "text": "Next",
+        "actionType": "PAGE",
+        "pageName": "CONFIRM_PURCHASE",
+        "actionDestination": "confirm_purchase_1"
+      }
+    }
+  ]
+}

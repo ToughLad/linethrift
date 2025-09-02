@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/settings_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:id="@id/settings_webview_root" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <jp.naver.line.android.customview.cswebview.CsFormWebView android:id="@id/settings_webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:id="@id/settings_webview_progressBar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="10.0dip" android:indeterminate="false" android:minHeight="10.0dip" style="?android:progressBarStyleHorizontal" />
+        <ViewStub android:id="@id/settings_webview_retry_error" android:layout="@layout/retryerrorview_viewstub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</LinearLayout>

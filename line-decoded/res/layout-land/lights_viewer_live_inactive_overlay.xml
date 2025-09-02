@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/lights_viewer_live_inactive_layer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/lights_viewer_live_inactive_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+    <View android:id="@id/lights_viewer_live_inactive_dim_layer" android:background="@color/lineblack_alpha70" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/linewhite" android:gravity="center_horizontal" android:id="@id/lights_viewer_live_inactive_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/timeline_voomlive_toast_hostistemporarilygone" android:paddingStart="246.0dip" android:paddingEnd="246.0dip" app:layout_constraintBottom_toTopOf="@id/lights_viewer_live_preview_bottom_space" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.39" style="@style/commonFont" />
+    <Space android:id="@id/lights_viewer_live_preview_bottom_space" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@drawable/lights_viewer_dim_top" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintHeight_percent="0.18" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="@drawable/lights_viewer_dim_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHeight_percent="0.34" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="38.0dip" android:width="38.0dip" android:viewportWidth="38.0" android:viewportHeight="38.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#00000000" android:pathData="M12.119,26.171L26.171,12.119" android:strokeColor="@color/lds_box_button_solid_black_solid_color" android:strokeWidth="1.5" android:strokeLineJoin="round" />
+    <path android:fillColor="#00000000" android:pathData="M12.119,12.119L26.171,26.171" android:strokeColor="@color/lds_box_button_solid_black_solid_color" android:strokeWidth="1.5" android:strokeLineJoin="round" />
+</vector>

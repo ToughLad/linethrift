@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/chat_ui_row_typing_dot1" android:layout_width="2.0dip" android:layout_height="2.0dip" android:src="@drawable/chat_ui_typing_dot" android:contentDescription="@null" android:alpha="0.4" />
+    <Space android:layout_width="4.0dip" android:layout_height="2.0dip" />
+    <ImageView android:id="@id/chat_ui_row_typing_dot2" android:layout_width="2.0dip" android:layout_height="2.0dip" android:src="@drawable/chat_ui_typing_dot" android:contentDescription="@null" android:alpha="0.4" />
+    <Space android:layout_width="4.0dip" android:layout_height="2.0dip" />
+    <ImageView android:id="@id/chat_ui_row_typing_dot3" android:layout_width="2.0dip" android:layout_height="2.0dip" android:src="@drawable/chat_ui_typing_dot" android:contentDescription="@null" android:alpha="0.4" />
+</LinearLayout>

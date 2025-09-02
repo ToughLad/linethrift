@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.linecorp.line.ladsdk.ui.common.view.lifecycle.LadAdView android:id="@id/ad_post_root_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.line.ladsdk.ui.inventory.timeline.post.view.LadPostHeaderView android:id="@id/ad_post_header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/header_divider" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/header_divider" android:background="@color/ladsdk_ladblack_8" android:layout_width="fill_parent" android:layout_height="0.6700001dip" app:layout_constraintTop_toBottomOf="@id/ad_post_header" />
+    <com.linecorp.line.ladsdk.ui.asset.image.LadImageAssetView android:id="@id/ad_post_image" android:tag="@string/ladsdk_monitoring_area" android:background="@color/ladsdk_color_e7e7e7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:layout_above="@id/title_layout" app:layout_constraintTop_toBottomOf="@id/header_divider" />
+    <com.linecorp.line.ladsdk.ui.inventory.timeline.post.view.LadPostBottomView android:id="@id/ad_post_bottom_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/ad_post_image" />
+    <com.linecorp.line.ladsdk.ui.inventory.timeline.post.view.LadPostReactionView android:id="@id/ad_post_reaction_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/ad_post_bottom_view" />
+</com.linecorp.line.ladsdk.ui.common.view.lifecycle.LadAdView>

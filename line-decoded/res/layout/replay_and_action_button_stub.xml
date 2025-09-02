@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#66000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:gravity="center_vertical" android:id="@id/replay_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/timeline_video_replay" android:drawableLeft="@drawable/selector_common_ic_play_04" android:drawablePadding="@dimen/timeline_video_complete_state_button_compound_drawable_padding" style="@style/video_btn_at_finish_screen" />
+        <TextView android:gravity="center_vertical" android:id="@id/action_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/replay_button" style="@style/video_btn_at_finish_screen" />
+    </RelativeLayout>
+</RelativeLayout>

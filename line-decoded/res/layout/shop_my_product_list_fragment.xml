@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/bottom_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="69.0dip">
+                <TextView android:textColor="@color/linewhite" android:layout_gravity="center" android:id="@id/download_all_button" android:background="@drawable/shop_green_button_bg" style="@style/shop_settings_bottom_button" />
+                <TextView android:textColor="@color/linegray900" android:layout_gravity="center" android:id="@id/cancel_all_button" android:background="@drawable/shop_white_button_bg" android:visibility="gone" android:text="@string/cancel" style="@style/shop_settings_bottom_button" />
+            </FrameLayout>
+        </FrameLayout>
+    </LinearLayout>
+    <include layout="@layout/shop_sticker_no_result_screen" />
+    <include layout="@layout/shop_loading_spinner" />
+</FrameLayout>

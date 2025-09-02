@@ -1,0 +1,81 @@
+.class public final Lw40/a$K;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lw40/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lw40/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "K"
+.end annotation
+
+
+# instance fields
+.field public final a:Z
+
+.field public final b:I
+
+
+# direct methods
+.method public constructor <init>(ZI)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-boolean p1, p0, Lw40/a$K;->a:Z
+
+    iput p2, p0, Lw40/a$K;->b:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Landroid/content/Context;)Ljava/lang/String;
+    .locals 0
+
+    iget p0, p0, Lw40/a$K;->b:I
+
+    invoke-virtual {p1, p0}, Landroid/content/Context;->getString(I)Ljava/lang/String;
+
+    move-result-object p0
+
+    const-string p1, "getString(...)"
+
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/n;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    return-object p0
+.end method
+
+.method public final b(Landroid/content/Context;)Lw40/a$j;
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return-object p0
+.end method
+
+.method public final c(Lcom/linecorp/line/pay/setting/ui/PaySettingActivity;Ljava/util/LinkedHashMap;)Z
+    .locals 0
+
+    invoke-static {p1, p2}, Lw40/a$i;->a(Landroidx/fragment/app/n;Ljava/util/Map;)V
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public final getIcon()Ljava/lang/Integer;
+    .locals 0
+
+    const/4 p0, 0x0
+
+    return-object p0
+.end method

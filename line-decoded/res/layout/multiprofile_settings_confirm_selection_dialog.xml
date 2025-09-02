@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="28.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/LdsPopupDescriptionTextAppearance" android:textColorLink="@color/primaryLink" android:gravity="center_horizontal" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/subprofile_editfriends_popuptitle_showndifferentprofile" />
+    <CheckBox android:textColor="@color/septenaryAltText" android:layout_gravity="center_horizontal" android:id="@id/not_show_confirm_dialog_next_time_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="14.0dip" android:button="@drawable/multiprofile_ic_checkbox" android:text="@string/subprofile_editfriends_popupdesc_dontshowagain" android:drawableLeft="@color/transparent" android:drawablePadding="8.0dip" />
+</LinearLayout>

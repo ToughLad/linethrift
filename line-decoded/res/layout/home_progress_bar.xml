@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/progress_bar_container" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.TintableProgressBar android:id="@id/loading_progressbar" android:layout_width="@dimen/progress_bar_size" android:layout_height="@dimen/progress_bar_size" android:indeterminate="true" android:layout_centerInParent="true" app:tintColor="@color/primaryFill" />
+</RelativeLayout>

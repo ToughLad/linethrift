@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/lightAltNeutralFill" />
+            <corners android:radius="4.0dip" />
+        </shape>
+    </item>
+    <item android:top="9.0dip" android:bottom="9.0dip" android:start="9.0dip" android:end="9.0dip">
+        <bitmap android:src="@drawable/picker_lyp_promotion_banner_empty" android:tint="@color/secondaryAltNeutralFill" />
+    </item>
+</layer-list>

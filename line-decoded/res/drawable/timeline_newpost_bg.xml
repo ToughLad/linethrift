@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:drawable="@drawable/timeline_newpost_btn_bg_pressed_nine_patch" />
+    <item android:drawable="@drawable/timeline_newpost_btn_bg_nine_patch" />
+</selector>

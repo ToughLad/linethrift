@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="46.0dip" android:width="46.0dip" android:viewportWidth="46.0" android:viewportHeight="46.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#00000000" android:pathData="M23,23m-22.5,0a22.5,22.5 0,1 1,45 0a22.5,22.5 0,1 1,-45 0" android:strokeColor="@color/quinaryAltFill" android:strokeWidth="1.0" />
+    <path android:fillColor="@color/chat_ui_voice_recorder_send_selector" android:pathData="M34.341,21.921L17.728,13.54C17.324,13.336 16.842,13.379 16.478,13.654C16.115,13.929 15.938,14.381 16.02,14.832L17.387,22.458H18.084H18.793H26.09V23.542H18.793H18.084H17.375L16.02,31.167C15.938,31.619 16.115,32.07 16.478,32.345C16.69,32.505 16.942,32.588 17.194,32.588C17.375,32.588 17.559,32.545 17.729,32.46L34.341,24.078C34.748,23.872 35,23.459 35,23C35,22.54 34.748,22.127 34.341,21.921" android:fillType="evenOdd" />
+</vector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/common_settings_root" android:background="@color/settings_bg_semantic" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/settings_container" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header">
+        <com.linecorp.line.settings.base.itemview.LineUserSettingCheckMarkItemView android:id="@id/agree_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/line_user_settings_item_list_padding_top" android:text="@string/setting_privacy_allow_imagedatacollection" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.linecorp.line.settings.base.itemview.LineUserSettingCheckMarkItemView android:id="@id/disagree_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_privacy_reject_imagedatacollection" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/agree_button" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:id="@id/progress_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/line_user_settings_loading_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

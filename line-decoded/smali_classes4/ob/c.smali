@@ -1,0 +1,21 @@
+.class public final Lob/c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final a:Lob/c$a;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lob/c$a;
+
+    invoke-direct {v0}, Ljava/lang/ThreadLocal;-><init>()V
+
+    sput-object v0, Lob/c;->a:Lob/c$a;
+
+    return-void
+.end method

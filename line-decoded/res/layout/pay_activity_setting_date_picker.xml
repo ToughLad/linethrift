@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/pay_shape_settting_timepicker_rectangle_r2" android:layout_width="fill_parent" android:layout_height="84.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0dip" android:textColor="@color/linegray750" android:id="@id/date_picker_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="17.5dip" android:text="@string/pay_setting_history_page_period_select" android:layout_alignParentLeft="true" />
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="48.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/linegray600" android:id="@id/start_date" android:paddingLeft="25.5dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/linegray600" android:id="@id/end_date" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawableLeft="@drawable/pay_img_tilde" android:drawablePadding="9.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

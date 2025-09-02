@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/download_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingHorizontal="11.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_list_button_download" />
+    </LinearLayout>
+    <ImageView android:id="@id/warning_icon" android:background="?selectableItemBackground" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/shop_sticker_ic_error" android:contentDescription="@string/access_cantdownload" android:paddingHorizontal="@dimen/shop_my_product_list_row_icon_padding_right" android:paddingVertical="10.0dip" />
+</merge>

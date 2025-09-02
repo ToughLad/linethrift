@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:paddingTop="28.0dip" android:paddingBottom="13.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="258.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/seasonalImageView" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:adjustViewBounds="true" android:contentDescription="@null" app:layout_constraintBottom_toTopOf="@id/titleTextView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/defaultText" android:gravity="center" android:id="@id/titleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="24.0dip" app:layout_constraintBottom_toTopOf="@id/descriptionTextView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/seasonalImageView" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/tertiaryText" android:gravity="center" android:id="@id/descriptionTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/titleTextView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

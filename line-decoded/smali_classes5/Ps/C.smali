@@ -1,0 +1,64 @@
+.class public final synthetic LPs/C;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lxk1/a;
+
+
+# instance fields
+.field public final synthetic a:I
+
+.field public final synthetic b:LPs/A0;
+
+
+# direct methods
+.method public synthetic constructor <init>(LPs/A0;I)V
+    .locals 0
+
+    iput p2, p0, LPs/C;->a:I
+
+    iput-object p1, p0, LPs/C;->b:LPs/A0;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    iget v0, p0, LPs/C;->a:I
+
+    packed-switch v0, :pswitch_data_0
+
+    iget-object p0, p0, LPs/C;->b:LPs/A0;
+
+    invoke-virtual {p0}, LPs/A0;->r0()Z
+
+    move-result p0
+
+    invoke-static {p0}, Ljava/lang/Boolean;->valueOf(Z)Ljava/lang/Boolean;
+
+    move-result-object p0
+
+    return-object p0
+
+    :pswitch_0
+    iget-object p0, p0, LPs/C;->b:LPs/A0;
+
+    invoke-virtual {p0}, LPs/A0;->l()Llw/a;
+
+    move-result-object p0
+
+    return-object p0
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+    .end packed-switch
+.end method

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="bottom|center" android:drawable="@drawable/oa_membership_plan_profile_frame" android:bottom="12.0dip" />
+    <item android:gravity="bottom|center" android:drawable="@drawable/oa_membership_plan_profile_bottom_frame" />
+    <item android:gravity="bottom|center" android:drawable="@drawable/oa_membership_plan_profile_bottom_content" android:bottom="6.0dip" />
+    <item android:gravity="bottom|center" android:drawable="@drawable/oa_membership_plan_profile_frame_sub_item_1" android:right="110.0dip" android:bottom="78.0dip" />
+    <item android:gravity="bottom|center" android:drawable="@drawable/oa_membership_plan_profile_frame_sub_item_1" android:left="210.0dip" android:bottom="53.0dip" />
+    <item android:gravity="bottom|center" android:drawable="@drawable/oa_membership_plan_profile_frame_sub_item_2" android:left="140.0dip" android:bottom="25.0dip" />
+    <item android:gravity="bottom|center" android:drawable="@drawable/oa_membership_plan_profile_frame_sub_item_3" android:left="95.0dip" android:bottom="85.0dip" />
+    <item android:gravity="bottom|center" android:drawable="@drawable/oa_membership_plan_profile_frame_sub_item_4" android:right="180.0dip" android:bottom="34.0dip" />
+</layer-list>

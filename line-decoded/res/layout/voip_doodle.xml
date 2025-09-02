@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/voip_doodle_stop_button" android:background="@drawable/doodle_background" android:layout_width="wrap_content" android:layout_height="39.0dip" android:layout_margin="16.0dip" android:minWidth="125.0dip" android:contentDescription="@string/access_watchtogether_watchtogethercall_button_endscreensharing" android:paddingStart="14.0dip" android:paddingEnd="16.0dip" android:elevation="2.0dip">
+        <ImageView android:id="@id/voip_doodle_stop_button_img" android:background="@drawable/call_doodle_stop" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/linegray900" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/call_screenshare_button_sharinginprogress" android:maxLines="1" android:importantForAccessibility="no" android:fontFamily="Roboto-Regular" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+</merge>

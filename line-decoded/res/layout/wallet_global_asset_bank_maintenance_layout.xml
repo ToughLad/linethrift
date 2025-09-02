@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="@dimen/wallet_global_asset_collapsed_section_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/wallet_global_asset_bank_logo_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/wallet_global_asset_common_margin_start" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/wallet_global_asset_bank_logo_layout" />
+    <TextView android:id="@id/maintenance_text_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/wallet_global_asset_logo_trailing_text_margin_start" android:layout_marginEnd="@dimen/wallet_global_asset_maintenance_margin_end" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/wallet_global_asset_bank_logo_layout" app:layout_constraintTop_toTopOf="parent" style="@style/wallet_global_asset_bank_maintenance_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/home_tab_profile_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|enterAlwaysCollapsed" />
+    <include android:id="@id/search_bar_layout" android:layout_width="fill_parent" android:layout_height="@dimen/new_design_main_tab_search_bar_height" app:layout_scrollFlags="scroll|enterAlways" layout="@layout/main_tab_search_bar" />
+    <View android:id="@id/search_bar_layout_margin" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="9.0dip" app:layout_scrollFlags="scroll|enterAlways" />
+</com.google.android.material.appbar.AppBarLayout>

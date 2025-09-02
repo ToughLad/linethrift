@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gallery_loading" />
+    <RelativeLayout android:layout_width="124.0dip" android:layout_height="6.669983dip" android:layout_marginTop="12.0dip">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/img_progress_bg" android:scaleType="fitXY" />
+        <ProgressBar android:id="@id/progress_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:progressDrawable="@drawable/chatroom_image_end_progressbar" style="?android:progressBarStyleHorizontal" />
+    </RelativeLayout>
+    <TextView android:textSize="10.669983sp" android:textColor="#ffffffff" android:id="@id/progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:shadowColor="#ff000000" android:shadowRadius="5.0" />
+</LinearLayout>

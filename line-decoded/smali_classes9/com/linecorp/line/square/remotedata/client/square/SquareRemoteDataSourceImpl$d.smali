@@ -1,0 +1,70 @@
+.class public final Lcom/linecorp/line/square/remotedata/client/square/SquareRemoteDataSourceImpl$d;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX91/g;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/linecorp/line/square/remotedata/client/square/SquareRemoteDataSourceImpl;->checkJoinCode(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        "R:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "LX91/g;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final a:Lcom/linecorp/line/square/remotedata/client/square/SquareRemoteDataSourceImpl$d;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Lcom/linecorp/line/square/remotedata/client/square/SquareRemoteDataSourceImpl$d<",
+            "TT;TR;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/linecorp/line/square/remotedata/client/square/SquareRemoteDataSourceImpl$d;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    sput-object v0, Lcom/linecorp/line/square/remotedata/client/square/SquareRemoteDataSourceImpl$d;->a:Lcom/linecorp/line/square/remotedata/client/square/SquareRemoteDataSourceImpl$d;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, Lcom/linecorp/square/protocol/thrift/CheckJoinCodeResponse;
+
+    const-string p0, "it"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p0, p1, Lcom/linecorp/square/protocol/thrift/CheckJoinCodeResponse;->a:Ljava/lang/String;
+
+    return-object p0
+.end method

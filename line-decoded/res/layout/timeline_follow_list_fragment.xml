@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.line.timeline.ui.base.view.LoadMoreRecyclerView android:id="@id/recyclerview" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:loadmore_loading_view_color="@color/linegray350" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/screen_myhome_listend_error_layer" android:background="@color/primaryBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/screen_myhome_listend_loading_layer" android:background="@color/primaryBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="24.669983dip" android:layout_height="24.669983dip" android:layout_marginRight="6.669983dip" android:indeterminateTint="@color/linegray350" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/empty_layout" android:background="@color/primaryBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="50.0dip">
+        <TextView android:textSize="13.0sp" android:textColor="@color/secondarySub2Text" android:gravity="center" android:id="@id/screen_myhome_listend_no_data_layer" android:background="@color/primaryBackground" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="260.0dip" android:lineSpacingExtra="3.0sp" />
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/selector_timeline_default_text" android:gravity="center" android:id="@id/empty_button" android:background="@drawable/timeline_selector_follow_list_empty_button" android:paddingTop="7.0dip" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:maxWidth="260.0dip" android:paddingHorizontal="13.0dip" />
+    </LinearLayout>
+</RelativeLayout>

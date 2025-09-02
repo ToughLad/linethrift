@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/on_air_live_bottom_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="22.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/on_air_live_content_outline" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/on_air_live_content_outline" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginHorizontal="21.0dip" app:layout_constraintBottom_toTopOf="@id/on_air_live_bottom_padding" app:layout_constraintDimensionRatio="318:444" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/on_air_live_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip">
+            <ImageView android:id="@id/on_air_live_content_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+            <com.linecorp.line.liveplatform.view.LivePlatformPlayerView android:id="@id/on_air_live_player_view" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:id="@id/on_air_live_player_cover" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+            <View android:background="@drawable/lights_live_scheduler_on_air_live_dim_overlay" android:layout_width="fill_parent" android:layout_height="245.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+            <View android:background="@drawable/lights_live_scheduler_content_outline" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include android:id="@id/on_air_live_error_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/lights_live_scheduler_on_air_error_overlay" />
+            <include android:id="@id/on_air_live_info_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" layout="@layout/lights_live_scheduler_on_air_info_overlay" />
+            <include android:id="@id/on_air_live_end_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/lights_live_scheduler_on_air_live_end_overlay" />
+            <ImageView android:id="@id/on_air_live_sound_icon" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

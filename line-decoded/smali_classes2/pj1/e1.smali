@@ -1,0 +1,29 @@
+.class public final Lpj1/e1;
+.super Loj1/a;
+.source "SourceFile"
+
+
+# virtual methods
+.method public final b(Loj1/O;Lhk1/Z6;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Loj1/O;",
+            "Lhk1/Z6;",
+            "Lkotlin/coroutines/Continuation<",
+            "-",
+            "Loj1/a$a;",
+            ">;)",
+            "Ljava/lang/Object;"
+        }
+    .end annotation
+
+    new-instance p0, Loj1/a$a$c;
+
+    const/4 p1, 0x1
+
+    invoke-direct {p0, p1}, Loj1/a$a$c;-><init>(Z)V
+
+    return-object p0
+.end method

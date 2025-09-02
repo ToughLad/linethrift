@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.imageview.ShapeableImageView android:id="@id/pay_main_ui_dialog_popup_image" android:layout_width="280.0dip" android:layout_height="322.0dip" android:scaleType="centerCrop" android:contentDescription="@null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:shapeAppearanceOverlay="@style/pay_main_ui_image_popup_rounded" />
+    <CheckBox android:textSize="14.0sp" android:textColor="@color/linewhite" android:id="@id/pay_main_ui_dialog_popup_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" android:button="@drawable/lds_checkbox_icon" android:text="@string/pay_main_noticepopup_check_notshow" android:layout_marginStart="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

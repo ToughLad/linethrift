@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/category_tab_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_centerHorizontal="true" style="@style/text_hashtag_category_tab_text" />
+    <View android:id="@id/category_tab_select_line" android:background="@drawable/hashtag_category_tab_border_color" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="-2.0dip" android:layout_marginEnd="-2.0dip" android:layout_alignStart="@id/category_tab_text" android:layout_alignEnd="@id/category_tab_text" />
+</RelativeLayout>

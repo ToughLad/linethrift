@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/linewhite" android:paddingTop="30.0dip" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="20.0dip" android:paddingEnd="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/linered600" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pay_setting_unregister_guide_title" android:drawablePadding="6.0dip" android:drawableStart="@drawable/pay_setting_ui_icon_notice" />
+    <TextView android:id="@id/delete_account_help_text_view" android:layout_marginTop="14.0dip" style="@style/pay_setting_ui_delete_account_warning_text_view" />
+    <include android:id="@id/delete_account_trade_view" layout="@layout/pay_delete_account_warning_item_view" />
+    <include android:id="@id/delete_account_lost_money_view" android:visibility="gone" layout="@layout/pay_delete_account_warning_item_view" />
+    <include android:id="@id/delete_account_line_card_view" android:visibility="gone" layout="@layout/pay_delete_account_warning_item_view" />
+    <include android:id="@id/delete_account_leaving1_view" android:visibility="gone" layout="@layout/pay_delete_account_warning_item_view" />
+    <include android:id="@id/delete_account_leaving2_view" android:visibility="gone" layout="@layout/pay_delete_account_warning_item_view" />
+    <TextView android:textColor="@color/linegray600" android:id="@id/delete_account_ipass_help_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="Help" android:paddingStart="4.0dip" android:layout_marginStart="3.0sp" style="@style/pay_setting_ui_delete_account_warning_text_view" />
+</LinearLayout>

@@ -1,0 +1,135 @@
+.class public final Lcom/linecorp/line/camera/viewmodel/options/beauty/BeautyFaceListViewModel;
+.super Lsp/d;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0004\u0010\u0005\u00a8\u0006\u0006"
+    }
+    d2 = {
+        "Lcom/linecorp/line/camera/viewmodel/options/beauty/BeautyFaceListViewModel;",
+        "Lsp/d;",
+        "Lsp/e;",
+        "cameraViewModelExternalDependencies",
+        "<init>",
+        "(Lsp/e;)V",
+        "camera_release"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field public final e:Lcom/linecorp/line/camera/datamodel/option/beauty/BeautyActiveFaceTypeDataModel;
+
+.field public final f:Lcom/linecorp/line/camera/datamodel/option/beauty/BeautyFaceTypeIntensityDataModel;
+
+.field public final g:Lcom/linecorp/line/camera/controller/function/option/beauty/makeup/MakeupDataModel;
+
+.field public final h:Lcom/linecorp/line/camera/datamodel/option/beauty/BeautyActivationDataModel;
+
+.field public final i:Lcom/linecorp/line/camera/datamodel/option/beauty/BeautyIntensityLabelVisibilityDataModel;
+
+.field public final j:Landroidx/lifecycle/T;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroidx/lifecycle/T<",
+            "Ljava/lang/Integer;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field public final k:Landroidx/lifecycle/T;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Landroidx/lifecycle/T<",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Lsp/e;)V
+    .locals 1
+
+    const-string v0, "cameraViewModelExternalDependencies"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-direct {p0, p1}, Lsp/d;-><init>(Lsp/e;)V
+
+    const-class p1, Lcom/linecorp/line/camera/datamodel/option/beauty/BeautyActiveFaceTypeDataModel;
+
+    invoke-static {p0, p1}, Lsp/d;->h7(Lsp/d;Ljava/lang/Class;)LLo/a;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/linecorp/line/camera/datamodel/option/beauty/BeautyActiveFaceTypeDataModel;
+
+    iput-object p1, p0, Lcom/linecorp/line/camera/viewmodel/options/beauty/BeautyFaceListViewModel;->e:Lcom/linecorp/line/camera/datamodel/option/beauty/BeautyActiveFaceTypeDataModel;
+
+    const-class p1, Lcom/linecorp/line/camera/datamodel/option/beauty/BeautyFaceTypeIntensityDataModel;
+
+    invoke-static {p0, p1}, Lsp/d;->h7(Lsp/d;Ljava/lang/Class;)LLo/a;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/linecorp/line/camera/datamodel/option/beauty/BeautyFaceTypeIntensityDataModel;
+
+    iput-object p1, p0, Lcom/linecorp/line/camera/viewmodel/options/beauty/BeautyFaceListViewModel;->f:Lcom/linecorp/line/camera/datamodel/option/beauty/BeautyFaceTypeIntensityDataModel;
+
+    const-class p1, Lcom/linecorp/line/camera/controller/function/option/beauty/makeup/MakeupDataModel;
+
+    invoke-static {p0, p1}, Lsp/d;->h7(Lsp/d;Ljava/lang/Class;)LLo/a;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/linecorp/line/camera/controller/function/option/beauty/makeup/MakeupDataModel;
+
+    iput-object p1, p0, Lcom/linecorp/line/camera/viewmodel/options/beauty/BeautyFaceListViewModel;->g:Lcom/linecorp/line/camera/controller/function/option/beauty/makeup/MakeupDataModel;
+
+    const-class p1, Lcom/linecorp/line/camera/datamodel/option/beauty/BeautyActivationDataModel;
+
+    invoke-static {p0, p1}, Lsp/d;->h7(Lsp/d;Ljava/lang/Class;)LLo/a;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/linecorp/line/camera/datamodel/option/beauty/BeautyActivationDataModel;
+
+    iput-object p1, p0, Lcom/linecorp/line/camera/viewmodel/options/beauty/BeautyFaceListViewModel;->h:Lcom/linecorp/line/camera/datamodel/option/beauty/BeautyActivationDataModel;
+
+    const-class p1, Lcom/linecorp/line/camera/datamodel/option/beauty/BeautyIntensityLabelVisibilityDataModel;
+
+    invoke-static {p0, p1}, Lsp/d;->h7(Lsp/d;Ljava/lang/Class;)LLo/a;
+
+    move-result-object p1
+
+    check-cast p1, Lcom/linecorp/line/camera/datamodel/option/beauty/BeautyIntensityLabelVisibilityDataModel;
+
+    iput-object p1, p0, Lcom/linecorp/line/camera/viewmodel/options/beauty/BeautyFaceListViewModel;->i:Lcom/linecorp/line/camera/datamodel/option/beauty/BeautyIntensityLabelVisibilityDataModel;
+
+    new-instance p1, Landroidx/lifecycle/T;
+
+    invoke-direct {p1}, Landroidx/lifecycle/T;-><init>()V
+
+    iput-object p1, p0, Lcom/linecorp/line/camera/viewmodel/options/beauty/BeautyFaceListViewModel;->j:Landroidx/lifecycle/T;
+
+    new-instance p1, Landroidx/lifecycle/T;
+
+    invoke-direct {p1}, Landroidx/lifecycle/T;-><init>()V
+
+    iput-object p1, p0, Lcom/linecorp/line/camera/viewmodel/options/beauty/BeautyFaceListViewModel;->k:Landroidx/lifecycle/T;
+
+    return-void
+.end method

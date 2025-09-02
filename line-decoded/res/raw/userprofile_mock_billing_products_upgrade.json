@@ -1,0 +1,50 @@
+[
+  {
+    "id": 19,
+    "type": "DEFAULT",
+    "deliveryTimeInHours": 0,
+    "billingId": "test1",
+    "price": null,
+    "title": "Upgrade Should not show ~Test (only title)",
+    "description": null,
+    "secondDescription": null,
+    "locale": "ko_KR",
+    "styleCount": 1,
+    "imageCount": 1,
+    "badgeImage": {
+      "originalUrl": "https://vos.line-scdn.net/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1681205320819.png?updatedAt=1681205320000",
+      "thumbnailUrls": {
+        "large": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-large.png?updatedAt=1680145483000",
+        "middle": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-middle.png?updatedAt=1680145483000",
+        "small": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-small.png?updatedAt=1680145483000",
+        "thumbnail": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-thumbnail.png?updatedAt=1680145483000"
+      }
+    },
+    "enabled": true,
+    "selected": true
+  },
+  {
+    "id": 10,
+    "type": "DEFAULT",
+    "deliveryTimeInHours": 0,
+    "billingId": "test2",
+    "price": 130,
+    "title": "Upgrade Mock-data ~Test (title + desc 1)",
+    "description": "Test (title + desc 1)Test (title + desc 1)Test (title + desc 1)Test (title + desc 1)Test (title + desc 1)Test (title + desc 1)Test (title + desc 1)",
+    "secondDescription": null,
+    "locale": "ko_KR",
+    "styleCount": 2,
+    "imageCount": 2,
+    "badgeImage": {
+      "originalUrl": "https://vos.line-scdn.net/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1681205320819.png?updatedAt=1681205320000",
+      "thumbnailUrls": {
+        "large": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-large.png?updatedAt=1680145483000",
+        "middle": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-middle.png?updatedAt=1680145483000",
+        "small": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-small.png?updatedAt=1680145483000",
+        "thumbnail": "https://line-objects.com/landpress-content-v2-q4e9rh0b6s5184ktsthcnien/1680145483657-thumbnail.png?updatedAt=1680145483000"
+      }
+    },
+    "enabled": true,
+    "selected": true
+  }
+]

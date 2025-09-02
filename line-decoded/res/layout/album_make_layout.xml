@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/primaryBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/album_make_top" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/album_make_parent_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintTop_toBottomOf="@id/album_make_top">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/album_header_height">
+            <ImageView android:id="@id/back_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/album_header_ic_back" android:layout_centerVertical="true" android:contentDescription="@string/access_back" android:layout_marginStart="8.0dip" app:tint="@color/primaryInverseFill" />
+            <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/linewhite" android:gravity="center" android:id="@id/header_photo_count_text" android:background="@drawable/album_shape_make_album_header_count_bg" android:layout_width="wrap_content" android:layout_height="26.0dip" android:minWidth="26.0dip" android:layout_centerVertical="true" android:layout_toStartOf="@id/header_done_btn" android:paddingHorizontal="7.0dip" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/album_selector_album_done_text" android:gravity="center" android:id="@id/header_done_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="5.0dip" android:paddingEnd="16.0dip" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_layout" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                    <ViewStub android:id="@id/input_title_stub" android:layout="@layout/album_input_title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/photo_recycler_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

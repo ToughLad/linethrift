@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="album_add_photo_normal">@color/linegray800</item>
+    <item type="drawable" name="album_add_photo_pressed_bg">@color/linewhite_alpha05</item>
+    <item type="drawable" name="album_select_item_bg">@color/linegray800</item>
+</resources>

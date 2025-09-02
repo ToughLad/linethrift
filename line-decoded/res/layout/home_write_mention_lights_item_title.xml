@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:background="@drawable/home_write_mention_lights_caution_background" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/lights_mention_alert_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:src="@drawable/lights_composer_mention_caution" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/linegray900" android:gravity="center_vertical" android:id="@id/lights_mention_alert_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/timeline_videowrite_desc_unablemention" />
+</LinearLayout>

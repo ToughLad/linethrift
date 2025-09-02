@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/lineblack" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/content_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/write_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent">
+        <TextView android:textSize="13.0sp" android:textColor="@color/linewhite" android:gravity="center" android:id="@id/write" android:background="@drawable/story_viewer_add_story_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginBottom="14.0dip" android:text="@string/timeline_storyviewer_button_addstory" android:shadowColor="@color/lineblack_alpha50" android:shadowRadius="1.0" android:paddingStart="15.0dip" android:paddingEnd="15.0dip" android:layout_marginEnd="14.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" style="@style/commonFont" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:id="@id/loading_binding" layout="@layout/story_viewer_loading" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/header_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <com.linecorp.line.story.impl.viewer.view.autoplay.StoryViewerAutoPlayProgressView android:orientation="horizontal" android:id="@id/autoplay" android:layout_width="fill_parent" android:layout_height="3.0dip" app:layout_constraintTop_toTopOf="parent" />
+        <include android:id="@id/header_binding" layout="@layout/story_viewer_story_header" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

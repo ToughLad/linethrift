@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/user_profile_music_container" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/profile_music_desc"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@id/user_profile_music_album_layout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingEnd="4.0dip">
+        <ImageView android:layout_gravity="center" android:id="@id/user_profile_music_thumbnail" android:layout_width="@dimen/userprofile_music_album_size" android:layout_height="@dimen/userprofile_music_album_size" android:contentDescription="@null" />
+        <ImageView android:layout_gravity="center" android:id="@id/user_profile_music_state" android:layout_width="@dimen/userprofile_music_album_size" android:layout_height="@dimen/userprofile_music_album_size" android:scaleType="fitCenter" android:contentDescription="@null" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/user_profile_music_progress" android:visibility="gone" android:layout_width="14.5dip" android:layout_height="14.5dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/user_profile_music_text_area" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/user_profile_music_title_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/user_profile_music_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxWidth="@dimen/userprofile_music_title_width" android:singleLine="true" android:layout_weight="1.0" style="@style/userprofile_music_title" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/user_profile_music_equalizer" android:layout_width="9.0dip" android:layout_height="9.0dip" android:contentDescription="@null" android:layout_marginStart="2.0dip" />
+        </LinearLayout>
+        <TextView android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/user_profile_music_default_desc" android:visibility="gone" android:layout_width="@dimen/userprofile_music_title_width" android:layout_height="wrap_content" android:text="@string/profile_music_desc" android:singleLine="true" android:marqueeRepeatLimit="marquee_forever" style="@style/userprofile_music_title" />
+    </FrameLayout>
+</LinearLayout>

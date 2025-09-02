@@ -1,0 +1,1 @@
+com.linecorp.square.access.SquareIntentBuilderExternalImpl

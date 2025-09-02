@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="access_call_photobooth_button_burstmode">
+        <item quantity="other">Take %d consecutive photos</item>
+        <item quantity="one">Take %d photo</item>
+    </plurals>
+    <plurals name="access_chat_button_starrating">
+        <item quantity="other">Rate this call %d stars out of five stars</item>
+        <item quantity="one">Rate this call %d star out of five stars</item>
+    </plurals>
+    <plurals name="access_chathistory_attach_gallery_send_button">
+        <item quantity="other">Send %1$s items</item>
+        <item quantity="one">Send item</item>
+    </plurals>
+    <plurals name="access_chats_badge_message">
+        <item quantity="other">%d new messages</item>
+        <item quantity="one">%d new message</item>
+    </plurals>
+    <plurals name="access_duration_hours_plurals">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+    </plurals>
+    <plurals name="access_duration_min_plurals">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="access_duration_seconds_plurals">
+        <item quantity="other">%d seconds</item>
+        <item quantity="one">%d second</item>
+    </plurals>
+    <plurals name="access_friend_requests_more">
+        <item quantity="other">View your %1$s friend requests.</item>
+        <item quantity="one">View your %1$s friend request.</item>
+    </plurals>
+    <plurals name="access_hometab_services_twspot_kilometer">
+        <item quantity="other">%1$s kilometers</item>
+        <item quantity="one">%1$s kilometer</item>
+    </plurals>
+    <plurals name="access_hometab_services_twspot_meter">
+        <item quantity="other">%1$s meters</item>
+        <item quantity="one">%1$s meter</item>
+    </plurals>
+    <plurals name="access_indicataor_plural">
+        <item quantity="other">Page %2$s of %1$s</item>
+        <item quantity="one">Page %2$s of %1$s</item>
+    </plurals>
+    <plurals name="access_new_item_count_badge_plurals">
+        <item quantity="other">%d new items</item>
+        <item quantity="one">%d new item</item>
+    </plurals>
+    <plurals name="access_recommendation_friends_more">
+        <item quantity="other">View your %d recommended friends</item>
+        <item quantity="one">View your %d recommended friend</item>
+    </plurals>
+    <plurals name="access_slideshow_photo_edit_plural">
+        <item quantity="other">Edit photo %1$d</item>
+        <item quantity="one">Edit photo %1$d</item>
+    </plurals>
+    <plurals name="access_slideshow_photo_plural">
+        <item quantity="other">Photo %2$d of %1$d</item>
+        <item quantity="one">Photo %2$d of %1$d</item>
+    </plurals>
+    <plurals name="access_slideshow_photo_selected_plural">
+        <item quantity="other">Photo %1$d selected</item>
+        <item quantity="one">Photo %1$d selected</item>
+    </plurals>
+    <plurals name="access_timeline_explore_desc_videonumberoflikes">
+        <item quantity="other">Video recommended to you with %d likes</item>
+        <item quantity="one">Video recommended to you with %d like</item>
+    </plurals>
+    <plurals name="access_timeline_poppost_edit">
+        <item quantity="other">This post will automatically delete itself in %d hours. Tap to change auto-delete settings.</item>
+        <item quantity="one">This post will automatically delete itself in %d hour. Tap to change auto-delete settings.</item>
+    </plurals>
+    <plurals name="access_timeline_shortsviewer_button_numberoflikes">
+        <item quantity="other">Video liked by %d people</item>
+        <item quantity="one">Video liked by %d person</item>
+    </plurals>
+    <plurals name="access_timeline_shortsviewer_button_shared">
+        <item quantity="other">%d shares</item>
+        <item quantity="one">%d share</item>
+    </plurals>
+    <plurals name="access_timeline_shortsviewer_button_videocommented">
+        <item quantity="other">Video commented by %d people</item>
+        <item quantity="one">Video commented by %d person</item>
+    </plurals>
+    <plurals name="access_timeline_storyviewer_button_likecount_plural">
+        <item quantity="other">%s likes</item>
+        <item quantity="one">%s like</item>
+    </plurals>
+    <plurals name="access_timeline_storyviewer_button_viewercount_plural">
+        <item quantity="other">%s viewers</item>
+        <item quantity="one">%s viewer</item>
+    </plurals>
+    <plurals name="access_timeline_voom_desc_timevariablemin">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="access_timeline_voom_desc_timevariablesec">
+        <item quantity="other">%d seconds</item>
+        <item quantity="one">%d second</item>
+    </plurals>
+    <plurals name="access_tw_bank_balance_shown">
+        <item quantity="other">%1$d Taiwan dollars</item>
+        <item quantity="one">%1$d Taiwan dollar</item>
+    </plurals>
+    <plurals name="access_voip_duration_hours_plurals">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+    </plurals>
+    <plurals name="access_voip_duration_min_plurals">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="access_voip_duration_seconds_plurals">
+        <item quantity="other">%d seconds</item>
+        <item quantity="one">%d second</item>
+    </plurals>
+    <plurals name="access_wallet_button_linepoint">
+        <item quantity="other">%1$s Points</item>
+        <item quantity="one">%1$s Point</item>
+    </plurals>
+    <plurals name="access_wallet_header_button_linepoint">
+        <item quantity="other">%1$s Points</item>
+        <item quantity="one">%1$s Point</item>
+    </plurals>
+    <plurals name="album_details_mainsubtitle_numberofphotos_plurals">
+        <item quantity="other">%d photos</item>
+        <item quantity="one">1 photo</item>
+    </plurals>
+    <plurals name="album_details_mainsubtitle_timestamphours_plurals">
+        <item quantity="other">%d hours ago</item>
+        <item quantity="one">1 hour ago</item>
+    </plurals>
+    <plurals name="album_details_mainsubtitle_timestampminutes_plurals">
+        <item quantity="other">%d mins ago</item>
+        <item quantity="one">1 min ago</item>
+    </plurals>
+    <plurals name="album_details_title_numberofphotosselected_plurals">
+        <item quantity="other">%d items selected</item>
+        <item quantity="one">1 item selected</item>
+    </plurals>
+    <plurals name="album_main_desc_albumvideos">
+        <item quantity="other">%d videos</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="album_message_added_pictures_me_plural">
+        <item quantity="other">%d items added to album.</item>
+        <item quantity="one">%d item added to album.</item>
+    </plurals>
+    <plurals name="album_picker_toast_maximumvideo">
+        <item quantity="other">You can only add %d more videos to this album.</item>
+        <item quantity="one">You can only add %d more video to this album.</item>
+    </plurals>
+    <plurals name="album_picker_toast_videomax_jp">
+        <item quantity="other">You can only add %d more videos to this album.</item>
+        <item quantity="one">You can only add %d more video to this album.</item>
+    </plurals>
+    <plurals name="alert_exceed_url_length_p">
+        <item quantity="other">"URLs can't exceed %d characters."</item>
+        <item quantity="one">"URLs can't exceed %d character."</item>
+    </plurals>
+    <plurals name="blocked_members_plural">
+        <item quantity="other">Block these %1$s users?</item>
+        <item quantity="one">Block this user?</item>
+    </plurals>
+    <plurals name="call_adStatus_freemiuntes">
+        <item quantity="other">%s free minutes available</item>
+        <item quantity="one">%s free minute available</item>
+    </plurals>
+    <plurals name="call_call_used_coin_currency_plural">
+        <item quantity="other">%1$s%2$s (%3$s Coins) used</item>
+        <item quantity="one">%1$s%2$s (%3$s Coin) used</item>
+    </plurals>
+    <plurals name="call_call_used_coin_plural">
+        <item quantity="other">%1$s Coins used</item>
+        <item quantity="one">%1$s Coin used</item>
+    </plurals>
+    <plurals name="call_call_used_credit_currency_plural">
+        <item quantity="other">%1$s%2$s (%3$s Credits) used</item>
+        <item quantity="one">%1$s%2$s (%3$s Credit) used</item>
+    </plurals>
+    <plurals name="call_call_used_credit_plural">
+        <item quantity="other">%1$s Credits used</item>
+        <item quantity="one">%1$s Credit used</item>
+    </plurals>
+    <plurals name="call_call_used_minute_plural">
+        <item quantity="other">%1$s min used</item>
+        <item quantity="one">%1$s min used</item>
+    </plurals>
+    <plurals name="call_keypad_charge_coin_currency_plural">
+        <item quantity="other">%1$s%2$s (%3$s Coins) per min</item>
+        <item quantity="one">%1$s%2$s (%3$s Coin) per min</item>
+    </plurals>
+    <plurals name="call_keypad_charge_coin_plural">
+        <item quantity="other">%1$s Coins per min</item>
+        <item quantity="one">%1$s Coin per min</item>
+    </plurals>
+    <plurals name="call_keypad_charge_credit_currency_plural">
+        <item quantity="other">%1$s%2$s (%3$s Credits) per min</item>
+        <item quantity="one">%1$s%2$s (%3$s Credit) per min</item>
+    </plurals>
+    <plurals name="call_keypad_charge_credit_plural">
+        <item quantity="other">%1$s Credits per min</item>
+        <item quantity="one">%1$s Credit per min</item>
+    </plurals>
+    <plurals name="call_keypad_charge_per_minute_plural">
+        <item quantity="other">%1$s min</item>
+        <item quantity="one">%1$s min</item>
+    </plurals>
+    <plurals name="call_keypad_total_balance_coin_plural">
+        <item quantity="other">Balance: %1$s Coins</item>
+        <item quantity="one">Balance: %1$s Coin</item>
+    </plurals>
+    <plurals name="call_keypad_total_balance_credit_plural">
+        <item quantity="other">Balance: %1$s Credits</item>
+        <item quantity="one">Balance: %1$s Credit</item>
+    </plurals>
+    <plurals name="call_photobooth_toast_burstmodechanged">
+        <item quantity="other">%s shots will be taken consecutively.</item>
+        <item quantity="one">%s shot will be taken consecutively.</item>
+    </plurals>
+    <plurals name="call_photobooth_toast_usersjoinedPuri">
+        <item quantity="other">%1$s and %2$d others joined the LINE Puri session.</item>
+        <item quantity="one">%1$s and %2$d other person joined the LINE Puri session.</item>
+    </plurals>
+    <plurals name="call_photobooth_toast_usersjoinedgroupcall">
+        <item quantity="other">%1$s and %2$d others joined the group call.</item>
+        <item quantity="one">%1$s and %2$d other person joined the group call.</item>
+    </plurals>
+    <plurals name="call_photobooth_toast_usersleftPuri">
+        <item quantity="other">%1$s and %2$d others left the LINE Puri session.</item>
+        <item quantity="one">%1$s and %2$d other person left the LINE Puri session.</item>
+    </plurals>
+    <plurals name="call_photobooth_toast_usersleftgroupcall">
+        <item quantity="other">%1$s and %2$d others left the group call.</item>
+        <item quantity="one">%1$s and %2$d other person left the group call.</item>
+    </plurals>
+    <plurals name="call_photobooth_tooltip_freeticketinhour">
+        <item quantity="other">A new coupon in %d hours</item>
+        <item quantity="one">A new coupon in %d hour</item>
+    </plurals>
+    <plurals name="call_photobooth_tooltip_freeticketinminute">
+        <item quantity="other">A new coupon in %d minutes</item>
+        <item quantity="one">A new coupon in %d minute</item>
+    </plurals>
+    <plurals name="call_photobooth_tooltip_freeticketremaining">
+        <item quantity="other">You have %d photo coupons</item>
+        <item quantity="one">You have %d photo coupon</item>
+    </plurals>
+    <plurals name="call_setting_credit_charge_menu_credit_plural">
+        <item quantity="other">%1$s Credits (%2$s)</item>
+        <item quantity="one">%1$s Credit (%2$s)</item>
+    </plurals>
+    <plurals name="call_settings_display_currency_coin_plural">
+        <item quantity="other">Coins</item>
+        <item quantity="one">Coin</item>
+    </plurals>
+    <plurals name="call_settings_display_currency_credit_plural">
+        <item quantity="other">Credits</item>
+        <item quantity="one">Credit</item>
+    </plurals>
+    <plurals name="call_watchtogethermenu_desc_daysago">
+        <item quantity="other">%1$d days ago</item>
+        <item quantity="one">%1$d day ago</item>
+    </plurals>
+    <plurals name="call_watchtogethermenu_desc_hoursago">
+        <item quantity="other">%1$d hours ago</item>
+        <item quantity="one">%1$d hour ago</item>
+    </plurals>
+    <plurals name="call_watchtogethermenu_desc_minutesago">
+        <item quantity="other">%1$d minutes ago</item>
+        <item quantity="one">%1$d minute ago</item>
+    </plurals>
+    <plurals name="call_watchtogethermenu_desc_monthsago">
+        <item quantity="other">%1$d months ago</item>
+        <item quantity="one">%1$d month ago</item>
+    </plurals>
+    <plurals name="call_watchtogethermenu_desc_numberofvideos">
+        <item quantity="other">%1$d videos</item>
+        <item quantity="one">%1$d video</item>
+    </plurals>
+    <plurals name="call_watchtogethermenu_desc_userswatchingvideoen">
+        <item quantity="other">%1$s views</item>
+        <item quantity="one">%1$s view</item>
+    </plurals>
+    <plurals name="call_watchtogethermenu_desc_yearsago">
+        <item quantity="other">%1$d years ago</item>
+        <item quantity="one">%1$d year ago</item>
+    </plurals>
+    <plurals name="calls_freecount_value">
+        <item quantity="other">&lt;font color=\"#f8ff2f\">%1$d&lt;/font> free calls left for today</item>
+        <item quantity="one">&lt;font color=\"#f8ff2f\">%1$d&lt;/font> free call left for today</item>
+    </plurals>
+    <plurals name="calls_freecount_value_new_design">
+        <item quantity="other">&lt;font color=\"#FFFC33\">%1$d&lt;/font> free calls left for today</item>
+        <item quantity="one">&lt;font color=\"#FFFC33\">%1$d&lt;/font> free call left for today</item>
+    </plurals>
+    <plurals name="chat_keyboard_emojiTab_nearlyExpired_description">
+        <item quantity="other">These emoji expire in %1$s days.</item>
+        <item quantity="one">These emoji expire in %1$s day.</item>
+    </plurals>
+    <plurals name="chat_keyboard_stickersTab_nearlyExpired_description">
+        <item quantity="other">These stickers expire in %1$s days.</item>
+        <item quantity="one">These stickers expire in %1$s day.</item>
+    </plurals>
+    <plurals name="chat_more_gallery_alert_saved_camerafailed">
+        <item quantity="other">"Saved to device. (%d photos and/or videos couldn't be saved.)"</item>
+        <item quantity="one">"Saved to device. (%d photo or video couldn't be saved.)"</item>
+    </plurals>
+    <plurals name="chathistory_layer_groupcall_numofmembers">
+        <item quantity="other">&lt;b>&lt;font color=#4CC764>%1$s people&lt;/font> in call.&lt;/b></item>
+        <item quantity="one">&lt;b>&lt;font color=#4CC764>%1$s person&lt;/font> in call.&lt;/b></item>
+    </plurals>
+    <plurals name="coin_history_no_history_plural">
+        <item quantity="other">No activity for last %1$s months.</item>
+        <item quantity="one">No activity for last %1$s month.</item>
+    </plurals>
+    <plurals name="err_cannot_attach_over_20_media_p">
+        <item quantity="other">You can only attach up to %d photos.</item>
+        <item quantity="one">You can only attach up to %d photo.</item>
+    </plurals>
+    <plurals name="err_exceed_post_text_p">
+        <item quantity="other">You can only enter up to %d characters.</item>
+        <item quantity="one">You can only enter up to %d character.</item>
+    </plurals>
+    <plurals name="err_photo_attach_too_large_p">
+        <item quantity="other">"Photos can't exceed %d MB per file."</item>
+        <item quantity="one">"Photos can't exceed %d MB per file."</item>
+    </plurals>
+    <plurals name="err_video_attach_too_large_p">
+        <item quantity="other">"Videos can't exceed %d MB per file."</item>
+        <item quantity="one">"Videos can't exceed %d MB per file."</item>
+    </plurals>
+    <plurals name="faceplay_collection_multitrophy_num">
+        <item quantity="other">%d season wins total</item>
+        <item quantity="one">%d season win</item>
+    </plurals>
+    <plurals name="faceplay_singlerank_timeleft_day_plural">
+        <item quantity="other">%d days</item>
+        <item quantity="one">%d day</item>
+    </plurals>
+    <plurals name="faceplay_singlerank_timeleft_hour_plural">
+        <item quantity="other">%d hours</item>
+        <item quantity="one">%d hour</item>
+    </plurals>
+    <plurals name="faceplay_singlerank_timeleft_min_plural">
+        <item quantity="other">%d minutes</item>
+        <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="faceplay_url_msg_challenge">
+        <item quantity="other">"On this historic day, let it be known that %1$s scored %3$d points in %2$s.
+Your job? To beat my score.
+That is, if you can. Face Play: %4$s://faceplay"</item>
+        <item quantity="one">"On this historic day, let it be known that %1$s scored %3$d point in %2$s.
+Your job? To beat my score.
+That is, if you can. Face Play: %4$s://faceplay"</item>
+    </plurals>
+    <plurals name="gallery_alert_exceed_max_selectable_count_p">
+        <item quantity="other">You can only select up to %d photos.</item>
+        <item quantity="one">You can only select up to %d photo.</item>
+    </plurals>
+    <plurals name="gallery_alert_photos_saved_failed">
+        <item quantity="other">"Saved to device. (%d photos and/or videos couldn't be saved.)"</item>
+        <item quantity="one">"Saved to device. (%d photo or video couldn't be saved.)"</item>
+    </plurals>
+    <plurals name="gallery_camera_max_video_toast2_plural">
+        <item quantity="other">You can take up to %d minutes of video.</item>
+        <item quantity="one">You can take up to %d minute of video.</item>
+    </plurals>
+    <plurals name="gallery_camera_max_video_toast3_plural">
+        <item quantity="other">You can take up to %d seconds of video.</item>
+        <item quantity="one">You can take up to %d second of video.</item>
+    </plurals>
+    <plurals name="gallery_camera_max_video_toast4_plural">
+        <item quantity="other">You can take up to %1$d minutes and %2$d seconds of video.</item>
+        <item quantity="one">You can take up to %1$d minute and %2$d second of video.</item>
+    </plurals>
+    <plurals name="gallery_do_you_launch_apps_p">
+        <item quantity="other">If you open another app, the selected %d photos will be deselected. Continue?</item>
+        <item quantity="one">If you open another app, the selected %d photo will be deselected. Continue?</item>
+    </plurals>
+    <plurals name="gallery_do_you_launch_camera_p">
+        <item quantity="other">If you open the camera, the selected %d photos will be deselected. Continue?</item>
+        <item quantity="one">If you open the camera, the selected %d photo will be deselected. Continue?</item>
+    </plurals>
+    <plurals name="gallery_hours_ago_p">
+        <item quantity="other">%d hours ago</item>
+        <item quantity="one">%d hour ago</item>
+    </plurals>
+    <plurals name="gallery_max_media_guide">
+        <item quantity="other">You can send up to %1$d items.</item>
+        <item quantity="one">You can send %1$d item.</item>
+    </plurals>
+    <plurals name="gallery_max_photo_guide_plural">
+        <item quantity="other">You can send up to %d photos at once.</item>
+        <item quantity="one">You can send %d photo at once.</item>
+    </plurals>
+    <plurals name="gallery_max_video_guide_plural">
+        <item quantity="other">You can send videos up to %d minutes long.</item>
+        <item quantity="one">You can send videos up to %d minute long.</item>
+    </plurals>
+    <plurals name="gallery_max_video_guide_second">
+        <item quantity="other">You can select up to %d seconds.</item>
+        <item quantity="one">You can select up to %d second.</item>
+    </plurals>
+    <plurals name="gallery_minutes_ago_p">
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="one">%d minute ago</item>
+    </plurals>
+    <plurals name="gallery_photo_count_p">
+        <item quantity="other">%d photos</item>
+        <item quantity="one">%d photo</item>
+    </plurals>
+    <plurals name="gallery_picker_max_media_alert_plural">
+        <item quantity="other">You can only send up to %1$d items.</item>
+        <item quantity="one">You can only send %1$d item.</item>
+    </plurals>
+    <plurals name="gallery_picker_selected_items">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="gallery_video_count_p">
+        <item quantity="other">%d videos</item>
+        <item quantity="one">%d video</item>
+    </plurals>
+    <plurals name="gallery_video_launch_external_app_warning_p">
+        <item quantity="other">If you open another app, the selected %d videos will be deselected. Continue?</item>
+        <item quantity="one">If you open another app, the selected %d video will be deselected. Continue?</item>
+    </plurals>
+    <plurals name="gallery_video_send_all_original">
+        <item quantity="other">"Your device can't process your edits for the selected videos. Send the original videos instead?"</item>
+        <item quantity="one">"Your device can't process your edits for the selected video. Send the original video instead?"</item>
+    </plurals>
+    <plurals name="gallery_video_send_original">
+        <item quantity="other">"%d videos will be sent without edits because your device can't process them. Send anyway?"</item>
+        <item quantity="one">"%d video will be sent without edits because your device can't process them. Send anyway?"</item>
+    </plurals>
+    <plurals name="glp_chat_noti_likesentother">
+        <item quantity="other">%1$s and %2$d others sent a heart!</item>
+        <item quantity="one">%1$s and %2$d other sent a heart!</item>
+    </plurals>
+    <plurals name="glp_livescreen_status_daysago">
+        <item quantity="other">%d days ago</item>
+        <item quantity="one">%d day ago</item>
+    </plurals>
+    <plurals name="glp_livescreen_status_hoursago">
+        <item quantity="other">%d hours ago</item>
+        <item quantity="one">%d hour ago</item>
+    </plurals>
+    <plurals name="glp_livescreen_status_justnow">
+        <item quantity="other">%d mins ago</item>
+        <item quantity="one">%d min ago</item>
+    </plurals>
+    <plurals name="glp_ssaiad_desc_adstartsin">
+        <item quantity="other">Starts in %s seconds</item>
+        <item quantity="one">Starts in %s second</item>
+    </plurals>
+    <plurals name="groupcall_call_speaker_many">
+        <item quantity="other">%1$s and %2$s others</item>
+        <item quantity="one">%1$s and %2$s other person</item>
+    </plurals>
+    <plurals name="groupcall_call_toast_usersjoinedgroupcall">
+        <item quantity="other">%1$s and %2$d others joined the group call.</item>
+        <item quantity="one">%1$s and %2$d other person joined the group call.</item>
+    </plurals>
+    <plurals name="groupcall_call_toast_usersleftgroupcall">
+        <item quantity="other">%1$s and %2$d others left the group call.</item>
+        <item quantity="one">%1$s and %2$d other person left the group call.</item>
+    </plurals>
+    <plurals name="groupcall_voicecall_desc_participantsinvoicecall">
+        <item quantity="other">%1$s and %2$d other participants</item>
+        <item quantity="one">%1$s and %2$d other participant</item>
+    </plurals>
+    <plurals name="hid_members_plural">
+        <item quantity="other">Hide these %1$s users?</item>
+        <item quantity="one">Hide this user?</item>
+    </plurals>
+    <plurals name="home_profile_postcount">
+        <item quantity="other">%d posts</item>
+        <item quantity="one">%d post</item>
+    </plurals>
+    <plurals name="hometab_sticker_categoryquantity">
+        <item quantity="other">%1$s stickers</item>
+        <item quantity="one">%1$s sticker</item>
+    </plurals>
+    <plurals name="hours_ago_p">
+        <item quantity="other">%d hours ago</item>
+        <item quantity="one">%d hour ago</item>
+    </plurals>
+    <plurals name="line_appiconsetting_desc_daysleft">
+        <item quantity="other">%s days left</item>
+        <item quantity="one">%s day left</item>
+    </plurals>
+    <plurals name="line_home_text_description_recentlyupdatedsection">
+        <item quantity="other">Friends who updated their profile in the last %d hours</item>
+        <item quantity="one">Friends who updated their profile in the last hour</item>
+    </plurals>
+    <plurals name="line_time_days_ago_plural">
+        <item quantity="other">%1$s days ago</item>
+        <item quantity="one">%1$s day ago</item>
+    </plurals>
+    <plurals name="line_time_hours_ago_plural">
+        <item quantity="other">%1$s hours ago</item>
+        <item quantity="one">%1$s hour ago</item>
+    </plurals>
+    <plurals name="line_time_mins_ago_plural">
+        <item quantity="other">%1$s minutes ago</item>
+        <item quantity="one">%1$s minute ago</item>
+    </plurals>
+    <plurals name="linemusic_message_desc_albumsongs">
+        <item quantity="other">%1$s songs</item>
+        <item quantity="one">%1$s song</item>
+    </plurals>
+    <plurals name="linemusic_message_desc_artistlikes">
+        <item quantity="other">%1$s likes</item>
+        <item quantity="one">%1$s like</item>
+    </plurals>
+    <plurals name="linemusic_message_desc_playlistsongs">
+        <item quantity="other">%1$s songs</item>
+        <item quantity="one">%1$s song</item>
+    </plurals>
+    <plurals name="linemusic_message_desc_topicsongs">
+        <item quantity="other">%1$s songs</item>
+        <item quantity="one">%1$s song</item>
+    </plurals>
+    <plurals name="linevoom_camera_toast_maximummusic">
+        <item quantity="other">You can take a video up to %d seconds for this sound.</item>
+        <item quantity="one">You can take a video up to %d second for this sound.</item>
+    </plurals>
+    <plurals name="linevoom_camera_toast_minimumvideo">
+        <item quantity="other">The video must be at least %d seconds long.</item>
+        <item quantity="one">The video must be at least %d second long.</item>
+    </plurals>
+    <plurals name="linevoom_template_desc_selectexact">
+        <item quantity="other">Select %d items.</item>
+        <item quantity="one">Select %d item.</item>
+    </plurals>
+    <plurals name="linevoom_template_desc_selectmin">
+        <item quantity="other">Select at least %d items.</item>
+        <item quantity="one">Select at least %d item.</item>
+    </plurals>
+    <plurals name="linevoom_template_desc_singleitemcount">
+        <item quantity="other">%1$d items</item>
+        <item quantity="one">%1$d item</item>
+    </plurals>
+    <plurals name="linevoom_template_toast_clipmax">
+        <item quantity="other">You can only select up to %d items.</item>
+        <item quantity="one">You can only select up to %d item.</item>
+    </plurals>
+    <plurals name="linevoom_template_toast_selectmin">
+        <item quantity="other">Select at least %d items.</item>
+        <item quantity="one">Select at least %d item.</item>
+    </plurals>
+    <plurals name="linevoom_templatedetails_desc_numberofclips">
+        <item quantity="other">%d clips</item>
+        <item quantity="one">%d clip</item>
+    </plurals>
+    <plurals name="linevoom_templatedetails_desc_numberofitems">
+        <item quantity="other">%d items</item>
+        <item quantity="one">%d item</item>
+    </plurals>
+    <plurals name="linevoom_usercontent_button_postviewcount">
+        <item quantity="other">%s views</item>
+        <item quantity="one">%s view</item>
+    </plurals>
+    <plurals name="livetalk_floating_desc_listenercount">
+        <item quantity="other">%d listeners</item>
+        <item quantity="one">%d listener</item>
+    </plurals>
+    <plurals name="livetalk_floating_desc_speakercount">
+        <item quantity="other">%d speakers</item>
+        <item quantity="one">%d speaker</item>
+    </plurals>
+    <plurals name="livetalk_mainscreen_desc_attendeecount">
+        <item quantity="other">%d attendees</item>
+        <item quantity="one">%d attendee</item>
+    </plurals>
+    <plurals name="livetalk_speakerrequest_desc_requestcount">
+        <item quantity="other">%s speaker requests</item>
+        <item quantity="one">%s speaker request</item>
+    </plurals>
+    <plurals name="localcontacts_sms_error_too_many_user_selected_plurals">
+        <item quantity="other">You can only select up to %1$s people.</item>
+        <item quantity="one">You can only select up to %1$s person.</item>
+    </plurals>
+    <plurals name="lypp_invitefriend_popup_invitefriendmax">
+        <item quantity="other">You can only invite up to %d people.</item>
+        <item quantity="one">You can only invite up to %d person.</item>
+    </plurals>
+    <plurals name="lypp_joinlypp_desc_days">
+        <item quantity="other">%d-day</item>
+        <item quantity="one">%d-day</item>
+    </plurals>
+    <plurals name="lypp_joinlypp_desc_months">
+        <item quantity="other">%d-month</item>
+        <item quantity="one">%d-month</item>
+    </plurals>
+    <plurals name="lypp_joinlypp_desc_weeks">
+        <item quantity="other">%d-week</item>
+        <item quantity="one">%d-week</item>
+    </plurals>
+    <plurals name="lypp_joinlypp_desc_years">
+        <item quantity="other">%d-year</item>
+        <item quantity="one">%d-year</item>
+    </plurals>
+    <plurals name="minutes_ago_p">
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="one">%d minute ago</item>
+    </plurals>
+    <plurals name="morecategory_friends_counts_plural">
+        <item quantity="other">&lt;b>&lt;font color=#4c5a72>%1$s&lt;/font> friends are using this app.&lt;/b></item>
+        <item quantity="one">&lt;b>&lt;font color=#4c5a72>%1$s&lt;/font> friend is using this app.&lt;/b></item>
+    </plurals>
+    <plurals name="morecategory_friends_name_and_counts_plural">
+        <item quantity="other">&lt;b>&lt;font color=#4c5a72>%1$s&lt;/font> and &lt;font color=#4c5a72>%2$s&lt;/font> other friends are using this app.&lt;/b></item>
+        <item quantity="one">&lt;b>&lt;font color=#4c5a72>%1$s&lt;/font> and &lt;font color=#4c5a72>%2$s&lt;/font> other friend is using this app.&lt;/b></item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="myhome_a_minutes_ago_plurals">
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="one">%d minute ago</item>
+    </plurals>
+    <plurals name="myhome_days_ago">
+        <item quantity="other">%1$d days ago at %2$s</item>
+        <item quantity="one">%1$d day ago at %2$s</item>
+    </plurals>
+    <plurals name="myhome_group_invite_complete">
+        <item quantity="other">You sent invitation messages to %s members.</item>
+        <item quantity="one">You sent an invitation message to %s member.</item>
+    </plurals>
+    <plurals name="myhome_hours_ago_plurals">
+        <item quantity="other">%d hours ago</item>
+        <item quantity="one">%d hour ago</item>
+    </plurals>
+    <plurals name="notification_center_message_number">
+        <item quantity="other">%1$d new notifications</item>
+        <item quantity="one">%1$d new notification</item>
+    </plurals>
+    <plurals name="notification_receive_message_content_for_lockscreen_plural">
+        <item quantity="other">%1$s new messages</item>
+        <item quantity="one">%1$s new message</item>
+    </plurals>
+    <plurals name="pay_choose_member_alert_max_member">
+        <item quantity="other">"You can't select more than %1$s users."</item>
+        <item quantity="one">"You can't select more than %1$s user."</item>
+    </plurals>
+    <plurals name="pay_main_targetingbanner_title">
+        <item quantity="other">Announcements</item>
+        <item quantity="one">Announcement</item>
+    </plurals>
+    <plurals name="pay_member_unit">
+        <item quantity="other">%1$s members</item>
+        <item quantity="one">%1$s member</item>
+    </plurals>
+    <plurals name="pay_not_available_user_for_n_member">
+        <item quantity="other">"You can't send money requests to %1$s people in this chat."</item>
+        <item quantity="one">"You can't send money requests to %1$s person in this chat."</item>
+    </plurals>
+    <plurals name="pay_payment_message_waiting">
+        <item quantity="other">It may take up to %1$s minutes to complete.</item>
+        <item quantity="one">It may take up to %1$s minute to complete.</item>
+    </plurals>
+    <plurals name="pay_request_friend_num">
+        <item quantity="other">Send request to %1$s friends</item>
+        <item quantity="one">Send request to %1$s friend</item>
+    </plurals>
+    <plurals name="pay_setting_cardManage_alert_numberRegisteration">
+        <item quantity="other">You can add {0} more cards.</item>
+        <item quantity="one">You can add {0} more card.</item>
+    </plurals>
+    <plurals name="pay_setting_history_page_request_multi">
+        <item quantity="other">%1$s and %2$s other friends</item>
+        <item quantity="one">%1$s and %2$s other friend</item>
+    </plurals>
+    <plurals name="pay_transfer_dutch_message_send_multiple">
+        <item quantity="other">You asked %1$s and %2$s other friends to split a bill for %3$s.</item>
+        <item quantity="one">You asked %1$s and %2$s other friend to split a bill for %3$s.</item>
+    </plurals>
+    <plurals name="pay_transfer_request_message_send_multiple">
+        <item quantity="other">You asked %1$s and %2$s other friends for %3$s.</item>
+        <item quantity="one">You asked %1$s and %2$s other friend for %3$s.</item>
+    </plurals>
+    <plurals name="pay_transfer_request_message_send_multiple_jp">
+        <item quantity="other">You requested the equivalent of %3$s from %1$s and %2$s other friends.</item>
+        <item quantity="one">You requested the equivalent of %3$s from %1$s and %2$s other friend.</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_animationcounterexceeded">
+        <item quantity="other">You can only add up to %d animated counters to your profile.</item>
+        <item quantity="one">You can only add %d animated counter to your profile.</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_animationstickerexceeded">
+        <item quantity="other">You can only add up to %d animated stickers and emoji to your profile.</item>
+        <item quantity="one">You can only add %d animated sticker or emoji to your profile.</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_counterexceeded">
+        <item quantity="other">You can only add up to %d counters, including animated ones, to your profile.</item>
+        <item quantity="one">You can only add %d counter, animated or otherwise, to your profile.</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_photoframeexceeded">
+        <item quantity="other">You can only add up to %d photo frames to your profile.</item>
+        <item quantity="one">You can only add %d photo frame to your profile.</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_snsnlinkexceeded">
+        <item quantity="other">You can only add up to %d social media links to your profile.</item>
+        <item quantity="one">You can only add %d social media link to your profile.</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_stickerexceeded">
+        <item quantity="other">You can only add up to %d stickers and emoji, including animated ones, to your profile.</item>
+        <item quantity="one">You can only add %d sticker or emoji, animated or otherwise, to your profile.</item>
+    </plurals>
+    <plurals name="profile_decorate_toast_textexceeded">
+        <item quantity="other">You can only add up to %d text stamps to your profile.</item>
+        <item quantity="one">You can only add %d text stamp to your profile.</item>
+    </plurals>
+    <plurals name="profile_desc_timelinepostcount">
+        <item quantity="other">LINE VOOM posts (%s)</item>
+        <item quantity="one">LINE VOOM posts (%s)</item>
+    </plurals>
+    <plurals name="profile_generateaiavatar_desc_hoursleft">
+        <item quantity="other">hrs</item>
+        <item quantity="one">hr</item>
+    </plurals>
+    <plurals name="profile_generateaiavatar_desc_minutesleft">
+        <item quantity="other">min</item>
+        <item quantity="one">min</item>
+    </plurals>
+    <plurals name="profile_socialprofile_title_friends">
+        <item quantity="other">%s friends</item>
+        <item quantity="one">%s friend</item>
+    </plurals>
+    <plurals name="promotion_friends_invite_pop_plural">
+        <item quantity="other">%1$s more points to go!</item>
+        <item quantity="one">%1$s more point to go!</item>
+    </plurals>
+    <plurals name="repair_chathistory_confirm">
+        <item quantity="other">Sync complete. Chat history repaired for %d chats.</item>
+        <item quantity="one">Sync complete. Chat history repaired for %d chat.</item>
+    </plurals>
+    <plurals name="repair_chatstab_confirm">
+        <item quantity="other">Sync complete. Data repaired for %d chats.</item>
+        <item quantity="one">Sync complete. Data repaired for %d chat.</item>
+    </plurals>
+    <plurals name="repair_friend_confirm">
+        <item quantity="other">Sync complete. Data repaired for %d friends.</item>
+        <item quantity="one">Sync complete. Data repaired for %d friend.</item>
+    </plurals>
+    <plurals name="repair_group_confirm">
+        <item quantity="other">Sync complete. Data repaired for %d groups.</item>
+        <item quantity="one">Sync complete. Data repaired for %d group.</item>
+    </plurals>
+    <plurals name="repair_profile_settings_confirm">
+        <item quantity="other">Sync complete. Data repaired for %d profile and settings items.</item>
+        <item quantity="one">Sync complete. Data repaired for %d profile and settings item.</item>
+    </plurals>
+    <plurals name="search_category_keyword_message_num">
+        <item quantity="other">"'%1$s' %2$s messages found."</item>
+        <item quantity="one">"'%1$s' %2$s message found."</item>
+    </plurals>
+    <plurals name="search_result_message_num">
+        <item quantity="other">%1$s messages found.</item>
+        <item quantity="one">%1$s message found.</item>
+    </plurals>
+    <plurals name="selected_contents">
+        <item quantity="other">%d items</item>
+        <item quantity="one">%d item</item>
+    </plurals>
+    <plurals name="settings_stickers_premium_premiumset">
+        <item quantity="other">%1$s sets</item>
+        <item quantity="one">%1$s set</item>
+    </plurals>
+    <plurals name="social_noti_days_ago">
+        <item quantity="other">%d days ago</item>
+        <item quantity="one">%d day ago</item>
+    </plurals>
+    <plurals name="square_friendstab_request_counts">
+        <item quantity="other">Join requests %1$s</item>
+        <item quantity="one">Join requests %1$s</item>
+    </plurals>
+    <plurals name="square_grouppopup_chat_count">
+        <item quantity="other">%s chats</item>
+        <item quantity="one">%s chat</item>
+    </plurals>
+    <plurals name="square_grouppopup_member_count">
+        <item quantity="other">%s members</item>
+        <item quantity="one">%s member</item>
+    </plurals>
+    <plurals name="square_grouppopup_post_count">
+        <item quantity="other">%s notes</item>
+        <item quantity="one">%s note</item>
+    </plurals>
+    <plurals name="square_joinopenchatlive_desc_numberofattendees">
+        <item quantity="other">%s attendees</item>
+        <item quantity="one">%s attendee</item>
+    </plurals>
+    <plurals name="square_mythreads_button_seemessages">
+        <item quantity="other">See &lt;font color=\"%1$s\">%2$s&lt;/font> messages</item>
+        <item quantity="one">See &lt;font color=\"%1$s\">%2$s&lt;/font> message</item>
+    </plurals>
+    <plurals name="square_openchat_desc_numberofreactions">
+        <item quantity="other">%d reactions</item>
+        <item quantity="one">%d reaction</item>
+    </plurals>
+    <plurals name="square_openchatlivebar_desc_numberofattendees">
+        <item quantity="other">%s attendees</item>
+        <item quantity="one">%s attendee</item>
+    </plurals>
+    <plurals name="square_openchatmember_desc_days">
+        <item quantity="other">%d days ago</item>
+        <item quantity="one">%d day ago</item>
+    </plurals>
+    <plurals name="square_openchatmember_desc_hours">
+        <item quantity="other">%d hours ago</item>
+        <item quantity="one">%d hour ago</item>
+    </plurals>
+    <plurals name="square_openchatmember_desc_minutes">
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="one">%d minute ago</item>
+    </plurals>
+    <plurals name="square_post_announcement_seeall_plural">
+        <item quantity="other">%s important notes</item>
+        <item quantity="one">%s important note</item>
+    </plurals>
+    <plurals name="square_report_policy_message">
+        <item quantity="other">"Your account has been suspended for %1$s days because it was reported for violating some of OpenChat's terms of service."</item>
+        <item quantity="one">"Your account has been suspended for 24 hours because it was reported for violating some of OpenChat's terms of service."</item>
+    </plurals>
+    <plurals name="stickershop_detail_auto_exchange_present_confirm_plural">
+        <item quantity="other">"Send %1$s (%2$s Coins) as a gift?
+
+Some of your LINE Points will be automatically exchanged into Coins to complete the purchase."</item>
+        <item quantity="one">"Send %1$s (%2$s Coin) as a gift?
+
+Some of your LINE Points will be automatically exchanged into Coins to complete the purchase."</item>
+    </plurals>
+    <plurals name="stickershop_detail_auto_exchange_purchase_confirm_plural">
+        <item quantity="other">"Purchase %1$s (%2$s Coins)?
+
+Some of your LINE Points will be automatically exchanged into Coins to complete the purchase."</item>
+        <item quantity="one">"Purchase %1$s (%2$s Coin)?
+
+Some of your LINE Points will be automatically exchanged into Coins to complete the purchase."</item>
+    </plurals>
+    <plurals name="stickershop_detail_period_text_plural">
+        <item quantity="other">Valid for %1$s days</item>
+        <item quantity="one">Valid for %1$s day</item>
+    </plurals>
+    <plurals name="stickershop_detail_present_confirm_plural">
+        <item quantity="other">Send %1$s (%2$s Coins) as a gift?</item>
+        <item quantity="one">Send %1$s (%2$s Coin) as a gift?</item>
+    </plurals>
+    <plurals name="stickershop_detail_purchase_confirm_plural">
+        <item quantity="other">Purchase %1$s (%2$s Coins)?</item>
+        <item quantity="one">Purchase %1$s (%2$s Coin)?</item>
+    </plurals>
+    <plurals name="subprofile_editfriends_toast_profileupdatedplural">
+        <item quantity="other">Profile updated for %d friends.</item>
+        <item quantity="one">Profile updated for %d friend.</item>
+    </plurals>
+    <plurals name="subprofile_groupsettings_subtitle_amountofprofile">
+        <item quantity="other">%d profiles</item>
+        <item quantity="one">%d profile</item>
+    </plurals>
+    <plurals name="subprofile_yourprofile_desc_amountoffriend">
+        <item quantity="other">%d friends can see this profile</item>
+        <item quantity="one">%d friend can see this profile</item>
+    </plurals>
+    <plurals name="timeline_bd_list_member_number">
+        <item quantity="other">%s friends</item>
+        <item quantity="one">%s friend</item>
+    </plurals>
+    <plurals name="timeline_bd_list_member_page">
+        <item quantity="other">%2$s friends of %1$s</item>
+        <item quantity="one">%2$s friend of %1$s</item>
+    </plurals>
+    <plurals name="timeline_bdboardcard_desc_likes">
+        <item quantity="other">%s likes</item>
+        <item quantity="one">%s like</item>
+    </plurals>
+    <plurals name="timeline_eventstoryinfo_desc_numberofuserswholikedstory">
+        <item quantity="other">%s people liked your story.</item>
+        <item quantity="one">%s person liked your story.</item>
+    </plurals>
+    <plurals name="timeline_eventstoryinfo_desc_numberofuserswhoviewedstory">
+        <item quantity="other">%s people viewed your story.</item>
+        <item quantity="one">%s person viewed your story.</item>
+    </plurals>
+    <plurals name="timeline_home_profile_postcount">
+        <item quantity="other">%s posts</item>
+        <item quantity="one">%s post</item>
+    </plurals>
+    <plurals name="timeline_intro_statusdesc_followingfriends">
+        <item quantity="other">Following %d friends</item>
+        <item quantity="one">Following %d friend</item>
+    </plurals>
+    <plurals name="timeline_intro_statusdesc_followingofficialaccount">
+        <item quantity="other">Following %d official accounts</item>
+        <item quantity="one">Following %d official account</item>
+    </plurals>
+    <plurals name="timeline_intro_statusdesc_selectedkeyword">
+        <item quantity="other">%d keywords selected</item>
+        <item quantity="one">%d keyword selected</item>
+    </plurals>
+    <plurals name="timeline_intro_title_followingfriends">
+        <item quantity="other">Follow &lt;font color="#22BA4F">%d&lt;/font> friends</item>
+        <item quantity="one">Follow &lt;font color="#22BA4F">%d&lt;/font> friend</item>
+    </plurals>
+    <plurals name="timeline_intro_title_followingofficialaccount">
+        <item quantity="other">Follow &lt;font color="#22BA4F">%d&lt;/font> official accounts</item>
+        <item quantity="one">Follow &lt;font color="#22BA4F">%d&lt;/font> official account</item>
+    </plurals>
+    <plurals name="timeline_managefriendsandfollows_desc_friendcount">
+        <item quantity="other">%s friends</item>
+        <item quantity="one">%s friend</item>
+    </plurals>
+    <plurals name="timeline_netacard_summary_usercount">
+        <item quantity="other">people joined</item>
+        <item quantity="one">person joined</item>
+    </plurals>
+    <plurals name="timeline_netacard_usercount">
+        <item quantity="other">%s people joined</item>
+        <item quantity="one">%s person joined</item>
+    </plurals>
+    <plurals name="timeline_privacysettings_desc_customlists">
+        <item quantity="other">%1$s and %2$d others</item>
+        <item quantity="one">%1$s and %2$d other</item>
+    </plurals>
+    <plurals name="timeline_privacysettings_desc_customusers">
+        <item quantity="other">and %1$d others</item>
+        <item quantity="one">and %1$d other</item>
+    </plurals>
+    <plurals name="timeline_reaction_comments">
+        <item quantity="other">%s comments</item>
+        <item quantity="one">%s comment</item>
+    </plurals>
+    <plurals name="timeline_reaction_likes">
+        <item quantity="other">%s likes</item>
+        <item quantity="one">%s like</item>
+    </plurals>
+    <plurals name="timeline_reaction_shares">
+        <item quantity="other">%s shares</item>
+        <item quantity="one">%s share</item>
+    </plurals>
+    <plurals name="timeline_sound_desc_numberofvideosforsound">
+        <item quantity="other">%s videos</item>
+        <item quantity="one">%s video</item>
+    </plurals>
+    <plurals name="timeline_story_reaction_likes">
+        <item quantity="other">%s likes</item>
+        <item quantity="one">%s like</item>
+    </plurals>
+    <plurals name="timeline_storyviewer_desc_like">
+        <item quantity="other">%s likes</item>
+        <item quantity="one">%s like</item>
+    </plurals>
+    <plurals name="timeline_storyviewer_desc_viewer">
+        <item quantity="other">%s viewers</item>
+        <item quantity="one">%s viewer</item>
+    </plurals>
+    <plurals name="timeline_userfollowinfo_tab_followers">
+        <item quantity="other">%s followers</item>
+        <item quantity="one">%s follower</item>
+    </plurals>
+    <plurals name="timeline_userfollowinfo_tab_followersbold">
+        <item quantity="other">&lt;b>%s&lt;/b> followers</item>
+        <item quantity="one">&lt;b>%s&lt;/b> follower</item>
+    </plurals>
+    <plurals name="timeline_userprofile_desc_followercount">
+        <item quantity="other">&lt;b>%1$s&lt;/b> followers</item>
+        <item quantity="one">&lt;b>%1$s&lt;/b> follower</item>
+    </plurals>
+    <plurals name="timeline_video_viewers">
+        <item quantity="other">%d viewers</item>
+        <item quantity="one">%d viewer</item>
+    </plurals>
+    <plurals name="timeline_voomcommentsection_button_seemorereplies">
+        <item quantity="other">See %d more replies</item>
+        <item quantity="one">See %d more reply</item>
+    </plurals>
+    <plurals name="timeline_voomlive_button_endofpreviewcountdown">
+        <item quantity="other">Preview ends in %d seconds</item>
+        <item quantity="one">Preview ends in %d second</item>
+    </plurals>
+    <plurals name="timeline_write_sharescope_desc_closefriends">
+        <item quantity="other">– %s friends can see this post.</item>
+        <item quantity="one">– %s friend can see this post.</item>
+    </plurals>
+    <plurals name="timeline_write_sharescope_desc_closefriendsnoimage">
+        <item quantity="other">%s friends can see this post.</item>
+        <item quantity="one">%s friend can see this post.</item>
+    </plurals>
+    <plurals name="totalcount_p">
+        <item quantity="other">Total: %d</item>
+        <item quantity="one">Total: %d</item>
+    </plurals>
+    <plurals name="view_more_comment_p">
+        <item quantity="other">%d comments</item>
+        <item quantity="one">%d comment</item>
+    </plurals>
+    <plurals name="wallet_financial_coin">
+        <item quantity="other">%d Coins</item>
+        <item quantity="one">%d Coin</item>
+    </plurals>
+    <plurals name="wallet_financial_point">
+        <item quantity="other">%d Points</item>
+        <item quantity="one">%d Point</item>
+    </plurals>
+    <plurals name="wallet_hotdeal_until_plurals">
+        <item quantity="other">%d days left</item>
+        <item quantity="one">%d day left</item>
+    </plurals>
+</resources>

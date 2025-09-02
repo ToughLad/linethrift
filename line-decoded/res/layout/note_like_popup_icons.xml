@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/like_icons_root" android:layout_width="wrap_content" android:layout_height="78.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/timeline_like_1_btn" style="@style/timeline_like_reaction_icon" />
+    <ImageView android:id="@id/timeline_like_2_btn" style="@style/timeline_like_reaction_icon" />
+    <ImageView android:id="@id/timeline_like_3_btn" style="@style/timeline_like_reaction_icon" />
+    <ImageView android:id="@id/timeline_like_4_btn" style="@style/timeline_like_reaction_icon" />
+    <ImageView android:id="@id/timeline_like_5_btn" style="@style/timeline_like_reaction_icon" />
+    <ImageView android:id="@id/timeline_like_6_btn" style="@style/timeline_like_reaction_icon" />
+</LinearLayout>

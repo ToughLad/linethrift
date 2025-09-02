@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/wallet_global_asset_bank_main_text_shortcut_margin_end"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:id="@id/shortcut_button_layout" android:background="@drawable/wallet_global_asset_bank_main_text_shortcut_bg" android:layout_width="wrap_content" android:layout_height="@dimen/wallet_global_asset_bank_main_text_shortcut_height" android:minWidth="@dimen/wallet_global_asset_bank_main_text_shortcut_min_width">
+        <TextView android:gravity="center_horizontal" android:id="@id/shortcut_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/wallet_global_asset_bank_main_shortcut_text" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

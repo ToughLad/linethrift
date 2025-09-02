@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/pay_base_selector_setting_button_bg" android:paddingLeft="15.5dip" android:paddingRight="15.5dip" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/pay_base_setting_item_height" android:paddingStart="13.0dip" android:paddingEnd="15.5dip">
+        <ImageView android:id="@id/pay_setting_button_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-2.5dip" android:layout_marginRight="18.5dip" android:layout_marginStart="18.5dip" />
+        <LinearLayout android:orientation="vertical" android:duplicateParentState="true" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:layout_marginBottom="23.0dip" android:layout_weight="1.0">
+            <TextView android:textSize="15.0sp" android:textColor="@color/pay_base_selector_setting_menu_title" android:id="@id/pay_setting_button_title" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" />
+            <TextView android:textSize="14.0sp" android:textColor="@color/linegray500" android:id="@id/pay_setting_button_title_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:includeFontPadding="false" android:lineSpacingExtra="2.0dip" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/pay_setting_button_subtitle_bg" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:textColor="@color/pay_green" android:gravity="end" android:id="@id/pay_setting_button_subtitle" android:visibility="gone" android:duplicateParentState="true" android:layout_width="153.5dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="0.0" android:layout_marginStart="5.0dip" />
+        </LinearLayout>
+        <ImageView android:id="@id/pay_setting_button_more_icon" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/pay_base_selector_btn_next" android:layout_weight="0.0" android:layout_marginStart="5.0dip" />
+        <CheckBox android:layout_gravity="top" android:id="@id/pay_setting_button_checkbox" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="21.0dip" android:button="@drawable/selector_setting_checkbox" android:layout_weight="0.0" android:layout_marginStart="5.0dip" />
+        <androidx.appcompat.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@id/pay_setting_button_switch" android:visibility="gone" android:duplicateParentState="true" android:layout_marginLeft="5.0dip" android:layout_weight="0.0" android:layout_marginStart="5.0dip" app:showText="false" style="@style/pay_base_switch_theme" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/pay_setting_button_divider" android:background="@color/linewhite" android:paddingLeft="@dimen/pay_base_setting_item_divider_start_padding" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0px" android:paddingStart="@dimen/pay_base_setting_item_divider_start_padding">
+        <View android:background="@color/linegray200" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+    <View android:id="@id/pay_setting_button_bottom_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/pay_base_setting_vertical_margin" />
+</merge>

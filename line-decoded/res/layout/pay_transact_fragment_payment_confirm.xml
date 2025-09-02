@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:background="@color/linegray200" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@color/linewhite" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/payment_confirm_merchant_layout" layout="@layout/pay_transact_view_payment_confirm_merchant_info" />
+                <include android:id="@id/payment_confirm_product_layout" layout="@layout/pay_transact_view_payment_confirm_product_info" />
+                <include android:id="@id/payment_confirm_total_layout" layout="@layout/pay_transact_view_payment_confirm_total_info" />
+                <Space android:layout_width="fill_parent" android:layout_height="21.0dip" />
+                <include android:id="@id/payment_confirm_automatic_payment_layout" layout="@layout/pay_transact_view_payment_confirm_automatic_payment" />
+                <include android:id="@id/payment_confirm_add_oa_layout" layout="@layout/pay_transact_view_payment_confirm_add_oa" />
+                <include android:id="@id/payment_confirm_bottom_button_layout" layout="@layout/pay_transact_view_payment_confirm_bottom_button" />
+            </LinearLayout>
+            <Space android:layout_width="fill_parent" android:layout_height="20.0dip" />
+            <include android:id="@id/payment_confirm_restriction_message" layout="@layout/pay_transact_view_payment_confirm_restriction_message" />
+            <include android:id="@id/payment_confirm_info_message" layout="@layout/pay_transact_view_payment_confirm_info_message" />
+        </LinearLayout>
+        <include android:id="@id/header_shadow_view" android:visibility="gone" layout="@layout/pay_transact_layout_payment_header_shadow_view" />
+    </FrameLayout>
+</androidx.core.widget.NestedScrollView>

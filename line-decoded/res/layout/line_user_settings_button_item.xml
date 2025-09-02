@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/setting_item_container" android:background="@drawable/line_user_settings_button_bg_semantic" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/line_user_settings_item_container_padding_horizontal" android:paddingEnd="@dimen/line_user_settings_item_container_padding_horizontal"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/setting_icon" android:layout_width="@dimen/line_user_settings_account_logo_image_size" android:layout_height="@dimen/line_user_settings_account_logo_image_size" android:importantForAccessibility="no" android:layout_marginEnd="7.0dip" />
+    <TextView android:id="@id/setting_title" android:paddingTop="@dimen/line_user_settings_item_container_padding_top" android:paddingBottom="@dimen/line_user_settings_item_container_padding_bottom" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:importantForAccessibility="no" style="@style/line_user_settings_text_item_value_semantic" />
+    <TextView android:id="@id/setting_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/line_user_settings_item_value_text_horizontal_spacing" style="@style/line_user_settings_list_button_semantic.small" />
+</LinearLayout>

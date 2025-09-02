@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingLeft="1.0dip" android:paddingRight="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.line.android.common.view.media.ZoomImageView android:id="@id/zoom_image_view" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="matrix" android:contentDescription="@string/access_photo_fullscreen_menuhidden" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/image_type_icon_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/image_type_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/viewer_img_gif" />
+        <TextView android:id="@id/image_type_file_size_text" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" style="@style/loading_progress_type_01" />
+    </LinearLayout>
+    <ViewStub android:gravity="center_horizontal" android:id="@id/progress_layout_stub" android:layout="@layout/loading_progress_type_01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <jp.naver.gallery.android.fragment.PhotoDetailFailView android:gravity="center" android:orientation="vertical" android:id="@id/load_fail" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="24.5dip" android:width="24.5dip">
+        <shape android:shape="oval">
+            <solid android:color="@color/defaultSub2NeutralFill" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/socialprofile_story_add_icon" />
+</layer-list>

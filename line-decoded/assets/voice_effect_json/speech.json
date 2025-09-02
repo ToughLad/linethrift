@@ -1,0 +1,39 @@
+{
+  "result": [
+    {
+      "effect": "filter",
+      "property": {
+        "mode":"BANDPASS",
+        "db":"filter_6db",
+        "cutoff_hz":1000.0,
+        "resonance":1.0
+      }
+    },
+    {
+      "effect": "delay",
+      "property": {
+        "dry":1.0,
+        "tab1active":false,
+        "tab1delay_ms":250.0,
+        "tab1level_db":-6.0,
+        "tab1pan": 0.2,
+        "tab2active":false,
+        "tab2delay_ms":500.0,
+        "tab2level_db":-12.0,
+        "tab2pan": -0.4,
+        "feedbackactive":true,
+        "feedbackdelay_ms":700.0,
+        "feedbacklevel_db":-10.0,
+        "feedbacklowpass": 16000.0
+      }
+    },
+    {
+      "effect": "stereoenhance",
+      "property": {
+        "pan_pullout":1.0,
+        "time_pullout_ms":10.0,
+        "surround":0.0
+      }
+    }
+  ]
+}

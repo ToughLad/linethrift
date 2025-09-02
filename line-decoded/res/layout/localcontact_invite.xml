@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/localcontact_invite_root_layout" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/localcontact_searchbar_layout" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/header">
+        <jp.naver.line.android.customview.SearchBoxView android:id="@id/searchBar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:hintText="@string/friend_search_hint" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/localcontact_invite_listview_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="10.0dip" app:layout_constraintBottom_toTopOf="@id/common_bottom_button_layout" app:layout_constraintTop_toBottomOf="@id/localcontact_searchbar_layout" app:layout_goneMarginBottom="0.0dip">
+        <ListView android:id="@id/localcontact_invite_listview" android:fadingEdge="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:cacheColorHint="@android:color/transparent" android:divider="#00000000" />
+        <FrameLayout android:id="@id/localcontact_invite_noresults_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="13.0sp" android:textColor="@color/quaternarySubText" android:layout_gravity="center_horizontal" android:id="@id/localcontact_invite_noresults_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="80.0dip" android:text="@string/localcontacts_search_no_result" />
+        </FrameLayout>
+    </FrameLayout>
+    <jp.naver.line.android.common.view.TintableProgressBar android:id="@id/localcontact_loading_layout" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:indeterminate="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/searchBar" app:tintColor="@color/tertiarySub2Fill" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/common_bottom_button_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" android:baselineAligned="true" android:layout_marginHorizontal="16.0dip" app:layout_constraintBottom_toBottomOf="parent">
+        <LinearLayout android:gravity="center" android:id="@id/common_bottom_first_button" android:background="@drawable/addfriend_invite_action_green" android:layout_width="0.0dip" android:layout_height="46.0dip" android:onClick="onClickInviteBySmsButton" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/addfriend_invite_action_text" android:id="@id/common_bottom_first_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/invite" />
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

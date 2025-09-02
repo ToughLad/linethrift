@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.linecorp.line.ladsdk.ui.common.view.lifecycle.LadAdView android:id="@id/lad_ad_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/player_layer" android:layout_width="0.0dip" android:layout_height="fill_parent" app:layout_constraintDimensionRatio="1:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <ImageView android:id="@id/thumbnail_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.linecorp.line.ladsdk.ui.inventory.timeline.lights.view.LadLightsControlView android:id="@id/control_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/info_layer_container" android:background="@color/lineblack_alpha10" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.linecorp.line.ladsdk.ui.asset.carousel.LadSlotAssetRecyclerView android:id="@id/slot_recycler_view" android:layout_width="150.0dip" android:layout_height="150.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.26" />
+        <com.linecorp.line.ladsdk.ui.inventory.timeline.lights.view.animation.LadChildTransitionSupportLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" app:fadeInDuration="200" app:fadeOutDuration="300" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/slot_recycler_view">
+            <com.linecorp.line.ladsdk.ui.inventory.timeline.lights.view.LadPagerIndicator android:id="@id/page_indicator" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.linecorp.line.ladsdk.ui.inventory.timeline.lights.view.animation.LadChildTransitionSupportLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <include android:id="@id/info_layer" android:visibility="visible" layout="@layout/ladsdk_lights_ad_info_layer" />
+    <com.linecorp.line.ladsdk.ui.inventory.timeline.lights.view.animation.LadChildTransitionSupportLayout android:id="@id/complete_layer_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:fadeInDuration="800" app:fadeOutDuration="200">
+        <include android:id="@id/complete_layer" android:visibility="gone" layout="@layout/ladsdk_lights_ad_complete_layer" />
+    </com.linecorp.line.ladsdk.ui.inventory.timeline.lights.view.animation.LadChildTransitionSupportLayout>
+    <View android:id="@id/title_affordance_target" android:layout_width="fill_parent" android:layout_height="80.0dip" />
+    <View android:id="@id/affordance_target" android:layout_width="fill_parent" android:layout_height="30.0dip" app:layout_constraintBottom_toTopOf="@id/lights_ad_viewer_bottom_space" />
+    <Space android:id="@id/lights_ad_viewer_bottom_space" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+</com.linecorp.line.ladsdk.ui.common.view.lifecycle.LadAdView>

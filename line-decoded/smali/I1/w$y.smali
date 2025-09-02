@@ -1,0 +1,98 @@
+.class public final LI1/w$y;
+.super Lkotlin/jvm/internal/p;
+.source "SourceFile"
+
+# interfaces
+.implements Lxk1/p;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LI1/w;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/p;",
+        "Lxk1/p<",
+        "LY0/t;",
+        "Li1/T;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final a:LI1/w$y;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 2
+
+    new-instance v0, LI1/w$y;
+
+    const/4 v1, 0x2
+
+    invoke-direct {v0, v1}, Lkotlin/jvm/internal/p;-><init>(I)V
+
+    sput-object v0, LI1/w$y;->a:LI1/w$y;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 3
+
+    check-cast p1, LY0/t;
+
+    check-cast p2, Li1/T;
+
+    iget-wide v0, p2, Li1/T;->a:J
+
+    new-instance p0, Li1/v;
+
+    invoke-direct {p0, v0, v1}, Li1/v;-><init>(J)V
+
+    sget-object v0, LI1/w;->r:LI1/x;
+
+    invoke-static {p0, v0, p1}, LI1/w;->a(Ljava/lang/Object;LY0/r;LY0/t;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    new-instance v0, Lh1/c;
+
+    iget-wide v1, p2, Li1/T;->b:J
+
+    invoke-direct {v0, v1, v2}, Lh1/c;-><init>(J)V
+
+    sget-object v1, LI1/w;->t:LI1/x;
+
+    invoke-static {v0, v1, p1}, LI1/w;->a(Ljava/lang/Object;LY0/r;LY0/t;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    iget p2, p2, Li1/T;->c:F
+
+    invoke-static {p2}, Ljava/lang/Float;->valueOf(F)Ljava/lang/Float;
+
+    move-result-object p2
+
+    filled-new-array {p0, p1, p2}, [Ljava/lang/Object;
+
+    move-result-object p0
+
+    invoke-static {p0}, Lik1/s;->e([Ljava/lang/Object;)Ljava/util/ArrayList;
+
+    move-result-object p0
+
+    return-object p0
+.end method

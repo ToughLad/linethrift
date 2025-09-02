@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/fragment_content_view" android:background="@drawable/square_message_reaction_sheet_background" android:layout_width="fill_parent" android:layout_height="@dimen/square_message_reaction_sheet_peek_height">
+        <TextView android:id="@id/title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_message_messagereaction_list_title" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/SquareMessageReactionSheetTitleText" />
+        <ImageView android:id="@id/close_button" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/ic_30x30_close_icon_selector" android:contentDescription="@string/access_close" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:layout_constraintTop_toBottomOf="@id/title_text" app:tabGravity="start" app:tabIndicatorColor="@color/primaryInverseFill" app:tabIndicatorHeight="2.0dip" app:tabMinWidth="0.0dip" app:tabMode="scrollable" app:tabPaddingEnd="0.0dip" app:tabPaddingStart="0.0dip" />
+        <View android:id="@id/separator" android:background="@color/primarySeparator" android:layout_width="fill_parent" android:layout_height="1.0dip" app:layout_constraintTop_toBottomOf="@id/tab_layout" />
+        <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/separator" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

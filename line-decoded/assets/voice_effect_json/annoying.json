@@ -1,0 +1,21 @@
+{
+  "result": [
+    {
+      "effect": "pitchshift",
+      "property": {
+        "pitch_scale": 1.8,
+        "fft": "size_2048",
+        "oversampling": 4
+      }
+    },
+    {
+      "effect": "filter",
+      "property": {
+        "mode":"HIGHPASS",
+        "db":"filter_6db",
+        "cutoff_hz":500.0,
+        "resonance":0.5
+      }
+    }
+  ]
+}

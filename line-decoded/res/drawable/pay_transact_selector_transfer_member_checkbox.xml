@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@drawable/pay_transact_btn_list_check_dim" />
+    <item android:state_checked="true" android:drawable="@drawable/pay_transact_btn_list_check_sel" />
+    <item android:state_checked="false" android:drawable="@drawable/pay_transact_btn_list_check_nor" />
+</selector>

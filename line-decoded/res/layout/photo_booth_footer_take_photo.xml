@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="90.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:id="@id/button_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.linecorp.voip2.feature.photobooth.main.view.footer.custom.PhotoBoothCircularProgressView android:id="@id/progress_circle" android:layout_width="62.0dip" android:layout_height="62.0dip" />
+        <View android:layout_gravity="center" android:id="@id/x_button" android:background="@drawable/photo_booth_shoot_close" android:layout_width="26.0dip" android:layout_height="26.0dip" android:contentDescription="@string/access_call_photobooth_button_stoptakingphoto" />
+    </FrameLayout>
+</FrameLayout>

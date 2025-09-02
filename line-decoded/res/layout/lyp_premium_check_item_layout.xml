@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="14.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBox android:gravity="top" android:id="@id/lyp_premium_check" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginTop="3.0dip" app:layout_constraintBottom_toBottomOf="@id/lyp_premium_check_text" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/lyp_premium_check_text" />
+    <TextView android:textAppearance="@style/lyp_premium_check_text" android:gravity="center_vertical" android:id="@id/lyp_premium_check_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:drawablePadding="10.0dip" android:drawableEnd="@drawable/lyp_premium_confirm_arrow" android:paddingStart="10.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHeight_min="28.0dip" app:layout_constraintStart_toEndOf="@id/lyp_premium_check" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

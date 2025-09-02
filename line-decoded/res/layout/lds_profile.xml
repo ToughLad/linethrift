@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/profile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/icon_backgorund" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" app:layout_constraintStart_toStartOf="@id/profile" app:layout_constraintTop_toTopOf="@id/profile" app:tint="@color/defaultSub2NeutralFill" />
+    <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" app:layout_constraintBottom_toBottomOf="@id/icon_backgorund" app:layout_constraintEnd_toEndOf="@id/icon_backgorund" app:layout_constraintStart_toStartOf="@id/icon_backgorund" app:layout_constraintTop_toTopOf="@id/icon_backgorund" />
+    <androidx.constraintlayout.widget.Group android:id="@id/icon_group" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:constraint_referenced_ids="icon_backgorund,icon" />
+</androidx.constraintlayout.widget.ConstraintLayout>

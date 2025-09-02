@@ -1,0 +1,62 @@
+.class public final LeF/C;
+.super Lok1/d;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lok1/f;
+    c = "com.linecorp.line.easymigration.EasyMigrationPremiumBackupPromotionDialogFragment"
+    f = "EasyMigrationPremiumBackupPromotionDialogFragment.kt"
+    l = {
+        0x6a
+    }
+    m = "navigateToBackupPinSettings"
+.end annotation
+
+
+# instance fields
+.field public a:Lcom/linecorp/line/easymigration/EasyMigrationPremiumBackupPromotionDialogFragment;
+
+.field public synthetic b:Ljava/lang/Object;
+
+.field public final synthetic c:Lcom/linecorp/line/easymigration/EasyMigrationPremiumBackupPromotionDialogFragment;
+
+.field public d:I
+
+
+# direct methods
+.method public constructor <init>(Lcom/linecorp/line/easymigration/EasyMigrationPremiumBackupPromotionDialogFragment;Lok1/d;)V
+    .locals 0
+
+    iput-object p1, p0, LeF/C;->c:Lcom/linecorp/line/easymigration/EasyMigrationPremiumBackupPromotionDialogFragment;
+
+    invoke-direct {p0, p2}, Lok1/d;-><init>(Lkotlin/coroutines/Continuation;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    iput-object p1, p0, LeF/C;->b:Ljava/lang/Object;
+
+    iget p1, p0, LeF/C;->d:I
+
+    const/high16 v0, -0x80000000
+
+    or-int/2addr p1, v0
+
+    iput p1, p0, LeF/C;->d:I
+
+    iget-object p1, p0, LeF/C;->c:Lcom/linecorp/line/easymigration/EasyMigrationPremiumBackupPromotionDialogFragment;
+
+    const/4 v0, 0x0
+
+    invoke-static {p1, v0, p0}, Lcom/linecorp/line/easymigration/EasyMigrationPremiumBackupPromotionDialogFragment;->z3(Lcom/linecorp/line/easymigration/EasyMigrationPremiumBackupPromotionDialogFragment;Landroid/content/Context;Lok1/d;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method

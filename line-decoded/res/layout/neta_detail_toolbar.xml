@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/toolbar" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.linecorp.line.timeline.neta.detail.NetaCardHeader android:id="@id/neta_detail_header" android:layout_width="fill_parent" android:layout_height="@dimen/header_height" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/glc_dialog"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/content_scroll_view" android:scrollbars="none" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="31.0dip" android:layout_marginHorizontal="33.0dip" app:layout_constraintHeight_max="263.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_goneMarginBottom="25.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/glc_dialog_title" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/linegray600" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" />
+            <Space android:layout_width="fill_parent" android:layout_height="13.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <View android:id="@id/content_bottom_gradient" android:background="@drawable/background_dialog_scroll_indicator" android:layout_width="fill_parent" android:layout_height="43.0dip" app:layout_constraintBottom_toBottomOf="@id/content_scroll_view" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" />
+    <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/linewhite" android:gravity="center_horizontal" android:id="@id/button" android:background="@drawable/selector_dialog_positive_button_background" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginHorizontal="25.0dip" android:paddingHorizontal="8.0dip" android:paddingVertical="14.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/content_scroll_view" />
+    <View android:layout_width="fill_parent" android:layout_height="25.0dip" app:layout_constraintTop_toBottomOf="@id/button" />
+</androidx.constraintlayout.widget.ConstraintLayout>

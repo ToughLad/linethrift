@@ -1,0 +1,77 @@
+.class public final synthetic LjU/i;
+.super Lkotlin/jvm/internal/m;
+.source "SourceFile"
+
+# interfaces
+.implements Lxk1/p;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lkotlin/jvm/internal/m;",
+        "Lxk1/p<",
+        "Ljava/lang/String;",
+        "Ljava/lang/String;",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    check-cast p1, Ljava/lang/String;
+
+    check-cast p2, Ljava/lang/String;
+
+    const-string v0, "p0"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "p1"
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iget-object p0, p0, Lkotlin/jvm/internal/d;->receiver:Ljava/lang/Object;
+
+    check-cast p0, Lcom/linecorp/line/multiprofile/impl/createprofile/MultiProfileCreateProfileActivity;
+
+    iget-object v0, p0, Lcom/linecorp/line/multiprofile/impl/createprofile/MultiProfileCreateProfileActivity;->i2:Lcom/linecorp/com/lds/ui/popup/LdsWaitingDialogFragment;
+
+    invoke-virtual {v0}, Landroidx/fragment/app/DialogFragment;->dismiss()V
+
+    invoke-virtual {p0}, Lcom/linecorp/line/multiprofile/impl/createprofile/MultiProfileCreateProfileActivity;->J5()Lcom/linecorp/line/multiprofile/impl/createprofile/b;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    const-string v1, ""
+
+    iput-object v1, v0, Lcom/linecorp/line/multiprofile/impl/createprofile/b;->f:Ljava/lang/String;
+
+    invoke-virtual {p0}, Lcom/linecorp/line/multiprofile/impl/createprofile/MultiProfileCreateProfileActivity;->J5()Lcom/linecorp/line/multiprofile/impl/createprofile/b;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    iput-object p1, v0, Lcom/linecorp/line/multiprofile/impl/createprofile/b;->h:Ljava/lang/String;
+
+    invoke-virtual {p0}, Lcom/linecorp/line/multiprofile/impl/createprofile/MultiProfileCreateProfileActivity;->J5()Lcom/linecorp/line/multiprofile/impl/createprofile/b;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    iput-object p2, v0, Lcom/linecorp/line/multiprofile/impl/createprofile/b;->g:Ljava/lang/String;
+
+    invoke-virtual {p0, p1}, Lcom/linecorp/line/multiprofile/impl/createprofile/MultiProfileCreateProfileActivity;->P5(Ljava/lang/String;)V
+
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method

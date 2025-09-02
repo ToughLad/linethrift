@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/settings_tone_basic_item_container" android:background="@drawable/btn_setting_menu_selector" android:layout_width="fill_parent" android:layout_height="48.0dip" android:paddingHorizontal="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center_vertical" android:id="@id/settings_tone_basic_item_title_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" style="@style/setting_title_new_design" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/settings_tone_basic_item_play_button" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/selector_setting_tone_ic_play_new_design" android:contentDescription="@string/access_ringtone_playpreview" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/settings_tone_basic_item_stop_button" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="16.0dip" android:src="@drawable/selector_setting_tone_ic_stop_new_design" android:contentDescription="@string/access_ringtone_stoppreview" />
+</LinearLayout>

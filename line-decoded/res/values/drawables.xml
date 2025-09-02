@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="album_add_photo_normal">#fff8f9fa</item>
+    <item type="drawable" name="album_add_photo_pressed_bg">#0d000000</item>
+    <item type="drawable" name="album_photo_selected_bg">@color/lineblack_alpha40</item>
+    <item type="drawable" name="album_select_item_bg">#fff9f9f9</item>
+    <item type="drawable" name="album_transparent_color_drawable">#00000000</item>
+    <item type="drawable" name="button_04_normal">#ffe2462c</item>
+    <item type="drawable" name="button_04_pressed">#ffcb3f28</item>
+    <item type="drawable" name="chathistory_input_area_sendbutton_bg_color_normal">#ff5685e4</item>
+    <item type="drawable" name="chathistory_input_area_sendbutton_bg_color_press">#ff4d77cd</item>
+    <item type="drawable" name="common_img_spinner_small" />
+    <item type="drawable" name="common_popup_item_pressed">#0d000000</item>
+    <item type="drawable" name="common_tab_bg_normal">#fff9f9f9</item>
+    <item type="drawable" name="common_tab_bg_pressed">#fff1f1f1</item>
+    <item type="drawable" name="dimmed_60">#9a000000</item>
+    <item type="drawable" name="discover_zero_view_color_1">#fffad3c5</item>
+    <item type="drawable" name="discover_zero_view_color_2">#ffffe8c2</item>
+    <item type="drawable" name="discover_zero_view_color_3">#ffebccdd</item>
+    <item type="drawable" name="discover_zero_view_color_4">#ffd3cce5</item>
+    <item type="drawable" name="discover_zero_view_color_5">#ffccd3e5</item>
+    <item type="drawable" name="gnb_bg_normal">@color/linenavy850</item>
+    <item type="drawable" name="gnb_bg_pressed">@color/linenavy900</item>
+    <item type="drawable" name="line_user_settings_item_pressed_bg">#fff9f9f9</item>
+    <item type="drawable" name="line_user_settings_item_pressed_bg_semantic">@color/primarySurfacePressed</item>
+    <item type="drawable" name="material_ic_keyboard_arrow_next_black_24dp">@drawable/material_ic_keyboard_arrow_right_black_24dp</item>
+    <item type="drawable" name="material_ic_keyboard_arrow_previous_black_24dp">@drawable/material_ic_keyboard_arrow_left_black_24dp</item>
+    <item type="drawable" name="moremenu_top_bg_normal">#fff7f7f7</item>
+    <item type="drawable" name="moremenu_top_bg_pressed">#ffededed</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="solid_f9f9f9">#fff9f9f9</item>
+    <item type="drawable" name="solid_fbfbdc">#fffbfbdc</item>
+    <item type="drawable" name="solid_ffffe5">#ffffffe5</item>
+    <item type="drawable" name="solid_white">#ffffffff</item>
+    <item type="drawable" name="square_chat_setting_normal_bg">@color/primaryBackground</item>
+    <item type="drawable" name="square_chat_setting_pressed_bg">@color/primarySurfacePressed</item>
+    <item type="drawable" name="sticker_ic_ani_14" />
+    <item type="drawable" name="sticker_ic_premium_12" />
+    <item type="drawable" name="transparameter">#7f000000</item>
+    <item type="drawable" name="transparent_color_drawable">#00000000</item>
+    <item type="drawable" name="wallet_global_asset_bank_item_pressed_bg">@color/primarySurfaceAltPressed</item>
+    <item type="drawable" name="wallet_global_asset_pay_item_pressed_bg">@color/primarySurfacePressed</item>
+    <item type="drawable" name="wallet_module_bg_pressed">@color/wallet_black03</item>
+    <item type="drawable" name="wallet_shortcut_menu_item_pressed_bg">@color/primarySurfacePressed</item>
+    <item type="drawable" name="wallet_v3_common_item_pressed_bg">@color/primarySurfacePressed</item>
+    <item type="drawable" name="wallet_v4_item_pressed_bg">@color/lineblack_alpha10</item>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/button_root" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="@dimen/common_bottom_btn_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/done_progress" android:visibility="gone" android:layout_width="18.0dip" android:layout_height="18.0dip" android:indeterminateDrawable="@drawable/progress_circle_white" />
+    <ImageView android:id="@id/button_icon" android:visibility="gone" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:contentDescription=" " />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@id/button_text" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

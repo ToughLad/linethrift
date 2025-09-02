@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView android:textSize="16.0sp" android:textColor="@color/defaultText" android:gravity="center|left" android:id="@id/common_dialog_item" android:background="@drawable/selector_dialog_button" android:paddingLeft="26.0dip" android:paddingRight="26.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkMark="@drawable/line_user_setting_list_checkmark_selector" android:minHeight="48.0dip" android:drawablePadding="15.0dip" android:textFontWeight="400"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="start" android:orientation="horizontal" android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/pay_dialog_selection_item_vertical_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioButton android:id="@id/pay_agreement_dialog_radio_button" android:background="@android:color/transparent" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/pay_ui_common_lds_popup_radio_button" android:paddingVertical="2.0dip" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/linegray600" android:id="@id/pay_agreement_dialog_radio_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="6.0dip" />
+</LinearLayout>

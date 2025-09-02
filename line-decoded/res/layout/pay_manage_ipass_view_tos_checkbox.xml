@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/base_layout" android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/content_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/checkbox" android:background="@drawable/pay_selector_check_box_green" android:layout_width="20.0dip" android:layout_height="20.0dip" />
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/linegray800" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.5dip" android:layout_marginStart="9.5dip" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/arrow" android:padding="2.5dip" android:visibility="gone" android:layout_width="13.5dip" android:layout_height="20.0dip" android:src="@drawable/pay_manage_btn_list" />
+    </LinearLayout>
+    <LinearLayout android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip">
+        <TextView android:textSize="12.0sp" android:textColor="@color/linegray400" android:id="@id/pay_tv_agreement_desc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="29.5dip" android:layout_marginRight="29.5dip" />
+    </LinearLayout>
+</LinearLayout>

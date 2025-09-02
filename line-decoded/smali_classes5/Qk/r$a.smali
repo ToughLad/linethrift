@@ -1,0 +1,61 @@
+.class public final LQk/r$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LVl1/j;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = LQk/r;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "LVl1/j;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Lcom/linecorp/line/aibilling/u;
+
+
+# direct methods
+.method public constructor <init>(Lcom/linecorp/line/aibilling/u;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LQk/r$a;->a:Lcom/linecorp/line/aibilling/u;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/Object;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, Lcom/linecorp/line/aibilling/A;
+
+    iget-object p0, p0, LQk/r$a;->a:Lcom/linecorp/line/aibilling/u;
+
+    iget-object p0, p0, Lcom/linecorp/line/aibilling/u;->o:Landroidx/lifecycle/T;
+
+    invoke-virtual {p0, p1}, Landroidx/lifecycle/O;->v(Ljava/lang/Object;)V
+
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/content_footer_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textColor="@color/linewhite" android:gravity="center|top" android:id="@id/last_content_guide_message" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/timeline_shortsviewer_desc_nomorevideos" android:shadowColor="@color/lineblack_alpha50" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="0.5" android:alpha="0.0" android:layout_marginStart="52.0dip" android:layout_marginEnd="52.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/commonFont" />
+</androidx.constraintlayout.widget.ConstraintLayout>

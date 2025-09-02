@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/scc_background" android:background="@color/linedim30" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="vertical" android:id="@id/scc_popup" android:background="@drawable/white_top_12radius" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHeight_percent="0.6" app:layout_constraintStart_toStartOf="parent">
+        <ImageButton android:layout_gravity="end" android:id="@id/scc_button" android:background="@color/transparent" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:src="@drawable/common_ic_close" android:contentDescription="@null" android:layout_marginEnd="6.0dip" />
+        <androidx.core.widget.NestedScrollView android:id="@id/scc_content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:layout_marginHorizontal="@dimen/membership_plan_purchase_horizontal_margin">
+                <TextView android:textSize="14.0sp" android:textColor="@color/lineblack" android:id="@id/scc_content_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="8.0dip" android:text="@string/oa_membership_link_commercialtransactions" />
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/scc_list" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/linegray600" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/oa_membership_actonspecifiedcommercialtransactions_desc_contact" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <com.linecorp.line.officialaccount.membership.ui.view.MembershipPurchaseErrorView android:id="@id/scc_error_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:actionButtonText="@string/oa_membership_button_reload" app:errorDescription="@string/oa_membership_error_unabletoload" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="16.0dip" android:width="16.0dip" android:viewportWidth="16.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$chatlist_badge_ai__0" android:pathData="M13.939,13.939C11.056,16.688 4.945,16.688 2.062,13.939C-0.687,11.055 -0.687,4.946 2.062,2.062C4.945,-0.687 11.055,-0.687 13.939,2.062C16.687,4.946 16.687,11.055 13.939,13.939Z" />
+    <path android:fillColor="#ffffffff" android:pathData="M10.041,10.71V5.11C10.041,5.031 10.084,4.981 10.164,4.981H11.401C11.481,4.981 11.531,5.032 11.531,5.11V10.71C11.531,10.79 11.48,10.84 11.401,10.84H10.164C10.084,10.84 10.041,10.789 10.041,10.71ZM7.776,9.832L8.103,10.753C8.122,10.805 8.17,10.84 8.225,10.84H9.541C9.607,10.84 9.652,10.772 9.628,10.71L7.374,5.071C7.352,5.015 7.299,4.979 7.239,4.979H6.217C6.157,4.979 6.104,5.015 6.082,5.071L3.828,10.71C3.804,10.772 3.849,10.84 3.915,10.84H5.231C5.286,10.84 5.335,10.805 5.353,10.753L5.68,9.832L6.072,8.623L6.705,6.816L7.346,8.623L7.775,9.832H7.776Z" />
+    <path android:fillColor="@drawable/$chatlist_badge_ai__1" android:pathData="M7.776,9.832L7.347,8.623H6.073L5.68,9.832H7.776Z" />
+</vector>

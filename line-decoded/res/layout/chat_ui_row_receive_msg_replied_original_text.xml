@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/chat_ui_replied_original_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/chat_ui_row_msg_replied_original_content" />
+        <TextView android:id="@id/chat_ui_unavailable_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:layout_marginBottom="9.0dip" android:text="@string/chathistory_reply_no_original_message" style="@style/chat_ui_reply_original_message_receive_unavailable_message" />
+    </FrameLayout>
+    <View android:id="@id/chat_ui_divider" android:background="@color/primaryAltSeparator" android:layout_width="fill_parent" android:layout_height="@dimen/chat_ui_row_divider_height" android:layout_marginBottom="1.0dip" />
+</LinearLayout>

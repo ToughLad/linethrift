@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="37.0dip" android:width="274.0dip" android:viewportWidth="274.0" android:viewportHeight="37.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="buttonBorder" android:fillColor="#00000000" android:pathData="M5,0.5L269,0.5A4.5,4.5 0,0 1,273.5 5L273.5,32A4.5,4.5 0,0 1,269 36.5L5,36.5A4.5,4.5 0,0 1,0.5 32L0.5,5A4.5,4.5 0,0 1,5 0.5z" android:strokeColor="#ffffffff" android:strokeWidth="1.0" android:strokeAlpha="0.2" />
+</vector>

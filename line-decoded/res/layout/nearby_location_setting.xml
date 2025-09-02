@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nearby_img_location04" />
+        <TextView android:textSize="15.0sp" android:textColor="#ff474747" android:gravity="center" android:layout_width="239.0dip" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/nearby_guide_location_settings_off" android:includeFontPadding="false" android:lineSpacingExtra="1.5dip" />
+        <TextView android:textSize="15.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/nearby_location_setting_btn" android:background="@drawable/nearby_selector_button_r22" android:layout_width="239.0dip" android:layout_height="40.0dip" android:layout_marginTop="19.0dip" android:text="@string/nearby_guide_gps_on" android:includeFontPadding="false" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,323 @@
+.class public final Ljp/naver/line/android/activity/setting/beacon/d;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lsh0/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Ljp/naver/line/android/activity/setting/beacon/d$a;,
+        Ljp/naver/line/android/activity/setting/beacon/d$b;
+    }
+.end annotation
+
+
+# instance fields
+.field public final a:LNi1/c;
+
+.field public final b:LTg0/h;
+
+.field public final c:Ljp/naver/line/android/activity/setting/beacon/d$a;
+
+
+# direct methods
+.method public synthetic constructor <init>(LNi1/c;LTg0/h;)V
+    .locals 1
+
+    .line 5
+    sget-object v0, Ljp/naver/line/android/activity/setting/beacon/d$a;->DONT_PROMPT_IF_ALREADY_AGREED:Ljp/naver/line/android/activity/setting/beacon/d$a;
+
+    .line 6
+    invoke-direct {p0, p1, p2, v0}, Ljp/naver/line/android/activity/setting/beacon/d;-><init>(LNi1/c;LTg0/h;Ljp/naver/line/android/activity/setting/beacon/d$a;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(LNi1/c;LTg0/h;Ljp/naver/line/android/activity/setting/beacon/d$a;)V
+    .locals 1
+
+    const-string v0, "settingsDataManager"
+
+    invoke-static {p2, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string v0, "requestMode"
+
+    invoke-static {p3, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    iput-object p1, p0, Ljp/naver/line/android/activity/setting/beacon/d;->a:LNi1/c;
+
+    .line 3
+    iput-object p2, p0, Ljp/naver/line/android/activity/setting/beacon/d;->b:LTg0/h;
+
+    .line 4
+    iput-object p3, p0, Ljp/naver/line/android/activity/setting/beacon/d;->c:Ljp/naver/line/android/activity/setting/beacon/d$a;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Lok1/d;)Ljava/lang/Object;
+    .locals 4
+
+    instance-of v0, p1, Lze1/d;
+
+    if-eqz v0, :cond_0
+
+    move-object v0, p1
+
+    check-cast v0, Lze1/d;
+
+    iget v1, v0, Lze1/d;->c:I
+
+    const/high16 v2, -0x80000000
+
+    and-int v3, v1, v2
+
+    if-eqz v3, :cond_0
+
+    sub-int/2addr v1, v2
+
+    iput v1, v0, Lze1/d;->c:I
+
+    goto :goto_0
+
+    :cond_0
+    new-instance v0, Lze1/d;
+
+    invoke-direct {v0, p0, p1}, Lze1/d;-><init>(Ljp/naver/line/android/activity/setting/beacon/d;Lok1/d;)V
+
+    :goto_0
+    iget-object p1, v0, Lze1/d;->a:Ljava/lang/Object;
+
+    sget-object v1, Lnk1/a;->COROUTINE_SUSPENDED:Lnk1/a;
+
+    iget v2, v0, Lze1/d;->c:I
+
+    const/4 v3, 0x1
+
+    if-eqz v2, :cond_2
+
+    if-ne v2, v3, :cond_1
+
+    invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
+
+    goto :goto_2
+
+    :cond_1
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    const-string p1, "call to \'resume\' before \'invoke\' with coroutine"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :cond_2
+    invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
+
+    sget-object p1, Ljp/naver/line/android/activity/setting/beacon/d$b;->$EnumSwitchMapping$0:[I
+
+    iget-object v2, p0, Ljp/naver/line/android/activity/setting/beacon/d;->c:Ljp/naver/line/android/activity/setting/beacon/d$a;
+
+    invoke-virtual {v2}, Ljava/lang/Enum;->ordinal()I
+
+    move-result v2
+
+    aget p1, p1, v2
+
+    if-eq p1, v3, :cond_4
+
+    const/4 v2, 0x2
+
+    if-ne p1, v2, :cond_3
+
+    move p1, v3
+
+    goto :goto_1
+
+    :cond_3
+    new-instance p0, Lkotlin/NoWhenBranchMatchedException;
+
+    invoke-direct {p0}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
+
+    throw p0
+
+    :cond_4
+    const/4 p1, 0x0
+
+    :goto_1
+    sget-object v2, LNi1/c$b;->BEACON:LNi1/c$b;
+
+    iput v3, v0, Lze1/d;->c:I
+
+    iget-object p0, p0, Ljp/naver/line/android/activity/setting/beacon/d;->a:LNi1/c;
+
+    invoke-virtual {p0, v2, p1, v0}, LNi1/c;->a(LNi1/c$b;ZLok1/d;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    if-ne p1, v1, :cond_5
+
+    return-object v1
+
+    :cond_5
+    :goto_2
+    check-cast p1, LNi1/c$c;
+
+    instance-of p0, p1, LNi1/c$c$a;
+
+    if-eqz p0, :cond_6
+
+    new-instance p0, Lsh0/a$a$a;
+
+    iget-object p1, p1, LNi1/c$c;->a:Landroid/content/Intent;
+
+    invoke-direct {p0, p1}, Lsh0/a$a;-><init>(Landroid/content/Intent;)V
+
+    return-object p0
+
+    :cond_6
+    sget-object p0, LNi1/c$c$c;->b:LNi1/c$c$c;
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/n;->c(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_7
+
+    sget-object p0, Lsh0/a$a$c;->b:Lsh0/a$a$c;
+
+    return-object p0
+
+    :cond_7
+    sget-object p0, LNi1/c$c$b;->b:LNi1/c$c$b;
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/n;->c(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p0
+
+    if-eqz p0, :cond_8
+
+    sget-object p0, Lsh0/a$a$b;->b:Lsh0/a$a$b;
+
+    return-object p0
+
+    :cond_8
+    new-instance p0, Lkotlin/NoWhenBranchMatchedException;
+
+    invoke-direct {p0}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
+
+    throw p0
+.end method
+
+.method public final b(Lok1/d;)Ljava/lang/Object;
+    .locals 4
+
+    instance-of v0, p1, Lze1/c;
+
+    if-eqz v0, :cond_0
+
+    move-object v0, p1
+
+    check-cast v0, Lze1/c;
+
+    iget v1, v0, Lze1/c;->c:I
+
+    const/high16 v2, -0x80000000
+
+    and-int v3, v1, v2
+
+    if-eqz v3, :cond_0
+
+    sub-int/2addr v1, v2
+
+    iput v1, v0, Lze1/c;->c:I
+
+    goto :goto_0
+
+    :cond_0
+    new-instance v0, Lze1/c;
+
+    invoke-direct {v0, p0, p1}, Lze1/c;-><init>(Ljp/naver/line/android/activity/setting/beacon/d;Lok1/d;)V
+
+    :goto_0
+    iget-object p1, v0, Lze1/c;->a:Ljava/lang/Object;
+
+    sget-object v1, Lnk1/a;->COROUTINE_SUSPENDED:Lnk1/a;
+
+    iget v2, v0, Lze1/c;->c:I
+
+    const/4 v3, 0x1
+
+    if-eqz v2, :cond_2
+
+    if-ne v2, v3, :cond_1
+
+    invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
+
+    goto :goto_1
+
+    :cond_1
+    new-instance p0, Ljava/lang/IllegalStateException;
+
+    const-string p1, "call to \'resume\' before \'invoke\' with coroutine"
+
+    invoke-direct {p0, p1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :cond_2
+    invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
+
+    sget-object p1, LTg0/h$h$a;->a:LTg0/h$h$a;
+
+    iput v3, v0, Lze1/c;->c:I
+
+    iget-object p0, p0, Ljp/naver/line/android/activity/setting/beacon/d;->b:LTg0/h;
+
+    invoke-virtual {p0, p1, v0}, LTg0/h;->j(LTg0/h$h;Lkotlin/coroutines/Continuation;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    if-ne p1, v1, :cond_3
+
+    return-object v1
+
+    :cond_3
+    :goto_1
+    check-cast p1, LTg0/h$i;
+
+    instance-of p0, p1, LTg0/h$i$b;
+
+    if-nez p0, :cond_5
+
+    instance-of p0, p1, LTg0/h$i$a;
+
+    if-eqz p0, :cond_4
+
+    check-cast p1, LTg0/h$i$a;
+
+    iget-object p0, p1, LTg0/h$i$a;->a:Lorg/apache/thrift/i;
+
+    throw p0
+
+    :cond_4
+    new-instance p0, Lkotlin/NoWhenBranchMatchedException;
+
+    invoke-direct {p0}, Lkotlin/NoWhenBranchMatchedException;-><init>()V
+
+    throw p0
+
+    :cond_5
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method

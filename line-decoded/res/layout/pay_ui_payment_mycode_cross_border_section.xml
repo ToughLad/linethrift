@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/pay_ui_payment_mycode_section_padding" android:paddingVertical="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/countryFlag" android:layout_width="18.0dip" android:layout_height="18.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/pay_linegray700" android:id="@id/countryName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.0dip" />
+    <ImageView android:id="@id/arrowIcon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pay_ui_payment_icon_mycode_right_arrow" />
+</LinearLayout>

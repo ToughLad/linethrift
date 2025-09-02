@@ -1,0 +1,60 @@
+.class public final Lcom/linecorp/voip2/dependency/youtube/reposiory/e;
+.super Lok1/d;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lok1/f;
+    c = "com.linecorp.voip2.dependency.youtube.reposiory.VoIPYouTubeRepository"
+    f = "VoIPYouTubeRepository.kt"
+    l = {
+        0x3c
+    }
+    m = "queryVideo"
+.end annotation
+
+
+# instance fields
+.field public synthetic a:Ljava/lang/Object;
+
+.field public final synthetic b:Lcom/linecorp/voip2/dependency/youtube/reposiory/VoIPYouTubeRepository;
+
+.field public c:I
+
+
+# direct methods
+.method public constructor <init>(Lcom/linecorp/voip2/dependency/youtube/reposiory/VoIPYouTubeRepository;Lok1/d;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/linecorp/voip2/dependency/youtube/reposiory/e;->b:Lcom/linecorp/voip2/dependency/youtube/reposiory/VoIPYouTubeRepository;
+
+    invoke-direct {p0, p2}, Lok1/d;-><init>(Lkotlin/coroutines/Continuation;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    iput-object p1, p0, Lcom/linecorp/voip2/dependency/youtube/reposiory/e;->a:Ljava/lang/Object;
+
+    iget p1, p0, Lcom/linecorp/voip2/dependency/youtube/reposiory/e;->c:I
+
+    const/high16 v0, -0x80000000
+
+    or-int/2addr p1, v0
+
+    iput p1, p0, Lcom/linecorp/voip2/dependency/youtube/reposiory/e;->c:I
+
+    iget-object p1, p0, Lcom/linecorp/voip2/dependency/youtube/reposiory/e;->b:Lcom/linecorp/voip2/dependency/youtube/reposiory/VoIPYouTubeRepository;
+
+    const/4 v0, 0x0
+
+    invoke-virtual {p1, v0, v0, v0, p0}, Lcom/linecorp/voip2/dependency/youtube/reposiory/VoIPYouTubeRepository;->c(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Lok1/d;)Ljava/io/Serializable;
+
+    move-result-object p0
+
+    return-object p0
+.end method

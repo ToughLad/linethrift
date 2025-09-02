@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="108.0dip" android:width="108.0dip" android:viewportWidth="108.0" android:viewportHeight="108.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_launcher_design_5_background__0" android:pathData="M-0.5,-0.5h109v109h-109z" />
+    <path android:fillColor="@drawable/$ic_launcher_design_5_background__1" android:pathData="M75.52,64.55h1.4v20.43h-1.4z" />
+    <path android:fillColor="@drawable/$ic_launcher_design_5_background__2" android:pathData="M66.07,74.07h20.3v1.41h-20.3z" />
+    <path android:fillColor="@drawable/$ic_launcher_design_5_background__3" android:pathData="M71.52,74.77a4.7,4.73 0,1 0,9.4 0a4.7,4.73 0,1 0,-9.4 0z" />
+    <path android:fillColor="@drawable/$ic_launcher_design_5_background__4" android:pathData="M30.55,24.64h1.07v15.69h-1.07z" />
+    <path android:fillColor="@drawable/$ic_launcher_design_5_background__5" android:pathData="M23.29,31.95h15.59v1.08h-15.59z" />
+    <path android:fillColor="@drawable/$ic_launcher_design_5_background__6" android:pathData="M34.7,32.49c0,2.01 -1.62,3.63 -3.61,3.63s-3.61,-1.63 -3.61,-3.63 1.62,-3.63 3.61,-3.63 3.61,1.63 3.61,3.63Z" />
+    <path android:fillColor="#ff3478fb" android:pathData="M37.09,43.56h34.09v14.13h-34.09z" />
+</vector>

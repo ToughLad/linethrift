@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/tools_stamp" android:background="@drawable/doodle_tools_background" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:focusable="true" android:clickable="true" android:layout_width="44.0dip" android:layout_height="wrap_content">
+        <ImageView android:id="@id/tools_stamp_left" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/call_doodle_stamp_left_inactive" />
+        <ImageView android:id="@id/tools_stamp_right" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/call_doodle_stamp_right_inactive" />
+        <ImageView android:id="@id/tools_stamp_x" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/call_doodle_stamp_x_inactive" />
+        <ImageView android:id="@id/tools_stamp_question" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/call_doodle_stamp_question_inactive" />
+    </LinearLayout>
+</merge>

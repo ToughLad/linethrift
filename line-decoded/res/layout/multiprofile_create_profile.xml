@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView android:fadingEdgeLength="@dimen/multiprofile_registration_content_bottom_padding_for_fab" android:layout_width="0.0dip" android:layout_height="0.0dip" android:requiresFadingEdge="vertical" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/multiprofile_registration_content_bottom_padding_for_fab" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="24.0dip">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/multiprofile_registration_title_margin_top" android:text="@string/subprofile_create_title_createsubprofile" style="@style/MultiProfileCreate.Title" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/multiprofile_registration_description_margin_top" android:text="@string/subprofile_create_desc_createsubprofile" style="@style/MultiProfileCreate.Description" />
+            <ImageView android:id="@id/photo" android:background="@drawable/multiprofile_create_profile_viewholder" android:layout_width="87.0dip" android:layout_height="87.0dip" android:layout_marginTop="60.0dip" android:scaleType="centerInside" />
+            <FrameLayout android:id="@id/video_container" android:background="@drawable/multiprofile_rounded_video_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip">
+                <VideoView android:id="@id/video" android:layout_width="87.0dip" android:layout_height="87.0dip" />
+            </FrameLayout>
+            <include android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" layout="@layout/multiprofile_create_profile_edittext_layout" />
+        </LinearLayout>
+    </ScrollView>
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:srcCompat="@drawable/multiprofile_floating_ic_next" style="@style/MultiProfileCreate.FloatingActionButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

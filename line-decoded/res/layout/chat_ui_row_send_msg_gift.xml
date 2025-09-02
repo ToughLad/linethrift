@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/chat_ui_row_gift" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/chat_ui_row_gift_template_image" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="5.0dip" android:tintMode="src_atop" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/chat_ui_row_msg_highlight_color_selector" />
+    <com.linecorp.view.RoundedFrameLayout android:id="@id/chat_ui_row_gift_message_bubble" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/chat_ui_row_message_default_vertical_margin" android:backgroundTint="@color/chat_ui_row_msg_highlight_color_selector" android:backgroundTintMode="src_atop" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/chat_ui_row_gift_template_image">
+        <FrameLayout android:id="@id/outline" android:paddingLeft="@dimen/chat_ui_row_message_balloon_send_gift_padding_left" android:paddingTop="@dimen/chat_ui_message_balloon_send_padding_top" android:paddingRight="@dimen/chat_ui_row_message_balloon_send_gift_padding_right" android:paddingBottom="@dimen/chat_ui_message_balloon_send_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:textColor="@color/lineblack" android:id="@id/chat_ui_row_gift_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chathistory_row_present_send" />
+        </FrameLayout>
+    </com.linecorp.view.RoundedFrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

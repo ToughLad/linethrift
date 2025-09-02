@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/abuse_report_bottomsheet_container" android:background="@color/linedim70" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/abuse_report_bottomsheet_content_wrapper" android:background="@color/transparent" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" app:behavior_hideable="true" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="bottom" android:id="@id/abuse_report_bottomsheet_content" android:background="@drawable/abuse_report_bottomsheet_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/primaryText" android:gravity="center_vertical" android:id="@id/abuse_report_bottomsheet_title" android:layout_width="fill_parent" android:layout_height="56.0dip" android:text="@string/spam" android:layout_marginStart="16.0dip" app:layout_constraintTop_toTopOf="parent" />
+            <ImageView android:id="@id/abuse_report_close_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/overlaying_sheet_close_button" android:contentDescription="@string/access_liff_newfulltype_header_close" android:layout_marginEnd="4.0dip" app:layout_constraintBottom_toBottomOf="@id/abuse_report_bottomsheet_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/abuse_report_bottomsheet_title" />
+            <ScrollView android:id="@id/abuse_report_bottomsheet_scroll_layout" android:scrollbars="vertical" android:fadingEdgeLength="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:requiresFadingEdge="vertical" app:layout_constraintTop_toBottomOf="@id/abuse_report_bottomsheet_title">
+                <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/abuse_report_reason_selection_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="18.0dip" android:text="@string/spam_reason_select" style="@style/abuse_report_title" />
+                    <RadioGroup android:id="@id/abuse_report_reason_radio_group" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <RadioButton android:id="@id/abuse_report_reason_obscenity_radio_button" android:text="@string/abuse_report_reason_obscenity" style="@style/abuse_report_reason_item" />
+                        <RadioButton android:id="@id/abuse_report_reason_advertising_radio_button" android:text="@string/spam_reason_advertising" style="@style/abuse_report_reason_item" />
+                        <RadioButton android:id="@id/abuse_report_reason_gender_harassment_radio_button" android:text="@string/spam_reason_gender_harassment" style="@style/abuse_report_reason_item" />
+                        <RadioButton android:id="@id/abuse_report_reason_harassment_radio_button" android:text="@string/abuse_report_reason_harassment" style="@style/abuse_report_reason_item" />
+                        <RadioButton android:id="@id/abuse_report_reason_other_harassment_radio_button" android:text="@string/spam_reason_harassment" style="@style/abuse_report_reason_item" />
+                        <RadioButton android:id="@id/abuse_report_reason_copyright_violation_radio_button" android:text="@string/spam_reason_copyright" style="@style/abuse_report_reason_item" />
+                        <RadioButton android:id="@id/abuse_report_reason_irrelevant_content_radio_button" android:text="@string/square_group_settings_reportpage_reason5" style="@style/abuse_report_reason_item" />
+                        <RadioButton android:id="@id/abuse_report_reason_impersonation_radio_button" android:text="@string/abuse_report_reason_impersonation" style="@style/abuse_report_reason_item" />
+                        <RadioButton android:id="@id/abuse_report_reason_scam_radio_button" android:text="@string/abuse_report_reason_scam" style="@style/abuse_report_reason_item" />
+                        <RadioButton android:id="@id/abuse_report_reason_suicide_radio_button" android:text="@string/abuse_report_reason_suicide" style="@style/abuse_report_reason_item" />
+                        <RadioButton android:id="@id/abuse_report_reason_violence_radio_button" android:text="@string/abuse_report_reason_violence" style="@style/abuse_report_reason_item" />
+                        <RadioButton android:id="@id/abuse_report_reason_fraud_radio_button" android:text="@string/abuse_report_reason_fraud" style="@style/abuse_report_reason_item" />
+                        <RadioButton android:id="@id/abuse_report_reason_illegal_radio_button" android:text="@string/abuse_report_reason_illegal" style="@style/abuse_report_reason_item" />
+                        <RadioButton android:id="@id/abuse_report_reason_attack_radio_button" android:text="@string/abuse_report_reason_attacks" style="@style/abuse_report_reason_item" />
+                        <RadioButton android:id="@id/abuse_report_reason_identifiable_radio_button" android:text="@string/abuse_report_reason_identifiable" style="@style/abuse_report_reason_item" />
+                        <RadioButton android:id="@id/abuse_report_reason_incorrect_radio_button" android:text="@string/abuse_report_reason_incorrect" style="@style/abuse_report_reason_item" />
+                        <RadioButton android:id="@id/abuse_report_reason_other_radio_button" android:text="@string/spam_reason_other" style="@style/abuse_report_reason_item" />
+                    </RadioGroup>
+                    <TextView android:id="@id/abuse_report_sent_data_description" android:paddingTop="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/abuse_report_description" />
+                    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/onPrimaryFill" android:gravity="center" android:id="@id/abuse_report_send_button" android:background="@drawable/abuse_report_send_button_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:layout_marginBottom="30.0dip" android:minHeight="51.0dip" android:text="@string/spam_accept_and_send" />
+                </LinearLayout>
+            </ScrollView>
+            <FrameLayout android:id="@id/abuse_report_progress_bar" android:background="@color/primaryInverseFill_alpha20" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <ProgressBar android:layout_gravity="center" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="?android:progressBarStyle" />
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </FrameLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

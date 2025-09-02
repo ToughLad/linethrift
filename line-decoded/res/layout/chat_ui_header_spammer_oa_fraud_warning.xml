@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@id/chat_ui_header_spammer_oa_fraud_warning" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/chat_ui_header_spammer_oa_fraud_warning_icon" android:background="@drawable/chatroom_layer_text_alert_for_oa_warning_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@drawable/chatroom_layer_text_alert_for_oa_warning_icon" android:contentDescription="@null" android:layout_marginStart="12.0dip" android:layout_marginEnd="8.0dip" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="15.0dip" android:paddingBottom="12.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="12.0sp" android:textColor="@color/primaryText" android:id="@id/chat_ui_header_spammer_oa_fraud_warning_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/line_chat_desc_accountunverified" android:maxLines="3" android:includeFontPadding="false" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/tertiaryText" android:id="@id/chat_ui_header_spammer_oa_fraud_report_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/line_chat_link_report" android:maxLines="1" android:includeFontPadding="false" />
+    </LinearLayout>
+    <ImageView android:id="@id/chat_ui_header_spammer_oa_fraud_warning_close_button" android:paddingTop="15.0dip" android:paddingBottom="6.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/chatroom_layer_x_oa" android:contentDescription="@null" android:paddingStart="8.0dip" android:paddingEnd="12.0dip" />
+</LinearLayout>

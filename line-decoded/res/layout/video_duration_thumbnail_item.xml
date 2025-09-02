@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="@dimen/picker_gallery_video_duration_item_width" android:layout_height="@dimen/picker_gallery_video_duration_item_height" android:layout_marginStart="@dimen/picker_gallery_video_duration_item_margin_start" android:layout_marginEnd="@dimen/picker_gallery_video_duration_item_margin_end" app:cardCornerRadius="7.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/video_thumbnail" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/video_selected_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/picker_metadata_preview_selected_frame" />
+    <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/linewhite" android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/video_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:shadowColor="@color/lineblack" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="1.0" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:paddingTop="@dimen/iab_location_prompt_content_padding_top" android:paddingBottom="@dimen/iab_location_prompt_content_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:requiresFadingEdge="vertical" app:layout_constraintHeight_max="@dimen/iab_location_prompt_content_max_height" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="@dimen/iab_location_prompt_content_max_width">
+        <TextView android:textSize="@dimen/iab_location_prompt_content_text_size" android:textColor="@color/tertiaryText" android:gravity="center" android:layout_gravity="center" android:id="@id/location_prompt_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/iab_location_prompt_content_padding_horizontal" />
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

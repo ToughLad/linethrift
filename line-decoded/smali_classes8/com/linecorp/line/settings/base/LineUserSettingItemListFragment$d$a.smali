@@ -1,0 +1,146 @@
+.class public final Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment$d$a;
+.super Lok1/j;
+.source "SourceFile"
+
+# interfaces
+.implements Lxk1/l;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment$d;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lok1/j;",
+        "Lxk1/l<",
+        "Lkotlin/coroutines/Continuation<",
+        "-",
+        "Lkotlin/Unit;",
+        ">;",
+        "Ljava/lang/Object;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lok1/f;
+    c = "com.linecorp.line.settings.base.LineUserSettingItemListFragment$handleSettingSearchItemAction$1$1"
+    f = "LineUserSettingItemListFragment.kt"
+    l = {}
+    m = "invokeSuspend"
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Ljh0/E;
+
+.field public final synthetic b:Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment;
+
+
+# direct methods
+.method public constructor <init>(Ljh0/E;Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment;Lkotlin/coroutines/Continuation;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljh0/E;",
+            "Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment;",
+            "Lkotlin/coroutines/Continuation<",
+            "-",
+            "Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment$d$a;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment$d$a;->a:Ljh0/E;
+
+    iput-object p2, p0, Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment$d$a;->b:Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment;
+
+    const/4 p1, 0x1
+
+    invoke-direct {p0, p1, p3}, Lok1/j;-><init>(ILkotlin/coroutines/Continuation;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final create(Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lkotlin/coroutines/Continuation<",
+            "*>;)",
+            "Lkotlin/coroutines/Continuation<",
+            "Lkotlin/Unit;",
+            ">;"
+        }
+    .end annotation
+
+    new-instance v0, Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment$d$a;
+
+    iget-object v1, p0, Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment$d$a;->a:Ljh0/E;
+
+    iget-object p0, p0, Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment$d$a;->b:Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment;
+
+    invoke-direct {v0, v1, p0, p1}, Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment$d$a;-><init>(Ljh0/E;Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment;Lkotlin/coroutines/Continuation;)V
+
+    return-object v0
+.end method
+
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 0
+
+    check-cast p1, Lkotlin/coroutines/Continuation;
+
+    invoke-virtual {p0, p1}, Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment$d$a;->create(Lkotlin/coroutines/Continuation;)Lkotlin/coroutines/Continuation;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment$d$a;
+
+    sget-object p1, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    invoke-virtual {p0, p1}, Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment$d$a;->invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public final invokeSuspend(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    sget-object v0, Lnk1/a;->COROUTINE_SUSPENDED:Lnk1/a;
+
+    invoke-static {p1}, Lkotlin/ResultKt;->throwOnFailure(Ljava/lang/Object;)V
+
+    iget-object p1, p0, Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment$d$a;->a:Ljh0/E;
+
+    check-cast p1, Ljh0/E$e;
+
+    iget-object p1, p1, Ljh0/E$e;->b:Lxk1/l;
+
+    iget-object p0, p0, Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment$d$a;->b:Lcom/linecorp/line/settings/base/LineUserSettingItemListFragment;
+
+    invoke-virtual {p0}, Landroidx/fragment/app/k;->requireContext()Landroid/content/Context;
+
+    move-result-object p0
+
+    const-string v0, "requireContext(...)"
+
+    invoke-static {p0, v0}, Lkotlin/jvm/internal/n;->g(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-interface {p1, p0}, Lxk1/l;->invoke(Ljava/lang/Object;)Ljava/lang/Object;
+
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method

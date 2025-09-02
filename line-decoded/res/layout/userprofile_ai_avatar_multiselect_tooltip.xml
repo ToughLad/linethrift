@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="right" android:id="@id/tooltip_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="60.0dip" android:src="@drawable/userprofile_set_rtrbt_tooltip_arrow_up" android:contentDescription="@null" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/linewhite" android:id="@id/tooltip_content" android:background="@drawable/userprofile_nft_tooltip_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13.0dip" android:maxWidth="274.0dip" android:text="@string/profile_profilemedia_tooltip_nftbadge" android:paddingHorizontal="12.0dip" android:paddingVertical="11.0dip" />
+</LinearLayout>

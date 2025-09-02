@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_user_bg" android:background="@drawable/selector_square_chat_settings" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="16.0dip" android:paddingVertical="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="15.0sp" android:textColor="@color/defaultText" android:ellipsize="end" android:id="@id/timeline_privacygroup_select_all_text" android:duplicateParentState="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/myhome_writing_privacy_home_privacy_select_all" android:includeFontPadding="false" android:layout_weight="1.0" />
+    <ImageView android:id="@id/timeline_privacygroup_select_all_checkbox" android:duplicateParentState="true" android:layout_width="22.0dip" android:layout_height="22.0dip" android:scaleType="center" />
+</LinearLayout>

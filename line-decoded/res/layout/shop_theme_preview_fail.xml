@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="208.28dip">
+        <TextView android:textSize="13.0sp" android:textColor="#ff7e848c" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/shop_error_fail_load_preview" android:shadowColor="#ffffffff" android:shadowDy="1.33" />
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/themeshop_preview_fail_retry" android:background="@drawable/selector_button_r05" android:paddingLeft="@dimen/shop_recommendation_retry_btn_padding" android:paddingRight="@dimen/shop_recommendation_retry_btn_padding" android:clickable="true" android:layout_width="@dimen/shop_recommendation_retry_btn_width" android:layout_height="@dimen/shop_recommendation_retry_btn_height" android:layout_marginTop="12.0dip" android:text="@string/retry" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="35.0dip" android:layout_marginBottom="34.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="13.0sp" android:textColor="@color/secondarySub2Text" android:gravity="center_horizontal" android:id="@id/recommend_friend_button_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="5.0sp" android:paddingHorizontal="50.0dip" />
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/selector_timeline_default_text" android:gravity="center" android:id="@id/recommend_friend_button" android:background="@drawable/timeline_selector_follow_list_empty_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:maxWidth="260.0dip" android:text="@string/timeline_followers_button_discoverfriends" android:paddingHorizontal="13.0dip" android:paddingVertical="9.0dip" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/square_chat_member_root" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <jp.naver.line.android.customview.SearchBoxView android:id="@id/searchBar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:hintText="@string/friend_search_hint" app:notApplyTheme="true" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/square_chat_member_recycler_view" android:paddingTop="10.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/square_member_loading_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@id/settings_app_progress" android:layout_width="30.0dip" android:layout_height="30.0dip" android:indeterminateDrawable="@drawable/progress_circle_blue" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/zeropage_subtitle_01_text_color" android:gravity="center" android:id="@id/square_member_empty_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:text="@string/localcontacts_search_no_result" android:includeFontPadding="false" />
+    <jp.naver.line.android.customview.RetryErrorView android:id="@id/square_member_retry_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@drawable/like_end_tab_background" android:layout_width="wrap_content" android:layout_height="32.0dip" android:minHeight="32.0dip" android:paddingStart="11.0dip" android:paddingEnd="11.0dip" android:layout_marginEnd="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="3.0dip">
+        <ImageView android:id="@id/icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:scaleType="center" android:layout_marginStart="1.0dip" />
+        <TextView android:textAppearance="@style/text_timeline_like_list_tab" android:gravity="start|center" android:id="@id/text_total" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/timeline_reaction_count_all" />
+    </FrameLayout>
+    <TextView android:textAppearance="@style/text_timeline_like_list_tab" android:gravity="start|center" android:layout_gravity="center_vertical" android:id="@id/like_count" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

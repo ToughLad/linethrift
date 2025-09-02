@@ -1,0 +1,143 @@
+.class public final Lcom/linecorp/square/thread/threadhome/model/SquareThreadHomeUiState$ReadAllState$Finished;
+.super Lcom/linecorp/square/thread/threadhome/model/SquareThreadHomeUiState$ReadAllState;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/linecorp/square/thread/threadhome/model/SquareThreadHomeUiState$ReadAllState;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "Finished"
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0008\u0086\u0008\u0018\u00002\u00020\u0001B\u0017\u0012\u000e\u0010\u0004\u001a\n\u0018\u00010\u0002j\u0004\u0018\u0001`\u0003\u00a2\u0006\u0004\u0008\u0005\u0010\u0006\u00a8\u0006\u0007"
+    }
+    d2 = {
+        "Lcom/linecorp/square/thread/threadhome/model/SquareThreadHomeUiState$ReadAllState$Finished;",
+        "Lcom/linecorp/square/thread/threadhome/model/SquareThreadHomeUiState$ReadAllState;",
+        "Ljava/lang/Exception;",
+        "Lkotlin/Exception;",
+        "exceptionOrNull",
+        "<init>",
+        "(Ljava/lang/Exception;)V",
+        "app_productionRelease"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field public final d:Ljava/lang/Exception;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Exception;)V
+    .locals 2
+
+    const/4 v0, 0x0
+
+    if-eqz p1, :cond_0
+
+    const/4 v1, 0x1
+
+    goto :goto_0
+
+    :cond_0
+    move v1, v0
+
+    :goto_0
+    invoke-direct {p0, p1, v0, v1}, Lcom/linecorp/square/thread/threadhome/model/SquareThreadHomeUiState$ReadAllState;-><init>(Ljava/lang/Exception;ZZ)V
+
+    iput-object p1, p0, Lcom/linecorp/square/thread/threadhome/model/SquareThreadHomeUiState$ReadAllState$Finished;->d:Ljava/lang/Exception;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 3
+
+    const/4 v0, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v0
+
+    :cond_0
+    instance-of v1, p1, Lcom/linecorp/square/thread/threadhome/model/SquareThreadHomeUiState$ReadAllState$Finished;
+
+    const/4 v2, 0x0
+
+    if-nez v1, :cond_1
+
+    return v2
+
+    :cond_1
+    check-cast p1, Lcom/linecorp/square/thread/threadhome/model/SquareThreadHomeUiState$ReadAllState$Finished;
+
+    iget-object p0, p0, Lcom/linecorp/square/thread/threadhome/model/SquareThreadHomeUiState$ReadAllState$Finished;->d:Ljava/lang/Exception;
+
+    iget-object p1, p1, Lcom/linecorp/square/thread/threadhome/model/SquareThreadHomeUiState$ReadAllState$Finished;->d:Ljava/lang/Exception;
+
+    invoke-static {p0, p1}, Lkotlin/jvm/internal/n;->c(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    move-result p0
+
+    if-nez p0, :cond_2
+
+    return v2
+
+    :cond_2
+    return v0
+.end method
+
+.method public final hashCode()I
+    .locals 0
+
+    iget-object p0, p0, Lcom/linecorp/square/thread/threadhome/model/SquareThreadHomeUiState$ReadAllState$Finished;->d:Ljava/lang/Exception;
+
+    if-nez p0, :cond_0
+
+    const/4 p0, 0x0
+
+    return p0
+
+    :cond_0
+    invoke-virtual {p0}, Ljava/lang/Object;->hashCode()I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 2
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "Finished(exceptionOrNull="
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    iget-object p0, p0, Lcom/linecorp/square/thread/threadhome/model/SquareThreadHomeUiState$ReadAllState$Finished;->d:Ljava/lang/Exception;
+
+    const-string v1, ")"
+
+    invoke-static {p0, v1, v0}, LBe/d;->c(Ljava/lang/Exception;Ljava/lang/String;Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method

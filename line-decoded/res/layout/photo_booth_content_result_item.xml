@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/container" android:background="@drawable/photo_booth_result_item_background" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintDimensionRatio="720:1280" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout android:layout_gravity="center|right|top" android:id="@id/check_container" android:background="@drawable/photo_booth_result_item_circle" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="13.0dip">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/check" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginTop="0.00999999dip" android:src="@drawable/photo_booth_result_item_check" />
+        </FrameLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

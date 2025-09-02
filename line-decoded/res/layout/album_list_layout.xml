@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/primaryBackground" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:scrollbarStyle="outsideOverlay" android:id="@id/album_recycler_view" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:scrollbars="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewStub android:id="@id/empty_view_stub" android:layout="@layout/album_list_empty_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewStub android:id="@id/error_view_stub" android:visibility="gone" android:layout="@layout/album_list_empty_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewStub android:id="@id/album_error_view_stub" android:visibility="gone" android:layout="@layout/album_error_with_button_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.linecorp.com.lds.ui.fab.LdsFab android:layout_gravity="end|bottom|center" android:id="@id/album_create_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/album_floating_menu_right_margin" android:layout_marginBottom="@dimen/album_floating_menu_bottom_margin" android:contentDescription="@string/access_home_create_album" app:icon="@drawable/button_floating_expand" />
+            <FrameLayout android:layout_gravity="center" android:id="@id/share_album_loading_view" android:background="@drawable/album_lds_spinner_background" android:visibility="gone" android:layout_width="123.0dip" android:layout_height="123.0dip">
+                <com.linecorp.com.lds.ui.spinner.LdsSpinner android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:spinnerSize="large" />
+            </FrameLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

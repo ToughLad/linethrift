@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|top" android:orientation="vertical" android:id="@id/item_root" android:background="@drawable/wallet_item_selector_bg" android:layout_width="@dimen/wallet_balance_v4_shortcut_item_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/shortcut_icon_image_view" android:layout_width="@dimen/wallet_balance_v4_shortcut_item_icon_size" android:layout_height="@dimen/wallet_balance_v4_shortcut_item_icon_size" android:layout_marginBottom="1.0dip" android:contentDescription="@null" app:tint="@color/linewhite" />
+    <TextView android:gravity="center" android:id="@id/shortcut_item_label_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/wallet_balance_v4_shortcut_item_label_4_or_less" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/passcode_input1" android:background="@drawable/passcode_img_code_off" android:layout_width="@dimen/pin_view_size" android:layout_height="@dimen/pin_view_size" android:scaleType="centerInside" android:contentDescription="@null" android:layout_marginEnd="@dimen/pin_view_spacing_new_design" />
+    <ImageView android:id="@id/passcode_input2" android:background="@drawable/passcode_img_code_off" android:layout_width="@dimen/pin_view_size" android:layout_height="@dimen/pin_view_size" android:scaleType="centerInside" android:contentDescription="@null" android:layout_marginEnd="@dimen/pin_view_spacing_new_design" />
+    <ImageView android:id="@id/passcode_input3" android:background="@drawable/passcode_img_code_off" android:layout_width="@dimen/pin_view_size" android:layout_height="@dimen/pin_view_size" android:scaleType="centerInside" android:contentDescription="@null" android:layout_marginEnd="@dimen/pin_view_spacing_new_design" />
+    <ImageView android:id="@id/passcode_input4" android:background="@drawable/passcode_img_code_off" android:layout_width="@dimen/pin_view_size" android:layout_height="@dimen/pin_view_size" android:scaleType="centerInside" android:contentDescription="@null" />
+</merge>

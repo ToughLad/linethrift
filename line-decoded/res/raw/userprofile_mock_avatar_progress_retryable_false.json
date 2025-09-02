@@ -1,0 +1,27 @@
+{
+  "category": "ai_avatar_portrait",
+  "status": "FAILED",
+  "product": {
+    "id": 1,
+    "deliveryTimeInHours": 24,
+    "billingId": "ai_portrait_standard",
+    "price": 170,
+    "title": null,
+    "description": null,
+    "secondDescription": null,
+    "locale": "en_US",
+    "styleCount": 1,
+    "imageCount": 30,
+    "badgeImage": null,
+    "enabled": false,
+    "selected": false
+  },
+  "startTime": 1688394097277,
+  "estimatedTime": 1688480497277,
+  "completionRate": 1.0,
+  "retry": {
+    "retryable": false
+  },
+  "title": "An error occurs while creating your images (from server)",
+  "description": "Unable to create your images because of ... (from server)"
+}

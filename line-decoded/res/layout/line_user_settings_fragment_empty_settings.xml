@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/line_logo_root_view" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/line_logo_image_view" android:layout_width="@dimen/line_user_settings_place_holder_image_width" android:layout_height="@dimen/line_user_settings_place_holder_image_height" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/line_user_settings_ic_logo3" />
+</androidx.constraintlayout.widget.ConstraintLayout>

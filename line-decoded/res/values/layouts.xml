@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="line_user_settings_search_result_sticon_and_mention_item">@layout/line_user_settings_search_result_with_value_item</item>
+</resources>

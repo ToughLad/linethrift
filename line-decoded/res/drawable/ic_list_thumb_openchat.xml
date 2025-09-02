@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="45.0dip" android:width="45.0dip" android:viewportWidth="45.0" android:viewportHeight="45.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_list_thumb_openchat__0" android:pathData="M22.5,0L22.5,0A22.5,22.5 0,0 1,45 22.5L45,22.5A22.5,22.5 0,0 1,22.5 45L22.5,45A22.5,22.5 0,0 1,0 22.5L0,22.5A22.5,22.5 0,0 1,22.5 0z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M24.868,13h-4.737c-3.662,0 -6.631,2.969 -6.631,6.632v4.736c0,3.663 2.969,6.632 6.631,6.632h5.211c0.262,0 0.474,-0.212 0.474,-0.474v-1.894c0,-0.262 -0.212,-0.474 -0.474,-0.474h-5.21c-2.093,0 -3.79,-1.697 -3.79,-3.79v-4.736c0,-2.093 1.697,-3.79 3.79,-3.79h4.736c2.093,0 3.79,1.697 3.79,3.79v10.894c0,0.262 0.212,0.474 0.473,0.474h1.895c0.262,0 0.474,-0.212 0.474,-0.474V19.632c0,-3.663 -2.969,-6.632 -6.632,-6.632" android:strokeColor="@drawable/$ic_list_thumb_openchat__1" android:strokeWidth="0.85" android:fillType="evenOdd" />
+</vector>

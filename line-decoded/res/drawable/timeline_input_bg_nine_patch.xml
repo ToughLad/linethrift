@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nine-patch android:src="@drawable/timeline_input_bg_solid" android:tint="@color/lightAltNeutralFill"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

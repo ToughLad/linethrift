@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/pay_bg_solid">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/wallet_global_asset_bg_radius" />
+            <solid android:color="@color/linewhite" />
+        </shape>
+    </item>
+    <item android:id="@id/pay_bg_stroke">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/wallet_global_asset_pay_bg_stroke_radius" />
+            <stroke android:width="@dimen/wallet_global_asset_outline_size" android:color="@color/wallet_global_asset_pay_outline_color_default" />
+        </shape>
+    </item>
+</layer-list>

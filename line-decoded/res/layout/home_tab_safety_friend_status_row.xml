@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/background" android:background="@drawable/selector_primary_surface" android:paddingLeft="@dimen/home_list_horizontal_margin" android:paddingRight="@dimen/home_list_horizontal_margin" android:layout_width="fill_parent" android:layout_height="@dimen/friend_row_height" android:contentDescription="@string/access_home_safetycheck_friendslist"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.view.RoundedFrameLayout android:layout_width="@dimen/home_thumbnail_bg_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/home_thumbnail_margin_top" android:layout_marginRight="@dimen/home_list_directory_thumbnail_margin_right" android:elevation="0.0dip" app:cornerRadius="@dimen/friendlist_directory_thumbnail_size">
+        <ImageView android:id="@id/thumbnail" android:layout_width="@dimen/friendlist_directory_thumbnail_size" android:layout_height="@dimen/friendlist_directory_thumbnail_size" android:src="@drawable/home_tab_ic_safety_check" android:scaleType="center" android:contentDescription="@null" />
+    </com.linecorp.view.RoundedFrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="15.0sp" android:textColor="@color/primaryText" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/name" android:duplicateParentState="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/line_safetycheck_title" android:maxLines="1" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/tertiarySubText" android:ellipsize="end" android:id="@id/description" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/home_title_sub_margin" android:maxLines="1" />
+    </LinearLayout>
+    <TextView android:textSize="15.0sp" android:textColor="@color/tertiaryText" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/safety_status_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:maxLines="1" />
+    <ImageView android:id="@id/more_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_list_option_arrow_right" android:contentDescription="@null" app:tint="@color/quaternarySubNeutralFill" />
+</LinearLayout>

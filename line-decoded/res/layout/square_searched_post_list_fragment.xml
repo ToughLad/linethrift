@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jp.naver.line.android.customview.SwipeRefreshLayoutForListView android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/top_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="0.0dip" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/post_list_recycler_view" android:paddingBottom="6.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ViewStub android:id="@id/empty_view_stub" android:layout="@layout/square_searched_post_list_empty" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/top_guideline" />
+        <ViewStub android:id="@id/error_view_stub" android:layout="@layout/note_error_view_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/top_guideline" />
+        <ProgressBar android:id="@id/progress" android:visibility="gone" android:layout_width="@dimen/square_progress_size_in_post_list" android:layout_height="@dimen/square_progress_size_in_post_list" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/top_guideline" />
+        <ViewStub android:id="@id/popup_sticker_view_stub" android:visibility="gone" android:layout="@layout/note_popup_sticker_view_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</jp.naver.line.android.customview.SwipeRefreshLayoutForListView>

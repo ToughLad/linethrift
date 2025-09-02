@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/registered_method_desc_text_view" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" layout="@layout/pay_manage_additional_auth_title_layout" />
+    <TextView android:textSize="13.0sp" android:id="@id/registered_method_desc_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginStart="@dimen/pay_manage_additional_auth_side_margin" android:layout_marginEnd="@dimen/pay_manage_additional_auth_side_margin" app:layout_constraintBottom_toTopOf="@id/auth_method_divider_view" app:layout_constraintTop_toBottomOf="@id/title_layout" />
+    <View android:id="@id/auth_method_divider_view" android:background="@drawable/pay_manage_shape_additional_auth_method_line_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="30.0dip" app:layout_constraintBottom_toTopOf="@id/registered_method_scroll_view" app:layout_constraintTop_toBottomOf="@id/registered_method_desc_text_view" />
+    <androidx.core.widget.NestedScrollView android:id="@id/registered_method_scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/auth_method_divider_view" app:layout_constraintVertical_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/registered_method_recycler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            <include android:id="@id/pay_additional_auth_method_help_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" layout="@layout/pay_manage_additional_auth_method_help_layout" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

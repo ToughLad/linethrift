@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/toast_overlay_background" android:paddingLeft="@dimen/toast_overlay_long_text_left_right_margin" android:paddingTop="@dimen/toast_overlay_long_text_top_bottom_margin" android:paddingRight="@dimen/toast_overlay_long_text_left_right_margin" android:paddingBottom="@dimen/toast_overlay_long_text_top_bottom_margin" android:layout_width="@dimen/toast_overlay_long_text_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/toast_overlay_long_text_text_size" android:textColor="@color/linegray100" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_theme_osdark_appliedtoast" android:lineSpacingExtra="@dimen/toast_overlay_long_text_text_line_spacing" />
+</FrameLayout>

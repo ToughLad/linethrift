@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/hashtag_list_container" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="@dimen/header_height" />
+    <include layout="@layout/hashtag_grid_list_title_collapsed" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="0.0dip">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:background="@color/primaryBackground" android:paddingBottom="19.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentScrim="@android:color/transparent" app:layout_scrollFlags="noScroll">
+                <include layout="@layout/hashtag_grid_list_title_expanded" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <jp.naver.line.android.customview.SwipeRefreshLayoutForListView android:orientation="vertical" android:id="@id/swiperefresh" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <com.linecorp.line.timeline.ui.base.view.LoadMoreRecyclerView android:id="@id/recyclerview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/appbar_layout" />
+        </jp.naver.line.android.customview.SwipeRefreshLayoutForListView>
+        <FrameLayout android:id="@id/info_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <com.linecorp.com.lds.ui.fab.LdsFab android:layout_gravity="end|bottom|center" android:id="@id/floating_action_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/lds_fab_margin_bottom" android:contentDescription="@string/access_timeline_writing" android:layout_marginEnd="@dimen/lds_fab_margin_end" app:icon="@drawable/button_floating_hashtag" />
+        <ViewStub android:id="@id/popup_sticker_view_stub" android:visibility="gone" android:layout="@layout/timeline_popup_sticker_view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/appbar_layout" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.andromeda.render.view.RenderTextureView android:id="@id/deco_render_view" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/deco_effect_container" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/deco_effect_imv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/deco_container" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/deco_space_top" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="@dimen/userprofile_deco_guideline_begin" />
+        <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/deco_space_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_end="@dimen/userprofile_deco_guideline_end" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ViewStub android:id="@id/user_profile_deco_action_popup_viewstub" android:layout="@layout/userprofile_deco_action_popup" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/avatar_debug_view" android:visibility="gone" android:layout="@layout/userprofile_avatar_debug_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/avatar_pivot_debug" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/userprofile_image_color" android:contentDescription="@null" />
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/linewhite" android:paddingLeft="30.0dip" android:paddingRight="30.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/zeropage_img_none04" android:contentDescription="@null" />
+    <TextView android:gravity="center" android:id="@id/common_error_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/e_server" style="@style/shop_coin_error_description" />
+    <Button android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/lineblack" android:gravity="center" android:id="@id/common_error_retry_button" android:background="@drawable/shop_coin_outline_button_bg" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:minWidth="164.0dip" android:text="@string/retry" android:textAllCaps="false" android:stateListAnimator="@null" />
+</LinearLayout>

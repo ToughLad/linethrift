@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/tooltip_container" android:background="@drawable/glp_tooltip_background" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/tooltip_arrow" app:layout_constraintStart_toStartOf="parent">
+        <TextView android:textSize="13.0sp" android:textColor="@color/linewhite" android:gravity="start|center" android:id="@id/tooltip_content" android:paddingTop="11.0dip" android:paddingBottom="11.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="272.0dip" android:text="@string/glp_chat_tooltip_mainprofileshown" android:includeFontPadding="false" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" android:layout_marginEnd="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </FrameLayout>
+    <ImageView android:id="@id/tooltip_arrow" android:layout_width="@dimen/glp_tooltip_width" android:layout_height="wrap_content" android:src="@drawable/glp_tooltip_arrow_down" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

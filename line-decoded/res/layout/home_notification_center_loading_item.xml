@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/home_notification_center_loading_bg" android:layout_width="fill_parent" android:layout_height="130.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:layout_gravity="center" android:id="@id/home_notification_center_loading_icon" android:layout_width="21.0dip" android:layout_height="21.0dip" />
+</FrameLayout>

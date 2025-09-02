@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/things_add_friend_content_stub" android:layout="@layout/dialog_things_add_friend_content" android:inflatedId="@id/things_add_friend_content" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/things_use_now_content_stub" android:layout="@layout/dialog_things_use_now_confirm_content" android:inflatedId="@id/things_use_now_content" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/line_user_settings_profile_music_item_content" />
+    <View android:id="@id/setting_separator" style="@style/line_user_settings_item_divider_new_design_semantic" />
+</LinearLayout>

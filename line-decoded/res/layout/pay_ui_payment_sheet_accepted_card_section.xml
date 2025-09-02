@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/pay_linewhite" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.line.pay.ui.payment.availablecard.AvailableCardRecyclerView android:id="@id/horizontalRecyclerView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/pay_ui_payment_method_side_margin" android:layout_marginVertical="26.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/addCardTextView" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/addCardTextView" android:layout_marginEnd="@dimen/pay_ui_payment_method_side_margin" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/horizontalRecyclerView" app:layout_constraintTop_toTopOf="parent" style="@style/pay_module_ui_payment_method_add_card_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/dot_image" android:layout_width="9.0dip" android:layout_height="9.0dip" android:layout_marginTop="4.5dip" android:src="@drawable/timeline_lds_popup_list_dot" android:importantForAccessibility="no" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:tint="@color/linegray400" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/tertiaryText" android:id="@id/description_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="7.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/dot_image" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

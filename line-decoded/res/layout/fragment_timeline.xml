@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/myhome_postlist_root" android:background="@color/timeline_home_default_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/dummy_status_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/timeline_feed_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/dummy_status_bar" />
+    <LinearLayout android:orientation="vertical" android:id="@id/header_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.linecorp.line.timeline.tab.TimelineHeader android:id="@id/header" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="1.0dip" />
+        <View android:orientation="horizontal" android:id="@id/timeline_main_tab_container" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+    </LinearLayout>
+    <com.linecorp.line.timeline.header.VoomTabHeaderView android:id="@id/voom_tab_header" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/post_upload_progress_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="63.0dip" android:layout_marginBottom="13.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="13.0dip" android:layout_marginEnd="13.0dip" layout="@layout/post_upload_progress" />
+    <include android:id="@id/lights_upload_progress_container" android:layout_width="fill_parent" android:layout_height="75.0dip" android:layout_marginBottom="13.0dip" android:layout_alignParentBottom="true" android:layout_marginStart="13.0dip" android:layout_marginEnd="13.0dip" layout="@layout/lights_upload_progress" />
+    <FrameLayout android:id="@id/activity_reward_snack_bar_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="3.5dip" />
+    <ViewStub android:id="@id/lights_download_progress_stub" android:visibility="gone" android:layout="@layout/lights_download_progress" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

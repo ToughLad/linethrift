@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="24.0dip" android:paddingVertical="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/lyp_premium_management_text_caption_normal" android:textStyle="bold" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="@style/lyp_premium_management_text_title_normal" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:textAppearance="@style/lyp_premium_management_text_content" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

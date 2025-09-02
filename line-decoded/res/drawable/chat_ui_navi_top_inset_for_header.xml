@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/chat_ui_drawable_container" android:left="@dimen/chathistory_header_button_icon_inset" android:top="@dimen/chathistory_header_button_icon_inset" android:right="@dimen/chathistory_header_button_icon_inset" android:bottom="@dimen/chathistory_header_button_icon_inset">
+        <shape android:shape="rectangle" />
+    </item>
+</layer-list>

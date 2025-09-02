@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="20.0sp" android:textColor="@color/linewhite" android:gravity="center_vertical" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_marginHorizontal="26.0dip" android:textFontWeight="700" app:layout_constraintTop_toTopOf="parent" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/title_tab_layout" android:layout_width="fill_parent" android:layout_height="@dimen/lights_live_scheduler_multi_neta_card_title_height" android:layout_marginTop="20.0dip" app:layout_constraintBottom_toTopOf="@id/content_pager" app:layout_constraintTop_toBottomOf="@id/title" app:tabIndicatorHeight="0.0dip" app:tabMode="scrollable" app:tabPaddingEnd="0.0dip" app:tabPaddingStart="0.0dip" app:tabRippleColor="@null" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/content_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="30.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/title_tab_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>

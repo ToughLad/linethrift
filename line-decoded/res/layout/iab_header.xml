@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jp.naver.line.android.activity.iab.IabInterceptTouchFrameLayout android:id="@id/iab_header" android:background="@color/onPrimaryInverseFill" android:layout_width="fill_parent" android:layout_height="wrap_content" android:translationZ="1.0dip" android:outlineProvider="none"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/iab_header_collapsible" android:layout_width="fill_parent" android:layout_height="@dimen/iab_header_height">
+        <ImageView android:id="@id/iab_header_minimize" android:visibility="gone" android:layout_width="@dimen/iab_searchbar_minimize_size" android:layout_height="@dimen/iab_searchbar_minimize_size" android:src="@drawable/header_ic_liff_fold_black" android:contentDescription="@string/common_action_minimize" android:layout_marginStart="9.0dip" app:tint="@color/primaryInverseFill" />
+        <ViewFlipper android:id="@id/iab_header_content_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:layout_marginStart="9.0dip">
+            <LinearLayout android:gravity="start|center" android:orientation="vertical" android:id="@id/iab_header_title_section" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textStyle="bold" android:gravity="center|left" android:id="@id/iab_header_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" style="@style/text_iab_title01" />
+                <TextView android:gravity="center|left" android:id="@id/iab_header_url" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" style="@style/text_iab_subtitle" />
+            </LinearLayout>
+            <include android:layout_gravity="center_vertical" android:id="@id/iab_search_bar" android:layout_width="fill_parent" android:layout_height="40.0dip" layout="@layout/iab_search_bar" />
+        </ViewFlipper>
+        <ImageButton android:id="@id/iab_header_close" android:background="@color/transparent" android:layout_width="38.0dip" android:layout_height="38.0dip" android:src="@drawable/navi_top_x" android:scaleType="fitCenter" android:contentDescription="@string/access_close" android:layout_marginHorizontal="9.0dip" app:tint="@color/primaryInverseFill" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/defaultText" android:gravity="center" android:id="@id/iab_header_cancel" android:background="@color/transparent" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/line_search_button_cancel" android:maxLines="1" android:layout_marginStart="13.0dip" android:layout_marginEnd="16.0dip" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="bottom|center" android:id="@id/iab_header_progressbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/IabProgressBar" />
+</jp.naver.line.android.activity.iab.IabInterceptTouchFrameLayout>

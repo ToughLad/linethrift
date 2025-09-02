@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/lds_toast_horizontal_background" android:paddingTop="@dimen/lds_toast_bottom_inner_padding_top" android:paddingBottom="@dimen/lds_toast_bottom_inner_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/lds_toast_bottom_min_height" android:paddingHorizontal="@dimen/lds_toast_bottom_inner_padding_horizontal">
+        <TextView android:textSize="13.0sp" android:textColor="@color/linewhite" android:gravity="center_vertical" android:id="@id/ldsToastMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

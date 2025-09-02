@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <CheckBox android:id="@id/pay_cb_dialog" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/lds_checkbox_icon" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/lds_checkbox_text" android:ellipsize="end" android:id="@id/pay_tv_dialog_checkbox_onelinetext" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/pay_rv_dialog_checkbox_imgwtext" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.5dip" />
+    </LinearLayout>
+    <TextView android:textSize="13.0sp" android:id="@id/pay_tv_dialog_checkbox_multilinetext" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" />
+</LinearLayout>

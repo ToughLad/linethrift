@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.linecorp.line.shop.keyboard.impl.keyboard.panel.viewholder.ShopNewLifeBannerView android:id="@id/new_life_banner_content" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/setting_item_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/setting_description" android:paddingTop="@dimen/line_user_settings_item_description_vertical_spacing" android:paddingBottom="@dimen/line_user_settings_item_container_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/line_user_settings_item_container_padding_horizontal" android:paddingEnd="@dimen/line_user_settings_item_container_padding_horizontal" style="@style/line_user_settings_text_item_description" />
+    <View android:id="@id/setting_separator" style="@style/line_user_settings_item_divider_new_design" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/entry_view_round_button" android:background="@drawable/line_user_settings_multiprofile_entry_view_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="8.0dip" android:paddingVertical="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/entry_view_default_profile" android:visibility="invisible" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/line_user_settings_multiprofile_default_image" android:layout_marginEnd="8.0dip" />
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/sub_profiles_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip" />
+    <TextView android:textSize="9.0sp" android:textColor="@color/tertiaryText" android:layout_gravity="center_vertical" android:id="@id/entry_view_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/subprofile_settings_button_subprofiles" android:layout_marginEnd="7.0dip" />
+    <ImageView android:layout_gravity="center" android:id="@id/entry_view_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/line_user_settings_multiprofile_entry_view_next_arrow" />
+</LinearLayout>

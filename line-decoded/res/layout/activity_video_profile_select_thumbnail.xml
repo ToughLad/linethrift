@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/video_profile_select_root" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/trimmer_videoview_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/trimmer_cover_image_view" android:background="#ff000000" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+        <com.linecorp.line.media.picker.fragment.detail.CircleGuideView android:id="@id/trimmer_video_dim_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:circleBackgroundColor="#ff000000" app:rectangleBackgroundColor="#cc000000" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/trimmer_coverimage_bottom_panel" android:paddingTop="36.5dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/trimmer_videoview_container">
+        <jp.naver.line.android.customview.videotrimmerview.ImageSeekBar android:layout_gravity="center" android:id="@id/trimmer_trim_frame_seekbar" android:layout_width="fill_parent" android:layout_height="@dimen/video_trimmer_image_seekbar_height" android:layout_marginLeft="25.0dip" android:layout_marginRight="25.0dip" app:frame_border="@drawable/camera_img_trim_frame" app:padding="3.0dip" />
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/coverimage_trim_info" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="12.5dip" android:layout_marginRight="25.0dip" android:maxLines="3" android:lineSpacingExtra="3.0dip" style="@style/text_trim_info" />
+    </LinearLayout>
+    <FrameLayout android:id="@id/progress_bar_container" android:background="#bb000000" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <RelativeLayout android:id="@id/thumbnail_selector_bottom_panel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="19.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/thumbnail_selector_done_btn" android:paddingRight="17.0dip" android:paddingBottom="29.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gallery_confirm_ok" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/thumbnail_selector_story_panel" android:layout="@layout/video_profile_story_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

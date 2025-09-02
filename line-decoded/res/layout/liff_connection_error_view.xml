@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/primaryBackground" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/webview_util_empty_network_large" android:contentDescription="@null" />
+    <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="@string/line_liff_desc_networkerror" />
+    <com.linecorp.com.lds.ui.empty.LdsEmptyScreenBoxButton android:id="@id/reload_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:text="@string/common_retry" android:contentDescription="@string/common_retry" app:ldsEmptyScreenBoxButtonType="outline_gray" />
+</LinearLayout>

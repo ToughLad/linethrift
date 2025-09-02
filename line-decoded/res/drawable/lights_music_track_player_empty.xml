@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:height="37.0dip" android:width="37.0dip">
+        <shape android:shape="rectangle">
+            <corners android:radius="6.0dip" />
+            <solid android:color="@color/linewhite_alpha10" />
+            <stroke android:width="0.5dip" android:color="@color/linewhite_alpha05" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/lights_camera_music_empty_small" />
+</layer-list>

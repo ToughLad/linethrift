@@ -1,0 +1,53 @@
+.class public Lezvcard/property/X;
+.super Lezvcard/property/b0;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime LU81/b;
+    value = {
+        .enum LU81/e;->V3_0:LU81/e;
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>(Lezvcard/property/X;)V
+    .locals 0
+
+    .line 2
+    invoke-direct {p0, p1}, Lezvcard/property/b0;-><init>(Lezvcard/property/b0;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1}, Lezvcard/property/b0;-><init>(Ljava/lang/String;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public J()Lezvcard/property/X;
+    .locals 1
+
+    new-instance v0, Lezvcard/property/X;
+
+    invoke-direct {v0, p0}, Lezvcard/property/X;-><init>(Lezvcard/property/X;)V
+
+    return-object v0
+.end method
+
+.method public bridge synthetic f()Lezvcard/property/h0;
+    .locals 0
+
+    invoke-virtual {p0}, Lezvcard/property/X;->J()Lezvcard/property/X;
+
+    move-result-object p0
+
+    return-object p0
+.end method

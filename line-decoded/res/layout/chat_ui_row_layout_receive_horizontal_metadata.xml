@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/chat_ui_row_typing_viewstub" android:layout="@layout/chat_ui_typing_dots" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" />
+    <ImageView android:id="@id/chat_ui_row_sound_sticker_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2.0dip" android:src="@drawable/chat_ui_icon_anisticker_speaker" app:tint="@color/primaryInverseFill_alpha50" />
+    <TextView android:layout_gravity="bottom" android:id="@id/chat_ui_row_timestamp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/chat_ui_text_chatroom_message_metadata" />
+</LinearLayout>

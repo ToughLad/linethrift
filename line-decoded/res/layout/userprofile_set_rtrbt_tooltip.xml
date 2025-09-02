@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="@dimen/userprofile_set_rtrbt_tooltip_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/tooltip_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/userprofile_set_rtrbt_tooltip_arrow_up" android:contentDescription="@null" android:layout_marginEnd="48.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/linewhite" android:id="@id/tooltil_message" android:background="@drawable/common_img_tooltip_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/profile_tooltip_trycustomrt" android:paddingHorizontal="12.0dip" android:paddingVertical="11.0dip" app:layout_constraintTop_toBottomOf="@id/tooltip_arrow" />
+</androidx.constraintlayout.widget.ConstraintLayout>

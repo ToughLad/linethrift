@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.todddavies.components.progressbar.ProgressWheel android:id="@id/progress_wheel" android:background="@drawable/lights_download_progress_background" android:focusable="false" android:layout_width="58.0dip" android:layout_height="58.0dip" app:pwBarColor="@color/linewhite" app:pwBarShadowColor="@color/lineblack_alpha25" app:pwBarShadowWidth="0.0dip" app:pwBarWidth="4.0dip" app:pwRimColor="@color/loading_progress_rim" app:pwRimWidth="0.0dip" app:pwText="" />
+        <ImageView android:id="@id/progress_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lights_cross_stroke_light" android:layout_centerInParent="true" android:contentDescription="@string/media_loading_type" />
+    </RelativeLayout>
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/linewhite" android:id="@id/progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:shadowColor="@color/lineblack_alpha40" android:shadowDx="0.0" android:shadowDy="0.0" android:shadowRadius="3.0" />
+</LinearLayout>

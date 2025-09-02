@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/user_profile_area" android:background="@color/userprofile_default_cover_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.linecorp.line.player.ui.view.LineVideoView android:id="@id/user_profile_cover_video" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/user_profile_cover_image" android:background="@drawable/userprofile_popup_img_user_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@null" />
+    <View android:id="@id/user_profile_cover_dim_layer" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/access_profile_desc_profilecover" android:importantForAccessibility="yes" />
+    <include android:id="@id/deco_binding" layout="@layout/userprofile_deco" />
+    <include android:id="@id/user_profile_container_binding" layout="@layout/userprofile_container" />
+    <include android:id="@id/user_profile_header_binding" layout="@layout/userprofile_header" />
+    <ViewStub android:id="@id/user_profile_music_guide_viewstub" android:layout="@layout/userprofile_music_guide" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/user_profile_safety_check_banner_viewstub" android:layout="@layout/userprofile_safety_check_banner" android:inflatedId="@id/userprofile_safety_check_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="10.0dip" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/album_note_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" app:upButtonVisibility="true" />
+    <RelativeLayout android:id="@id/album_note_content_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/album_note_header">
+        <ViewStub android:id="@id/album_note_tab_view_stub" android:layout="@layout/album_note_tab_container" android:inflatedId="@id/album_note_tab_container" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+        <androidx.viewpager.widget.ViewPager android:id="@id/album_note_view_pager" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/album_note_tab_container" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</RelativeLayout>

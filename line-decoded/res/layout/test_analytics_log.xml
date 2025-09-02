@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LogSize:" />
+        <EditText android:id="@id/test_analytics_log_max_log_size_etext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:inputType="number" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="LogCnt:" />
+        <EditText android:id="@id/test_analytics_log_max_log_count_etext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:inputType="number" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="MinRepInterval(sec) : " />
+        <EditText android:id="@id/test_analytics_log_min_reporting_interval_etext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:inputType="number" />
+    </LinearLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/test_analytics_log_start_upload_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="start_upload" android:layout_alignParentLeft="true" />
+        <Button android:id="@id/test_analytics_log_save_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="save" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/test_analytics_log_log_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="log" android:layout_weight="1.0" />
+        <Button android:id="@id/test_analytics_log_flush_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="flush" android:layout_weight="1.0" />
+        <Button android:id="@id/test_analytics_log_content_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="log content" android:layout_weight="1.0" />
+        <Button android:id="@id/test_analytics_log_file_list_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="file list" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:id="@id/test_analytics_log_console" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+</LinearLayout>

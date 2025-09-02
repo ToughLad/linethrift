@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/square_member_info_base_view" android:background="@drawable/square_member_list_member_info_layout_bg_selector" android:layout_width="fill_parent" android:layout_height="59.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.com.lds.ui.profile.LdsProfile android:layout_gravity="center_vertical" android:id="@id/square_member_info_profile_thumbnail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" app:ldsProfileOptionEnabled="true" app:ldsProfileSize="small" />
+    <TextView android:textSize="15.0sp" android:textColor="@color/primaryText" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/square_member_info_display_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginStart="15.0dip" android:layout_marginEnd="14.0dip" />
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/slot_list_recycler_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/shop_lds_spinner" />
+    <ViewStub android:id="@id/empty_sticker_screen_view_stub" android:visibility="gone" android:layout="@layout/shop_subscribed_sticker_no_result_screen" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/empty_sticon_screen_view_stub" android:visibility="gone" android:layout="@layout/shop_subscribed_sticon_no_result_screen" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/error_screen_view_stub" android:visibility="gone" android:layout="@layout/retryerrorview_viewstub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

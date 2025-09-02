@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="7.5dip" android:paddingRight="7.5dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="49.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/base_layout" android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/content_layout" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/checkbox" android:background="@drawable/pay_selector_check_box_green" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="12.0dip" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/linegray750" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginTop="15.5dip" android:layout_marginBottom="10.5dip" android:lineSpacingExtra="6.0sp" />
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@id/arrow" android:paddingTop="18.0dip" android:paddingRight="15.0dip" android:layout_width="50.0dip" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pay_base_btn_next" />
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="13.0sp" android:textColor="@color/linegray500" android:id="@id/pay_tv_agreement_desc" android:background="@color/linewhite" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="46.5dip" android:layout_marginRight="50.0dip" android:layout_marginBottom="10.5dip" />
+    </LinearLayout>
+    <View android:id="@id/pay_view_agreement_extra_space" android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <View android:id="@id/divider" android:background="@color/linegray200" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.6700001dip" />
+</LinearLayout>

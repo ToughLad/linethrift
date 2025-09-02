@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/linegray800" android:gravity="center" android:id="@id/pay_virtualcard_activate_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginRight="32.0dip" android:text="@string/pay_googlepay_in_app_verfication_confirm" />
+    <Button android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/linewhite" android:id="@id/pay_virtualcard_activate_next_button" android:background="@color/pay_green" android:layout_width="110.0dip" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:minHeight="40.0dip" android:text="@string/next" android:layout_below="@id/pay_virtualcard_activate_guide" android:layout_centerHorizontal="true" android:lineSpacingExtra="3.5sp" />
+</RelativeLayout>

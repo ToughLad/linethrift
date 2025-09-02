@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0000" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0001" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0002" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0003" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0004" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0005" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0006" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0007" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0008" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0009" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0010" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0011" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0012" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0013" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0014" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0015" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0016" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0017" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0018" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0019" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0020" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0021" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0022" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0023" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0024" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0025" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0026" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0027" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0028" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0029" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0030" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0031" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0032" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0033" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0034" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0035" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0036" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0037" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0038" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0039" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0040" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0041" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0042" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0043" />
+    <item android:duration="40" android:drawable="@drawable/eq_effect_0044" />
+</animation-list>

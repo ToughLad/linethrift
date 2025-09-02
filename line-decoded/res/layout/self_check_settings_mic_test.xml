@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/self_check_audio_test_dialog_back" android:background="@color/lineblack_alpha70" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@drawable/self_check_audio_test_dialog_bg" android:focusable="true" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:elevation="3.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="54.0dip">
+                <TextView android:textSize="17.0dip" android:textStyle="bold" android:textColor="@color/primaryText" android:layout_gravity="center|left" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/settings_calldiag_button_mictest" android:layout_weight="1.0" android:layout_marginStart="18.0dip" />
+                <ImageView android:layout_gravity="center|right" android:id="@id/self_check_audio_test_dialog_exit" android:layout_width="38.0dip" android:layout_height="38.0dip" android:src="@drawable/self_check_audio_test_x" android:contentDescription="@string/access_calldiag_mictest_button_close" android:layout_marginEnd="9.0dip" />
+            </LinearLayout>
+            <TextView android:textSize="15.0dip" android:textColor="@color/primaryText" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/self_check_audio_test_guide_text" android:layout_width="wrap_content" android:layout_height="63.0dip" android:layout_marginTop="20.0dip" android:text="@string/calldiag_mictest_desc_beforerec" android:maxLines="3" android:layout_weight="1.0" android:layout_marginStart="30.0dip" android:layout_marginEnd="30.0dip" />
+            <com.linecorp.voip2.setting.selfcheck.view.VoIPSelfCheckMicInputProgress android:layout_gravity="center_horizontal" android:id="@id/self_check_audio_test_mic_progress" android:layout_width="267.0dip" android:layout_height="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginStart="47.0dip" android:layout_marginEnd="47.0dip" />
+            <com.linecorp.voip2.setting.selfcheck.view.VoIPSelfCheckAudioOptionView android:layout_gravity="center_horizontal" android:id="@id/self_check_audio_test_mic_option" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+            <ImageButton android:layout_gravity="center_horizontal" android:id="@id/self_check_audio_test_mic_button" android:background="@null" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="40.0dip" android:layout_marginBottom="40.0dip" android:src="@drawable/self_check_audio_test_button_ready" />
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

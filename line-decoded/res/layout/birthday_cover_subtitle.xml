@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/birthday_cover_date_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/birthday_cover_subtitle_info_container" app:layout_constraintTop_toTopOf="parent">
+        <View android:background="@drawable/birthday_img_cake" android:layout_width="12.0dip" android:layout_height="16.0dip" />
+        <TextView android:textSize="14.0sp" android:id="@id/birthday_cover_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/birthday_cover_subtitle_info_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" app:layout_constraintLeft_toRightOf="@id/birthday_cover_date_container" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <View android:background="@drawable/birthday_img_dot" android:layout_width="3.0dip" android:layout_height="3.0dip" />
+        <TextView android:textSize="14.0sp" android:id="@id/birthday_cover_subtitle_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" />
+        <View android:id="@id/birthday_cover_subtitle_info_arrow" android:background="@drawable/birthday_img_arrow" android:layout_width="5.0dip" android:layout_height="10.0dip" android:layout_marginLeft="3.0dip" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

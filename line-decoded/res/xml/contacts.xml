@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContactsAccountType
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ContactsDataKind android:icon="@drawable/icon" android:mimeType="vnd.android.cursor.item/vnd.jp.naver.line.android.profile" android:summaryColumn="data2" android:detailColumn="data6" android:detailSocialSummary="true" />
+    <ContactsDataKind android:icon="@drawable/icon" android:mimeType="vnd.android.cursor.item/vnd.jp.naver.line.android.call.voice" android:summaryColumn="data2" android:detailColumn="data6" />
+    <ContactsDataKind android:icon="@drawable/icon" android:mimeType="vnd.android.cursor.item/vnd.jp.naver.line.android.call.video" android:summaryColumn="data2" android:detailColumn="data6" />
+</ContactsAccountType>

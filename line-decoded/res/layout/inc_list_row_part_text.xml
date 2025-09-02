@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginHorizontal="14.0dip">
+        <TextView android:ellipsize="end" android:id="@id/list_row_text_main" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/HiddenBlockUserText" />
+        <TextView android:ellipsize="end" android:id="@id/list_row_text_sub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:singleLine="true" style="@style/FriendListSimpleProfileText" />
+    </LinearLayout>
+</merge>

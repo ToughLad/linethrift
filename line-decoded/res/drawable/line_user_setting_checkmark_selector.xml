@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="false" android:drawable="@drawable/checkbox_unselected_hint_semantic" />
+    <item android:state_checked="true">
+        <layer-list>
+            <item android:drawable="@drawable/checkbox_selected_check_bg" />
+            <item android:gravity="center" android:drawable="@drawable/checkbox_selected_check" />
+        </layer-list>
+    </item>
+</selector>

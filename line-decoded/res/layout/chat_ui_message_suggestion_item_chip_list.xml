@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="6.0dip" android:paddingVertical="8.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.helper.widget.Flow android:layout_width="0.0dip" android:layout_height="wrap_content" app:constraint_referenced_ids="chat_ui_chip_1, chat_ui_chip_2, chat_ui_chip_3, chat_ui_chip_4, chat_ui_chip_5" app:flow_horizontalBias="0.0" app:flow_horizontalGap="4.0dip" app:flow_horizontalStyle="packed" app:flow_verticalAlign="center" app:flow_verticalBias="0.0" app:flow_verticalGap="7.0dip" app:flow_wrapMode="chain" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <include android:id="@id/chat_ui_chip_1" layout="@layout/chat_ui_message_suggestion_chip" />
+    <include android:id="@id/chat_ui_chip_2" layout="@layout/chat_ui_message_suggestion_chip" />
+    <include android:id="@id/chat_ui_chip_3" layout="@layout/chat_ui_message_suggestion_chip" />
+    <include android:id="@id/chat_ui_chip_4" layout="@layout/chat_ui_message_suggestion_chip" />
+    <include android:id="@id/chat_ui_chip_5" layout="@layout/chat_ui_message_suggestion_chip" />
+</androidx.constraintlayout.widget.ConstraintLayout>

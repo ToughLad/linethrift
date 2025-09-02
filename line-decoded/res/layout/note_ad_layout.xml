@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/private_note_ad_view_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/private_note_ad_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/private_note_ad_view_height" />
+    <include android:id="@id/advertise_error_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/private_note_ad_view_height" layout="@layout/note_ad_error_layout" />
+    <include android:id="@id/advertise_loading_view" android:layout_width="fill_parent" android:layout_height="@dimen/private_note_ad_view_height" layout="@layout/note_ad_loading_layout" />
+</LinearLayout>

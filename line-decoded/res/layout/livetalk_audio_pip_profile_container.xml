@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="160.0dip" android:layout_height="66.0dip" android:contentDescription="@string/access_livetalk_main_icon_fullscreenmode"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/profile_container1" android:background="@drawable/livetalk_audio_pip_profile_container_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18.0dip" android:layout_marginTop="23.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/profile1" android:background="@drawable/livetalk_audio_pip_profile_default_background" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="1.5dip" android:clipToOutline="true" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/profile_container2" android:background="@drawable/livetalk_audio_pip_profile_container_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="34.0dip" app:layout_constraintBottom_toBottomOf="@id/profile_container1" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="@id/profile_container1">
+        <ImageView android:id="@id/profile2" android:background="@drawable/livetalk_audio_pip_profile_default_background" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="1.5dip" android:clipToOutline="true" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/profile_container3" android:background="@drawable/livetalk_audio_pip_profile_container_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip" app:layout_constraintBottom_toBottomOf="@id/profile_container2" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="@id/profile_container2">
+        <ImageView android:id="@id/profile3" android:background="@drawable/livetalk_audio_pip_profile_default_background" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="1.5dip" android:clipToOutline="true" />
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="15.0dip" android:textStyle="bold" android:textColor="@color/linewhite" android:id="@id/count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" app:layout_constraintBottom_toBottomOf="@id/profile_container1" app:layout_constraintLeft_toRightOf="@id/profile_container3" app:layout_constraintTop_toTopOf="@id/profile_container1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

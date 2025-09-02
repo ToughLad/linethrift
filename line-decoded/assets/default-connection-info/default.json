@@ -1,0 +1,327 @@
+{
+  "payload": {
+    "servers": {
+      "cdn_assets": {
+        "mobile": [
+          {
+            "host": "assets.line-scdn.net",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ],
+        "wifi": [
+          {
+            "host": "assets.line-scdn.net",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ]
+      },
+      "cdn_lad": {
+        "mobile": [
+          {
+            "host": "ad.line-scdn.net",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ],
+        "wifi": [
+          {
+            "host": "ad.line-scdn.net",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ]
+      },
+      "cdn_obs": {
+        "mobile": [
+          {
+            "host": "obs.line-scdn.net",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ],
+        "wifi": [
+          {
+            "host": "obs.line-scdn.net",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ]
+      },
+      "cdn_openchat_assets": {
+        "mobile": [
+          {
+            "host": "openchat-assets.line-scdn.net",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ],
+        "wifi": [
+          {
+            "host": "openchat-assets.line-scdn.net",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ]
+      },
+      "cdn_profile": {
+        "mobile": [
+          {
+            "host": "profile.line-scdn.net",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ],
+        "wifi": [
+          {
+            "host": "profile.line-scdn.net",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ]
+      },
+      "cdn_shop": {
+        "mobile": [
+          {
+            "host": "shop.line-scdn.net",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ],
+        "wifi": [
+          {
+            "host": "shop.line-scdn.net",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ]
+      },
+      "cdn_sticker": {
+        "mobile": [
+          {
+            "host": "stickershop.line-scdn.net",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ],
+        "wifi": [
+          {
+            "host": "stickershop.line-scdn.net",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ]
+      },
+      "cdn_user_profile_obs": {
+        "mobile": [
+          {
+            "host": "user-profile.line-scdn.net",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ],
+        "wifi": [
+          {
+            "host": "user-profile.line-scdn.net",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ]
+      },
+      "cdn_voom_assets": {
+        "mobile": [
+          {
+            "host": "voom-assets.line-scdn.net",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ],
+        "wifi": [
+          {
+            "host": "voom-assets.line-scdn.net",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ]
+      },
+      "cdn_voom_obs": {
+        "mobile": [
+          {
+            "host": "voom-obs.line-scdn.net",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ],
+        "wifi": [
+          {
+            "host": "voom-obs.line-scdn.net",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ]
+      },
+      "legy": {
+        "mobile": [
+          {
+            "host": "legy.line-apps.com",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http2",
+            "secure": "tls"
+          },
+          {
+            "host": "legy-backup.line-apps.com",
+            "port": 443,
+            "priority": 2,
+            "protocol": "http2",
+            "secure": "tls"
+          }
+        ],
+        "wifi": [
+          {
+            "host": "legy.line-apps.com",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http2",
+            "secure": "tls"
+          },
+          {
+            "host": "legy-backup.line-apps.com",
+            "port": 443,
+            "priority": 2,
+            "protocol": "http2",
+            "secure": "tls"
+          }
+        ]
+      },
+      "obs": {
+        "mobile": [
+          {
+            "host": "obs.line-apps.com",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ],
+        "wifi": [
+          {
+            "host": "obs.line-apps.com",
+            "port": 443,
+            "priority": 1,
+            "protocol": "http",
+            "secure": "tls"
+          }
+        ]
+      }
+    },
+    "settings": {
+      "auto_resend": "on",
+      "auto_resend_max_retry_count": "5",
+      "auto_resend_time_limit": "3600",
+      "bg_prefetch": "off",
+      "failover_threshold": "3",
+      "fetch_level1": "100",
+      "fetch_level2": "20",
+      "fetch_level3": "5",
+      "fetch_level4": "5",
+      "fetch_level5": "5",
+      "nelo_enable": "on",
+      "ping_cycle": "30"
+    }
+  },
+  "revision": 378,
+  "settings": [
+    {
+      "auto_resend": "on",
+      "auto_resend_max_retry_count": "5",
+      "auto_resend_time_limit": "3600",
+      "bg_deflate_fin": "on",
+      "bg_ping_am": "on",
+      "bg_ping_cycle_mobile": "420000",
+      "bg_ping_cycle_wifi": "200000",
+      "bg_polling": "on",
+      "bg_prefetch": "off",
+      "big_ping_size": "256",
+      "deflate_size": "1024",
+      "dns_cache_expire": "0",
+      "encryption": "on",
+      "encryption_rekeying_interval": "7200",
+      "encryption_version": "13",
+      "encryption_wifi": "on",
+      "fetch_level1": "100",
+      "fetch_level2": "20",
+      "fetch_level3": "5",
+      "fetch_level4": "5",
+      "fetch_level5": "5",
+      "fetchops_count": "100",
+      "fetchops_protocol": "5",
+      "fetchops_queue": "off",
+      "gcm_upstream": "off",
+      "host_ip": {},
+      "nelo_enable": "on",
+      "obs_3g_tls": "on",
+      "obs_wifi_tls": "on",
+      "polling_timeout": "110000",
+      "port_scan_timeout": "5",
+      "prefer_tls": [
+        "obs",
+        "cdn_obs",
+        "cdn_profile",
+        "cdn_shop",
+        "cdn_sticker"
+      ],
+      "preferred_lpv": "1",
+      "push_priority": "GOOGLE_GCM",
+      "push_priority_backup": "GOOGLE_GCM",
+      "server_side_ping": "off",
+      "tcp_fastopen": [],
+      "try_spdy_first": "on",
+      "ts_interval_mul": "1",
+      "ts_send": "off",
+      "ts_show": "off",
+      "typing_ping_cycle": "2800"
+    }
+  ]
+}

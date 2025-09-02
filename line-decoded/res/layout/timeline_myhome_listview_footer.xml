@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/list_footer" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <ProgressBar android:id="@id/footer_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateTint="@color/linegray350" style="@android:style/Widget.ProgressBar.Small.Inverse" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/footer_retry" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:src="@drawable/timeline_tm_retry_btn_icon02" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_try_again" style="@style/timeline_retry_font" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

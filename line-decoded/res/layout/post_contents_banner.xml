@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/background" android:layout_width="0.0dip" android:layout_height="0.0dip" android:scaleType="centerCrop" android:layout_alignLeft="@id/content_layout" android:layout_alignTop="@id/content_layout" android:layout_alignRight="@id/content_layout" android:layout_alignBottom="@id/content_layout" />
+    <RelativeLayout android:id="@id/content_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Space android:id="@id/top_space" android:layout_width="fill_parent" android:layout_height="24.0dip" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/episode_title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/timeline_contents_banner_margin" android:layout_marginRight="@dimen/timeline_contents_banner_margin" android:layout_marginBottom="8.0dip" android:layout_below="@id/top_space">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <View android:id="@id/episode_top_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+                <TextView android:textSize="12.0sp" android:textStyle="bold" android:id="@id/episode_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:includeFontPadding="false" />
+                <View android:id="@id/episode_bottom_line" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="5.0dip" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textStyle="bold" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/timeline_contents_banner_margin" android:layout_marginRight="@dimen/timeline_contents_banner_margin" android:includeFontPadding="false" android:layout_below="@id/episode_title_layout" android:lineSpacingExtra="-2.0sp" />
+        <TextView android:textSize="13.0sp" android:gravity="center_horizontal" android:id="@id/sub_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/timeline_contents_banner_margin" android:layout_marginTop="6.0dip" android:layout_marginRight="@dimen/timeline_contents_banner_margin" android:bufferType="spannable" android:includeFontPadding="false" android:layout_below="@id/title" />
+        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/button_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/timeline_contents_banner_margin" android:layout_marginTop="17.0dip" android:layout_marginRight="@dimen/timeline_contents_banner_margin" android:layout_below="@id/sub_title">
+            <TextView android:id="@id/first_button" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/timeline_contents_banner_action_button" />
+            <TextView android:id="@id/second_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" style="@style/timeline_contents_banner_action_button" />
+        </LinearLayout>
+        <Space android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_below="@id/button_layout" />
+        <RelativeLayout android:id="@id/close_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+            <ImageView android:id="@id/close_button" android:layout_width="23.0dip" android:layout_height="23.0dip" android:layout_marginTop="10.0dip" android:src="@drawable/timeline_ic_banner_close" android:layout_marginEnd="10.0dip" />
+        </RelativeLayout>
+    </RelativeLayout>
+</merge>

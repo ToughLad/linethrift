@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/lineblack" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/container_view" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.linecorp.line.voomcamera.core.decoration.view.DecorationView android:id="@id/decoration_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/access_picker_photo" />
+        <com.linecorp.line.voomcamera.editor.impl.view.colorpicker.ColorPickerView android:id="@id/color_picker_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.linecorp.line.voomcamera.core.decoration.view.DecorationView android:id="@id/color_picker_text_decoration_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

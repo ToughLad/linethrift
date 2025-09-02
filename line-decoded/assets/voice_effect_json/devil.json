@@ -1,0 +1,25 @@
+{
+  "result": [
+    {
+      "effect": "pitchshift",
+      "property": {
+        "pitch_scale": 0.5,
+        "fft": "size_2048",
+        "oversampling": 4
+      }
+    },
+    {
+      "effect": "reverb",
+      "property": {
+        "predelay_ms":150.0,
+        "predelayfeedback":0.4,
+        "roomsize":0.5,
+        "damping":1.0,
+        "spread":0.8,
+        "dry":1.0,
+        "wet":0.2,
+        "hpf":0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.line.chatskin.impl.preview.view.ChatSkinTouchDelegateScrollView android:id="@id/preview_messages_scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" app:layout_constraintBottom_toTopOf="@id/button_container" app:layout_constraintTop_toBottomOf="@id/header">
+        <LinearLayout android:orientation="vertical" android:id="@id/preview_messages_container" android:paddingTop="@dimen/chat_skin_preview_message_container_top_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.linecorp.line.chatskin.impl.preview.view.ChatSkinPreviewTextMessageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:chatSkinPreviewIsMyMessage="false" app:chatSkinPreviewMessage="@string/chatwallpaper_preview_bubble_example1" app:chatSkinPreviewSubText="8:23PM" />
+            <com.linecorp.line.chatskin.impl.preview.view.ChatSkinPreviewTextMessageView android:layout_width="fill_parent" android:layout_height="wrap_content" app:chatSkinPreviewIsMyMessage="true" app:chatSkinPreviewMessage="@string/chatwallpaper_preview_bubble_example2" app:chatSkinPreviewSubText="Read\n8:23PM" />
+            <com.linecorp.line.chatskin.impl.preview.view.ChatSkinPreviewTextMessageView android:id="@id/bottom_preview_message" android:layout_width="fill_parent" android:layout_height="wrap_content" app:chatSkinPreviewIsMyMessage="false" app:chatSkinPreviewMessage="@string/chatwallpaper_preview_bubble_example3" app:chatSkinPreviewSubText="8:23PM" />
+        </LinearLayout>
+    </com.linecorp.line.chatskin.impl.preview.view.ChatSkinTouchDelegateScrollView>
+    <FrameLayout android:id="@id/pseudo_status_bar" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.linecorp.line.chatskin.impl.preview.view.ChatSkinPreviewHeader android:id="@id/header" android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/pseudo_status_bar" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/button_container" android:background="@color/primaryBackground" android:paddingTop="10.0dip" android:paddingBottom="13.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:paddingStart="@dimen/chat_skin_settings_horizontal_padding" android:paddingEnd="@dimen/chat_skin_settings_horizontal_padding" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <TextView android:id="@id/cancel_button" android:layout_width="0.0dip" android:text="@string/chatwallpaper_preview_button_cancel" android:layout_weight="1.0" style="@style/chat_skin_preview_button.cancel" />
+        <Space android:layout_width="@dimen/chat_skin_settings_element_spacing" android:layout_height="0.0dip" />
+        <TextView android:id="@id/set_button" android:layout_width="0.0dip" android:text="@string/chatwallpaper_preview_button_apply" android:layout_weight="1.0" style="@style/chat_skin_preview_button.apply" />
+    </LinearLayout>
+</merge>

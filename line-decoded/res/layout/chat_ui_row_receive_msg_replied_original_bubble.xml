@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.linecorp.view.RoundedFrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" app:cornerRadius="@dimen/chat_ui_row_bubble_corner_radius"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/chat_ui_bubble_root" android:background="@drawable/chat_ui_selector_chathistory_message_balloon_receive_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:backgroundTint="@color/chat_ui_row_msg_highlight_color_selector" android:backgroundTintMode="src_atop">
+        <include android:layout_width="@dimen/chat_ui_row_replied_original_bubble_width" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="12.0dip" layout="@layout/chat_ui_row_msg_replied_original_content" />
+        <TextView android:gravity="center_vertical" android:id="@id/chat_ui_unavailable_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:text="@string/chathistory_reply_no_original_message" style="@style/chat_ui_reply_original_message_receive_unavailable_message" />
+    </FrameLayout>
+</com.linecorp.view.RoundedFrameLayout>

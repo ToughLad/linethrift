@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" android:id="@id/appbar_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="noScroll">
+                <include layout="@layout/neta_detail_bg" />
+                <View android:background="@drawable/neta_detail_dim" android:layout_width="fill_parent" android:layout_height="@dimen/timeline_neta_detail_dim_top_height" />
+                <include layout="@layout/neta_detail_title" />
+                <include layout="@layout/neta_detail_loading" />
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <include layout="@layout/neta_detail_action" />
+    <ViewStub android:id="@id/retry_viewstub" android:layout="@layout/neta_detail_retry" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

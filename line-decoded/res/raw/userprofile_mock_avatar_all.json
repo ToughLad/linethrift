@@ -1,0 +1,226 @@
+[
+  {
+    "id": "10008837835205",
+    "productId": 154,
+    "deliveryTimeInHours": 24,
+    "price": 160.0,
+    "product": {
+      "id": 154,
+      "deliveryTimeInHours": 24,
+      "billingId": "ai_baby_standard",
+      "price": 160,
+      "locale": "en_US",
+      "styleCount": 1,
+      "imageCount": 30,
+      "enabled": false,
+      "selected": false
+    },
+    "status": "REQUESTED",
+    "thumbnails": [],
+    "output": {
+      "expiryTime": 31536000000
+    },
+    "purchasedAt": 1698343749301,
+    "purchasedOrdinal": 11,
+    "retryable": false,
+    "categoryDetail": {
+      "category": "ai_avatar_baby",
+      "markText": "AI Baby"
+    }
+  },
+  {
+    "id": "10008837833144",
+    "productId": 286,
+    "deliveryTimeInHours": 0,
+    "price": 230.0,
+    "product": {
+      "id": 286,
+      "deliveryTimeInHours": 0,
+      "billingId": "ai_highteen_express",
+      "price": 230,
+      "locale": "en_US",
+      "styleCount": 1,
+      "imageCount": 30,
+      "enabled": false,
+      "selected": false,
+      "promotion": "PREVIEW"
+    },
+    "status": "COMPLETED",
+    "thumbnails": [
+      {
+        "oid": "cj0xN3A1Z2k2MDBwNzZzJnM9anA2JnQ9ZCZ1PTFiZDk3NXVkc2RmMDAmaT0w",
+        "hash": ""
+      }
+    ],
+    "output": {
+      "expiryTime": 1729846232268
+    },
+    "purchasedAt": 1698307606559,
+    "purchasedOrdinal": 3,
+    "retryable": false,
+    "categoryDetail": {
+      "category": "ai_avatar_highteen",
+      "markText": "AI Teen"
+    }
+  },
+  {
+    "id": "10008828654658",
+    "productId": 154,
+    "deliveryTimeInHours": 24,
+    "price": 160.0,
+    "product": {
+      "id": 154,
+      "deliveryTimeInHours": 24,
+      "billingId": "ai_baby_standard",
+      "price": 160,
+      "locale": "en_US",
+      "styleCount": 1,
+      "imageCount": 30,
+      "enabled": false,
+      "selected": false
+    },
+    "status": "FAILED",
+    "thumbnails": [],
+    "output": {
+      "expiryTime": 1729262526840
+    },
+    "purchasedAt": 1697639635486,
+    "purchasedOrdinal": 10,
+    "retryable": false,
+    "categoryDetail": {
+      "category": "ai_avatar_baby",
+      "markText": "AI Baby"
+    }
+  },
+  {
+    "id": "10008812158481",
+    "productId": 116,
+    "deliveryTimeInHours": 0,
+    "price": 340.0,
+    "product": {
+      "id": 116,
+      "deliveryTimeInHours": 0,
+      "billingId": "ai_portrait_express",
+      "price": 340,
+      "locale": "en_US",
+      "styleCount": 1,
+      "imageCount": 30,
+      "enabled": false,
+      "selected": false
+    },
+    "status": "COMPLETED",
+    "thumbnails": [
+      {
+        "oid": "cj0tMThtcTVtZzZ0ZmlucCZzPWpwNiZ0PWQmdT0xYjR1Y2oyYjBiOWcwJmk9MA",
+        "hash": ""
+      }
+    ],
+    "output": {
+      "expiryTime": 1727607905823
+    },
+    "purchasedAt": 1696070798188,
+    "purchasedOrdinal": 40,
+    "retryable": false,
+    "categoryDetail": {
+      "category": "ai_avatar_portrait",
+      "markText": "AI Portrait"
+    }
+  },
+  {
+    "id": "10008812658615",
+    "productId": 154,
+    "deliveryTimeInHours": 24,
+    "price": 160.0,
+    "product": {
+      "id": 154,
+      "deliveryTimeInHours": 24,
+      "billingId": "ai_baby_standard",
+      "price": 160,
+      "locale": "en_US",
+      "styleCount": 1,
+      "imageCount": 30,
+      "enabled": false,
+      "selected": false
+    },
+    "status": "COMPLETED",
+    "thumbnails": [
+      {
+        "oid": "cj03ZmcyZDNrdDRka3M0JnM9anA2JnQ9ZCZ1PTFiNHVtdGIzb2I5ZzAmaT0w",
+        "hash": ""
+      }
+    ],
+    "output": {
+      "expiryTime": 1727610602795
+    },
+    "purchasedAt": 1696069856868,
+    "purchasedOrdinal": 9,
+    "retryable": false,
+    "categoryDetail": {
+      "category": "ai_avatar_baby",
+      "markText": "AI Baby"
+    }
+  },
+  {
+    "id": "10008802533994",
+    "productId": 210,
+    "deliveryTimeInHours": 0,
+    "price": 260.0,
+    "product": {
+      "id": 210,
+      "deliveryTimeInHours": 0,
+      "billingId": "ai_highteen_express",
+      "price": 260,
+      "locale": "en_US",
+      "styleCount": 1,
+      "imageCount": 30,
+      "enabled": false,
+      "selected": false
+    },
+    "status": "COMPLETED",
+    "thumbnails": [
+      {
+        "oid": "cj0tNmY3aHA1OG5sNmc2ZyZzPWpwNiZ0PWQmdT0xYjEwcm5xZWdhNGcwJmk9MA",
+        "hash": ""
+      }
+    ],
+    "output": {
+      "expiryTime": 1726554907745
+    },
+    "purchasedAt": 1695017711175,
+    "purchasedOrdinal": 2,
+    "retryable": false,
+    "categoryDetail": {
+      "category": "ai_avatar_highteen",
+      "markText": "AI Teen"
+    }
+  },
+  {
+    "id": "10008684729616",
+    "productId": 10,
+    "deliveryTimeInHours": 0,
+    "price": 130.0,
+    "product": {
+      "id": 10,
+      "deliveryTimeInHours": 0,
+      "billingId": "50_ai_avatars",
+      "price": 130,
+      "locale": "en_US",
+      "styleCount": 5,
+      "imageCount": 50,
+      "enabled": false,
+      "selected": false
+    },
+    "status": "COMPLETED",
+    "thumbnails": [],
+    "output": {
+      "expiryTime": 1710951191039
+    },
+    "purchasedAt": 1679414745130,
+    "purchasedOrdinal": 1,
+    "retryable": false,
+    "categoryDetail": {
+      "category": "ai_avatar_selfie",
+      "markText": "AI Selfie"
+    }
+  }
+]

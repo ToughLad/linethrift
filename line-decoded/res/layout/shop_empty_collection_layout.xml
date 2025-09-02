@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="@color/secondarySub2Text" android:gravity="center" android:id="@id/message_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/chat_keyboard_sticker_collectiontab_nocontent_desc" android:layout_marginHorizontal="50.0dip" />
+    <TextView android:id="@id/sticker_shop_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="3.0dip" android:text="@string/chat_keyboard_sticker_collectiontab_shop_button" style="@style/shop_collection_outlined_button" />
+</LinearLayout>

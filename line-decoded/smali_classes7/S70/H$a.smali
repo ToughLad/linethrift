@@ -1,0 +1,200 @@
+.class public final LS70/H$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lxk1/a;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = LS70/H;-><init>(Landroid/content/Context;Landroidx/lifecycle/z0;LR70/m;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lxk1/a<",
+        "LQ70/a;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public final synthetic a:Ls3/b;
+
+.field public final synthetic b:LS70/H;
+
+
+# direct methods
+.method public constructor <init>(Ls3/b;LS70/H;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LS70/H$a;->a:Ls3/b;
+
+    iput-object p2, p0, LS70/H$a;->b:LS70/H;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 8
+
+    iget-object v0, p0, LS70/H$a;->b:LS70/H;
+
+    iget-object v0, v0, LS70/H;->i:Ljava/lang/Object;
+
+    instance-of v1, v0, Landroidx/fragment/app/k;
+
+    iget-object p0, p0, LS70/H$a;->a:Ls3/b;
+
+    const-string v2, "Local and anonymous classes can not be ViewModels"
+
+    const-string v3, "androidx.lifecycle.ViewModelProvider.DefaultKey:"
+
+    const-string v4, "defaultCreationExtras"
+
+    const-string v5, "store"
+
+    const-string v6, "owner"
+
+    const-class v7, LQ70/a;
+
+    if-eqz v1, :cond_2
+
+    invoke-static {v0, v6}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-interface {v0}, Landroidx/lifecycle/z0;->getViewModelStore()Landroidx/lifecycle/y0;
+
+    move-result-object v1
+
+    instance-of v6, v0, Landroidx/lifecycle/r;
+
+    if-eqz v6, :cond_0
+
+    check-cast v0, Landroidx/lifecycle/r;
+
+    invoke-interface {v0}, Landroidx/lifecycle/r;->getDefaultViewModelCreationExtras()Ls3/a;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    :cond_0
+    sget-object v0, Ls3/a$a;->b:Ls3/a$a;
+
+    :goto_0
+    invoke-static {v1, v5}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-static {v0, v4}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    new-instance v4, Ls3/f;
+
+    invoke-direct {v4, v1, p0, v0}, Ls3/f;-><init>(Landroidx/lifecycle/y0;Landroidx/lifecycle/x0$b;Ls3/a;)V
+
+    invoke-static {v7}, LIg1/d;->B(Ljava/lang/Class;)LEk1/d;
+
+    move-result-object p0
+
+    invoke-interface {p0}, LEk1/d;->w()Ljava/lang/String;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {v3, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v4, p0, v0}, Ls3/f;->a(LEk1/d;Ljava/lang/String;)Landroidx/lifecycle/u0;
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_1
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    invoke-direct {p0, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :cond_2
+    instance-of v1, v0, Landroidx/fragment/app/n;
+
+    if-eqz v1, :cond_5
+
+    invoke-static {v0, v6}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-interface {v0}, Landroidx/lifecycle/z0;->getViewModelStore()Landroidx/lifecycle/y0;
+
+    move-result-object v1
+
+    instance-of v5, v0, Landroidx/lifecycle/r;
+
+    if-eqz v5, :cond_3
+
+    check-cast v0, Landroidx/lifecycle/r;
+
+    invoke-interface {v0}, Landroidx/lifecycle/r;->getDefaultViewModelCreationExtras()Ls3/a;
+
+    move-result-object v0
+
+    goto :goto_1
+
+    :cond_3
+    sget-object v0, Ls3/a$a;->b:Ls3/a$a;
+
+    :goto_1
+    invoke-static {v0, v4}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    new-instance v4, Ls3/f;
+
+    invoke-direct {v4, v1, p0, v0}, Ls3/f;-><init>(Landroidx/lifecycle/y0;Landroidx/lifecycle/x0$b;Ls3/a;)V
+
+    invoke-static {v7}, LIg1/d;->B(Ljava/lang/Class;)LEk1/d;
+
+    move-result-object p0
+
+    invoke-interface {p0}, LEk1/d;->w()Ljava/lang/String;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_4
+
+    invoke-virtual {v3, v0}, Ljava/lang/String;->concat(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v4, p0, v0}, Ls3/f;->a(LEk1/d;Ljava/lang/String;)Landroidx/lifecycle/u0;
+
+    move-result-object p0
+
+    return-object p0
+
+    :cond_4
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    invoke-direct {p0, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+
+    :cond_5
+    new-instance p0, Ljava/lang/IllegalArgumentException;
+
+    const-string v0, "Reference type must be Fragment or FragmentActivity."
+
+    invoke-direct {p0, v0}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
+
+    throw p0
+.end method

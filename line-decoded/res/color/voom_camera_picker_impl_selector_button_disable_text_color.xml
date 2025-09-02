@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/voom_camera_core_template_picker_next_button_disable" android:state_activated="false" />
+    <item android:color="@color/linewhite" />
+</selector>

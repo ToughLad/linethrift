@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffe5e6ea" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/serial_number_main" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff636d77" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stickershop_event_mustbuy_description" android:shadowColor="#ffffffff" android:shadowDy="-1.0" android:shadowRadius="0.67" />
+        <EditText android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/serial_number_part_one" android:background="@drawable/serialnum_inputbg" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="14.669983dip" android:minWidth="154.66998dip" android:maxLength="8" android:inputType="number" />
+        <EditText android:textSize="22.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center" android:id="@id/serial_number_part_two" android:background="@drawable/serialnum_inputbg" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_marginTop="4.669983dip" android:minWidth="154.66998dip" android:maxLength="8" android:inputType="number" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/serial_number_btn" android:background="@drawable/btn_spam_ok" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:minWidth="154.66998dip">
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:gravity="center" android:id="@id/serial_number_btn_txt" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="154.66998dip" android:text="@string/confirm" android:shadowColor="#ff000000" android:shadowDy="1.0" android:shadowRadius="0.67" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

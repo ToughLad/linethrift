@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:gravity="center" android:id="@id/photo_viewer_retry" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="100.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="13.0sp" android:textColor="@color/linegray600" android:gravity="center" android:id="@id/photo_viewer_retry_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/album_viewer_title_unableshow" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

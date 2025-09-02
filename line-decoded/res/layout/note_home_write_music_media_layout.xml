@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/music_image_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/background_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+        <ImageView android:id="@id/thumb_image_view" android:background="#ffebebeb" android:layout_width="167.0dip" android:layout_height="167.0dip" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+        <ImageView android:background="@drawable/timeline_img_gra_top" android:layout_width="fill_parent" android:layout_height="55.0dip" />
+        <ImageView android:background="@drawable/timeline_img_gra_bottom" android:layout_width="fill_parent" android:layout_height="219.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <TextView android:textSize="10.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:id="@id/music_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="16.0dip" android:text="@string/linemusic" android:includeFontPadding="false" android:shadowColor="#14000000" android:shadowRadius="2.0" android:drawableLeft="@drawable/timeline_img_music" android:drawablePadding="2.0dip" android:drawableStart="@drawable/timeline_img_music" />
+    <ImageButton android:id="@id/delete_btn" android:background="@null" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/write_img_x02_selector" android:layout_alignParentRight="true" android:contentDescription="@string/access_delete" android:layout_alignParentEnd="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/music_info_layout" android:paddingLeft="17.0dip" android:paddingRight="17.0dip" android:paddingBottom="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.linecorp.line.note.view.post.linkcard.NotePostMediaMusicPlayButton android:id="@id/music_play_btn" android:visibility="gone" android:layout_width="34.0dip" android:layout_height="34.0dip" android:layout_marginRight="7.0dip" android:layout_marginEnd="7.0dip" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/music_title_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:shadowColor="#33000000" android:shadowRadius="1.0" />
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_below="@id/music_title_text">
+                <ImageView android:id="@id/music_desc_icon" android:layout_width="13.0dip" android:layout_height="12.0dip" android:layout_marginRight="3.0dip" android:scaleType="centerInside" />
+                <TextView android:textSize="12.0sp" android:textColor="#ccffffff" android:id="@id/music_desc_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:shadowColor="#33000000" android:shadowRadius="1.0" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

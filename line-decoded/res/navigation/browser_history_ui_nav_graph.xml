@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation app:startDestination="@id/browser_history_list_main_fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="browser_history_list_main_fragment" android:name="com.linecorp.line.browserhistory.ui.impl.BrowserHistoryListMainFragment" android:id="@id/browser_history_list_main_fragment">
+        <action android:id="@id/action_to_search_list" app:destination="@id/browser_history_list_search_fragment" />
+    </fragment>
+    <fragment android:label="browser_history_list_search_fragment" android:name="com.linecorp.line.browserhistory.ui.impl.BrowserHistoryListSearchFragment" android:id="@id/browser_history_list_search_fragment" />
+</navigation>

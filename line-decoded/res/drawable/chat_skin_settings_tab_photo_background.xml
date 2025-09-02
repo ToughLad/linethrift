@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/chat_skin_settings_tab_image_photo" />
+    </item>
+    <item android:gravity="center" android:drawable="@drawable/chat_skin_settings_tab_photo_icon" />
+</layer-list>

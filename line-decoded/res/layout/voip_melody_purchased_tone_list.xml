@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/tone_list_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <FrameLayout android:id="@id/see_more_button_container" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <TextView android:textSize="13.0sp" android:textColor="@color/quaternaryText" android:gravity="center" android:id="@id/see_more_button" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="See more" />
+            <com.linecorp.com.lds.ui.spinner.LdsSpinner android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/see_more_spinner" android:visibility="gone" android:layout_width="28.0dip" android:layout_height="28.0dip" app:spinnerSize="auto" />
+        </FrameLayout>
+    </LinearLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/retry_button_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/tertiaryText" android:id="@id/retry_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="13.0dip" android:text="@string/settings_rt_desc_melodyerror" android:fontFamily="sans-serif" android:layout_marginHorizontal="50.0dip" app:layout_constraintBottom_toTopOf="@id/retry_button" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textColor="@color/defaultText" android:gravity="center" android:id="@id/retry_button" android:background="@drawable/voip_lds_retry_button_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/settings_rt_button_retry" android:fontFamily="sans-serif" android:paddingHorizontal="13.0dip" android:paddingVertical="9.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/retry_description" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/pay_onetime_key_viewer_layout_big" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:id="@id/pay_onetime_key_viewer_big" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/one_time_key_list_barcode_image_big" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" app:layout_constrainedWidth="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="19.0sp" android:textColor="@color/lineblack" android:id="@id/one_time_key_list_barcode_num_big" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.5dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/one_time_key_list_barcode_image_big" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

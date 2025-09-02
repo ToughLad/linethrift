@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/edit_root_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/birthday_extend_desc_layout" />
+        <include layout="@layout/birthday_card_writing_layout" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/card_templates_container" android:background="#ffffffff" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_alignParentBottom="true">
+        <androidx.recyclerview.widget.RecyclerView android:layout_gravity="center_vertical" android:id="@id/card_templates_recycler_view" android:layout_width="fill_parent" android:layout_height="41.0dip" />
+    </RelativeLayout>
+    <ProgressBar android:id="@id/progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:indeterminateTint="@color/linegray350" style="?android:progressBarStyle" />
+</RelativeLayout>

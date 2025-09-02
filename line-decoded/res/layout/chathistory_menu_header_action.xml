@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/action_layout" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" style="@style/ChatHistoryMenuHeaderActionItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip">
+        <ImageView android:id="@id/icon" android:background="@drawable/chathistory_menu_transparent_background_selector" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+        <ImageView android:layout_gravity="center|right|top" android:id="@id/chatmenu_item_green_dot" android:visibility="gone" android:layout_width="5.0dip" android:layout_height="5.0dip" android:src="@drawable/moremenu_ic_green_indicator" android:contentDescription="@null" />
+    </FrameLayout>
+    <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/selector_chathistory_menu_item" android:ellipsize="end" android:gravity="center_horizontal" android:id="@id/title" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="2" />
+</LinearLayout>

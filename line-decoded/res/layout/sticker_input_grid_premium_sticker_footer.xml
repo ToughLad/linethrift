@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/premium_sticker_footer_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/premium_sticker_shop_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/chat_keyboard_shoplinkButton" style="@style/sticker_keyboard_sticker_shop_button" />
+    <TextView android:id="@id/delete_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/delete" style="@style/sticker_sticon_outlined_button" />
+</LinearLayout>

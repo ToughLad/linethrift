@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root_container" android:background="@drawable/wallet_v3_selector_module_item_bg" android:paddingTop="@dimen/wallet_v3_category_list_carousel_item_vertical_padding" android:paddingBottom="@dimen/wallet_v3_category_list_carousel_item_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/wallet_v3_common_horizontal_padding" android:paddingEnd="@dimen/wallet_v3_category_list_carousel_item_padding_end"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:gravity="center_vertical" android:id="@id/item_image" android:layout_width="74.0dip" android:layout_height="74.0dip" android:scaleType="centerCrop" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/main_text_area" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/item_image" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:id="@id/main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/wallet_v3_category_list_carousel_item_main_text" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/sub_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip">
+            <ImageView android:id="@id/sub_text_icon" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginEnd="3.0dip" />
+            <TextView android:id="@id/sub_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/wallet_v3_category_list_carousel_item_sub_text" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

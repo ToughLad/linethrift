@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/liff_full_flex_menu_container" android:focusable="false" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/liff_header_full_flex_container_margin_top" android:layout_marginEnd="@dimen/liff_header_full_flex_container_margin_end" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/liff_full_flex_menu_action_button" android:layout_width="@dimen/liff_header_full_flex_button_size" android:layout_height="@dimen/liff_header_full_flex_button_size" android:src="@drawable/ic_ldsm_header_share_black" android:contentDescription="@string/access_liff_newfulltype_header_share" />
+    <Space android:id="@id/liff_action_button_space" android:layout_width="16.0dip" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/liff_full_flex_menu_close_button" android:layout_width="@dimen/liff_header_full_flex_button_size" android:layout_height="@dimen/liff_header_full_flex_button_size" android:src="@drawable/ic_ldsm_header_close_black" android:contentDescription="@string/access_liff_newfulltype_header_close" />
+</LinearLayout>

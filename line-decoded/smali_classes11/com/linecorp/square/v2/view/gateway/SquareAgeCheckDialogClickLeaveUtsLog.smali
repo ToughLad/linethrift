@@ -1,0 +1,81 @@
+.class public final Lcom/linecorp/square/v2/view/gateway/SquareAgeCheckDialogClickLeaveUtsLog;
+.super LPv/c;
+.source "SourceFile"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u000c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0008\u00c6\u0002\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u00a8\u0006\u0004"
+    }
+    d2 = {
+        "Lcom/linecorp/square/v2/view/gateway/SquareAgeCheckDialogClickLeaveUtsLog;",
+        "LPv/c;",
+        "<init>",
+        "()V",
+        "app_productionRelease"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field public static final a:Lcom/linecorp/square/v2/view/gateway/SquareAgeCheckDialogClickLeaveUtsLog;
+
+.field public static final b:Lif1/c$a;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 8
+
+    new-instance v0, Lcom/linecorp/square/v2/view/gateway/SquareAgeCheckDialogClickLeaveUtsLog;
+
+    invoke-direct {v0}, Lcom/linecorp/square/v2/view/gateway/SquareAgeCheckDialogClickLeaveUtsLog;-><init>()V
+
+    sput-object v0, Lcom/linecorp/square/v2/view/gateway/SquareAgeCheckDialogClickLeaveUtsLog;->a:Lcom/linecorp/square/v2/view/gateway/SquareAgeCheckDialogClickLeaveUtsLog;
+
+    new-instance v1, Lif1/c$a;
+
+    sget-object v2, LPv/c$f;->SQUARE:LPv/c$f;
+
+    sget-object v3, LPv/c$b;->AGE_POPUP_JOIN:LPv/c$b;
+
+    sget-object v4, LPv/c$e;->LEAVE:LPv/c$e;
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x0
+
+    const/16 v7, 0x18
+
+    invoke-direct/range {v1 .. v7}, Lif1/c$a;-><init>(Lif1/f;Lif1/f;Lif1/f;Lif1/f;Ljava/util/Map;I)V
+
+    sput-object v1, Lcom/linecorp/square/v2/view/gateway/SquareAgeCheckDialogClickLeaveUtsLog;->b:Lif1/c$a;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, LPv/c;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lif1/c;
+    .locals 0
+
+    sget-object p0, Lcom/linecorp/square/v2/view/gateway/SquareAgeCheckDialogClickLeaveUtsLog;->b:Lif1/c$a;
+
+    return-object p0
+.end method

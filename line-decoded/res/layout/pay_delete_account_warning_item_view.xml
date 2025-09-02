@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/pay_setting_ui_shape_circle_dot_a7a8aa" android:layout_width="3.0sp" android:layout_height="3.0sp" android:layout_marginTop="5.5sp" android:layout_marginEnd="4.0dip" />
+    <TextView android:id="@id/warning_text_view" style="@style/pay_setting_ui_delete_account_warning_text_view" />
+</LinearLayout>

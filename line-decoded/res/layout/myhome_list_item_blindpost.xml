@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:paddingLeft="7.0dip" android:paddingTop="7.0dip" android:paddingRight="7.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/myhome_list_item_blindpost" android:background="@drawable/timeline_img_box_tint_primary_separator" android:paddingLeft="14.0dip" android:paddingTop="18.0dip" android:paddingRight="14.0dip" android:paddingBottom="19.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="14.0dip" android:layout_height="14.0dip" android:src="@drawable/timeline_ic_error02" app:tint="@color/tertiaryFill" />
+        <TextView android:textColor="@color/quinaryText" android:id="@id/blindpost_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:text="@string/myhome_err_deleted_by_admin" android:layout_weight="1.0" android:lineSpacingExtra="4.0sp" style="@style/post_my_home_official_no_action_font" />
+        <ImageView android:id="@id/blindpost_delete" android:layout_width="10.0dip" android:layout_height="14.0dip" android:layout_marginLeft="14.0dip" android:src="@drawable/timeline_img_x" android:scaleType="fitXY" app:tint="@color/secondaryNeutralFill" />
+    </LinearLayout>
+</LinearLayout>

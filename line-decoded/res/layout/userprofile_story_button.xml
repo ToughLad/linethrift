@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/user_profile_story_button_container" android:layout_width="@dimen/userprofile_main_task_button_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/user_profile_story_write_button" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/access_timeline_storyviewer_button_addstory">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="38.0dip" android:layout_height="38.0dip" android:layout_marginTop="4.0dip" android:src="@drawable/userprofile_selector_ic_story" android:scaleType="center" android:contentDescription="@string/access_timeline_storyviewer_button_addstory" android:importantForAccessibility="no" />
+        <TextView android:gravity="center_horizontal" android:id="@id/user_profile_story_write_button_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:importantForAccessibility="no" style="@style/userprofile_task_button_text" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/user_profile_story_viewer_button" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/access_timeline_profile_button_showstory">
+        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="37.0dip" android:layout_height="37.0dip" android:layout_marginTop="4.0dip" android:contentDescription="@string/access_timeline_profile_button_showstory" android:importantForAccessibility="noHideDescendants">
+            <View android:id="@id/user_profile_story_viewer_button_read_ring" android:background="@drawable/userprofile_story_read_ring" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="0.5dip" android:layout_marginEnd="0.5dip" />
+            <com.airbnb.lottie.LottieAnimationView android:id="@id/user_profile_story_viewer_button_unread_ring" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="0.5dip" android:layout_marginEnd="0.5dip" />
+            <ImageView android:layout_gravity="center" android:id="@id/user_profile_story_thumbnail" android:layout_width="26.0dip" android:layout_height="26.0dip" android:contentDescription="@null" />
+            <View android:layout_gravity="center" android:id="@id/user_profile_story_press" android:background="@drawable/userprofile_selector_story_button_press" android:duplicateParentState="true" android:layout_width="26.0dip" android:layout_height="26.0dip" />
+            <ImageView android:layout_gravity="center" android:id="@id/user_profile_story_retry_button" android:visibility="gone" android:duplicateParentState="true" android:layout_width="26.0dip" android:layout_height="26.0dip" android:src="@drawable/userprofile_ic_story_retry" android:scaleType="center" android:contentDescription="@null" />
+        </FrameLayout>
+        <TextView android:gravity="center_horizontal" android:id="@id/user_profile_story_viewer_button_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:importantForAccessibility="no" style="@style/userprofile_task_button_text" />
+    </LinearLayout>
+</FrameLayout>

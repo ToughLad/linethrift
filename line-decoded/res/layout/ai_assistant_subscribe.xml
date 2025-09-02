@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/primaryBackground" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/e2e_top" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/header" android:layout_width="fill_parent" android:layout_height="54.0dip" app:layout_constraintTop_toBottomOf="@id/e2e_top">
+        <TextView android:textAppearance="@style/text_header_title_new_design" android:gravity="center_vertical" android:id="@id/header_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginStart="18.0dip" android:layout_marginEnd="14.0dip" app:layout_constraintEnd_toStartOf="@id/header_close_button" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/header_close_button" android:layout_width="38.0dip" android:layout_height="38.0dip" android:src="@drawable/ai_assistant_navi_top_x" android:contentDescription="@null" android:layout_marginEnd="9.0dip" android:layout_marginVertical="8.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/subscribe_button_container" app:layout_constraintTop_toBottomOf="@id/header">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/body" android:background="@drawable/ai_assistant_card_border" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:layout_marginHorizontal="18.0dip">
+                <ImageView android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="13.0dip" android:src="@drawable/ai_assistant_logo" android:contentDescription="@null" android:layout_marginStart="12.0dip" />
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="25.0dip" android:layout_marginEnd="26.0dip">
+                    <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/defaultText" android:id="@id/subscribe_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="13.0sp" android:textColor="@color/linegray600" android:id="@id/subscribe_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:lineSpacingExtra="2.0dip" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dip">
+                        <TextView android:textSize="21.0sp" android:textStyle="bold" android:textColor="@color/defaultText" android:id="@id/original_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.0dip" />
+                        <TextView android:textSize="21.0sp" android:textStyle="bold" android:textColor="@color/subPlaceholderText" android:id="@id/slash" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="3.0dip" />
+                        <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/quinaryAltText" android:id="@id/subscribe_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
+                    </LinearLayout>
+                    <com.google.android.material.divider.MaterialDivider android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" app:dividerColor="@color/lightNeutralFill" />
+                    <TextView android:textSize="13.0sp" android:textStyle="bold" android:textColor="@color/quaternaryAltText" android:id="@id/benefit_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" />
+                    <TextView android:textSize="14.0sp" android:textColor="@color/primaryAltText" android:id="@id/benefit_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginBottom="29.0dip" android:lineSpacingExtra="16.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+            <CheckedTextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/primaryText" android:id="@id/terms_checkbox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:checked="false" android:drawablePadding="10.0dip" android:layout_marginHorizontal="18.0dip" app:drawableStartCompat="@drawable/ai_assistant_checkbox" />
+            <TextView android:textSize="11.0sp" android:textColor="@color/quaternarySubText" android:textColorLink="@color/quaternarySubText" android:id="@id/terms_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="3.0dip" android:lineSpacingExtra="2.5dip" android:paddingStart="50.0dip" android:paddingEnd="20.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/subscribe_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/scroll_view">
+        <com.linecorp.com.lds.ui.boxbutton.ObsoleteLdsBoxButton android:enabled="false" android:id="@id/subscribe_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="13.0dip" android:layout_marginHorizontal="16.0dip" app:ldsBoxButtonSize="x_large" app:ldsBoxButtonText="Subscribe LINE AI Assistant" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

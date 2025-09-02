@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/description_root_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.0dip">
+        <TextView android:id="@id/setting_warning_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="2.0sp" android:paddingHorizontal="16.0dip" android:paddingVertical="14.0dip" style="@style/text_list_category_subtitle02" />
+        <View android:id="@id/setting_description_divider" android:background="@color/linegray100" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.6700001dip" />
+    </LinearLayout>
+</merge>

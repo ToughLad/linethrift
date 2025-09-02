@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <CheckedTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/defaultText" android:gravity="center_vertical" android:id="@id/auto_add_friends" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkMark="@drawable/selector_setting_checkbox" android:minHeight="60.0dip" android:text="@string/startUpFlow_addFriends_btn_autoAddFriends" android:paddingHorizontal="30.0dip" />
+        <View android:background="@color/primarySeparator" android:layout_width="fill_parent" android:layout_height="0.6700001dip" android:layout_marginBottom="13.0dip" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/secondaryText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginBottom="12.0dip" android:text="@string/registration_confirm_sending_contacts_message1" android:lineSpacingExtra="3.5dip" android:layout_marginHorizontal="30.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/auto_add_friends_bullets" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:background="@color/primarySeparator" android:layout_width="fill_parent" android:layout_height="0.6700001dip" android:layout_marginTop="21.0dip" />
+        <CheckedTextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="@color/defaultText" android:gravity="center_vertical" android:id="@id/allow_others_to_add" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checkMark="@drawable/selector_setting_checkbox" android:minHeight="60.0dip" android:text="@string/startUpFlow_addFriends_btn_allowOthersAdd" android:paddingHorizontal="30.0dip" />
+        <View android:background="@color/primarySeparator" android:layout_width="fill_parent" android:layout_height="0.6700001dip" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/secondaryText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_marginBottom="12.0dip" android:text="@string/registration_confirm_sending_contacts_message4" android:lineSpacingExtra="3.5dip" android:layout_marginHorizontal="30.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/allow_others_to_add_bullets" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>

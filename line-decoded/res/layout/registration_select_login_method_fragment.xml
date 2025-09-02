@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="50.0dip" android:requiresFadingEdge="vertical" app:layout_constraintBottom_toTopOf="@id/use_prev_phone_num" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="24.0dip">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/registration_title_margin_top" android:text="@string/startUpFlow_loginVia_lbl_title" style="@style/Registration.Title" />
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/registration_description_margin_top" android:text="@string/startUpFlow_loginVia_lbl_desc" style="@style/Registration.Description" />
+        </LinearLayout>
+    </ScrollView>
+    <com.linecorp.com.lds.ui.boxbutton.ObsoleteLdsBoxButton android:id="@id/use_prev_phone_num" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" app:layout_constraintBottom_toTopOf="@id/use_email_address" app:layout_constraintEnd_toEndOf="@id/use_email_address" app:layout_constraintStart_toStartOf="@id/use_email_address" app:ldsBoxButtonSize="x_large" app:ldsBoxButtonText="@string/startUpFlow_loginVia_btn_loginViaPhone" app:ldsBoxButtonType="solid_green" />
+    <com.linecorp.com.lds.ui.boxbutton.ObsoleteLdsBoxButton android:id="@id/use_email_address" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" android:layout_marginHorizontal="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:ldsBoxButtonSize="x_large" app:ldsBoxButtonText="@string/startUpFlow_loginVia_btn_loginViaEmail" app:ldsBoxButtonType="outline_gray" />
+</androidx.constraintlayout.widget.ConstraintLayout>

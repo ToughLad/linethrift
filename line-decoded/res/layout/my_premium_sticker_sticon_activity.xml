@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/subscription_description_container" android:visibility="gone" layout="@layout/edit_subscription_list_header" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/tab_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:paddingStart="5.0dip">
+        <com.google.android.material.tabs.TabLayout android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="@dimen/shop_setting_my_premium_tab_height" android:layout_weight="1.0" style="@style/shop_setting_my_premium_sticker_tabs" />
+        <View android:layout_gravity="center_vertical" android:id="@id/filter_button_divider" android:background="@color/shop_list_divider_color" android:visibility="gone" android:layout_width="0.5dip" android:layout_height="16.0dip" />
+        <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <ImageView android:id="@id/filter_button" android:background="@android:color/transparent" android:layout_width="@dimen/shop_setting_filter_button_width" android:layout_height="@dimen/shop_setting_filter_button_height" android:layout_marginLeft="9.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="13.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/shop_ic_list_header_filter_on" android:contentDescription="@string/access_settings_sticker_gift_switch" />
+            <ImageView android:id="@id/shop_present_box_new_present_indicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_img_new" android:layout_alignTop="@id/filter_button" android:layout_alignRight="@id/filter_button" android:contentDescription="@null" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/tab_layout_divider" android:background="@color/shop_list_divider_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/common_one_line" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" />
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#fff7f7f7" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:map="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.google.android.gms.maps.MapView android:id="@id/location_map" android:layout_width="fill_parent" android:layout_height="fill_parent" map:cameraZoom="17.0" map:liteMode="true" map:mapType="normal" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="16.0dip" android:paddingTop="19.0dip" android:paddingRight="26.0dip" android:paddingBottom="19.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff222222" android:ellipsize="end" android:id="@id/location_name_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+            <TextView android:textSize="12.0sp" android:textColor="#ff787878" android:ellipsize="end" android:id="@id/location_address_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:maxLines="2" android:includeFontPadding="false" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageButton android:id="@id/delete_btn" android:background="@null" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/write_img_x02_selector" android:layout_alignParentRight="true" android:contentDescription="@string/access_delete" android:layout_alignParentEnd="true" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="12.0dip">
+            <ImageView android:gravity="center" android:id="@id/caution_image" android:padding="10.0dip" android:layout_width="69.0dip" android:layout_height="69.0dip" android:contentDescription="@null" app:srcCompat="@drawable/ic_caution" />
+            <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/primaryText" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/e_not_authorized_device_title" android:paddingHorizontal="50.0dip" />
+            <TextView android:textSize="13.0sp" android:textColor="@color/tertiaryText" android:gravity="center_horizontal" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/e_not_authorized_device_desc" android:paddingHorizontal="50.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <com.linecorp.com.lds.ui.boxbutton.LdsBoxButton android:id="@id/re_login_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_marginHorizontal="16.0dip" app:ldsBoxButtonSize="x_large" app:ldsBoxButtonText="@string/primaryRelogin_reloginStart_btn_login" app:ldsBoxButtonType="solid_green" />
+    <com.linecorp.com.lds.ui.boxbutton.LdsBoxButton android:id="@id/delete_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="13.0dip" android:layout_marginHorizontal="16.0dip" app:ldsBoxButtonSize="x_large" app:ldsBoxButtonText="@string/primaryRelogin_button_delete" app:ldsBoxButtonType="outline_gray" />
+</LinearLayout>

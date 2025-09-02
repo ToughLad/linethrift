@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:repeatCount="infinite"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:duration="0" android:startOffset="0" android:valueFrom="-8.0dip" android:valueTo="-8.0dip" android:propertyName="translationY" />
+    <objectAnimator android:duration="0" android:startOffset="0" android:valueFrom="1.0dip" android:valueTo="0.0dip" android:propertyName="alpha" />
+    <objectAnimator android:duration="500" android:startOffset="3400" android:valueFrom="-8.0dip" android:valueTo="0.0dip" android:propertyName="translationY" />
+    <objectAnimator android:duration="500" android:startOffset="3400" android:valueFrom="0.0dip" android:valueTo="1.0dip" android:propertyName="alpha" />
+    <objectAnimator android:duration="500" android:startOffset="6500" android:valueFrom="0.0dip" android:valueTo="8.0dip" android:propertyName="translationY" />
+    <objectAnimator android:duration="500" android:startOffset="6500" android:valueFrom="1.0dip" android:valueTo="0.0dip" android:propertyName="alpha" />
+    <objectAnimator android:duration="500" android:startOffset="9800" android:valueFrom="-8.0dip" android:valueTo="0.0dip" android:propertyName="translationY" />
+    <objectAnimator android:duration="500" android:startOffset="9800" android:valueFrom="0.0dip" android:valueTo="1.0dip" android:propertyName="alpha" />
+</set>

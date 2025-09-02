@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/selector_primary_surface" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/setting_item_container"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="17.0sp" android:textColor="@color/linegray600" android:id="@id/settings_things_connectable_error" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/settings_things_connectable_error" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/selector_primary_link" android:id="@id/settings_things_connectable_error_setup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/settings_things_connectable_error_setup" />
+</LinearLayout>

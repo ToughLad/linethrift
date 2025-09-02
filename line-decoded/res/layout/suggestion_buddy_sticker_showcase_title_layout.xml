@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/buddy_free_icon_view" android:layout_width="wrap_content" android:layout_height="18.0dip" android:src="@drawable/sticker_badge_buddy" android:importantForAccessibility="no" android:layout_marginEnd="5.0dip" app:layout_constraintBottom_toBottomOf="@id/link_text_view" app:layout_constraintEnd_toStartOf="@id/link_text_view" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/link_text_view" />
+    <TextView android:id="@id/link_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/suggest_buddysticker_button" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/buddy_free_icon_view" app:layout_constraintTop_toTopOf="parent" style="@style/shop_lyp_premium_sticker_label" />
+</androidx.constraintlayout.widget.ConstraintLayout>

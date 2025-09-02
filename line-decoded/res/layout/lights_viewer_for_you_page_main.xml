@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/list" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ViewStub android:id="@id/lights_viewer_error_view_stub" android:visibility="gone" android:layout="@layout/lights_viewer_error_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/popup_sticker_view_stub" android:visibility="gone" android:layout="@layout/timeline_popup_sticker_view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.linecorp.com.lds.ui.spinner.LdsSpinner android:id="@id/loading_progress" android:visibility="gone" android:layout_width="44.0dip" android:layout_height="44.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

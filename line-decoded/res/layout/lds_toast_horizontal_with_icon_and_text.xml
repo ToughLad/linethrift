@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:background="@drawable/lds_toast_horizontal_background" android:paddingTop="@dimen/lds_toast_bottom_inner_padding_top" android:paddingBottom="@dimen/lds_toast_bottom_inner_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/lds_toast_bottom_min_height" android:paddingStart="14.0dip" android:paddingEnd="15.0dip">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/ldsToastIcon" android:visibility="gone" android:layout_width="@dimen/lds_toast_bottom_image_size" android:layout_height="@dimen/lds_toast_bottom_image_size" android:scaleType="centerInside" android:importantForAccessibility="no" />
+            <com.linecorp.com.lds.ui.spinner.LdsSpinner android:id="@id/ldsToastSpinner" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="15.0dip" app:spinnerSize="auto" />
+        </FrameLayout>
+        <Space android:id="@id/ldsToastSpace" android:layout_width="9.0dip" android:layout_height="1.0dip" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/linewhite" android:gravity="center_vertical" android:id="@id/ldsToastMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/iab_footer" android:background="@color/onPrimaryInverseFill" android:layout_width="fill_parent" android:layout_height="@dimen/iab_footer_height" android:translationZ="1.0dip" android:outlineProvider="none"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/iab_footer_top_separator" android:background="@color/primarySeparator" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="0.0dip" android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="1.0dip">
+        <ImageButton android:id="@id/iab_footer_navigate_prev" android:background="@color/transparent" android:padding="@dimen/iab_footer_button_padding" android:layout_width="@dimen/iab_button_size" android:layout_height="@dimen/iab_button_size" android:src="@drawable/iab_toolbar_ic_back" android:scaleType="fitCenter" app:tint="@color/selector_iab_icon_tint" />
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/iab_footer_navigate_next" android:background="@color/transparent" android:padding="@dimen/iab_footer_button_padding" android:layout_width="@dimen/iab_button_size" android:layout_height="@dimen/iab_button_size" android:src="@drawable/iab_toolbar_ic_forward" android:scaleType="fitCenter" app:tint="@color/selector_iab_icon_tint" />
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/iab_footer_reload" android:background="@color/transparent" android:padding="@dimen/iab_footer_button_padding" android:layout_width="@dimen/iab_button_size" android:layout_height="@dimen/iab_button_size" android:src="@drawable/iab_toolbar_ic_retry" android:scaleType="fitCenter" app:tint="@color/defaultText" />
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/iab_footer_share_line" android:background="@color/transparent" android:padding="@dimen/iab_footer_button_padding" android:layout_width="@dimen/iab_button_size" android:layout_height="@dimen/iab_button_size" android:src="@drawable/iab_toolbar_ic_share" android:scaleType="fitCenter" app:tint="@color/defaultText" />
+        <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/iab_footer_more" android:background="@color/transparent" android:padding="@dimen/iab_footer_button_padding" android:layout_width="@dimen/iab_button_size" android:layout_height="@dimen/iab_button_size" android:src="@drawable/iab_toolbar_ic_more" android:scaleType="fitCenter" app:tint="@color/defaultText" />
+    </LinearLayout>
+</LinearLayout>

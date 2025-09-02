@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/detected_card_image_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:adjustViewBounds="true" android:layout_alignParentTop="true" />
+    <View android:id="@id/division_line_view_0" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/detected_card_image_view" />
+    <ImageView android:id="@id/detected_roi_image_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true" android:layout_below="@id/division_line_view_0" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    <View android:id="@id/division_line_view_1" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/detected_roi_image_view" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/result_edit_view_list_linear_layout" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/division_line_view_1" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" />
+    <View android:id="@id/cio_membership_data_check_activity_line2_v" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/result_edit_view_list_linear_layout" />
+    <Button android:textSize="18.0sp" android:textColor="@android:color/white" android:id="@id/done_btn" android:background="#ff00b900" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff383a4a" android:gravity="center" android:id="@id/blank_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/done_btn" android:layout_below="@id/cio_membership_data_check_activity_line2_v" />
+</RelativeLayout>

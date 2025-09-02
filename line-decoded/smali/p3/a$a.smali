@@ -1,0 +1,25 @@
+.class public final Lp3/a$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/util/Printer;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lp3/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = null
+.end annotation
+
+
+# virtual methods
+.method public final println(Ljava/lang/String;)V
+    .locals 0
+
+    return-void
+.end method

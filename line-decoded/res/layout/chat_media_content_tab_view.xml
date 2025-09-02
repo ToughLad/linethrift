@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.gallery.list.ChatMediaContentTabView android:id="@id/tab_view" android:background="@android:color/transparent" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ImageView android:layout_gravity="center" android:id="@id/tab_new_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-15.0dip" android:layout_marginTop="14.0dip" android:src="@drawable/gr_tab_new_badge" android:layout_toEndOf="@id/tab_view" />
+</RelativeLayout>

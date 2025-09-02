@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:layout_gravity="center_horizontal" android:id="@id/edit_caption_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.5dip" android:text="@string/chatroom_customsticker_btn_edit" style="@style/sticker_sticon_outlined_button"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

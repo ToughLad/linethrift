@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/square_read_more_base_view" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.com.lds.ui.boxbutton.ObsoleteLdsBoxButton android:id="@id/square_read_more_retry_button" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:ldsBoxButtonSize="small" app:ldsBoxButtonText="@string/retry" app:ldsBoxButtonType="outline_gray" />
+    <com.linecorp.com.lds.ui.spinner.LdsSpinner android:id="@id/square_read_more_loading_spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:spinnerSize="small" />
+</RelativeLayout>

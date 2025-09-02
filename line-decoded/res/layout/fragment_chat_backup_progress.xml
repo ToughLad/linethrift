@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/scroll_area" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginBottom="13.0dip" app:layout_constraintBottom_toTopOf="@id/progress_indicator" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header">
+        <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.airbnb.lottie.LottieAnimationView android:id="@id/description_illust" android:layout_width="wrap_content" android:layout_height="wrap_content" app:lottie_autoPlay="true" app:lottie_loop="true" app:lottie_rawRes="@raw/setting_backing_up" />
+                <TextView android:textAppearance="@style/BackupRestoreTitleTextAppearance" android:gravity="center" android:id="@id/description_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/line_backup_backingupcards_title" android:layout_marginHorizontal="30.0dip" />
+                <TextSwitcher android:id="@id/description_text_switcher" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:layout_marginBottom="@dimen/backup_restore_gradient_layer_height" android:paddingHorizontal="30.0dip" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <View android:id="@id/gradient_layer" android:background="@drawable/shape_backup_restore_scroll_view_gradient_layer" android:layout_width="0.0dip" android:layout_height="@dimen/backup_restore_gradient_layer_height" app:layout_constraintBottom_toBottomOf="@id/scroll_area" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/progress_indicator" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:max="100" android:indeterminate="false" android:layout_marginHorizontal="67.0dip" app:indicatorColor="@color/primaryFill" app:layout_constraintBottom_toTopOf="@id/percentage_text" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:trackColor="@color/primaryNeutralFill" app:trackCornerRadius="4.0dip" app:trackThickness="8.0dip" />
+    <TextView android:textColor="@color/primaryFill" android:id="@id/percentage_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="73.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

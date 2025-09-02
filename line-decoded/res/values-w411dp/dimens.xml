@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="face_sticker_download_error_message_y_offset">150.0dip</dimen>
+    <dimen name="popular_face_sticker_list_tooltip_arrow_left_margin">111.0dip</dimen>
+</resources>

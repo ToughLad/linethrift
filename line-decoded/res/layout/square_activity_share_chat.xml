@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/share_square_chat_root" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/share_square_chat_recycler_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <FrameLayout android:id="@id/share_square_chat_done_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.linecorp.com.lds.ui.boxbutton.ObsoleteLdsBoxButton android:id="@id/share_square_chat_done_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:layout_marginHorizontal="16.0dip" app:ldsBoxButtonSize="x_large" app:ldsBoxButtonText="@string/square_common_share" app:ldsBoxButtonType="solid_green" />
+    </FrameLayout>
+</LinearLayout>

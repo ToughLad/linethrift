@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/linegreen" android:gravity="center_vertical" android:id="@id/follow_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/timeline_common_button_follow" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/linegray600" android:gravity="center_vertical" android:id="@id/following_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/timeline_common_button_following" />
+</RelativeLayout>

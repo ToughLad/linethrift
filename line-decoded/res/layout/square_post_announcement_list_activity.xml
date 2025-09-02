@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.customview.SwipeRefreshLayoutForListView android:id="@id/swipe_refresh_layout" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/header">
+        <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/post_announce_recyclerview" android:paddingBottom="6.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/top_guideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_begin="0.0dip" />
+            <ViewStub android:id="@id/square_announce_list_empty" android:layout="@layout/note_home_empty_post_view_viewstub" android:layout_width="fill_parent" android:layout_height="@dimen/square_home_joined_post_list_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/top_guideline" />
+            <ViewStub android:id="@id/error" android:layout="@layout/note_error_view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/top_guideline" />
+            <RelativeLayout android:id="@id/progress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/square_home_joined_post_list_height" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/top_guideline">
+                <ProgressBar android:layout_width="24.669983dip" android:layout_height="24.669983dip" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <ViewStub android:id="@id/popup_sticker_view_stub" android:visibility="gone" android:layout="@layout/note_popup_sticker_view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/top_guideline" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </jp.naver.line.android.customview.SwipeRefreshLayoutForListView>
+    <FrameLayout android:id="@id/header_append_view_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/header">
+        <FrameLayout android:id="@id/ad_container" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

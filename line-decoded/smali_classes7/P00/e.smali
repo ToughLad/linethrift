@@ -1,0 +1,44 @@
+.class public final synthetic LP00/e;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lxk1/p;
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    check-cast p1, Landroid/app/Activity;
+
+    check-cast p2, Landroid/content/Intent;
+
+    const-string p0, "activity"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const-string p0, "intent"
+
+    invoke-static {p2, p0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    sget-object p0, Lcom/linecorp/line/pay/base/legacy/activity/LaunchActivity;->q8:Lcom/linecorp/line/pay/base/legacy/activity/LaunchActivity$a;
+
+    sget-object v0, LV00/b;->p3:LV00/b$a;
+
+    invoke-static {v0, p1}, LAC/a;->j(LNi/a;Landroid/content/Context;)Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LV00/b;
+
+    invoke-interface {v0, p1, p2}, LV00/b;->k0(Landroid/content/Context;Landroid/content/Intent;)Landroid/content/Intent;
+
+    move-result-object p2
+
+    invoke-virtual {p0, p1, p2}, Lcom/linecorp/line/pay/base/legacy/activity/LaunchActivity$a;->b(Landroid/app/Activity;Landroid/content/Intent;)V
+
+    sget-object p0, Lkotlin/Unit;->INSTANCE:Lkotlin/Unit;
+
+    return-object p0
+.end method

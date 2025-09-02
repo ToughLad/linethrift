@@ -1,0 +1,35 @@
+{
+  "result": [
+    {
+      "effect": "filter",
+      "property": {
+        "mode":"BANDPASS",
+        "db":"filter_6db",
+        "cutoff_hz":2000.0,
+        "resonance":1.0
+      }
+    },
+    {
+      "effect":"distortion",
+      "property":{
+        "mode":"WAVESHAPE",
+        "pregain_db":0.0,
+        "postgain_db":-25.69,
+        "keep_hf_hz":20000.0,
+        "drive": 0.8
+      }
+    },
+    {
+      "effect": "equalizer",
+      "property": {
+        "preset":"6bands",
+        "band1gain_db":0.0,
+        "band2gain_db":0.0,
+        "band3gain_db":0.0,
+        "band4gain_db":0.0,
+        "band5gain_db":-60.0,
+        "band6gain_db":-60.0
+      }
+    }
+  ]
+}

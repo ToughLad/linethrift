@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout.attributes
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <attribute android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="100.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="100.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/guide_horizontal_report_title_bottom" target="@id/description_main" />
+    <attribute android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="100.0dip" android:layout_marginTop="7.0dip" android:layout_marginRight="100.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/description_main" target="@id/description_sub" />
+</layout.attributes>

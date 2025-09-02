@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/card_brand_image_view" android:layout_width="49.0dip" android:layout_height="44.0dip" android:layout_marginTop="25.0dip" android:scaleType="fitCenter" android:layout_marginStart="14.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/lineblack" android:id="@id/card_issuer_name_text_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/pay_manage_additional_auth_side_margin" app:layout_constraintBottom_toBottomOf="@id/card_brand_image_view" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/card_brand_image_view" app:layout_constraintTop_toTopOf="@id/card_brand_image_view" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/card_number_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="20.0dip" android:layout_marginEnd="20.0dip" app:layout_constraintTop_toBottomOf="@id/card_brand_image_view">
+        <EditText android:id="@id/card_number_group_first_edit_text" android:importantForAutofill="no" style="@style/pay_manage_additional_auth_credit_card_edit_text" />
+        <View android:background="@color/linegray300" android:layout_width="8.0dip" android:layout_height="1.0dip" />
+        <EditText android:id="@id/card_number_group_second_edit_text" android:importantForAutofill="no" style="@style/pay_manage_additional_auth_credit_card_edit_text" />
+        <View android:background="@color/linegray300" android:layout_width="8.0dip" android:layout_height="1.0dip" />
+        <EditText android:id="@id/card_number_group_third_edit_text" android:importantForAutofill="no" style="@style/pay_manage_additional_auth_credit_card_edit_text" />
+        <View android:id="@id/card_number_group_fourth_divider" android:background="@color/linegray300" android:layout_width="8.0dip" android:layout_height="1.0dip" />
+        <EditText android:enabled="false" android:id="@id/card_number_group_fourth_edit_text" android:importantForAutofill="no" style="@style/pay_manage_additional_auth_credit_card_edit_text" />
+    </LinearLayout>
+    <TextView android:id="@id/card_number_input_bottom_button" android:layout_width="fill_parent" android:layout_marginTop="36.0dip" app:layout_constraintTop_toBottomOf="@id/card_number_layout" style="@style/pay_manage_additional_auth_bottom_button_text_view" />
+</androidx.constraintlayout.widget.ConstraintLayout>

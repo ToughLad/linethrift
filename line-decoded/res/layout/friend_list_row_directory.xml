@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/bg" android:background="@drawable/selector_primary_surface" android:paddingLeft="@dimen/home_list_horizontal_margin" android:paddingRight="@dimen/home_list_horizontal_margin" android:layout_width="fill_parent" android:layout_height="@dimen/friend_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/bg_thumbnail" android:layout_width="@dimen/home_thumbnail_bg_width" android:layout_height="wrap_content" android:layout_marginRight="@dimen/home_list_directory_thumbnail_margin_right">
+        <com.linecorp.view.RoundedFrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/home_thumbnail_margin_top" android:elevation="0.0dip" app:cornerRadius="@dimen/friendlist_directory_thumbnail_size">
+            <ImageView android:id="@id/thumbnail" android:layout_width="@dimen/friendlist_directory_thumbnail_size" android:layout_height="@dimen/friendlist_directory_thumbnail_size" android:scaleType="center" android:contentDescription="@null" />
+        </com.linecorp.view.RoundedFrameLayout>
+        <ImageView android:layout_gravity="right" android:id="@id/thumbnail_new_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/home_thumbnail_new_badge_margin_right" android:src="@drawable/ic_common_img_line_greendot_5" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+        <TextView android:textSize="15.0sp" android:textColor="@color/primaryText" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/name" android:duplicateParentState="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        <TextView android:textSize="13.0sp" android:textColor="@color/tertiarySubText" android:ellipsize="end" android:id="@id/description" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/home_title_sub_margin" android:maxLines="1" />
+    </LinearLayout>
+    <TextView android:textSize="15.0sp" android:textColor="@color/tertiaryText" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:maxLines="1" />
+    <ImageView android:id="@id/more_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_list_option_arrow_right" android:contentDescription="@null" app:tint="@color/quaternarySubNeutralFill" />
+</LinearLayout>

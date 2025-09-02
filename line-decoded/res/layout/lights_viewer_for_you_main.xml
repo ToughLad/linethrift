@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/lights_viewer_root" android:background="@color/lineblack" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/lights_viewer_main" android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="true">
+        <com.linecorp.line.lights.viewer.impl.view.LightsViewerNestedScrollableHost android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <androidx.viewpager2.widget.ViewPager2 android:id="@id/lights_viewer_view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </com.linecorp.line.lights.viewer.impl.view.LightsViewerNestedScrollableHost>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/lights_viewer_live_banner" android:layout_width="89.0dip" android:layout_height="110.0dip" android:layout_marginTop="@dimen/lights_viewer_live_banner_with_theme_bar_top_margin" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <include android:id="@id/lights_viewer_live_pr_banner_binding" android:visibility="gone" layout="@layout/lights_viewer_live_pr_banner" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include android:id="@id/lights_viewer_theme_keyword_list_binding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lights_viewer_theme_keyword_top_margin" app:layout_constraintTop_toTopOf="parent" layout="@layout/lights_viewer_theme_collection" />
+        <ViewStub android:id="@id/lights_viewer_theme_swipe_guide_stub" android:visibility="gone" android:layout="@layout/lights_viewer_theme_swipe_guide" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ViewStub android:id="@id/lights_viewer_download_progress_stub" android:visibility="gone" android:layout="@layout/lights_download_progress" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <share-target android:targetClass="com.linecorp.line.share.common.view.FullPickerLaunchActivity">
+        <data android:mimeType="*/*" />
+        <category android:name="jp.naver.line.android.service.share.CHAT_SHARABLE_TYPE_CATEGORY" />
+    </share-target>
+</shortcuts>

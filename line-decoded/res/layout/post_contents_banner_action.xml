@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/user_profile2" android:layout_width="@dimen/timeline_contents_banner_profile_size" android:layout_height="@dimen/timeline_contents_banner_profile_size" android:layout_marginLeft="64.0dip" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/user_profile1" android:layout_width="@dimen/timeline_contents_banner_profile_size" android:layout_height="@dimen/timeline_contents_banner_profile_size" android:layout_marginLeft="40.0dip" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/user_profile0" android:layout_width="@dimen/timeline_contents_banner_profile_size" android:layout_height="@dimen/timeline_contents_banner_profile_size" android:layout_marginLeft="16.0dip" android:layout_centerVertical="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="54.0dip" android:layout_toRightOf="@id/user_profile2" android:layout_alignParentRight="true">
+        <TextView android:textSize="13.0sp" android:textColor="@color/primaryText" android:ellipsize="middle" android:id="@id/header_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="7.0dip" android:layout_marginRight="15.0dip" android:maxLines="2" android:includeFontPadding="false" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip">
+            <TextView android:textSize="13.0sp" android:textColor="@color/tertiaryText" android:ellipsize="end" android:id="@id/arrow_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="105.0dip" android:maxLines="2" android:includeFontPadding="false" />
+            <ImageView android:id="@id/menu_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/selector_timeline_ic_arrow" android:contentDescription="@null" app:tint="@color/tertiaryText" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

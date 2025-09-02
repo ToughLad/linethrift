@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/pay_linewhite" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="20.0dip" android:paddingVertical="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.line.pay.ui.payment.sheet.view.PaySheetTooltip android:id="@id/tooltip" app:layout_constraintBottom_toTopOf="@id/agreementCheckBox" app:layout_constraintStart_toStartOf="@id/agreementCheckBox" style="@style/pay_module_ui_payment_sheet_tooltip" />
+    <CheckBox android:id="@id/agreementCheckBox" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/pay_module_ui_payment_agreement_check_box" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/pay_linegray500" android:id="@id/messageTextView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/agreementCheckBox" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

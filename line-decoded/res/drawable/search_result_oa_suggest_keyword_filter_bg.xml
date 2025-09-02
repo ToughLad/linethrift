@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="5.0dip" />
+    <stroke android:width="@dimen/search_result_sub_tab_filter_bg_stroke_width" android:color="@color/search_result_suggest_keyword_filter_border_color" />
+    <solid android:color="@color/search_result_suggest_keyword_filter_background_color" />
+</shape>

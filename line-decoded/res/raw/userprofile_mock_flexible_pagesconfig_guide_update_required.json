@@ -1,0 +1,146 @@
+{
+  "category": "CATE_27",
+  "pages": [
+    {
+      "title": "Photo guide",
+      "pageName": "PICTURE_GUIDE",
+      "pageId": "picture_guide_1",
+      "footerButton": {
+        "text": "Select {0}-{1} photos",
+        "actionType": "POPUP",
+        "popup": {
+          "title": "Update required",
+          "description": "Update LINE to the latest version to use this feature.",
+          "secondaryButton": {
+            "text": "Later"
+          },
+          "primaryButton": {
+            "text": "Update",
+            "actionType": "WEB",
+            "actionDestination": "https://line.me/update"
+          }
+        }
+      },
+      "goodExamples": {
+        "images": [
+          "https://line-objects-dev.com/flexible-ui/picture_guide_petbooth_thumb_good_01.png",
+          "https://line-objects-dev.com/flexible-ui/picture_guide_petbooth_thumb_good_02.png",
+          "https://line-objects-dev.com/flexible-ui/picture_guide_petbooth_thumb_good_03.png",
+          "https://line-objects-dev.com/flexible-ui/picture_guide_petbooth_thumb_good_04.png"
+        ],
+        "description": "Photos capturing a variety of angles and clearly showing facial expressions. All photos should be of the same animal."
+      },
+      "badExamples": {
+        "images": [
+          "https://line-objects-dev.com/flexible-ui/picture_guide_petbooth_thumb_bad_01.png",
+          "https://line-objects-dev.com/flexible-ui/picture_guide_petbooth_thumb_bad_02.png",
+          "https://line-objects-dev.com/flexible-ui/picture_guide_petbooth_thumb_bad_03.png",
+          "https://line-objects-dev.com/flexible-ui/picture_guide_petbooth_thumb_bad_04.png"
+        ],
+        "description": "Photos that don't show pet's face. Black-and-white photos. Photos with a person or with 2 or more pets."
+      }
+    },
+    {
+      "pageName": "PICTURE_SELECTION",
+      "pageId": "picture_selection_1",
+      "footerButton": {
+        "actionType": "PAGE",
+        "actionDestination": "result_info_selection_1",
+        "pageName": "RESULT_INFO_SELECTION"
+      },
+      "config": {
+        "unsuitableImageCheck": false,
+        "maxCheck": 12,
+        "minCheck": 10,
+        "imageProcessing": {
+          "objectDetector": "VANA",
+          "objectDetection": "DOG",
+          "objectQuantity": {
+            "equal": 1,
+            "greaterThan": -1,
+            "lessThan": -1
+          },
+          "sizeFilters": [
+            {
+              "width": {
+                "equal": -1,
+                "greaterThan": 539,
+                "lessThan": -1
+              },
+              "height": {
+                "equal": -1,
+                "greaterThan": 699,
+                "lessThan": -1
+              }
+            },
+            {
+              "width": {
+                "equal": -1,
+                "greaterThan": 699,
+                "lessThan": -1
+              },
+              "height": {
+                "equal": -1,
+                "greaterThan": 539,
+                "lessThan": -1
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "pageName": "RESULT_INFO_SELECTION",
+      "pageId": "result_info_selection_1",
+      "footerButton": {
+        "text": "Next",
+        "actionType": "PAGE",
+        "actionDestination": "package_selection_1",
+        "pageName": "PACKAGE_SELECTION"
+      },
+      "blocks": [
+        {
+          "category": "COLOR",
+          "title": "Select your pet's coat",
+          "description": "Your AI images will be created based on the selected color. Select Other if your pet's coat is neither all black or white, or is a mixture of colors.",
+          "minSelectable": 1,
+          "maxSelectable": 1,
+          "selectableItems": [
+            {
+              "id": "WHITE",
+              "text": "All white",
+              "enable": true,
+              "selected": false
+            },
+            {
+              "id": "BLACK",
+              "text": "All black",
+              "enable": true,
+              "selected": false
+            },
+            {
+              "id": "ETC",
+              "text": "Other",
+              "enable": true,
+              "selected": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pageName": "PACKAGE_SELECTION",
+      "pageId": "package_selection_1",
+      "footerButton": {
+        "text": "Next",
+        "actionType": "PAGE",
+        "actionDestination": "confirm_purchase_1",
+        "pageName": "CONFIRM_PURCHASE"
+      }
+    }
+  ],
+  "available": true,
+  "oa": {
+    "friendshipStatus": "FRIEND"
+  }
+}

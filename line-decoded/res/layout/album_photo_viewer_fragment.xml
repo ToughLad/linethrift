@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/photo_viewer_parent_view" android:background="@color/lineblack" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <jp.naver.gallery.android.view.ZoomImageViewPager2 android:id="@id/photo_view_pager" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/photo_view_pager2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/overlay_layout" layout="@layout/album_photo_viewer_overlay_layout" />
+</FrameLayout>

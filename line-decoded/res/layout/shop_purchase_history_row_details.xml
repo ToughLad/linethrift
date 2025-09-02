@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/shop_my_product_list_row_product_name_text_size_large" android:textColor="@color/linegray900" android:ellipsize="end" android:id="@id/product_name" android:layout_width="wrap_content" android:layout_height="0.0dip" android:maxLines="1" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/price_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+        <ImageView android:id="@id/coin_mark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:src="@drawable/stikershop_icon_coin" android:contentDescription="@null" />
+        <TextView android:textSize="@dimen/shop_purchase_history_row_price_text_size" android:textStyle="bold" android:textColor="@color/shop_purchase_history_row_price_text" android:id="@id/price_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="0.6700001dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/present_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.33000004dip">
+        <TextView android:textSize="@dimen/shop_purchase_history_row_present_text_size" android:textColor="@color/linegray600" android:id="@id/present_username_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:maxLines="1" android:layout_weight="1.0" />
+        <View android:id="@id/username_separator" android:background="@color/linegray600" android:layout_width="2.0dip" android:layout_height="2.0dip" android:layout_marginRight="5.0dip" />
+        <TextView android:textSize="@dimen/shop_purchase_history_row_present_text_size" android:textColor="@color/linegray600" android:id="@id/present_period_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    </LinearLayout>
+</LinearLayout>

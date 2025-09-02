@@ -1,0 +1,31 @@
+.class public abstract LAs0/c;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LAs0/n;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        LAs0/c$a;,
+        LAs0/c$b;,
+        LAs0/c$c;
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract a()Lys0/c$a;
+.end method

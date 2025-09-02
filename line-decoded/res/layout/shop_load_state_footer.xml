@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/stickershop_bg_mylist" android:layout_width="fill_parent" android:layout_height="@dimen/shop_load_state_footer_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/shop_load_state_footer_divider" android:layout_width="fill_parent" android:layout_height="@dimen/shop_load_state_footer_divider_height" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/loading_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:indeterminateDrawable="@drawable/shop_progress_circle_small" android:layout_centerInParent="true" style="?android:progressBarStyleSmall" />
+        <TextView android:textColor="@color/shop_load_state_footer_status_text" android:id="@id/load_more_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stickershop_list_more" />
+    </LinearLayout>
+</RelativeLayout>

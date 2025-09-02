@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.linecorp.view.SquareAspectFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:background="@color/v_menu_content_item_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:contentDescription="@string/access_photo_expansion" />
+    <ImageView android:layout_gravity="bottom|center|left" android:id="@id/image_type_gif" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="7.0dip" android:src="@drawable/gif_img_small" android:contentDescription="@null" android:layout_marginStart="5.0dip" />
+    <ImageView android:id="@id/expired" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/img_photo_expired" android:scaleType="fitXY" android:contentDescription="@null" />
+    <FrameLayout android:layout_gravity="right" android:id="@id/chat_media_content_item_check_box_container" android:paddingLeft="12.0dip" android:paddingTop="6.0dip" android:paddingRight="6.0dip" android:paddingBottom="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <CheckBox android:gravity="center" android:id="@id/chat_media_content_item_check_box" android:background="@drawable/media_picker_checkbox" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" style="@style/text_gallery_check_num01" />
+    </FrameLayout>
+</com.linecorp.view.SquareAspectFrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="@dimen/album_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/back_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/album_header_ic_back" android:contentDescription="@string/access_back" android:layout_marginStart="8.0dip" app:tint="@color/primaryInverseFill" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/senarySubText" android:ellipsize="end" android:id="@id/header_title_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" android:layout_marginStart="1.0dip" />
+    <ImageView android:id="@id/move_to_album_list_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/album_navi_top_album" android:contentDescription="@string/access_albumdetails_button_allalbums" app:tint="@color/primaryInverseFill" />
+    <ImageView android:id="@id/moveToChatBtn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/navi_top_chat" app:tint="@color/primaryInverseFill" />
+    <ImageView android:id="@id/more_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/album_header_ic_more" android:contentDescription="@string/access_menu_more" android:layout_marginEnd="9.0dip" app:tint="@color/primaryInverseFill" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/shape_rbt_info_container" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/profile_image" android:background="@drawable/shape_6dp_round_corner_rectangle" android:layout_width="26.0dip" android:layout_height="26.0dip" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0dip" android:textColor="@color/linewhite" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:maxWidth="166.0dip" android:maxLines="1" android:scrollHorizontally="true" android:singleLine="true" android:shadowColor="@color/linewhite_alpha70" android:marqueeRepeatLimit="marquee_forever" />
+</LinearLayout>

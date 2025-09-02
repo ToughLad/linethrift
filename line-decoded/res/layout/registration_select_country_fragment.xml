@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar" android:layout_width="fill_parent" android:layout_height="154.0dip" app:elevation="0.0dip">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_toolbar" android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="fill_parent" app:collapsedTitleTextAppearance="@style/Registration.SelectCountryCollapsedTitle" app:contentScrim="@color/linewhite" app:expandedTitleMarginBottom="25.0dip" app:expandedTitleMarginEnd="24.0dip" app:expandedTitleMarginStart="24.0dip" app:expandedTitleTextAppearance="@style/Registration.SelectCountryExpandedTitle" app:layout_scrollFlags="scroll|exitUntilCollapsed" app:maxLines="2" app:title="@string/startUpFlow_selectRegion_lbl_title">
+            <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="54.0dip" app:contentInsetStartWithNavigation="0.0dip" app:elevation="0.0dip" app:layout_collapseMode="pin" app:navigationContentDescription="@string/access_back" app:navigationIcon="@drawable/registration_ic_back" app:titleMarginStart="0.0dip" />
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/recycler_view" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

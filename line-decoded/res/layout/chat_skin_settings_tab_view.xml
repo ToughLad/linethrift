@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="@dimen/chat_skin_settings_tab_item_size" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/tab_icon" android:layout_width="@dimen/chat_skin_settings_tab_item_size" android:layout_height="@dimen/chat_skin_settings_tab_item_size" android:foreground="@drawable/chat_skin_settings_tab_foreground_selector" android:scaleType="centerCrop" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/primaryText" android:gravity="center" android:id="@id/tab_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="2" />
+</LinearLayout>

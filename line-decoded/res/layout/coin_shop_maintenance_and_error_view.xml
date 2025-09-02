@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/coin_shop_errorview" android:layout="@layout/coin_shop_errorview" android:inflatedId="@id/coin_shop_errorview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/coin_shop_maintenance" android:layout="@layout/coin_shop_maintenance" android:inflatedId="@id/coin_shop_maintenance" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

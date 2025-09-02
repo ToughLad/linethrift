@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/contents_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/loading_layout" android:visibility="gone" android:layout_width="29.0dip" android:layout_height="29.0dip" android:indeterminateDrawable="@drawable/progress_circle_blue" android:layout_centerInParent="true" />
+        <jp.naver.line.android.customview.RetryErrorView android:id="@id/error_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <LinearLayout android:orientation="vertical" android:id="@id/content_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <TextView android:id="@id/see_all_link_view" android:paddingLeft="5.0dip" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11.0dip" android:layout_marginTop="13.0dip" android:layout_marginRight="11.0dip" android:layout_marginBottom="25.0dip" android:text="@string/square_policy_viewall" style="@style/text_group_list_content06" />
+            <jp.naver.line.android.customview.NonThemeCommonBottomButton android:id="@id/bottom_button" android:layout_width="fill_parent" android:layout_height="50.0dip" custom:buttonText="@string/square_policy_agree_btn" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

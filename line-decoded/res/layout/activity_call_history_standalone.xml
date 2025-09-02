@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jp.naver.line.android.common.view.menu.OptionMenuLayout android:layout_width="fill_parent" android:layout_height="fill_parent" optionmenu:menu_alignParentBottom="true" optionmenu:menu_apply_theme="false" optionmenu:menu_marginRight="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:optionmenu="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="jp.naver.line.android.activity.callhistory.CallHistoryFragment" android:id="@id/call_history_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header" />
+</jp.naver.line.android.common.view.menu.OptionMenuLayout>

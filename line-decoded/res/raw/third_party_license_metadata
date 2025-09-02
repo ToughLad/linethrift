@@ -1,0 +1,680 @@
+0:46 TensorFlow Lite Vision Tasks Play services
+47:42 io.grpc:grpc-protobuf-lite
+0:46 Paging-Runtime
+90:47 atomicfu
+0:46 Compose Saveable
+0:46 Compose Animation Core
+0:46 Compose Material Ripple
+0:46 Google Shortcuts Integration Library
+0:46 Compose ViewBinding
+0:46 Material Components for Android
+138:47 play-services-gcm
+0:46 Activity Kotlin Extensions
+0:46 Lifecycle-Common
+0:46 Media3 common module
+90:47 kotlinx-coroutines-play-services
+0:46 Compose Util
+0:46 Credentials
+0:46 ViewPager2
+0:46 Media3 database module
+47:42 io.grpc:grpc-stub
+0:46 Compose Material 3 Window Size Class
+186:46 Glide RecyclerView Integration
+0:46 Glide RecyclerView Integration
+0:46 DataStore Core
+0:46 Adapter: RxJava 3
+0:46 Kotlin Android Extensions Runtime
+0:46 Room Paging
+0:46 javax.inject
+138:47 play-services-tasks
+233:1096 Animal Sniffer
+1330:1892 Checker Framework Annotations
+3223:11357 Error Prone
+14581:11358 Guava JDK5
+25940:11362 Guava JDK7
+37303:81008 J2ObjC
+118312:1602 JSR 305
+14581:11358 JSpecify
+119915:11307 JsInterop Annotations
+131223:105133 Kotlin
+3223:11357 Kotlin coroutines
+14581:11358 SafeParcelable library
+236357:10695 apksig
+14581:11358 gsfclient
+247053:9116 java_annotations
+256170:11356 kotlinx_atomicfu
+267527:0 Apollo GraphQL Runtime
+0:46 Compose Unit
+0:46 Accompanist Permissions
+267528:48 Extended StAX API
+0:46 Saved State
+138:47 play-services-ads
+14581:11358 Conscrypt
+14581:11358 Dagger
+267577:12539 ExoPlayer
+14581:11358 Google Auto
+14581:11358 Gson
+280117:11359 HighwayHash
+14581:11358 JSR 250
+291477:11365 JSR 330
+302843:11357 Jakarta Inject
+314201:3028 Protocol Buffers
+317230:1732 Protocol Buffers for Java
+14581:11358 Tink
+14581:11358 Volley
+14581:11358 android_build
+318963:1036 checker_framework_util
+320000:10141 customtabsclient
+317230:1732 kotlin
+330142:12834 mp4parser
+342977:8987 p2putils
+0:46 Credentials Play Services Auth
+0:46 Kotlin Reflect
+0:46 Compose UI Preview Tooling
+138:47 play-services-clearcut
+0:46 TensorFlow Lite Base Task API
+0:46 ExifInterface
+0:46 Lifecycle LiveData
+0:46 Lifecycle ViewModel Compose
+138:47 play-services-iid
+0:46 Tink Cryptography API for Android
+0:46 okhttp-bom
+0:46 Media3 decoder module
+90:47 Compose Graphics
+0:46 com.google.firebase:firebase-encoders-json
+0:46 firebase-encoders-proto
+0:46 SavedState Kotlin Extensions
+138:47 play-services-appset
+351965:10691 AndroidX annotation experimental library
+362657:10694 AndroidX architecture core common library
+362657:10694 AndroidX architecture core runtime library
+362657:10694 AndroidX lifecycle common library
+362657:10694 AndroidX lifecycle livedatacore library
+362657:10694 AndroidX lifecycle runtime library
+362657:10694 AndroidX tracing library
+0:46 Paging-Runtime Kotlin Extensions
+0:46 Android Emoji2 Compat
+0:46 Accompanist Drawable Painter library
+267527:0 Apollo GraphQL API
+0:46 Compose UI
+0:46 Android Support Library Cursor Adapter
+47:42 io.grpc:grpc-util
+0:46 androidx.customview:poolingcontainer
+0:46 WorkManager GCM Integration
+0:46 Transition Kotlin Extensions
+0:46 AndroidX Futures Kotlin Extensions
+0:46 com.google.firebase:firebase-abt
+0:46 Lifecycle Service
+0:46 firebase-encoders
+0:46 ConstraintLayout Core
+0:46 Lifecycle Kotlin Extensions
+0:46 Android Preferences KTX
+0:46 Camera2
+373352:34 Checker Qual
+0:46 Android Support Library Custom View
+0:46 Experimental annotation
+90:47 moshi-kotlin
+0:46 fragment
+0:46 Lifecycle ViewModel Compose
+47:42 io.grpc:grpc-okhttp
+0:46 VersionedParcelable
+90:47 kotlinx-coroutines-rx2
+90:47 kotlinx-coroutines-rx3
+0:46 com.google.firebase:firebase-installations
+0:46 Android Support Library loader
+138:47 play-services-wearable
+373387:50 Sentry SDK
+0:46 Android Support DynamicAnimation
+90:47 coil-compose-core
+0:46 Camera Video
+90:47 kotlinx-serialization-json
+0:46 Lifecycle Runtime Compose
+0:46 com.google.firebase:firebase-sessions
+0:46 com.google.firebase:firebase-crashlytics
+90:47 coil-network-okhttp
+90:47 Compose Saveable
+0:46 Android Support Library core utils
+0:46 AndroidX Preference
+0:46 VectorDrawable
+90:47 coil-core
+0:46 androidx.privacysandbox.ads:ads-adservices-java
+0:46 ConstraintLayout Compose
+373438:42 language-id
+0:46 twitter-text
+138:47 play-services-oss-licenses
+90:47 coil-network-okhttp
+0:46 Paging-Common Kotlin Extensions
+138:47 play-services-maps
+0:46 Lifecycle Process
+0:46 SplashScreen
+186:46 Glide
+0:46 Glide
+138:47 play-services-flags
+373481:44 Preferences External Protobuf
+0:46 Camera Lifecycle
+0:46 Media3 Extractor module
+373387:50 Sentry SDK
+0:46 Preferences DataStore Core
+90:47 coil-compose-core
+0:46 Lifecycle ViewModel Kotlin Extensions
+47:42 io.grpc:grpc-android
+0:46 Lifecycle ReactiveStreams KTX
+267527:0 Apollo GraphQL Annotations
+0:46 Navigation Common
+0:46 APNG4Android
+0:46 Android Support Library media compat
+90:47 RxAndroid
+0:46 Timber
+90:47 Lich ViewModel (main)
+0:46 YouTube Data API v3 v3-rev20250224-2.0.0
+0:46 J2ObjC Annotations
+0:46 Lifecycle Reactivestreams
+0:46 Lifecycle Runtime Testing
+0:46 Android Tracing Runtime Kotlin Extensions
+138:47 play-services-fido
+373526:1558 chrome_sync
+302843:11357 mobiledatadownload
+0:46 Android Graphics Path
+0:46 Preferences DataStore Core
+0:46 Kotlin Stdlib Common
+0:46 LiveData Core Kotlin Extensions
+0:46 Android Support Library Sliding Pane Layout
+0:46 Android Emoji2 Compat view helpers
+0:46 Navigation Runtime
+186:46 Glide Disk LRU Cache Library
+0:46 Glide Disk LRU Cache Library
+0:46 Media3 Container module
+0:46 Room-Common
+375085:52 Yoga
+0:46 Lifecycle ViewModel with SavedState
+90:47 Converter: Moshi
+90:47 moshi
+0:46 com.google.firebase:firebase-installations-interop
+375138:40 Spongy Castle
+0:46 TensorFlow Lite
+90:47 kotlinx-coroutines-bom
+0:46 flexbox-layout
+0:46 RxAndroid
+0:46 Compose UI Text
+138:47 play-services-cloud-messaging
+375179:52 feature-delivery
+90:47 kotlinx-serialization-bom
+0:46 Core Kotlin Extensions
+90:47 Lifecycle ViewModel
+138:47 play-services-tapandpay
+375232:10695 Android Activity Support Library
+375232:10695 AndroidX asynchronous layout inflater library
+375232:10695 AndroidX concurrent futures library
+375232:10695 AndroidX coordinator layout library
+375232:10695 AndroidX cursor adapter library
+375232:10695 AndroidX document file library
+375232:10695 AndroidX drawer layout library
+385928:10693 AndroidX interpolator library
+375232:10695 AndroidX legacy core UI libraries
+385928:10693 AndroidX local broadcast manager library
+375232:10695 AndroidX print library
+375232:10695 AndroidX sliding pane layout library
+375232:10695 AndroidX swipe refresh layout library
+396622:10695 AndroidX versioned parcelable library
+375232:10695 AndroidX view pager library
+407318:11342 FlatBuffers
+14581:11358 safeparcel
+375232:10695 savedstate
+0:46 Lifecycle Runtime
+0:46 Compose Saveable
+138:47 play-services-location
+0:46 Android Support Library Async Layout Inflater
+138:47 play-services-pal
+0:46 firebase-annotations
+0:46 com.google.firebase:firebase-messaging
+90:47 Lifecycle Runtime Compose
+0:46 TensorFlow Lite Support API
+0:46 CBOR for Java
+0:46 Navigation Common Kotlin Extensions
+375085:52 YogaLayout
+0:46 Preferences DataStore
+0:46 Compose Geometry
+373438:42 common
+138:47 billing-ktx
+418661:35 vinnie
+0:46 Compose Material3 Components
+0:46 Android Support CardView v7
+0:46 Media3 OkHttp DataSource module
+0:46 OpenCensus
+47:42 perfmark:perfmark-api
+373438:42 play-services-mlkit-face-detection
+418697:43 UUID
+0:46 Compose Graphics
+90:47 Converter: Gson
+375179:52 feature-delivery-ktx
+0:46 Fragment Kotlin Extensions
+0:46 AppCompat
+0:46 ConstraintLayout
+138:47 play-services-ads-identifier
+418741:11356 kotlinx_serialization
+0:46 DataStore Core Okio
+138:47 play-services-measurement-base
+0:46 RxJava
+47:42 io.grpc:grpc-context
+373438:42 barcode-scanning-common
+0:46 Lifecycle ViewModel
+0:46 com.google.firebase:firebase-perf
+0:46 Android Support Grid Layout
+90:47 Gson
+90:47 kotlinx-coroutines-reactive
+0:46 AndroidX Security
+0:46 Android Support Library Print
+0:46 Android Support RecyclerView
+0:46 WindowManager
+138:47 play-services-tflite-impl
+90:47 Compose Util
+0:46 com.google.firebase:firebase-datatransport
+430098:57 Taboola LiteSDK
+0:46 Navigation Fragment
+90:47 Compose Animation Core
+0:46 Compose Animation Core
+90:47 kotlinx-serialization-json
+0:46 OpenCensus
+0:46 Compose UI
+430156:43 Lottie Compose
+373438:42 play-services-mlkit-barcode-scanning
+90:47 Lich Component (main)
+0:46 Browser
+0:46 Android RecyclerView Selection
+0:46 Compose UI Preview Tooling
+0:46 AndroidX Autofill
+90:47 collections
+430200:42 android-database-sqlcipher
+0:46 DataStore
+90:47 RxJava 3 Bridge to/from RxJava 2
+0:46 WorkManager RxJava2
+90:47 Lich OkHttp
+0:46 AppCompat Resources
+138:47 play-services-phenotype
+0:46 Camera Core
+430243:81 Camera Core
+0:46 Room RXJava3
+0:46 Room RXJava2
+90:47 Lich Component (for Jetpack Compose)
+0:46 Android Arch-Runtime
+0:46 com.google.firebase:firebase-perf-ktx
+138:47 billing
+186:46 Glide GIF Decoder Library
+0:46 Glide GIF Decoder Library
+138:47 play-services-basement
+90:47 coil-compose
+138:47 play-services-auth-base
+90:47 Compose Runtime
+138:47 interactivemedia
+0:46 Compose LiveData integration
+0:46 com.google.android.datatransport:transport-backend-cct
+0:46 Media3 DataSource module
+0:46 Lifecycle-Common for Java 8
+373438:42 play-services-mlkit-text-recognition
+430325:16008 Android SDK Platforms
+375232:10695 AndroidX activity library
+375232:10695 AndroidX annotation library
+446334:10694 AndroidX asynclayoutinflater library
+375232:10695 AndroidX collection library
+375232:10695 AndroidX coordinatorlayout library
+375232:10695 AndroidX core ktx library
+375232:10695 AndroidX core library
+375232:10695 AndroidX cursoradapter library
+375232:10695 AndroidX customview library
+375232:10695 AndroidX documentfile library
+375232:10695 AndroidX drawerlayout library
+375232:10695 AndroidX exifinterface library
+375232:10695 AndroidX fragment library
+375232:10695 AndroidX legacy coreui library
+375232:10695 AndroidX legacy coreutils library
+375232:10695 AndroidX legacy v4 library
+362657:10694 AndroidX lifecycle viewmodel library
+385928:10693 AndroidX lifecycle viewmodel savedstate library
+375232:10695 AndroidX loader library
+385928:10693 AndroidX localbroadcastmanager library
+375232:10695 AndroidX media base library
+457029:10689 AndroidX savedstate library
+375232:10695 AndroidX swiperefreshlayout library
+396622:10695 AndroidX versionedparcelable library
+375232:10695 AndroidX viewpager library
+467719:11357 Firebase
+479077:11419 TensorFlow Lite Support
+0:46 Compose Material3 Components
+373387:50 Sentry SDK
+0:46 DataStore Core Okio
+0:46 Compose Runtime
+90:47 Compose Geometry
+267527:0 Apollo MPP Utils
+0:46 androidx.core:core-viewtree
+0:46 Media3 ExoPlayer module
+0:46 Compose Animation
+90:47 Compose Animation
+0:46 AndroidX Futures
+0:46 Room Kotlin Extensions
+0:46 Compose Foundation
+0:46 AnimatedVectorDrawable
+0:46 Startup Runtime
+0:46 Media3 ExoPlayer HLS module
+0:46 Fragment Compose
+90:47 moshi-adapters
+0:46 Kotlin Libraries bill-of-materials
+418697:43 UUID
+0:46 Android Support Library Drawer Layout
+490497:62 javax annotation API
+186:46 Glide OkHttp 3.x Integration
+0:46 Glide OkHttp 3.x Integration
+186:46 Glide Kotlin Extensions
+0:46 Glide Kotlin Extensions
+0:46 Lifecycle LiveData Core
+373438:42 vision-interfaces
+0:46 DataStore
+373438:42 play-services-mlkit-text-recognition-common
+373387:50 Sentry SDK
+90:47 kotlinx-coroutines-android
+138:47 play-services-ads-base
+0:46 Compose Unit
+0:46 Paging-Compose
+0:46 Compose Material Icons Core
+90:47 Apache Thrift
+0:46 Compose Runtime
+0:46 Compose Foundation
+0:46 Preferences DataStore Proto
+0:46 com.google.firebase:firebase-components
+373387:50 Sentry SDK
+90:47 coil-network-core
+490560:44 commonmark-java core
+267527:0 Apollo GraphQL Runtime
+0:46 Navigation UI
+90:47 Compose UI Text
+0:46 Paging-Common
+0:46 Media3 ExoPlayer IMA module
+0:46 WorkManager Kotlin Extensions
+0:46 Navigation Runtime Kotlin Extensions
+0:46 Compose Navigation
+430156:43 Lottie
+138:47 play-services-vision-common
+90:47 coil-network-core
+90:47 Lifecycle Runtime
+490605:42 Google Android Annotations Library
+0:46 WorkManager Runtime
+138:47 firebase-iid-interop
+138:47 user-messaging-platform
+90:47 kotlinx-coroutines-core
+0:46 Lifecycle-Common
+0:46 Lifecycle Runtime Compose
+90:47 Lich ViewModel (for Jetpack Compose)
+0:46 Compose Material Icons Core
+0:46 Compose Layouts
+0:46 com.google.firebase:firebase-common
+90:47 Dagger
+267527:0 Apollo GraphQL Annotations
+0:46 JSpecify annotations
+186:46 Glide Annotations
+0:46 Glide Annotations
+0:46 Android Resource Inspection - Annotations
+0:46 Lifecycle ViewModel
+0:46 Compose Layouts
+138:47 play-services-auth
+0:46 Compose Util
+138:47 play-services-vision
+0:46 okio
+0:46 Parcelize Runtime
+90:47 atomicfu
+0:46 Android Tracing
+0:46 Profile Installer
+0:46 error-prone annotations
+90:47 kotlinx-serialization-core
+0:46 Biometric
+0:46 Jetpack Compose Libraries BOM
+90:47 coil
+0:46 Camera View
+0:46 Collections Kotlin Extensions
+0:46 Activity
+0:46 Android Support Library core UI
+138:47 googleid
+47:42 io.grpc:grpc-core
+267527:0 Apollo GraphQL API
+0:46 Android Support Library Document File
+0:46 com.google.android.datatransport:transport-runtime
+373387:50 Sentry SDK
+0:46 Compose UI Text
+0:46 Android Support Library Interpolators
+0:46 Activity Compose
+0:46 LiveData Kotlin Extensions
+0:46 Android Support Library v13
+47:42 gRPC Kotlin Stub
+0:46 collections
+0:46 ConstraintLayout Compose
+0:46 okio
+90:47 ApngDrawable
+90:47 coil-core
+90:47 Compose Unit
+0:46 WebKit
+90:47 coil-compose
+0:46 Room-Runtime
+375085:52 Proguard Annotations
+373438:42 language-id-common
+0:46 collections
+138:47 play-services-ads-lite
+0:46 Paging-Compose
+267527:0 Apollo MPP Utils
+0:46 Compose Graphics
+0:46 Lifecycle Kotlin Extensions
+0:46 Android Percent Support Library
+138:47 play-services-base
+0:46 Compose Animation
+90:47 Annotation
+0:46 Compose Material 3 Window Size Class
+0:46 Android Arch-Common
+138:47 play-services-stats
+138:47 tv-ads
+0:46 Jetpack WindowManager library Core Extensions
+0:46 Kotlin Stdlib Jdk8
+0:46 Kotlin Stdlib Jdk7
+0:46 com.google.firebase:firebase-common-ktx
+90:47 Retrofit
+0:46 APNG4Android
+186:46 Glide Compose Integration
+0:46 Glide Compose Integration
+0:46 com.google.firebase:firebase-bom
+0:46 protolite-well-known-types
+90:47 kotlinx-coroutines-core
+0:46 Paging-Common
+490648:36 reactive-streams
+138:47 play-services-appindex
+0:46 Android Support Library Coordinator Layout
+90:47 Lifecycle-Common
+90:47 coil
+90:47 Compose Layouts
+0:46 Android Support Library v4
+0:46 okhttp-logging-interceptor
+0:46 FindBugs-jsr305
+90:47 JetBrains Java Annotations
+90:47 Lich Thrift
+0:46 Compose Geometry
+0:46 SQLite
+0:46 SQLite Framework Integration
+0:46 Privacy Sandbox for Ad Services
+90:47 Lich SavedState (main)
+0:46 ReLinker
+0:46 DataStore Core
+0:46 Kotlin Stdlib
+0:46 Compose Material Ripple
+373438:42 vision-common
+0:46 Android Support Library Custom View
+0:46 Android Wear Remote Interactions
+375179:52 core-common
+138:47 play-services-measurement-sdk-api
+0:46 NEST Streaming SDK Android
+0:46 androidx.databinding:viewbinding
+0:46 Android Support Library View Pager
+90:47 kotlinx-serialization-core
+0:46 Transition
+0:46 Preferences DataStore
+138:47 firebase-measurement-connector
+490685:12521 archive_patcher
+0:46 com.google.android.datatransport:transport-api
+47:42 io.grpc:grpc-api
+0:46 okhttp
+0:46 Google Drive API v3-rev20250220-2.0.0
+0:46 com.google.firebase:firebase-config
+138:47 play-services-auth-api-phone
+503207:46 ez-vcard
+0:46 Android Support Palette v7
+0:46 Android Support Library Local Broadcast Manager
+90:47 Compose Foundation
+138:47 image
+90:47 Lich Lifecycle
+90:47 RxJava
+0:46 Lifecycle Runtime
+90:47 Compose UI primitives
+0:46 com.google.firebase:firebase-config-interop
+0:46 Core
+0:46 abseil-cpp
+0:46 acra
+503254:1210 AHEasing
+504465:42 Android SDK
+0:46 android-gles
+504508:1079 android-i18n-plurals
+0:46 Android-PullToRefresh
+0:46 android-support-v4-googlemaps
+0:46 android-transcoder
+0:46 AndroidFileChooserDialog
+505588:62 aom
+0:46 Apache Commons Codec
+0:46 Apache Commons Collection
+0:46 Apache Commons IO
+0:46 Apache Commons Lang
+0:46 APNG4Android
+505651:1083 aquila
+0:46 Barone
+0:46 basis_universal
+506735:1338 Boost
+508074:1067 Box2D
+509142:1084 brotli
+510227:67 bzip2
+510295:1208 card.io-Android
+511504:33 chacha20
+511538:1084 cJSON
+512623:876 Coeur_minizip
+513500:1296 commonmark-java
+0:46 Cordova Android
+514797:1502 cpplint
+516300:10171 CuckooFilter4J
+526472:1088 curl
+0:46 curve25519-java
+527561:1055 cxxopts
+528617:1358 DevsmartLib-Android
+529976:47 dkjson
+530024:1330 easyexif
+531355:1543 edlund_amalgamate
+532899:1084 Effekseer
+533984:11362 Eigen
+545347:34 face
+545382:1506 fast-C-src
+546889:1162 FeaturizersLibrary
+548052:1086 filesystem
+549139:1431 fmt
+550571:2074 freetype
+552646:5972 freetype-bdf
+0:46 GamePlay
+558619:54 getopt
+558674:1088 giflib
+559763:904 GLFW
+560668:2865 glm
+0:46 glyphy
+563534:6434 Google Breakpad
+0:46 gRPC-Java
+0:46 gson
+569969:1971 harfbuzz
+0:46 jandrewrogers_MetroHash
+571941:1912 jansson
+571941:1912 jasson
+573854:1509 JavaHamcrest
+575364:1318 jcodec
+576683:11324 jjwt
+588008:34 jpeg
+588043:5620 jpeg-turbo
+593664:1076 JSON for Modern C++
+594741:60 libjpeg
+588043:5620 libjpeg-turbo
+594802:5345 libpng
+0:46 libprotobuf-mutator
+600148:1334 libsamplerate
+601483:39 libspeex
+601523:1614 libsrtp
+603138:1257 libtomcrypt
+604396:214 libuuid
+604611:44 libvpx
+604656:1496 libwebm
+606153:79 libwebrtc
+606233:64 libyuv
+506735:1338 LRDB
+606298:31 LUA
+606330:4717 LuaBridge
+611048:1084 LuaJava
+612133:1238 LZWEncoder
+0:46 mbed-crypto
+0:46 mei-sdk-android
+613372:1300 micro-ecc
+614673:2597 miniaudio
+0:46 MNN
+0:46 moshi
+506735:1338 mp11
+617271:8101 msinttypes
+0:46 Netty
+593664:1076 nlohmann_json
+625373:44 node-stopwatch
+0:46 nsync
+0:46 onnx
+625418:1073 onnxruntime
+0:46 onnxruntime-facebook
+626492:1772 OpenCV
+628265:43 OpenSSL
+506735:1338 optional-lite
+628309:30 OPUS
+628340:1336 picojson
+629677:2361 PLCrashReporter
+632039:38 png-apng
+632078:1078 Progress Wheel
+317230:1732 protobuf
+633157:1613 protobuf-c
+634771:1078 qtfaststart-java
+635850:5152 rapidjson
+0:46 recycler-fast-scroll
+0:46 retrofit
+641003:1612 RNNoise
+302843:11357 robinhood-ticker
+642616:1048 rxi_json.lua
+643665:1066 SafeInt
+644732:1532 scikit-learn
+646265:1057 secp256k1
+0:46 sftrie
+647323:1122 SharpJson
+648446:1113 sigs
+649560:1078 SimpleCropView
+650639:1154 SLF4J
+651794:1075 soffes-SAMKeychain
+652870:1348 spdlog
+654219:1174 spongycastle
+0:46 square_tape
+655394:64 SVT-AV1
+529976:47 System.Collections.Generic.List
+0:46 TensorBoard
+0:46 tensorflow
+655459:961 timoxley_neuquant
+656421:808 tinyxml2
+603138:1257 tomsfastmath
+0:46 trimatch
+657230:1084 vector
+604656:1496 webm
+658315:34 webrtc
+658350:936 x86inc
+659287:1080 xmlbuilder-js
+660368:1298 xmldom
+661667:1513 XMP Toolkit
+661667:1513 xmpcore
+663181:38 xpath.js
+663220:1086 yoga
+664307:1002 zlib
+0:46 zxing

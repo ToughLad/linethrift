@@ -1,0 +1,57 @@
+.class public final LMd1/r;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements LX91/e;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "LX91/e;"
+    }
+.end annotation
+
+
+# static fields
+.field public static final a:LMd1/r;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "LMd1/r<",
+            "TT;>;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LMd1/r;
+
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    sput-object v0, LMd1/r;->a:LMd1/r;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final accept(Ljava/lang/Object;)V
+    .locals 0
+
+    check-cast p1, Ljava/lang/Throwable;
+
+    const-string p0, "it"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    return-void
+.end method

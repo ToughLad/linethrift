@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="lds_popup_content_max_height_1_button">549.0dip</dimen>
+    <dimen name="lds_popup_content_max_height_3_buttons">460.0dip</dimen>
+    <dimen name="premium_font_lyp_subscription_popup_content_bottom_padding">28.0dip</dimen>
+    <dimen name="premium_font_lyp_subscription_popup_content_height">321.0dip</dimen>
+    <dimen name="shop_reaction_keyboard_height">343.0dip</dimen>
+</resources>

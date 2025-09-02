@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <objectAnimator android:interpolator="@android:anim/linear_interpolator" android:duration="50" android:valueFrom="M 26 22 L 30 22 L 30 30 L 26 30 L 26 22" android:valueTo="M 26 26 L 30 26 L 30 30 L 26 30 L 26 26" android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@android:anim/linear_interpolator" android:duration="500" android:startOffset="50" android:valueFrom="M 26 26 L 30 26 L 30 30 L 26 30 L 26 26" android:valueTo="M 26 4 L 30 4 L 30 30 L 26 30 L 26 4" android:valueType="pathType" android:propertyName="pathData" />
+    <objectAnimator android:interpolator="@android:anim/linear_interpolator" android:duration="450" android:startOffset="550" android:valueFrom="M 26 4 L 30 4 L 30 30 L 26 30 L 26 4" android:valueTo="M 26 22 L 30 22 L 30 30 L 26 30 L 26 22" android:valueType="pathType" android:propertyName="pathData" />
+</set>

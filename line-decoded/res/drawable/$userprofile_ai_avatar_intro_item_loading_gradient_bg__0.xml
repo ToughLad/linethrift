@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gradient android:angle="0.0" android:type="linear" android:startX="174.81" android:startY="0.0" android:endX="174.81" android:endY="410.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:color="@color/userprofile_ai_avatar_item_loading_gradient_1" android:offset="0.27" />
+    <item android:color="@color/userprofile_ai_avatar_item_loading_gradient_2" android:offset="0.7" />
+    <item android:color="@color/userprofile_ai_avatar_item_loading_gradient_3" android:offset="1.0" />
+</gradient>

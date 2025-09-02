@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/beacon_user_log_error_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/beacon_accesslog_desc_error" android:layout_marginStart="@dimen/line_user_settings_item_container_padding_horizontal" android:layout_marginEnd="@dimen/line_user_settings_item_container_padding_horizontal" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/setting_empty_text.large" />
+    <TextView android:id="@id/beacon_user_log_retry_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:text="@string/beacon_accesslog_button_tryagain" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/beacon_user_log_error_message" style="@style/setting_list_button.large" />
+</androidx.constraintlayout.widget.ConstraintLayout>

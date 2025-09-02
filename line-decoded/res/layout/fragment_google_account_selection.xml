@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/content_view" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textAppearance="@style/BackupRestoreTitleTextAppearance" android:id="@id/select_google_account_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/line_backup_selectgoogleaccount_title" android:layout_marginHorizontal="24.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <TextView android:textAppearance="@style/BackupRestoreDescriptionTextAppearance" android:id="@id/select_google_account_description" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:text="@string/line_backup_selectgoogleaccount_desc" android:layout_marginHorizontal="24.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/select_google_account_title" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/select_account_view" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:foreground="?android:selectableItemBackground" android:layout_marginHorizontal="24.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/select_google_account_description">
+                <TextView android:textSize="22.0sp" android:textColor="@color/defaultText" android:ellipsize="end" android:id="@id/google_account_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_input_option_menu" android:contentDescription="@null" />
+            </LinearLayout>
+            <View android:background="@color/primarySeparator" android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_marginTop="7.0dip" android:layout_marginHorizontal="24.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/select_account_view" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <com.linecorp.com.lds.ui.boxbutton.ObsoleteLdsBoxButton android:id="@id/next_button" android:layout_width="fill_parent" android:layout_height="wrap_content" app:ldsBoxButtonText="@string/line_backup_selectgoogleaccount_button_startbackup" style="@style/BackupRestoreBoxButtonStyle" />
+</LinearLayout>

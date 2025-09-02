@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/phone_number_setting_graph" app:startDestination="@id/initialPhoneVerificationFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="account_initial_phone_verification_fragment" android:name="com.linecorp.account.phone.PhoneVerificationInitialFragment" android:id="@id/initialPhoneVerificationFragment">
+        <action android:id="@id/action_initial_to_registerPhoneNumberFragment" app:destination="@id/registerPhoneNumberFragment" app:popUpTo="@id/initialPhoneVerificationFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/action_initial_to_changePhoneNumberFragment" app:destination="@id/changePhoneNumberFragment" app:popUpTo="@id/initialPhoneVerificationFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/action_initial_to_phoneVerificationFragment" app:destination="@id/phoneVerificationFragment" app:popUpTo="@id/initialPhoneVerificationFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="RegisterPhoneNumberFragment" android:name="com.linecorp.account.phone.PhoneNumberRegistrationFragment" android:id="@id/registerPhoneNumberFragment">
+        <action android:id="@id/action_register_to_phoneVerificationFragment" app:destination="@id/phoneVerificationFragment" />
+        <action android:id="@id/action_register_to_phoneCountryListFragment" app:destination="@id/phoneCountryListFragment" />
+    </fragment>
+    <fragment android:label="ChangePhoneNumberFragment" android:name="com.linecorp.account.phone.PhoneNumberChangeFragment" android:id="@id/changePhoneNumberFragment">
+        <action android:id="@id/action_change_to_phoneVerificationFragment" app:destination="@id/phoneVerificationFragment" />
+    </fragment>
+    <fragment android:label="PhoneVerificationFragment" android:name="com.linecorp.account.phone.PhoneVerificationFragment" android:id="@id/phoneVerificationFragment">
+        <action android:id="@id/action_phoneVerificationFragment_to_askToAddFriendsFragment" app:destination="@id/askToAddFriendsFragment" app:popUpTo="@id/phoneVerificationFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/action_phoneVerificationFragment_to_phoneFinishVerificationFragment" app:destination="@id/phoneFinishVerificationFragment" app:popUpTo="@id/registerPhoneNumberFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="AskToAddFriendsFragment" android:name="com.linecorp.account.phone.AskToAddFriendsFragment" android:id="@id/askToAddFriendsFragment">
+        <action android:id="@id/action_askToAddFriendsFragment_to_phoneFinishVerificationFragment" app:destination="@id/phoneFinishVerificationFragment" app:popUpTo="@id/registerPhoneNumberFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="PhoneFinishVerificationFragment" android:name="com.linecorp.account.phone.PhoneVerificationFinalFragment" android:id="@id/phoneFinishVerificationFragment">
+        <action android:id="@id/action_phoneFinishVerificationFragment_to_phoneSynchronizationFragment" app:destination="@id/phoneSynchronizationFragment" app:popUpTo="@id/registerPhoneNumberFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="PhoneCountryListFragment" android:name="com.linecorp.account.phone.PhoneCountryListFragment" android:id="@id/phoneCountryListFragment" />
+    <fragment android:label="account_phone_synchronization_fragment" android:name="com.linecorp.account.phone.PhoneSynchronizationFragment" android:id="@id/phoneSynchronizationFragment" />
+</navigation>

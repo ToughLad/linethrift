@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/root" android:paddingTop="22.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/pay_ui_main_side_margin" android:paddingEnd="@dimen/pay_ui_main_side_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/featureListTitle" android:paddingTop="@dimen/pay_ui_main_feature_list_top_margin" android:paddingBottom="@dimen/pay_ui_main_feature_list_bottom_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/featureListView" app:layout_constraintTop_toTopOf="parent" style="@style/pay_ui_main_title_typeface" />
+    <com.linecorp.line.pay.ui.main.section.featurelist.FeatureMenuView android:id="@id/featureListView" android:paddingBottom="40.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toBottomOf="@id/featureListTitle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

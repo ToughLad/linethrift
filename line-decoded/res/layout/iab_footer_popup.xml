@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/defaultNeutralFill" android:layout_width="@dimen/iab_popup_width" android:layout_height="wrap_content" android:paddingVertical="@dimen/iab_popup_padding_vertical"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center|left" android:id="@id/iab_popup_open_with" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/iab_popup_item_height" android:text="@string/iab_open_with" android:paddingStart="@dimen/iab_popup_item_padding_start" android:backgroundTint="@drawable/selector_iab_popup_item_bg" style="@style/text_iab_content03" />
+    <TextView android:gravity="center|left" android:id="@id/iab_popup_copy_link" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/iab_popup_item_height" android:text="@string/iab_copy_link" android:paddingStart="@dimen/iab_popup_item_padding_start" android:backgroundTint="@drawable/selector_iab_popup_item_bg" style="@style/text_iab_content03" />
+    <TextView android:gravity="center|left" android:id="@id/iab_popup_save_keepmemo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/iab_popup_item_height" android:text="@string/keepmemoconnect_send" android:paddingStart="@dimen/iab_popup_item_padding_start" android:backgroundTint="@drawable/selector_iab_popup_item_bg" style="@style/text_iab_content03" />
+</LinearLayout>

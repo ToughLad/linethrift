@@ -1,0 +1,329 @@
+.class public final Lcom/linecorp/line/profile/common/FlingDetectFrameLayout;
+.super Landroid/widget/FrameLayout;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/GestureDetector$OnGestureListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/linecorp/line/profile/common/FlingDetectFrameLayout$a;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000.\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\u0004\u0018\u00002\u00020\u00012\u00020\u0002:\u0001\u0010B\'\u0008\u0007\u0012\u0006\u0010\u0004\u001a\u00020\u0003\u0012\n\u0008\u0002\u0010\u0006\u001a\u0004\u0018\u00010\u0005\u0012\u0008\u0008\u0002\u0010\u0008\u001a\u00020\u0007\u00a2\u0006\u0004\u0008\t\u0010\nJ\u0015\u0010\u000e\u001a\u00020\r2\u0006\u0010\u000c\u001a\u00020\u000b\u00a2\u0006\u0004\u0008\u000e\u0010\u000f\u00a8\u0006\u0011"
+    }
+    d2 = {
+        "Lcom/linecorp/line/profile/common/FlingDetectFrameLayout;",
+        "Landroid/widget/FrameLayout;",
+        "Landroid/view/GestureDetector$OnGestureListener;",
+        "Landroid/content/Context;",
+        "context",
+        "Landroid/util/AttributeSet;",
+        "attrs",
+        "",
+        "defStyleAttr",
+        "<init>",
+        "(Landroid/content/Context;Landroid/util/AttributeSet;I)V",
+        "Lcom/linecorp/line/profile/common/FlingDetectFrameLayout$a;",
+        "listener",
+        "",
+        "setOnFlingListener",
+        "(Lcom/linecorp/line/profile/common/FlingDetectFrameLayout$a;)V",
+        "a",
+        "app_productionRelease"
+    }
+    k = 0x1
+    mv = {
+        0x2,
+        0x1,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field public final a:Landroid/view/GestureDetector;
+
+.field public b:Lcom/linecorp/line/profile/common/FlingDetectFrameLayout$a;
+
+.field public c:J
+
+.field public d:J
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;)V
+    .locals 7
+
+    .line 1
+    const-string v0, "context"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v5, 0x6
+
+    const/4 v6, 0x0
+
+    const/4 v3, 0x0
+
+    const/4 v4, 0x0
+
+    move-object v1, p0
+
+    move-object v2, p1
+
+    invoke-direct/range {v1 .. v6}, Lcom/linecorp/line/profile/common/FlingDetectFrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
+    .locals 7
+
+    .line 2
+    const-string v0, "context"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 v5, 0x4
+
+    const/4 v6, 0x0
+
+    const/4 v4, 0x0
+
+    move-object v1, p0
+
+    move-object v2, p1
+
+    move-object v3, p2
+
+    invoke-direct/range {v1 .. v6}, Lcom/linecorp/line/profile/common/FlingDetectFrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+    .locals 1
+
+    const-string v0, "context"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+
+    .line 5
+    new-instance p2, Landroid/view/GestureDetector;
+
+    invoke-direct {p2, p1, p0}, Landroid/view/GestureDetector;-><init>(Landroid/content/Context;Landroid/view/GestureDetector$OnGestureListener;)V
+
+    iput-object p2, p0, Lcom/linecorp/line/profile/common/FlingDetectFrameLayout;->a:Landroid/view/GestureDetector;
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Landroid/content/Context;Landroid/util/AttributeSet;IILkotlin/jvm/internal/DefaultConstructorMarker;)V
+    .locals 0
+
+    and-int/lit8 p5, p4, 0x2
+
+    if-eqz p5, :cond_0
+
+    const/4 p2, 0x0
+
+    :cond_0
+    and-int/lit8 p4, p4, 0x4
+
+    if-eqz p4, :cond_1
+
+    const/4 p3, 0x0
+
+    .line 3
+    :cond_1
+    invoke-direct {p0, p1, p2, p3}, Lcom/linecorp/line/profile/common/FlingDetectFrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onDown(Landroid/view/MotionEvent;)Z
+    .locals 0
+
+    const-string p0, "e"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public final onFling(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
+    .locals 4
+
+    const-string p1, "e2"
+
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 p1, 0x0
+
+    cmpg-float p1, p4, p1
+
+    const-wide/16 p2, 0x1f4
+
+    if-gez p1, :cond_1
+
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v0
+
+    iget-wide v2, p0, Lcom/linecorp/line/profile/common/FlingDetectFrameLayout;->c:J
+
+    sub-long v2, v0, v2
+
+    cmp-long p1, v2, p2
+
+    if-gez p1, :cond_0
+
+    goto :goto_0
+
+    :cond_0
+    iput-wide v0, p0, Lcom/linecorp/line/profile/common/FlingDetectFrameLayout;->c:J
+
+    iget-object p0, p0, Lcom/linecorp/line/profile/common/FlingDetectFrameLayout;->b:Lcom/linecorp/line/profile/common/FlingDetectFrameLayout$a;
+
+    if-eqz p0, :cond_3
+
+    invoke-interface {p0}, Lcom/linecorp/line/profile/common/FlingDetectFrameLayout$a;->a()V
+
+    goto :goto_0
+
+    :cond_1
+    invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
+
+    move-result-wide v0
+
+    iget-wide v2, p0, Lcom/linecorp/line/profile/common/FlingDetectFrameLayout;->d:J
+
+    sub-long v2, v0, v2
+
+    cmp-long p1, v2, p2
+
+    if-gez p1, :cond_2
+
+    goto :goto_0
+
+    :cond_2
+    iput-wide v0, p0, Lcom/linecorp/line/profile/common/FlingDetectFrameLayout;->d:J
+
+    iget-object p0, p0, Lcom/linecorp/line/profile/common/FlingDetectFrameLayout;->b:Lcom/linecorp/line/profile/common/FlingDetectFrameLayout$a;
+
+    if-eqz p0, :cond_3
+
+    invoke-interface {p0}, Lcom/linecorp/line/profile/common/FlingDetectFrameLayout$a;->b()V
+
+    :cond_3
+    :goto_0
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public final onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
+    .locals 1
+
+    const-string v0, "ev"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-super {p0, p1}, Landroid/view/ViewGroup;->onInterceptTouchEvent(Landroid/view/MotionEvent;)Z
+
+    move-result v0
+
+    iget-object p0, p0, Lcom/linecorp/line/profile/common/FlingDetectFrameLayout;->a:Landroid/view/GestureDetector;
+
+    invoke-virtual {p0, p1}, Landroid/view/GestureDetector;->onTouchEvent(Landroid/view/MotionEvent;)Z
+
+    return v0
+.end method
+
+.method public final onLongPress(Landroid/view/MotionEvent;)V
+    .locals 0
+
+    const-string p0, "e"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public final onScroll(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z
+    .locals 0
+
+    const-string p0, "e2"
+
+    invoke-static {p2, p0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public final onShowPress(Landroid/view/MotionEvent;)V
+    .locals 0
+
+    const-string p0, "e"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    return-void
+.end method
+
+.method public final onSingleTapUp(Landroid/view/MotionEvent;)Z
+    .locals 0
+
+    const-string p0, "e"
+
+    invoke-static {p1, p0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public final onTouchEvent(Landroid/view/MotionEvent;)Z
+    .locals 1
+
+    const-string v0, "ev"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    invoke-super {p0, p1}, Landroid/view/View;->onTouchEvent(Landroid/view/MotionEvent;)Z
+
+    move-result v0
+
+    iget-object p0, p0, Lcom/linecorp/line/profile/common/FlingDetectFrameLayout;->a:Landroid/view/GestureDetector;
+
+    invoke-virtual {p0, p1}, Landroid/view/GestureDetector;->onTouchEvent(Landroid/view/MotionEvent;)Z
+
+    return v0
+.end method
+
+.method public final setOnFlingListener(Lcom/linecorp/line/profile/common/FlingDetectFrameLayout$a;)V
+    .locals 1
+
+    const-string v0, "listener"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/n;->h(Ljava/lang/Object;Ljava/lang/String;)V
+
+    iput-object p1, p0, Lcom/linecorp/line/profile/common/FlingDetectFrameLayout;->b:Lcom/linecorp/line/profile/common/FlingDetectFrameLayout$a;
+
+    return-void
+.end method

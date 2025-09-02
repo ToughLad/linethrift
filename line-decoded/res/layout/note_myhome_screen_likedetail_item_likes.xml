@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/note_selector_timeline_list_item_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="59.0dip">
+        <ImageView android:id="@id/screen_myhome_likedetail_item_likes_portrait" android:layout_width="42.0dip" android:layout_height="42.0dip" android:layout_marginLeft="16.0dip" android:layout_marginTop="9.0dip" />
+        <ImageView android:id="@id/screen_myhome_likedetail_item_likes_liketype" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginLeft="40.75dip" android:layout_marginTop="31.0dip" android:scaleType="center" />
+    </RelativeLayout>
+    <TextView android:textSize="15.0sp" android:textColor="@color/lineblack" android:id="@id/screen_myhome_likedetail_item_likes_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="18.0dip" android:layout_marginRight="16.0dip" android:maxLines="1" />
+</LinearLayout>

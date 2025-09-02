@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/handle_container" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textSize="12.0sp" android:textColor="@color/linewhite" android:id="@id/handle" android:background="@drawable/glp_seekbar_popup_handle_background" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="12.0dip" android:paddingVertical="7.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <SeekBar android:id="@id/seekbar" android:layout_width="fill_parent" android:layout_height="21.0dip" android:layout_marginTop="8.0dip" android:layout_marginHorizontal="2.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/handle_container" style="@style/GLP.Player.SeekBarStyle" />
+</androidx.constraintlayout.widget.ConstraintLayout>

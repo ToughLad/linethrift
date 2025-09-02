@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@color/linewhite" android:layout_width="280.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="18.0sp" android:textColor="@color/linegray900" android:id="@id/titleTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:lineSpacingExtra="2.0sp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/addressRecyclerView" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="13.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintHeight_default="wrap" app:layout_constraintHeight_max="240.0dip" app:layout_constraintHeight_min="170.0dip" app:layout_constraintTop_toBottomOf="@id/titleTextView" />
+    <Button android:enabled="false" android:textColor="@color/pay_selector_green_text_button" android:id="@id/selectButton" android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/ok" app:layout_constraintTop_toBottomOf="@id/addressRecyclerView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

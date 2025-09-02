@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.linecorp.line.timeline.view.SwipeDetectableRelativeLayout android:id="@id/edit_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.linecorp.line.timeline.userrecall.UserRecallEditText android:textSize="15.0sp" android:textColor="@color/linegray900" android:textColorHint="@color/linegray600" android:gravity="top" android:id="@id/chat_ui_message_edit" android:background="@android:color/transparent" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/timeline_post_msg" android:inputType="textCapSentences|textMultiLine" />
+    </com.linecorp.line.timeline.view.SwipeDetectableRelativeLayout>
+</FrameLayout>

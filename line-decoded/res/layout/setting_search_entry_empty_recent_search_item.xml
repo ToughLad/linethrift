@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/item_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/empty_text_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/search_not_recent_search" style="@style/setting_search_entry_description" />
+</LinearLayout>

@@ -1,0 +1,86 @@
+.class public final LfY/h$c$b;
+.super LfY/h$c;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = LfY/h$c;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "b"
+.end annotation
+
+
+# static fields
+.field public static final e:LfY/h$c$b;
+
+.field public static final f:Ljava/lang/String;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LfY/h$c$b;
+
+    invoke-direct {v0}, LfY/h$c;-><init>()V
+
+    sput-object v0, LfY/h$c$b;->e:LfY/h$c$b;
+
+    const-string v0, "close"
+
+    sput-object v0, LfY/h$c$b;->f:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final equals(Ljava/lang/Object;)Z
+    .locals 1
+
+    const/4 v0, 0x1
+
+    if-ne p0, p1, :cond_0
+
+    return v0
+
+    :cond_0
+    instance-of p0, p1, LfY/h$c$b;
+
+    if-nez p0, :cond_1
+
+    const/4 p0, 0x0
+
+    return p0
+
+    :cond_1
+    return v0
+.end method
+
+.method public final getLogValue()Ljava/lang/String;
+    .locals 0
+
+    sget-object p0, LfY/h$c$b;->f:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public final hashCode()I
+    .locals 0
+
+    const p0, -0x399e1c6a
+
+    return p0
+.end method
+
+.method public final toString()Ljava/lang/String;
+    .locals 0
+
+    const-string p0, "Close"
+
+    return-object p0
+.end method

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.linecorp.line.ladsdk.ui.common.view.lifecycle.LadAdView android:id="@id/lad_ad_view" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.line.ladsdk.ui.inventory.timeline.post.view.LadPostHeaderView android:id="@id/ad_post_header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/ad_recycler_view" app:layout_constraintTop_toTopOf="parent" />
+    <com.linecorp.line.ladsdk.ui.asset.carousel.LadSlotAssetRecyclerView android:id="@id/ad_recycler_view" android:background="@color/primaryBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/ad_post_header" />
+    <View android:id="@id/affordance_target" android:layout_width="fill_parent" android:layout_height="50.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+</com.linecorp.line.ladsdk.ui.common.view.lifecycle.LadAdView>

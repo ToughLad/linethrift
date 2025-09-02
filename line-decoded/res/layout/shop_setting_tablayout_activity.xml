@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <jp.naver.line.android.common.view.header.Header android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.google.android.material.tabs.TabLayout android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="@dimen/shop_setting_tab_height" style="@style/shop_setting_tab_semantic" />
+    <View android:id="@id/tab_layout_divider" android:background="@color/primarySeparator" android:layout_width="fill_parent" android:layout_height="@dimen/common_one_line" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/send_receive_filter" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="15.0dip">
+        <TextView android:id="@id/received_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stickershop_present_box_tab_receive" android:layout_marginStart="16.0dip" android:layout_marginVertical="5.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/shop_present_box_send_receive_text" />
+        <TextView android:id="@id/sent_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/stickershop_present_box_tab_send" android:layout_marginStart="11.0dip" android:layout_marginVertical="5.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/received_label" app:layout_constraintTop_toTopOf="parent" style="@style/shop_present_box_send_receive_text" />
+        <ImageView android:id="@id/filter_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/shop_ic_list_header_filter_on" android:layout_weight="1.0" android:contentDescription="@string/access_settings_sticker_gift_switch" android:layout_marginEnd="13.0dip" android:layout_marginVertical="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

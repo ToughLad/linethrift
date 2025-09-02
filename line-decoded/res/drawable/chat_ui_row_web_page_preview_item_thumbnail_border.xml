@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="0.5dip" android:color="@color/chat_ui_row_web_page_preview_item_thumbnail_border" />
+    <corners android:radius="@dimen/chat_ui_row_web_page_preview_thumbnail_corner_radius" />
+</shape>

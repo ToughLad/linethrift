@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/sticker_sticon_selection_view_sticker_grid" />
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/sticon_selection_view_sticon_grid" />
+    <ViewStub android:id="@id/tag_search_view_stub" android:layout="@layout/sticker_sticon_selection_view_tag_search" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/empty_tag_search_view_stub" android:layout="@layout/sticker_sticon_selection_view_empty_tag_search" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/sticker_sticon_input_downloading_view_stub" android:layout="@layout/sticker_sticon_input_downloading_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/sticker_sticon_input_download_unavailable_view_stub" android:layout="@layout/sticker_sticon_download_unavailable_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/sticker_sticon_input_empty_history_view_stub" android:layout="@layout/sticker_sticon_input_empty_history_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/sticker_sticon_input_welcome_new_user_view_stub" android:layout="@layout/shop_keyboard_sticker_campaign_layout" android:inflatedId="@id/sticker_sticon_input_campaign_banner_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/sticker_sticon_input_expired_content_view_stub" android:layout="@layout/sticker_sticon_input_expired_package_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/sticker_sticon_input_subscription_package_excluded_layout_view_stub" android:layout="@layout/sticker_sticon_input_subscription_package_excluded_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/sticker_sticon_input_invalid_custom_sticker_view_stub" android:layout="@layout/sticker_sticon_input_invalid_custom_sticker_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/sticker_sticon_input_service_unavailable_view_stub" android:layout="@layout/sticker_sticon_input_service_unavailable" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/sticker_sticon_input_collection_onboarding_view_stub" android:layout="@layout/shop_collection_sticker_onboarding_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/sticker_sticon_input_collection_network_error_view_stub" android:layout="@layout/shop_collection_sticker_network_error_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/sticker_sticon_input_empty_collection_view_stub" android:layout="@layout/shop_empty_collection_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

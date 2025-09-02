@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/rootView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/player_background" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/contents_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/video_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constrainedHeight="true" app:layout_constrainedWidth="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ad_close_button_layout" app:layout_constraintVertical_bias="0.0">
+            <include android:id="@id/video_layout" layout="@layout/glp_view_video" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/on_air_play_btn_container" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/video_container" app:layout_constraintEnd_toEndOf="@id/video_container" app:layout_constraintStart_toStartOf="@id/video_container" app:layout_constraintTop_toTopOf="@id/video_container">
+            <include android:id="@id/on_air_play_btn_layout" layout="@layout/glp_view_on_air_play_button" />
+        </FrameLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/plugin_player_section_container" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <include android:id="@id/plugin_player_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/glp_view_plugin_player_section" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <View android:id="@id/player_dim_background" android:background="@color/lineblack_alpha15" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <include android:id="@id/cover_image_layout" layout="@layout/glp_view_cover_image" />
+        <include android:id="@id/inactive_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/glp_inactive_message_margin_start" android:layout_marginEnd="@dimen/glp_inactive_message_margin_end" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.33" layout="@layout/glp_view_inactive_text" />
+        <include android:id="@id/video_progress_layout" layout="@layout/glp_view_video_progress" />
+        <include android:id="@id/video_controller_layout" layout="@layout/glp_view_video_controller" />
+        <FrameLayout android:id="@id/background_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <View android:id="@id/top_shadow_layer" android:background="@drawable/glp_cam_gra_top" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintHeight_percent="@dimen/glp_shadow_top_small_percent_height" app:layout_constraintTop_toTopOf="parent" />
+        <View android:id="@id/bottom_shadow_layer" android:background="@drawable/glp_player_bottom_gradient" android:layout_width="fill_parent" android:layout_height="0.0dip" android:alpha="0.7" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHeight_percent="@dimen/glp_shadow_bottom_small_percent_height" />
+        <FrameLayout android:id="@id/chat_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="1.0">
+            <include android:id="@id/chat_layout" layout="@layout/glp_view_chat_container" />
+        </FrameLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/plugin_center_a_container" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/chat_container" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header_container">
+            <include android:id="@id/plugin_center_a_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/glp_view_plugin_center_section_a" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <FrameLayout android:id="@id/header_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+            <include android:id="@id/header_layout" layout="@layout/glp_view_header" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/plugin_header_b_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+            <include android:id="@id/plugin_header_b_layout" layout="@layout/glp_view_plugin_header_b" />
+        </FrameLayout>
+        <androidx.constraintlayout.widget.Barrier android:id="@id/header_barrier" android:layout_width="fill_parent" android:layout_height="wrap_content" app:barrierAllowsGoneWidgets="true" app:barrierDirection="bottom" app:constraint_referenced_ids="header_container, plugin_header_b_container," />
+        <FrameLayout android:id="@id/ssai_info_container" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginHorizontal="20.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header_barrier" app:layout_constraintWidth_default="wrap">
+            <include android:id="@id/ssai_info_layout" layout="@layout/glp_view_ssai_info_container" />
+        </FrameLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/plugin_close_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <include android:id="@id/plugin_close_button_layout" layout="@layout/glp_view_plugin_close_button" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include android:id="@id/unmute_button_layout" layout="@layout/glp_view_un_mute_button" />
+        <FrameLayout android:id="@id/reaction_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="2.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent">
+            <include android:id="@id/reaction_layout" layout="@layout/glp_view_reaction" />
+        </FrameLayout>
+        <include android:id="@id/ad_display_layout" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/video_container" app:layout_constraintEnd_toEndOf="@id/video_container" app:layout_constraintStart_toStartOf="@id/video_container" app:layout_constraintTop_toTopOf="@id/video_container" layout="@layout/glp_view_ad_display" />
+        <include android:id="@id/ad_close_button_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/glp_view_ad_close_button" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/photo_image" android:background="@color/tertiaryBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/play_icon_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="34.0dip" android:src="@drawable/album_play_icon_background" android:layout_alignParentBottom="true" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/linewhite" android:id="@id/play_time_text_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7.0dip" android:shadowColor="@color/lineblack" android:layout_alignParentBottom="true" android:layout_marginEnd="8.0dip" android:layout_alignParentEnd="true" />
+</RelativeLayout>

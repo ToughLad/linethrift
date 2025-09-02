@@ -1,0 +1,52 @@
+{
+    "training.limit": {
+        "upperValue": "10",
+        "upperInclusive": true,
+        "lowerValue": "1",
+        "lowerInclusive": true
+    },
+    "ldp.kwds.epsilon": {
+        "upperValue": "16",
+        "upperInclusive": true,
+        "lowerValue": "0",
+        "lowerInclusive": false
+    },
+    "ldp.kwds.delta": {
+        "upperValue": "1e-8",
+        "upperInclusive": true,
+        "lowerValue": "0",
+        "lowerInclusive": false
+    },
+    "ldp.kwds.clipping_threshold": {
+        "upperValue": null,
+        "upperInclusive": false,
+        "lowerValue": "0",
+        "lowerInclusive": false
+    },
+    "ldp.kwds.security_bits": {
+        "upperValue": null,
+        "upperInclusive": false,
+        "lowerValue": "128",
+        "lowerInclusive": true
+    },
+    "rollout.slots.begin": {
+        "upperValue": "4096",
+        "upperInclusive": false,
+        "lowerValue": "0",
+        "lowerInclusive": true
+    },
+    "rollout.slots.end": {
+        "upperValue": "4096",
+        "upperInclusive": false,
+        "lowerValue": "1",
+        "lowerInclusive": true
+    },
+    "redundant": {
+        "extra": "10"
+    },
+    "crash_counter_threshold": 1,
+    "crash_counter_reset_frequency": {
+      "beta": "1800",
+      "rcReal": "259200"
+    }
+}

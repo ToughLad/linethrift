@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/linered600" />
+    <stroke android:width="@dimen/navi_top_badge_bg_sroke_size" android:color="@color/linewhite" />
+    <corners android:radius="9.0dip" />
+    <size android:height="19.0dip" android:width="19.0dip" />
+</shape>

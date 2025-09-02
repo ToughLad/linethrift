@@ -1,0 +1,426 @@
+.class public final enum Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+.super Ljava/lang/Enum;
+.source "SourceFile"
+
+
+# annotations
+.annotation build Landroidx/annotation/Keep;
+.end annotation
+
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel$a;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Enum<",
+        "Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u0016\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\u0010\u0008\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0012\u0008\u0087\u0081\u0002\u0018\u0000 \u000f2\u0008\u0012\u0004\u0012\u00020\u00000\u0001:\u0001\u0010B\u0019\u0008\u0002\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u0012\u0006\u0010\u0005\u001a\u00020\u0004\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u000f\u0010\u0008\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\u0008\u0010\tR\u0017\u0010\u0003\u001a\u00020\u00028\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0003\u0010\n\u001a\u0004\u0008\u000b\u0010\u000cR\u0017\u0010\u0005\u001a\u00020\u00048\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0005\u0010\r\u001a\u0004\u0008\u000e\u0010\tj\u0002\u0008\u0011j\u0002\u0008\u0012j\u0002\u0008\u0013j\u0002\u0008\u0014j\u0002\u0008\u0015\u00a8\u0006\u0016"
+    }
+    d2 = {
+        "Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;",
+        "",
+        "",
+        "level",
+        "",
+        "desc",
+        "<init>",
+        "(Ljava/lang/String;IILjava/lang/String;)V",
+        "toString",
+        "()Ljava/lang/String;",
+        "I",
+        "getLevel",
+        "()I",
+        "Ljava/lang/String;",
+        "getDesc",
+        "Companion",
+        "a",
+        "UNKNOWN",
+        "D_VERY_LOW",
+        "C_LOW",
+        "B_MID",
+        "A_HIGH",
+        "ElsaKit_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x9,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# static fields
+.field private static final synthetic $ENTRIES:Lpk1/a;
+
+.field private static final synthetic $VALUES:[Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+.field public static final enum A_HIGH:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+.field public static final enum B_MID:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+.field public static final enum C_LOW:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+.field public static final Companion:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel$a;
+
+.field public static final DEFAULT_VALUE:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+.field public static final enum D_VERY_LOW:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+.field public static final enum UNKNOWN:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+.field private static final levelValues:Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Map<",
+            "Ljava/lang/Integer;",
+            "Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# instance fields
+.field private final desc:Ljava/lang/String;
+
+.field private final level:I
+
+
+# direct methods
+.method private static final synthetic $values()[Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+    .locals 5
+
+    sget-object v0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->UNKNOWN:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    sget-object v1, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->D_VERY_LOW:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    sget-object v2, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->C_LOW:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    sget-object v3, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->B_MID:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    sget-object v4, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->A_HIGH:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    filled-new-array {v0, v1, v2, v3, v4}, [Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method static constructor <clinit>()V
+    .locals 6
+
+    new-instance v0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    const-string v1, "UNKNOWN"
+
+    const/4 v2, 0x0
+
+    const/4 v3, -0x1
+
+    invoke-direct {v0, v1, v2, v3, v1}, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;-><init>(Ljava/lang/String;IILjava/lang/String;)V
+
+    sput-object v0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->UNKNOWN:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    new-instance v1, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    const-string v3, "D_VERY_LOW"
+
+    const/4 v4, 0x1
+
+    invoke-direct {v1, v3, v4, v2, v3}, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;-><init>(Ljava/lang/String;IILjava/lang/String;)V
+
+    sput-object v1, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->D_VERY_LOW:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    new-instance v1, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    const-string v3, "C_LOW"
+
+    const/4 v5, 0x2
+
+    invoke-direct {v1, v3, v5, v4, v3}, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;-><init>(Ljava/lang/String;IILjava/lang/String;)V
+
+    sput-object v1, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->C_LOW:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    new-instance v1, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    const-string v3, "B_MID"
+
+    const/4 v4, 0x3
+
+    invoke-direct {v1, v3, v4, v5, v3}, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;-><init>(Ljava/lang/String;IILjava/lang/String;)V
+
+    sput-object v1, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->B_MID:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    new-instance v1, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    const-string v3, "A_HIGH"
+
+    const/4 v5, 0x4
+
+    invoke-direct {v1, v3, v5, v4, v3}, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;-><init>(Ljava/lang/String;IILjava/lang/String;)V
+
+    sput-object v1, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->A_HIGH:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    invoke-static {}, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->$values()[Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    move-result-object v1
+
+    sput-object v1, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->$VALUES:[Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    invoke-static {v1}, Lpk1/b;->a([Ljava/lang/Enum;)Lpk1/c;
+
+    move-result-object v1
+
+    sput-object v1, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->$ENTRIES:Lpk1/a;
+
+    new-instance v1, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel$a;
+
+    invoke-direct {v1}, Ljava/lang/Object;-><init>()V
+
+    sput-object v1, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->Companion:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel$a;
+
+    sput-object v0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->DEFAULT_VALUE:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    invoke-static {}, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->values()[Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    move-result-object v0
+
+    array-length v1, v0
+
+    invoke-static {v1}, Lik1/M;->j(I)I
+
+    move-result v1
+
+    const/16 v3, 0x10
+
+    if-ge v1, v3, :cond_0
+
+    move v1, v3
+
+    :cond_0
+    new-instance v3, Ljava/util/LinkedHashMap;
+
+    invoke-direct {v3, v1}, Ljava/util/LinkedHashMap;-><init>(I)V
+
+    array-length v1, v0
+
+    :goto_0
+    if-ge v2, v1, :cond_1
+
+    aget-object v4, v0, v2
+
+    iget v5, v4, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->level:I
+
+    invoke-static {v5}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v5
+
+    invoke-interface {v3, v5, v4}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+
+    add-int/lit8 v2, v2, 0x1
+
+    goto :goto_0
+
+    :cond_1
+    sput-object v3, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->levelValues:Ljava/util/Map;
+
+    return-void
+.end method
+
+.method private constructor <init>(Ljava/lang/String;IILjava/lang/String;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(I",
+            "Ljava/lang/String;",
+            ")V"
+        }
+    .end annotation
+
+    invoke-direct {p0, p1, p2}, Ljava/lang/Enum;-><init>(Ljava/lang/String;I)V
+
+    iput p3, p0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->level:I
+
+    iput-object p4, p0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->desc:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public static final synthetic access$getLevelValues$cp()Ljava/util/Map;
+    .locals 1
+
+    sget-object v0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->levelValues:Ljava/util/Map;
+
+    return-object v0
+.end method
+
+.method public static final findByLevel(I)Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+    .locals 1
+
+    sget-object v0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->Companion:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel$a;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    invoke-static {}, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->access$getLevelValues$cp()Ljava/util/Map;
+
+    move-result-object v0
+
+    invoke-static {p0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object p0
+
+    invoke-interface {v0, p0}, Ljava/util/Map;->get(Ljava/lang/Object;)Ljava/lang/Object;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    if-nez p0, :cond_0
+
+    sget-object p0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->DEFAULT_VALUE:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    :cond_0
+    return-object p0
+.end method
+
+.method public static getEntries()Lpk1/a;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lpk1/a<",
+            "Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;",
+            ">;"
+        }
+    .end annotation
+
+    sget-object v0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->$ENTRIES:Lpk1/a;
+
+    return-object v0
+.end method
+
+.method public static final isAOrHigher(I)Z
+    .locals 1
+
+    sget-object v0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->Companion:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel$a;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    sget-object v0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->A_HIGH:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    invoke-virtual {v0}, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->getLevel()I
+
+    move-result v0
+
+    if-lt p0, v0, :cond_0
+
+    const/4 p0, 0x1
+
+    return p0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public static final isBOrHigher(I)Z
+    .locals 1
+
+    sget-object v0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->Companion:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel$a;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->getClass()Ljava/lang/Class;
+
+    sget-object v0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->B_MID:Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    invoke-virtual {v0}, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->getLevel()I
+
+    move-result v0
+
+    if-lt p0, v0, :cond_0
+
+    const/4 p0, 0x1
+
+    return p0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    return p0
+.end method
+
+.method public static valueOf(Ljava/lang/String;)Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+    .locals 1
+
+    const-class v0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    invoke-static {v0, p0}, Ljava/lang/Enum;->valueOf(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Enum;
+
+    move-result-object p0
+
+    check-cast p0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    return-object p0
+.end method
+
+.method public static values()[Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+    .locals 1
+
+    sget-object v0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->$VALUES:[Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    invoke-virtual {v0}, [Ljava/lang/Object;->clone()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, [Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public final getDesc()Ljava/lang/String;
+    .locals 0
+
+    iget-object p0, p0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->desc:Ljava/lang/String;
+
+    return-object p0
+.end method
+
+.method public final getLevel()I
+    .locals 0
+
+    iget p0, p0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->level:I
+
+    return p0
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 3
+
+    iget-object v0, p0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->desc:Ljava/lang/String;
+
+    iget p0, p0, Lcom/linecorp/elsa/ElsaKit/ElsaDeviceLevel;->level:I
+
+    const-string v1, "("
+
+    const-string v2, ")"
+
+    invoke-static {p0, v0, v1, v2}, LB/t;->b(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method

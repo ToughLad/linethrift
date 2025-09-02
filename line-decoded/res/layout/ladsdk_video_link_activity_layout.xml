@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/video_link_ad_container_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.linecorp.line.ladsdk.ui.inventory.timeline.view.LadVideoLinkView android:id="@id/ad_video_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ProgressBar android:id="@id/ad_web_progress" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/LadsdkVideoLinkProgressBar" />
+    <WebView android:id="@id/ad_video_landing_web" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+</LinearLayout>

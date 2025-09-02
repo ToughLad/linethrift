@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="48.0dip" android:paddingHorizontal="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/tab_item_text_color_selector" android:id="@id/friend_request_tab_title" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="3.0dip" android:singleLine="true" android:layout_centerHorizontal="true" android:paddingHorizontal="2.0dip" />
+    <View android:id="@id/friend_request_tab_title_indicator" android:background="@color/octonaryAltNeutralFill" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="2.0dip" android:layout_alignParentBottom="true" android:layout_alignStart="@id/friend_request_tab_title" android:layout_alignEnd="@id/friend_request_tab_title" />
+</RelativeLayout>

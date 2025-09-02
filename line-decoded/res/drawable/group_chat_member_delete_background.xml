@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/group_chat_member_delete_stroke_width" android:color="@color/group_chat_member_delete_background_stroke_selector" />
+    <solid android:color="@color/group_chat_member_delete_background_solid_selector" />
+    <corners android:radius="@dimen/group_chat_member_delete_stroke_radius" />
+</shape>

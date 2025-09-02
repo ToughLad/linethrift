@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="0.0dip" android:layout_height="49.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent">
+        <ImageView android:id="@id/user_image_profile" android:layout_width="33.0dip" android:layout_height="33.0dip" android:scaleType="centerCrop" android:contentDescription="@null" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageView android:id="@id/like_icon" android:layout_width="22.0dip" android:layout_height="22.0dip" android:layout_marginBottom="3.0dip" android:scaleType="centerCrop" android:contentDescription="@null" android:layout_marginStart="30.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" />
+        <TextView android:textSize="14.0sp" android:id="@id/user_name" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginBottom="16.0dip" android:layout_marginStart="7.0dip" android:layout_marginEnd="16.0dip" android:letterSpacing="0.01" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/user_image_profile" app:layout_constraintTop_toTopOf="parent" style="@style/story_viewer_list_text" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

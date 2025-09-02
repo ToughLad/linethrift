@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.linecorp.line.pay.base.common.PayDialogScrollView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16.0sp" android:textColor="@color/linegray500" android:id="@id/pay_error_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="2.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/lineblue500" android:id="@id/pay_error_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9.0dip" android:includeFontPadding="false" app:layout_constraintStart_toStartOf="@id/pay_error_message" app:layout_constraintTop_toBottomOf="@id/pay_error_message" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.linecorp.line.pay.base.common.PayDialogScrollView>

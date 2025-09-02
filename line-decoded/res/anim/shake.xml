@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set android:shareInterpolator="true" android:fillAfter="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <rotate android:interpolator="@android:anim/overshoot_interpolator" android:duration="200" android:fromDegrees="0.0" android:toDegrees="-5.0" android:pivotX="50.0%" android:pivotY="50.0%" android:startOffset="0" />
+    <rotate android:interpolator="@android:anim/decelerate_interpolator" android:duration="300" android:fromDegrees="-5.0" android:toDegrees="9.0" android:pivotX="50.0%" android:pivotY="50.0%" android:startOffset="200" />
+    <rotate android:interpolator="@android:anim/overshoot_interpolator" android:duration="180" android:fromDegrees="9.0" android:toDegrees="-15.0" android:pivotX="50.0%" android:pivotY="50.0%" android:startOffset="580" />
+    <rotate android:interpolator="@android:anim/overshoot_interpolator" android:duration="160" android:fromDegrees="-15.0" android:toDegrees="15.0" android:pivotX="50.0%" android:pivotY="50.0%" android:startOffset="750" />
+    <rotate android:interpolator="@android:anim/overshoot_interpolator" android:duration="140" android:fromDegrees="15.0" android:toDegrees="-9.0" android:pivotX="50.0%" android:pivotY="50.0%" android:startOffset="900" />
+    <rotate android:interpolator="@android:anim/overshoot_interpolator" android:duration="120" android:fromDegrees="-9.0" android:toDegrees="8.0" android:pivotX="50.0%" android:pivotY="50.0%" android:startOffset="1100" />
+    <rotate android:interpolator="@android:anim/overshoot_interpolator" android:duration="100" android:fromDegrees="8.0" android:toDegrees="-6.0" android:pivotX="50.0%" android:pivotY="50.0%" android:startOffset="1250" />
+    <rotate android:interpolator="@android:anim/overshoot_interpolator" android:duration="100" android:fromDegrees="-6.0" android:toDegrees="4.0" android:pivotX="50.0%" android:pivotY="50.0%" android:startOffset="1380" />
+    <rotate android:interpolator="@android:anim/overshoot_interpolator" android:duration="100" android:fromDegrees="4.0" android:toDegrees="-4.0" android:pivotX="50.0%" android:pivotY="50.0%" android:startOffset="1510" />
+    <rotate android:interpolator="@android:anim/overshoot_interpolator" android:duration="100" android:fromDegrees="-4.0" android:toDegrees="3.0" android:pivotX="50.0%" android:pivotY="50.0%" android:startOffset="1650" />
+    <rotate android:interpolator="@android:anim/overshoot_interpolator" android:duration="100" android:fromDegrees="3.0" android:toDegrees="-2.0" android:pivotX="50.0%" android:pivotY="50.0%" android:startOffset="1780" />
+    <rotate android:interpolator="@android:anim/overshoot_interpolator" android:duration="100" android:fromDegrees="-2.0" android:toDegrees="2.0" android:pivotX="50.0%" android:pivotY="50.0%" android:startOffset="1880" />
+</set>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/separatorLayout" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/sectionSeparator" android:layout_width="fill_parent" android:layout_height="10.0dip" />
+    <View android:layout_gravity="bottom" android:id="@id/sectionBottomSeparator" android:background="@color/pay_gray1" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</FrameLayout>

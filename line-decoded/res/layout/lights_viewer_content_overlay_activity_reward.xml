@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/lights_viewer_content_activity_reward_button" android:layout_width="60.0dip" android:layout_height="58.0dip" android:contentDescription="@null" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="10.0dip" android:textStyle="bold" android:textColor="@color/linewhite" android:gravity="center" android:layout_width="60.0dip" android:layout_height="wrap_content" android:text="@string/linevoom_foryoutab_button_rewards" android:shadowColor="@color/lineblack_alpha50" android:shadowRadius="1.0" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/lights_viewer_content_activity_reward_button" style="@style/commonFont" />
+</androidx.constraintlayout.widget.ConstraintLayout>

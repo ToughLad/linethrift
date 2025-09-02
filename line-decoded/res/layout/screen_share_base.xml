@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.linecorp.andromeda.video.view.AndromedaTextureView android:id="@id/screen_share_render" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/screen_share_progress" android:layout_width="26.0dip" android:layout_height="26.0dip" android:progressDrawable="@drawable/progress_circle" style="?android:progressBarStyle" />
+</FrameLayout>

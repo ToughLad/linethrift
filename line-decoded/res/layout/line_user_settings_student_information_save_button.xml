@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/setting_item_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.com.lds.ui.boxbutton.ObsoleteLdsBoxButton android:layout_gravity="center_horizontal" android:id="@id/setting_save_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_marginHorizontal="16.0dip" app:layout_constraintBottom_toTopOf="@id/cancel_button" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:ldsBoxButtonSize="x_large" app:ldsBoxButtonText="@string/settings_stickers_premium_studentverification_save" app:ldsBoxButtonType="solid_green" />
+</FrameLayout>

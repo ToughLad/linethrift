@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:paddingLeft="2.5dip" android:paddingRight="2.5dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@drawable/chatroom_call_img_shadow02" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:background="@drawable/pip_voice_bg_circle" android:padding="@dimen/call_pip_profile_image_padding" android:layout_width="@dimen/call_pip_profile_image_length" android:layout_height="@dimen/call_pip_profile_image_length">
+            <com.linecorp.view.RoundedFrameLayout android:id="@id/profile_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:cornerRadius="@dimen/call_pip_profile_image_corner_radius">
+                <com.linecorp.view.QuadrantImageLayout android:id="@id/profile_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            </com.linecorp.view.RoundedFrameLayout>
+        </FrameLayout>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom|center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1.0dip" android:layout_marginBottom="1.0dip" android:animateLayoutChanges="true">
+        <ImageView android:layout_gravity="center" android:id="@id/voice_calling" android:background="@drawable/chatroom_call_img_badge02" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</FrameLayout>

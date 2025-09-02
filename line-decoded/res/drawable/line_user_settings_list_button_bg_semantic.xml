@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/line_user_settings_list_button_stroke_width" android:color="@color/line_user_settings_button_bg_border_selector_semantic" />
+    <corners android:radius="@dimen/line_user_settings_list_button_corner" />
+    <solid android:color="@color/primaryBackground" />
+</shape>

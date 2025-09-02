@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <CheckBox android:textSize="15.0sp" android:textColor="@color/linegray800" android:gravity="center_vertical" android:id="@id/terms_and_conditions_checkbox" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:layout_marginBottom="26.0dip" android:button="@drawable/pay_ui_payment_selector_check_box_green_enabled_check_box" android:paddingStart="8.0dip" android:layout_marginStart="22.0dip" android:layout_marginEnd="20.0dip" />
+        <View android:id="@id/divider_view" android:background="@color/linegray200" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <com.linecorp.line.pay.base.legacy.customview.ScrollEndDetectableWebView android:id="@id/terms_and_conditions_webview" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

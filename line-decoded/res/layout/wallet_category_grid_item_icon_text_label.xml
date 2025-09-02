@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/wallet_category_grid_item_image_label_horizontal_padding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/icon_text_label_image" android:layout_width="wrap_content" android:layout_height="@dimen/wallet_category_grid_item_image_label_icon_size_with_text" android:contentDescription="@null" />
+    <TextView android:textSize="10.0dip" android:textStyle="bold" android:ellipsize="end" android:id="@id/icon_text_label_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="1.0" />
+</LinearLayout>

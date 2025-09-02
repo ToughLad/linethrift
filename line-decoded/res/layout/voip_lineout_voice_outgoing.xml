@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/control_buttons" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/voipcall_mute_btn" android:layout_width="@dimen/call_button_size" android:layout_height="@dimen/call_button_size">
+            <ImageView android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/voip_icon_mute" android:scaleType="center" />
+            <ImageView android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/voip_icon_bg_drawable" android:scaleType="fitXY" />
+        </FrameLayout>
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/voipcall_outgoing_center_btn" android:layout_width="@dimen/call_button_size" android:layout_height="@dimen/call_button_size">
+            <FrameLayout android:id="@id/voipcall_videocall_btn" android:duplicateParentState="true" android:layout_width="@dimen/call_button_size" android:layout_height="@dimen/call_button_size" android:contentDescription="@string/access_switchto_videocall">
+                <ImageView android:enabled="false" android:layout_gravity="center_horizontal" android:id="@id/voipcall_videocall_image" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/voip_icon_videocall" />
+                <ImageView android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/voip_icon_bg_drawable" android:scaleType="fitXY" />
+            </FrameLayout>
+            <ImageView android:id="@id/voipcall_keypad_btn" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/voip_icon_keypad" android:scaleType="fitXY" android:contentDescription="@string/access_showKeypad" />
+        </FrameLayout>
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/voipcall_speaker_btn" android:layout_width="@dimen/call_button_size" android:layout_height="@dimen/call_button_size">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/voip_icon_speaker" />
+            <ImageView android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/voip_icon_bg_drawable" android:scaleType="fitXY" />
+        </FrameLayout>
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ImageView android:id="@id/voipcall_end_btn" android:layout_width="@dimen/call_button_size" android:layout_height="@dimen/call_button_size" android:layout_marginTop="17.5dip" android:src="@drawable/btn_freecall_reject_selector" android:layout_below="@id/control_buttons" android:layout_centerHorizontal="true" android:contentDescription="@string/access_call_off" />
+</RelativeLayout>

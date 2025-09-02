@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/chat_ui_announcement_content_padding" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="@dimen/chat_ui_card_corner_radius" app:cardElevation="@dimen/chat_ui_card_elevation">
+        <RelativeLayout android:id="@id/chat_ui_announcement_fold_content" android:background="@color/defaultAltNeutralFill" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="46.0dip">
+            <FrameLayout android:id="@id/chat_ui_announcement_unfold_content_unfold_button_holder" android:layout_width="48.0dip" android:layout_height="46.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/acccess_announcement_unfold" android:layout_alignParentEnd="true">
+                <ImageView android:layout_gravity="center" android:id="@id/chat_ui_announcement_unfold_content_unfold_button" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:src="@drawable/chat_ui_announcement_notice_img_arrow_down" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@null" app:tint="@color/selector_tertiary_sub_neutral_fill" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginLeft="14.0dip" android:layout_marginTop="14.0dip" android:adjustViewBounds="true" android:layout_alignParentLeft="true" android:layout_alignParentStart="true">
+                <ImageView android:id="@id/chat_ui_announcement_fold_content_icon" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@null" />
+                <ProgressBar android:id="@id/chat_ui_annoucement_progress_icon" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" style="?android:progressBarStyleSmall" />
+            </FrameLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/primaryText" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/chat_ui_announcement_fold_content_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="44.0dip" android:layout_marginTop="12.0dip" android:layout_marginRight="47.0dip" android:maxLines="1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:textAlignment="viewStart" android:layout_alignParentStart="true" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

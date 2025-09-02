@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/story_timeline_item_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/story_item" />
+    <FrameLayout android:layout_gravity="center" android:id="@id/card" android:background="@drawable/story_follow_view_card_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-2.0dip" android:layout_alignBottom="@id/story_ring_area" android:layout_centerHorizontal="true" android:elevation="2.0dip">
+        <TextView android:textSize="9.0sp" android:textColor="@color/linegray350" android:id="@id/text_card" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/timeline_common_button_following" android:layout_marginHorizontal="10.0dip" android:layout_marginVertical="6.5dip" android:lineHeight="11.0sp" android:textFontWeight="700" />
+    </FrameLayout>
+</RelativeLayout>

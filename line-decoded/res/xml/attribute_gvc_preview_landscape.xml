@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout.attributes
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <attribute android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/preview_exit" target="@id/preview_sub_title" />
+    <attribute android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="194.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/preview_exit" target="@id/preview_title" />
+    <attribute android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_marginBottom="9.899994dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/guideline_left" app:layout_constraintRight_toLeftOf="@id/guide_half" target="@id/preview_control" />
+    <attribute android:layout_width="0.0dip" android:layout_height="48.0dip" android:layout_marginBottom="13.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/guide_half" app:layout_constraintRight_toRightOf="@id/guideline_right" target="@id/preview_join_button" />
+</layout.attributes>

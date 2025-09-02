@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/wallet_global_asset_bg_radius" />
+    <stroke android:width="@dimen/wallet_global_asset_outline_size" android:color="@color/primarySeparator" />
+    <solid android:color="@color/primaryBackground" />
+</shape>

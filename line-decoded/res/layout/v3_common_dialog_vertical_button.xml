@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="16.0sp" android:textColor="#ff343a47" android:gravity="center" android:id="@id/v3_common_dialog_button" android:background="@drawable/selector_dialog_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:minHeight="36.0dip" />
+    <View android:id="@id/common_dialog_vertical_button_padding" android:visibility="gone" android:layout_width="1.0px" android:layout_height="9.0dip" />
+</LinearLayout>

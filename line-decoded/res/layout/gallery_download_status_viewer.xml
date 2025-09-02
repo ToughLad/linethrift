@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/popup_system_bg" android:layout_width="148.0dip" android:layout_height="wrap_content">
+        <com.todddavies.components.progressbar.ProgressWheel android:layout_gravity="center_horizontal" android:id="@id/progress_bar" android:focusable="false" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_marginTop="27.5dip" android:layout_marginBottom="22.5dip" app:pwBarColor="#ff02c706" app:pwBarLength="60.0dip" app:pwBarWidth="4.3299866dip" app:pwRimColor="#ffc5c6c9" app:pwRimWidth="4.3299866dip" app:pwText="0/0" app:pwTextColor="#ff28be01" app:pwTextSize="16.0sp" />
+        <TextView android:textSize="16.0sp" android:textStyle="normal" android:textColor="#ff343a47" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/gallery_download_cancel_button" android:background="@drawable/selector_dialog_button" android:layout_width="113.0dip" android:layout_height="36.0dip" android:layout_marginBottom="15.0dip" android:text="@string/gallery_cancel" />
+    </LinearLayout>
+</FrameLayout>

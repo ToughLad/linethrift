@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objectAnimator android:duration="@integer/chat_ui_header_fade_out_animation_duration" android:valueFrom="@color/chathistory_status_bar_is_header_layer_shown_bg" android:valueTo="@color/chathistory_status_bar_bg" android:valueType="colorType" android:propertyName="backgroundColor"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/linewhite" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/common_st_mente" android:contentDescription="@null" />
+    <TextView android:textSize="14.0sp" android:textColor="#ff48505d" android:gravity="center" android:id="@id/common_maintenance_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="30.0dip" android:text="@string/coin_maintenance_msg" android:shadowColor="#ffffffff" android:shadowDy="0.67" />
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffba0101" android:gravity="center" android:id="@id/common_maintenace_end_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="30.0dip" android:text="@string/coin_maintenance_time" android:shadowColor="#ffffffff" android:shadowDy="0.67" />
+</LinearLayout>

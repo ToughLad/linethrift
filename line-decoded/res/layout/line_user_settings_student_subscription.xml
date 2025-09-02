@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/setting_item_container" android:background="@drawable/line_user_settings_button_bg_semantic" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/setting_container" android:paddingTop="@dimen/line_user_settings_item_container_padding_vertical" android:paddingBottom="@dimen/line_user_settings_item_container_padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/line_user_settings_item_container_min_height" android:paddingStart="@dimen/line_user_settings_item_container_padding_horizontal" android:paddingEnd="@dimen/line_user_settings_item_container_padding_horizontal">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="17.0sp" android:textColor="@color/primaryText" android:id="@id/setting_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/settings_stickers_premium_plan_type" android:layout_weight="1.0" />
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/setting_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_ic_list_arrow_right_semantic" android:contentDescription="@null" android:layout_marginStart="5.0dip" />
+        </LinearLayout>
+        <TextView android:layout_gravity="center_vertical" android:id="@id/setting_plan_type_name" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" style="@style/line_user_settings_shop_subscription_plan_text" />
+        <TextView android:id="@id/setting_payment_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" style="@style/line_user_settings_text_category_list_info_semantic" />
+        <TextView android:id="@id/setting_warning" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/settings_stickers_premium_changeplan_desc" style="@style/line_user_settings_text_category_list_warning" />
+    </LinearLayout>
+    <View android:id="@id/setting_separator" android:visibility="gone" style="@style/line_user_settings_student_subscription_item_divider" />
+</LinearLayout>
